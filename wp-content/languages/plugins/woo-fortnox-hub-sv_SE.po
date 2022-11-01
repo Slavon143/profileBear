@@ -1,0 +1,2376 @@
+# Translation of Plugins - WooCommerce Fortnox Hub - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - WooCommerce Fortnox Hub - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-10-18 15:41:34+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - WooCommerce Fortnox Hub - Stable (latest release)\n"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:176
+msgid "Automatically set Fortnox invoice created with %s as payment method as printed when WooCommerce order is set to \"Completed\"."
+msgstr "Markera automatiskt Fortnox fakturor skapade med betalmetoden %s som utskrivna när WooCommerce-beställningen ändras till Färdigbehandlad."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:148
+msgid "Automatically bookkeep Fortnox invoice created with %s as payment method when WooCommerce order is set to \"Completed\"."
+msgstr "Bokför automatiskt Fortnox fakturor skapade med betalmetoden %s när WooCommerce-beställningen ändras till Färdigbehandlad."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:130
+msgid "Change order status when the invoice is created (Recommended)"
+msgstr "Ändra orderstatus när fakturan skapas (Rekommenderas)."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:119
+msgid "Check for changed invoices automatically. Enable this to allow Fortnox Hub process, bookkeep and set invoices as paid automatically."
+msgstr "Leta automatiskt efter ändrade fakturor. Slå på detta för att låta Fortnox Hub hantera, bokföra och sätta fakturor som betalda automatiskt."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:590
+msgid "Include any used coupon codes as a row on the Fortnox invoice/order"
+msgstr "Inkludera använda rabattkoder som en rad på order/faktura i Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:588
+msgid "Include coupon rows"
+msgstr "Inkludera rabattkoder"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:219
+msgid "payout"
+msgstr "utbetalning"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:173
+msgid "Automatically set as printed %s"
+msgstr "Markera automatiskt som utskriven %s"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:145
+msgid "Automatically bookkeep %s"
+msgstr "Bokför automatiskt %s"
+
+#: includes/class-woo-fortnox-customer-handler.php:130
+msgid "Check if you do not want to update an existing customer card order email with the email from the WooCommerce order."
+msgstr "Kryssa i om du inte vill uppdatera order-mailen i ett existerande kundkort med emailen från WooCommerce-beställningen."
+
+#: includes/class-woo-fortnox-customer-handler.php:127
+msgid "Do not update order email"
+msgstr "Uppdatera inte order-mail"
+
+#: includes/class-woo-fortnox-customer-handler.php:122
+msgid "Check if you do not want to update an existing customer card invoice email with the email from the WooCommerce order."
+msgstr "Kryssa i om du inte vill uppdatera faktura-mailen i ett existerande kundkort med emailen från WooCommerce-beställningen."
+
+#: includes/class-woo-fortnox-customer-handler.php:119
+msgid "Do not update invoice email"
+msgstr "Uppdatera inte faktura-mail"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:611
+msgid "Set a created invoice to externally printed when it has been created. When using the cash accounting method this is the way to mark the invoice as ready to be paid. This will option will be used if a payment method is used that Fortnox Hub can't identify."
+msgstr "Markerar en skapad faktura som utskriven när den har blivit skapad. När kontantmetoden används är detta sättet att sätta en faktura som redo att bli betald. Denna inställning kommer att användas när en betalmetod används som Fortnox Hub inte kan identifiera."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:605
+msgid "Automatically bookkeep invoices when the order is set to completed. This will option will be used if a payment method is used that Fortnox Hub can't identify."
+msgstr "Bokför automatiskt fakturor när beställningen sätts till Färdigbehandlad. Denna inställning kommer att användas när en betalmetod används som Fortnox Hub inte kan identifiera."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:1173
+msgid "%s when syncing product %s"
+msgstr "%s vid synkning av produkt %s"
+
+#: includes/class-woo-fortnox-hub-refund.php:189
+msgid "%s when partally refunding order %s"
+msgstr "%s vid delåterbetalning av order %s"
+
+#: includes/class-woo-fortnox-hub-refund.php:120
+msgid "%s when refunding order %s fully"
+msgstr "%s vid fullständig återbetalning av order %s"
+
+#: includes/class-woo-fortnox-hub-product-admin.php:87
+msgid "%s when manually syncing product %s"
+msgstr "%s vid manuell synkning av produkt %s"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:805
+msgid "%s when processing Fortnox Invoice %s"
+msgstr "%s vid bearbetning av Fortnox faktura %s"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:296
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:359
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:421
+#: includes/class-woo-fortnox-hub-invoice.php:126
+#: includes/class-woo-fortnox-hub-invoice.php:130
+#: includes/class-woo-fortnox-hub-invoice.php:181
+#: includes/class-woo-fortnox-hub-lager.php:114
+#: includes/class-woo-fortnox-hub-lager.php:165
+#: includes/class-woo-fortnox-hub-order.php:128
+#: includes/class-woo-fortnox-hub-order.php:132
+#: includes/class-woo-fortnox-hub-order.php:175
+#: includes/class-woo-fortnox-hub-order.php:220
+msgid "%s when processing order %s"
+msgstr "%s vid bearbetning av beställning %s"
+
+#: includes/class-woo-fortnox-customer-handler.php:464
+msgid "No customer identifier found"
+msgstr "Inget sätt att identifiera kunden hittades"
+
+#: includes/class-woo-fortnox-customer-handler.php:390
+msgid "Organisation number not found"
+msgstr "Organisationsnummer hittades inte"
+
+#: includes/class-woo-fortnox-customer-handler.php:161
+msgid "Stop the order processing if the organisation number can not be found."
+msgstr "Avbryt bearbetningen av beställningen om organisationsnummer inte kan hittas."
+
+#: includes/class-woo-fortnox-customer-handler.php:159
+msgid "Require organisation number"
+msgstr "Måste ha organisationsnummer"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1063
+msgid "Please press Connect to connect to your Fortnox account.<br>"
+msgstr "Vänligen tryck Anslut för att ansluta till ditt Fortnox-konto.<br>"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:562
+msgid "Replace existing vat numbers with the format xxxxxxxxxx with the new Fortnox standard xxxxxx-xxxx to prevent customer sync errors."
+msgstr "Ersätt existerande VAT-nummer med formatet xxxxxxxxxx med det nya formatet i Fortnox (xxxxxx-xxxx) för att förhindra problem med att synka kunder."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:560
+msgid "Clean vat number"
+msgstr "Rensa VAT-nummer"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:216
+msgid "Something went wrong when trying to connect the plugin to your Fortnox account, contact hello@bjorntech.com for assistance"
+msgstr "Något gick fel vid anslutningen av pluginet till ditt Fortnox-konto. Vänligen kontakta hello@bjorntech.com för att få hjälp"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:200
+msgid "<strong>Congratulations!</strong> Your plugin was successfully connected to Fortnox."
+msgstr "<strong>Grattis!</strong> Ditt plugin är nu anslutet till Fortnox."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:475
+msgid "Set the stock level on the article in Fortnox to the same value as on the product in WooCommerce."
+msgstr "Ändra lagervärdet på artikeln i Fortnox till samma värde som finns på produkten i WooCommerce."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:468
+msgid "Set the Fortnox article to \"Stock goods\" if \"Manage stock\" is set on the product in WooCommerce."
+msgstr "Ändra Fortnox-artikeln till \"lagervara\" om \"Hantera lager\" är påslaget på WooCommerce-produkten."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:466
+msgid "Stock goods"
+msgstr "Lagervara"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:118
+msgid "Set the stock level on the product in WooCommerce to the same value as on the article in Fortnox."
+msgstr "Ändra lagervärdet på produkten i WooCommerce till samma värde som finns på artikeln i Fortnox."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:110
+msgid "Set the WooCommerce product to \"Manage stock\" if \"Stock goods\" is set on the article in Fortnox."
+msgstr "Slå på \"Hantera lager\" på WooCommerce-produkten om \"lagervara\" är påslaget på artikeln i Fortnox."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:108
+msgid "Manage stock"
+msgstr "Hantera lager"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:101
+msgid "Stock handling"
+msgstr "Lagerhantering"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:917
+msgid "Select if you want an order in WooCommerce to create an Fortnox order or invoice or just change the stocklevel in Fortnox based on a WooCommerce order."
+msgstr "Välj om du vill att en beställning i WooCommerce ska skapa en Fortnox order, faktura eller bara ändra på lagernivån i Fortnox baserat på en WooCommerce-beställning."
+
+#: includes/class-woo-fortnox-hub-stockchange.php:177
+msgid "Fortnox stock level changed:"
+msgstr "Lagernivå i Fortnox ändrades:"
+
+#: includes/class-woo-fortnox-hub-stockchange.php:165
+msgid "Unable to reduce Fortnox stock for item @%s."
+msgstr "Går ej att minska lagernivå i Fortnox för produkt @%s."
+
+#: includes/class-woo-fortnox-hub-stockchange.php:85
+msgid "Fortnox stock levels changed:"
+msgstr "Lagernivåer i Fortnox ändrades:"
+
+#: includes/class-woo-fortnox-hub-stockchange.php:45
+msgid "Fortnox reduction"
+msgstr "Fortnox minskning"
+
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:36
+msgid "Purchase Price ("
+msgstr "Inköpspris ("
+
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:30
+msgid "Mfg. article"
+msgstr "Tillv. artikel"
+
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:23
+msgid "Mfg."
+msgstr "Tillv."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:996
+msgid "Stop the creation of the Order/Invoice if no article number is found"
+msgstr "Förhindra skapandet av order/faktura om inget artikelnummer hittas"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:995
+msgid "Add the product name to the Order/Invoice"
+msgstr "Lägg till produktnamnet på ordern/fakturan"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:994
+msgid "Add the article number to the Order/Invoice - use product name if unavailable"
+msgstr "Lägg till artikelnumret på ordern/fakturan - använd produktnamnet om artikelnummer ej finns"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:992
+msgid "Select what article/product information should be added to the Order/Invoice in Fortnox"
+msgstr "Välj vilken artikel-/produktinformation som ska läggas till på ordern/fakturan i Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:989
+msgid "Article Handling"
+msgstr "Artikelhantering"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:922
+msgid "Fortnox Stockchange"
+msgstr "Fortnox lagerändring"
+
+#: includes/giftcard-handlers/pw-gift-cards/class-woo-fortnox-hub-pwgc.php:146
+msgid "Gift card %s:"
+msgid_plural "Gift cards %s:"
+msgstr[0] "Presentkort %s:"
+msgstr[1] "Presentkorten %s:"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:504
+msgid "Fortnox invoice %s was paid."
+msgstr "Fortnox-faktura %s blev betald."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:133
+msgid "Change order status when the invoice is paid"
+msgstr "Ändra status på beställning när fakturan blir satt till betald"
+
+#: includes/class-woo-fortnox-account-handler.php:352
+msgid "Fee"
+msgstr "Avgift"
+
+#: includes/class-woo-fortnox-account-handler.php:344
+msgid "Fee to rest of the world"
+msgstr "Avgift för resten av världen"
+
+#: includes/class-woo-fortnox-account-handler.php:336
+msgid "Fee to EU (reversed VAT)"
+msgstr "Avgift för EU (omvänd moms)"
+
+#: includes/class-woo-fortnox-account-handler.php:328
+msgid "Fee to EU (incl. VAT)"
+msgstr "Avgift för EU (inkl. moms)"
+
+#: includes/class-woo-fortnox-account-handler.php:320
+msgid "Fee to Sweden without tax"
+msgstr "Avgift för Sverige utan moms"
+
+#: includes/class-woo-fortnox-account-handler.php:312
+msgid "Fee to Sweden 6%"
+msgstr "Avgift för Sverige 6%"
+
+#: includes/class-woo-fortnox-account-handler.php:304
+msgid "Fee to Sweden 12%"
+msgstr "Avgift för Sverige 12%"
+
+#: includes/class-woo-fortnox-account-handler.php:296
+msgid "Fee to Sweden 25%"
+msgstr "Avgift för Sverige 25%"
+
+#: includes/class-woo-fortnox-account-handler.php:289
+msgid "Fee Accounts"
+msgstr "Avgiftskonton"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:712
+msgid "Delete invoice payments that Fortnox faulty links to Invoices from a bank file import."
+msgstr "Ta bort fakturabetalningar som Fortnox felaktigt kopplar till fakturor med hjälp av en importerad bankfil."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:710
+msgid "Delete file invoice payments"
+msgstr "Ta bort fakturabetalningar kopplade till bankfil"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:632
+msgid "Fortnox Hub do store order numbers on Orders/Invoices, if WooCommerce for some reason was reset to reuse old order numbers this setting must be enabled to avoid errors."
+msgstr "Fortnox Hub sparar beställningsnummer på ordrar/fakturor. Om WooCommerce i något läge går tillbaka till att använda gamla beställningsnummer av någon anledning så måste denna inställning vara påslagen för att undvika fel."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:630
+msgid "Do not use external references"
+msgstr "Använd inte externa referenser"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:625
+msgid "Select if the Freight field should not be cleared when adding shipping as an order row."
+msgstr "Välj om fraktfältet inte ska rensas när frakt läggs till som en order-/fakturarad."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:623
+msgid "Never clear Freight"
+msgstr "Rensa aldrig fraktfältet"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:495
+msgid "Hide order meta in the detailed admin screen"
+msgstr "Göm beställnings-metadata i den detaljerade adminvyn"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:493
+msgid "Hide order meta"
+msgstr "Göm metadata för beställning"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:694
+msgid "Legacy Order print template"
+msgstr "Utdaterad utskriftsmall för order"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:690
+#: includes/admin/class-woo-fortnox-hub-settings.php:698
+msgid "Select the invoice print template "
+msgstr "Välj utskriftsmall för faktura"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:686
+msgid "Legacy Invoice print template"
+msgstr "Utdaterad utskriftsmall för faktura"
+
+#: includes/class-woo-fortnox-account-handler.php:374
+msgid "Select countries to report tax according to the OSS rules."
+msgstr "Välj länder att rapportera moms till enligt OSS regelverket."
+
+#: includes/class-woo-fortnox-account-handler.php:370
+msgid "OSS Countries"
+msgstr "OSS-länder"
+
+#: includes/class-woo-fortnox-account-handler.php:361
+msgid "OSS Settings"
+msgstr "OSS-inställningar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:660
+msgid "Set Delivered quantity to 0 if the WooCommerce product is on backorder."
+msgstr "Sätt levererad mängd till 0 om produkten i WooCommerce är restnoterad."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:658
+msgid "Backorder qty to zero"
+msgstr "Sätt restnoterad till 0"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:597
+msgid "Set discount on order rows to 0. This to prevent that customer discounts are applied on already paid orders."
+msgstr "Sätt rabatt på order-/fakturarader till 0. Detta förhindrar att kundrabatter appliceras på redan betalda beställningar."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:595
+msgid "Set 0 Discount"
+msgstr "Sätt 0 i rabatt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:334
+msgid "Check if you do want to prevent orders paid with this payment method to be synced to Fortnox."
+msgstr "Välj om du vill förhindra att beställningar som är betalda med det här betalsättet ska synkas över till Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:331
+msgid "Do not sync"
+msgstr "Synka ej"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:320
+msgid "Check if you do want payment information to be added the Fortnox Order/Invoice."
+msgstr "Välj om du vill att betalinformation ska läggas till på Fortnox ordern-/fakturan."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:318
+msgid "Add payment information as remark and comment"
+msgstr "Lägg till betalningsinformation som fakturatext och kommentar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:317
+msgid "Add payment information as comment"
+msgstr "Lägg till betalningsinformation som kommentar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:316
+msgid "Add payment information as remark"
+msgstr "Lägg till betalningsinformation som fakturatext"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:315
+msgid "Do not add any payment information"
+msgstr "Lägg inte till någon betalningsinformation"
+
+#: includes/class-woo-fortnox-hub-refund.php:112
+msgid "Refunded by WooCommerce refund %s"
+msgstr "Återbetald genom WooCommerce-återbetalning %s"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:576
+msgid "Admin fee to be added to the Order/Invoice if selected above."
+msgstr "Administationsavgift att lägga till på ordern/fakturan om ovan är valt."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:574
+msgid "Admin Fee"
+msgstr "Administrativ avgift"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:569
+msgid "Add Admin fee to the Order/Invoice."
+msgstr "Lägg till administrativ avgift på beställningen/fakturan."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:567
+msgid "Set Admin fee"
+msgstr "Ange administrativ avgift"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:488
+msgid "If your server has CRON-jobs disabled you must check this box in order for the plugin to work"
+msgstr "Om din server ej har CRON-jobb påslaget måste du slå denna inställning för att pluginet ska fungera"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:486
+msgid "CRON disabled on server"
+msgstr "CRON avslaget på servern"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:393
+msgid "Settings for %s in Shipping Zone %s"
+msgstr "Inställningar för %s i fraktzon %s"
+
+#: includes/class-woo-fortnox-account-handler.php:443
+msgid "%s from %s without tax"
+msgstr "%s från %s utan moms"
+
+#: includes/class-woo-fortnox-account-handler.php:92
+#: includes/class-woo-fortnox-account-handler.php:168
+msgid "Sales to Sweden without tax"
+msgstr "Försäljning till Sverige utan moms"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1094
+msgid "Logging is useful when troubleshooting. You can find the logs <a href=\"%s\">here</a>"
+msgstr "Loggning är användbart vid felsökning. Du kan hitta loggarna <a href=\"%s\">här</a>"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:369
+msgid "In order to process payouts, a (Fortnox) customer number must be present in the %s settings"
+msgstr "För att kunna hantera utbetalningar måste ett kundnummer finnas tillgängligt i inställningarna för %s"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:357
+msgid "Something went wrong when processing Zettle payouts for %s"
+msgstr "Något gick fel vid hanteringen av utbetalningarna från Zettle för %s"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:332
+msgid "Successfully created Fortnox Invoice %s from Zettle payouts for %s"
+msgstr "Lyckades skapa Fortnox-faktura %s från utbetalning från Zettle för %s"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:218
+msgid "adjustment"
+msgstr "justering"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:217
+msgid "advance fee downpayment"
+msgstr "avbetalning av advance-avgift"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:216
+msgid "advance downpayment"
+msgstr "advance avbetalning"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:215
+msgid "advance"
+msgstr "advance"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:214
+msgid "fee discount revocation"
+msgstr "återkallande av avgiftsrabatt"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:213
+msgid "frozen funds"
+msgstr "frysta tillgångar"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:212
+msgid "emoney transfer"
+msgstr "emoney transfer"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:211
+msgid "failed payout"
+msgstr "misslyckad utbetalning"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:210
+msgid "voucher activation"
+msgstr "kupongaktivering"
+
+#: includes/payout-handlers/class-woo-fortnox-payouts-handler.php:379
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:86
+msgid "\"%s\" is not a valid date format or a numeric value."
+msgstr "\"%s\" är inte ett korrekt datumformat eller nummer."
+
+#: includes/views/html-product-data-article-pricing.php:56
+msgid "Housework price"
+msgstr "Husarbete - Pris"
+
+#: includes/views/html-product-data-article-pricing.php:42
+msgid "To be used if the purchased product itself does not contain the correct hours."
+msgstr "Används när den köpta produkten inte innehåller korrekta timmar."
+
+#: includes/views/html-product-data-article-pricing.php:40
+msgid "Housework hours"
+msgstr "Husarbete - Timmar"
+
+#: includes/views/html-product-data-article-pricing.php:32
+msgid "Select what type of tax reduction the product should be tagged with on the invoice. Please note that only one major type (Rot, Rut or Green) can be used on an invoice. Invoice creation fails if two different are selected."
+msgstr "Välj vilken typ av skatteavdrag som en produkt ska vara kopplad till på fakturan. Vänligen notera att endast en huvudtyp av skatteavdrag (Rot, Rut eller Grönt) får användas på fakturan. Fakturan kommer inte att skapas om två olika varianter är valda."
+
+#: includes/views/html-product-data-article-pricing.php:29
+msgid "Tax reduction type"
+msgstr "Typ av skatteavdrag"
+
+#: includes/class-woo-fortnox-customer-handler.php:151
+msgid "Enter the name of the product metadata field that should be used."
+msgstr "Skriv in namnet på det metadata-fält från produkten som ska användas."
+
+#: includes/class-woo-fortnox-customer-handler.php:149
+msgid "Organisation number meta"
+msgstr "Organisationsnummer meta"
+
+#: includes/class-woo-fortnox-customer-handler.php:142
+msgid "Use a configurable metadata field"
+msgstr "Använd ett konfigurerbart metadata-fält"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:232
+msgid "Select what pricelist in Fortnox to use when updating a WCPC pricing zone %s price."
+msgstr "Välj vilken prislista i Fortnox som ska användas vid uppdatering av ett WCPC pricing zone %s pris."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:229
+msgid "Pricing zone"
+msgstr "Pricing zone"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:817
+msgid "Select the category for a newly created products."
+msgstr "Välj kategori för skapade produkter."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:815
+msgid "Product category when created"
+msgstr "Produktkategori vid skapande av produkt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:809
+msgid "Select the status for a newly created products."
+msgstr "Välj status för skapade produkter."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:807
+msgid "Product status when created"
+msgstr "Status vid skapande av produkt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:796
+msgid "If checked the plugin will update only from articles set to \"Webshop article\"."
+msgstr "Om valt kommer tillägget att endast uppdatera artiklar som är satta till \"Extern webbshop\"."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:793
+msgid "Webshop articles only"
+msgstr "Endast webbshop artiklar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:544
+msgid "Use the WooCommerce order-id as Order/Inoice number in Fortnox."
+msgstr "Använd WooCommerce beställnings-id som order-/fakturanummer i Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:541
+msgid "Use WooCommerce order-id"
+msgstr "Använd WooCommerce beställnings-id"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:471
+msgid "Enable housework fields on products and when creating Fortnox Order/Invoice."
+msgstr "Använd fält för husarbete på produkter och vid skapande av Fortnox order/faktura."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:468
+msgid "Enable housework"
+msgstr "Slå på husarbete"
+
+#: includes/admin/class-wcfh-util.php:1015
+msgid "Green - Other costs"
+msgstr "Grönt - övriga kostnader"
+
+#: includes/admin/class-wcfh-util.php:1014
+msgid "Green - Charging station electring vehicle"
+msgstr "Grönt - Laddningsstation elektriskt fordon"
+
+#: includes/admin/class-wcfh-util.php:1013
+msgid "Green - Storage selfproduced electricity"
+msgstr "Grönt - Lagring egenproducerad elektricitet"
+
+#: includes/admin/class-wcfh-util.php:1012
+msgid "Green - Solar cells"
+msgstr "Grönt - Solceller"
+
+#: includes/admin/class-wcfh-util.php:1005
+msgid "Rut - Other costs"
+msgstr "Rut - Övriga kostnader"
+
+#: includes/admin/class-wcfh-util.php:1004
+msgid "Rut - Other care"
+msgstr "Rut - Övrig vård"
+
+#: includes/admin/class-wcfh-util.php:1003
+msgid "Rut - Baysitting"
+msgstr "Rut – Passa barn"
+
+#: includes/admin/class-wcfh-util.php:1002
+msgid "Rut - Gardening"
+msgstr "Rut – Trädgårdsarbete"
+
+#: includes/admin/class-wcfh-util.php:1001
+msgid "Rut - Snowplowing"
+msgstr "Rut – Skotta snö"
+
+#: includes/admin/class-wcfh-util.php:1000
+msgid "Rut - Textileclothing"
+msgstr "Rut - Kläd- och textilvård"
+
+#: includes/admin/class-wcfh-util.php:999
+msgid "Rut - Cleaning"
+msgstr "Rut - Städning"
+
+#: includes/admin/class-wcfh-util.php:998
+msgid "Rut - IT services "
+msgstr "Rut – IT-tjänster"
+
+#: includes/admin/class-wcfh-util.php:997
+msgid "Rut - Moving serivices"
+msgstr "Rut – Flyttjänster"
+
+#: includes/admin/class-wcfh-util.php:996
+msgid "Rut - Major appliance repair"
+msgstr "Rut - Reparation av vitvaror"
+
+#: includes/admin/class-wcfh-util.php:995
+msgid "Rut - Washing and care of chlothing"
+msgstr "Rut – Tvätta, laga och sy"
+
+#: includes/admin/class-wcfh-util.php:994
+msgid "Rut - Transportation services"
+msgstr "Rut - Transporttjänster"
+
+#: includes/admin/class-wcfh-util.php:993
+msgid "Rut - Furnsishing"
+msgstr "Rut - Möblering"
+
+#: includes/admin/class-wcfh-util.php:992
+msgid "Rut - Home mainrenance"
+msgstr "Rut - Tillsyn av bostad"
+
+#: includes/admin/class-wcfh-util.php:985
+msgid "Rot - Other costs"
+msgstr "Rot - Övriga kostnader"
+
+#: includes/admin/class-wcfh-util.php:984
+msgid "Rot - HVAC"
+msgstr "Rot - VVS"
+
+#: includes/admin/class-wcfh-util.php:983
+msgid "Rot - Painting & Wallpapering"
+msgstr "Rot – Målning och tapetsering"
+
+#: includes/admin/class-wcfh-util.php:982
+msgid "Rot - Masonry"
+msgstr "Rot - Murning"
+
+#: includes/admin/class-wcfh-util.php:981
+msgid "Rot - Grounddrainage work"
+msgstr "Rot - Mark/dräneringsarbete"
+
+#: includes/admin/class-wcfh-util.php:980
+msgid "Rot - Glass & metal work"
+msgstr "Rot – Glas och plåt"
+
+#: includes/admin/class-wcfh-util.php:979
+msgid "Rot - Electricity"
+msgstr "Rot – El"
+
+#: includes/admin/class-wcfh-util.php:978
+msgid "Rot - Construction"
+msgstr "Rot - Bygg"
+
+#: includes/admin/class-wcfh-util.php:970
+msgid "None"
+msgstr "Inget"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1039
+msgid "Select the invoice print template to use for orders using %s as payment method."
+msgstr "Välj mall för utskrift av fakturor som är betalda med %s."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1027
+msgid "Select the order print template to use for orders using %s as payment method."
+msgstr "Välj mall för utskrift av order som är betalda med %s"
+
+#: includes/class-woo-fortnox-customer-handler.php:170
+msgid "Send invoice for %s"
+msgstr "Skicka faktura för %s"
+
+#: includes/views/html-product-data-article-inventory.php:59
+#: includes/views/html-product-data-article-variable.php:70
+msgid "Product barcode from Fortnox."
+msgstr "Streckkod från Fortnox."
+
+#: includes/views/html-product-data-article-inventory.php:48
+#: includes/views/html-product-data-article-variable.php:59
+msgid "Product unit from Fortnox."
+msgstr "Enhet från Fortnox"
+
+#: includes/views/html-product-data-article-inventory.php:38
+#: includes/views/html-product-data-article-variable.php:49
+msgid "Product stock place from Fortnox."
+msgstr "Lagerplats från Fortnox."
+
+#: includes/views/html-product-data-article-pricing.php:19
+#: includes/views/html-product-data-article-variable.php:38
+msgid "Purchase price from Fortnox."
+msgstr "Inköpspris från Fortnox."
+
+#: includes/views/html-product-data-article-inventory.php:28
+#: includes/views/html-product-data-article-variable.php:28
+msgid "Product Manufacturer article from Fortnox."
+msgstr "Tillverkarens artikelnummer från Fortnox."
+
+#: includes/views/html-product-data-article-inventory.php:18
+#: includes/views/html-product-data-article-variable.php:18
+msgid "Product manufacturer from Fortnox."
+msgstr "Tillverkare från Fortnox."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:606
+msgid "%s when creating article from WooCommerce product %s with new article number \"%s\" received from Fortnox"
+msgstr "%s vid skapande av artikel från WooCommerce-produkt %s med nya artikelnumret \"%s\" i Fortnox"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:481
+msgid "When creating new product/variation or pressing update on product/varation"
+msgstr "När en ny produkt skapas eller vid klick på uppdatera på en produkt eller variation"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:479
+msgid "When doing a full manual sync"
+msgstr "Vid en full manuell synkronisering"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:447
+msgid "Update the EAN (barcode) field"
+msgstr "Uppdatera EAN (streckkod)"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:445
+msgid "EAN"
+msgstr "EAN"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:440
+msgid "Update the unit field"
+msgstr "Uppdatera Enhet"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:433
+msgid "Update the stock place field"
+msgstr "Uppdatera lagerplats"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:426
+msgid "Update the Manufacturer article field"
+msgstr "Uppdatera tillverkarens artikelnummer"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:419
+msgid "Update manufacturer name in Fortnox."
+msgstr "Uppdatera tillverkare i Fortnox."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:281
+msgid "Select if and what pricelist to update with the price for the role \"%s\""
+msgstr "Välj om och vilken prislista som skall uppdatera rollen \"%s\""
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:240
+msgid "Update purchase price."
+msgstr "Uppdatera inköpspris."
+
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:38
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:238
+#: includes/views/html-product-data-article-pricing.php:16
+#: includes/views/html-product-data-article-variable.php:36
+msgid "Purchase price"
+msgstr "Inköpspris"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:229
+msgid "Sale price"
+msgstr "Reapris"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:219
+msgid "Regular price"
+msgstr "Ordinarie pris"
+
+#: includes/class-woo-fortnox-hub-document-admin.php:227
+msgid "Sync Order to Fortnox"
+msgstr "Synkronisera order till Fortnox"
+
+#: includes/emails/class-woo-fortnox-hub-email-order-sync-problem.php:28
+msgid "[{blogname}] Order failed to sync to Fortnox ({order_number}) - {order_date}"
+msgstr "[{blogname}] Order misslyckades att synkronisera till Fortnox ({order_number}) - {order_date}"
+
+#: includes/emails/class-woo-fortnox-hub-email-order-sync-problem.php:27
+msgid "Fortnox failed order sync"
+msgstr "Misslyckad synkronisering till Fortnox"
+
+#: includes/emails/class-woo-fortnox-hub-email-order-sync-problem.php:25
+msgid "Fortnox failed order sync emails are sent to the admin when an order fails to sync to Fortnox."
+msgstr "Misslyckad synkronisering till Fortnox mail skickas till administratör när en order misslyckas att synkronisera till Fortnox."
+
+#: includes/emails/class-woo-fortnox-hub-email-order-sync-problem.php:24
+msgid "Fortnox Failed order sync"
+msgstr "Misslyckad synkronisering till Fortnox"
+
+#: includes/class-woo-fortnox-customer-handler.php:173
+msgid "Check if you do want the invoice in Fortnox to be emailed to the customer when the WooCommerce order using %s as payment method is set to completed."
+msgstr "Markera detta om du vill att fakturan i Fortnox skall mailas till kunden när ordern i WooCommerce som betalats med %s sätts till färdigbehandlad."
+
+#: includes/class-woo-fortnox-customer-handler.php:100
+msgid "Check if you do want Fortnox customer delivery details to update the order/invoice only. No delivery details will be updated on the customer card."
+msgstr "Välj om du vill att kundens leveransuppgifter endast ska uppdateras på ordern/fakturan. Inga leveransuppgifter kommer att uppdateras på kundkortet."
+
+#: includes/class-woo-fortnox-customer-handler.php:97
+msgid "Delivery on document only"
+msgstr "Uppdatera endast leveransadress på order/faktura"
+
+#: includes/class-woo-fortnox-customer-handler.php:92
+msgid "Check if you do not want customer delivery details to be updated on existing Fortnox customers. The delivery details will be updated only when the customer does not exist and is created by the plugin."
+msgstr "Välj om du inte vill att kundens leveransuppgifter skall uppdateras på existerande Fortnox-kunder. Uppgifterna kommer endast att uppdateras när kunden inte existerar och skapas för första gången."
+
+#: includes/class-woo-fortnox-customer-handler.php:89
+msgid "Do not update delivery"
+msgstr "Uppdatera inte leveransadress"
+
+#: includes/class-woo-fortnox-customer-handler.php:84
+msgid "Check if you do not want customer billing details to be updated on existing Fortnox customers. The billing details will be updated only when the customer does not exist and is created by the plugin."
+msgstr "Välj om du inte vill att kundens faktureringsuppgifter skall uppdateras på existerande Fortnox-kunder. Uppgifterna kommer endast att uppdateras när kunden inte existerar och skapas för första gången."
+
+#: includes/class-woo-fortnox-customer-handler.php:81
+msgid "Do not update billing"
+msgstr "Uppdatera inte fakturering"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:316
+msgid "Update barcode if changed in Fortnox."
+msgstr "Uppdatera streckkoden om den ändras i Fortnox"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:314
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:54
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:56
+#: includes/views/html-product-data-article-inventory.php:57
+#: includes/views/html-product-data-article-variable.php:68
+msgid "Barcode"
+msgstr "Streckkod"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:309
+msgid "Update unit if changed in Fortnox."
+msgstr "Uppdatera enhet vid förändring i Fortnox"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:307
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:48
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:50
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:438
+#: includes/views/html-product-data-article-inventory.php:46
+#: includes/views/html-product-data-article-variable.php:57
+msgid "Unit"
+msgstr "Enhet"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:302
+msgid "Update stock place if changed in Fortnox."
+msgstr "Uppdatera lagerplats vid förändring i Fortnox"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:300
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:42
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:44
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:431
+#: includes/views/html-product-data-article-inventory.php:36
+#: includes/views/html-product-data-article-variable.php:47
+msgid "Stock place"
+msgstr "Lagerplats"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:295
+msgid "Update Manufacturer article if changed in Fortnox."
+msgstr "Uppdatera tillverkarens artikelnummer vid förändring i Fortnox"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:293
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:32
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:424
+#: includes/views/html-product-data-article-inventory.php:26
+#: includes/views/html-product-data-article-variable.php:26
+msgid "Manufacturer article"
+msgstr "Tillverkarens artikelnummer"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:288
+msgid "Update manufacturer if changed in Fortnox."
+msgstr "Uppdatera tillverkare vid förändring i Fortnox."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:286
+#: includes/class-woo-fortnox-hub-product-quick-bulk-edit.php:25
+#: includes/views/html-product-data-article-inventory.php:16
+#: includes/views/html-product-data-article-variable.php:16
+msgid "Manufacturer"
+msgstr "Tillverkare"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:279
+msgid "Dimensions"
+msgstr "Dimensioner"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:272
+msgid "Product name"
+msgstr "Produktnamn"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:173
+msgid "Update the purchase price on the WooCommerce Fortnox tab from Fortnox."
+msgstr "Uppdatera inköpspriset vid förändring i Fortnox."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:171
+msgid "Update purchase price"
+msgstr "Uppdatera inköpspriset."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:251
+msgid "Select what pricelist in Fortnox to use when updating the price for role \"%s\""
+msgstr "Välj vilken prislista i Fortnox som skall uppdateras med priset för rollen \"%s\""
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:249
+msgid "%s price"
+msgstr "%s pris"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:802
+msgid "Create WooCommerce simple products if not existing."
+msgstr "Skapa en enkel WooCommerce artikelnumret inte finns."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:800
+msgid "Create WooCommerce products"
+msgstr "Skapa WooCommerce-produkt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:751
+msgid "Select what field to update the barcode (EAN) field in Fortnox."
+msgstr "Välj vilket fält som skall uppdatera streckkod (EAN) i Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:749
+msgid "Barcode mapping"
+msgstr "Mappning av streckkod"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:731
+msgid "Update all products in Fortnox on a daily basis. Useful to to ensure that Fortnox is always updated with correct data from WooCommerce."
+msgstr "Uppdatera samtliga produkter i Fortnox på daglig basis. Användbart för att säkerställa att Fortnox alltid har korrekt data från WooCommerce."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:728
+msgid "Update daily"
+msgstr "Uppdatera dagligen"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:618
+msgid "Use the internal Fortnox Freight field for shipping cost instead of adding shipping as a row on the invoice"
+msgstr "Använd Fortnox fraktfält istället för att lägga frakt som en rad på Fakturan."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:616
+msgid "Use Freight field"
+msgstr "Använd Fraktfältet"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:583
+msgid "Copy any order remarks from a Fortnox order to the Invoice created"
+msgstr "Kopiera kommentarer på en Fortnox-order till faktura."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:581
+msgid "Copy order remarks"
+msgstr "Kopiera kommentarer"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:435
+msgid "Use default plugin field"
+msgstr "Använd pluginets standardfält"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:270
+msgid "Fee VAT (%s%%) order %s"
+msgstr "Avgiftsmoms (%s%%) order %s"
+
+#. translators: %1$s: Order number. %2$s: Customer full name.
+#: templates/emails/admin-failed-order-sync.php:28
+#: templates/emails/plain/admin-failed-order-sync.php:25
+msgid "Order #%1$s from %2$s failed to sync to Fortnox. The order was as follows:"
+msgstr "Order #%1$s från %2$s misslyckades att synkroniseras till Fortnox. The order was as follows:"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:705
+msgid "Select in what status to create a Fortnox Invoice from a Fortnox Order"
+msgstr "Välj vid vilken orderstatus som en Fortnox Faktura skall skapas från en Fortnox Order"
+
+#: includes/class-woo-fortnox-hub-refund.php:201
+msgid "This order has been refunded once. Additional refunds will not be synced to Fortnox"
+msgstr "Ordern har återbetalats en gång. Ytterligare återbetalningar kommer inte att synkroniseras till Fortnox"
+
+#: includes/class-woo-fortnox-hub-refund.php:179
+msgid "partially_refunded_invoice (%s): Order partly refunded Fortnox invoice %s with refund order %s creating credit invoice %s"
+msgstr "partially_refunded_invoice (%s): Order partly refunded Fortnox invoice %s with refund order %s creating credit invoice %s"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:265
+msgid "Product data"
+msgstr "Produktuppgifter"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:116
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:473
+msgid "Stock level"
+msgstr "Lagernivå"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:214
+msgid "Select if and what pricelist to update this B2BKing group sale price here."
+msgstr "Välj om och vilken prislista som skall uppdatera B2BKing-gruppens reapris här."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:205
+msgid "Select if and what pricelist to update this B2BKing group regular price here."
+msgstr "Välj om och vilken prislista som skall uppdatera B2BKing-gruppens ordinarie pris här."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:165
+msgid "Always update WooCommerce with all values including zero"
+msgstr "Uppdatera med 0 om pris saknas."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:164
+msgid "Remove the price in WooCommerce if the value in Fortnox is zero"
+msgstr "Ta bort priset i WooCommerce om pris saknas i Fortnox"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:163
+msgid "Do not update a price in WooCommerce if the value in Fortnox is zero"
+msgstr "Uppdatera inte priset i WooCommerce om pris saknas i Fortnox."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:161
+msgid "Select how to handle a price-update from Fortnox where the price is zero."
+msgstr "Välj hur en uppdatering av en produkt där pris saknas skall hanteras."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:158
+msgid "Zero price handling"
+msgstr "Om pris saknas"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1010
+msgid "Leave items unchanged"
+msgstr "Lämna orderraderna oförändrade"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1009
+msgid "Remove bundled order items price"
+msgstr "Ta bort priset på orderraderna."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1008
+msgid "Remove bundled_order items"
+msgstr "Ta bort orderraderna med bundlade produkter"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1005
+msgid "Select the behaviour for product s."
+msgstr "Välj hur bundlade produkter ska hanteras."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1003
+msgid "Product bundles"
+msgstr "Bundlade produkter"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:959
+msgid "Select what creation date to be used on the Fortnox order/invoice."
+msgstr "Välj vilket datum som skall användas på Fortnox order/faktura."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:956
+msgid "Date created"
+msgstr "Datum skapat"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:952
+msgid "Display all amounts on order/invoice excluding tax."
+msgstr "Samtliga belopp på order/faktura visas exklusive moms."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:949
+msgid "Display amounts excl. tax"
+msgstr "Visa belopp exkl. moms"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:930
+msgid "Create on order status"
+msgstr "Skapa vid orderstatus"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:737
+msgid "Update the sales account for sales in Sweden on products based on settings in the plugin. Useful if you are creating some invoices of orders manually in Fortnox."
+msgstr "Uppdatera försäljningskontot för försäljning i Sverige på produkter baserade på inställningarna i tillägget. Användbart om vissa orders skapas manuellt i Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:735
+msgid "Update sales account"
+msgstr "Uppdatera försäljningskonto"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:555
+msgid "Do not use customer order note"
+msgstr "Använd inte anteckningar på kundkort"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:554
+msgid "Set customer order note in remarks"
+msgstr "Lägg in anteckningar på kundkort i noteringar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:553
+msgid "Set customer order note in comments"
+msgstr "Lägg in anteckningar från kundkort i kommentar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:550
+msgid "Select where the text from a order note should be placed."
+msgstr "Välj var en ordernotering skall placeras."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:548
+msgid "Customer order note"
+msgstr "Kommentar på kundkort"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:456
+msgid "Disable notices from Fortnox, please note that you will not get any information about errors if checked."
+msgstr "Stäng av felmeddelanden från Fortnox. Observera att du inte kommer att få någon information om fel som uppstår i kommunikationen med Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:454
+msgid "Disable notices"
+msgstr "Stäng av varningar"
+
+#: includes/class-woo-fortnox-account-handler.php:416
+msgid "Set the purchase account on products when updating in Fortnox."
+msgstr "Sätt inköpskonto på produkter vid uppdatering i Fortnox."
+
+#: includes/class-woo-fortnox-account-handler.php:415
+msgid "Purchase Account"
+msgstr "Inköpskonto"
+
+#: includes/class-woo-fortnox-account-handler.php:408
+msgid "Accounts on products"
+msgstr "Konton på produkter"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:312
+msgid "Zettle %s #%s"
+msgstr "Zettle %s #%s"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:209
+msgid "adjustment of card payment fee"
+msgstr "justering av kortavgift"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:208
+msgid "bank account verification"
+msgstr "verifiering av bankkonto"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:207
+msgid "external payment fee"
+msgstr "avgift för extern betalning"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:206
+msgid "external payment"
+msgstr "extern betalning"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:205
+msgid "invoice payment fee"
+msgstr "faktureringsavgift"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:204
+msgid "invoice payment"
+msgstr "fakturabetalning"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:203
+msgid "card payment fee refund"
+msgstr "återbetalning av kortavgift"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:202
+msgid "card refund"
+msgstr "återbetalning"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:201
+msgid "card payment fee"
+msgstr "kortavgift"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:200
+msgid "card payment"
+msgstr "kortbetalning"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:601
+msgid "%s when creating article from WooCommerce product %s using SKU \"%s\""
+msgstr "%s vid skapandet av Fortnox-artikel från WooCommerce-produkt %s med hjälp av SKU \"%s\" "
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:417
+msgid "Update Manufacturer"
+msgstr "Uppdatera tillverkare"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:262
+msgid "Select if and what pricelist to update from this B2BKing group sale price here."
+msgstr "Välj om och vilken prislista som skall uppdatera B2BKing-gruppens reapris här."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:188
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:212
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:260
+msgid "Sale Price"
+msgstr "Reapris"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:253
+msgid "Select if and what pricelist to update from this B2BKing group regular price here."
+msgstr "Välj om och vilken prislista som skall uppdateras från B2BKing gruppens ordinarie pris."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:179
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:203
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:251
+msgid "Regular Price"
+msgstr "Ordinarie pris"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:141
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:202
+msgid "Prices"
+msgstr "Priser"
+
+#: includes/class-woo-fortnox-account-handler.php:84
+#: includes/class-woo-fortnox-account-handler.php:160
+msgid "Sales to Sweden 6%"
+msgstr "Försäljning till Sverige 6%"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:57
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:83
+msgid "Products from Fortnox"
+msgstr "Produkter från Fortnox"
+
+#: libraries/bjorntech-fortnox-api/class-fortnox-api.php:205
+msgid "Error %s when communicating with Fortnox"
+msgstr "Fel %s vid kommunikation med Fortnox"
+
+#: libraries/bjorntech-fortnox-api/class-fortnox-api.php:194
+msgid "Authorization failure, contact BjornTech support at hello@bjorntech.com"
+msgstr "Felaktig behörighet, kontakta BjornTech support genom att skicka ett mail till hello@bjorntech.com"
+
+#: woo-fortnox-hub.php:493
+msgid "%s syncronisation finished"
+msgstr "Synkronisering av %s är klar"
+
+#: woo-fortnox-hub.php:486
+msgid "%ss have been added to the syncronisation queue."
+msgstr "Synkronisering av %s har lagts till kön"
+
+#: woo-fortnox-hub.php:485
+msgid "%s %s in syncronisation queue - click \"Cancel\" to clear queue."
+msgstr "%s %s in synkroniseringskön - klicka på \"Avbryt\" för att rensa kön"
+
+#: woo-fortnox-hub.php:479
+msgid "Successfully removed %s %s from the syncronisation queue."
+msgstr "Rensning av %s %s från kön lyckades."
+
+#: woo-fortnox-hub.php:464
+msgid "Added %s %s to the syncronisation queue."
+msgstr "%s %s har lagts till i synkroniseringskön."
+
+#: woo-fortnox-hub.php:458
+msgid "No %s to syncronize found."
+msgstr "Inga %s att synkronisera hittades."
+
+#: woo-fortnox-hub.php:272
+msgid "Updating stocklevel from WooCommerce replaces the existing stocklevel in Fortnox. Are you sure that you want to change this setting?"
+msgstr "Uppdatering av lagernivå från WooCommmerce kommer att ersätta lagernivåerna i Firtnox. Är du säker på att du vill ändra denna inställning?"
+
+#: includes/admin/class-wcfh-util.php:715
+msgid "Action"
+msgstr "Åtgärd"
+
+#: includes/admin/class-wcfh-util.php:709 woo-fortnox-hub.php:477
+#: woo-fortnox-hub.php:492
+msgid "Start"
+msgstr "Start"
+
+#: includes/admin/class-wcfh-util.php:707 woo-fortnox-hub.php:463
+#: woo-fortnox-hub.php:484
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:829
+msgid "Advanced settings for the account options"
+msgstr "Avancerade inställningar för kontoalternativen"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:827
+msgid "Advanced account options"
+msgstr "Avancerade kontoalternativ"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:274
+msgid "Update WooCommerce product name if the product name is changed in Fortnox and the WooCommerce product is of type Simple product"
+msgstr "Uppdatera produktnamnet om det ändras i Fortnox och produkten är en enkel produkt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:761
+msgid "Advanced \"Products from Fortnox\" options"
+msgstr "Avancerade inställningar för \"Produkter från Fortnox\""
+
+#: includes/class-woo-fortnox-account-handler.php:386
+msgid "List tax rates you need for this country below (1 per line, e.g. 20). Do not use any percentage sign."
+msgstr "Lägg in de momssatser du behöver för landet ovan (1 per rad t.ex 20). Använd inget procent-tecken."
+
+#: includes/class-woo-fortnox-account-handler.php:385
+msgid "VAT rates for %s"
+msgstr "Momssatser för %s"
+
+#: includes/class-woo-fortnox-account-handler.php:260
+msgid "Shipping to EU (reversed VAT)"
+msgstr "Frakt till EU (omvänd moms)"
+
+#: includes/class-woo-fortnox-account-handler.php:108
+#: includes/class-woo-fortnox-account-handler.php:184
+msgid "Sales to EU (reversed VAT)"
+msgstr "Försäljning till EU (omvänd moms)"
+
+#: includes/class-woo-fortnox-account-handler.php:124
+#: includes/class-woo-fortnox-account-handler.php:200
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:101
+msgid "Sales"
+msgstr "Försäljning"
+
+#: includes/class-woo-fortnox-account-handler.php:445
+msgid "%s from %s %s%%"
+msgstr "%s från %s %s%%"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:609
+msgid "Set as printed"
+msgstr "Ange som utskriven"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:480
+msgid "Always update"
+msgstr "Uppdatera alltid"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:478
+#: woo-fortnox-hub.php:274
+msgid "Do not update stocklevel"
+msgstr "Uppdatera inte lagernivå"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:461
+msgid "Update weight, lenght, width and height in Fortnox."
+msgstr "Uppdatera vikt, längd, bredd och höjd i Fortnox."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:410
+msgid "Do not update notes field"
+msgstr "Uppdatera inte anteckningar"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:405
+msgid "Update notes field"
+msgstr "Uppdatera kommentarsfältet"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:400
+msgid "Update the description field in Fortnox with the product name from WooCommerce"
+msgstr "Uppdatera fältet benämning i Fortnox med produktnamnet från WooCommerce"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:398
+msgid "Update description"
+msgstr "Uppdatera benämning"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:365
+msgid "Select the product statuses to be included in the product update."
+msgstr "Välj vilka statusar som produkter skall ha för at uppdatera Fortnox"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:355
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:367
+msgid "Select product statuses to include in the product update."
+msgstr "Välj vilka statusar som produkter skall ha för at uppdatera Fortnox"
+
+#: includes/giftcard-handlers/pw-gift-cards/class-woo-fortnox-hub-pwgc.php:52
+#: includes/giftcard-handlers/yith-woocommerce-gift-cards/class-woo-fortnox-hub-ywgc.php:52
+msgid "Gift card sales account"
+msgstr "Försäljningskonto för presentkort"
+
+#: includes/giftcard-handlers/pw-gift-cards/class-woo-fortnox-hub-pwgc.php:46
+#: includes/giftcard-handlers/yith-woocommerce-gift-cards/class-woo-fortnox-hub-ywgc.php:46
+msgid "Gift card options"
+msgstr "Presentkortsalternativ"
+
+#: includes/giftcard-handlers/pw-gift-cards/class-woo-fortnox-hub-pwgc.php:34
+#: includes/giftcard-handlers/yith-woocommerce-gift-cards/class-woo-fortnox-hub-ywgc.php:33
+msgid "Gift Cards"
+msgstr "Presentkort"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:281
+msgid "Update dimensions in WooCommerce if changed in Fortnox."
+msgstr "Uppdatera dimensionerna i WooCommerce om de ändras i Fortnox."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:244
+msgid "Invoice status check started."
+msgstr "Kontroll av fakturor startad."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:192
+msgid "Set to paid when the invoice is created."
+msgstr "Sätt som betald när fakturan har skapats."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:191
+msgid "Set to paid when the invoice is sent."
+msgstr "Sätt som betald när fakturan är skickad."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:164
+msgid "Set to paid when the invoice is booked."
+msgstr "Sätt som betald när fakturan är bokad."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:163
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:190
+msgid "Never set to paid"
+msgstr "Sätt aldrig till betald"
+
+#: includes/payout-handlers/class-woo-fortnox-payouts-handler.php:454
+msgid "Fortnox Hub: %s when processing order %s"
+msgstr "Fortnox Hub: %s när order skulle skapas %s"
+
+#: includes/class-woo-fortnox-customer-handler.php:113
+msgid "Use external printservice."
+msgstr "Använd extern printservice"
+
+#: includes/class-woo-fortnox-customer-handler.php:112
+msgid "Use e-mail."
+msgstr "Använd e-post."
+
+#: includes/class-woo-fortnox-customer-handler.php:111
+msgid "Use print"
+msgstr "Använd utskrift"
+
+#: includes/class-woo-fortnox-customer-handler.php:107
+msgid "Set the preferred default delivery option for new customers created by the plugin"
+msgstr "Sätt den önskade standardinställningen för leverans av dokument för nya kunder skapade av tillägget."
+
+#: includes/class-woo-fortnox-customer-handler.php:105
+msgid "Default delivery type"
+msgstr "Standard leveranstyp"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1035
+msgid "Invoice print template %s"
+msgstr "Mall för fakturor %s"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1023
+msgid "Order print template %s"
+msgstr "Mall för ordrar %s"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:933
+msgid "Select on what order-status the Fortnox order or invoice will be created."
+msgstr "Välj vid vilken status på beställningen som Fortnox Order/Faktura skall skapas."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:868
+msgid "Should only be changed if instructed by BjornTech support."
+msgstr "Ändra inte utan instruktion från BjornTech support"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:866
+msgid "Fortnox refresh token"
+msgstr "Fortnox refresh token"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:852
+msgid "Alternate service url"
+msgstr "Alternativ service url"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:847
+msgid "The url used for webhook callback. Do NOT change unless instructed by BjornTech."
+msgstr "Url som används för callback. Förändra INTE utan intstruktion från BjornTech."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:845
+msgid "Alternate webhook url"
+msgstr "Alternativ webhook url"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:681
+msgid "Maximum number of retries before sending mail without Fortnox sycing done."
+msgstr "Maximalt antal försök innan e-post skickas utan att synkronisering med Fortnox är gjord."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:674
+msgid "Minutes to delay before trying to send the email again."
+msgstr "Antal minuter fördröjning innan nytt försök görs att skicka meddelandet."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:672
+#: includes/admin/class-woo-fortnox-hub-settings.php:679
+msgid "Max retries"
+msgstr "Max antal försök"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:667
+msgid "Delay sending confirmation emails until a document has been created in Fortnox."
+msgstr "Fördröj sändningen av bekräftelsemeddelandet till dess att ett dokument har skapats i Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:665
+msgid "Delay emails"
+msgstr "Fördröj e-post"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:962
+msgid "Use date when synced to Fortnox."
+msgstr "Använd datum vid synkronisering till Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:961
+msgid "Use WooCommerce order date."
+msgstr "Använd WooCommerce beställningsdatum."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:463
+msgid "Requests to Fortnox are normally queued for performande except when a user is logged in as admin. Check if admin requests should also be queued."
+msgstr "Anrop till Fortnox köas normalt för på grund av prestanda. Detta förutom när en användare är inloggad som administratör. Kryssa här om även anrop för adminstratörer skall köas."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:461
+msgid "Queue admin requests"
+msgstr "Köa anrop för admin"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:311
+msgid "Payment info on invoice"
+msgstr "Betalning av faktura"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:395
+msgid "Something went wrong when processing PayPal payouts"
+msgstr "Någonting gick fel när utbetalningsfakura för PayPal skulle skapas"
+
+#: includes/payout-handlers/svea/class-woo-fortnox-hub-payouts-handler-svea.php:32
+msgid "Svea"
+msgstr "Svea"
+
+#. translators: $1. Minimum WooCommerce version. $2. Current WooCommerce
+#. version.
+#: woo-fortnox-hub.php:62
+msgid "Fortnox Hub requires WooCommerce %1$s or greater to be installed and active. WooCommerce %2$s is no longer supported."
+msgstr "Fortnox Hub kräver att WooCommerce %1$s eller högre är installerat. WooCommerce %2$s är inte längre tillräckligt."
+
+#. translators: 1. URL link.
+#: woo-fortnox-hub.php:47
+msgid "Fortnox Hub requires WooCommerce to be installed and active. You can download %s here."
+msgstr "För att Fortnox Hub skall fungera måste WooCommerce vara installerat och aktivt. Du kan ladda ner %s här."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:316
+msgid "WooCommerce Product Bundles"
+msgstr "WooCommerce Product Bundles"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:308
+msgid "Learndash Course"
+msgstr "Learndash Kurs"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:151
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:212
+msgid "Your WooCommerce system is configured to include taxes in product prices. Check this box to remove VAT from prices before updating Fortnox pricelists and to add VAT when importing prices to WooCommerce. Always backup your data before changing this setting. Contact BjornTech support if you are not sure of how to use this."
+msgstr "Din WooCommerce installation är inställd för att inkludera moms i produktpriser. Kryssa denna box för att ta bort moms innan uppdatering av Fortnox prislista och för att moms skall läggas till vid import av priser till WooCommerce. Se alltid till att du har en nytagen säkerhetskopia innan du ändrar denna inställning.  Kontakta BjornTech support om du är osäker på hur du skall tänka kring denna inställning."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:149
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:210
+msgid "Remove VAT from WooCommerce prices"
+msgstr "Ta bort moms från WooCommerce priser"
+
+#: woo-fortnox-hub.php:273
+msgid "When changing this setting, always make sure to manually update all prices from WooCommerce to Fortnox before you import any prices from Fortnox to WooCommerce. If this is done in the wrong order prices will be corrupted. Have you set this up correctly and are you sure that you want to change this setting?"
+msgstr "När denna inställning ändras skall alltid en manuell uppdatering av priser från WooCommerce till Fortnox ske innan några priser uppdateras från Fortnox till WooCommerce. Om detta görs i fel ordning kommer dina priser att bli felaktiga. Har du ställt in detta på korrekt sätt och är säker på att du vill ändra denna inställning?"
+
+#: woo-fortnox-hub.php:271
+msgid "Updating stocklevel from Fortnox replaces the existing stocklevel in WooCommerce. Are you sure that you want to change this setting?"
+msgstr "Uppdatering av lagernivå från Fortnox kommer att ersätta lagernivåer i WooCommerce. Är du säker på att du vill ändra denna inställning?"
+
+#: woo-fortnox-hub.php:270
+msgid "Updating sale price from Fortnox replaces the existing sale price in WooCommerce with the price from the selected Fortnox pricelist."
+msgstr "Uppdatering av reapris från Fortnox ersätter det existerande reapriset i WooCommerce med priset från den valda prislistan i Fortnox."
+
+#: woo-fortnox-hub.php:269
+msgid "Updating price from Fortnox replaces the existing price in WooCommerce with the price from the selected Fortnox pricelist."
+msgstr "Uppdatering av pris från Fortnox ersätter det existerande priset i WooCommerce med priset från den valda prislistan i Fortnox."
+
+#: woo-fortnox-hub.php:268
+msgid "Updating the pricelist using sale price from WooCommerce replaces any price existing in the selected Fortnox pricelist."
+msgstr "Uppdatering av prislista från reapris i WooCommerce ersätter eventuellt existerande pris i den valda prislistan i Fortnox."
+
+#: woo-fortnox-hub.php:267
+msgid "Updating the pricelist using price from WooCommerce replaces any price existing in the selected Fortnox pricelist."
+msgstr "Uppdatering av prislista från pris i WooCommerce ersätter eventuellt existerande pris i den valda prislistan i Fortnox."
+
+#: includes/class-woo-fortnox-account-handler.php:244
+msgid "Shipping to Sweden without tax"
+msgstr "Frakt till Sverige utan moms"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:231
+msgid "Select if and what pricelist to uptate with the sale price from WooCommerce"
+msgstr "Välj om och vilken prislista som uppdateras med reapriset från WooCommerce"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:440
+msgid "Use the barcode from Zettle"
+msgstr "Använd streckkod från Zettle"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:436
+msgid "Use the \"_barcode\" metadatafield."
+msgstr "Använd metadatafältet ”_barcode”."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:312
+msgid "Smart bundle"
+msgstr "Smart bundle"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:218
+msgid "Select mode of payment in the \"Payment\" section"
+msgstr "Välj betalsätt i sektionen ”Betalningar”"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:111
+msgid "Select actions to be performed on when the status changes on a Fortnox invoice.</BR></BR>To do a manual update click \"Check\" end enter the number of days back to check for changed invoices.</BR></BR>If \"Automatic check\" is checked the plugin will check for changed invoices every minute.</BR>"
+msgstr "I denna sektion kan du välja vad som skall utföras när status ändras på en faktura i Fortnox.</BR></BR>För att göra en manuell uppdatering klickar du \"Kontrollera\" och väljer hur många dagar bakåt i tiden du vill kontrollera förändrade fakturor.</BR></BR>Om \"Kontrollera automatiskt\" är ikryssad så hämtas förändrade fakturor varje minut.</BR>"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:419
+msgid "Enter the article number to use for the Shipping row, if empty shipping will be created without an article number."
+msgstr "Välj artikelnummer som skall användas för frakt, om blank så skapas frakt utan artikelnummer."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:602
+msgid "Bookkeep invoices"
+msgstr "Bokför fakturor"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:508
+msgid "Fortnox invoice %s was created."
+msgstr "Fortnox faktura %s skapades."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:497
+msgid "Fortnox invoice %s was booked."
+msgstr "Fortnox faktura %s bokades."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:490
+msgid "Fortnox invoice %s was sent."
+msgstr "Fortnox faktura %s skickades"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:132
+msgid "Change order status when the invoice is booked."
+msgstr "Ändra orderstatus när fakturan bokas."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:131
+msgid "Change order status when the invoice is sent"
+msgstr "Ändra orderstatus när fakturan skickas."
+
+#: woo-fortnox-hub.php:317
+msgid "Fortnox Hub is now ready for use. Please do read our <a href=\"https://bjorntech.com/sv/kom-igang-med-fortnox-hub?utm_source=wp-fortnox&utm_medium=plugin&utm_campaign=product\">installation and configuration instructions</a> before starting."
+msgstr "Du kan nu börja använda Fortnox Hub. Läs alltid våra <a href=\"https://bjorntech.com/sv/kom-igang-med-fortnox-hub?utm_source=wp-fortnox&utm_medium=plugin&utm_campaign=product\">installationsanvisningar</a> innan du börjar."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:227
+msgid "Check"
+msgstr "Kontrollera"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:224
+msgid "Manually check invoice status a selected number of days back in time"
+msgstr "Kontrollera fakturastatus valt antal dagar bakåt i tiden"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:224
+msgid "Manual check"
+msgstr "Manuell kontroll"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:205
+msgid "Automatically set a Fortnox invoice created with %s as payment method to paid."
+msgstr "Sätt en Fortnox faktura skapad med %s som betalningsmetod till betald."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:201
+msgid "Automatically set %s to paid"
+msgstr "Sätt %s till betald."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:129
+msgid "Never change order status based on the Fortnox invoice"
+msgstr "Ändra aldrig orderstatus baserat på en Fortnox faktura."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:126
+msgid "Select if and in what state the invoice in Fortnox should make the WooCommerce order status to be set to \"Completed\"."
+msgstr "Välj om och i vilket skede en Fortnox faktura skall sätta orderstatus på en WooCommerce order till \"Färdigbehandlad\"."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:116
+msgid "Automatic check"
+msgstr "Automatisk kontroll."
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:77
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:109
+msgid "Invoice status actions"
+msgstr "Funktioner för fakturastatus"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:165
+msgid "Select payment term"
+msgstr "Välj betalvillkor"
+
+#: includes/class-woo-fortnox-hub-document.php:380
+msgid "Comments in customer profile: %s"
+msgstr "Kommentar i kundprofil: %s"
+
+#. Author URI of the plugin
+msgid "https://bjorntech.com?utm_source=wp-fortnox&utm_medium=plugin&utm_campaign=product"
+msgstr "https://bjorntech.com/sv?utm_source=wp-fortnox&utm_medium=plugin&utm_campaign=product"
+
+#. Plugin URI of the plugin
+msgid "https://www.bjorntech.com/fortnox-hub?utm_source=wp-fortnox&utm_medium=plugin&utm_campaign=product"
+msgstr "https://www.bjorntech.com/sv/fortnox-hub?utm_source=wp-fortnox&utm_medium=plugin&utm_campaign=product"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:231
+#: includes/admin/class-woo-fortnox-hub-settings.php:249
+#: includes/api/class-woo-fortnox-api-filters-and-hooks.php:177
+#: includes/class-woo-fortnox-customer-handler.php:110
+msgid "Use Fortnox default"
+msgstr "Använd Fortnox standard"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:191
+msgid "Select what pricelist in Fortnox to use when updating a WooCommerce product sale price."
+msgstr "Välj vilken prislista i Fortnox som skall användas för uppdatering av reapriset på den länkade WooCommerce-produkten."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:182
+msgid "Select what pricelist in Fortnox to use when updating a WooCommerce product regular price."
+msgstr "Välj vilken prislista i Fortnox som skall användas för uppdatering av ordinarie pris på den länkade WooCommerce-produkten."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:92
+msgid "Update WooCommerce automatically when selected data is changed in Fortnox. Set what to update below."
+msgstr "Uppdatera WooCommerce automatiskt när valda data ändras i Fortnox. Välj vad som skall uppdateras nedan."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:85
+msgid "In this section you can select if you want to update WooCommerce products if selected data changes on its linked article in Fortnox.</BR></BR>Click \"Update all\" to update all WooCommerce products with linked Fortnox articles. If you have many products the update will take some time.</BR></BR>In order to link a Fortnox article, set the SKU on a WooCommerce simple product or on a variant of a variable product.</BR></BR>If you change the settings on what to update you need to click \"Update all\" when you have saved your new settings."
+msgstr "I denna sektion kan du välja om du vill uppdatera WooCommerce-produkter om valda data förändras på den länkade artikeln i Fortnox.</BR></BR>Klicka \"Uppdatera\" för att uppdatera samtliga produkter i WooCommerce som har en artikel länkad. Om du har många produkter kommer uppdateringen att ta tid.</BR></BR>För att länka en Fortnox-artikel skriver du in Fortnox artikelnummer i fältet \"Artikelnummer\" på produtkten/varianten i WooCommerce.</BR></BR>Om du förändrar vad som skall uppdateras behöver du klicka \"Uppdatera\" när du sparat de nya inställningarna."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:373
+msgid "Product categories to update"
+msgstr "Uppdatera produktkategorier"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:340
+msgid "Create only if a SKU is set in WooCommerce"
+msgstr "Skapa enbart om det finns Artikelnummer i WooCommerce"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:331
+msgid "Create or update WooCommerce products to Fortnox articles automatically"
+msgstr "Skapa eller uppdatera artiklar i Fortnox automatiskt."
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:89
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:328
+msgid "Update automatically"
+msgstr "Uppdatera automatiskt"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:323
+msgid "In this section you can select if and how Fortnox articles should be created and updated from WooCommerce products.</BR></BR>Click \"Update all\" to create or update Fortnox articles from the selection of WooCommerce products.</BR></BR>It is possible to configure the update to if Fortnox should create article id:s or to use existing if existing in WooCommerce</BR></BR>In order to link a Fortnox article, set the article field on a WooCommerce simple product or on a variant of a variable product.</BR></BR>If you change the settings on what to update you need to click \"Update all\" when you have saved your new settings."
+msgstr "Här kan du väja om och hur artiklar i Fortnox skall skapas och uppdateras från produkter i WooCommerce.</BR></BR>Klicka på \"Uppdatera\" för att skapa eller uppdatera artiklar i Fortnox från det urval av produkter i WooCommerce du gjort nedan.</BR></BR>Det är möjligt att välja om Fortnox skall skapa artikelnummer eller om du vill lägga in artikelnummer själv på produkter i WooCommerce.</BR></BR>För att länka en artikel i Fortnox till en produkt i WooCommerce lägger du in artikelnummer från Fortnox i fältet \"Artikelnummer\" på en enkel eller variant av variabel produkt i WooCommerce</BR></BR>Om du förändrar inställningarna nedan behöver du klicka \"Uppdatera\" när du sparat dina nya inställningar för att förändringarna skall genomföras."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:342
+msgid "Never create. No products will be created in Fortnox by the plugin"
+msgstr "Skapa aldrig. Tillägget skapar inga produkter i Fortnox"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:341
+msgid "Always create. If no SKU is set on the product. Fortnox will create a number."
+msgstr "Skapa alltid. Fortnox skapar artikelnummer om det saknas."
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:386
+msgid "Successfully created invoice(s) from %s payouts"
+msgstr "Skapade fakturor för utbetalningar av %s "
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:862
+msgid "In order to be able to connect this plugin with Fortnox a license you do need the Fortnox integration module"
+msgstr "För att du skall kunna använda det här tillägget behöver du modulen Fortnox integration"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1078
+msgid "Connection with Fortnox"
+msgstr "Anslutning till Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1073
+msgid "The service is active and valid to %s"
+msgstr "Tjänsten är aktiv till och med %s"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1066
+msgid "<b>Connected to the BjornTech Fortnox service using authorization code:</b> %s<br><br>"
+msgstr "<b>Ansluten till BjornTech Fortnox service med authorization code:</b> %s<br><br>"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1062
+msgid "In order to connect this plugin with Fortnox, the integration module must be active on your Fortnox-account.<br>"
+msgstr "För att kunna använda detta tillägg måste du ha Fortnox integration aktiv på ditt konto.<br>"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:854
+msgid "The url to the BjornTech Fortnox service. Do NOT change unless instructed by BjornTech."
+msgstr "Url till BjornTech Fortnox service. Ändra INTE utan instruktion från BjornTech."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:841
+msgid "Do NOT change these settings without prior contact with BjornTech support."
+msgstr "Ändra INTE utan kontakt med BjornTech support."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:839
+msgid "Advanced connection options"
+msgstr "Avancerade inställningar för anslutning"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:722
+msgid "Advanced product options"
+msgstr "Avancerade inställningar för produkter"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:535
+msgid "Advanced order options"
+msgstr "Avancerade inställningar för ordrar"
+
+#: includes/class-woo-fortnox-account-handler.php:33
+msgid "Accounts"
+msgstr "Konton"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:53
+msgid "Connection"
+msgstr "Anslutning"
+
+#: includes/admin/class-wcfh-util.php:431
+msgid "When syncing both \"product\" and \"price & stocklevel\" automatically they must be using the same pricelist. Automated syncing stopped."
+msgstr "När både \"produkt\" och \"pris & lagernivå\" synkroniseras automatiskt måste bägge använda sig av samma prislista i Fortnox. Synkroniseringen är tillfälligt avstängd."
+
+#: includes/payout-handlers/class-woo-fortnox-payouts-handler.php:410
+msgid "Something went wrong when processing %s payouts"
+msgstr "Någonting gick fel när utbetalningar för %s bearbetades"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:390
+msgid "In order to process payouts, a customer number must be present in the %s settings"
+msgstr "För att bearbeta utbetalningar behöver du ange ett kundnummer i inställningarna för %s"
+
+#: woo-fortnox-hub.php:678
+msgid "A valid email address to where the verification mail is to be sent must be present."
+msgstr "Det måste finnas en giltig e-postadress dit verifieringsmeddelandet skall skickas."
+
+#: woo-fortnox-hub.php:593
+msgid "The link has expired, please connect again to get a new link."
+msgstr "Tidsgränsen för länkens giltighet har passerats, anslut igen för att få en ny länk."
+
+#: woo-fortnox-hub.php:589
+msgid "We have sent a mail with the activation link. Click on the link to activate the service."
+msgstr "Vi har skickat ett e-postmeddelande med en aktiveringslänk. Klicka på länken för att aktivera tjänsten."
+
+#: woo-fortnox-hub.php:586
+msgid "The activation of the account failed"
+msgstr "Aktiveringen av kontot misslyckades."
+
+#: includes/admin/class-wcfh-util.php:449
+msgid "Your BjornTech Fortnox Hub service expired %s, go to <a href=\"%s\">our webshop</a> to purchase a subscription"
+msgstr "Din BjornTech Fortnox Hub service slutade att fungera %s, gå till <a href=\"%s\">vår webshop</a> för att köpa en prenumeration."
+
+#: woo-fortnox-hub.php:266
+msgid "Please enter the number of days back you want to sync."
+msgstr "Ange antal dagar bakåt i tiden som synkronisering skall ske."
+
+#: woo-fortnox-hub.php:265
+msgid "Number of days back to sync."
+msgstr "Antal dagar bakåt i tiden som skall synkroniseras."
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:77
+msgid "Zettle payouts for %s are being processed."
+msgstr "Processar Zettle-utbetalningar för %s."
+
+#: includes/class-woo-fortnox-customer-handler.php:335
+msgid "Att:"
+msgstr "Att:"
+
+#: includes/class-woo-fortnox-customer-handler.php:74
+msgid "Customer options"
+msgstr "Inställningar för kund"
+
+#: includes/class-woo-fortnox-customer-handler.php:41
+msgid "Customers"
+msgstr "Kunder"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:255
+msgid "Commission order %s"
+msgstr "Avgifter för order %s"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:263
+msgid "Fee order %s"
+msgstr "Avgift för order %s"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:247
+msgid "Return order %s"
+msgstr "Retur av order %s"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:239
+msgid "Reversal order %s"
+msgstr "Återbetalning av order %s"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:232
+msgid "Sales order %s"
+msgstr "Försäljning order %s"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:70
+msgid "Zettle payouts from %s are being processed."
+msgstr "Zettle-utbetalningar från %s bearbetas."
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:215
+msgid "Paypal sales"
+msgstr "Försäljning PayPal"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:171
+msgid "Paypal payouts from %s are being processed."
+msgstr "Utbetalningar från PayPal för %s bearbetas."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:876
+msgid "Date and time (in the format YYYY-MM-DD HH:MM) when the plugin last checked Fortnox for changed invoices."
+msgstr "Datum och tid (I formatet YYYY-MM-DD HH:MM) för när tillägget senast kontrollerade Fortnox för förändrade fakturor."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:873
+msgid "Check invoices from"
+msgstr "Kontrollera fakturor från"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:217
+msgid "Change by selecting another payment method at the payments settings link."
+msgstr "Förändra genom att byta betalmetod under inställningarna för betalningar."
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:203
+msgid "Automatic payout invoices"
+msgstr "Skapa utbetalningsfakturor automatiskt"
+
+#: includes/class-woo-fortnox-customer-handler.php:141
+msgid "Organisation number (_organisation_number)"
+msgstr "Organisationsnummer (_organisation_number)"
+
+#: includes/class-woo-fortnox-customer-handler.php:140
+msgid "Customer email"
+msgstr "Kundens e-post"
+
+#: includes/class-woo-fortnox-customer-handler.php:138
+msgid "The plugin needs to find out if the customer already exists in Fortnox. The first customer with a matching email will be selected. The mapping can also be done by organisation number. In this a metadatafield named \"_organisation_number\" has to be present on the order"
+msgstr "Tillägget kontrollerar om kunden redan existerar i Fortnox. Den första kunden med en matchande e-postadress kommer väljas. Sökningen kan även göras på organisationsnummer. Detta kan ske om ett metadatafält med namnet ”_organisation_number” finns på ordern"
+
+#: includes/class-woo-fortnox-customer-handler.php:135
+msgid "Identify customers by"
+msgstr "Identifiera kunder genom"
+
+#: includes/payout-handlers/klarna/class-woo-fortnox-hub-payouts-handler-klarna.php:35
+msgid "Klarna"
+msgstr "Klarna"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:176
+msgid "Do not create automatically"
+msgstr "Skapa inte automatiskt"
+
+#: includes/admin/class-wcfh-util.php:681
+msgid "WooCommerce products"
+msgstr "WooCommerce-produkter"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:304
+msgid "Mode of payment"
+msgstr "Typ av betalning"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:221
+msgid "Fee for PayPal-sales"
+msgstr "Avgift för PayPal"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:209
+msgid "Fortnox customer number for PayPal-invoice"
+msgstr "Fortnox kundnummer för PayPal-fakturor"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:197
+msgid "PayPal options"
+msgstr "Inställningar för PayPal"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:180
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/class-woo-fortnox-customer-handler.php:186
+msgid "E-mail subject"
+msgstr "E-postmeddelandets rubrik"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:945
+msgid "Enter a text for the field \"Our reference\""
+msgstr "Ange en text för fältet ”Vår referens”"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:943
+msgid "Our reference"
+msgstr "Vår referens"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:69
+msgid "Payment"
+msgstr "Betalning"
+
+#: includes/class-woo-fortnox-hub-document.php:270
+msgid "Shipping - %s"
+msgstr "Frakt - %s"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:77
+#: includes/class-woo-fortnox-account-handler.php:276
+msgid "Shipping"
+msgstr "Frakt"
+
+#: includes/class-woo-fortnox-hub-product-admin.php:97 woo-fortnox-hub.php:276
+msgid "Update Fortnox"
+msgstr "Uppdatera Fortnox"
+
+#: includes/admin/class-wcfh-util.php:684
+msgid "Fortnox articles"
+msgstr "Fortnox-artiklar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:408
+msgid "Way of delivery"
+msgstr "Leveranssätt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:400
+msgid "Term of delivery"
+msgstr "Leveransvillkor"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:297
+msgid "Term of payment"
+msgstr "Betalningsvillkor"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:361
+msgid "Select way of delivery"
+msgstr "Välj leveranssätt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:353
+msgid "Select terms of delivery"
+msgstr "Välj leveransvillkor"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:165
+msgid "Select payment mode"
+msgstr "Välj betalsätt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:782
+msgid "Select how a product imported from Fortnox should handle backorders when the product has stock level <= 0"
+msgstr "Välj hur en produkt som importerats från Fortnox skall hantera restordrar när produkten har en lagernivå som är <= 0"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:780
+msgid "Set backorder option outofstock"
+msgstr "Ställ in restorder för slut i lager"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:769
+msgid "Select how a product imported from Fortnox should handle backorders when the product has stock level > 0."
+msgstr "Välj hur en produkt som importerats från Fortnox skall hantera restordrar när produkten har en lagernivå som är > 0"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:767
+msgid "Set backorder option instock"
+msgstr "Ställ in restorder för finns i lager"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:100
+msgid "Zettle swish"
+msgstr "Zettle Swish"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:99
+msgid "Zettle cash"
+msgstr "Zettle-kontanter"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:98
+msgid "Zettle card"
+msgstr "Zettle-kontokort"
+
+#: includes/class-woo-fortnox-customer-handler.php:193
+msgid "E-mail body"
+msgstr "E-postmeddelandets text"
+
+#: includes/class-woo-fortnox-customer-handler.php:179
+msgid "Reply-adress"
+msgstr "Svarsadress"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:919
+msgid "Nothing"
+msgstr "Ingenting"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:914
+msgid "WooCommerce order creates"
+msgstr "En WooCommerce order skapar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:54
+msgid "Orders"
+msgstr "Ordrar"
+
+#: includes/class-woo-fortnox-hub-product-admin.php:46
+#: includes/class-woo-fortnox-hub-product-admin.php:62 woo-fortnox-hub.php:275
+msgid "Update"
+msgstr "Uppdatera"
+
+#: includes/class-woo-fortnox-hub-fn-product-handler.php:131
+msgid "Do not update the price"
+msgstr "Uppdatera inte pris"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:122
+msgid "Zettle"
+msgstr "Zettle"
+
+#: includes/payout-handlers/class-woo-fortnox-payouts-handler.php:342
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:145
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:110
+msgid "Manual sync"
+msgstr "Manuell synkronisering"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:744
+msgid "Update product type (stock or if virtual is set service) in Fortnox from WooCommerce"
+msgstr "Uppdatera typ av produkt (lager eller virtuell som då sätts som service) i Fortnox från WooCommerce"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:742
+msgid "Update product type"
+msgstr "Uppdatera produkttyp"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:459
+msgid "Update product dimensions"
+msgstr "Uppdatera produktdimensioner"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:454
+msgid "If selected the article in Fortnox is set as a webshop article"
+msgstr "Om artikeln i Fortnox är en webshop artikel"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:452
+msgid "Set as webshop article"
+msgstr "Sätt som webshop artikel"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:392
+msgid "Select optional data"
+msgstr "Valbara data"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:360
+msgid "Include products with status"
+msgstr "Inkludera produkter med status"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:337
+msgid "Select if you want a Fortnox Article to be created if no match of a WooCommerce product is found in Fortnox"
+msgstr "Välj om du vill att en ny artikel skall skapas i Fortnox om ingen existerande produkt hittas"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:335
+msgid "Create articles"
+msgstr "Skapa artiklar"
+
+#: includes/payout-handlers/stripe/class-woo-fortnox-hub-payouts-handler-stripe.php:31
+msgid "Stripe"
+msgstr "Stripe"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:416
+msgid "Article number"
+msgstr "Artikelnummer"
+
+#: includes/class-woo-fortnox-customer-handler.php:188
+msgid "Subject text on the Fortnox mail containing the invoice. The variable {no} = document number. The variable {name} =  customer name"
+msgstr "Ärendetext i e-postmeddelandet från Fortnox innehållande fakturan. Använd variabeln {no}  = fakturanummer eller variabeln {name} =  kundens namn"
+
+#: includes/class-woo-fortnox-customer-handler.php:194
+msgid "Body text on the Fortnox mail containing the invoice."
+msgstr "Text som ska läggas till i body:n i Fortnox-mailet som innehåller fakturan."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:221
+msgid "Select if and what pricelist to uptate with the price from WooCommerce"
+msgstr "Välj om och med vilken prislista som skall uppdateras med pris från WooCommerce"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:407
+msgid "Update the notes field in Fortnox with the short or long description field in WooCommerce"
+msgstr "Uppdatera fältet anteckningar i Fortnox med den långa eller korta produktbeskrivningen i WooCommerce"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:351
+msgid "Select the type of product to be included in the product update"
+msgstr "Välj typ av produkt som skall inkluderas i produktuppdateringen"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:908
+msgid "Setup for what should happen when a WooCommerce order is created"
+msgstr "Inställningar för vad som skall hända när en WooCommerce order skapas"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:347
+msgid "Include product type"
+msgstr "Inkludera produkttyp"
+
+#: includes/class-woo-fortnox-hub-invoice-status-handler.php:124
+msgid "Automatic order completion"
+msgstr "Automatisk färdigbehandling av order"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:983
+msgid "Number of working days between the order date and the delivery date to be set on the Fortnox order or invoice."
+msgstr "Antal dagar mellan orderdatum och leveransdatum som skall användas när en order eller faktura skapas i Fortnox."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:981
+msgid "Delivery days"
+msgstr "Leveransdagar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1092
+msgid "Enable logging"
+msgstr "Slå på loggning"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:99
+msgid "Disconnect"
+msgstr "Koppla bort"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:92
+msgid "Disconnect the plugin from Fortnox"
+msgstr "Koppla bort tillägget från Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:92
+msgid "Disconnect from Fortnox"
+msgstr "Koppla bort Fortnox"
+
+#: includes/class-woo-fortnox-hub-document.php:385
+msgid "Message from customer: %s"
+msgstr "Meddelande från kund: %s"
+
+#: includes/class-woo-fortnox-hub-document-admin.php:65
+msgid "Fortnox Order/Invoice"
+msgstr "Fortnox Order/Faktura"
+
+#: woo-fortnox-hub.php:749
+msgid "Successfully disconnected from Fortnox"
+msgstr "Bortkopplad från Fortnox"
+
+#: includes/payout-handlers/class-woo-fortnox-payouts-handler.php:345
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:148
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:113
+msgid "Syncronize"
+msgstr "Synkronisera"
+
+#: includes/payout-handlers/paypal/class-woo-fortnox-hub-paypal-handler.php:145
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:110
+msgid "Sync WooCommerce products to Fortnox"
+msgstr "Synkronisera produkter från WooCommerce till Fortnox"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:382
+msgid "Select product categories or leave empty for all"
+msgstr "Välj produktkategorier eller lämna tomt för samtliga"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:379
+msgid "If you only want to update products included in certain product categories, select them here. Leave blank to enable for all categories."
+msgstr "Om du endast vill uppdatera produkter som tillhör vissa produktkategorier. Välj vilka här. Lämna tomt för samtliga kategorier."
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:412
+msgid "WooCommerce description"
+msgstr "WooCommerce beskrivning"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:411
+msgid "WooCommerce short description"
+msgstr "WooCommerce kort beskrivning"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:194
+msgid "Do not update price on the Fortnox article"
+msgstr "Uppdatera inte artikelns pris i Fortnox"
+
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:177
+#: includes/class-woo-fortnox-hub-wc-product-handler.php:321
+msgid "Products to Fortnox"
+msgstr "Produkter till Fortnox"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:158
+msgid "Fee account for Zettle-sales"
+msgstr "Konto för avgifter för Zettle-försäljningar"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:152
+msgid "Fortnox customer number for Zettle-invoice"
+msgstr "Fortnox kundnummer för Zettle-faktura"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:146
+msgid "Create invoice to match Zettle card payouts"
+msgstr "Skapa faktura för att matcha Zettle-kortbetalningar"
+
+#: includes/payout-handlers/zettle/class-woo-fortnox-hub-zettle-handler.php:140
+msgid "Zettle options"
+msgstr "Inställningar för Zettle"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:974
+msgid "Use project"
+msgstr "Använd projekt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:967
+msgid "Use cost center"
+msgstr "Använd kostnadsställe"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:894
+msgid "No project"
+msgstr "Inget projekt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:886
+msgid "No cost center"
+msgstr "Inget kostnadsställe"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:775
+#: includes/admin/class-woo-fortnox-hub-settings.php:788
+msgid "Allow"
+msgstr "Tillåt"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:774
+#: includes/admin/class-woo-fortnox-hub-settings.php:787
+msgid "Allow, but notify customer"
+msgstr "Tillåt men meddela kunden"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:773
+#: includes/admin/class-woo-fortnox-hub-settings.php:786
+msgid "Do not allow"
+msgstr "Tillåt inte"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:772
+#: includes/admin/class-woo-fortnox-hub-settings.php:785
+msgid "Do not set from Fortnox"
+msgstr "Sätt inte från Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:114
+msgid "Clear"
+msgstr "Rensa"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:111
+msgid "Clear the cache for static data imported from Fortnox. The next pageload after clearing will take a little bit longer time than normal."
+msgstr "Rensa cache för statisk data importerad från Fortnox. Nästa sidladdning efter rensning kommer att ta lite längre tid än normalt."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:111
+msgid "Clear static data cache"
+msgstr "Rensa cache för statisk data"
+
+#: woo-fortnox-hub.php:659
+msgid "The cache holding Fortnox data has been cleared."
+msgstr "Cachen för Fortnox statisk data har rensats."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:1085
+msgid "Fortnox User email"
+msgstr "Fortnoxanvändarens e-post"
+
+#: includes/class-woo-fortnox-account-handler.php:137
+msgid "Sales Accounts (virtual products)"
+msgstr "Försäljningskonton (virtuella produkter)"
+
+#: woo-fortnox-hub.php:428
+msgid "Settings"
+msgstr "Inställningar"
+
+#: woo-fortnox-hub.php:264
+msgid "Enter mail and save before connecting to the service"
+msgstr "Ange e-postadress och spara innan du ansluter till tjänsten"
+
+#: woo-fortnox-hub.php:263
+msgid "I agree to the BjornTech Privacy Policy"
+msgstr "Jag godkänner BjornTech integritetspolicy"
+
+#: woo-fortnox-hub.php:470
+msgid "You are not allowed to syncronise %s at this time."
+msgstr "Du kan inte synkronisera %s för närvarande."
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:448
+msgid "Advanced options"
+msgstr "Avancerade inställingar"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:97
+msgid "Connect"
+msgstr "Anslut"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:90
+msgid "Connect the plugn to Fortnox"
+msgstr "Anslut tillägget till Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:90
+msgid "Connect to Fortnox"
+msgstr "Anslut till Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:60
+msgid "Advanced"
+msgstr "Avancerat"
+
+#: includes/class-woo-fortnox-hub-document-admin.php:68
+#: includes/class-woo-fortnox-hub-product-admin.php:37
+#: includes/class-woo-fortnox-hub-product-admin.php:53
+msgid "Fortnox"
+msgstr "Fortnox"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:920
+#: includes/class-woo-fortnox-hub-document-admin.php:63
+msgid "Fortnox Invoice"
+msgstr "Fortnox Faktura"
+
+#. Author of the plugin
+msgid "BjornTech"
+msgstr "BjornTech"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:859
+msgid "Fortnox API Code"
+msgstr "Fortnox API-kod"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:702
+msgid "Create Fortnox Invoice"
+msgstr "Skapa Fortnox Faktura"
+
+#: includes/class-woo-fortnox-account-handler.php:252
+msgid "Shipping to EU (incl. VAT)"
+msgstr "Frakt inom EU (inkl. moms)"
+
+#: includes/class-woo-fortnox-account-handler.php:268
+msgid "Shipping to rest of the world"
+msgstr "Frakt till resten av världen"
+
+#: includes/class-woo-fortnox-account-handler.php:236
+msgid "Shipping to Sweden 6%"
+msgstr "Frakt till Sverige 6 %"
+
+#: includes/class-woo-fortnox-account-handler.php:228
+msgid "Shipping to Sweden 12%"
+msgstr "Frakt till Sverige 12 %"
+
+#: includes/class-woo-fortnox-account-handler.php:220
+msgid "Shipping to Sweden 25%"
+msgstr "Frakt till Sverige 25 %"
+
+#: includes/class-woo-fortnox-account-handler.php:100
+#: includes/class-woo-fortnox-account-handler.php:176
+msgid "Sales to EU (incl. VAT)"
+msgstr "Försäljning inom EU (inkl. moms)"
+
+#: includes/class-woo-fortnox-account-handler.php:116
+#: includes/class-woo-fortnox-account-handler.php:192
+msgid "Sales to rest of the world"
+msgstr "Försäljning till resten av världen"
+
+#: includes/class-woo-fortnox-account-handler.php:76
+#: includes/class-woo-fortnox-account-handler.php:152
+msgid "Sales to Sweden 12%"
+msgstr "Försäljning till Sverige 12 %"
+
+#: includes/class-woo-fortnox-account-handler.php:68
+#: includes/class-woo-fortnox-account-handler.php:144
+msgid "Sales to Sweden 25%"
+msgstr "Försäljning till Sverige 25 %"
+
+#: includes/admin/class-fortnox-admin-notes.php:50
+#: includes/admin/class-woo-fortnox-hub-settings.php:36
+msgid "Fortnox Hub"
+msgstr "Fortnox Hub"
+
+#: includes/admin/class-woo-fortnox-hub-exception.php:85
+msgid "An error occured. For more information check out the <strong>%s</strong> logs inside <strong>WooCommerce -> System Status -> Logs</strong>."
+msgstr "Ett fel uppstod. För mer information kontrollera <strong>%s</strong>-loggen i <strong> WooCommerce -> System Status -> Loggar</strong>."
+
+#: includes/class-woo-fortnox-hub-order.php:106
+msgid "WooCommerce order %s created Fortnox order %s"
+msgstr "WooCommerce order %s skapade Fortnox order %s"
+
+#: includes/class-woo-fortnox-account-handler.php:213
+msgid "Shipping Accounts"
+msgstr "Konton för frakt"
+
+#: includes/class-woo-fortnox-account-handler.php:61
+msgid "Sales Accounts"
+msgstr "Konton för försäljning"
+
+#: includes/class-woo-fortnox-hub-document.php:448
+msgid "Paid on %1$s @ %2$s"
+msgstr "Betalad %1$s @ %2$s"
+
+#: includes/class-woo-fortnox-hub-document.php:444
+msgid "Payment via %s (%s)"
+msgstr "Betalad med %s (%s)"
+
+#: includes/class-woo-fortnox-hub-invoice.php:174
+#: includes/class-woo-fortnox-hub-lager.php:158
+#: includes/class-woo-fortnox-hub-order.php:167
+msgid "Cancelled from WooCommerce"
+msgstr "Avbruten från WooCommerce"
+
+#: includes/class-woo-fortnox-hub-order.php:102
+msgid "WooCommerce order %s updated Fortnox order %s"
+msgstr "WooCommerce order %s uppdaterade Fortnox order %s"
+
+#: includes/admin/class-woo-fortnox-hub-settings.php:921
+msgid "Fortnox Order"
+msgstr "Fortnox Order"
+
+#. Description of the plugin
+msgid "Sync your WooCommerce shop with Fortnox"
+msgstr "Synkronisera din WooCommerce webshop med Fortnox"
+
+#. Plugin Name of the plugin
+msgid "WooCommerce Fortnox Hub"
+msgstr "WooCommerce Fortnox Hub"

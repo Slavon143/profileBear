@@ -1,0 +1,14 @@
+.awb-views-counter-separator {
+  padding: 0 5px;
+}
+.awb-views-counter-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.awb-views-counter-content-stacked {
+  flex-direction: column;
+  align-items: flex-start;
+}
+.awb-views-counter-content-stacked .awb-views-counter-separator {
+  display: none;
+}

@@ -1,0 +1,103 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fontawesome-icon {
+  display: inline-block;
+  float: left;
+  margin-right: 10px;
+}
+.fontawesome-icon:before {
+  transition: none;
+}
+.fontawesome-icon.circle-yes {
+  border-radius: 50%;
+  background-clip: inherit;
+  border-width: 1px;
+  border-style: solid;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  margin-top: 2px;
+}
+.fontawesome-icon.fusion-link:before {
+  color: inherit;
+}
+.fontawesome-icon.fusion-text-flow {
+  float: none;
+}
+.fontawesome-icon.circle-no.size-large {
+  margin-top: 2px;
+}
+.fontawesome-icon.circle-no.size-medium {
+  margin-top: 3px;
+}
+.fontawesome-icon.circle-no.size-small {
+  margin-top: 5px;
+}
+.fontawesome-icon.icon-hover-animation-pulsate {
+  position: relative;
+}
+.fontawesome-icon.icon-hover-animation-pulsate.hover,
+.fontawesome-icon.icon-hover-animation-pulsate:hover {
+  transform: scale(0.93);
+  transition: all 0.3s;
+}
+.fontawesome-icon.icon-hover-animation-pulsate.hover:after,
+.fontawesome-icon.icon-hover-animation-pulsate:hover:after {
+  pointer-events: none;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: inherit;
+  content: "";
+  box-sizing: content-box;
+  top: 0;
+  left: 0;
+  padding: 0;
+  z-index: -1;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.1);
+  opacity: 0;
+  transform: scale(0.9);
+  display: inline-block;
+  animation: fusionSonarEffect 1.3s ease-out 75ms;
+}
+.fontawesome-icon.icon-hover-animation-slide.circle-yes {
+  overflow: hidden;
+  display: inline-flex;
+  justify-content: center;
+}
+.fontawesome-icon.icon-hover-animation-slide.hover:before,
+.fontawesome-icon.icon-hover-animation-slide:hover:before {
+  animation: fusionToRightFromLeft 0.3s forwards;
+}
+.fontawesome-icon.icon-hover-animation-slide:before {
+  display: block;
+}
+.fusion-fa-align-left {
+  display: inline;
+  float: left;
+  margin: 0;
+}
+.fusion-fa-align-left .fontawesome-icon {
+  margin: 0;
+}
+.fusion-fa-align-right {
+  display: inline;
+  float: right;
+  margin: 0;
+}
+.fusion-fa-align-right .fontawesome-icon {
+  margin: 0;
+}
+.fusion-fa-align-center {
+  display: block;
+  clear: both;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.fusion-fa-align-center .fontawesome-icon {
+  margin: 0;
+}
+.fusion-body .fusion-fa-align-center .fontawesome-icon {
+  float: none;
+}

@@ -1,0 +1,51 @@
+.awb-stars-rating {
+  display: flex;
+  align-items: center;
+}
+.awb-stars-rating-icons-wrapper {
+  font-size: 1.1rem;
+  margin-right: 0.5em;
+  /* The color of inactive/empty icons. */
+  color: #444;
+  display: inline-block;
+}
+.awb-stars-rating-text {
+  font-size: 1rem;
+  display: inline-block;
+}
+/* All relative icons. */
+.awb-stars-rating-filled-icon,
+.awb-stars-rating-empty-icon,
+.awb-stars-rating-partial-icon-wrapper {
+  margin-right: 0.25em;
+}
+/* The last icon does not have margin. */
+.awb-stars-rating-icons-wrapper > i:last-of-type {
+  margin-right: 0;
+}
+/* All Icons that are active */
+.awb-stars-rating-filled-icon,
+.awb-stars-rating-partial-icon {
+  color: #fb0;
+}
+.awb-stars-rating-partial-icon-wrapper {
+  position: relative;
+}
+.awb-stars-rating-partial-icon {
+  left: 0;
+  top: 0;
+  position: absolute;
+  overflow: hidden;
+}
+.rtl .awb-stars-rating-partial-icon {
+  right: 0;
+  left: auto;
+}
+.rtl .awb-stars-rating-icons-wrapper {
+  margin-right: 0;
+  margin-left: 0.5em;
+}
+.awb-stars-rating-no-text .awb-stars-rating-icons-wrapper {
+  margin-left: 0;
+  margin-right: 0;
+}

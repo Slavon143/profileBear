@@ -1,0 +1,79 @@
+.fusion-post-card-image {
+  overflow: hidden;
+}
+.fusion-post-card-image .cart-loading .view-cart {
+  display: none;
+}
+.fusion-post-card-image .fusion-rollover-content .price {
+  margin-top: 3px;
+}
+.fusion-post-card-image .fusion-rollover-content .price .amount {
+  font-size: 25px;
+}
+.fusion-post-card-image .fusion-rollover-content .fusion-rollover-title {
+  margin: 0;
+  line-height: normal;
+}
+.fusion-post-card-image .fusion-product-buttons {
+  position: relative;
+  z-index: 9;
+}
+.fusion-post-card-image.fusion-classic-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  padding: 0 10%;
+  height: 40px;
+  width: 100%;
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a {
+  display: inline;
+  float: none;
+  padding: 0;
+  letter-spacing: 1px;
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:hover {
+  opacity: 0.6;
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:after,
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:before {
+  display: none;
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons .wc-forward {
+  display: none;
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons .fusion-rollover-linebreak {
+  display: inline-block;
+  margin: 0 10px;
+  color: var(--image_rollover_text_color);
+}
+.fusion-post-card-image.fusion-clean-product-image-wrapper .fusion-rollover-linebreak {
+  display: none;
+}
+.post-card.product .fusion-post-card-image[data-layout="rollover"] .fusion-rollover {
+  z-index: 4;
+}
+.post-card.product .fusion-post-card-image[data-layout="rollover"] .fusion-woo-badges-wrapper {
+  z-index: 3;
+}
+.fusion-post-card-image.fusion-disable-link[data-layout="rollover"] .fusion-rollover-title-link,
+.fusion-post-card-image.fusion-disable-link[data-layout="rollover"] .fusion-link-wrapper {
+  pointer-events: none;
+}
+.fusion-post-card-image.has-aspect-ratio {
+  position: relative;
+}
+.fusion-post-card-image.has-aspect-ratio img {
+  aspect-ratio: 1;
+  /* stylelint-disable-line */
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -o-object-position: 50% 50%;
+     object-position: 50% 50%;
+}

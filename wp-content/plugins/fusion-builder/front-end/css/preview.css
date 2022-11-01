@@ -1,0 +1,3296 @@
+.fusion-builder-live .fusion-builder-placeholder-preview {
+  margin-top: 2px;
+  margin-bottom: 2px;
+  border: 1px solid rgba(14, 122, 189, 0.4);
+  background: rgba(25, 143, 217, 0.73);
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  padding: 5px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.fusion-builder-live .fusion-builder-placeholder-preview i {
+  font-size: 15px;
+  margin-right: 7px;
+}
+.fusion-builder-live .fusion-builder-placeholder-preview span.fusion-tb-source-separator {
+  margin-left: 0.3em;
+}
+.fusion-builder-live .fusion-builder-placeholder-preview a.fusion-tb-source {
+  margin-left: 0.3em;
+  color: rgba(255, 255, 255, 0.85);
+}
+.fusion-builder-live .fusion-builder-placeholder-preview a:hover {
+  color: #fff;
+}
+.fusion-builder-live .fusion-builder-placeholder-preview.awb-narrow-placeholder-preview {
+  flex-direction: column;
+  padding: 10px 5px;
+}
+.fusion-builder-live .fusion-builder-placeholder-preview.awb-narrow-placeholder-preview .fusion-tb-source {
+  margin-left: 0;
+  margin-top: 0.6em;
+}
+.fusion-builder-live .fusion-child-element:empty:before {
+  content: attr(data-empty);
+  display: block;
+  background: rgba(42, 48, 53, 0.5);
+  color: rgba(255, 255, 255, 0.9);
+  text-align: center;
+  padding: 30px;
+  font-size: 18px;
+  margin: 5px 0;
+}
+.fusion-builder-live .row.fusion-child-element:empty:before {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.fusion-builder-live .fusion-builder-live-element[data-type="fusion_content_boxes"] {
+  overflow: visible !important;
+}
+.fusion-builder-live .fusion-alert button.close {
+  pointer-events: none;
+}
+.fusion-builder-live .fusion-builder-element-content .fusion-checklist.fusion-child-element .fusion-li-item {
+  display: flex;
+}
+.fusion-builder-live .woocommerce-container .summary-container .fusion-checklist .fusion-li-item {
+  display: list-item;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-left {
+  z-index: 1;
+  float: left;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-right {
+  z-index: 1;
+  float: right;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-left:hover,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-right:hover {
+  z-index: auto;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-left:hover + .fusion-builder-live-element,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-right:hover + .fusion-builder-live-element {
+  z-index: 0;
+  pointer-events: none;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-textflow + .fusion-builder-live-element[data-type="fusion_text"],
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element ~ .fusion-element-alignment-block,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element ~ .fusion-builder-live-element:not(.fusion-builder-live-element-inline) {
+  clear: both;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element.fusion-element-alignment-textflow + .fusion-builder-live-element[data-type="fusion_text"]:before,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element ~ .fusion-element-alignment-block:before,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-builder-live-element ~ .fusion-builder-live-element:not(.fusion-builder-live-element-inline):before {
+  display: block;
+  content: "";
+  clear: both;
+  height: 1px;
+  margin-bottom: -1px;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-flex-container .fusion-column-wrapper:not(.fusion-content-layout-block, .fusion-content-layout-column) > div > .fusion-builder-live-element.fusion-element-alignment-center,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-flex-container .fusion-column-wrapper:not(.fusion-content-layout-block, .fusion-content-layout-column) > div > .fusion-builder-live-element.fusion-element-alignment-left,
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-flex-container .fusion-column-wrapper:not(.fusion-content-layout-block, .fusion-content-layout-column) > div > .fusion-builder-live-element.fusion-element-alignment-right {
+  width: 100%;
+  display: flex;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-flex-container .fusion-column-wrapper:not(.fusion-content-layout-block) > div > .fusion-builder-live-element.fusion-element-alignment-center {
+  justify-content: center;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-flex-container .fusion-column-wrapper:not(.fusion-content-layout-block) > div > .fusion-builder-live-element.fusion-element-alignment-left {
+  justify-content: flex-start;
+}
+.fusion-builder-live:not(.fusion-builder-dragging) .fusion-flex-container .fusion-column-wrapper:not(.fusion-content-layout-block) > div > .fusion-builder-live-element.fusion-element-alignment-right {
+  justify-content: flex-end;
+}
+.fusion-builder-live .fusion-builder-nested-element ~ .fusion-builder-live-element {
+  clear: both;
+}
+.fusion-builder-live .fusion-builder-live-editor .fusion-builder-live-element,
+.fusion-builder-live .fusion-builder-live-editor .fusion-nested-columns {
+  cursor: grab;
+}
+.fusion-builder-live .fusion-builder-live-element,
+.fusion-builder-live .fusion-nested-columns {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-element-content.fusion-loader,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-element-content.fusion-loader {
+  min-height: 100px;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-element-content.fusion-loader > *:not(.fusion-builder-loader),
+.fusion-builder-live .fusion-nested-columns .fusion-builder-element-content.fusion-loader > *:not(.fusion-builder-loader) {
+  opacity: 0.5;
+  transition-duration: 0.5s;
+  transition-property: opacity;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-element-content .fusion-live-editable,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-element-content .fusion-live-editable {
+  cursor: text;
+}
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container {
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container a.fusion-builder-add-element,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container a.fusion-builder-add-element,
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container a.fusion-builder-settings,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container a.fusion-builder-settings,
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container a.fusion-builder-row-settings,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container a.fusion-builder-row-settings {
+  display: block;
+  opacity: 1;
+  width: 33px;
+}
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container a.fusion-builder-settings,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container a.fusion-builder-settings,
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container a.fusion-builder-row-settings,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container a.fusion-builder-row-settings {
+  background-color: #2a3035;
+}
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-builder-live-element:hover > .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings,
+.fusion-builder-live .fusion-nested-columns:hover > .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-module-controls-container .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-module-controls-container .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings {
+  background: transparent !important;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-controls.fusion-builder-child-controls:hover .fusion-builder-settings-child,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-module-controls-container .fusion-builder-controls.fusion-builder-child-controls:hover .fusion-builder-settings-child {
+  background: transparent !important;
+}
+.fusion-builder-live .fusion-builder-editing-child .fusion-nested-columns:not(.editing) > .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-builder-editing-child .fusion-nested-columns:not(.editing) .fusion-builder-empty-container > .fusion-builder-module-controls-container {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-column .fusion-builder-live-element.fusion-global-element .fusion-builder-module-controls-container {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.fusion-builder-live .fusion-builder-column .fusion-builder-live-element.fusion-global-element .fusion-builder-module-controls-container .fusion-builder-module-controls-inner {
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+.fusion-builder-live .fusion-builder-column .fusion-builder-live-element.fusion-global-element .fusion-builder-module-controls-container .fusion-builder-element-global {
+  border-radius: 4px;
+  margin-left: 8px;
+  width: 33px;
+  opacity: 1;
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-builder-column .fusion-builder-live-element.fusion-global-element .fusion-builder-module-controls-container .fusion-builder-module-controls:hover .fusion-builder-settings {
+  background: #2a3035;
+}
+.fusion-builder-live .fusion-builder-column .fusion-builder-live-element.fusion-global-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-global-container .fusion-builder-column .fusion-builder-live-element:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+}
+.fusion-builder-live .fusion-global-container .fusion-builder-column .fusion-builder-live-element .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-global-container .fusion-builder-column .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live .fusion-global-container .fusion-builder-column .fusion-builder-live-element.fusion-global-element .fusion-builder-module-controls-container:hover .fusion-builder-settings {
+  background: #2a3035 !important;
+}
+.fusion-builder-live .fusion-global-column .fusion-builder-live-element:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+}
+.fusion-builder-live .fusion-global-column .fusion-builder-live-element .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-global-column .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-element-content div:not(.fusion-text) .fontawesome-icon {
+  float: none;
+  vertical-align: top;
+}
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-element-content .content-box-counter .fontawesome-icon,
+.fusion-builder-live .fusion-builder-live-element .fusion-builder-element-content .content-box-counter i.fontawesome-icon {
+  vertical-align: middle;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-builder-navigator-outlined:after {
+  background-color: rgba(0, 0, 0, 0);
+  animation-name: highlightBackground;
+  animation-duration: 1.6s;
+  animation-iteration-count: 1;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 11;
+  opacity: 0.7;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  z-index: 9;
+  content: "";
+  display: none;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element:hover:after {
+  display: block;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element > .fusion-builder-module-controls-container {
+  background: transparent;
+  box-shadow: none;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element > .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element > .fusion-builder-module-controls-container .fusion-builder-module-controls-inner {
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element > .fusion-builder-module-controls-container .fusion-builder-element-global {
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+  margin-left: 8px;
+  width: 33px;
+  opacity: 1;
+}
+.fusion-builder-live .fusion-builder-controls .fusion-builder-module-controls-inner {
+  display: flex;
+}
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-live-element .fusion-builder-module-controls-inner {
+  display: none;
+}
+.fusion-builder-live .fusion-slider-sc .fusion-element-placeholder,
+.fusion-builder-live .fusion-image-carousel .fusion-element-placeholder {
+  display: none;
+}
+.fusion-builder-live .fusion-slider-sc.fusion-show-placeholder .fusion-element-placeholder,
+.fusion-builder-live .fusion-image-carousel.fusion-show-placeholder .fusion-element-placeholder {
+  display: block;
+}
+.fusion-builder-live .fusion-slider-sc.fusion-show-placeholder .fusion-carousel-wrapper,
+.fusion-builder-live .fusion-image-carousel.fusion-show-placeholder .fusion-carousel-wrapper {
+  display: none;
+}
+.fusion-builder-live .fusion-slider-sc.fusion-slider-sc-cover .fusion-builder-child-element-content {
+  height: 100%;
+}
+.fusion-builder-live .fusion-rollover {
+  -webkit-transform-style: flat;
+}
+.fusion-builder-live .fusion-tb-footer.fusion-footer .fusion-builder-live-element,
+.fusion-builder-live .fusion-tb-page-title-bar.fusion-page-title-bar .fusion-builder-live-element,
+.fusion-builder-live .fusion-tb-footer.fusion-footer .fusion-nested-columns,
+.fusion-builder-live .fusion-tb-page-title-bar.fusion-page-title-bar .fusion-nested-columns {
+  cursor: auto;
+}
+@keyframes highlightBackground {
+  0% {
+    background-color: rgba(60, 185, 240, 0);
+  }
+  50% {
+    background-color: rgba(60, 185, 240, 0.9);
+  }
+  100% {
+    background-color: rgba(60, 185, 240, 0);
+  }
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-container-spacing {
+  display: none !important;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-builder-container:after {
+  display: none;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-builder-container-status-draft {
+  display: none !important;
+}
+.fusion-builder-live .woocommerce-tabs {
+  overflow: visible;
+}
+.fusion-builder-live .fusion-outline-helper {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-container.scrolling-helper:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-controls,
+.fusion-builder-live .fusion-builder-container.scrolling-helper:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-controls:hover .fusion-builder-container-settings {
+  background-color: #ff743d;
+}
+.fusion-builder-live .fusion-builder-container.scrolling-helper:after {
+  box-shadow: 0 0 0 3px rgba(255, 116, 61, 0.4) !important;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-active-highlight {
+  background-color: rgba(60, 185, 240, 0);
+  animation-name: highlightBackground;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit .fusion-outline-helper {
+  border-top-color: rgba(255, 116, 61, 0.4);
+  border-bottom-color: rgba(255, 116, 61, 0.4);
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit .fusion-panel-shortcut {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  opacity: 0;
+  pointer-events: none;
+  border-radius: 4px;
+  z-index: 99999;
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px;
+  color: #fff;
+  display: block;
+  cursor: pointer;
+  background-color: #2a3035;
+  text-align: center;
+  transition: color 0.1s ease;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit .fusion-panel-shortcut > span {
+  display: block;
+  line-height: 33px;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit .fusion-scroll-section-nav {
+  position: absolute;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit .fusion-scroll-section-nav a {
+  pointer-events: none;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit:hover .fusion-scroll-section-nav {
+  display: block;
+  opacity: 1;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.fusion-scrolling-section-edit:hover .fusion-scroll-section-nav:hover .fusion-panel-shortcut {
+  opacity: 1;
+  pointer-events: auto;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth .hundred-percent-height,
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.hundred-percent-height {
+  height: auto !important;
+  overflow: visible !important;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth.hundred-percent-height {
+  z-index: auto;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth .fusion-outline-helper {
+  opacity: 0;
+  position: absolute;
+  display: block;
+  border-top: 3px dashed #198fd9;
+  border-bottom: 3px dashed #198fd9;
+  width: 100%;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth .fusion-outline-helper.fusion-centered-content {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-fullwidth:hover .fusion-outline-helper {
+  opacity: 1;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-container:hover {
+  z-index: 20;
+}
+.fusion-builder-live .fusion-fullwidth-center-content > .fusion-builder-container-content {
+  width: 100%;
+  margin: 0 auto;
+}
+.fusion-builder-live .fusion-builder-live-editor .fusion-builder-container {
+  cursor: grab;
+}
+.fusion-builder-live .fusion-builder-live-editor .fusion-builder-container .fusion-image-carousel .fusion-carousel .fusion-carousel-holder .fusion-builder-module-controls-container a .fusion-element-tooltip {
+  top: auto;
+  bottom: 100%;
+}
+.fusion-builder-live .fusion-builder-live-editor .fusion-builder-container .fusion-image-carousel .fusion-carousel .fusion-carousel-holder .fusion-builder-module-controls-container a .fusion-element-tooltip:before {
+  border-top-color: #1d2226;
+  border-bottom-color: transparent;
+  bottom: -10px;
+  top: auto;
+  margin-top: 0;
+}
+.fusion-builder-live .fusion-builder-live-editor .fusion-builder-container .fusion-image-carousel .fusion-carousel .fusion-carousel-holder .fusion-builder-module-controls-container a:hover .fusion-element-tooltip {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add .open,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column .open {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add .closed,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column .closed {
+  display: inline-block;
+}
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add:hover .open,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column:hover .open,
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add:active .open,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column:active .open {
+  display: inline-block;
+}
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add:hover .closed,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column:hover .closed,
+.fusion-builder-live .fusion-builder-container .fusion-builder-container-add:active .closed,
+.fusion-builder-live .fusion-builder-container .fusion-builder-insert-column:active .closed {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-container.fusion-builder-element-edited {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-container.fusion-builder-element-edited .fusion-container-spacing {
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-builder-live .fusion-builder-container.fusion-builder-element-edited:not(.fusion-builder-absolute-container-wrapper):after,
+.fusion-builder-live .fusion-builder-container.fusion-builder-element-edited.fusion-builder-absolute-container-wrapper > .fusion-fullwidth:after {
+  box-shadow: 0 0 0 3px #198fd9;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 9;
+}
+.fusion-builder-live .fusion-builder-container.fusion-builder-navigator-outlined > .fusion-fullwidth:after {
+  background-color: rgba(0, 0, 0, 0);
+  animation-name: highlightBackground;
+  animation-duration: 1.6s;
+  animation-iteration-count: 1;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 11;
+  opacity: 0.7;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing {
+  z-index: 11;
+  opacity: 0;
+  visibility: hidden;
+  position: absolute;
+  pointer-events: auto;
+  background: rgba(25, 143, 217, 0.15);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .fusion-spacing-tooltip {
+  opacity: 0;
+  visibility: hidden;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.active .fusion-spacing-tooltip {
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle {
+  position: absolute;
+  background: #198fd9;
+  text-align: center;
+  z-index: 9999;
+  font-size: 11px;
+  line-height: 1;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-n,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-s {
+  left: 50%;
+  cursor: ns-resize;
+  padding: 4px 7px;
+  transition: transform 0.2s ease;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-s {
+  transform: translateX(-50%) translateY(100%);
+  bottom: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-n {
+  transform: translateX(-50%) translateY(-100%);
+  top: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-e,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-w {
+  top: 50%;
+  cursor: ew-resize;
+  padding: 7px 4px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-e:after,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-w:after {
+  transform: rotate(90deg);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-e {
+  transform: translateY(-50%) translateX(100%);
+  right: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle.ui-resizable-w {
+  transform: translateY(-50%) translateX(-100%);
+  left: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle:after {
+  display: inline-block;
+  font-family: "fusion-builder-icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e938";
+  color: #fff;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing .ui-resizable-handle:hover {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top {
+  z-index: 12;
+  left: 0;
+  right: 0;
+  background: rgba(136, 38, 205, 0.15);
+  pointer-events: auto;
+  visibility: visible;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom.active,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top.active,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom:hover,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top:hover {
+  background: rgba(136, 38, 205, 0.4);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom .ui-resizable-handle,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top .ui-resizable-handle {
+  background: #8826cd;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom .ui-resizable-handle:hover,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top .ui-resizable-handle:hover {
+  background: #8826cd;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom:hover,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top:hover {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom .fusion-spacing-tooltip,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top .fusion-spacing-tooltip {
+  top: auto;
+  bottom: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top {
+  bottom: 100% !important;
+  top: auto !important;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top .ui-resizable-s {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top .fusion-spacing-tooltip {
+  transform: translate(-50%, -100%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(0% + 2px), 100%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-top.fusion-overlap .fusion-spacing-tooltip {
+  transform: translate(calc(0% + 2px), -100%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom {
+  top: 100% !important;
+  bottom: auto !important;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom .ui-resizable-s {
+  transform: translate(-50%, 0);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom .fusion-spacing-tooltip {
+  transform: translate(-50%, 200%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(0% + 2px), 0);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-margin-bottom.fusion-overlap .fusion-spacing-tooltip {
+  transform: translate(calc(0% + 2px), 200%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-top {
+  top: 0 !important;
+  left: 0;
+  right: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-top .fusion-spacing-tooltip {
+  top: auto;
+  bottom: -19px;
+  transform: translate(-50%, 200%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-top .ui-resizable-s {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-top.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(-100% - 2px), 100%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-top.fusion-overlap .fusion-spacing-tooltip {
+  transform: translate(calc(-100% - 2px), 200%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-right {
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-right .fusion-spacing-tooltip {
+  top: 50%;
+  transform: translate(-100%, -50%);
+  left: -30px;
+  right: auto;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-right .ui-resizable-w {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-bottom {
+  top: auto !important;
+  bottom: 0 !important;
+  left: 0;
+  right: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-bottom .ui-resizable-s {
+  transform: translate(-50%, 0);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-bottom .fusion-spacing-tooltip {
+  top: auto;
+  bottom: 19px;
+  transform: translate(-50%, -100%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-bottom.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(-100% - 2px), 0);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-bottom.fusion-overlap .fusion-spacing-tooltip {
+  top: auto;
+  bottom: 19px;
+  transform: translate(calc(-100% - 2px), -100%);
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-left {
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-left .fusion-spacing-tooltip {
+  top: 50%;
+  transform: translate(100%, -50%);
+  right: -30px;
+  left: auto;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.fusion-container-padding-left .ui-resizable-e {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing.active,
+.fusion-builder-live .fusion-builder-container .fusion-container-spacing:hover {
+  background: rgba(25, 143, 217, 0.4);
+}
+.fusion-builder-live .fusion-builder-container:hover {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container {
+  display: flex;
+  position: sticky;
+  top: 15px;
+  right: 15px;
+  float: right;
+  margin: 15px 15px 0 0;
+  padding: 0;
+  background: transparent;
+  box-shadow: none;
+}
+.nested-ui-active.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-module-controls {
+  display: flex;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container a.fusion-builder-container-add,
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container a.fusion-builder-container-settings {
+  display: block;
+  opacity: 1;
+  width: 33px;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container a.fusion-builder-container-settings {
+  background-color: #2a3035;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-controls {
+  background: #198fd9;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  float: left;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-scheduled,
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-draft,
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-global {
+  background: #198fd9;
+  border-radius: 4px;
+  margin: 0 0 0 6px;
+  width: 33px;
+  height: 33px;
+  opacity: 1;
+  color: #fff;
+  transition: unset;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-draft {
+  background: #93999f;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-global {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-type-container .fusion-builder-controls:hover .fusion-builder-container-settings {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-builder-container:hover .bg-parallax-parent .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container {
+  position: absolute;
+  top: 15px !important;
+  left: auto;
+}
+.fusion-builder-live .fusion-builder-container:hover .fusion-fullwidth.fusion-scrolling-section-edit:after {
+  box-shadow: inset 0 0 0 2px #fa732e;
+}
+.fusion-builder-live .fusion-builder-container:not(.fusion-builder-absolute-container-wrapper):hover:after {
+  box-shadow: 0 0 0 3px rgba(25, 143, 217, 0.4);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 9;
+}
+.fusion-builder-live .fusion-builder-container.fusion-builder-absolute-container-wrapper:hover > .fusion-fullwidth:after {
+  box-shadow: 0 0 0 3px rgba(25, 143, 217, 0.4);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 9;
+}
+.fusion-builder-live .fusion-builder-container.fusion-has-filters .fusion-fullwidth {
+  z-index: 20;
+}
+.fusion-builder-live .fusion-builder-container.fusion-has-filters .fusion-container-spacing {
+  z-index: 21;
+}
+.fusion-builder-live .fusion-builder-container.fusion-has-filters .fusion-container-spacing .fusion-container-margin-top,
+.fusion-builder-live .fusion-builder-container.fusion-has-filters .fusion-container-spacing .fusion-container-margin-bottom {
+  z-index: 22;
+}
+.fusion-builder-live .fusion-builder-container .fusion-flex-container .fusion-builder-row-content,
+.fusion-builder-live .fusion-builder-container .fusion-flex-container .fusion-builder-column-content {
+  width: 100%;
+}
+.fusion-builder-live .fusion-builder-container .fusion-flex-container .fusion_builder_row,
+.fusion-builder-live .fusion-builder-container .fusion-flex-container .fusion_builder_row_inner,
+.fusion-builder-live .fusion-builder-container .fusion-flex-container .fusion-builder-container-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-fullwidth:after,
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4) !important;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-type-container .fusion-builder-controls {
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-type-container .fusion-builder-controls:hover .fusion-builder-container-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container .fusion-builder-container-global {
+  margin-left: 6px;
+  width: 33px;
+  opacity: 1;
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-row-container .fusion-builder-column .fusion-builder-column-controls-inner,
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-row-container .fusion-builder-live-element .fusion-builder-column-controls-inner,
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-row-container .fusion-builder-column .fusion-builder-module-controls-inner,
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-row-container .fusion-builder-live-element .fusion-builder-module-controls-inner {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-empty-container .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4) !important;
+}
+.fusion-builder-live .fusion-builder-container.fusion-global-container .fusion-builder-empty-column .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live .fullwidth-box:hover {
+  visibility: visible;
+}
+.fusion-builder-live #main {
+  position: relative;
+}
+.fusion-builder-live.fusion-sticky-header:not(.fusion-builder-preview-mode) .fusion-builder-container.fusion-column-sizer-active {
+  z-index: auto;
+}
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-module-controls-type-container .fusion-builder-module-controls {
+  display: none !important;
+}
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-module-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-module-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-module-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-module-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-module-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-column-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-column-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-column-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-column-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-column-controls-inner a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-module-controls-container a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-module-controls-container a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-module-controls-container a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-module-controls-container a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-module-controls-container a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-module-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-module-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-module-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-module-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-module-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-column-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-column-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-column-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-column-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-column-controls-inner a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-module-controls-container a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-module-controls-container a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-module-controls-container a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-module-controls-container a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-module-controls-container a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-module-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-module-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-module-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-module-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-module-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-column-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-column-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-column-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-column-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-column-controls-inner a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-builder-module-controls-container a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-builder-module-controls-container a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-builder-module-controls-container a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-builder-module-controls-container a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-builder-module-controls-container a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip {
+  display: none;
+}
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-draft .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-draft .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-draft .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-draft .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-draft .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-scheduled .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-scheduled .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-scheduled .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-scheduled .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-scheduled .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-column-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-column-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-column-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-column-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-column-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-element-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-element-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-element-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-element-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-element-global .fusion-container-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-draft .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-draft .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-draft .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-draft .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-draft .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-scheduled .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-scheduled .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-scheduled .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-scheduled .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-scheduled .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-column-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-column-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-column-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-column-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-column-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-element-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-element-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-element-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-element-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-element-global .fusion-element-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-draft .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-draft .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-draft .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-draft .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-draft .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-container-scheduled .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-container-scheduled .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-container-scheduled .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-container-scheduled .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-container-scheduled .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-column-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-column-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-column-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-column-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-column-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls-type-container a.fusion-builder-element-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-module-controls a.fusion-builder-element-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-column-controls a.fusion-builder-element-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-builder-empty-column a.fusion-builder-element-global .fusion-column-tooltip,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-special-item a.fusion-builder-element-global .fusion-column-tooltip {
+  display: none;
+}
+.fusion-builder-live .width-100 .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper {
+  margin-right: 0 !important;
+}
+.fusion-builder-live .fusion-tb-footer.fusion-footer .fusion-builder-container,
+.fusion-builder-live .fusion-tb-page-title-bar.fusion-page-title-bar .fusion-builder-container {
+  cursor: auto;
+}
+.fusion-builder-tooltip {
+  transform: translateX(-50%);
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a,
+.fusion-special-item.fusion-builder-module-controls-type-container a,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a,
+.fusion-special-item .fusion-builder-module-controls a,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a,
+.fusion-special-item + .fusion-builder-editing-icons a,
+.fusion-builder-module-controls-container .fusion-special-item-controls a,
+.fusion-special-item .fusion-special-item-controls a {
+  position: relative;
+  overflow: visible;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip,
+.fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip,
+.fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip,
+.fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 200;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease 0.2s;
+  bottom: 100%;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip .fusion-tooltip-text,
+.fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip .fusion-tooltip-text {
+  display: inline-block;
+  background: #1d2226;
+  color: #fff;
+  border: 1px solid #1d2226;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip:before,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip:before,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip:before,
+.fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip:before,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip:before,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip:before,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip:before,
+.fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip:before,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip:before,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip:before,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip:before,
+.fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip:before,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip:before,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip:before,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip:before,
+.fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip:before,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip:before,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip:before,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip:before,
+.fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip:before,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip:before,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip:before,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip:before,
+.fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip:before {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #1d2226;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip.fusion-tooltip-bottom {
+  top: 100%;
+  bottom: auto;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip.fusion-tooltip-bottom:before,
+.fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip.fusion-tooltip-bottom:before {
+  top: -10px;
+  bottom: auto;
+  border-top-color: transparent;
+  border-bottom-color: #1d2226;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span,
+.fusion-special-item.fusion-builder-module-controls-type-container a span,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span,
+.fusion-special-item .fusion-builder-module-controls a span,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span,
+.fusion-special-item + .fusion-builder-editing-icons a span,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span,
+.fusion-special-item .fusion-special-item-controls a span {
+  display: block;
+  line-height: 33px;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-container-tooltip,
+.fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-container-tooltip,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-container-tooltip,
+.fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-container-tooltip,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-column-tooltip,
+.fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-column-tooltip,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-column-tooltip,
+.fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-column-tooltip,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-element-tooltip,
+.fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-element-tooltip,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-element-tooltip,
+.fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-element-tooltip,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-element-tooltip,
+.fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-element-tooltip,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-element-tooltip,
+.fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-element-tooltip {
+  opacity: 1;
+  visibility: visible;
+  transition: all 0.2s ease 0.2s;
+  margin-bottom: 10px;
+}
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-container-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-column-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom,
+.fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-element-tooltip.fusion-tooltip-bottom {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip {
+  top: 100%;
+  bottom: auto;
+}
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a .fusion-container-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a .fusion-column-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a .fusion-element-tooltip:before,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a .fusion-element-tooltip:before {
+  top: -10px;
+  bottom: auto;
+  border-top-color: transparent;
+  border-bottom-color: #1d2226;
+}
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-container-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-column-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container.fusion-builder-module-controls-type-container a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item.fusion-builder-module-controls-type-container a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-builder-module-controls a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-builder-module-controls a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container + .fusion-builder-editing-icons a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item + .fusion-builder-editing-icons a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-builder-module-controls-container .fusion-special-item-controls a span:hover ~ .fusion-element-tooltip,
+.fusion-tb-header .fusion-special-item .fusion-special-item-controls a span:hover ~ .fusion-element-tooltip {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.fusion-builder-live .fusion-tb-header .fusion-builder-container:hover:after {
+  z-index: 0;
+}
+.fusion-builder-live .fusion-column-sizer-active {
+  z-index: auto;
+  position: relative;
+}
+.fusion-builder-live .fusion-column-sizer-active:hover {
+  z-index: auto;
+}
+.fusion-builder-live .fusion-column-sizer-active .fusion_builder_row .fusion-builder-row {
+  z-index: auto;
+}
+.fusion-builder-live .fusion-builder-live-editor .fusion-column-wrapper {
+  cursor: grab;
+}
+.fusion-builder-live .fusion-builder-column > .fusion-builder-add-element {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-column.fusion-builder-editing-child > .fusion-builder-module-controls-container {
+  display: none !important;
+}
+.fusion-builder-live .fusion-builder-column .column-sizes {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-column .column-sizes.fusion-expand-to-bottom {
+  top: 100%;
+  bottom: auto !important;
+  transform: translateY(5px) !important;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.fusion-builder-live .fusion-builder-column .column-sizes.fusion-expand-to-bottom h4 {
+  width: 100%;
+}
+.fusion-builder-live .fusion-builder-column > .fusion-builder-module-controls-container {
+  margin-left: 0;
+  padding-left: 0;
+}
+.fusion-builder-live .fusion-builder-column > .fusion-builder-module-controls-container a.fusion-builder-insert-column,
+.fusion-builder-live .fusion-builder-column > .fusion-builder-module-controls-container a.fusion-builder-column-settings {
+  display: block;
+  opacity: 1;
+  width: 33px;
+}
+.fusion-builder-live .fusion-builder-column > .fusion-builder-module-controls-container a.fusion-builder-column-settings {
+  background-color: #2a3035;
+}
+.fusion-builder-live .fusion-builder-column > .fusion-builder-module-controls-container a.fusion-builder-column-size {
+  font-weight: 600;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .fusion-builder-column > .fusion-builder-module-controls-container .fusion-builder-column-controls .fusion-builder-column-controls-inner:hover .fusion-builder-column-settings {
+  background: transparent;
+}
+.fusion-builder-live .fusion-builder-column.active:not(.awb-sticky),
+.fusion-builder-live .fusion-builder-column:hover:not(.awb-sticky),
+.fusion-builder-live .fusion-builder-column.fusion-builder-element-edited:not(.awb-sticky) {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-column.active > .fusion-column-wrapper:after,
+.fusion-builder-live .fusion-builder-column:hover > .fusion-column-wrapper:after,
+.fusion-builder-live .fusion-builder-column.fusion-builder-element-edited > .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(25, 143, 217, 0.4);
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 9;
+}
+.fusion-builder-live .fusion-builder-column.active > .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-builder-column:hover > .fusion-builder-module-controls-container {
+  display: block;
+}
+.fusion-builder-live .fusion-builder-column.fusion-builder-element-edited > .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px #198fd9;
+}
+.fusion-builder-live .fusion-builder-column.fusion-builder-navigator-outlined:not(.awb-sticky) {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-column.fusion-builder-navigator-outlined > .fusion-column-wrapper:after {
+  background-color: rgba(0, 0, 0, 0);
+  animation-name: highlightBackground;
+  animation-duration: 1.6s;
+  animation-iteration-count: 1;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 11;
+  opacity: 0.7;
+}
+.fusion-builder-live .fusion-builder-column.active {
+  /* Column Sizes UI */
+}
+.fusion-builder-live .fusion-builder-column.active > .fusion-builder-module-controls-container .fusion-builder-module-controls a .fusion-column-tooltip {
+  display: none;
+}
+.fusion-builder-live .fusion-builder-column.active > .fusion-builder-module-controls-container .fusion-builder-module-controls a:first-child {
+  background-color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-column.active .column-sizes {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  position: absolute;
+  bottom: 100%;
+  z-index: 99999999;
+  width: 230px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  transform: translateY(-10px);
+  display: block;
+}
+.fusion-builder-live .fusion-builder-column.active .column-sizes h4 {
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 12px !important;
+  color: #222;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .fusion-builder-column.active .column-sizes .column-size {
+  width: calc(100% / 6);
+  float: left;
+  text-align: center;
+  border-right: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  color: #222;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 0;
+  font-weight: 600;
+}
+.fusion-builder-live .fusion-builder-column.active .column-sizes .column-size:hover {
+  background: #f9f9f9;
+}
+.fusion-builder-live .fusion-builder-column.active .column-sizes .column-size.active-size {
+  background: #eff7fc;
+  color: #3894db;
+}
+.fusion-builder-live .fusion-flex-column > .fusion-column-wrapper {
+  position: relative;
+}
+.fusion-builder-live .fusion-flex-column > .fusion-column-wrapper > .fusion-clearfix {
+  display: none;
+}
+.fusion-builder-live .fusion-flex-column .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-nested-column-content {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-auto > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-auto > .fusion-nested-column-content {
+  align-self: auto;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-flex-start > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-flex-start > .fusion-nested-column-content {
+  align-self: flex-start;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-center > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-center > .fusion-nested-column-content {
+  align-self: center;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-flex-end > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-flex-end > .fusion-nested-column-content {
+  align-self: flex-end;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-stretch > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-stretch > .fusion-nested-column-content {
+  align-self: stretch;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-baseline > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-self-baseline > .fusion-nested-column-content {
+  align-self: baseline;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-normal > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-normal > .fusion-nested-column-content {
+  justify-content: normal;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-flex-start > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-flex-start > .fusion-nested-column-content {
+  justify-content: flex-start;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-center > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-center > .fusion-nested-column-content {
+  justify-content: center;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-flex-end > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-flex-end > .fusion-nested-column-content {
+  justify-content: flex-end;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-space-between > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-space-between > .fusion-nested-column-content {
+  justify-content: space-between;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-space-evenly > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-space-evenly > .fusion-nested-column-content {
+  justify-content: space-evenly;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-space-around > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-justify-content-space-around > .fusion-nested-column-content {
+  justify-content: space-around;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-items-center > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-items-center > .fusion-nested-column-content {
+  align-items: center;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-items-flex-end > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-items-flex-end > .fusion-nested-column-content {
+  align-items: flex-end;
+}
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-items-stretch > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-flex-align-items-stretch > .fusion-nested-column-content {
+  align-items: stretch;
+}
+.fusion-builder-live .fusion-flex-column .fusion-content-layout-row > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-content-layout-row > .fusion-nested-column-content {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.fusion-builder-live .fusion-flex-column .fusion-content-layout-row.fusion-content-nowrap > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-content-layout-row.fusion-content-nowrap > .fusion-nested-column-content {
+  flex-wrap: nowrap;
+}
+.fusion-builder-live .fusion-flex-column .fusion-content-layout-block > .fusion-builder-column-content,
+.fusion-builder-live .fusion-flex-column .fusion-content-layout-block > .fusion-nested-column-content {
+  display: block;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column .fusion-builder-module-controls-type-column {
+  background: transparent !important;
+  box-shadow: none !important;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column .fusion-builder-module-controls-type-column .fusion-builder-module-controls-inner,
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column .fusion-builder-module-controls-type-column .fusion-builder-column-global {
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column .fusion-builder-module-controls-type-column .fusion-builder-column-global {
+  border-radius: 4px;
+  margin-left: 6px;
+  width: 33px;
+  opacity: 1;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column .fusion-builder-empty-column .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column.fusion-global-column.active .fusion-builder-column-controls .fusion-builder-column-controls-inner .fusion-builder-column-settings {
+  background: #fe4774;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-global-container .fusion-builder-column.active .fusion-builder-column-controls .fusion-builder-column-controls-inner .fusion-builder-column-settings {
+  background: #fe4774;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-global-container .fusion-nested-columns .fusion-builder-module-controls-type-row-nested .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings {
+  background: #fe4774;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-container.scrolling-helper .fusion-builder-column.fusion-global-column .fusion-builder-module-controls-type-column .fusion-builder-column-controls {
+  background: transparent !important;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-container.scrolling-helper .fusion-builder-column.fusion-global-column .fusion-builder-live-element .fusion-builder-controls.fusion-builder-module-controls .fusion-builder-module-controls-inner:hover .fusion-builder-settings {
+  background: #ff743d !important;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-column-wrapper.fusion-column-has-overflow-hidden:hover {
+  overflow: visible;
+}
+.fusion-builder-live .fusion-builder-controls .fusion-builder-module-controls-inner {
+  display: flex;
+  border-radius: 4px;
+}
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-module-controls-type-column .fusion-builder-module-controls-inner {
+  display: none;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-column-spacing,
+.fusion-builder-live.fusion-builder-preview-mode .fusion-element-spacing {
+  display: none !important;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-column-wrapper:after {
+  display: none !important;
+}
+.fusion-builder-live .fusion-tb-footer.fusion-footer .fusion-column-wrapper,
+.fusion-builder-live .fusion-tb-page-title-bar.fusion-page-title-bar .fusion-column-wrapper {
+  cursor: auto;
+}
+.fusion-builder-live .fusion-builder-live-child-element {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-live-child-element:hover:after {
+  border: 1px dashed #3cb9f0;
+  position: absolute;
+  pointer-events: none;
+  content: "";
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+}
+.fusion-builder-live .fusion-builder-live-child-element:hover .fusion-builder-module-controls-container {
+  display: block;
+  bottom: 0;
+  top: auto;
+  left: auto;
+  right: 0;
+}
+.fusion-builder-live .fusion-builder-live-child-element:hover .fusion-builder-module-controls-container a {
+  cursor: pointer;
+}
+body.fusion-builder-live .fusion-builder-live-child-element:hover .fusion-builder-module-controls-container a.fusion-builder-add-child,
+body.fusion-builder-live .fusion-builder-live-child-element:hover .fusion-builder-module-controls-container a.fusion-builder-settings-child {
+  display: block;
+  opacity: 1;
+  width: 33px;
+  color: #fff;
+}
+.fusion-builder-live .fusion-builder-live-child-element:hover .fusion-builder-module-controls-container a.fusion-builder-settings-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+  background-color: #2a3035;
+}
+.fusion-builder-live .fusion-builder-live-child-element:hover .fusion-builder-module-controls-container .fusion-builder-module-controls:hover .fusion-builder-settings-child {
+  background: #198fd9;
+  border-radius: 0;
+}
+.fusion-builder-live .fusion-builder-live-child-element.fusion-flip-box-wrapper {
+  min-height: 0;
+}
+.fusion-builder-live .fusion-builder-live-child-element.fusion-gallery-column {
+  display: block;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element .fusion-builder-live-child-element:hover:after {
+  border-color: #fe4774;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element .fusion-builder-live-child-element .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element .fusion-builder-live-child-element .fusion-builder-module-controls:hover .fusion-builder-settings-child {
+  background: #fe4774 !important;
+}
+.fusion-builder-live .fusion-builder-live-element.fusion-global-parent-element > .fusion-builder-module-controls-container {
+  background: transparent !important;
+}
+.fusion-builder-live .fusion-global-element .fusion-builder-live-child-element:hover:after,
+.fusion-builder-live .fusion-global-parent-element .fusion-builder-live-child-element:hover:after,
+.fusion-builder-live .fusion-global-nested-row .fusion-builder-live-child-element:hover:after,
+.fusion-builder-live .fusion-global-column .fusion-builder-live-child-element:hover:after,
+.fusion-builder-live .fusion-global-container .fusion-builder-live-child-element:hover:after {
+  border-color: #fe4774;
+}
+.fusion-builder-live .fusion-counters-box .fusion-builder-live-child-element.fusion-column:hover:after {
+  margin-left: 7px;
+  margin-right: 7px;
+}
+.fusion-builder-live .fusion-content-boxes .fusion-builder-live-child-element.fusion-column:hover:after {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.fusion-builder-live .fusion-content-boxes .fusion-builder-live-child-element .fusion-builder-module-controls-container {
+  right: 15px;
+}
+.fusion-builder-live .fusion-flip-boxes .fusion-builder-live-child-element.fusion-column:hover:after {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 15px;
+}
+.fusion-builder-live .fusion-flip-boxes .fusion-builder-live-child-element .fusion-builder-module-controls-container {
+  right: 15px;
+  bottom: 15px;
+}
+.fusion-builder-live .fusion-gallery-container .fusion-builder-live-child-element:hover:after {
+  margin-left: 5px;
+  margin-right: 5px;
+}
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-live-child-element .fusion-builder-module-controls-container,
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-nested-element .fusion-builder-module-controls-container,
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-live-child-element .fusion-builder-module-controls-type-row-nested,
+.fusion-builder-live.fusion-builder-no-ui .fusion-builder-nested-element .fusion-builder-module-controls-type-row-nested {
+  display: none !important;
+}
+.fusion-builder-live:not(.nested-ui-active) .fusion_builder_row_inner.fusion-builder-nested-element .fusion-builder-live-element .fusion-child-element.fusion-checklist li {
+  pointer-events: none;
+}
+.fusion-builder-live:not(.nested-ui-active) .fusion_builder_row_inner.fusion-builder-nested-element .fusion-builder-live-element .fusion-child-element.fusion-checklist li:after {
+  border: 0;
+}
+.fusion-builder-live.nested-ui-active .fusion_builder_row_inner.fusion-builder-nested-element .fusion-builder-live-element .fusion-child-element.fusion-checklist li:hover .fusion-builder-module-controls-container {
+  display: block;
+  transition: inherit;
+}
+.fusion-builder-live.nested-ui-active:not(.fusion-builder-preview-mode) .fusion-builder-live-element:not(.editing) {
+  opacity: 0.2;
+}
+.fusion-builder-live.nested-ui-active:not(.fusion-builder-preview-mode) .fusion-container-editing-child .bg-parallax-parent {
+  z-index: 9999 !important;
+  overflow: visible !important;
+}
+.fusion-builder-live.nested-ui-active:not(.fusion-builder-preview-mode) .fusion-nested-columns:not(.editing) .fusion-builder-column {
+  pointer-events: none;
+}
+.fusion-builder-live.nested-ui-active:not(.fusion-builder-preview-mode) .fusion-nested-columns:not(.editing) .fusion-builder-column .fusion-builder-empty-column {
+  padding: 0;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns.editing {
+  z-index: 10;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns.editing .fusion-builder-live-element {
+  opacity: 1;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns.editing:after {
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  box-shadow: 0 0 150px 150px rgba(0, 0, 0, 0.2) !important;
+  position: absolute;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns.editing .fusion-builder-empty-column .fusion-builder-module-controls-container {
+  display: block !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns.editing .fusion-builder-empty-column .fusion-builder-module-controls-container .fusion-builder-controls .fusion-builder-add-element {
+  display: block !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns .fusion-builder-live-element {
+  z-index: inherit !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-add-element,
+.fusion-builder-live.nested-ui-active .fusion-builder-container-add,
+.fusion-builder-live.nested-ui-active .fusion-builder-insert-column,
+.fusion-builder-live.nested-ui-active .fusion-builder-live-child-element:after {
+  display: none !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-empty-container .fusion-builder-insert-column {
+  display: block !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-empty-container .fusion-builder-module-controls-container {
+  background: #3464d1;
+}
+.fusion-builder-live.nested-ui-active .fusion-column-wrapper:not(.fusion-column-has-shadow),
+.fusion-builder-live.nested-ui-active .fusion-fullwidth {
+  box-shadow: inset 0 0 0 2px rgba(60, 185, 240, 0) !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-column-wrapper:not(.fusion-column-has-shadow),
+.fusion-builder-live.nested-ui-active .fusion-fullwidth:not(.fusion-sticky-container) {
+  transition: box-shadow 0.2s ease, filter 0.3s ease;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-column-outer > .fusion-builder-module-controls-container {
+  display: none !important;
+}
+.fusion-builder-live.nested-ui-active .fusion_builder_row_inner.editing {
+  box-shadow: 0 0 0 3px rgba(52, 100, 209, 0.5);
+  border-radius: 4px;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-row-editing-child > .fusion-builder-column-outer:not(.fusion-builder-editing-child) {
+  z-index: 11;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-column-outer.fusion-builder-editing-child {
+  z-index: 12;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-column.active .fusion-column-wrapper:after,
+.fusion-builder-live.nested-ui-active .fusion-builder-column:not(.fusion-builder-editing-child):hover .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(52, 100, 209, 0.5);
+}
+.fusion-builder-live.nested-ui-active.nested-columns-edited .fusion-builder-column:hover .fusion-column-wrapper:after,
+.fusion-builder-live.nested-ui-active .fusion-builder-column.fusion-builder-editing-child:hover .fusion-column-wrapper:after {
+  box-shadow: none;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-column-inner .fusion-builder-add-element {
+  display: none;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns .fusion-builder-column-inner .fusion-builder-add-element {
+  display: none !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover > .fusion-builder-add-element {
+  display: none !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-container:not(.fusion-global-container) .fusion-builder-column:not(.fusion-global-column) .fusion-nested-columns:not(.fusion-global-nested-row).editing .fusion-builder-column-inner .fusion-builder-module-controls-container {
+  background: #3464d1;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-container:not(.fusion-global-container) .fusion-builder-column:not(.fusion-global-column) .fusion-nested-columns:not(.fusion-global-nested-row).editing .fusion-builder-column-inner .fusion-builder-module-controls-container:hover .fusion-builder-settings-column {
+  background-color: transparent;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-container:not(.fusion-global-container) .fusion-builder-column:not(.fusion-global-column) .fusion-nested-columns:not(.fusion-global-nested-row).editing .fusion-builder-editing-icons {
+  background: #3464d1;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-container:not(.fusion-global-container) .fusion-builder-column:not(.fusion-global-column) .fusion-nested-columns:not(.fusion-global-nested-row).editing .fusion-builder-editing-icons:hover .fusion-builder-cancel-row {
+  background-color: transparent;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-column .fusion-column-wrapper.fusion-column-has-overflow-hidden {
+  overflow: visible;
+}
+.fusion-builder-live.nested-ui-active .fusion-row:not(.fusion-builder-row-editing-child) {
+  z-index: 8;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-nested-columns.editing,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-nested-columns.editing {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-nested-columns.editing .fusion-builder-column .fusion-builder-module-controls-type-column-nested .fusion-builder-controls,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-nested-columns.editing .fusion-builder-column .fusion-builder-module-controls-type-column-nested .fusion-builder-controls {
+  background: #fe4774 !important;
+  border-radius: 4px;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-nested-columns.editing .fusion-builder-column .fusion-builder-module-controls-type-column-nested .fusion-builder-controls:hover .fusion-builder-settings-column,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-nested-columns.editing .fusion-builder-column .fusion-builder-module-controls-type-column-nested .fusion-builder-controls:hover .fusion-builder-settings-column {
+  background: #fe4774 !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-builder-editing-icons,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-builder-editing-icons {
+  background: #fe4774 !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-builder-editing-icons:hover .fusion-builder-cancel-row,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-builder-editing-icons:hover .fusion-builder-cancel-row {
+  background: #fe4774 !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-builder-column.fusion-builder-column-inner:hover,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-builder-column.fusion-builder-column-inner:hover {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4) !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-container .fusion-builder-empty-column .fusion-builder-module-controls-container,
+.fusion-builder-live.nested-ui-active .fusion-global-column .fusion-builder-empty-column .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-live-element {
+  z-index: 0 !important;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-nested-row .fusion-builder-column .fusion-builder-module-controls-type-column-nested .fusion-builder-controls {
+  background: #fe4774 !important;
+  border-radius: 0 4px 4px 0;
+}
+.fusion-builder-live.nested-ui-active .fusion-global-nested-row .fusion-builder-column .fusion-builder-module-controls-type-column-nested .fusion-builder-controls:hover .fusion-builder-settings-column {
+  background: #fe4774;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-row-container .fusion-builder-column .fusion-builder-live-element .fusion-builder-module-controls-container {
+  display: none;
+}
+.fusion-builder-live.nested-ui-active .fusion-builder-row-container .fusion-builder-column.fusion-builder-column-outer.fusion-global-column:hover .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+}
+.fusion-builder-live:not(.nested-ui-active):not(.fusion-builder-preview-mode) .fusion_builder_row_inner:hover {
+  box-shadow: 0 0 0 3px rgba(52, 100, 209, 0.5);
+  border-radius: 4px;
+}
+.fusion-builder-live:not(.nested-ui-active):not(.fusion-builder-preview-mode) .fusion-column-wrapper .fusion-nested-columns .fusion-builder-row-container-inner .fusion-builder-column {
+  pointer-events: none;
+}
+.fusion-builder-live:not(.nested-ui-active):not(.fusion-builder-preview-mode) .fusion-column-wrapper .fusion-nested-columns .fusion-builder-row-container-inner .fusion-builder-column .fusion-builder-empty-column {
+  padding: 0;
+}
+.fusion-builder-live:not(.nested-ui-active):not(.fusion-builder-preview-mode) .fusion-column-wrapper .fusion-nested-columns .fusion-builder-live-element,
+.fusion-builder-live:not(.nested-ui-active):not(.fusion-builder-preview-mode) .fusion-column-wrapper .fusion-nested-columns .fusion-nested-column-content {
+  pointer-events: none;
+}
+.fusion-builder-live .fusion_builder_row_inner.fusion-nested-columns {
+  clear: both;
+}
+.fusion-builder-live .fusion-builder-column:not(.fusion-builder-editing-child):hover .fusion-builder-row-container-inner .fusion-builder-column-inner .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0) !important;
+}
+.fusion-builder-live .fusion-builder-column:not(.fusion-builder-editing-child) .fusion-builder-module-controls-type-row-nested {
+  background: #3464d1;
+}
+.fusion-builder-live .fusion-row-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: 9;
+  background: transparent;
+}
+.fusion-builder-live .fusion_builder_row_inner.editing .fusion-row-overlay {
+  z-index: 0;
+  background: transparent;
+}
+.fusion-builder-live .fusion_builder_row_inner.editing .fusion-builder-row-content {
+  position: relative;
+  z-index: 1;
+}
+.fusion-builder-live .fusion_builder_row_inner.editing .fusion-builder-nested-columns-settings:after {
+  clear: both;
+  content: " ";
+  display: table;
+}
+.fusion-builder-live .fusion_builder_row_inner.fusion-builder-navigator-outlined > .fusion-builder-row-content:after {
+  background-color: rgba(0, 0, 0, 0);
+  animation-name: highlightBackground;
+  animation-duration: 1.6s;
+  animation-iteration-count: 1;
+  border-radius: 4px;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  pointer-events: none;
+  content: "";
+  z-index: 11;
+  opacity: 0.7;
+}
+.fusion-builder-live.avada-footer-fx-parallax-effect #main {
+  z-index: 10;
+}
+.fusion-builder-live .fusion-live-search .fusion-search-field {
+  z-index: 9;
+}
+.fusion-builder-live .fusion-nested-columns .fusion-builder-editing-icons {
+  display: none;
+}
+.fusion-builder-live .fusion-nested-columns .fusion-builder-column-inner .fusion-column-wrapper:not(.fusion-column-has-shadow) {
+  box-shadow: none;
+}
+.fusion-builder-live .fusion-nested-columns .fusion-builder-column-inner .fusion-builder-empty-column .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-add-element,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-column-inner .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-nested-columns .fusion-builder-live-element .fusion-builder-module-controls-container {
+  display: none;
+}
+.fusion-builder-live .fusion-nested-columns.editing .fusion-builder-column-inner.active > .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-nested-columns.editing .fusion-builder-column-inner:hover > .fusion-builder-module-controls-container {
+  display: block;
+  z-index: 999999;
+}
+.fusion-builder-live .fusion-nested-columns.editing .fusion-builder-column-inner > .fusion-builder-module-controls-container a.fusion-builder-row-add-child,
+.fusion-builder-live .fusion-nested-columns.editing .fusion-builder-column-inner > .fusion-builder-module-controls-container a.fusion-builder-settings-column {
+  display: block;
+  opacity: 1;
+  width: 33px;
+}
+.fusion-builder-live .fusion-nested-columns.editing .fusion-builder-column-inner > .fusion-builder-module-controls-container a.fusion-builder-settings-column {
+  background-color: #2a3035;
+  border-radius: 4px 0 0 4px;
+}
+.fusion-builder-live .fusion-nested-columns.editing .fusion-builder-column-inner > .fusion-builder-module-controls-container:hover .fusion-builder-settings-column {
+  background-color: #198fd9;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover .fusion-builder-add-element,
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover > .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-live-child-element:hover:after,
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-live-element:hover > .fusion-builder-module-controls-container {
+  display: block !important;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-editing-icons {
+  position: absolute;
+  bottom: -40px;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  background: #198fd9;
+  border-radius: 4px;
+  z-index: 99999999;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-editing-icons a {
+  width: 33px;
+  font-size: 14px;
+  line-height: 33px;
+  color: #fff;
+  display: block;
+  float: left;
+  text-align: center;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-editing-icons a.fusion-builder-cancel-row {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-editing-icons:hover a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-editing-icons:hover a:hover {
+  color: #fff;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-editing-icons:hover .fusion-builder-cancel-row {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover > .fusion-builder-module-controls-container {
+  display: none;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover > .fusion-builder-add-element,
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover > .fusion-builder-module-controls-container,
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-nested-element:hover > .fusion-builder-module-controls-container {
+  display: block;
+}
+.fusion-builder-live .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover:after {
+  box-shadow: 0 0 0 2px rgba(52, 100, 209, 0.5) !important;
+  transition: box-shadow 0.2s ease;
+  border-radius: 4px;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  position: absolute;
+  pointer-events: none;
+}
+.fusion-builder-live .fusion-nested-columns.fusion-global-nested-row.editing:hover .fusion-builder-editing-icons:hover .fusion-builder-cancel-row {
+  background: #fe4774;
+}
+.fusion-builder-live.active {
+  /* Column Sizes UI */
+}
+.fusion-builder-live.active > .fusion-builder-module-controls-container .fusion-builder-module-controls a:first-child {
+  background-color: #198fd9;
+}
+.fusion-builder-live.active .column-sizes {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  overflow: hidden;
+  position: absolute;
+  bottom: 100%;
+  z-index: 99999999;
+  width: 230px;
+  background: white;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  display: block;
+}
+.fusion-builder-live.active .column-sizes h4 {
+  font-weight: 600;
+  display: block;
+  text-align: center;
+  margin: 10px 0;
+  text-transform: uppercase;
+  font-size: 12px;
+  color: #222;
+}
+.fusion-builder-live.active .column-sizes .column-size {
+  width: calc(100% / 6);
+  float: left;
+  text-align: center;
+  border-right: 1px solid #f1f1f1;
+  border-top: 1px solid #f1f1f1;
+  color: #222;
+  cursor: pointer;
+  font-size: 12px;
+  padding: 5px 0;
+  font-weight: 600;
+}
+.fusion-builder-live.active .column-sizes .column-size:hover {
+  background: #f9f9f9;
+}
+.fusion-builder-live .fusion-builder-row-container-inner {
+  float: left;
+  width: 100%;
+}
+.fusion-builder-live .fusion-builder-nested-element .fusion-builder-modal-top-container,
+.fusion-builder-live .fusion-builder-nested-element .fusion-builder-modal-bottom-container {
+  display: none;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-module-controls-container.fusion-builder-module-controls-type-row-nested {
+  background: transparent;
+  box-shadow: none;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-module-controls-container.fusion-builder-module-controls-type-row-nested .fusion-builder-module-controls .fusion-builder-module-controls-inner {
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-module-controls-container.fusion-builder-module-controls-type-row-nested .fusion-builder-module-controls .fusion-builder-module-controls-inner:hover a.fusion-builder-row-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-module-controls-container.fusion-builder-module-controls-type-row-nested .fusion-builder-element-global {
+  background: #fe4774;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+  margin-left: 8px;
+  width: 33px;
+  opacity: 1;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-live-element:after,
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4) !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-live-element .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings {
+  background: #fe4774;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-live-element .fusion-builder-module-controls:hover .fusion-builder-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-editing-icons {
+  background: #fe4774 !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-global-nested-row .fusion-builder-editing-icons .fusion-builder-cancel-row:hover {
+  background: #fe4774 !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-column-wrapper {
+  overflow: visible !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-nested-row .fusion-builder-column:hover,
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-column .fusion-builder-column:hover {
+  box-shadow: none !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-nested-row .fusion-builder-column .fusion-column-wrapper:after,
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-column .fusion-builder-column .fusion-column-wrapper:after {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4) !important;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-nested-row .fusion-builder-column .fusion-builder-module-controls-type-column-nested,
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-column .fusion-builder-column .fusion-builder-module-controls-type-column-nested {
+  background: #fe4774;
+}
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-nested-row.fusion-builder-nested-element.editing,
+.fusion-builder-live :not(.fusion-builder-preview-mode) .fusion-builder-editing-child .fusion-global-column.fusion-builder-nested-element.editing {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4) !important;
+}
+.fusion-builder-live:not(.nested-ui-active) .fusion-nested-columns .fusion-builder-empty-container .fusion-builder-insert-inner-column {
+  display: none !important;
+}
+.fusion-builder-live .fusion-global-nested-row .fusion-builder-module-controls-type-row-nested {
+  background: transparent !important;
+}
+.fusion-builder-live .fusion-global-nested-row .fusion-builder-module-controls-type-row-nested .fusion-builder-controls .fusion-builder-module-controls-inner .fusion-builder-row-settings {
+  background: #2a3035 !important;
+}
+.fusion-builder-live .fusion-global-nested-row .fusion-nested-column-content .fusion-builder-empty-column .fusion-builder-module-controls-container {
+  background: #fe4774;
+}
+.fusion-builder-live .fusion-global-column .fusion-column-wrapper .fusion-builder-column-content .fusion_builder_row_inner:hover {
+  box-shadow: 0 0 0 3px rgba(254, 71, 116, 0.4);
+}
+.fusion-builder-live .fusion-global-column .fusion-nested-columns .fusion-builder-module-controls-type-row-nested .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live .fusion-global-column .fusion-builder-module-controls-type-row-nested {
+  background: transparent;
+  box-shadow: none;
+}
+.fusion-builder-live .fusion-global-column .fusion-builder-module-controls-type-row-nested .fusion-builder-controls .fusion-builder-module-controls-inner {
+  background: #fe4774 !important;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  border-radius: 4px;
+}
+.fusion-builder-live .fusion-global-column .fusion-builder-module-controls-type-row-nested .fusion-builder-controls .fusion-builder-module-controls-inner:hover .fusion-builder-row-settings {
+  background: #fe4774 !important;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-row-overlay {
+  display: none !important;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-builder-editing-icons,
+.fusion-builder-live.fusion-builder-preview-mode .fusion-builder-module-controls-container {
+  display: none !important;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover,
+.fusion-builder-live.fusion-builder-preview-mode .fusion-builder-column-inner,
+.fusion-builder-live.fusion-builder-preview-mode .fusion-nested-columns {
+  box-shadow: none !important;
+}
+.fusion-builder-live.fusion-builder-preview-mode .fusion-nested-columns.editing:hover .fusion-builder-column-inner:hover:after,
+.fusion-builder-live.fusion-builder-preview-mode .fusion-builder-column-inner:after,
+.fusion-builder-live.fusion-builder-preview-mode .fusion-nested-columns:after {
+  display: none !important;
+}
+.fusion-builder-live.nested-columns-edited .fusion-builder-live-editor .fusion-builder-container .fusion-fullwidth,
+.fusion-builder-live.fusion-builder-nested-cols-dialog-open .fusion-builder-live-editor .fusion-builder-container .fusion-fullwidth {
+  z-index: auto !important;
+}
+.fusion-builder-live.single-fusion_tb_section.fusion-builder-nested-cols-dialog-open #main {
+  z-index: auto !important;
+}
+.fusion-special-item {
+  display: flex;
+  align-items: center;
+  justify-content: normal;
+  margin: 20px 0;
+  border-radius: 8px;
+  background-color: #f2f3f5;
+  cursor: grab;
+}
+.fusion-special-item.fusion-builder-next-page-last {
+  display: none;
+}
+.fusion-special-item.fusion-builder-next-page-last .fusion-builder-delete-special-item,
+.fusion-special-item.fusion-builder-next-page-last .fusion-builder-special-item-drag {
+  display: none;
+}
+.fusion-builder-preview-mode .fusion-special-item,
+.fusion-special-item.live-preview-active {
+  justify-content: space-between;
+  background-color: transparent;
+}
+.fusion-builder-preview-mode .fusion-special-item.fusion-builder-next-page-last,
+.fusion-special-item.live-preview-active.fusion-builder-next-page-last {
+  display: flex;
+}
+.fusion-builder-preview-mode .fusion-special-item .fusion-builder-special-item-drag,
+.fusion-special-item.live-preview-active .fusion-builder-special-item-drag {
+  display: none;
+}
+.fusion-builder-preview-mode .fusion-special-item .fusiona-toggle-off,
+.fusion-special-item.live-preview-active .fusiona-toggle-off {
+  display: none;
+}
+.fusion-builder-preview-mode .fusion-special-item .fusiona-toggle-on,
+.fusion-special-item.live-preview-active .fusiona-toggle-on {
+  display: inline;
+}
+.fusion-builder-preview-mode .fusion-special-item .fusion-builder-special-item-desc,
+.fusion-special-item.live-preview-active .fusion-builder-special-item-desc {
+  display: none;
+}
+.fusion-builder-preview-mode .fusion-special-item .fusion-builder-next-page-pagination,
+.fusion-special-item.live-preview-active .fusion-builder-next-page-pagination {
+  display: block;
+}
+.fusion-special-item .fusion-special-item-controls {
+  display: inline-block;
+  padding: 10px 15px;
+  border-radius: 4px;
+}
+.fusion-special-item .fusion-special-item-controls .fusion-builder-controls {
+  height: 33px;
+  background-color: #2a3035;
+  border-radius: 4px;
+}
+.fusion-special-item .fusion-special-item-controls a {
+  float: left;
+  transition: color 0.1s ease;
+  font-size: 14px;
+  line-height: 33px;
+  width: 33px;
+  height: 33px;
+  display: block;
+  text-align: center;
+  color: #fff;
+}
+.fusion-special-item .fusion-special-item-controls a:hover {
+  color: #fff;
+}
+.fusion-special-item .fusion-special-item-controls:hover a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.fusion-special-item .fusion-special-item-controls:hover a:hover {
+  color: #fff;
+}
+.fusion-special-item .fusiona-toggle-on {
+  display: none;
+}
+.fusion-special-item .fusion-builder-special-item-desc {
+  color: #6f7178;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+}
+.fusion-special-item .fusion-builder-next-page-pagination {
+  display: none;
+  margin: 0;
+}
+.fusion-special-item .fusion-builder-next-page-link .current {
+  border-color: transparent;
+}
+.fusion-builder-live .fusion-builder-context-menu {
+  position: absolute;
+  z-index: 99999999;
+  background: #fff;
+  border-radius: 6px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  min-width: 130px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .fusion-builder-context-menu > span {
+  text-align: center;
+  display: block;
+  padding: 0 16px;
+  min-height: 32px;
+  line-height: 32px;
+  background: #23282d;
+  color: #fff;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.fusion-builder-live .fusion-builder-context-menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 10px;
+}
+.fusion-builder-live .fusion-builder-context-menu ul li {
+  display: block;
+  padding: 6px 10px;
+  line-height: normal;
+  cursor: pointer;
+  transition: all 0.1s ease;
+  color: #2a3035;
+  font-size: 13px;
+  font-weight: 400;
+  border-radius: 4px;
+  letter-spacing: normal;
+}
+.fusion-builder-live .fusion-builder-context-menu ul li:hover {
+  background-color: rgba(25, 143, 217, 0.07);
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-builder-context-menu:hover ul {
+  color: rgba(255, 255, 255, 0.6);
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu {
+  background: transparent;
+  min-width: 0;
+  opacity: 0;
+  overflow: visible;
+  border-radius: 0;
+  transform: translateY(30px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu ul {
+  display: flex;
+  padding: 0;
+  background-color: transparent;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li {
+  display: inline-block;
+  padding: 0;
+  height: 33px;
+  width: 33px;
+  line-height: 33px;
+  color: #fff;
+  background-color: #2a3035;
+  transition: color 0.1s ease;
+  position: relative;
+  border-radius: 0;
+  text-align: center;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li .fusion-element-tooltip {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  z-index: 200;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.2s ease 0.2s;
+  bottom: 100%;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li .fusion-element-tooltip .fusion-tooltip-text {
+  display: inline-block;
+  background: #1d2226;
+  color: #fff;
+  border: 1px solid #1d2226;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  white-space: nowrap;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li .fusion-element-tooltip:before {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #1d2226;
+  position: absolute;
+  bottom: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li:hover {
+  color: #fff;
+  background-color: #2a3035;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu li:hover .fusion-element-tooltip {
+  opacity: 1;
+  visibility: visible;
+  margin-bottom: 10px;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu:hover li {
+  color: rgba(255, 255, 255, 0.6);
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu:hover li:hover {
+  color: #fff;
+}
+.fusion-builder-live .fusion-builder-context-menu.fusion-builder-inline-context-menu.fusion-builder-inline-context-menu-loaded {
+  opacity: 1;
+  transform: translateY(0);
+}
+.fusion-builder-live.fusion-builder-no-ui .fusion-live-editable:not([data-medium-focused]) .fusion-builder-context-menu ul li[data-action="edit"] {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-dialog-ui-active ul li[data-action="edit"] {
+  display: none;
+}
+.fusion-column-spacing {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translateX(100%);
+  height: 100%;
+  background: rgba(255, 235, 59, 0);
+  z-index: 100;
+  transition: background-color 0.3s ease;
+  min-width: 1px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.rtl .fusion-column-spacing {
+  right: auto;
+  left: 0;
+  transform: translateX(-100%);
+}
+.fusion-column-spacing .ui-resizable-handle {
+  position: absolute;
+  background: rgba(255, 235, 59, 0.8);
+  text-align: center;
+  z-index: 9999;
+  font-size: 11px;
+  line-height: 1;
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.fusion-column-spacing .ui-resizable-handle.ui-resizable-e,
+.fusion-column-spacing .ui-resizable-handle.ui-resizable-w {
+  top: 50%;
+  cursor: ew-resize;
+  padding: 7px 4px;
+  transform: translateY(-50%);
+  right: 0;
+}
+.rtl .fusion-column-spacing .ui-resizable-handle.ui-resizable-e,
+.rtl .fusion-column-spacing .ui-resizable-handle.ui-resizable-w {
+  right: auto;
+  left: 0;
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.fusion-column-spacing .ui-resizable-handle.ui-resizable-e:after,
+.fusion-column-spacing .ui-resizable-handle.ui-resizable-w:after {
+  transform: rotate(90deg);
+}
+.fusion-column-spacing .ui-resizable-handle:after {
+  display: inline-block;
+  font-family: "fusion-builder-icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e938";
+  color: #fff;
+}
+.fusion-column-spacing .ui-resizable-handle:hover {
+  background: #ffeb3b;
+}
+.fusion-column-spacing.fusion-overlap .ui-resizable-w,
+.fusion-column-spacing.fusion-overlap .ui-resizable-e {
+  transform: translateY(2px);
+}
+.fusion-builder-live .ui-resizable-s {
+  width: 24px;
+  height: 20px;
+}
+.fusion-builder-live .ui-resizable-e,
+.fusion-builder-live .ui-resizable-w {
+  width: 18px;
+  height: 26px;
+}
+.fusion-column-spacing.active,
+.fusion-column-spacing:hover {
+  background: rgba(255, 212, 1, 0.4);
+}
+.fusion-column-spacing,
+.fusion-spacing-value {
+  height: 100% !important;
+}
+.fusion-spacing-value {
+  left: 0 !important;
+}
+.fusion-builder-live-editor .fusion-column-last {
+  margin-right: 0 !important;
+  margin-left: 0 !important;
+}
+.fusion-builder-live-editor .fusion-column-last > .fusion-column-spacing {
+  display: none !important;
+}
+.fusion-spacing-tooltip {
+  z-index: 100;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #1d2226;
+  color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  padding: 5px 4px;
+  line-height: 1;
+  font-size: 11px;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.3s ease;
+}
+.fusion-spacing-tooltip.active {
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-builder-element-edited > .fusion-column-wrapper > .fusion-column-spacers .fusion-element-spacing {
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-element-spacing {
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  pointer-events: auto;
+  background: rgba(25, 143, 217, 0.15);
+}
+.fusion-element-spacing.ui-resizable {
+  position: absolute;
+}
+.fusion-element-spacing .fusion-spacing-tooltip {
+  opacity: 0;
+  visibility: hidden;
+}
+.fusion-element-spacing .fusion-spacing-tooltip.active {
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-element-spacing .ui-resizable-handle {
+  position: absolute;
+  background: #198fd9;
+  text-align: center;
+  z-index: 9999;
+  font-size: 11px;
+  line-height: 1;
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-n,
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-s {
+  left: 50%;
+  cursor: ns-resize;
+  padding: 4px 7px;
+  transition: transform 0.3s ease;
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-s {
+  transform: translateX(-50%) translateY(100%);
+  bottom: 0;
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-n {
+  transform: translateX(-50%) translateY(-100%);
+  top: 0;
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-e,
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-w {
+  top: 50%;
+  cursor: ew-resize;
+  padding: 7px 4px;
+  transition: transform 0.3s ease;
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-e:after,
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-w:after {
+  transform: rotate(90deg);
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-e {
+  transform: translateY(-50%) translateX(100%);
+  right: 0;
+}
+.fusion-element-spacing .ui-resizable-handle.ui-resizable-w {
+  transform: translateY(-50%) translateX(-100%);
+  left: 0;
+}
+.fusion-element-spacing .ui-resizable-handle:after {
+  display: inline-block;
+  font-family: "fusion-builder-icons";
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  content: "\e938";
+  color: #fff;
+}
+.fusion-element-spacing .ui-resizable-handle:hover {
+  background: #198fd9;
+}
+.fusion-element-spacing.fusion-column-margin-left,
+.fusion-element-spacing.fusion-column-margin-right,
+.fusion-element-spacing.fusion-column-margin-bottom,
+.fusion-element-spacing.fusion-column-margin-top {
+  left: 0;
+  right: 0;
+  background: rgba(136, 38, 205, 0.15);
+  transform: none;
+}
+.fusion-element-spacing.fusion-column-margin-left.ui-resizable-resizing,
+.fusion-element-spacing.fusion-column-margin-right.ui-resizable-resizing,
+.fusion-element-spacing.fusion-column-margin-bottom.ui-resizable-resizing,
+.fusion-element-spacing.fusion-column-margin-top.ui-resizable-resizing,
+.fusion-element-spacing.fusion-column-margin-left:hover,
+.fusion-element-spacing.fusion-column-margin-right:hover,
+.fusion-element-spacing.fusion-column-margin-bottom:hover,
+.fusion-element-spacing.fusion-column-margin-top:hover {
+  background: rgba(136, 38, 205, 0.4);
+}
+.fusion-element-spacing.fusion-column-margin-left .ui-resizable-handle,
+.fusion-element-spacing.fusion-column-margin-right .ui-resizable-handle,
+.fusion-element-spacing.fusion-column-margin-bottom .ui-resizable-handle,
+.fusion-element-spacing.fusion-column-margin-top .ui-resizable-handle {
+  background: #8826cd;
+}
+.fusion-element-spacing.fusion-column-margin-left .ui-resizable-handle:hover,
+.fusion-element-spacing.fusion-column-margin-right .ui-resizable-handle:hover,
+.fusion-element-spacing.fusion-column-margin-bottom .ui-resizable-handle:hover,
+.fusion-element-spacing.fusion-column-margin-top .ui-resizable-handle:hover {
+  background: #8826cd;
+}
+.fusion-element-spacing.fusion-column-margin-left:hover,
+.fusion-element-spacing.fusion-column-margin-right:hover,
+.fusion-element-spacing.fusion-column-margin-bottom:hover,
+.fusion-element-spacing.fusion-column-margin-top:hover {
+  opacity: 1;
+  pointer-events: auto;
+  visibility: visible;
+}
+.fusion-element-spacing.fusion-column-margin-left .fusion-spacing-tooltip,
+.fusion-element-spacing.fusion-column-margin-right .fusion-spacing-tooltip,
+.fusion-element-spacing.fusion-column-margin-bottom .fusion-spacing-tooltip,
+.fusion-element-spacing.fusion-column-margin-top .fusion-spacing-tooltip {
+  top: auto;
+  bottom: 0;
+}
+.fusion-element-spacing.fusion-column-margin-top {
+  bottom: 100% !important;
+  top: auto !important;
+}
+.fusion-element-spacing.fusion-column-margin-top .ui-resizable-s {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-margin-top .fusion-spacing-tooltip {
+  transform: translate(-50%, -100%);
+}
+.fusion-element-spacing.fusion-column-margin-top.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(0% + 2px), 100%);
+}
+.fusion-element-spacing.fusion-column-margin-top.fusion-overlap .fusion-spacing-tooltip {
+  transform: translate(calc(0% + 2px), -100%);
+}
+.fusion-element-spacing.fusion-column-margin-bottom {
+  top: 100% !important;
+  bottom: auto !important;
+}
+.fusion-element-spacing.fusion-column-margin-bottom .ui-resizable-s {
+  transform: translateX(-50%) translateY(0);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-margin-bottom .fusion-spacing-tooltip {
+  transform: translate(-50%, 200%);
+}
+.fusion-element-spacing.fusion-column-margin-bottom.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(0% + 2px), 0);
+}
+.fusion-element-spacing.fusion-column-margin-bottom.fusion-overlap .fusion-spacing-tooltip {
+  transform: translate(calc(0% + 2px), 200%);
+}
+.fusion-element-spacing.fusion-column-margin-left {
+  top: 0 !important;
+  bottom: 0 !important;
+  left: auto;
+  right: 100%;
+  height: 100%;
+}
+.fusion-element-spacing.fusion-column-margin-left .fusion-spacing-tooltip {
+  top: 50%;
+  transform: translate(100%, -50%);
+  right: -30px;
+  left: auto;
+  bottom: auto;
+}
+.fusion-element-spacing.fusion-column-margin-left .ui-resizable-e {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-margin-left.fusion-overlap .ui-resizable-e {
+  transform: translate(100%, 2px);
+}
+.fusion-element-spacing.fusion-column-margin-right {
+  top: 0 !important;
+  bottom: 0 !important;
+  right: auto !important;
+  left: 100% !important;
+  height: 100%;
+}
+.fusion-element-spacing.fusion-column-margin-right .fusion-spacing-tooltip {
+  top: 50%;
+  transform: translate(100%, -50%);
+  right: calc(100% + 56px);
+  left: auto;
+  bottom: auto;
+}
+.fusion-element-spacing.fusion-column-margin-right .ui-resizable-w {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-margin-right.fusion-overlap .ui-resizable-w {
+  transform: translateY(2px) translateX(-100%);
+}
+.fusion-element-spacing.fusion-column-padding-top {
+  top: 0 !important;
+  left: 0;
+  right: 0;
+}
+.fusion-element-spacing.fusion-column-padding-top .fusion-spacing-tooltip {
+  top: auto;
+  bottom: -19px;
+  transform: translate(-50%, 200%);
+}
+.fusion-element-spacing.fusion-column-padding-top .ui-resizable-s {
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-padding-top.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(-100% - 2px), 100%);
+}
+.fusion-element-spacing.fusion-column-padding-top.fusion-overlap .fusion-spacing-tooltip {
+  transform: translate(calc(-100% - 2px), 200%);
+}
+.fusion-element-spacing.fusion-column-padding-right {
+  top: 0 !important;
+  bottom: 0 !important;
+  right: 0 !important;
+  left: auto !important;
+}
+.fusion-element-spacing.fusion-column-padding-right .fusion-spacing-tooltip {
+  top: 50%;
+  transform: translate(-100%, -50%);
+  left: -30px;
+  right: auto;
+}
+.fusion-element-spacing.fusion-column-padding-right .ui-resizable-w {
+  border-top-left-radius: 2px;
+  border-bottom-left-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-padding-right.fusion-overlap .ui-resizable-w {
+  transform: translate(-100%, calc(-100% - 2px));
+}
+.fusion-element-spacing.fusion-column-padding-bottom {
+  top: auto !important;
+  bottom: 0 !important;
+  left: 0;
+  right: 0;
+}
+.fusion-element-spacing.fusion-column-padding-bottom .ui-resizable-s {
+  transform: translateX(-50%) translateY(0);
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-padding-bottom .fusion-spacing-tooltip {
+  top: auto;
+  bottom: 19px;
+  transform: translate(-50%, -100%);
+}
+.fusion-element-spacing.fusion-column-padding-bottom.fusion-overlap .ui-resizable-s {
+  transform: translate(calc(-100% - 2px), 0);
+}
+.fusion-element-spacing.fusion-column-padding-bottom.fusion-overlap .fusion-spacing-tooltip {
+  top: auto;
+  bottom: 19px;
+  transform: translate(calc(-100% - 2px), -100%);
+}
+.fusion-element-spacing.fusion-column-padding-left {
+  top: 0 !important;
+  bottom: 0 !important;
+  left: 0;
+}
+.fusion-element-spacing.fusion-column-padding-left .fusion-spacing-tooltip {
+  top: 50%;
+  transform: translate(100%, -50%);
+  right: -30px;
+  left: auto;
+}
+.fusion-element-spacing.fusion-column-padding-left .ui-resizable-e {
+  border-top-right-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.fusion-element-spacing.fusion-column-padding-left.fusion-overlap .ui-resizable-e {
+  transform: translate(100%, calc(-100% - 2px));
+}
+.fusion-element-spacing.active,
+.fusion-element-spacing:hover {
+  background: rgba(25, 143, 217, 0.4);
+}
+.fusion-image-hover-effect .fusion-element-spacing.fusion-column-padding-top,
+.fusion-image-hover-effect .fusion-element-spacing.fusion-column-padding-right,
+.fusion-image-hover-effect .fusion-element-spacing.fusion-column-padding-bottom,
+.fusion-image-hover-effect .fusion-element-spacing.fusion-column-padding-left {
+  z-index: 10;
+}
+.fusion-builder-live .fusion-parent-sortable .fusion-column,
+.fusion-builder-live .fusion-parent-sortable .col {
+  clear: none !important;
+}
+.fusion-builder-live .fusion-builder-column-drag,
+.fusion-builder-live .fusion-builder-container-drag,
+.fusion-builder-live .fusion-builder-element-drag {
+  cursor: grab !important;
+}
+.fusion-builder-live .fusion-builder-container + .fusion-builder-container .fusion-container-target.target-before {
+  display: none !important;
+}
+.fusion-builder-live .fusion-builder-container.hide-target-after .fusion-container-target.target-after {
+  display: none !important;
+}
+.fusion-builder-live .fusion-builder-live-element + .fusion-builder-live-element .fusion-element-target.target-before {
+  display: none !important;
+}
+.fusion-builder-live .target-disabled {
+  display: none !important;
+}
+.fusion-builder-live .fusion-droppable {
+  background: #d2d3d5;
+  border-radius: 4px;
+  position: absolute;
+  display: none;
+  z-index: 9999;
+}
+.fusion-builder-live .fusion-droppable:after {
+  position: absolute;
+  content: "";
+  width: 0;
+  height: 0;
+}
+.fusion-builder-live .fusion-droppable.ui-droppable-hover {
+  background: #198fd9;
+  z-index: 999999;
+  opacity: 1 !important;
+}
+.fusion-builder-live .fusion-droppable-horizontal {
+  height: 4px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+.fusion-builder-live .fusion-droppable-horizontal:after {
+  border-left: 4px solid transparent;
+  border-right: 4px solid transparent;
+  border-bottom: 4px solid #d2d3d5;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+.fusion-builder-live .fusion-droppable-horizontal.ui-droppable-hover:after {
+  border-bottom-color: #198fd9;
+}
+.fusion-builder-live .fusion-droppable-horizontal.target-after {
+  top: auto;
+  bottom: 0;
+}
+.fusion-builder-live .fusion-droppable-horizontal.target-after:after {
+  border-top: 4px solid #d2d3d5;
+  border-bottom: none;
+  top: 100%;
+  bottom: auto;
+}
+.fusion-builder-live .fusion-droppable-horizontal.target-after.ui-droppable-hover:after {
+  border-top-color: #198fd9;
+}
+.fusion-builder-live .fusion-droppable-horizontal.target-replace {
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fusion-builder-live .fusion-droppable-horizontal.target-replace:after {
+  background: #d2d3d5;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  border: none !important;
+}
+.fusion-builder-live .fusion-droppable-horizontal.target-replace.ui-droppable-hover:after {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-droppable-vertical {
+  width: 35%;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: transparent;
+}
+.fusion-builder-live .fusion-droppable-vertical:after {
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-right: 4px solid #d2d3d5;
+  top: 50%;
+  right: 100%;
+  transform: translateY(-50%);
+}
+.fusion-builder-live .fusion-droppable-vertical:before {
+  background: #d2d3d5;
+  position: absolute;
+  content: "";
+  width: 4px;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+}
+.fusion-builder-live .fusion-droppable-vertical.ui-droppable-hover {
+  background: transparent;
+}
+.fusion-builder-live .fusion-droppable-vertical.ui-droppable-hover:before {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-droppable-vertical.ui-droppable-hover:after {
+  border-right-color: #198fd9;
+}
+.fusion-builder-live .fusion-droppable-vertical.target-after {
+  left: auto;
+  right: 0;
+}
+.fusion-builder-live .fusion-droppable-vertical.target-after:after {
+  border-left: 4px solid #d2d3d5;
+  border-right: none;
+  left: 100%;
+  right: auto;
+}
+.fusion-builder-live .fusion-droppable-vertical.target-after:before {
+  left: auto;
+  right: 0;
+}
+.fusion-builder-live .fusion-droppable-vertical.target-after.ui-droppable-hover:after {
+  border-left-color: #198fd9;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical {
+  width: 100%;
+  left: 0;
+  top: 0;
+  height: 35%;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical:after,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical:after {
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-bottom: 4px solid #d2d3d5;
+  top: auto;
+  bottom: 100%;
+  left: 50%;
+  right: auto;
+  transform: translateX(-50%);
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical:before,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical:before {
+  height: 4px;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical.ui-droppable-hover:after,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical.ui-droppable-hover:after {
+  border-bottom-color: #198fd9;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical.target-after,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical.target-after {
+  top: auto;
+  bottom: 0;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical.target-after:after,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical.target-after:after {
+  border-right: 4px solid transparent;
+  border-left: 4px solid transparent;
+  border-top: 4px solid #d2d3d5;
+  border-bottom: none;
+  top: 100%;
+  bottom: auto;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical.target-after:before,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical.target-after:before {
+  top: auto;
+  bottom: 0;
+}
+.fusion-builder-live .fusion-one-full > .fusion-droppable-vertical.target-after.ui-droppable-hover:after,
+.fusion-builder-live .fusion-flex-column.fusion-builder-column-1_1 > .fusion-droppable-vertical.target-after.ui-droppable-hover:after {
+  border-top-color: #198fd9;
+}
+.fusion-builder-live.fusion-active-dragging {
+  overflow: hidden;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-column-wrapper:after,
+.fusion-builder-live.fusion-active-dragging .fusion-outline-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-builder-module-controls-container,
+.fusion-builder-live.fusion-active-dragging .fusion-builder-live-child-element:after {
+  display: none !important;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-being-dragged {
+  opacity: 0.2;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-being-dragged:after {
+  content: "";
+  border: 3px dashed #000;
+  border-radius: 4px;
+  top: -2px;
+  left: -2px;
+  right: -2px;
+  bottom: -2px;
+  position: absolute;
+  z-index: 99999;
+  display: block;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-being-dragged .fusion-droppable {
+  display: none !important;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper {
+  background: #198fd9;
+  color: #fff;
+  padding: 13px;
+  font-size: 14px;
+  line-height: 1;
+  border-radius: 4px;
+  cursor: move;
+  cursor: grabbing;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.container-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.container-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.container-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.row-inner-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.row-inner-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.row-inner-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.column-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.column-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.column-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.column-inner-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.column-inner-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.column-inner-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.element-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.element-scrolling-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.element-scrolling-helper {
+  background: #ff743d;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.container-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.container-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.container-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.row-inner-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.row-inner-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.row-inner-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.column-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.column-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.column-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.column-inner-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.column-inner-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.column-inner-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.element-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.element-global-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.element-global-helper {
+  background: #fe4774;
+}
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.row-inner-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.row-inner-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.row-inner-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.column-inner-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.column-inner-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.column-inner-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-container-helper.element-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-column-helper.element-nested-helper,
+.fusion-builder-live.fusion-active-dragging .fusion-element-helper.element-nested-helper {
+  background: #3464d1;
+}
+.fusion-builder-live.fusion-container-dragging .fusion-being-dragged:after {
+  border: none !important;
+}
+.fusion-builder-live.fusion-container-dragging .fusion-builder-container,
+.fusion-builder-live.fusion-container-dragging .fusion-special-item {
+  position: relative;
+}
+.fusion-builder-live.fusion-container-dragging .fusion-container-target {
+  display: block;
+}
+.fusion-builder-live.fusion-element-dragging:not(.nested-columns-edited) .fusion-element-target,
+.fusion-builder-live.fusion-element-dragging .fusion_builder_row_inner.editing .fusion-builder-row-content .fusion-element-target {
+  display: block;
+}
+.fusion-builder-live.fusion-element-dragging.fusion-hide-droppables:not(.nested-columns-edited) .fusion-element-target,
+.fusion-builder-live.fusion-element-dragging.fusion-hide-droppables .fusion_builder_row_inner.editing .fusion-builder-row-content .fusion-element-target {
+  opacity: 0;
+}
+.fusion-builder-live.fusion-element-dragging:not(.nested-columns-edited) .fusion-builder-row-container-inner .fusion-element-target {
+  display: none;
+}
+.fusion-builder-live.fusion-column-dragging .fusion-column-target.target-before,
+.fusion-builder-live.fusion-column-dragging .fusion-column-target.target-after {
+  display: block;
+}
+.fusion-builder-live.fusion-column-dragging .fusion-builder-empty-container .fusion-column-target {
+  display: block;
+}
+.fusion-builder-live.fusion-column-dragging.fusion-hide-droppables .fusion-column-target.target-before,
+.fusion-builder-live.fusion-column-dragging.fusion-hide-droppables .fusion-column-target.target-after {
+  opacity: 0;
+}
+.fusion-builder-live.fusion-column-dragging.fusion-hide-droppables .fusion-builder-empty-container .fusion-column-target {
+  opacity: 0;
+}
+.fusion-builder-live.fusion-nested-column-dragging .fusion-nested-columns.editing .fusion-nested-column-target.target-after,
+.fusion-builder-live.fusion-nested-column-dragging .fusion-nested-columns.editing .fusion-nested-column-target.target-before {
+  display: block;
+}
+.fusion-builder-live.fusion-hide-droppables .fusion-nested-columns.editing .fusion-nested-column-target.target-after,
+.fusion-builder-live.fusion-hide-droppables .fusion-nested-columns.editing .fusion-nested-column-target.target-before {
+  opacity: 0;
+}
+.fusion-builder-live .fusion-flex-column .fusion-droppable-vertical:before {
+  left: -2px;
+}
+.fusion-builder-live .fusion-flex-column .fusion-droppable-vertical.target-after:before {
+  right: -2px;
+  left: auto;
+}
+.fusion-builder-live.fusion-column-dragging-responsive-mode .fusion-builder-container:not(.fusion-has-active-drop-targets) .ui-droppable.ui-droppable-hover {
+  opacity: 0 !important;
+}
+.fusion-builder-live.fusion-column-dragging-responsive-mode.fusion-column-dragging .fusion-builder-container:not(.fusion-has-active-drop-targets) .fusion-column-target.target-before,
+.fusion-builder-live.fusion-column-dragging-responsive-mode.fusion-column-dragging .fusion-builder-container:not(.fusion-has-active-drop-targets) .fusion-column-target.target-after {
+  display: none !important;
+}
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-add,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-add,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-save,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-save,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-clone,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-clone,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-drag,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-drag,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-remove,
+.fusion-builder-live-preview.fusion-element-post-type-sections .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container .fusion-builder-container-remove {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-column .fusion-builder-module-controls-type-column,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-column:hover .fusion-builder-module-controls-type-column {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-container .fusion-builder-module-controls-container-wrapper,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-add-element,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element:hover .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-add-element,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-clone,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element:hover .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-clone,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-element-save,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element:hover .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-element-save,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-element-drag,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element:hover .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-element-drag,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-remove,
+.fusion-builder-live-preview.fusion-element-post-type-elements .fusion-builder-live-element:hover .fusion-builder-module-controls-container .fusion-builder-module-controls .fusion-builder-remove {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-insert-column,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-insert-column,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-insert-column,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-insert-column,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-save,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-save,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-save,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-save,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-clone,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-clone,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-clone,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-clone,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-drag,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-drag,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-drag,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-drag,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-remove,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner) > .fusion-builder-module-controls-type-column .fusion-builder-column-remove,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-remove,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-column:not(.fusion-builder-column-inner):hover > .fusion-builder-module-controls-type-column .fusion-builder-column-remove {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-container .fusion-builder-module-controls-container-wrapper,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-container .fusion-builder-module-controls-container-wrapper,
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper,
+.fusion-builder-live-preview.fusion-element-post-type-columns .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper {
+  display: none;
+}
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-column-outer > .fusion-builder-module-controls-container > .fusion-builder-controls > .fusion-builder-module-controls-inner > .fusion-builder-column-size {
+  display: none !important;
+}
+.fusion-builder-live-preview.fusion-element-post-type-post_cards .fusion-builder-live-editor .fusion-post-card-image {
+  text-align: center;
+}
+.fusion-builder-live-preview.fusion-element-post-type-post_cards #fusion_builder_container {
+  margin: 0 auto;
+  width: 50%;
+}
+#fusion-load-studio-dialog {
+  background: #64bc7a;
+  color: #fff;
+  border: none;
+}
+#fusion-load-studio-dialog .fusiona-avada-logo {
+  margin-right: 5px;
+}
+#fusion-load-studio-dialog:hover {
+  background: #5aa96e;
+}

@@ -1,0 +1,102 @@
+.fusion-tagcloud-element {
+  flex-wrap: wrap;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.fusion-tagcloud-element a.tag-cloud-link {
+  --tag-color: rgba(255, 255, 255, 0);
+  --tag-color-hover: var(--footer_link_color_hover);
+  --tag-text-color: var(--footer_link_color);
+  --tag-text-color-hover: #fff;
+  --tag-border-color: var(--footer_divider_color);
+  --tag-border-color-hover: var(--primary_color);
+  display: flex;
+  margin: 0;
+  padding: 0.75em 1em;
+  font-size: 14px;
+  min-height: 40px;
+  line-height: 1;
+  align-items: center;
+  border: 1px solid;
+  background-color: var(--tag-color);
+  color: var(--tag-text-color) !important;
+  border-color: var(--tag-border-color);
+}
+.fusion-tagcloud-element a.tag-cloud-link:hover {
+  background-color: var(--tag-color-hover) !important;
+  color: var(--tag-text-color-hover) !important;
+  border-color: var(--tag-border-color-hover) !important;
+}
+.fusion-tagcloud-element a.tag-cloud-link .tag-link-count {
+  margin-inline-start: 0.25em;
+}
+.fusion-tagcloud-element.style-arrows a.tag-cloud-link {
+  background: none !important;
+  border: none;
+  overflow: hidden;
+  padding: 0;
+  cursor: pointer;
+  display: flex;
+  align-items: stretch;
+  transition: 0.24s;
+  line-height: 1.7;
+  height: 2.4em;
+  font-size: 15px;
+}
+.fusion-tagcloud-element.style-arrows a.tag-cloud-link .text {
+  background-color: var(--tag-color);
+  color: var(--tag-text-color);
+  padding: 0 0.65em 0 0.5em;
+  display: flex;
+  align-items: center;
+}
+.fusion-tagcloud-element.style-arrows a.tag-cloud-link .arrow {
+  height: 100%;
+}
+.fusion-tagcloud-element.style-arrows a.tag-cloud-link .arrow svg {
+  height: 100%;
+  width: auto;
+  display: block;
+  transform: translate(0.1px, 0.1px);
+  color: var(--tag-color);
+}
+.fusion-tagcloud-element.style-arrows a.tag-cloud-link:hover .text {
+  background-color: var(--tag-color-hover);
+  color: var(--tag-text-color-hover);
+}
+.fusion-tagcloud-element.style-arrows a.tag-cloud-link:hover svg {
+  color: var(--tag-color-hover);
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="1"] {
+  --size: 1;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="2"] {
+  --size: 2;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="3"] {
+  --size: 3;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="4"] {
+  --size: 4;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="5"] {
+  --size: 5;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="6"] {
+  --size: 6;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="7"] {
+  --size: 7;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="8"] {
+  --size: 8;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link[data-size="9"] {
+  --size: 9;
+}
+.fusion-tagcloud-element.variable-font-size a.tag-cloud-link {
+  --size: 4;
+  font-size: calc(var(--size) * 0.2rem + 0.5rem);
+}

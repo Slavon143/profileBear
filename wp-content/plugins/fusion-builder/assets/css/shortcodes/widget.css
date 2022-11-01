@@ -1,0 +1,14 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-widget.fusion-widget-align-center {
+  text-align: center;
+}
+.fusion-widget.fusion-widget-align-right {
+  text-align: right;
+}
+.fusion-widget.fusion-widget-align-left {
+  text-align: left;
+}
+.fusion-widget.fusion-widget-element .widget {
+  margin: 0;
+}

@@ -1,0 +1,126 @@
+.avada-db-table ol {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.avada-db-table tr textarea {
+  width: 100%;
+  height: 150px;
+}
+.awb-critical-hero {
+  display: flex;
+  align-items: center;
+}
+.awb-critical-hero form {
+  width: 33.33%;
+  flex-shrink: 0;
+  padding-left: 2.8em;
+  position: relative;
+}
+.awb-critical-hero form select,
+.awb-critical-hero form input {
+  width: 100% !important;
+}
+.awb-critical-hero form select {
+  margin: 0 0 1em 0 !important;
+}
+.avada-db-create-form .pyre_desc {
+  display: none;
+}
+.avada-db-create-form .pyre_field {
+  width: 100% !important;
+  float: none !important;
+}
+.pyre_metabox_field {
+  display: none;
+  border: none !important;
+}
+.awb-critical-hero .pyre_field .select2-selection--multiple .select2-search__field {
+  margin-bottom: 5px;
+  padding-left: 7px;
+}
+.awb-critical-hero .pyre_field .select2-container .select2-selection > .select2-selection__rendered {
+  margin-right: 0;
+}
+.awb-critical-hero .pyre_field .select2-selection--multiple {
+  display: flex;
+}
+.awb-critical-hero .pyre_metabox_field {
+  padding-top: 0;
+}
+.awb-critical-loader {
+  align-items: center;
+  display: none;
+}
+.awb-critical-loader .loading-message {
+  margin-left: 0.7em;
+}
+.awb-critical-loader .avada-db-loader {
+  display: block;
+}
+input[type="submit"].processing {
+  display: none;
+}
+input[type="submit"].processing + .awb-critical-loader {
+  display: flex;
+}
+
+#awb-critical-css .wp-list-table tr.processing {
+  opacity: 0.5;
+  pointer-events: none;
+}
+
+/* Regenerate button */
+.awb-update-row .awb-spinner {
+  display: inline-block;
+  margin-right: 5px;
+  background: none;
+  flex-shrink: 0;
+  margin-top: 0;
+  border-radius: 50%;
+  line-height: 1 !important;
+  border: none;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+}
+
+.awb-update-row .awb-spinner i {
+  font-size: 0.85em;
+}
+
+.awb-update-row.processing .awb-spinner {
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #333;
+  animation: avada-rotate 0.8s infinite linear;
+}
+
+.awb-update-row.processing .awb-spinner i{
+  visibility: hidden;
+}
+
+/* Modal */
+#wpwrap .avada-db-critical .awb-admin-modal-wrap {
+  top: 40%;
+  transform: translateY(-50%);
+}
+
+.awb-admin-modal-wrap .awb-admin-modal-content {
+  padding: 20px 20px 30px 20px;
+}
+
+.awb-admin-modal-wrap .awb-critical-css-modal-title {
+  margin-bottom: 20px;
+}
+
+.awb-admin-modal-wrap .awb-critical-css-modal-title i {
+  margin-right: 10px;
+  color: #198fd9;
+}
+
+.awb-admin-modal-wrap .awb-critical-css-modal-text {
+  line-height: 1.7;
+}
+
+.awb-admin-modal-wrap .awb-admin-modal-corner-close {
+  border: 1px solid #e8e8e8;
+}

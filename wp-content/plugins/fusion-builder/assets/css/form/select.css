@@ -1,0 +1,38 @@
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-select-wrapper {
+  position: relative;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-select-wrapper .select-arrow {
+  top: 1px;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-select-wrapper {
+  position: relative;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-select-wrapper .select-arrow {
+  border: none;
+  top: 50%;
+  transform: translateY(-50%);
+  bottom: auto;
+  height: auto;
+  width: auto;
+  right: 1em;
+  font-size: inherit !important;
+  background: transparent !important;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-select-wrapper .select-arrow svg path {
+  stroke: var(--form_text_color);
+}
+.fusion-form-form-wrapper .fusion-form-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  text-overflow: "";
+  cursor: pointer;
+  display: block;
+  outline: 0;
+  width: 100%;
+  position: relative;
+  text-indent: 0;
+  vertical-align: middle;
+  z-index: 5;
+  margin: 0;
+  line-height: normal !important;
+}

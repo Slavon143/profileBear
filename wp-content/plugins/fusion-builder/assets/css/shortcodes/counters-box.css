@@ -1,0 +1,34 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-counters-box.row {
+  margin-left: -7px;
+  margin-right: -7px;
+}
+.fusion-counters-box .fusion-counter-box {
+  padding: 0 7px;
+  margin-bottom: 14px;
+  text-align: center;
+  box-sizing: border-box;
+}
+.fusion-counters-box .fusion-counter-box .counter-box-container {
+  padding: 20px;
+}
+.fusion-counters-box .fusion-counter-box .counter-box-border {
+  border: 1px solid #E5E4E3;
+}
+.fusion-counters-box .content-box-counter {
+  color: #65bc7b;
+  font-size: 50px;
+  line-height: 50px;
+}
+.fusion-counters-box .counter-box-icon {
+  float: none;
+  margin-top: -8px;
+  vertical-align: middle;
+  color: inherit;
+}
+.fusion-counters-box .fusion-counter-box-icon-top .counter-box-icon {
+  display: block;
+  float: none;
+  margin: 0;
+}

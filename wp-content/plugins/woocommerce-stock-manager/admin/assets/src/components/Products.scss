@@ -1,0 +1,11 @@
+.table {
+  width: unset !important;
+  min-width: 100%;
+  border-collapse: collapse;
+}
+
+.table thead th {
+  position: sticky;
+  top: 32px;
+  background-color: white;
+}

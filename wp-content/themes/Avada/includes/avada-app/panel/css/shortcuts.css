@@ -1,0 +1,322 @@
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable no-descending-specificity */
+.fusion-panel-customizable.fusion-panel-customizable-needs-positioned:not(.fusion-footer):not(.fusion-header) {
+  position: relative;
+}
+.fusion-header-wrapper:not(.fusion-is-sticky) .fusion-panel-customizable.fusion-panel-customizable-needs-positioned.fusion-header {
+  position: relative;
+}
+body:not(.avada-footer-fx-parallax-effect) .fusion-panel-customizable.fusion-panel-customizable-needs-positioned.fusion-footer {
+  position: relative;
+}
+.fusion-panel-customizable .fusion-panel-shortcuts-wrapper {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 99999;
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+}
+.fusion-panel-customizable.sidebar > .fusion-panel-shortcuts-wrapper {
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 100%;
+  transform: none;
+}
+.fusion-panel-customizable.sidebar > .fusion-panel-shortcuts-wrapper .fusion-panel-shortcuts {
+  transform: translateY(-50%);
+}
+.fusion-panel-customizable.sidebar .fusion-panel-shortcuts-wrapper .fusion-panel-shortcuts {
+  position: sticky;
+  top: 50%;
+  height: 33px;
+  pointer-events: auto;
+}
+.fusion-panel-customizable .fusion-panel-shortcuts {
+  display: flex;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+}
+.fusion-panel-customizable .fusion-panel-shortcuts:hover .fusion-panel-shortcut {
+  color: rgba(255, 255, 255, 0.6);
+}
+.fusion-panel-customizable .fusion-panel-shortcuts:hover .fusion-panel-shortcut:hover {
+  color: #fff;
+}
+.fusion-panel-customizable .fusion-panel-shortcut {
+  width: 33px;
+  height: 33px;
+  line-height: 33px;
+  font-size: 14px;
+  display: block;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  background-color: #2a3035;
+  transition: color 0.1s ease;
+  /* For Evenet Calendar Single */
+}
+.fusion-builder-live .fusion-panel-customizable .fusion-panel-shortcut {
+  color: #fff;
+}
+.fusion-panel-customizable .fusion-panel-shortcut:first-child {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.fusion-panel-customizable .fusion-panel-shortcut.fusion-shortcut-last,
+.fusion-panel-customizable .fusion-panel-shortcut:last-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.fusion-panel-customizable .fusion-panel-shortcut > span {
+  display: block;
+  line-height: 33px;
+}
+.fusion-panel-customizable .fusion-panel-shortcut:after {
+  content: attr(aria-label);
+  top: -25px;
+  background: #1d2226;
+  color: #fff !important;
+  border: 1px solid #1d2226;
+  white-space: nowrap;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin: 0;
+  z-index: 200;
+  transition: all 0.2s ease 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  line-height: normal;
+  visibility: hidden;
+  pointer-events: none;
+}
+.fusion-panel-customizable .fusion-panel-shortcut:before {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #1d2226;
+  top: 12px;
+  z-index: 2;
+  transition: all 0.2s ease 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  line-height: normal;
+  pointer-events: none;
+}
+.fusion-panel-customizable .fusion-panel-shortcut:hover:after,
+.fusion-panel-customizable .fusion-panel-shortcut:hover:before {
+  top: -48px;
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-panel-customizable .fusion-panel-shortcut:hover:before {
+  top: -12px;
+}
+.fusion-panel-customizable:not(.sidebar):hover > .fusion-panel-shortcuts-wrapper {
+  pointer-events: auto;
+}
+.fusion-panel-customizable:hover > .fusion-panel-shortcuts-wrapper,
+.fusion-panel-customizable:hover .fusion-sidebar-inner-content > .fusion-panel-shortcuts-wrapper {
+  opacity: 1;
+}
+header .fusion-logo .fusion-header-content-3-wrapper + .fusion-panel-shortcut {
+  left: 11% !important;
+}
+header .fusion-header .fusion-panel-shortcut:after {
+  top: 32px;
+}
+header .fusion-header .fusion-panel-shortcut:before {
+  border-top-color: transparent;
+  border-bottom-color: #1d2226;
+  top: 22px;
+}
+header .fusion-header .fusion-panel-shortcut:hover:after {
+  top: 43px;
+}
+header .fusion-header .fusion-panel-shortcut:hover:before {
+  top: 33px;
+}
+.fusion-tb-header .fusion-panel-shortcut:after {
+  top: 32px;
+}
+.fusion-tb-header .fusion-panel-shortcut:before {
+  border-top-color: transparent;
+  border-bottom-color: #1d2226;
+  top: 22px;
+}
+.fusion-tb-header .fusion-panel-shortcut:hover:after {
+  top: 43px;
+}
+.fusion-tb-header .fusion-panel-shortcut:hover:before {
+  top: 33px;
+}
+#side-header .fusion-panel-shortcuts-wrapper,
+.fusion-header .fusion-panel-shortcuts-wrapper {
+  background-color: #2a3035;
+  border-radius: 4px;
+}
+#fusion-builder-slider-actions,
+#fusion-builder-ptb-actions {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  border-radius: 4px;
+  background-color: #2a3035;
+  z-index: 99999;
+  display: none;
+  overflow: visible;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  box-sizing: border-box;
+}
+#fusion-builder-slider-actions:hover a,
+#fusion-builder-ptb-actions:hover a {
+  color: rgba(255, 255, 255, 0.6);
+}
+#fusion-builder-slider-actions:hover a:hover,
+#fusion-builder-ptb-actions:hover a:hover {
+  color: #fff;
+}
+#fusion-builder-slider-actions a,
+#fusion-builder-ptb-actions a {
+  display: block;
+  color: #fff;
+  width: 33px;
+  height: 33px;
+  font-size: 14px;
+  text-align: center;
+  line-height: 33px;
+  transition: color 0.1s ease;
+}
+#fusion-builder-slider-actions a:hover,
+#fusion-builder-ptb-actions a:hover,
+#fusion-builder-slider-actions a:active,
+#fusion-builder-ptb-actions a:active {
+  color: #fff;
+}
+#fusion-builder-slider-actions a i,
+#fusion-builder-ptb-actions a i,
+#fusion-builder-slider-actions a span,
+#fusion-builder-ptb-actions a span {
+  line-height: 33px;
+}
+#fusion-builder-slider-actions a.has-tooltip,
+#fusion-builder-ptb-actions a.has-tooltip {
+  position: relative;
+  overflow: hidden;
+}
+#fusion-builder-slider-actions a.has-tooltip:after,
+#fusion-builder-ptb-actions a.has-tooltip:after,
+#fusion-builder-slider-actions a.has-tooltip:before,
+#fusion-builder-ptb-actions a.has-tooltip:before {
+  transition: all 0.2s ease 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+}
+#fusion-builder-slider-actions a.has-tooltip.fusion-builder-support:after,
+#fusion-builder-ptb-actions a.has-tooltip.fusion-builder-support:after,
+#fusion-builder-slider-actions a.has-tooltip.fusion-builder-support:before,
+#fusion-builder-ptb-actions a.has-tooltip.fusion-builder-support:before {
+  left: 27%;
+}
+#fusion-builder-slider-actions a.has-tooltip:after,
+#fusion-builder-ptb-actions a.has-tooltip:after {
+  content: attr(aria-label);
+  top: 32px;
+  background: #1d2226;
+  color: #fff;
+  border: 1px solid #1d2226;
+  white-space: nowrap;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin: 0;
+  line-height: normal;
+  z-index: 200;
+}
+#fusion-builder-slider-actions a.has-tooltip:before,
+#fusion-builder-ptb-actions a.has-tooltip:before {
+  content: "";
+  border: 5px solid transparent;
+  border-bottom-color: #1d2226;
+  top: 22px;
+  z-index: 2;
+}
+#fusion-builder-slider-actions a.has-tooltip.fusion-builder-support:before,
+#fusion-builder-ptb-actions a.has-tooltip.fusion-builder-support:before {
+  left: 52% !important;
+}
+#fusion-builder-slider-actions a.has-tooltip:hover,
+#fusion-builder-ptb-actions a.has-tooltip:hover {
+  overflow: visible;
+}
+#fusion-builder-slider-actions a.has-tooltip:hover:after,
+#fusion-builder-ptb-actions a.has-tooltip:hover:after,
+#fusion-builder-slider-actions a.has-tooltip:hover:before,
+#fusion-builder-ptb-actions a.has-tooltip:hover:before {
+  opacity: 1;
+}
+#fusion-builder-slider-actions a.has-tooltip:hover:after,
+#fusion-builder-ptb-actions a.has-tooltip:hover:after {
+  top: 41px;
+}
+#fusion-builder-slider-actions a.has-tooltip:hover:before,
+#fusion-builder-ptb-actions a.has-tooltip:hover:before {
+  top: 32px;
+}
+#fusion-builder-slider-actions {
+  z-index: 10009;
+  /* below the header */
+}
+#fusion-builder-ptb-actions:not(.has-ptb) {
+  top: 0;
+}
+.fusion-page-title-bar,
+#sliders-container {
+  position: relative;
+  overflow: visible;
+}
+.fusion-page-title-bar:hover #fusion-builder-slider-actions,
+#sliders-container:hover #fusion-builder-slider-actions,
+.fusion-page-title-bar:hover #fusion-builder-ptb-actions,
+#sliders-container:hover #fusion-builder-ptb-actions {
+  display: flex;
+}
+.fusion-builder-live.fusion-hide-all-tooltips .has-ptb .has-tooltip:after,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-panel-shortcuts .has-tooltip:after,
+.fusion-builder-live.fusion-hide-all-tooltips .has-ptb .fusion-panel-shortcut:after,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-panel-shortcuts .fusion-panel-shortcut:after,
+.fusion-builder-live.fusion-hide-all-tooltips .has-ptb .has-tooltip:before,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-panel-shortcuts .has-tooltip:before,
+.fusion-builder-live.fusion-hide-all-tooltips .has-ptb .fusion-panel-shortcut:before,
+.fusion-builder-live.fusion-hide-all-tooltips .fusion-panel-shortcuts .fusion-panel-shortcut:before {
+  display: none;
+}
+.fusion-builder-live .avada-single-product-gallery-wrapper {
+  position: relative;
+}
+.fusion-builder-live .avada-single-product-gallery-wrapper .fusion-panel-customizable.fusion-panel-customizable-needs-positioned {
+  position: initial;
+}
+.fusion-builder-live .avada-single-product-gallery-wrapper .fusion-panel-customizable.fusion-panel-customizable-needs-positioned .fusion-panel-shortcuts-wrapper {
+  left: calc(50% - 15px);
+}

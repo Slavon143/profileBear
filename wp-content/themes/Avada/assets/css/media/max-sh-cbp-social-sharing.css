@@ -1,0 +1,12 @@
+/* stylelint-disable no-descending-specificity */
+.fusion-theme-sharing-box {
+  flex-direction: column;
+  align-items: center;
+}
+.fusion-theme-sharing-box h4 {
+  margin-bottom: 0.5em;
+  text-align: center;
+}
+.fusion-theme-sharing-box .fusion-social-networks .fusion-social-networks-wrapper {
+  justify-content: center;
+}

@@ -1,0 +1,942 @@
+# Translation of Themes - Twenty Twenty-Two in Swedish
+# This file is distributed under the same license as the Themes - Twenty Twenty-Two package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-05-25 07:01:21+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Twenty Twenty-Two\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Built on a solidly designed foundation, Twenty Twenty-Two embraces the idea that everyone deserves a truly unique website. The theme’s subtle styles are inspired by the diversity and versatility of birds: its typography is lightweight yet strong, its color palette is drawn from nature, and its layout elements sit gently on the page. The true richness of Twenty Twenty-Two lies in its opportunity for customization. The theme is built to take advantage of the Full Site Editing features introduced in WordPress 5.9, which means that colors, typography, and the layout of every single page on your site can be customized to suit your vision. It also includes dozens of block patterns, opening the door to a wide range of professionally designed layouts in just a few clicks. Whether you’re building a single-page website, a blog, a business website, or a portfolio, Twenty Twenty-Two will help you create a site that is uniquely yours."
+msgstr "Temat Twenty Twenty-Two bygger på en omsorgsfullt designad grund och kretsar helt kring idén att varje person har rätt till en i verklig mening unik webbplats. Temats subtila stilar är inspirerade av mångfalden och mångsidigheten hos fåglar: temats typografi är lätt med ändå kraftfull, färgpaletten är inspirerad av naturen och layoutelementen är noggrant inpassade i sidan. Den verkliga styrkan hos Twenty Twenty-Two är alla dess anpassningsmöjligheter. Temat är konstruerat så att man kan dra nytta av funktionerna för redigering av hela webbplatsen som introduceras med WordPress 5.9. Detta innebär att färger, typografi och layouten för varje sida på webbplatsen kan anpassas efter dina önskemål. Det innehåller även dussintals blockmönster, något som ger möjlighet att med bara några klick skapa professionellt designade layouter. Vare sig du bygger en webbplats som bara har en sida, en blogg, en företagswebbplats eller en portföljwebbplats kan du med temat Twenty Twenty-Two skapa en riktigt unik webbplats."
+
+#. Theme Name of the theme
+#, gp-priority: high
+msgid "Twenty Twenty-Two"
+msgstr "Twenty Twenty-Two"
+
+#: styles/swiss.json
+msgctxt "Duotone name"
+msgid "Default filter"
+msgstr "Standardfilter"
+
+#: styles/swiss.json
+msgctxt "Font family name"
+msgid "Inter"
+msgstr "Inter"
+
+#: styles/swiss.json
+msgctxt "Style variation name"
+msgid "Swiss"
+msgstr "Schweizisk"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Mono"
+msgstr "IBM Plex Mono"
+
+#: styles/pink.json
+msgctxt "Font family name"
+msgid "IBM Plex Sans"
+msgstr "IBM Plex Sans"
+
+#: styles/pink.json
+msgctxt "Style variation name"
+msgid "Pink"
+msgstr "Rosa"
+
+#: styles/blue.json
+msgctxt "Font family name"
+msgid "DM Sans"
+msgstr "DM Sans"
+
+#: styles/blue.json
+msgctxt "Style variation name"
+msgid "Blue"
+msgstr "Blått"
+
+#: inc/patterns/hidden-404.php:14
+msgid "Search"
+msgstr "Sök"
+
+#: inc/patterns/hidden-404.php:14
+msgctxt "label"
+msgid "Search"
+msgstr "Sökning"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Footer"
+msgstr "Sidfot"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, small)"
+msgstr "Sidhuvud (mörk, litet)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header (Dark, large)"
+msgstr "Sidhuvud (mörk, stort)"
+
+#: theme.json
+msgctxt "Template part name"
+msgid "Header"
+msgstr "Sidhuvud"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (No Separators)"
+msgstr "Sida (inga avgränsare)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Single Post (No Separators)"
+msgstr "Enskilt inlägg (inga avgränsare)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Page (Large Header)"
+msgstr "Sida (stort sidhuvud)"
+
+#: theme.json
+msgctxt "Custom template name"
+msgid "Blank"
+msgstr "Tom"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and tertiary"
+msgstr "Primär och tertiär"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and secondary"
+msgstr "Primär och sekundär"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Primary and background"
+msgstr "Primär och bakgrund"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and tertiary"
+msgstr "Förgrund och tertiär"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and secondary"
+msgstr "Förgrund och sekundär"
+
+#: theme.json
+msgctxt "Duotone name"
+msgid "Foreground and background"
+msgstr "Förgrund och bakgrund"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to tertiary"
+msgstr "Diagonal bakgrund till tertiär"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal tertiary to background"
+msgstr "Diagonal tertiär till bakgrund"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal background to secondary"
+msgstr "Diagonal bakgrund till sekundär"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal secondary to background"
+msgstr "Diagonal sekundär till bakgrund"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Diagonal primary to foreground"
+msgstr "Diagonal primär till förgrund"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical tertiary to background"
+msgstr "Vertikal tertiär till bakgrund"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to background"
+msgstr "Vertikal sekundär till bakgrund"
+
+#: theme.json
+msgctxt "Gradient name"
+msgid "Vertical secondary to tertiary"
+msgstr "Vertikal sekundär till tertiär"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Tertiary"
+msgstr "Tertiär"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Secondary"
+msgstr "Sekundär"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Primary"
+msgstr "Primär"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Background"
+msgstr "Bakgrund"
+
+#: theme.json styles/blue.json styles/pink.json styles/swiss.json
+msgctxt "Color name"
+msgid "Foreground"
+msgstr "Förgrund"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "Source Serif Pro"
+msgstr "Source Serif Pro"
+
+#: theme.json
+msgctxt "Font family name"
+msgid "System Font"
+msgstr "Systemtypsnitt"
+
+#: inc/patterns/query-text-grid.php:6
+msgid "Text-based grid of posts"
+msgstr "Textbaserat rutnät med inlägg"
+
+#: inc/patterns/query-simple-blog.php:6
+msgid "Simple blog posts"
+msgstr "Enkla blogginlägg"
+
+#: inc/patterns/query-large-titles.php:6
+msgid "Large post titles"
+msgstr "Stora inläggsrubriker"
+
+#: inc/patterns/query-irregular-grid.php:6
+msgid "Irregular grid of posts"
+msgstr "Oregelbundet rutnät med inlägg"
+
+#: inc/patterns/query-image-grid.php:6
+msgid "Grid of image posts"
+msgstr "Rutnät med bildinlägg"
+
+#: inc/patterns/query-grid.php:6
+msgid "Grid of posts"
+msgstr "Rutnät med inlägg"
+
+#: inc/patterns/query-default.php:6
+msgid "Default posts"
+msgstr "Standardinlägg"
+
+#: inc/patterns/page-sidebar-poster.php:56
+msgid "The Grand Theater<br>154 Eastern Avenue<br>Maryland NY, 12345"
+msgstr "Stora Teatern<br>Storgatan 1<br>12345 Storstad"
+
+#: inc/patterns/page-sidebar-poster.php:52
+msgid "Location"
+msgstr "Plats"
+
+#: inc/patterns/page-sidebar-poster.php:44
+msgid "February, 12 2021"
+msgstr "12 februari 2021"
+
+#: inc/patterns/page-sidebar-poster.php:40
+msgid "Date"
+msgstr "Datum"
+
+#: inc/patterns/page-sidebar-poster.php:14
+msgid "<em>Flutter</em>, a collection of bird-related ephemera"
+msgstr "<em>Fladder</em>, en samling kortlivat fågelrelaterat material"
+
+#: inc/patterns/page-sidebar-poster.php:6
+msgid "Poster with right sidebar"
+msgstr "Affisch med höger sidopanel"
+
+#: inc/patterns/page-sidebar-grid-posts.php:6
+msgid "Grid of posts with left sidebar"
+msgstr "Rutnät med inlägg med vänster sidopanel"
+
+#: inc/patterns/page-sidebar-blog-posts.php:6
+msgid "Blog posts with left sidebar"
+msgstr "Blogginlägg med vänster sidopanel"
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:80
+msgid "Tags"
+msgstr "Etiketter"
+
+#: inc/patterns/page-sidebar-blog-posts-right.php:6
+msgid "Blog posts with right sidebar"
+msgstr "Blogginlägg med höger sidopanel"
+
+#: inc/patterns/page-layout-two-columns.php:58
+msgid "POSTS"
+msgstr "INLÄGG"
+
+#: inc/patterns/page-layout-two-columns.php:21
+msgid "WELCOME"
+msgstr "VÄLKOMMEN"
+
+#: inc/patterns/page-layout-two-columns.php:10
+msgid "<em>Goldfinch </em><br><em>&amp; Sparrow</em>"
+msgstr "<em>Steglits </em><br><em>&amp; Sparv</em>"
+
+#: inc/patterns/page-layout-two-columns.php:6
+msgid "Page layout with two columns"
+msgstr "Sidlayout med två kolumner"
+
+#: inc/patterns/page-layout-image-text-and-video.php:53
+msgid "Oh hello. My name’s Angelo, and you’ve found your way to my blog. I write about a range of topics, but lately I’ve been sharing my hopes for next year."
+msgstr "Hej. Jag heter Angelo och du har hittat min blogg. Jag skriver om olika saker men på sistone har jag berättat om mina förhoppningar inför nästa år."
+
+#: inc/patterns/page-layout-image-text-and-video.php:42
+msgid "An illustration of a bird in flight"
+msgstr "En illustration med flygande fågel"
+
+#: inc/patterns/page-layout-image-text-and-video.php:21
+msgid "Screening"
+msgstr "Visning"
+
+#: inc/patterns/page-layout-image-text-and-video.php:6
+msgid "Page layout with image, text and video"
+msgstr "Sidlayout med bild, text och video"
+
+#: inc/patterns/page-layout-image-and-text.php:27
+#: inc/patterns/page-layout-two-columns.php:36
+msgid "Oh hello. My name’s Angelo, and I operate this blog. I was born in Portland, but I currently live in upstate New York. You may recognize me from publications with names like <a href=\"#\">Eagle Beagle</a> and <a href=\"#\">Mourning Dive</a>. I write for a living.<br><br>I usually use this blog to catalog extensive lists of birds and other things that I find interesting. If you find an error with one of my lists, please keep it to yourself.<br><br>If that’s not your cup of tea, <a href=\"#\">I definitely recommend this tea</a>. It’s my favorite."
+msgstr "Hej. Jag heter Angelo och det är jag som sköter denna blogg. Jag är född i Portland men bor nuförtiden i staten New York. Du kanske har sett någon av mina publikationer, med namn som <a href=\"#\">Eagle Beagle</a> och <a href=\"#\">Morgondoppet</a>. Jag är professionell författare.<br><br>Den här bloggen använder jag mest till att katalogisera långa listor med olika fåglar och annat som intresserar mig. Om du skulle hitta något fel i någon av mina listor får du gärna hålla tyst om det.<br><br>Om du inte grejar det <a href=\"#\">kan jag varmt rekommendera den här boken</a>. Den är helt rätt i sådana fall."
+
+#: inc/patterns/page-layout-image-and-text.php:15
+msgctxt "Short for to be determined"
+msgid "TBD"
+msgstr "Ej fastställt"
+
+#: inc/patterns/page-layout-image-and-text.php:10
+msgid "<em>Watching Birds </em><br><em>in the Garden</em>"
+msgstr "<em>Fågelskådning</em><br><em>i trädgården</em>"
+
+#: inc/patterns/page-layout-image-and-text.php:6
+msgid "Page layout with image and text"
+msgstr "Sidlayout med bild och text"
+
+#: inc/patterns/page-about-solid-color.php:22
+msgid "Oh hello. My name’s Edvard, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show every Tuesday evening at 11PM EDT. Listen in sometime!"
+msgstr "Hej. Jag heter Edvard, och du har hittat till min hemsida. Jag är en entusiastisk fågelskådare och jag sänder mitt eget radioprogram på tisdagskvällar klockan 23:00. Lyssna gärna någon gång!"
+
+#: inc/patterns/page-about-solid-color.php:14
+msgid "Edvard<br>Smith"
+msgstr "Edvard<br>Smith"
+
+#: inc/patterns/page-about-solid-color.php:6
+msgid "About page on solid color background"
+msgstr "”Om”-sida på enfärgad bakgrund"
+
+#: inc/patterns/page-about-simple-dark.php:22
+msgid "Oh hello. My name’s Jesús, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "Hej. Jag heter Jesús, och du har hittat till min hemsida. Jag är en entusiastisk fågelskådare och jag sänder mitt eget radioprogram på tisdagskvällar klockan 23:00."
+
+#: inc/patterns/page-about-simple-dark.php:18
+msgid "Jesús<br>Rodriguez"
+msgstr "Jesús<br>Rodriguez"
+
+#: inc/patterns/page-about-simple-dark.php:6
+msgid "Simple dark about page"
+msgstr "Enkel mörk ”Om”-sida"
+
+#: inc/patterns/page-about-media-right.php:20
+msgid "Oh hello. My name’s Emery, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "Hej. Jag heter Emery, och du har hittat till min hemsida. Jag är en entusiastisk fågelskådare och jag sänder mitt eget radioprogram på tisdagskvällar klockan 23:00."
+
+#: inc/patterns/page-about-media-right.php:16
+msgid "Emery<br>Driscoll"
+msgstr "Emery<br>Driscoll"
+
+#: inc/patterns/page-about-media-right.php:9
+msgid "An image of a bird flying"
+msgstr "En bild av en fågel som flyger"
+
+#: inc/patterns/page-about-media-right.php:6
+msgid "About page with media on the right"
+msgstr "”Om”-sida med media till höger"
+
+#: inc/patterns/page-about-media-left.php:21
+msgid "Oh hello. My name’s Doug, and you’ve found your way to my website. I’m an avid bird watcher, and I also broadcast my own radio show on Tuesday evenings at 11PM EDT."
+msgstr "Hej. Jag heter Doug, och du har hittat till min hemsida. Jag är en entusiastisk fågelskådare och jag sänder mitt eget radioprogram på tisdagskvällar klockan 23:00."
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Stilton"
+msgstr "Stilton"
+
+#: inc/patterns/page-about-media-left.php:17
+msgid "Doug"
+msgstr "Doug"
+
+#: inc/patterns/page-about-media-left.php:9
+#: inc/patterns/page-sidebar-poster.php:26
+msgid "Image of a bird on a branch"
+msgstr "Bild av en fågel på en gren"
+
+#: inc/patterns/page-about-media-left.php:6
+msgid "About page with media on the left"
+msgstr "”Om”-sida med media till vänster"
+
+#: inc/patterns/page-about-links.php:21
+msgid "A podcast about birds"
+msgstr "En podcast om fåglar"
+
+#: inc/patterns/page-about-links.php:17
+msgid "Swoop"
+msgstr "Susa"
+
+#: inc/patterns/page-about-links.php:6
+msgid "About page links"
+msgstr "Om sidlänkar"
+
+#: inc/patterns/page-about-links-dark.php:42
+#: inc/patterns/page-about-links.php:46
+msgid "About the hosts"
+msgstr "Om värdarna"
+
+#: inc/patterns/page-about-links-dark.php:38
+#: inc/patterns/page-about-links.php:42
+msgid "Support the show"
+msgstr "Stöd showen"
+
+#: inc/patterns/page-about-links-dark.php:34
+#: inc/patterns/page-about-links.php:38
+msgid "Listen on Spotify"
+msgstr "Lyssna på Spotify"
+
+#: inc/patterns/page-about-links-dark.php:30
+#: inc/patterns/page-about-links.php:34
+msgid "Listen on iTunes Podcasts"
+msgstr "Lyssna på iTunes Podcasts"
+
+#: inc/patterns/page-about-links-dark.php:26
+#: inc/patterns/page-about-links.php:30
+msgid "Watch our videos"
+msgstr "Titta på våra videoklipp"
+
+#: inc/patterns/page-about-links-dark.php:17
+msgid "A trouble of hummingbirds"
+msgstr "En kolibris bekymmer"
+
+#: inc/patterns/page-about-links-dark.php:13
+#: inc/patterns/page-about-links.php:10
+msgid "Logo featuring a flying bird"
+msgstr "Logga med en flygande fågel"
+
+#: inc/patterns/page-about-links-dark.php:6
+msgid "About page links (dark)"
+msgstr "Länkar på sidan ”om” (mörk)"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:6
+msgid "About page with large image and buttons"
+msgstr "”Om”-sida med stor bild och knappar"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:59
+msgid "Join my mailing list"
+msgstr "Gå med i min e-postlista"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:51
+msgid "Learn about my process"
+msgstr "Läs mer om min process"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:43
+msgid "Read about me"
+msgstr "Läs om mig"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:33
+msgid "Take a class"
+msgstr "Gå en kurs"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:25
+msgid "Support my studio"
+msgstr "Stöd min studio"
+
+#: inc/patterns/page-about-large-image-and-buttons.php:17
+msgid "Purchase my work"
+msgstr "Köp mitt arbete"
+
+#: inc/patterns/hidden-bird.php:9 inc/patterns/hidden-heading-and-bird.php:10
+msgid "Heading and bird image"
+msgstr "Rubrik och fågelbild"
+
+#: inc/patterns/hidden-404.php:12
+msgid "This page could not be found. Maybe try a search?"
+msgstr "Denna sida kan inte hittas. Kanske prova en sökning?"
+
+#: inc/patterns/hidden-404.php:9
+msgctxt "Error code for a webpage that is not found."
+msgid "404"
+msgstr "404"
+
+#: inc/patterns/hidden-404.php:6
+msgid "404 content"
+msgstr "404-innehåll"
+
+#: inc/patterns/header-with-tagline.php:6
+msgid "Header with tagline"
+msgstr "Sidhuvud med slogan"
+
+#: inc/patterns/header-title-navigation-social.php:6
+msgid "Title, navigation, and social links header"
+msgstr "Sidhuvud med rubrik, navigation och länkar till sociala nätverk"
+
+#: inc/patterns/header-title-and-button.php:6
+msgid "Title and button header"
+msgstr "Sidhuvud med rubrik och knapp"
+
+#: inc/patterns/header-text-only-with-tagline-black-background.php:6
+msgid "Text-only header with tagline and black background"
+msgstr "Sidhuvud med enbart text, med slogan och svart bakgrund"
+
+#: inc/patterns/header-text-only-salmon-background.php:6
+msgid "Text-only header with salmon background"
+msgstr "Sidhuvud med enbart text, med skär bakgrund"
+
+#: inc/patterns/header-text-only-green-background.php:6
+msgid "Text-only header with green background"
+msgstr "Sidhuvud med enbart text, med grön bakgrund"
+
+#: inc/patterns/header-stacked.php:6
+msgid "Logo and navigation header"
+msgstr "Logga och navigation i sidhuvud"
+
+#: inc/patterns/header-small-dark.php:6
+msgid "Small header with dark background"
+msgstr "Litet sidhuvud med mörk bakgrund"
+
+#: inc/patterns/header-logo-navigation-social-black-background.php:6
+msgid "Logo, navigation, and social links header with black background"
+msgstr "Sidhuvud med logga, navigation och länkar till sociala nätverk, med svart bakgrund"
+
+#: inc/patterns/header-logo-navigation-offset-tagline.php:6
+msgid "Logo, navigation, and offset tagline Header"
+msgstr "Sidhuvud med logga, navigation och förskjuten slogan"
+
+#: inc/patterns/header-logo-navigation-gray-background.php:6
+msgid "Logo and navigation header with gray background"
+msgstr "Sidhuvud med navigation och logga, med grå bakgrund"
+
+#: inc/patterns/header-large-dark.php:24
+#: inc/patterns/hidden-heading-and-bird.php:14
+msgid "<em>The Hatchery</em>: a blog about my adventures in bird watching"
+msgstr "<em>Kläckeriet</em>: en blogg om mina fågelskådningsäventyr"
+
+#: inc/patterns/header-large-dark.php:6
+msgid "Large header with dark background"
+msgstr "Stort sidhuvud med mörk bakgrund"
+
+#: inc/patterns/header-image-background.php:11
+msgid "Illustration of a flying bird"
+msgstr "Illustration av en flygande fågel"
+
+#: inc/patterns/header-image-background.php:6
+msgid "Header with image background"
+msgstr "Sidhuvud med bildbakgrund"
+
+#: inc/patterns/header-image-background-overlay.php:6
+msgid "Header with image background and overlay"
+msgstr "Sidhuvud med bildbakgrund och överlägg"
+
+#: inc/patterns/header-default.php:6
+msgid "Default header"
+msgstr "Standardsidhuvud"
+
+#: inc/patterns/header-centered-title-navigation-social.php:6
+msgid "Centered header with navigation, social links, and salmon background"
+msgstr "Centrerat sidhuvud med navigation och länkar till sociala nätverk, med skär bakgrund"
+
+#: inc/patterns/header-centered-logo.php:6
+msgid "Header with centered logo"
+msgstr "Sidhuvud med centrerad logga"
+
+#: inc/patterns/header-centered-logo-black-background.php:6
+msgid "Header with centered logo and black background"
+msgstr "Sidhuvud med centrerad logga och svart bakgrund"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:31
+msgid "Learn More"
+msgstr "Lär dig mer"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:16
+msgid "Welcome to<br>the Aviary"
+msgstr "Välkommen till<br>fågelholken"
+
+#: inc/patterns/general-wide-image-intro-buttons.php:6
+msgid "Wide image with introduction and buttons"
+msgstr "Bred bild med introduktion och knappar"
+
+#: inc/patterns/general-video-trailer.php:16
+#: inc/patterns/general-wide-image-intro-buttons.php:22
+msgid "A film about hobbyist bird watchers, a catalog of different birds, paired with the noises they make. Each bird is listed by their scientific name so things seem more official."
+msgstr "En film om hobbyfågelskådare, en katalog med olika fåglar och deras läten. Fåglarna är sorterade efter sina latinska namn för att det hela ska kännas mer officiellt."
+
+#: inc/patterns/general-video-trailer.php:12
+#: inc/patterns/page-layout-image-text-and-video.php:49
+msgid "Extended Trailer"
+msgstr "Utökad trailer"
+
+#: inc/patterns/general-video-trailer.php:6
+msgid "Video trailer"
+msgstr "Videotrailer"
+
+#: inc/patterns/general-video-header-details.php:41
+msgid "Angelo Tso<br>Edward Stilton<br>Amy Jensen<br>Boston Bell<br>Shay Ford"
+msgstr "Angelo Tso<br>Edward Stilton<br>Amy Jensen<br>Boston Bell<br>Shay Ford"
+
+#: inc/patterns/general-video-header-details.php:35
+msgid "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+msgstr "Jesús Rodriguez<br>Doug Stilton<br>Emery Driscoll<br>Megan Perry<br>Rowan Price"
+
+#: inc/patterns/general-video-header-details.php:29
+msgid "Featuring"
+msgstr "med"
+
+#: inc/patterns/general-video-header-details.php:11
+#: inc/patterns/page-layout-image-text-and-video.php:11
+msgid "<em>Warble</em>, a film about <br>hobbyist bird watchers."
+msgstr "<em>Kvitter</em>, en film om <br>amatörfågelskådare."
+
+#: inc/patterns/general-video-header-details.php:6
+msgid "Video with header and details"
+msgstr "Video med rubrik och detaljer"
+
+#: inc/patterns/general-two-images-text.php:42
+#: inc/patterns/general-wide-image-intro-buttons.php:35
+#: inc/patterns/page-layout-image-text-and-video.php:30
+msgid "Buy Tickets"
+msgstr "Köp biljetter"
+
+#: inc/patterns/general-two-images-text.php:29
+#: inc/patterns/page-layout-image-text-and-video.php:25
+msgid "May 14th, 2022 @ 7:00PM<br>The Vintagé Theater,<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "14 maj 2022 kl. 19:00<br>Gamla teatern<br>Skogsvägen 24<br>Trädgårdsköping"
+
+#: inc/patterns/general-two-images-text.php:25
+msgid "SCREENING"
+msgstr "FILMVISNINGAR"
+
+#: inc/patterns/general-two-images-text.php:17
+#: inc/patterns/general-wide-image-intro-buttons.php:10
+#: inc/patterns/header-large-dark.php:29 inc/patterns/header-small-dark.php:25
+#: inc/patterns/hidden-bird.php:12 inc/patterns/hidden-heading-and-bird.php:19
+msgid "Illustration of a bird flying."
+msgstr "Illustration med flygande fågel."
+
+#: inc/patterns/general-two-images-text.php:11
+msgid "Illustration of a bird sitting on a branch."
+msgstr "Illustration med fågel som sitter på en gren."
+
+#: inc/patterns/general-two-images-text.php:6
+msgid "Two images with text"
+msgstr "Två bilder med text"
+
+#: inc/patterns/general-subscribe.php:16
+msgid "Join our mailing list"
+msgstr "Gå med i vår e-postlista"
+
+#: inc/patterns/general-subscribe.php:11
+msgid "Watch birds<br>from your inbox"
+msgstr "Fågelskådning<br>via e-post"
+
+#: inc/patterns/general-subscribe.php:6
+msgid "Subscribe callout"
+msgstr "Uppmaning att prenumerera"
+
+#: inc/patterns/general-pricing-table.php:84
+msgid "$150"
+msgstr "1500 SEK"
+
+#: inc/patterns/general-pricing-table.php:79
+msgid "Play a leading role for our community by joining at the Falcon level. This level earns you a seat on our board, where you can help plan future birdwatching expeditions."
+msgstr "Spela en ledande roll i vår krets genom att gå med på nivån ”falkar”. På denna nivå får du en plats i styrelsen där du kan vara med och planera våra kommande fågelskådarexpeditioner."
+
+#: inc/patterns/general-pricing-table.php:75
+msgid "Falcon"
+msgstr "Falk"
+
+#: inc/patterns/general-pricing-table.php:71
+msgctxt "Third item in a numbered list."
+msgid "3"
+msgstr "3"
+
+#: inc/patterns/general-pricing-table.php:56
+msgid "$75"
+msgstr "750 SEK"
+
+#: inc/patterns/general-pricing-table.php:51
+msgid "Join at the Sparrow level and become a member of our flock! You’ll receive our newsletter, plus a bird pin that you can wear with pride when you’re out in nature."
+msgstr "Gå med i vår flock på nivån ”sparvfåglar”! Du kommer att få vårt nyhetsbrev och även ett kragmärke i form av en fågel som du stolt kan bära när du ger dig ut i naturen."
+
+#: inc/patterns/general-pricing-table.php:47
+msgid "Sparrow"
+msgstr "Sparv"
+
+#: inc/patterns/general-pricing-table.php:43
+msgctxt "Second item in a numbered list."
+msgid "2"
+msgstr "2"
+
+#: inc/patterns/general-pricing-table.php:28
+msgid "$25"
+msgstr "250 SEK"
+
+#: inc/patterns/general-pricing-table.php:23
+msgid "Help support our growing community by joining at the Pigeon level. Your support will help pay our writers, and you’ll get access to our exclusive newsletter."
+msgstr "Bidra till vår växande krets genom att gå med på nivån ”duvor”. Ditt bidrag hjälper oss att betala våra skribenter. Dessutom får du tillgång till vårt exklusiva nyhetsbrev."
+
+#: inc/patterns/general-pricing-table.php:19
+msgid "Pigeon"
+msgstr "Duva"
+
+#: inc/patterns/general-pricing-table.php:15
+msgctxt "First item in a numbered list."
+msgid "1"
+msgstr "1"
+
+#: inc/patterns/general-pricing-table.php:6
+msgid "Pricing table"
+msgstr "Pristabell"
+
+#: inc/patterns/general-list-events.php:103
+msgid "Emery Driscoll"
+msgstr "Emery Driscoll"
+
+#: inc/patterns/general-list-events.php:97
+msgid "May 20th, 2022, 6 PM"
+msgstr "20:e maj 2020 kl. 18.00"
+
+#: inc/patterns/general-list-events.php:79
+msgid "Amy Jensen"
+msgstr "Amy Jensen"
+
+#: inc/patterns/general-list-events.php:73
+msgid "May 18th, 2022, 7 PM"
+msgstr "18:e maj 2020 kl. 19.00"
+
+#: inc/patterns/general-list-events.php:61
+#: inc/patterns/general-list-events.php:109
+msgid "The Swell Theater<br>120 River Rd.<br>Rainfall, NH"
+msgstr "Brusande teatern<br>Forsvägen 48<br>Fallet"
+
+#: inc/patterns/general-list-events.php:55
+msgid "Doug Stilton"
+msgstr "Doug Stilton"
+
+#: inc/patterns/general-list-events.php:49
+msgid "May 16th, 2022, 6 PM"
+msgstr "16:e maj 2020 kl. 18.00"
+
+#: inc/patterns/general-list-events.php:37
+#: inc/patterns/general-list-events.php:85
+msgid "The Vintagé Theater<br>245 Arden Rd.<br>Gardenville, NH"
+msgstr "Gamla teatern<br>Skogsvägen 24<br>Trädgårdsköping"
+
+#: inc/patterns/general-list-events.php:31
+msgid "Jesús Rodriguez"
+msgstr "Jesús Rodriguez"
+
+#: inc/patterns/general-list-events.php:25
+msgid "May 14th, 2022, 6 PM"
+msgstr "14:e maj 2020 kl. 18.00"
+
+#: inc/patterns/general-list-events.php:11
+msgid "Speaker Series"
+msgstr "Föredragsserie"
+
+#: inc/patterns/general-list-events.php:6
+msgid "List of events"
+msgstr "Lista över evenemang"
+
+#: inc/patterns/general-layered-images-with-duotone.php:10
+#: inc/patterns/page-sidebar-blog-posts-right.php:58
+msgid "Illustration of a flying bird."
+msgstr "Illustration av en flygande fågel."
+
+#: inc/patterns/general-layered-images-with-duotone.php:9
+#: inc/patterns/header-image-background-overlay.php:11
+msgid "Painting of ducks in the water."
+msgstr "Målning med simmande änder."
+
+#: inc/patterns/general-layered-images-with-duotone.php:6
+msgid "Layered images with duotone"
+msgstr "Bilder i lager med duotone-filter"
+
+#: inc/patterns/general-large-list-names.php:30
+msgid "Read more"
+msgstr "Läs mer"
+
+#: inc/patterns/general-large-list-names.php:21
+msgid "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+msgstr "Jesús Rodriguez, Doug Stilton, Emery Driscoll, Megan Perry, Rowan Price, Angelo Tso, Edward Stilton, Amy Jensen, Boston Bell, Shay Ford, Lee Cunningham, Evelynn Ray, Landen Reese, Ewan Hart, Jenna Chan, Phoenix Murray, Mel Saunders, Aldo Davidson, Zain Hall."
+
+#: inc/patterns/general-large-list-names.php:11
+#: inc/patterns/page-sidebar-poster.php:32
+msgid "An icon representing binoculars."
+msgstr "En ikon som föreställer en kikare."
+
+#: inc/patterns/general-large-list-names.php:6
+msgid "Large list of names"
+msgstr "Stor lista med namn"
+
+#: inc/patterns/general-image-with-caption.php:15
+msgid "A beautiful bird featuring a surprising set of color feathers."
+msgstr "En vacker fågel med en överraskande uppsättning av färgade fjädrar."
+
+#: inc/patterns/general-image-with-caption.php:11
+msgid "Hummingbird"
+msgstr "Kolibri"
+
+#: inc/patterns/general-image-with-caption.php:10
+msgid "Hummingbird illustration"
+msgstr "Kolibriillustration"
+
+#: inc/patterns/general-image-with-caption.php:6
+msgid "Image with caption"
+msgstr "Bild med bildtext"
+
+#: inc/patterns/general-featured-posts.php:6
+msgid "Featured posts"
+msgstr "Utvalda inlägg"
+
+#: inc/patterns/general-divider-light.php:6
+msgid "Divider with image and color (light)"
+msgstr "Avgränsade med bild och färg (ljus)"
+
+#: inc/patterns/general-divider-dark.php:6
+msgid "Divider with image and color (dark)"
+msgstr "Avgränsade med bild och färg (mörk)"
+
+#: inc/patterns/footer-title-tagline-social.php:6
+msgid "Footer with title, tagline, and social links on a dark background"
+msgstr "Sidfot med rubrik, slogan och länkar till sociala nätverk, på en mörk bakgrund"
+
+#: inc/patterns/footer-social-copyright.php:6
+msgid "Footer with social links and copyright"
+msgstr "Sidfot med länkar till sociala nätverk och upphovsrätt"
+
+#: inc/patterns/footer-query-title-citation.php:6
+msgid "Footer with query, title, and citation"
+msgstr "Sidfot med query-block, rubrik och citat"
+
+#: inc/patterns/footer-query-images-title-citation.php:6
+msgid "Footer with query, featured images, title, and citation"
+msgstr "Sidfot med query-block, utvalda bilder, rubrik och citat"
+
+#: inc/patterns/footer-navigation.php:6
+msgid "Footer with navigation and citation"
+msgstr "Sidfot med navigation och citat"
+
+#: inc/patterns/footer-navigation-copyright.php:20
+#: inc/patterns/footer-social-copyright.php:24
+msgid "© Site Title"
+msgstr "© Webbplatsrubrik"
+
+#: inc/patterns/footer-navigation-copyright.php:6
+msgid "Footer with navigation and copyright"
+msgstr "Sidfot med navigation och upphovsrätt"
+
+#: inc/patterns/footer-logo.php:6
+msgid "Footer with logo and citation"
+msgstr "Sidfot med logga och citat"
+
+#: inc/patterns/footer-default.php:6
+msgid "Default footer"
+msgstr "Standardsidfot"
+
+#: inc/patterns/footer-dark.php:6
+msgid "Dark footer with title and citation"
+msgstr "Mörk sidfot med rubrik och citat"
+
+#: inc/patterns/footer-blog.php:50 inc/patterns/footer-dark.php:18
+#: inc/patterns/footer-default.php:18 inc/patterns/footer-logo.php:18
+#: inc/patterns/footer-navigation.php:20
+#: inc/patterns/footer-query-images-title-citation.php:35
+#: inc/patterns/footer-query-title-citation.php:33
+msgid "https://wordpress.org"
+msgstr "https://sv.wordpress.org/"
+
+#. Translators: WordPress link.
+#: inc/patterns/footer-blog.php:49 inc/patterns/footer-dark.php:17
+#: inc/patterns/footer-default.php:17 inc/patterns/footer-logo.php:17
+#: inc/patterns/footer-navigation.php:19
+#: inc/patterns/footer-query-images-title-citation.php:34
+#: inc/patterns/footer-query-title-citation.php:32
+msgid "Proudly powered by %s"
+msgstr "Drivs med %s"
+
+#: inc/patterns/footer-blog.php:31
+#: inc/patterns/page-sidebar-blog-posts-right.php:74
+msgid "Categories"
+msgstr "Kategorier"
+
+#: inc/patterns/footer-blog.php:23 inc/patterns/general-featured-posts.php:10
+msgid "Latest posts"
+msgstr "Senaste inläggen"
+
+#: inc/patterns/footer-blog.php:6
+msgid "Blog footer"
+msgstr "Bloggsidfot"
+
+#: inc/patterns/footer-about-title-logo.php:17 inc/patterns/footer-blog.php:17
+msgid "We are a rogue collective of bird watchers. We’ve been known to sneak through fences, climb perimeter walls, and generally trespass in order to observe the rarest of birds."
+msgstr "Vi är en hemlig grupp fågelskådare. Tidigare hände det att vi smet över staket, klättrade över höga murar och i allmänhet tog oss in på privat område för att kunna se riktigt ovanliga fåglar."
+
+#: inc/patterns/footer-about-title-logo.php:13 inc/patterns/footer-blog.php:13
+msgid "About us"
+msgstr "Om oss"
+
+#: inc/patterns/footer-about-title-logo.php:6
+msgid "Footer with text, title, and logo"
+msgstr "Sidfot med text, rubrik och logga"
+
+#: inc/block-patterns.php:21
+msgid "Pages"
+msgstr "Sidor"
+
+#: inc/block-patterns.php:20
+msgid "Query"
+msgstr "Fråga"
+
+#: inc/block-patterns.php:19
+msgid "Headers"
+msgstr "Sidhuvuden"
+
+#: inc/block-patterns.php:18
+msgid "Footers"
+msgstr "Sidfötter"
+
+#: inc/block-patterns.php:17
+msgid "Featured"
+msgstr "Utvalda"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwentytwo/"
+msgstr "https://sv.wordpress.org/themes/twentytwentytwo/"
+
+#. Author URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://sv.wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress-teamet"

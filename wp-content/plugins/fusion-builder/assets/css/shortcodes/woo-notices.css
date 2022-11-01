@@ -1,0 +1,89 @@
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-error li,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-info,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-message {
+  text-align: left;
+}
+.fusion-woo-notices-tb.alignment-text-center .woocommerce-error li,
+.fusion-woo-notices-tb.alignment-text-center .woocommerce-info,
+.fusion-woo-notices-tb.alignment-text-center .woocommerce-message {
+  text-align: center;
+}
+.fusion-woo-notices-tb.alignment-text-center .woocommerce-error li .wc-forward,
+.fusion-woo-notices-tb.alignment-text-center .woocommerce-info .wc-forward,
+.fusion-woo-notices-tb.alignment-text-center .woocommerce-message .wc-forward {
+  float: none;
+  display: block;
+}
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-error li,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-info,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-message {
+  text-align: right;
+}
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-error li .fusion-woo-notices-tb-icon,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-info .fusion-woo-notices-tb-icon,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-message .fusion-woo-notices-tb-icon {
+  margin-left: 0.5em;
+  margin-right: 0;
+  order: 1;
+}
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-error li .wc-forward,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-info .wc-forward,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-message .wc-forward {
+  order: -1;
+}
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-error li,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-error li,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-info,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-info,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-message,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-message {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+  gap: 0 0.5em;
+}
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-error li .wc-forward,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-error li .wc-forward,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-info .wc-forward,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-info .wc-forward,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-message .wc-forward,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-message .wc-forward {
+  white-space: nowrap;
+}
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-error li .wc-notices-text,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-error li .wc-notices-text,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-info .wc-notices-text,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-info .wc-notices-text,
+.fusion-woo-notices-tb.alignment-text-left .woocommerce-message .wc-notices-text,
+.fusion-woo-notices-tb.alignment-text-right .woocommerce-message .wc-notices-text {
+  flex: 1;
+}
+.fusion-woo-notices-tb .woocommerce-info:before,
+.fusion-woo-notices-tb .woocommerce-message:before {
+  content: none;
+}
+.fusion-woo-notices-tb .woocommerce-info .fusion-woo-notices-tb-icon,
+.fusion-woo-notices-tb .woocommerce-message .fusion-woo-notices-tb-icon,
+.fusion-woo-notices-tb .woocommerce-error .fusion-woo-notices-tb-icon {
+  margin-right: 0.5em;
+  vertical-align: middle;
+}
+.fusion-woo-notices-tb .woocommerce-error li,
+.fusion-woo-notices-tb .woocommerce-info,
+.fusion-woo-notices-tb .woocommerce-message {
+  background-color: #fff;
+  border: 1px solid #808080;
+  color: #808080;
+  margin-bottom: 15px;
+  padding: 20px;
+}
+.fusion-woo-notices-tb .woocommerce-error li a:before,
+.fusion-woo-notices-tb .woocommerce-info a:before,
+.fusion-woo-notices-tb .woocommerce-message a:before {
+  transition: none;
+}
+.fusion-woo-notices-tb.show-button-no .woocommerce-error li .wc-forward,
+.fusion-woo-notices-tb.show-button-no .woocommerce-info .wc-forward,
+.fusion-woo-notices-tb.show-button-no .woocommerce-message .wc-forward {
+  display: none;
+}

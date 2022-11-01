@@ -1,0 +1,60 @@
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods {
+  margin-top: 0;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li {
+  margin: 0;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li > label {
+  display: flex;
+  align-items: center;
+  background-color: var(--testimonial_bg_color);
+  padding: 1.41575em;
+  padding-left: 55px;
+  margin: 0;
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li > label img {
+  max-height: 1.618em;
+  margin: 0 1em;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li > label:before,
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li > label:after {
+  top: auto;
+  transform: inherit;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li .payment_box,
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li.woocommerce-notice {
+  margin: 0;
+  background-color: var(--testimonial_bg_color);
+  padding: 1.41575em;
+  border: none;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li .payment_box p,
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li.woocommerce-notice p {
+  margin: 0;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li.woocommerce-notice {
+  position: relative;
+  padding-left: 2.5em;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li.woocommerce-notice:before {
+  margin: 0;
+  left: 1.2em;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment ul.wc_payment_methods li:hover label {
+  background-color: #f0f0f0;
+}
+.fusion-woo-checkout-payment-tb .woocommerce-checkout-payment .place-order {
+  margin-top: 1em;
+}
+.fusion-woo-checkout-payment-tb.button-align-left #place_order {
+  float: left !important;
+}
+.fusion-woo-checkout-payment-tb.button-align-right #place_order {
+  float: right !important;
+}
+.fusion-woo-checkout-payment-tb.button-align-center #place_order {
+  float: none !important;
+  left: 50%;
+  transform: translateX(-50%);
+}

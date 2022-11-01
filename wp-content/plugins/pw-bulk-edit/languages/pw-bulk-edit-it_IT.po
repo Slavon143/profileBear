@@ -1,0 +1,686 @@
+# Copyright (C) 2018 PW WooCommerce Bulk Edit
+# This file is distributed under the same license as the PW WooCommerce Bulk Edit package.
+msgid ""
+msgstr ""
+"Project-Id-Version: PW WooCommerce Bulk Edit 2.49\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/trunk\n"
+"POT-Creation-Date: 2021-12-23T21:19:07+00:00\n"
+"PO-Revision-Date: 2021-12-23 15:19-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: it_IT\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "PW WooCommerce Bulk Edit"
+msgstr "PW WooCommerce Bulk Edit"
+
+#. Plugin URI of the plugin
+msgid "https://www.pimwick.com/pw-bulk-edit/"
+msgstr "https://www.pimwick.com/pw-bulk-edit/"
+
+#. Description of the plugin
+msgid ""
+"A powerful way to update your WooCommerce product catalog. Finally, no more "
+"tedious clicking through countless pages making the same change to all "
+"products!"
+msgstr ""
+"Un modo potente di aggiornare il tuo catalogo prodotti WooCommerce. "
+"Finalmente, non dovrai più cliccare su tante pagine per apportare le stesse "
+"modifiche a tutti i prodotti!"
+
+#. Author of the plugin
+msgid "Pimwick, LLC"
+msgstr "Pimwick, LLC"
+
+#. Author URI of the plugin
+msgid "https://www.pimwick.com"
+msgstr "https://www.pimwick.com"
+
+#: pw-bulk-edit.php:212
+msgid "Error while saving products: %"
+msgstr "Errore durante il salvataggio prodotti: %"
+
+#: pw-bulk-edit.php:252 pw-bulk-edit.php:263 pw-bulk-edit.php:275
+#: pw-bulk-edit.php:276 pw-bulk-edit.php:284 pw-bulk-edit.php:285
+msgid "PW Bulk Edit"
+msgstr "PW Bulk Edit"
+
+#: pw-bulk-edit.php:253 pw-bulk-edit.php:264
+msgid "Pimwick Plugins"
+msgstr "Pimwick Plugins"
+
+#: pw-bulk-edit.php:313
+msgid "contains"
+msgstr "contiene"
+
+#: pw-bulk-edit.php:314
+msgid "does not contain"
+msgstr "non contiene"
+
+#: pw-bulk-edit.php:315 pw-bulk-edit.php:327
+msgid "is"
+msgstr "è uguale a"
+
+#: pw-bulk-edit.php:316 pw-bulk-edit.php:328
+msgid "is not"
+msgstr "è diverso da"
+
+#: pw-bulk-edit.php:317
+msgid "begins with"
+msgstr "inizia con"
+
+#: pw-bulk-edit.php:318
+msgid "ends with"
+msgstr "finisce con"
+
+#: pw-bulk-edit.php:322
+msgid "is checked"
+msgstr "è selezionato"
+
+#: pw-bulk-edit.php:323
+msgid "is not checked"
+msgstr "non è selezionato"
+
+#: pw-bulk-edit.php:329
+msgid "is greater than"
+msgstr "è più grande di"
+
+#: pw-bulk-edit.php:330
+msgid "is less than"
+msgstr "è minore di"
+
+#: pw-bulk-edit.php:331
+msgid "is in the range"
+msgstr "è compreso nell'intervallo"
+
+#: pw-bulk-edit.php:335
+msgid "is any of"
+msgstr "è incluso in"
+
+#: pw-bulk-edit.php:336
+msgid "is none of"
+msgstr "non è incluso in"
+
+#: pw-bulk-edit.php:349
+msgid "Unsaved changes will be lost."
+msgstr "Le modifiche non salvate saranno perse."
+
+#: pw-bulk-edit.php:350
+msgid "Searching"
+msgstr "Ricerca"
+
+#: pw-bulk-edit.php:357
+msgid "Name your custom view, for example \"My View\""
+msgstr ""
+"Dai un nome alla tua vista personalizzata, per esempio \"La mia vista\""
+
+#: pw-bulk-edit.php:358
+msgid "A view with this name already exists. Do you want to overwrite it?"
+msgstr "Una vista con questo nome esiste già. Vuoi sovrascriverla?"
+
+#: pw-bulk-edit.php:359
+msgid "Edit All Checked Products"
+msgstr "Modifica tutti i prodotti controllati"
+
+#: pw-bulk-edit.php:360
+msgid "Sort Ascending"
+msgstr "Ordinamento ascendente"
+
+#: pw-bulk-edit.php:361
+msgid "Sort Descending"
+msgstr "Ordinamento decrescente"
+
+#: pw-bulk-edit.php:362
+msgid "Hide Column"
+msgstr "Nascondi colonna"
+
+#: pw-bulk-edit.php:363
+msgid "Accept Changes"
+msgstr "Accettare le modifiche"
+
+#: pw-bulk-edit.php:364
+msgid "Cancel Changes"
+msgstr "Annulla le modifiche"
+
+#: pw-bulk-edit.php:365
+msgid "Revert to the original value for this field"
+msgstr "Ripristina il valore originale di questo campo"
+
+#: pw-bulk-edit.php:366
+msgid "Select"
+msgstr "Seleziona"
+
+#: pw-bulk-edit.php:367
+msgid "Saving"
+msgstr "Salvataggio"
+
+#: pw-bulk-edit.php:368
+msgid "Are you sure you want to delete this view?"
+msgstr "Sei sicuro di voler cancellare questa vista?"
+
+#: pw-bulk-edit.php:369
+msgid "Discard all unsaved changes? This can't be undone."
+msgstr ""
+"Cancellare tutte le modifiche non salvate? Questo non può essere annullato."
+
+#: ui/activation.php:28
+msgid "Need more power? Upgrade to Pro and you can do things like:"
+msgstr ""
+"Hai bisogno di ulteriori funzioni? Passa al Pro e potrai fare cose quali:"
+
+#: ui/activation.php:29
+msgid "See what else the Pro version can do"
+msgstr "Scopri cosa altro la versione Pro può fare"
+
+#: ui/activation.php:34
+msgid "Bulk edit Sale Price, Sale Start Date, and Sale End Date"
+msgstr "Bulk edit Prezzo Scontato, Data Inizio Sconto, Data Fine Sconto"
+
+#: ui/activation.php:35
+msgid "Bulk change the Sale price based on Regular price"
+msgstr "Cambia il blocco il prezzo scontato in base al prezzo"
+
+#: ui/activation.php:36
+msgid "Edit any of YOUR custom Attributes"
+msgstr "Edita qualunque attributo customizzato"
+
+#: ui/activation.php:37
+msgid "Set default values for Variable products"
+msgstr "Imposta i valori di default per i prodotti variabili"
+
+#: ui/activation.php:38
+msgid "Edit Categories"
+msgstr "Edita le Categorie"
+
+#: ui/activation.php:39
+msgid "Edit the Short Description field"
+msgstr "Edita il campo Descrizione Breve"
+
+#: ui/activation.php:40
+msgid "Edit the Sold Individually field"
+msgstr "Edita il campo Venduto Individualmente"
+
+#: ui/activation.php:41
+msgid "Edit Tags"
+msgstr "Edita le Etichette"
+
+#: ui/activation.php:42
+msgid "Edit Variation Descriptions"
+msgstr "Edita le Descrizioni delle Variazioni"
+
+#: ui/activation.php:43
+msgid "Edit dimensions (Weight, Length, Width, and Height)"
+msgstr "Edita le dimensioni (Peso, Lunghezza, Larghezza e Altezza)"
+
+#: ui/activation.php:44
+msgid "Edit the Shipping Class"
+msgstr "Edita la Classe di Spedizione"
+
+#: ui/activation.php:45
+msgid "Use \"Is Empty\" and \"Is Not Empty\" filter options"
+msgstr "Usa \"è vuoto\" e \"non è vuoto\" come filtro"
+
+#: ui/activation.php:46
+msgid "Filter by Status, Variation Description, and more"
+msgstr ""
+"Filtra con Stato, Descrizione della Variazione, e con altri campi ancora"
+
+#: ui/activation.php:47
+msgid "Save and load filters"
+msgstr "Salva e carica i filtri"
+
+#: ui/bulk_editors/checkbox.php:30
+msgid "Yes"
+msgstr "Si"
+
+#: ui/bulk_editors/currency.php:29
+msgid "Set to specific amount"
+msgstr "Imposta a un valore specifico"
+
+#: ui/bulk_editors/currency.php:30
+msgid "Increase by specific amount"
+msgstr "Incrementa di un valore specifico"
+
+#: ui/bulk_editors/currency.php:31
+msgid "Decrease by specific amount"
+msgstr "Decrementa di un valore specifico"
+
+#: ui/bulk_editors/currency.php:32
+msgid "Increase by percentage"
+msgstr "Incrementa percentualmente"
+
+#: ui/bulk_editors/currency.php:33
+msgid "Decrease by percentage"
+msgstr "Decrementa percentualmente"
+
+#: ui/bulk_editors/currency.php:34 ui/bulk_editors/number.php:32
+msgid "Clear value (set to n/a)"
+msgstr "Cancella il valore (setta a n/a)"
+
+#: ui/bulk_editors/currency.php:39
+msgid "Set %s to the following amount:"
+msgstr "Imposta %s al valore seguente:"
+
+#: ui/bulk_editors/currency.php:44
+msgid "Increase %s by the following amount:"
+msgstr "Incrementa %s del seguente valore:"
+
+#: ui/bulk_editors/currency.php:49
+msgid "Decrease %s by the following amount:"
+msgstr "Decrementa %s del valore seguente:"
+
+#: ui/bulk_editors/currency.php:54
+msgid "Increase %s by the following percentage:"
+msgstr "Incrementa %s della percentuale seguente:"
+
+#: ui/bulk_editors/currency.php:59
+msgid "Decrease %s by the following percentage:"
+msgstr "Decrementa %s della percentuale seguente:"
+
+#: ui/bulk_editors/currency.php:64 ui/bulk_editors/number.php:53
+msgid "Clear the value of %s and set it to empty (n/a)."
+msgstr "Cancella il valore di %s e impostalo a vuoto (n/a)."
+
+#: ui/bulk_editors/currency.php:68
+msgid "Allow amounts to be less than zero."
+msgstr "Consenti ai valori di essere minori di zero."
+
+#: ui/bulk_editors/number.php:29
+msgid "Set to fixed value"
+msgstr "Imposta a un valore costante"
+
+#: ui/bulk_editors/number.php:30
+msgid "Increase"
+msgstr "Incrementa"
+
+#: ui/bulk_editors/number.php:31
+msgid "Decrease"
+msgstr "Decrementa"
+
+#: ui/bulk_editors/number.php:37
+msgid "Set %s to the following value:"
+msgstr "Imposta %s al valore seguente:"
+
+#: ui/bulk_editors/number.php:42
+msgid "Increase %s by the following value:"
+msgstr "Incrementa %s del valore seguente:"
+
+#: ui/bulk_editors/number.php:47
+msgid "Decrease %s by the following value:"
+msgstr "Decrementa %s del valore seguente:"
+
+#: ui/bulk_editors/number.php:49
+msgid "Allow values to be less than zero."
+msgstr "Consenti ai valori di essere minori di zero."
+
+#: ui/bulk_editors/text.php:29
+msgid "Search and replace"
+msgstr "Cerca e sostituisci"
+
+#: ui/bulk_editors/text.php:30
+msgid "Add to the beginning"
+msgstr "Aggiungi all'inizio"
+
+#: ui/bulk_editors/text.php:31
+msgid "Add to the end"
+msgstr "Aggiungi alla fine"
+
+#: ui/bulk_editors/text.php:32
+msgid "ALL UPPERCASE"
+msgstr "TUTTO IN MAIUSCOLO"
+
+#: ui/bulk_editors/text.php:33
+msgid "all lowercase"
+msgstr "tutto in minuscolo"
+
+#: ui/bulk_editors/text.php:34
+msgid "Proper Case Words"
+msgstr "Capitalizzazione delle parole"
+
+#: ui/bulk_editors/text.php:39
+msgid "Search for this text anywhere in %s:"
+msgstr "Cerca questo testo ovunque in %s:"
+
+#: ui/bulk_editors/text.php:42
+msgid "Replace it with this text:"
+msgstr "Sostituisci con questo testo:"
+
+#: ui/bulk_editors/text.php:44
+msgid "Case Sensitive"
+msgstr "Distingue maiuscole/minuscole"
+
+#: ui/bulk_editors/text.php:47
+msgid "Prepend this text to the beginning of %s:"
+msgstr "Anteponi questo testo all'inizio di %s:"
+
+#: ui/bulk_editors/text.php:51
+msgid "Append this text to the end of %s:"
+msgstr "Concatena questo testo alla fine di %s:"
+
+#: ui/bulk_editors/text.php:55
+msgid "All words will be changed to uppercase."
+msgstr "Tutte le parole verranno convertite in maiuscole."
+
+#: ui/bulk_editors/text.php:56
+msgid "Mary had a little LAMB &rarr; MARY HAD A LITTLE LAMB"
+msgstr "Mary aveva un piccolo AGNELLO &rarr; MARY AVEVA UN PICCOLO AGNELLO"
+
+#: ui/bulk_editors/text.php:59
+msgid "All words will be changed to lowercase."
+msgstr "Tutte le parole verranno convertite in minuscole."
+
+#: ui/bulk_editors/text.php:60
+msgid "Mary had a little LAMB &rarr; mary had a little lamb"
+msgstr "Mary aveva un piccolo AGNELLO &rarr; mary aveva un piccolo agnello"
+
+#: ui/bulk_editors/text.php:63
+msgid "The first letter of every word will be capitalized."
+msgstr "La prima lettera di ogni parola sarà trasformata in maiuscola."
+
+#: ui/bulk_editors/text.php:64
+msgid "Mary had a little LAMB &rarr; Mary Had A Little Lamb"
+msgstr "Mary aveva un piccolo AGNELLO &rarr; Mary Aveva Un Piccolo Agnello"
+
+#: ui/filters.php:31
+msgid "Help"
+msgstr "Aiuto"
+
+#: ui/filters.php:35
+msgid "Hide Filters"
+msgstr "Nascondi i Filtri"
+
+#: ui/filters.php:36
+msgid "Show Filters"
+msgstr "Mostra i Filtri"
+
+#: ui/filters.php:44
+msgid "Find products that match"
+msgstr "Trova i prodotti che soddisfano"
+
+#: ui/filters.php:46 ui/filters.php:70
+msgid "all"
+msgstr "tutte le"
+
+#: ui/filters.php:47 ui/filters.php:71
+msgid "any"
+msgstr "almeno una delle"
+
+#: ui/filters.php:49
+msgid "of the following rules:"
+msgstr "seguenti regole:"
+
+#: ui/filters.php:56
+msgid "Search"
+msgstr "Cerca"
+
+#: ui/filters.php:72
+msgid "of the following are true"
+msgstr "delle seguenti è vera"
+
+#: ui/filters.php:77 ui/filters.php:84 ui/filters.php:111 ui/filters.php:118
+msgid "Remove"
+msgstr "Rimuovi"
+
+#: ui/filters.php:78 ui/filters.php:82 ui/filters.php:112 ui/filters.php:116
+msgid "Add a filter"
+msgstr "Aggiungi un filtro"
+
+#: ui/filters.php:83 ui/filters.php:117
+msgid "Add a group of filters"
+msgstr "Aggiungi un gruppo di filtri"
+
+#: ui/filters.php:83
+msgid "Add a Group of Filters"
+msgstr "Aggiungi un Gruppo di Filtri"
+
+#: ui/filters.php:107
+msgid "required"
+msgstr "richiesto"
+
+#: ui/filters_help.php:32
+msgid "Tips"
+msgstr "Suggerimenti"
+
+#: ui/filters_help.php:39
+msgid "Click any header to bulk edit."
+msgstr "Clicca su ogni intestazione per editare in blocco."
+
+#: ui/filters_help.php:40
+msgid "Use a percent sign as a wildcard in text filters."
+msgstr "Usa un segno percentuale come jolly nei filtri di testo."
+
+#: ui/filters_help.php:41
+msgid "Click the link icon to view a product in WooCommerce."
+msgstr "Clicca sull'icona link per vedere un prodotto in WooCommerce."
+
+#: ui/filters_help.php:42
+msgid ""
+"Use the Tab or Enter keys while editing to move around without clicking. "
+"Shift goes backwards."
+msgstr ""
+"Usa i tasti Tab o Invio mentre editi per spostarti tra i campi senza dover "
+"cliccare. Il tasto Maiuscolo torna indietro."
+
+#: ui/filters_help.php:43
+msgid ""
+"Hold the Shift key while clicking a checkbox to select a range of products."
+msgstr ""
+"Tieni premuto il tasto Maiuscolo mentre clicchi su un checkbox per "
+"selezionare un intervallo di prodotti."
+
+#: ui/filters_help.php:44
+msgid "Love the plugin?"
+msgstr "Ami questo plugin?"
+
+#: ui/filters_help.php:44
+msgid "Leave a review!"
+msgstr "Lascia una review!"
+
+#: ui/intro.php:31
+msgid ""
+"PW WooCommerce Bulk Edit is a tremendously powerful way to update your "
+"WooCommerce product catalog. Finally, no more tedious clicking through "
+"countless pages making the same change to all products!"
+msgstr ""
+"PW WooCommerce Bulk Edit è un modo estremamente potente di aggiornare il tuo "
+"catalogo prodotti WooCommerce. Finalmente, non dovrai più cliccare su tante "
+"pagine per apportare le stesse modifiche a tutti i prodotti!"
+
+#: ui/intro.php:35
+msgid ""
+"Built with ease of use in mind, PW WooCommerce Bulk Edit is incredibly "
+"intuitive. Changes are visible and only applied when you are ready. PW "
+"WooCommerce Bulk Edit Pro lets you save your filters to make future updates "
+"a snap."
+msgstr ""
+"Costruito con l'obiettivo della semplicità di utilizzo, PW WooCommerce Bulk "
+"Edit è incredibilmente intuitivo. I cambiamenti sono visibili e vengono "
+"applicati sono quando sei pronto per farlo. PW WooCommerce Bulk Edit Pro ti "
+"consente di salvare i tuoi filtri per consentire aggiornamenti in uno "
+"schiocco di dita."
+
+#: ui/intro.php:39
+msgid ""
+"Relax! You are in control of your WooCommerce product catalog with the power "
+"of PW WooCommerce Bulk Edit."
+msgstr ""
+"Rilassati! Sei in controllo del tuo catalogo prodotti WooCommerce coon la "
+"potenza di PW WooCommerce Bulk Edit."
+
+#: ui/intro.php:41
+msgid "Let's Begin!"
+msgstr "Iniziamo!"
+
+#: ui/intro.php:43
+msgid "Don't show this message again"
+msgstr "Non mostrare più questo messaggio"
+
+#: ui/processing.php:29
+msgid "Processing..."
+msgstr "Elaborazione..."
+
+#: ui/results.php:54
+msgid "Save Products"
+msgstr "Salva i Prodotti"
+
+#: ui/results.php:54
+msgid "Save Changes"
+msgstr "Salva le Modifiche"
+
+#: ui/results.php:55
+msgid "Undo"
+msgstr "Annulla"
+
+#: ui/results.php:56
+msgid "Redo"
+msgstr "Riesegui"
+
+#: ui/results.php:57
+msgid "Discard All Changes"
+msgstr "Elimina Tutte le Modifiche"
+
+#: ui/results.php:68
+msgid "All Columns"
+msgstr "Tutte le Colonne"
+
+#: ui/results.php:70
+msgid "Standard Columns"
+msgstr "Colonne Standard"
+
+#: ui/results.php:78
+msgid "Copy View"
+msgstr "Copia vista"
+
+#: ui/results.php:79
+msgid "Edit View"
+msgstr "Modifica la vista"
+
+#: ui/results.php:80
+msgid "Delete View"
+msgstr "Cancella la Vista"
+
+#: ui/results.php:177
+msgid "View Product in WooCommerce"
+msgstr "Vedi il Prodotto in WooCommerce"
+
+#: ui/results.php:206
+msgid "Maximum %s records found"
+msgstr "Massimo numero di record %s raggiunto"
+
+#: ui/results.php:206
+msgid ""
+"If you would like to increase this limit, set PWBE_MAX_RESULTS in pw-bulk-"
+"edit.php. NOTE: this limit is in place due to browser limitations. "
+"Increasing this value may cause unexpected behavior! Instead, we suggest "
+"adding additional filters to lower the number of products found."
+msgstr ""
+"Se vuoi incrementare questo limite, imposta PWBE_MAX_RESULTS nel file pw-"
+"bulk-edit.php. NOTA: questo limite è stato imposto a causa delle limitazioni "
+"dei browsers. Incrementare questo valore potrebbe causare dei comportamenti "
+"inattesi! Il nostro suggerimento è quello di aggiungere filtri addizionali "
+"per diminuire il numero di prodotti trovati."
+
+#: ui/results.php:210
+msgid "%s records found"
+msgstr "%s records trovati"
+
+#~ msgid "Product name"
+#~ msgstr "Nome prodotto"
+
+#~ msgid "Product description"
+#~ msgstr "Descrizione prodotto"
+
+#~ msgid "SKU"
+#~ msgstr "COD"
+
+#~ msgid "Regular price"
+#~ msgstr "Prezzo"
+
+#~ msgid "Tax status"
+#~ msgstr "Regime fiscale"
+
+#~ msgid "Tax class"
+#~ msgstr "Classe tassa"
+
+#~ msgid "Manage stock"
+#~ msgstr "Gestisci magazzino"
+
+#~ msgid "Stock quantity"
+#~ msgstr "Quantità in magazzino"
+
+#~ msgid "Allow backorders"
+#~ msgstr "Consenti ordini arretrati"
+
+#~ msgid "Stock status"
+#~ msgstr "Disponibilità in magazzino"
+
+#~ msgid "Menu order"
+#~ msgstr "Ordine nel menu"
+
+#~ msgid "Catalog visibility"
+#~ msgstr "Visibilità nel catalogo"
+
+#~ msgid "Featured"
+#~ msgstr "In evidenza"
+
+#~ msgid "Status"
+#~ msgstr "Stato"
+
+#~ msgid "ID"
+#~ msgstr "ID"
+
+#~ msgid "Category"
+#~ msgstr "Categoria"
+
+#~ msgid "Description"
+#~ msgstr "Descrizione"
+
+#~ msgid "Sale price"
+#~ msgstr "Prezzo scontato"
+
+#~ msgid "Tag"
+#~ msgstr "Etichette"
+
+#~ msgid "Taxable"
+#~ msgstr "Imponibile"
+
+#~ msgid "Shipping only"
+#~ msgstr "Solo spedizione"
+
+#~ msgid "None"
+#~ msgstr "Nessuno"
+
+#~ msgid "Same as parent"
+#~ msgstr "Come il genitore"
+
+#~ msgid "Standard"
+#~ msgstr "Standard"
+
+#~ msgid "In stock"
+#~ msgstr "Disponibile"
+
+#~ msgid "Out of stock"
+#~ msgstr "Esaurito"
+
+#~ msgid "Do not allow"
+#~ msgstr "Non consentire"
+
+#~ msgid "Allow, but notify customer"
+#~ msgstr "Consenti, ma informa il cliente"
+
+#~ msgid "Allow"
+#~ msgstr "Consenti"
+
+#~ msgid "Catalog/search"
+#~ msgstr "Catalogo/cerca"
+
+#~ msgid "Catalog"
+#~ msgstr "Catalogo"
+
+#~ msgid "Hidden"
+#~ msgstr "Nascosto"

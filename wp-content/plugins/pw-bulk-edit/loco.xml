@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<bundle name="PW WooCommerce Bulk Edit">
+  <domain name="pw-bulk-edit">
+    <project name="PW WooCommerce Bulk Edit" slug="pw-bulk-edit">
+      <source>
+        <directory>.</directory>
+      </source>
+      <target>
+        <directory>languages</directory>
+      </target>
+      <template>
+        <file>languages/pw-bulk-edit.pot</file>
+      </template>
+    </project>
+  </domain>
+</bundle>

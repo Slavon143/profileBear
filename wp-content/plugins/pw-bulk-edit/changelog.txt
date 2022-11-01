@@ -1,0 +1,416 @@
+= 2.106 =
+* Confirmed compatibility with WooCommerce 7.0
+
+= 2.105 =
+* Global setting to hide the Pimwick Plugins menu in the admin area. Confirmed compatibility with WooCommerce 6.8
+
+= 2.104 =
+* Usability improvement: When bulk editing Checkbox fields, split the option into Yes / No instead of a single checkbox.
+
+= 2.103 =
+* Fixed an issue with saving certain fields.
+
+= 2.102 =
+* Fixed a possible PHP exception when saving products.
+
+= 2.101 =
+* Added a setting to hide the Pimwick Plugins menu in the admin area. Updated save routines to use the built in WooCommerce setter methods where available.
+
+= 2.100 =
+* Updated the WooCommerce minimum version requirement to 4.0. Updated the Help document to include a link to our FAQ. WooCommerce 6.7 compatible.
+
+= 2.99 =
+* Cleaned up some jQuery Migrate warning messages.
+
+= 2.98 =
+* WooCommerce 6.6 compatibility.
+
+= 2.97 =
+* WordPress 6.0 and WooCommerce 6.5 compatibility.
+
+= 2.96 =
+* Compatibility with WooCommerce 6.5 and WordPress 5.9.3
+
+= 2.95 =
+* Cleaning up some jQuery function calls to reduce migratewarn messages in web browser developer console.
+
+= 2.94 =
+* WordPress 5.9 and WooCommerce 6.2 compatibility.
+
+= 2.93 =
+* Updated javascript files so that the strings can be translated. Updated POT file and Italian translations.
+
+= 2.92 =
+* Confirmed compatibility with WooCommerce 6.0
+
+= 2.91 =
+* Confirmed compatibility with WooCommerce v5.9
+
+= 2.90 =
+* Added a new wp-config.php option to change the memory limit setting or disable it entirely: PWBE_MEMORY_LIMIT
+
+= 2.89 =
+* Confirmed compatibility with WordPress v5.8 and WooCommerce v5.5
+
+= 2.88 =
+* Fixed an issue where the check/uncheck all Checkbox would not work when scrolled down.
+
+= 2.87 =
+* Fixed an issue preventing string filters that contain an underscore character.
+
+= 2.86 =
+* Confirmed compatibility with WordPress 5.7 and WooCommerce 5.1
+
+= 2.85 =
+* Updated call to the WooCommerce hook woocommerce_update_product_variation to include the Product variable. Fixed an issue when bulk editing certain fields such as Product Description. Improved HTML to make it more valid. Updated readme.txt to reflect new features in the Pro version.
+
+= 2.84 =
+* Confirmed WooCommerce 5.0 compatibility.
+
+= 2.83 =
+* Confirmed compatibility with WooCommerce v4.9
+
+= 2.82 =
+* Updated call to woocommerce_update_product for other plugins that listen to this hook and use the new second parameter.
+
+= 2.81 =
+* Confirmed compatibility with WordPress 5.6 and WooCommerce 4.8
+
+= 2.80 =
+* Removed Javascript warning about missing source map files when the developer console is open. Confirmed compatibility with WooCommerce v4.7
+
+= 2.79 =
+* Confirmed compatibility with WooCommerce v4.6
+
+= 2.78 =
+* Verified compatibility with WooCommerce 4.5
+
+= 2.77 =
+* Fixed a potential error about a duplicate primary key when filtering.
+
+= 2.76 =
+* Fixed an issue that can cause the error 'pwbe_products table does not exist' on certain hosts, in particular sites hosted on wordpress.com
+
+= 2.75 =
+* Confirmed compatibility with WooCommerce v4.3
+
+= 2.74 =
+* When sorting numeric columns, use DECIMAL instead of SIGNED to make sorting fractions work properly.
+
+= 2.73 =
+* Small fix to not add an undo/redo entry if a bulk edit operation does not change any fields. Confirmed compatibility with WordPress 5.5
+
+= 2.72 =
+* Fixed an HTML tag with the Cancel button.
+
+= 2.71 =
+* Allow changing the required capability for the bulk editor by setting PWBE_REQUIRES_CAPABILITY constant in your wp-config.php. The default is manage_woocommerce.
+
+= 2.70 =
+* Fixed sorting all Number field types for databases that have the data as a string rather than an integer.
+
+= 2.69 =
+* Fixed sorting by Menu Order for databases that have the menu data as a string rather than an integer.
+
+= 2.68 =
+* Confirmed compatibility with WooCommerce v4.1
+
+= 2.67 =
+* Confirmed compatibility with WordPress 5.4
+
+= 2.66 =
+* Allow HTML in fields such as Description, Name, etc.
+
+= 2.65 =
+* SECURITY ALERT - This version fixes a reported security issue with the plugin. It is recommended that all users upgrade to this latest version.
+
+= 2.64 =
+* Confirmed compatibility with WordPress 5.3.2 and WooCommerce 4.0.0
+
+= 2.63 =
+* Confirmed compatibility with WooCommerce 3.9.0
+
+= 2.62 =
+* New feature: Copy a view. Integration with LiteSpeed Cache to purge the cache after saving products.
+
+= 2.61 =
+* Confirmed compatibility with the upcoming WooCommerce v3.8.0 release. Added a new wp-config option: PWBE_PREFILTER_VARIATIONS. If the data incorrectly contains product_variation records that are children of Simple Products you will want to enable this flag. It is disabled by default because typically it will not be needed and could slow down the search results.
+
+= 2.60 =
+* Added the ability to clear Number values (set to n/a) from the bulk edit menu.
+
+= 2.59 =
+* Fixed sorting by Catalog Visibility and plugin version mismatch.
+
+= 2.58 =
+* No release, plugin version mismatch.
+
+= 2.57 =
+* No release, plugin version mismatch.
+
+= 2.56 =
+* Confirmed compatibility with WooCommerce v3.6.4 and WordPress v5.2.1
+
+= 2.55 =
+* Made Variation Description part of the Standard Columns to avoid confusion.
+
+= 2.54 =
+* Updated currency bulk editor to support a higher decimal precision.
+
+= 2.53 =
+* Fixed a potential unitialized string offset error while saving products.
+
+= 2.52 =
+* Confirmed compatibility with WooCommerce v3.5.0
+
+= 2.51 =
+* Sync the Stock Status when changing stock quantity.
+
+= 2.50 =
+* Fixed a bug introduced in v2.49 that prevented some of the filters from being used.
+
+= 2.49 =
+* Added translation support using Loco Translate, Poedit, etc.
+
+= 2.48 =
+* Added new config option PWBE_SAVE_BATCH_SIZE to help prevent HTTP 504 Timeout errors with slow servers.
+
+= 2.47 =
+* Updated plugin to be able to handle malformed prices when doing bulk operations.
+
+= 2.46 =
+* Variations titles now show the formatted name.
+
+= 2.45 =
+* Fixed possible issue sorting on variation attribute.
+
+= 2.44 =
+* Fixed issue where number fields may appear blank for editing instead of "n/a".
+
+= 2.43 =
+* Tweak to SQL query when saving products to prevent potential error on some systems.
+
+= 2.42 =
+* Tweaks to fix blank MySQL error.
+
+= 2.41 =
+* Moved the plugin init code out of the woocommerce_init hook and back into the constructor.
+
+= 2.40 =
+* Added .pot file for translation support.
+
+= 2.39 =
+* Added PW Bulk Edit menu under the WooCommerce Products menu to make it easier to find.
+
+= 2.38 =
+* Fixed issue where Stock Status column wouldn't appear unless you had Enable Stock Management enabled.
+
+= 2.37 =
+* Fixed sorting on the Featured column in WooCommerce 3.0 and later.
+
+= 2.36 =
+* Fixed issue setting Featured flag and Catalog Visibility in WooCommerce 3.0 and later.
+
+= 2.35 =
+* Fixed issue with the Featured flag. Fixed a possible exception when filtering results.
+
+= 2.34 =
+* Removed a warning about an undefined variable.
+
+= 2.33 =
+* Updated the admin menu icon style.
+
+= 2.32 =
+* Updated the admin menu icon.
+
+= 2.31 =
+* Display 0 in the results for prices that are not blank.
+
+= 2.30 =
+* Added a call to the update variation product hook while saving.
+
+= 2.29 =
+* Fixed small issue with single quotes not being encoded on the html editor.
+
+= 2.28 =
+* Fixed incompatibility with the WordPress automatic emoji converter.
+
+= 2.27 =
+* Fixed an issue with saving URLs in the Description and Short Description fields.
+
+= 2.26 =
+* Added the ability to edit the Menu Order field on products. Improved performance for large results sets.
+
+= 2.25 =
+* Removed the intro splash screen, it wasn't all that useful.
+
+= 2.24 =
+* Added help to the opening screen.
+
+= 2.22 =
+* Fixed issue with group filtering.
+
+= 2.21 =
+* Search and replace text now allows you to clear the entire string.
+
+= 2.20 =
+* Updated sync call to fix cache issue on some systems when changing prices.
+
+= 2.19 =
+* Support for PHP 5.2 and later.
+
+= 2.18 =
+* Support for PHP 5.2 and later.
+
+= 2.17 =
+* Improved database error reporting.
+
+= 2.16 =
+* Now both mysql and mysqli are supported.
+
+= 2.15 =
+* Now both mysql and mysqli are supported.
+
+= 2.14 =
+* Now both mysql and mysqli are supported.
+
+= 2.13 =
+* Revamped the error checking for product search queries.
+
+= 2.12 =
+* Removed the hook check for scripts.
+
+= 2.11 =
+* Verify the field keys before saving.
+
+= 2.10 =
+* Removed call to delete-cache after saving a product.
+
+= 2.9 =
+* Prevent currency thousands separators from being saved.
+
+= 2.8 =
+* Better support for international currencies.
+
+= 2.7 =
+* Fixed rounding issue on bulk percentage change for non-US currencies.
+
+= 2.6 =
+* Results now return much faster! Navigation improvements. Wrap cache delete inside try/catch.
+
+= 2.5 =
+* Results now return much faster! Plus, various small fixes.
+
+= 2.4 =
+* Adding missing files to SVN.
+
+= 2.3 =
+* Tweaks to the sticky header on the results table.
+
+= 2.2 =
+* Sticky header on the results table.
+
+= 2.1 =
+* Show/hide columns and save custom Views.
+
+= 1.35 =
+* Improved the user interface for selecting products. Hold the Shift key while clicking a checkbox to select a range of products.
+
+= 1.34 =
+* Fixed sorting of variations under the parent product. Allow changing Status for variations.
+
+= 1.33 =
+* Support for alternative decimal separators such as a comma. Fixed an issue sorting numeric fields.
+
+= 1.32 =
+* Made the add/remove filter UI more intuitive.
+
+= 1.31 =
+* Fixed issue with batch saving, improved error reporting.
+
+= 1.30 =
+* Update to improve compatibility with PHP 5.2
+
+= 1.29 =
+* Saving is now faster thanks to batching.
+
+= 1.28 =
+* Reduced server-side memory requirements.
+
+= 1.27 =
+* Added support for Multistore. Use configured currency rather than dollar. Various bug fixes.
+
+= 1.26 =
+* Report error detail if there is a problem while filtering.
+
+= 1.25 =
+* Report error detail if there is a problem while filtering.
+
+= 1.24 =
+* Added matched record count. Statuses pulled from system rather than hard-coded with default statuses.
+
+= 1.23 =
+* Changed how prices are saved internally.
+
+= 1.22 =
+* Added a status update to the save process.
+
+= 1.21 =
+* Fixed a potential error for larger queries.
+
+= 1.20 =
+* Fixed an issue that can be caused by filtering on multiple fields.
+
+= 1.19 =
+* Updated SQL statement to allow for larger result sets to be processed during filtering.
+
+= 1.18 =
+* Reduce extra calls to clearing transients.
+
+= 1.17 =
+* Increased timeout during save to prevent timeout errors when saving lots of products.
+
+= 1.16 =
+* Stock settings can be changed on variations now.
+
+= 1.15 =
+* Fixed a bug that could prevent Sale Price from being bulk changed.
+
+= 1.14 =
+* Added some hooks for other plugin authors to add functionality. Output SQL errors on filter to aid in troubleshooting.
+
+= 1.11 =
+* Added the ability to clear price fields.
+
+= 1.9 =
+* Allow whole number prices to be bulk updated to decimal values (for example, $4 can be changed to $4.50).
+
+= 1.8 =
+* Fixed an issue that prevented variations from updating due to caching.
+
+= 1.7 =
+* Stock fields no longer appear if you don't have the Manage Stock option enabled in WooCommerce.
+
+= 1.6 =
+* Added support for the WooCommerce Subscriptions plugin!
+* Pro version includes support for the WooCommerce Brands plugin.
+* Admin-level access is no longer required. Now works for any user with the Shop Manager role (or greater).
+* Small bugfixes.
+
+= 1.5 =
+* Fixed an issue with Price not updating sometimes. Added social share buttons.
+
+= 1.4 =
+* Added Help Documentation.
+
+= 1.3 =
+* Small bugfixes.
+
+= 1.2 =
+* Fixed an issue that could cause the Currency or Text bulk edit dialog to be blank.
+
+= 1.1 =
+* Removed erroneous dollar sign on the bulk change number dialog.
+
+= 1.0 =
+* Initial version

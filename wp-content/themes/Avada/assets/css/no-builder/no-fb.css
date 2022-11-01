@@ -1,0 +1,117 @@
+/* stylelint-disable no-descending-specificity */
+.fusion-button-default,
+.wpcf7-submit,
+.comment-form .fusion-button-default,
+.single_add_to_cart_button,
+.comment-respond .submit,
+.wc-proceed-to-checkout .fusion-button,
+.woocommerce-checkout .fusion-button,
+.avada-coupon-fields .fusion-button,
+#order_review .fusion-button,
+.fusion-menu-item-button .fusion-button {
+  background: var(--primary_color);
+  border-color: var(--primary_color);
+  color: #fff;
+  padding: 5px 15px;
+  line-height: var(--body_typography-line-height);
+  font-size: var(--body_typography-font-size);
+}
+.fusion-alignleft,
+.alignleft {
+  display: inline;
+  float: left;
+  margin-right: 15px;
+}
+.fusion-alignright,
+.alignright {
+  display: inline;
+  float: right;
+  margin-left: 15px;
+}
+.aligncenter,
+.fusion-aligncenter {
+  display: block;
+  clear: both;
+  margin: 0 auto;
+  text-align: center;
+}
+.fusion-clearfix,
+.clearfix {
+  clear: both;
+}
+.fusion-clearfix:before,
+.clearfix:before,
+.fusion-clearfix:after,
+.clearfix:after {
+  content: " ";
+  display: table;
+}
+.fusion-clearfix:after,
+.clearfix:after {
+  clear: both;
+}
+.create-block-format-context {
+  display: inline-block;
+  clear: both;
+  margin-bottom: 40px;
+  width: 100%;
+}
+.create-block-format-context:before,
+.create-block-format-context:after {
+  content: " ";
+  display: table;
+}
+.create-block-format-context:after {
+  clear: both;
+}
+.create-block-format-context:before,
+.create-block-format-context:after {
+  content: " ";
+  display: table;
+}
+.create-block-format-context:after {
+  clear: both;
+}
+.more {
+  overflow: hidden;
+  display: block;
+  font: 13px/15px "PTSansRegular", arial, helvetica, sans-serif;
+}
+.more a {
+  float: right;
+  padding: 0;
+}
+.more a.active {
+  color: #65bc7b;
+  text-decoration: none;
+}
+.more a.active:after {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  font-family: "awb-icons";
+  content: "\f105";
+  color: #65bc7b;
+  font-size: 14px;
+  padding-left: 5px;
+}
+.fusion-read-more,
+.tribe-events-viewmore > a,
+.more a {
+  position: relative;
+  margin-right: 10px;
+  text-align: right;
+  display: inline-block;
+}
+.fusion-read-more:after,
+.tribe-events-viewmore > a:after,
+.more a:after {
+  content: "\f105";
+  position: absolute;
+  right: -10px;
+  top: 50%;
+  transform: translateY(-50%);
+  padding-left: 5px;
+  font-family: "awb-icons";
+  font-size: 14px;
+}

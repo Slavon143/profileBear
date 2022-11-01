@@ -1,0 +1,125 @@
+.awb-image-hotspots {
+  display: flex;
+}
+.awb-image-hotspots-wrapper {
+  position: relative;
+  max-width: 100%;
+}
+.awb-image-hotspots-image {
+  max-width: 100%;
+  height: auto;
+}
+.awb-image-hotspots-hotspot {
+  cursor: pointer;
+  position: absolute !important;
+  padding: 8px;
+  background-color: white;
+  color: black;
+  font-size: 0.925rem;
+  line-height: 1;
+  top: 50;
+  left: 50;
+  transition: background-color 250ms ease, color 250ms ease;
+}
+.awb-image-hotspots-hotspot:hover,
+.awb-image-hotspots-hotspot:focus {
+  background-color: #e2e2e2;
+  color: black;
+}
+.awb-image-hotspots-hotspot-anim-pumping {
+  animation: awb-hotspot-pumping 1.2s infinite alternate;
+  animation-timing-function: ease;
+}
+@keyframes awb-hotspot-pumping {
+  0% {
+    transform: scale(0.95);
+  }
+  100% {
+    transform: scale(1.1);
+  }
+}
+.awb-image-hotspots-hotspot-anim-pulsating {
+  z-index: 1;
+}
+.awb-image-hotspots-hotspot-anim-pulsating:before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  animation: awb-hotspot-pulsating 1.9s infinite;
+  background-color: inherit;
+  border-radius: inherit;
+}
+@keyframes awb-hotspot-pulsating {
+  0% {
+    transform: scale(0.7);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.6);
+    opacity: 0;
+  }
+}
+.awb-image-hotspots-hotspot-anim-showing {
+  animation: awb-hotspot-showing 1.5s infinite alternate;
+  animation-timing-function: ease;
+}
+@keyframes awb-hotspot-showing {
+  0% {
+    opacity: 0.7;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.awb-image-hotspots-hotspot-anim-pump-showing {
+  animation: awb-hotspot-pump-showing 1.3s infinite alternate;
+  animation-timing-function: ease;
+}
+@keyframes awb-hotspot-pump-showing {
+  0% {
+    opacity: 0.8;
+    transform: scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+}
+.awb-image-hotspots-hotspot-anim-sonar {
+  z-index: 1;
+  border-color: white;
+}
+.awb-image-hotspots-hotspot-anim-sonar:before,
+.awb-image-hotspots-hotspot-anim-sonar:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  top: -1px;
+  left: -1px;
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  animation: awb-hotspot-sonar 2.3s infinite;
+  background-color: transparent;
+  border: 1px solid;
+  border-color: inherit;
+  border-radius: inherit;
+}
+.awb-image-hotspots-hotspot-anim-sonar:after {
+  animation-delay: 600ms;
+}
+@keyframes awb-hotspot-sonar {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1.4);
+    opacity: 0;
+  }
+}

@@ -1,0 +1,87 @@
+/* stylelint-disable no-descending-specificity */
+.fusion-open-submenu:hover,
+a:hover,
+.project-content .project-info .project-info-box a:hover,
+#main .post h2 a:hover,
+#main .about-author .title a:hover,
+.fusion-content-widget-area .widget_categories li a:hover,
+.fusion-content-widget-area .widget li a:hover,
+.fusion-date-and-formats .fusion-format-box i,
+h5.toggle:hover a,
+.content-box-percentage,
+.more a:hover:after,
+.fusion-read-more:hover:after,
+.pagination-prev:hover:before,
+.pagination-next:hover:after,
+.single-navigation a[rel=prev]:hover:before,
+.single-navigation a[rel=next]:hover:after,
+.fusion-pagination .prev:hover,
+.fusion-pagination .next:hover,
+.fusion-pagination .prev:hover:before,
+.fusion-pagination .next:hover:after,
+.fusion-content-widget-area .widget li a:hover:before,
+.fusion-content-widget-area .widget_nav_menu li a:hover:before,
+.fusion-content-widget-area .widget_categories li a:hover:before,
+.fusion-content-widget-area .widget .recentcomments:hover:before,
+.fusion-content-widget-area .widget_recent_entries li a:hover:before,
+.fusion-content-widget-area .widget_archive li a:hover:before,
+.fusion-content-widget-area .widget_pages li a:hover:before,
+.fusion-content-widget-area .widget_links li a:hover:before,
+.side-nav .arrow:hover:after,
+#wrapper .jtwt .jtwt_tweet a:hover,
+.star-rating:before,
+.star-rating span:before,
+#wrapper .fusion-widget-area .current_page_item > a,
+#wrapper .fusion-widget-area .current-menu-item > a,
+#wrapper .fusion-vertical-menu-widget .menu li.current_page_ancestor > a,
+#wrapper .fusion-vertical-menu-widget .menu li.current-menu-item > a,
+#wrapper .fusion-widget-area .current_page_item > a:before,
+#wrapper .fusion-widget-area .current-menu-item > a:before,
+.side-nav ul > li.current_page_item > a,
+.side-nav li.current_page_ancestor > a,
+.price ins .amount,
+.price > .amount,
+.pagination .pagination-prev:hover:before,
+.pagination .pagination-next:hover:after,
+.rtl .more a:hover:before,
+.rtl .fusion-read-more:hover:before {
+  color: var(--primary_color);
+}
+#wrapper .post-content blockquote,
+.fusion-body blockquote,
+.comment-text blockquote,
+.progress-bar-content,
+.pagination .current,
+.pagination a.inactive:hover,
+.fusion-hide-pagination-text .pagination-prev:hover,
+.fusion-hide-pagination-text .pagination-next:hover,
+.fusion-pagination .page-numbers.current,
+.fusion-pagination .page-numbers:hover,
+.fusion-pagination .current,
+#nav ul li > a:hover,
+#sticky-nav ul li > a:hover,
+#wrapper .tagcloud a:hover {
+  border-color: var(--primary_color);
+}
+ul.circle-yes li:before,
+.circle-yes ul li:before,
+.progress-bar-content,
+.pagination .current,
+.fusion-pagination .current,
+.fusion-date-and-formats .fusion-date-box,
+.table-2 table thead,
+.tagcloud a:hover,
+#toTop:hover,
+.fusion-search-form-classic .searchform:not(.fusion-search-form-clean) .fusion-search-form-content .fusion-search-button input[type="submit"]:hover,
+.fusion-search-element .searchform.fusion-search-form-classic .fusion-search-form-content .fusion-search-button input[type="submit"]:hover,
+ul.arrow li:before {
+  background-color: var(--primary_color);
+}
+#wrapper .side-nav li.current_page_item a,
+#wrapper .fusion-vertical-menu-widget .menu li.current_page_item > a {
+  border-right-color: var(--primary_color);
+  border-left-color: var(--primary_color);
+}
+.fusion-content-widget-area .fusion-tabs-widget .fusion-tabs-nav ul li.active a {
+  border-top-color: var(--primary_color);
+}

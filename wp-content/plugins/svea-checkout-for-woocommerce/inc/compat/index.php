@@ -1,0 +1,1 @@
+<?php // This directory contains addon-files for support

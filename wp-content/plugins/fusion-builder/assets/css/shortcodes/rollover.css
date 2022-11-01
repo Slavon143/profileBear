@@ -1,0 +1,43 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-image-wrapper .fusion-rollover {
+  background-image: linear-gradient(to top, var(--image_gradient_bottom_color) 0%, var(--image_gradient_top_color) 100%);
+}
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-link:before,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-gallery:before {
+  font-size: var(--image_rollover_icon_size);
+  color: var(--image_rollover_icon_color);
+}
+.avada-image-rollover-circle-no .fusion-image-wrapper .fusion-rollover .fusion-rollover-link,
+.avada-image-rollover-circle-no .fusion-image-wrapper .fusion-rollover .fusion-rollover-gallery {
+  width: calc((var(--image_rollover_icon_size)) * 1.5);
+  height: calc((var(--image_rollover_icon_size)) * 1.5);
+  background-color: transparent;
+}
+.avada-image-rollover-circle-yes .fusion-image-wrapper .fusion-rollover .fusion-rollover-link,
+.avada-image-rollover-circle-yes .fusion-image-wrapper .fusion-rollover .fusion-rollover-gallery {
+  width: calc((var(--image_rollover_icon_size)) * 2.41);
+  height: calc((var(--image_rollover_icon_size)) * 2.41);
+  background-color: var(--image_rollover_text_color);
+}
+.fusion-woo-product-design-clean .products .fusion-rollover-content .fusion-product-buttons,
+.fusion-woo-slider .fusion-product-buttons,
+.fusion-woo-product-design-clean .products .fusion-rollover-content .fusion-product-buttons a,
+.fusion-woo-slider .fusion-product-buttons a,
+.fusion-woo-product-design-clean .products .fusion-rollover-content .fusion-rollover-linebreak,
+.fusion-woo-slider .fusion-product-buttons .fusion-rollover-linebreak {
+  color: var(--image_rollover_text_color);
+}
+body:not(.avada-image-rollover-direction-left) .fusion-rollover .fusion-rollover-content .fusion-rollover-title,
+body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title a,
+body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories,
+body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories a,
+body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rollover .fusion-rollover-content a,
+body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price *,
+body:not(.avada-image-rollover-direction-left) .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:before {
+  color: var(--image_rollover_text_color);
+}
+.fusion-woo-product-design-clean .products .fusion-rollover .star-rating span:before,
+.fusion-woo-product-design-clean .products .fusion-rollover .star-rating:before {
+  color: var(--image_rollover_icon_color);
+}

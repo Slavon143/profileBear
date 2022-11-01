@@ -1,0 +1,153 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-image-carousel {
+  margin-bottom: 40px;
+}
+/* All standard carousel styles */
+.fusion-carousel {
+  overflow: hidden;
+  padding: 0;
+}
+.fusion-carousel .fusion-carousel-positioner {
+  position: relative;
+}
+.fusion-carousel .fusion-carousel-wrapper {
+  box-sizing: content-box;
+  padding: 8px 0;
+}
+.fusion-carousel .fusion-carousel-swipe {
+  cursor: grab;
+}
+.fusion-carousel .fusion-carousel-holder {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.fusion-carousel .fusion-carousel-item {
+  display: block;
+  float: left;
+  padding: 0;
+}
+.fusion-carousel .fusion-carousel-item .fusion-carousel-item-wrapper {
+  display: inline-block;
+  visibility: hidden;
+  vertical-align: middle;
+  width: 100%;
+  line-height: normal;
+  text-align: center;
+}
+.fusion-carousel .fusion-carousel-item .fusion-image-wrapper {
+  display: inline-block;
+  margin-bottom: 0;
+  text-align: center;
+  max-width: 100%;
+}
+.fusion-carousel .fusion-carousel-item .fusion-image-wrapper .fusion-placeholder-image {
+  width: 1500px !important;
+}
+.fusion-carousel .fusion-carousel-item .fusion-image-wrapper.fusion-video {
+  display: block;
+}
+.fusion-carousel .fusion-carousel-item > a {
+  display: block;
+  box-shadow: none;
+}
+.fusion-carousel .fusion-carousel-item img {
+  vertical-align: middle;
+  width: 100%;
+  height: auto;
+}
+.fusion-carousel .fusion-carousel-title {
+  margin: 15px 0 3px;
+}
+.fusion-carousel .fusion-carousel-price {
+  margin-top: 8px;
+}
+.fusion-carousel .fusion-carousel-price .price {
+  margin-bottom: 0;
+}
+.fusion-carousel .fusion-carousel-nav {
+  visibility: hidden;
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next,
+.fusion-carousel .fusion-carousel-nav .fusion-nav-prev {
+  display: block;
+  z-index: 1000;
+  opacity: 0.8;
+  position: absolute;
+  top: 50%;
+  margin-top: -14px;
+  padding: 0;
+  height: 29px;
+  width: 29px;
+  text-align: center;
+  cursor: pointer;
+  color: transparent;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-repeat: no-repeat;
+  border: none;
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next:before,
+.fusion-carousel .fusion-carousel-nav .fusion-nav-prev:before {
+  display: block;
+  position: relative;
+  line-height: 29px;
+  font-size: 14px;
+  color: #fff;
+  font-family: "awb-icons";
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next:hover,
+.fusion-carousel .fusion-carousel-nav .fusion-nav-prev:hover {
+  opacity: 1;
+  background-color: var(--carousel_hover_color);
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-prev {
+  left: 0;
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-prev:before {
+  content: "\f104";
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next {
+  right: 0 !important;
+}
+.fusion-carousel .fusion-carousel-nav .fusion-nav-next:before {
+  content: "\f105";
+}
+.fusion-carousel-title-below-image .fusion-carousel-meta,
+.fusion-carousel-title-below-image .fusion-carousel-title {
+  text-align: left;
+}
+.fusion-carousel-border .fusion-image-wrapper {
+  border: 1px solid #E9EAEE;
+}
+.fusion-carousel-border .fusion-image-wrapper.hover-type-liftup {
+  box-sizing: content-box;
+}
+.fusion-image-carousel-fixed .fusion-carousel .fusion-carousel-item-wrapper {
+  text-align: center;
+}
+.fusion-image-carousel-fixed .fusion-carousel .fusion-image-wrapper {
+  vertical-align: middle;
+}
+.fusion-image-carousel-fixed .fusion-carousel .fusion-image-wrapper a {
+  display: block;
+  box-shadow: none;
+}
+.fusion-image-carousel-fixed .fusion-carousel .fusion-image-wrapper img {
+  max-height: 115px;
+  width: auto;
+}
+.fusion-image-carousel-fixed:not(.awb-image-carousel-top-below-caption) .fusion-carousel .fusion-carousel-wrapper {
+  height: 115px !important;
+}
+.fusion-image-carousel-fixed:not(.awb-image-carousel-top-below-caption) .fusion-carousel .fusion-carousel-holder {
+  line-height: 115px !important;
+}
+@media all and (max-width: 1024px) {
+  .fusion-carousel-wrapper.fusion-carousel-swipe .fusion-carousel-holder .fusion-image-wrapper > a {
+    pointer-events: none;
+  }
+  .fusion-carousel-wrapper.fusion-carousel-swipe .fusion-carousel-holder .fusion-image-wrapper:hover > a {
+    pointer-events: inherit;
+  }
+}

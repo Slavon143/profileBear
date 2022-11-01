@@ -1,0 +1,59 @@
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio.option-inline {
+  display: inline-flex;
+  margin-right: 1.5em;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio:not(.option-inline) {
+  margin-bottom: 0.5em;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio label {
+  margin: 0;
+  position: relative;
+  padding: 0 0 0 1.34em;
+  cursor: pointer;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio label:before {
+  content: "";
+  min-width: 13px;
+  height: 13px;
+  border: 1px solid var(--form_border_color);
+  border-radius: 100%;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: all 0.2s ease;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio label:after {
+  content: "";
+  left: 4px;
+  width: 7px;
+  height: 7px;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio input {
+  position: absolute;
+  width: 14px;
+  height: 14px;
+  opacity: 0;
+  margin: 0;
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio input:checked + label:before {
+  border-color: var(--form_focus_border_color);
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio input:checked + label:after {
+  background: var(--form_focus_border_color);
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio input:hover:not(:checked) + label:before {
+  border-color: var(--form_focus_border_color-5a);
+}
+.fusion-form-form-wrapper .fusion-form-field .fusion-form-radio input:focus + label:before {
+  border-color: var(--form_focus_border_color);
+}

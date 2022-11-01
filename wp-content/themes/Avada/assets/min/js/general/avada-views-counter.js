@@ -1,0 +1,1 @@
+!function(a){"use strict";setTimeout(function(){var t=window.fusion.getCurrentPostID();if(!t||0>t)return;a.ajax({type:"POST",url:avadaViewsCounterVars.ajaxUrl,data:{action:"avada_set_ajax_post_views",postId:t},dataType:"json"})},1e3)}(jQuery);

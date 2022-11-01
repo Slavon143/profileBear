@@ -1,0 +1,23 @@
+.shop_attributes {
+  width: 100%;
+}
+.shop_attributes tr {
+  border-bottom: 1px solid #e0e0e0;
+}
+.shop_attributes tr:last-child {
+  border-bottom: 0;
+}
+.shop_attributes tr th {
+  text-align: left;
+  width: 30%;
+  font-weight: bold;
+  padding: 5px 0;
+}
+.shop_attributes tr td {
+  text-align: left;
+  width: 70%;
+  padding: 5px 0;
+}
+.product .shop_attributes p {
+  margin: 0;
+}

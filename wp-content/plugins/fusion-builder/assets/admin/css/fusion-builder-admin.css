@@ -1,0 +1,1670 @@
+@keyframes pulsate {
+  0% {
+    opacity: 0.3;
+  }
+  50% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0.3;
+  }
+}
+@keyframes highlight {
+  0% {
+    box-shadow: none;
+  }
+  33% {
+    box-shadow: 0 0 0 3px rgba(25, 143, 217, 0.4);
+  }
+  66% {
+    box-shadow: 0 0 0 3px rgba(25, 143, 217, 0.4);
+  }
+  100% {
+    text-shadow: none;
+  }
+}
+.avada-dashboard .layoutbox {
+  background: #fff;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+  position: relative;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 18px;
+}
+.avada-dashboard .layoutbox a {
+  text-decoration: none;
+}
+.avada-dashboard .layoutbox a:focus {
+  box-shadow: none;
+  outline: none;
+}
+.avada-dashboard .layoutbox .layoutbox-loader {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.7);
+  height: 100%;
+  width: 100%;
+  z-index: 100;
+  opacity: 1;
+  border-radius: 4px;
+  display: block;
+  top: 0;
+  pointer-events: auto;
+}
+.avada-dashboard .layoutbox .layoutbox-loader .fusion-builder-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2em 0 0 -2em;
+  color: transparent;
+  font-size: 10px;
+  border-top: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-right: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.5em solid #333;
+  border-left: 0.5em solid rgba(0, 0, 0, 0.2);
+  animation: fusion-rotate 0.8s infinite linear;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-clip: padding-box;
+  display: block;
+}
+.avada-dashboard .layoutbox .layoutbox-loader .fusion-builder-loader:after {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+@keyframes fusion-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.avada-dashboard .layoutbox.loading .layoutbox-loader {
+  opacity: 1;
+  pointer-events: auto;
+}
+.avada-dashboard .layoutbox .layoutbox-loader,
+.avada-dashboard .layoutbox .layoutbox-prompt {
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.3s;
+}
+.avada-dashboard .layoutbox .layoutbox-prompt {
+  position: absolute;
+  z-index: 100;
+  background: #fff;
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  box-sizing: border-box;
+  text-align: center;
+  top: 0;
+  color: #4a5259;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  display: flex;
+}
+.avada-dashboard .layoutbox .layoutbox-prompt.active {
+  opacity: 1;
+  pointer-events: auto;
+}
+.avada-dashboard .layoutbox .layoutbox-prompt h3 {
+  font-size: 18px;
+  line-height: 31px;
+  color: #2a3035;
+  margin-top: 0;
+}
+.avada-dashboard .layoutbox .layoutbox-prompt p {
+  font-size: 16px;
+  line-height: 29px;
+  font-weight: 400;
+}
+.avada-dashboard .layoutbox .layoutbox-prompt .confirm-remove-layout {
+  background: #e0284f;
+  border-radius: 3px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  width: 130px;
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+}
+.avada-dashboard .layoutbox .layoutbox-prompt .fusiona-layout-close {
+  position: absolute;
+  font-size: 2em;
+  color: #93999f;
+  cursor: pointer;
+  top: 12px;
+  right: 12px;
+}
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading {
+  background: #2a3035;
+  color: #fff;
+}
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading input,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading input {
+  color: #fff;
+}
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading input:hover,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading input:hover,
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading input:focus,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading input:focus {
+  border: 1px solid rgba(255, 255, 255, 0.12);
+}
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading .layoutbox-controls a,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading .layoutbox-controls a {
+  color: #d4d6d7;
+}
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading .layoutbox-controls a:hover,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading .layoutbox-controls a:hover,
+.avada-dashboard .layoutbox.fusion-layout-options .layoutbox-heading .layoutbox-controls a:focus,
+.avada-dashboard .layoutbox[data-id="global"] .layoutbox-heading .layoutbox-controls a:focus {
+  color: #fff;
+}
+.avada-dashboard .layoutbox.fusion-layout-options .select-template-container.active,
+.avada-dashboard .layoutbox[data-id="global"] .select-template-container.active {
+  color: #198fd9 !important;
+}
+.avada-dashboard .layoutbox.is-selecting .layoutbox-heading .layoutbox-title {
+  padding: 0 15px;
+}
+.avada-dashboard .layoutbox.awb-layout-highlight {
+  animation: highlight 1.5s ease-in-out 350ms;
+  animation-iteration-count: 3;
+}
+.avada-dashboard .layoutbox .layoutbox-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 25px;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  color: #2a3035;
+}
+.avada-dashboard .layoutbox .layoutbox-heading .layoutbox-title {
+  flex: 1;
+  font-size: 16px;
+  max-width: 80%;
+}
+.avada-dashboard .layoutbox .layoutbox-heading .fusiona-layout-close {
+  font-size: 2em;
+}
+.avada-dashboard .layoutbox .layoutbox-heading .layoutbox-controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  margin: 0 -6px;
+  padding: 0;
+}
+.avada-dashboard .layoutbox .layoutbox-heading .layoutbox-controls a {
+  margin: 0 6px;
+  color: #93999f;
+  text-decoration: none;
+}
+.avada-dashboard .layoutbox .layoutbox-heading .layoutbox-controls a:hover {
+  color: #2a3035;
+}
+.avada-dashboard .layoutbox .layoutbox-heading .layoutbox-controls a.remove-layout:hover {
+  color: #e0284f;
+}
+.avada-dashboard .layoutbox .layoutbox-content {
+  position: relative;
+  overflow: hidden;
+  border-bottom-left-radius: inherit;
+  border-bottom-right-radius: inherit;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu {
+  background-color: #198fd9;
+  float: left;
+  margin: 0;
+  width: 100%;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li {
+  display: inline-block;
+  float: left;
+  margin: 0;
+  position: relative;
+  text-transform: capitalize;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li:hover {
+  background: #1081c7;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li:first-child {
+  background-color: #1081c7;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li a {
+  color: #fff;
+  display: block;
+  padding: 1em;
+  text-decoration: none;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li.inactive {
+  background-color: transparent;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li.inactive:after {
+  display: none;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li.current {
+  background-color: #1081c7;
+}
+.avada-dashboard .layoutbox .fusion-tabs-menu li.current:after,
+.avada-dashboard .layoutbox .fusion-tabs-menu li:first-child:after {
+  border-top-color: #0073aa;
+  border-width: 10px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  left: 50%;
+  margin-left: -10px;
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  width: 0;
+}
+.avada-dashboard .layoutbox .fusion-tab-content {
+  float: left;
+  width: 100%;
+  display: none;
+  padding: 20px 30px;
+  box-sizing: border-box;
+}
+.avada-dashboard .layoutbox .fusion-tab-content:first-child {
+  display: block;
+}
+.avada-dashboard .layoutbox .fusion-tab-content #fusion-loader {
+  z-index: 100;
+}
+.avada-dashboard .fusion-layouts-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 1.7em;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout.is-selecting .layoutbox-content .layout-select {
+  opacity: 1;
+  pointer-events: auto;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout.is-selecting .layoutbox-heading .layoutbox-controls-left {
+  display: flex;
+  padding: 0 0 0 25px;
+  min-width: auto;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout.is-selecting .layoutbox-heading .layoutbox-controls-right {
+  display: none;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-heading .layoutbox-controls-left {
+  display: none;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-heading input {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: normal;
+  background: transparent;
+  border: 1px solid transparent;
+  outline: none;
+  box-shadow: none;
+  color: #2a3035;
+  padding: 0;
+  margin: 0;
+  min-height: 18px;
+  width: 70%;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-heading input:hover {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content {
+  position: relative;
+  overflow: hidden;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content form label {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  color: #2a3035;
+  margin-bottom: 9px;
+  display: block;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content form input[type="text"] {
+  background: #fff;
+  border: 1px solid #e0e3e7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  color: #2a3035;
+  box-shadow: none;
+  padding: 0 15px;
+  height: 40px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content form button[type="submit"] {
+  background: #198fd9;
+  border-radius: 3px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  color: #fff;
+  padding: 10px;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  cursor: pointer;
+  margin-top: 16px;
+  width: 100%;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content form button[type="submit"]:hover {
+  background: #1081c7;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template {
+  padding: 0;
+  overflow: auto;
+  height: calc(100% - 46px);
+  scrollbar-width: thin;
+  scrollbar-color: #93999f transparent;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template::-webkit-scrollbar {
+  width: 6px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template::-webkit-scrollbar-track {
+  background: transparent;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template::-webkit-scrollbar-thumb {
+  background: #93999f;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template a {
+  display: block;
+  padding: 14px 25px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 22px;
+  color: #63686e;
+  border-bottom: 1px solid #e0e3e7;
+  box-shadow: none;
+  min-height: 22px;
+  background: #fff;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template a:hover {
+  background: #eef7fd;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template a:last-child {
+  border-bottom: none;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-select-template .fusion-no-sections-note {
+  display: block;
+  padding-top: 30px;
+  text-align: center;
+  font-size: 13px;
+  color: #93999f;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates {
+  padding: 24px;
+  background: #f9f9f9;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div {
+  margin: 0 0 15px 0;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div:last-child {
+  margin-bottom: 0;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container {
+  position: relative;
+  background: #f1f1f1;
+  border-radius: 4px;
+  text-align: center;
+  color: #93999f;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+  text-decoration: none;
+  display: flex;
+  padding: 0;
+  align-items: center;
+  justify-content: space-between;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container:not(.active) {
+  cursor: pointer;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .select-template:before {
+  font-size: 16px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .template-type-label {
+  max-width: 165px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  flex: 1;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.ltr .avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .template-type-label {
+  text-align: left;
+  padding-left: 15px;
+}
+.rtl .avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .template-type-label {
+  text-align: right;
+  padding-right: 15px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-right: 1px solid #e0e3e7;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  justify-content: flex-end;
+  min-width: auto;
+  margin: 0 -5px;
+  padding: 10px 20px;
+  width: 80px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .controls .control {
+  margin: 0 5px;
+  color: #93999f;
+  text-decoration: none;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active {
+  color: #93999f;
+  background: white;
+  box-shadow: 0 2px 1px rgba(102, 113, 123, 0.07);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active .control {
+  color: #93999f;
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active .control:hover {
+  color: #198fd9;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active .control.remove-template:hover {
+  color: #e0284f;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active .control.fusiona-pen {
+  font-size: 16px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active .icon-container {
+  border-right-color: #f2f3f5;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container:hover .control {
+  opacity: 1;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-flags,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-translations {
+  display: flex;
+  opacity: 0;
+  position: absolute;
+  height: 1.5em;
+  width: 135px;
+  padding: 0 10px;
+  background-color: #fff;
+  text-align: left;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.ltr .avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-flags,
+.ltr .avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-translations {
+  left: 65px;
+}
+.rtl .avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-flags,
+.rtl .avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-translations {
+  right: 65px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-flags {
+  top: 10px;
+  opacity: 0;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container .wpml-template-translations {
+  top: calc(1.3em + 5px);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active:hover .wpml-template-flags,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div .select-template-container.active:hover .wpml-template-translations {
+  opacity: 1;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div.fusion-coming-soon-template .fusion-coming-soon-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #93999f;
+  background-color: #e1e2e3;
+  border-radius: 4px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 20px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div.fusion-coming-soon-template .fusion-coming-soon-container .template-type-label {
+  flex: 1;
+  text-align: left;
+  padding-left: 15px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div.fusion-coming-soon-template .fusion-coming-soon-container .icon-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 50px;
+  min-height: 50px;
+  padding: 10px;
+  box-sizing: border-box;
+  font-size: 14px;
+  border-right: 1px solid #d4d6d7;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-templates > div.fusion-coming-soon-template .fusion-coming-soon-container > span {
+  padding-right: 20px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control {
+  margin: 0 !important;
+  min-width: 275px;
+  height: 54px;
+  display: flex;
+  align-items: center;
+  padding: 0 24px;
+  cursor: pointer;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions {
+  margin: 0;
+  max-width: 275px;
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: inline-block;
+  color: #93999f;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li {
+  margin: 0 4px;
+  display: inline-block;
+  align-items: center;
+  position: relative;
+  font-size: 13px;
+  color: #93999f;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li:before {
+  width: 6px;
+  height: 6px;
+  display: inline-block;
+  background: #14c983;
+  content: "";
+  border-radius: 10px;
+  position: relative;
+  top: -2px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li:before,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li span {
+  margin: 0 2.5px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.exclude:before {
+  background: #e0284f;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.global-condition,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.no-condition-select {
+  padding: 0;
+  width: 100%;
+  line-height: normal;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.global-condition {
+  margin: 0;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.no-condition-select {
+  margin: 0 -4px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.no-condition-select:before,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.no-condition-select span {
+  margin: 0 4px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul.fusion-condtions li.no-condition-select:before {
+  width: auto;
+  height: auto;
+  background: transparent;
+  content: "\e915";
+  font-family: "icomoon";
+  font-size: 14px;
+  color: #d4d6d7;
+  position: relative;
+  top: 1px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control i {
+  color: #d4d6d7;
+  margin-right: 8px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control i:before {
+  font-size: 14px;
+  vertical-align: middle;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:after {
+  font-size: 13px;
+  margin-left: 8px;
+  vertical-align: middle;
+  color: #d4d6d7;
+  width: 0;
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:before {
+  font-size: 14px;
+  color: #fff;
+  font-family: "icomoon";
+  vertical-align: middle;
+  opacity: 0;
+  width: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+  font-weight: normal;
+  line-height: normal;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control i,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control ul {
+  opacity: 1;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:hover {
+  background: #198fd9;
+  color: #fff;
+  justify-content: center;
+  transition: all 0.3s ease 0s;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:hover:after {
+  content: attr(aria-label);
+  opacity: 1;
+  margin: 0 4px;
+  width: auto;
+  color: #fff;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:hover:before {
+  content: "\f013";
+  opacity: 1;
+  margin: 0 4px;
+  width: auto;
+  color: #fff;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:hover i,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control:hover ul {
+  width: 0;
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions .fusion-condtions {
+  margin: 0 -4px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions .fusion-condtions .no-condition-select {
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions .fusion-condtions li:not(.exclude):not(.include) {
+  width: 0;
+  opacity: 0;
+  display: none;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions:after {
+  width: 0;
+  opacity: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions:hover:before,
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions:hover:after {
+  margin: 0 8px;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.has-conditions:hover:after {
+  width: auto;
+  opacity: 1;
+  color: #fff;
+  content: attr(aria-label-condition);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.global-layout {
+  pointer-events: none;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .fusion-condition-control.global-layout .fusion-condtions li.global-condition:before {
+  display: none;
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-select {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  background: white;
+  width: 100%;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .fusion-layouts-grid .fusion-layout .layoutbox-content .layout-select .fusion-tabs-menu li {
+  width: 50%;
+  text-align: center;
+}
+.avada-dashboard .fusiona-layout-close:before {
+  content: "\e645";
+  display: block;
+  transform: rotate(45deg);
+}
+.avada-dashboard .fusion-layout-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  z-index: 100000;
+}
+.avada-dashboard .fusion-layout-options {
+  box-shadow: 0 0 100px rgba(0, 0, 0, 0.5);
+  position: fixed;
+  top: 5%;
+  left: 0;
+  right: 0;
+  bottom: 5%;
+  width: 85%;
+  max-width: 1250px;
+  margin: auto;
+  overflow: hidden;
+  z-index: 100001;
+  background: none;
+}
+.avada-dashboard .fusion-layout-options .loader {
+  -webkit-animation: pulsate 1s ease-out;
+  -webkit-animation-iteration-count: infinite;
+  opacity: 0.5;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-heading {
+  padding: 0 28px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-heading .layoutbox-controls {
+  margin: 0 -7px;
+  min-width: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-heading .layoutbox-controls .loader {
+  margin: 0 10px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-heading .layoutbox-controls .fusiona-layout-close {
+  margin: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content {
+  display: flex;
+  min-height: calc(100% - 50px);
+  height: calc(100% - 50px);
+  background: #fff;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section {
+  overflow: auto;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(1) {
+  width: 20%;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(2) {
+  width: 50%;
+  border-right: 1px solid #e0e3e7;
+  border-left: 1px solid #e0e3e7;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) {
+  width: 30%;
+  background: #f2f3f5;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) > h3 {
+  border: 1px solid #e0e3e7;
+  border-left: 0;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 15px 20px;
+  margin: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions {
+  padding: 20px 20px 0 20px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions > div:first-child {
+  border-radius: 2px;
+  color: #93999f;
+  padding: 5px 7px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 1;
+  display: inline-flex;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions.empty-conditions i {
+  margin-right: 8px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions {
+  margin-top: 15px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions > span {
+  display: block;
+  background: #fff;
+  border-radius: 3px;
+  color: #4a5259;
+  text-decoration: none;
+  padding: 10px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  position: relative;
+  margin-bottom: 6px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions > span a {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  padding: 12px 16px;
+  transform: translate(0%, -50%);
+  font-size: 8px;
+  color: #93999f;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions > span a:hover {
+  color: #e0284f;
+}
+.ltr .avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions > span a {
+  right: 0%;
+}
+.rtl .avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions > span a {
+  left: 0%;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) .layout-manage-conditions .layout-conditions > span:focus {
+  box-shadow: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-type {
+  display: block;
+  text-decoration: none;
+  color: #63686e;
+  padding: 16px 24px;
+  border-left: 4px solid #fff;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-type:focus {
+  outline: none;
+  box-shadow: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-type.current {
+  background: rgba(25, 143, 217, 0.07);
+  border-color: #198fd9;
+  color: #198fd9;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab {
+  padding: 20px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option {
+  margin-bottom: 12px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option.show-confirmation .layout-option-label {
+  color: #e0284f;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .child-options-wrap {
+  padding: 12px;
+  padding-top: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-child-option {
+  margin-bottom: 12px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option span {
+  margin-left: 12px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent {
+  background: #f2f3f5;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent.active .child-options-wrap {
+  display: block;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent.active:not(.loading) .layoutbox-search {
+  display: block;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent.active.loading .layoutbox-loader {
+  opacity: 1 !important;
+  background: none;
+  position: relative;
+  height: 4em;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent.no-search .child-options {
+  margin: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent.no-search .child-options .layout-child-option:last-child {
+  margin: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent .child-options-wrap {
+  display: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent a.load-child {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+  color: #1d2226;
+  padding: 12px;
+  width: 100%;
+  display: block;
+  box-sizing: border-box;
+  position: relative;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-parent a.load-child i {
+  color: #93999f;
+  position: absolute;
+  right: 17px;
+  top: 50%;
+  transform: translateY(-50%);
+  text-align: center;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .child-options-preview {
+  margin: 12px 0 0 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .child-options-preview li {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+  margin: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .child-options-preview li:before {
+  content: "\2022";
+  color: #14c983;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  text-align: center;
+  font-size: 20px;
+  vertical-align: top;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .child-options-preview li.preview-exclude:before {
+  color: #e0284f;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option label {
+  width: 24px;
+  height: 24px;
+  display: inline-block;
+  background: #fff;
+  border: 1px solid #d4d6d7;
+  box-sizing: border-box;
+  border-radius: 3px;
+  text-align: center;
+  color: #d4d6d7;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option label.option-exclude {
+  margin-left: 2px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option input[type="checkbox"] {
+  display: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option label i {
+  font-size: 9px;
+  line-height: 24px !important;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option input[type="checkbox"]:checked + label {
+  background: #14c983;
+  border: 1px solid #14c983;
+  color: #fff;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option input[type="checkbox"]:checked + label.option-exclude {
+  background: #e0284f;
+  border: 1px solid #e0284f;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more {
+  background: #198fd9;
+  border-radius: 3px;
+  width: 100%;
+  height: 35px;
+  color: #fff;
+  border: 0;
+  cursor: pointer;
+  font-size: 0;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  box-shadow: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more:focus {
+  box-shadow: none;
+  outline: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more:hover {
+  background: #1081c7;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more.disabled {
+  background: #e0e3e7;
+  color: #93999f;
+  cursor: initial;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more.disabled i {
+  display: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more.loading i {
+  animation: fusion-rotate 0.8s infinite linear;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more i {
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 10px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .load-more span {
+  font-size: 12px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-label {
+  margin-left: 8px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 22px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search {
+  position: relative;
+  display: none;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-input {
+  background: #fff;
+  border: 1px solid #e0e3e7;
+  box-sizing: border-box;
+  border-radius: 4px;
+  position: relative;
+  width: 100%;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-input i {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  text-align: center;
+  line-height: 40px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-input input {
+  min-height: 40px;
+  padding-left: 40px;
+  width: 100%;
+  outline: none;
+  border: none;
+  box-shadow: none;
+  margin: 0;
+  font-weight: normal;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-results {
+  position: absolute;
+  top: 40px;
+  background: #fff;
+  z-index: 9999999;
+  padding: 12px;
+  margin: 0;
+  box-sizing: border-box;
+  border: 1px solid #e0e3e7;
+  box-shadow: 0 2px 6px rgba(102, 113, 123, 0.19);
+  border-radius: 4px;
+  width: 100%;
+  display: none;
+  max-height: 200px;
+  overflow: auto;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-results[data-state="active"] {
+  display: block;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-results .layoutbox-loader {
+  opacity: 1;
+  height: 40px;
+  position: relative;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-results .layoutbox-loader .fusion-builder-loader {
+  margin: -1em 0;
+  width: 2em;
+  height: 2em;
+  left: calc(50% - 1.5em);
+  top: calc(50% - 0.5em);
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layoutbox-search .layoutbox-search-results .layout-child-option:last-child {
+  margin-bottom: 0;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-confirmation {
+  background: #eef7fd;
+  border-radius: 4px;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  margin-top: 12px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-confirmation div:first-child {
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #198fd9;
+  flex: 1;
+  display: flex;
+  margin-right: 10px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-confirmation div:first-child i {
+  margin-right: 10px;
+  font-size: 16px;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-confirmation .cancel-condition {
+  background: #fff;
+  box-sizing: border-box;
+  border-radius: 3px;
+  font-family: Noto Sans;
+  border: 1px solid #e0e3e7;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  margin-right: 8px;
+  padding: 11px 12px;
+  cursor: pointer;
+}
+.avada-dashboard .fusion-layout-options .layoutbox-content .layout-options-confirmation .confirm-condition {
+  background: #198fd9;
+  border-radius: 3px;
+  border: none;
+  font-family: Noto Sans;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 18px;
+  padding: 11px 12px;
+  color: #fff;
+  cursor: pointer;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder {
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-right: 1.4em;
+  padding-left: 1.4em;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder .intro-text,
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder form {
+  flex: 1;
+  padding: 0 1.4em;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder label {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.8em;
+  line-height: inherit;
+  display: block;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder #fusion-global-field {
+  align-items: center;
+  margin-top: 1em;
+  display: none;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder #fusion-global-field input {
+  margin: 0 0 0 6px;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder select,
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder input[type="text"] {
+  width: 100%;
+  max-width: 100%;
+}
+.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder input[type="submit"] {
+  margin-top: 1em;
+  width: 100%;
+}
+.fusion-builder-wrap {
+  max-width: 1100px;
+}
+.fusion-builder-wrap .about-text {
+  margin-bottom: 55px;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper {
+  font-size: 16px;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper #fusion-create-template-form .fusion-form-fields-wrap {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 10px;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper .fusion-builder-template-notification {
+  display: none;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.7em;
+  margin-top: -1.7em;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-important-notice.fusion-template-builder {
+  display: block;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-important-notice.fusion-template-builder .intro-text {
+  margin-bottom: 1em;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-template-notification {
+  position: relative;
+  display: block;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-template-notification .intro-text {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-template-notification .intro-text p {
+  position: relative;
+  margin: 0;
+  padding-left: 60px;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-template-notification .intro-text strong {
+  font-weight: 600;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .fusion-builder-template-notification .intro-text .fusion-notification-number {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+  text-align: center;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  font-weight: bold;
+  color: #198fd9;
+  background-color: #eef7fd;
+  border-radius: 50%;
+  overflow: hidden;
+}
+.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification .avada-db-more-info {
+  display: none;
+}
+.avada-dashboard.fusion-builder-wrap .fusion-builder-important-notice-wrapper .fusion-builder-important-notice {
+  background-position: left center;
+}
+.fusion-builder-wrap .fusion-builder-important-notice {
+  background: #fff;
+  padding: 2.8em;
+}
+.fusion-builder-wrap .fusion-builder-important-notice .about-description {
+  margin: 0;
+  max-width: 100%;
+}
+.fusion-builder-wrap .fusion-builder-important-notice p.error-invalid-token {
+  background-color: #c00;
+  color: #fff;
+  margin: 1em 0 0;
+  padding: 1em;
+  text-align: center;
+  max-width: 100%;
+}
+.fusion-builder-wrap .fusion-builder-loader {
+  display: none;
+}
+.fusion-builder-wrap .fusion-builder-loader > .loader-icon {
+  animation: spin 2s infinite linear;
+  display: inline-block !important;
+  font-size: 32px;
+  height: 32px;
+  line-height: 32px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 32px;
+}
+.fusion-builder-wrap .fusion-builder-large-button {
+  padding: 15px 20px !important;
+  height: 40px !important;
+  line-height: 7px !important;
+}
+.fusion-builder-wrap .library-element-name {
+  margin-top: 1em;
+}
+.fusion-builder-wrap .awb-studio-content-remove-wrap {
+  display: flex;
+  align-items: center;
+}
+.fusion-builder-wrap .awb-remove-studio-content-status {
+  display: none;
+  padding: 0.7em 1em;
+  margin-left: auto;
+  font-size: 0.8em;
+  line-height: 1;
+  color: #dc3232;
+  background-color: rgba(220, 50, 50, 0.1);
+  border-radius: 0.7em;
+}
+.fusion-builder-wrap .awb-remove-studio-content-status i {
+  margin-right: 0.5em;
+}
+.rtl .fusion-builder-wrap .awb-remove-studio-content-status {
+  margin-left: 0;
+  margin-right: auto;
+}
+.rtl .fusion-builder-wrap .awb-remove-studio-content-status i {
+  margin-right: 0;
+  margin-left: 0.5em;
+}
+.avada-large-button {
+  height: 40px !important;
+  line-height: 7px !important;
+  padding: 15px 20px !important;
+}
+.fusion-builder-admin-toggle {
+  margin-bottom: 20px;
+}
+.fusion-builder-admin-toggle .fusion-builder-admin-toggle-heading {
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.fusion-builder-admin-toggle .fusion-builder-admin-toggle-heading h3 {
+  margin: 0;
+}
+.fusion-builder-admin-toggle .fusion-builder-admin-toggle-content {
+  -moz-border-bottom-colors: none;
+  -moz-border-left-colors: none;
+  -moz-border-right-colors: none;
+  -moz-border-top-colors: none;
+  background: #fff none repeat scroll 0 0;
+  border-color: -moz-use-text-color #dfdfdf #dfdfdf;
+  -o-border-image: none;
+     border-image: none;
+  border: 1px solid #dfdfdf;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  display: none;
+  padding: 25px;
+}
+.fusion-builder-admin-toggle .fusion-builder-admin-toggle-content li {
+  margin-bottom: 15px;
+}
+.fusion-builder-import-success {
+  color: green;
+  display: none;
+  padding: 1em 0;
+  width: 100%;
+}
+input[type="file"]::-webkit-file-upload-button {
+  color: #555;
+  border-color: #ccc;
+  background: #f7f7f7;
+  margin-right: 10px;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 26px;
+  height: 28px;
+  margin: 0;
+  padding: 0 10px 1px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+  -webkit-appearance: none;
+  box-shadow: 0 1px 0 #ccc;
+  vertical-align: top;
+}
+.fusion-builder-admin-toggle-icon {
+  font-size: 23px;
+  position: absolute;
+  right: 30px;
+  margin: 0;
+  top: 50%;
+}
+.fusion-builder-admin-toggle-icon.fusion-minus::after,
+.fusion-builder-admin-toggle-icon.fusion-plus::after,
+.fusion-builder-admin-toggle-icon.fusion-plus::before {
+  content: "";
+  height: 2px;
+  width: 14px;
+  display: block;
+  background: #333;
+  border-radius: 10px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+.fusion-builder-admin-toggle-icon.fusion-plus::after {
+  height: 14px;
+  width: 2px;
+  left: 50%;
+  top: 50%;
+}
+.fusion-builder-admin-toggle-heading {
+  position: relative;
+}
+#fusion-template-builder-data .fusion-template-builder-type,
+#fusion-library-data .fusion-template-builder-type,
+#fusion-template-builder-data .fusion-library-element-type,
+#fusion-library-data .fusion-library-element-type {
+  display: inline-flex;
+  padding: 0.5em 0.7em;
+  border-radius: 0.43em;
+  color: #777;
+  background: #e5e5e5;
+  white-space: nowrap;
+  margin-right: 20px;
+  align-items: center;
+}
+#fusion-template-builder-data .fusion-template-builder-type[class^="fusion-template-builder-"]:before,
+#fusion-library-data .fusion-template-builder-type[class^="fusion-template-builder-"]:before,
+#fusion-template-builder-data .fusion-library-element-type[class^="fusion-template-builder-"]:before,
+#fusion-library-data .fusion-library-element-type[class^="fusion-template-builder-"]:before,
+#fusion-template-builder-data .fusion-template-builder-type[class^="fusion-library-element-"]:before,
+#fusion-library-data .fusion-template-builder-type[class^="fusion-library-element-"]:before,
+#fusion-template-builder-data .fusion-library-element-type[class^="fusion-library-element-"]:before,
+#fusion-library-data .fusion-library-element-type[class^="fusion-library-element-"]:before {
+  content: "\e921";
+  font-family: "icomoon";
+  speak: never;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #fff;
+  margin-right: 5px;
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-page-title-bar:before,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-page-title-bar:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-page-title-bar:before,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-page-title-bar:before {
+  content: "\e636";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-footer:before,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-footer:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-footer:before,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-footer:before {
+  content: "\e637";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-header:before,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-header:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-header:before,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-header:before {
+  content: "\e635";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-post_cards:before,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-post_cards:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-post_cards:before,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-post_cards:before {
+  content: "\e980";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-columns:before,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-columns:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-columns:before,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-columns:before {
+  content: "\e987";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-sections:before,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-sections:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-sections:before,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-sections:before {
+  content: "\e986";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-elements:before,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-elements:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-elements:before,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-elements:before {
+  content: "\e985";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-template:before,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-template:before,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-template:before,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-template:before {
+  content: "\e988";
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-content,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-content,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-content,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-content,
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-sections,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-sections,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-sections,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #198fd9;
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-page-title-bar,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-page-title-bar,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-page-title-bar,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-page-title-bar,
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-elements,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-elements,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-elements,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-elements {
+  background: #373e44;
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-footer,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-footer,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-footer,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-footer,
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-columns,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-columns,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-columns,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-columns {
+  background: #2a3035;
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-template-builder-header,
+#fusion-library-data .fusion-template-builder-type.fusion-template-builder-header,
+#fusion-template-builder-data .fusion-library-element-type.fusion-template-builder-header,
+#fusion-library-data .fusion-library-element-type.fusion-template-builder-header,
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-template,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-template,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-template,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-template {
+  background: #0e7abd;
+}
+#fusion-template-builder-data .fusion-template-builder-type.fusion-library-element-post_cards,
+#fusion-library-data .fusion-template-builder-type.fusion-library-element-post_cards,
+#fusion-template-builder-data .fusion-library-element-type.fusion-library-element-post_cards,
+#fusion-library-data .fusion-library-element-type.fusion-library-element-post_cards {
+  background: #54b5f1;
+}
+#fusion-template-builder-data .fusion-template-builder-type a,
+#fusion-library-data .fusion-template-builder-type a,
+#fusion-template-builder-data .fusion-library-element-type a,
+#fusion-library-data .fusion-library-element-type a {
+  color: #fff;
+  opacity: 0.9;
+}
+#fusion-template-builder-data .fusion-template-builder-type a:hover,
+#fusion-library-data .fusion-template-builder-type a:hover,
+#fusion-template-builder-data .fusion-library-element-type a:hover,
+#fusion-library-data .fusion-library-element-type a:hover {
+  opacity: 1;
+}
+#fusion-template-builder-data .fusion-library-element-global::after,
+#fusion-library-data .fusion-library-element-global::after {
+  content: "\f0ac";
+  font-family: "icomoon";
+  color: #777;
+  font-size: 16px;
+  line-height: 2.5em;
+  text-align: center;
+  box-sizing: border-box;
+}
+#fusion-template-builder-data .fusion-library-table th img,
+#fusion-library-data .fusion-library-table th img {
+  width: auto;
+}
+#fusion-template-builder-data .fusion-library-table td.column-global,
+#fusion-library-data .fusion-library-table td.column-global,
+#fusion-template-builder-data .fusion-library-table td.column-type,
+#fusion-library-data .fusion-library-table td.column-type,
+#fusion-template-builder-data .fusion-library-table td.column-id,
+#fusion-library-data .fusion-library-table td.column-id,
+#fusion-template-builder-data .fusion-library-table .fusion-library-element-global,
+#fusion-library-data .fusion-library-table .fusion-library-element-global {
+  vertical-align: middle;
+}
+#fusion-template-builder-data .fusion-library-table .fusion-library-global-sc,
+#fusion-library-data .fusion-library-table .fusion-library-global-sc {
+  padding-left: 10px;
+}
+#fusion-template-builder-data .fusion-library-table .fusion-library-global-sc input,
+#fusion-library-data .fusion-library-table .fusion-library-global-sc input {
+  width: 80%;
+  background: transparent;
+  border: none;
+  box-shadow: none;
+}
+.admin-color-light #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #e5e5e5;
+}
+.admin-color-blue #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #52accc;
+}
+.admin-color-coffee #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #59524c;
+}
+.admin-color-ectoplasm #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #523f6d;
+}
+.admin-color-midnight #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #363b3f;
+}
+.admin-color-ocean #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #738e96;
+}
+.admin-color-sunrise #fusion-library-data .fusion-library-element-type.fusion-library-element-sections {
+  background: #cf4944;
+}

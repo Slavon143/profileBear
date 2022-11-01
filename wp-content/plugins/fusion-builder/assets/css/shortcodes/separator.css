@@ -1,0 +1,145 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-sep-clear {
+  clear: both;
+  display: block;
+  height: 1px;
+  font-size: 0;
+  line-height: 0;
+  width: 100%;
+  overflow: hidden;
+}
+.fusion-separator {
+  clear: both;
+  position: relative;
+  z-index: 11;
+}
+.fusion-absolute-separator {
+  position: absolute;
+  bottom: 0;
+}
+.fusion-absolute-separator.fusion-align-center {
+  left: 50%;
+}
+.fusion-absolute-separator.fusion-align-center.fusion-single-px {
+  transform: translateX(-50%);
+}
+.fusion-absolute-separator.fusion-align-center:not(.fusion-single-px) {
+  transform: translate(-50%, 50%);
+}
+.fusion-absolute-separator.fusion-align-left {
+  left: 0;
+  right: auto;
+}
+.fusion-absolute-separator.fusion-align-left:not(.fusion-single-px) {
+  transform: translateY(50%);
+}
+.fusion-absolute-separator.fusion-align-right {
+  right: 0;
+  left: auto;
+}
+.fusion-absolute-separator.fusion-align-right:not(.fusion-single-px) {
+  transform: translateY(50%);
+}
+.fusion-body .fusion-separator {
+  display: flex;
+  align-items: center;
+}
+.fusion-body .fusion-separator .fusion-separator-border {
+  flex-grow: 2;
+  border: 0 solid #E7E6E6;
+}
+.fusion-body .fusion-separator .sep-none,
+.fusion-body .fusion-separator.sep-none {
+  height: 1px;
+  border-color: transparent;
+}
+.fusion-body .fusion-separator.fusion-has-icon .sep-shadow:nth-of-type(1):after {
+  background: radial-gradient(ellipse at 70% -50%, rgba(0, 0, 0, 0.5) 0, rgba(255, 255, 255, 0) 75%);
+}
+.rtl.fusion-body .fusion-separator.fusion-has-icon .sep-shadow:nth-of-type(1):after {
+  background: radial-gradient(ellipse at 30% -50%, rgba(0, 0, 0, 0.5) 0, rgba(255, 255, 255, 0) 75%);
+}
+.fusion-body .fusion-separator.fusion-has-icon .sep-shadow:nth-of-type(2):after {
+  background: radial-gradient(ellipse at 30% -50%, rgba(0, 0, 0, 0.5) 0, rgba(255, 255, 255, 0) 75%);
+}
+.rtl.fusion-body .fusion-separator.fusion-has-icon .sep-shadow:nth-of-type(2):after {
+  background: radial-gradient(ellipse at 70% -50%, rgba(0, 0, 0, 0.5) 0, rgba(255, 255, 255, 0) 75%);
+}
+.fusion-body .fusion-content-sep.sep-none {
+  display: none;
+}
+.fusion-body .fusion-content-sep.sep-double,
+.fusion-body .fusion-separator.sep-double,
+.fusion-body .fusion-separator-border.sep-double {
+  height: 6px;
+  border-bottom-width: 1px;
+  border-top-width: 1px;
+  box-sizing: content-box;
+}
+.fusion-body .fusion-content-sep.sep-single,
+.fusion-body .fusion-separator.sep-single,
+.fusion-body .fusion-separator-border.sep-single {
+  height: auto;
+  border-top-width: 1px;
+  border-bottom-width: 0;
+}
+.fusion-body .fusion-content-sep.sep-solid,
+.fusion-body .fusion-separator.sep-solid,
+.fusion-body .fusion-separator-border.sep-solid {
+  border-bottom-style: solid;
+  border-top-style: solid;
+}
+.fusion-body .fusion-content-sep.sep-dashed,
+.fusion-body .fusion-separator.sep-dashed,
+.fusion-body .fusion-separator-border.sep-dashed {
+  border-bottom-style: dashed;
+  border-top-style: dashed;
+}
+.fusion-body .fusion-content-sep.sep-dotted,
+.fusion-body .fusion-separator.sep-dotted,
+.fusion-body .fusion-separator-border.sep-dotted {
+  border-bottom-style: dotted;
+  border-top-style: dotted;
+}
+.fusion-body .fusion-content-sep.sep-transparent,
+.fusion-body .fusion-separator.sep-transparent,
+.fusion-body .fusion-separator-border.sep-transparent {
+  border: none;
+}
+.fusion-body .fusion-content-sep.sep-shadow,
+.fusion-body .fusion-separator.sep-shadow,
+.fusion-body .fusion-separator-border.sep-shadow {
+  height: 1px;
+  overflow: visible;
+  border: none;
+  background: linear-gradient(to left, rgba(150, 150, 150, 0) 0%, rgba(150, 150, 150, 0) 15%, rgba(150, 150, 150, 0.65) 50%, rgba(150, 150, 150, 0) 85%, rgba(150, 150, 150, 0) 100%);
+}
+.fusion-body .fusion-content-sep.sep-shadow:after,
+.fusion-body .fusion-separator.sep-shadow:after,
+.fusion-body .fusion-separator-border.sep-shadow:after {
+  display: block;
+  height: 6px;
+  width: 100%;
+  content: "";
+  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.5) 0, rgba(255, 255, 255, 0) 65%);
+}
+.fusion-body .fusion-content-sep .icon-wrapper,
+.fusion-body .fusion-separator .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: calc(var(--body_typography-font-size, 16px) * 1.63);
+  width: calc(var(--body_typography-font-size, 16px) * 1.63);
+  border: 1px solid #aaa;
+  border-radius: 50%;
+  background-clip: padding-box;
+  text-align: center;
+}
+.fusion-body .fusion-content-sep .icon-wrapper i,
+.fusion-body .fusion-separator .icon-wrapper i {
+  display: block;
+}
+body:not(:-moz-handler-blocked) .fusion-separator.sep-shadow:after {
+  background: radial-gradient(ellipse at 50% -50%, rgba(0, 0, 0, 0.5) 0, rgba(255, 255, 255, 0) 80%);
+}

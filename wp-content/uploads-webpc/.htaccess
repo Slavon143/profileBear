@@ -1,0 +1,14 @@
+
+# BEGIN Converter for Media
+# ! --- DO NOT EDIT PREVIOUS LINE --- !
+<IfModule mod_mime.c>
+  AddType image/avif .avif
+  AddType image/webp .webp
+</IfModule>
+<IfModule mod_expires.c>
+  ExpiresActive On
+  ExpiresByType image/avif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+</IfModule>
+# ! --- DO NOT EDIT NEXT LINE --- !
+# END Converter for Media

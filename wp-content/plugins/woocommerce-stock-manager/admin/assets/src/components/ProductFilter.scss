@@ -1,0 +1,19 @@
+.wrapper {
+  display: block;
+}
+
+.row {
+  display: flex;
+  flex-flow: row wrap;
+  margin-bottom: 0.5rem;
+}
+
+.field {
+  display: block;
+  margin: 0;
+}
+
+.label {
+  font-size: 80%;
+  display: block;
+}

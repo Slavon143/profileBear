@@ -1,0 +1,232 @@
+/* 
+    Created on : 2017-feb-24, 10:50:20
+    Author     : Cocos
+*/
+
+.svea-checkout-confirmation-page {
+
+    .header-widget-region {
+        padding: 0 20px;
+    }
+
+    .woocommerce-thankyou-order-received {
+        background-color: rgba(44, 195, 58, .1);
+        color: #2cc33a;
+        padding: 20px;
+        border: 1px solid rgba(44, 195, 58, .2);
+        border-radius: 2px;
+        font-size: 18px;
+    }
+    
+    .woocommerce-thankyou-order-details {
+        background-color: #fcfcfc;
+        border-radius: $border-radius;
+        border: 1px solid #e7e7e7;
+        color: #181827;
+        padding: 0;
+        list-style: none!important;
+        margin: 0;
+        &:before {
+            display: none;
+        }
+        &:after {
+            display: none;
+        }
+        
+        li {
+            text-transform: capitalize;
+            font-weight: $font-weight-normal;
+            padding: 17px 20px 12px 20px;
+            list-style-type: none;
+            overflow: hidden;
+            strong {
+                display: inline-block;
+                width: 50%;
+                float: right;
+                text-align: left;
+                font-size: 14px;
+                padding: 0 0 0 20px;
+            }
+        }
+        
+    }
+
+    .wc-svea-checkout-thank-you-box {
+        width: 100%;
+        padding: 10px 0;
+    }
+    
+    h2 {
+        background-color: #fcfcfc;
+        border-top: 1px solid #e7e7e7;
+        border-right: 1px solid #e7e7e7;
+        border-left: 1px solid #e7e7e7;
+        padding: 20px 20px 0!important;
+        font-size: 18px;
+        font-weight: $font-weight-bold;
+        color: #181827;
+        margin-bottom: 0!important;
+        border-radius: 2px 2px 0 0;
+    }
+
+    .woocommerce-columns--addresses {
+        address {
+            background-color: #fcfcfc;
+            border-bottom: 1px solid #e7e7e7;
+            border-left: 1px solid #e7e7e7;
+            border-right: 1px solid #e7e7e7;
+            padding: 20px;
+        }
+
+        p:last-of-type {
+            margin-bottom: 0;
+        }
+    }
+    
+    table {
+        &.order_details, &.customer_details {
+            width: 100%;
+            background-color: #fcfcfc;
+            border-radius: 0 $border-radius $border-radius $border-radius;
+            border-bottom: 1px solid #e7e7e7;
+            border-top: 1px solid transparent;
+            border-right: 1px solid #e7e7e7;
+            border-left: 1px solid #e7e7e7;
+            border-radius: 0 0 2px 2px;
+            color: #181827;
+            table-layout: fixed;
+
+            th {
+                background-color: transparent;
+                border-bottom: 1px solid #e7e7e7;
+                padding: 17px 20px 12px 20px;
+                &.product-name {
+                    font-size: 18px;
+                    font-weight: $font-weight-bold;
+                    text-transform: capitalize;
+                    border-bottom: 1px solid transparent;
+                }
+                &.product-total {
+                    font-size: 18px;
+                    font-weight: $font-weight-bold;
+                    text-transform: capitalize;
+                    border-bottom: 1px solid transparent;
+                }
+            }
+            td {
+                background-color: transparent;
+                font-weight: $font-weight-bold;
+                font-size: 14px;
+                padding: 17px 20px 12px 20px;
+                border-bottom: 1px solid #e7e7e7;
+            }
+            tbody {
+                td.product-name {
+                    font-weight: $font-weight-normal;
+                    font-size: 14px;
+                    padding: 17px 20px 12px 20px;
+                }
+                a {
+                    text-decoration: underline;
+                    color: #00acc7;
+                    &:hover {
+                        text-decoration: none;
+                    }
+                }
+
+
+
+            }
+            tfoot {
+                th {
+                    font-weight: $font-weight-normal;
+                    font-size: 14px;
+                    padding: 17px 20px 12px 20px;
+                }
+                td {
+                    span.woocommerce-Price-amount {
+                        font-weight: $font-weight-normal;
+                        font-size: 14px;
+                    }
+                }
+
+                tr {
+                    &:last-child {
+                        th {
+                            border-bottom: 1px solid transparent!important;
+                        }
+                        td {
+                            border-bottom: 1px solid transparent!important;
+                        }
+
+                    }
+                }
+                .cart-subtotal {
+                    td {
+                        span.woocommerce-Price-amount {
+                            font-weight: $font-weight-bold;
+                        }
+                    }
+                }
+                .order-total {
+                    th {
+                        border-bottom: 1px solid transparent;
+                    }
+                    td {
+                        border-bottom: 1px solid transparent;
+                    }
+                    span.woocommerce-Price-amount {
+                        font-weight: $font-weight-bold;
+                    }
+                    small.includes_tax {
+                        font-weight: $font-weight-normal;
+                        span.woocommerce-Price-amount {
+                            font-weight: $font-weight-normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        &.customer_details {
+            tr {
+                &:last-child {
+                    th {
+                        border-bottom: 1px solid transparent!important;
+                    }
+                    td {
+                        border-bottom: 1px solid transparent!important;
+                    }
+                }
+            }
+        }
+
+    }
+}
+
+
+@media only screen and (max-width: 980px) {
+    .svea-checkout-confirmation-page {
+        .woocommerce-thankyou-order-received {
+            width: 100%;
+        }
+        
+        .woocommerce-thankyou-order-details {
+            width: 100%;
+        }
+
+        .wc-svea-checkout-thank-you-box {
+            width: 100%;
+        }
+
+        h2 {
+            width: 100%;
+        }
+
+        table {
+            &.order_details {
+                width: 100%;
+            }
+        }
+    }
+}

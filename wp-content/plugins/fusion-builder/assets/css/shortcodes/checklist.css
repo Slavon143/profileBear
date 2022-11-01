@@ -1,0 +1,61 @@
+.fusion-checklist,
+ul.fusion-checklist {
+  list-style-type: none;
+  padding: 0;
+  margin: 10px 0 0;
+}
+.fusion-checklist.fusion-404-checklist > li,
+ul.fusion-checklist.fusion-404-checklist > li,
+.fusion-checklist .fusion-li-item,
+ul.fusion-checklist .fusion-li-item {
+  padding-top: var(--checklist_item_padding-top, 0.35em);
+  padding-right: var(--checklist_item_padding-right, 0);
+  padding-bottom: var(--checklist_item_padding-bottom, 0.35em);
+  padding-left: var(--checklist_item_padding-left, 0);
+  margin-left: 0;
+}
+.fusion-checklist.fusion-404-checklist > li:first-child,
+ul.fusion-checklist.fusion-404-checklist > li:first-child,
+.fusion-checklist .fusion-li-item:first-child,
+ul.fusion-checklist .fusion-li-item:first-child {
+  padding-top: 0;
+}
+.fusion-checklist.fusion-404-checklist > li p:first-of-type,
+ul.fusion-checklist.fusion-404-checklist > li p:first-of-type,
+.fusion-checklist .fusion-li-item p:first-of-type,
+ul.fusion-checklist .fusion-li-item p:first-of-type {
+  margin-top: 0;
+}
+.fusion-checklist.fusion-404-checklist > li p:last-of-type,
+ul.fusion-checklist.fusion-404-checklist > li p:last-of-type,
+.fusion-checklist .fusion-li-item p:last-of-type,
+ul.fusion-checklist .fusion-li-item p:last-of-type {
+  margin-bottom: 0;
+}
+.fusion-checklist.fusion-checklist-divider.fusion-404-checklist > li,
+ul.fusion-checklist.fusion-checklist-divider.fusion-404-checklist > li,
+.fusion-checklist.fusion-checklist-divider .fusion-li-item,
+ul.fusion-checklist.fusion-checklist-divider .fusion-li-item {
+  padding-top: calc(var(--checklist_item_padding-top, 0.35em) * 2);
+  padding-bottom: calc(var(--checklist_item_padding-bottom, 0.35em) * 2);
+  border-bottom: 1px solid;
+}
+.fusion-checklist .icon-wrapper,
+ul.fusion-checklist .icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  float: left;
+}
+.fusion-checklist .fusion-li-icon,
+ul.fusion-checklist .fusion-li-icon {
+  display: inline-block;
+}
+.fusion-checklist .circle-yes,
+ul.fusion-checklist .circle-yes {
+  border-radius: 50%;
+  background-clip: padding-box;
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+}

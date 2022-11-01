@@ -1,0 +1,18 @@
+.awb-instagram-element {
+  --awb-md-margin-top: var(--awb-margin-top);
+  --awb-md-margin-right: var(--awb-margin-right);
+  --awb-md-margin-bottom: var(--awb-margin-bottom);
+  --awb-md-margin-left: var(--awb-margin-left);
+  margin-top: var(--awb-md-margin-top);
+  margin-right: var(--awb-md-margin-right);
+  margin-bottom: var(--awb-md-margin-bottom);
+  margin-left: var(--awb-md-margin-left);
+}
+.awb-instagram-element .instagram-posts {
+  margin: 0 calc(-1 * var(--awb-md-column-space) / 2 * 1px);
+}
+.awb-instagram-element .instagram-post {
+  width: var(--awb-md-column-width);
+  padding: 0 calc(var(--awb-md-column-space) / 2 * 1px);
+  margin-bottom: calc(var(--awb-md-column-space) * 1px);
+}

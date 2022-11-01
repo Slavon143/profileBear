@@ -1,0 +1,894 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Svea Checkout for WooCommerce\n"
+"POT-Creation-Date: 2020-09-08 05:20+0200\n"
+"PO-Revision-Date: 2020-09-08 05:20+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.4.1\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;_ex:1,2c;"
+"esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: languages\n"
+"X-Poedit-SearchPath-1: .\n"
+"X-Poedit-SearchPathExcluded-0: node_modules\n"
+
+#: inc/class-wc-gateway-svea-checkout.php:118
+#: inc/class-wc-gateway-svea-checkout.php:276 inc/settings-svea-checkout.php:19
+msgid "Svea Checkout"
+msgstr "Svea Checkout"
+
+#: inc/class-wc-gateway-svea-checkout.php:119
+msgid ""
+"Svea Checkout provides a fully featured checkout solution that speeds up the "
+"checkout process for your customers."
+msgstr ""
+"Svea Checkout är en helhetslösning som snabbar upp kassaflödet för era "
+"kunder."
+
+#: inc/class-wc-gateway-svea-checkout.php:128
+msgid "Invoice"
+msgstr "Faktura"
+
+#: inc/class-wc-gateway-svea-checkout.php:129
+msgid "Payment Plan"
+msgstr "Delbetalning"
+
+#: inc/class-wc-gateway-svea-checkout.php:130
+#: inc/class-wc-gateway-svea-checkout.php:131
+msgid "Card Payment"
+msgstr "Kortbetalning"
+
+#: inc/class-wc-gateway-svea-checkout.php:132
+#: inc/class-wc-gateway-svea-checkout.php:133
+msgid "Account Credit"
+msgstr "Konto"
+
+#: inc/class-wc-gateway-svea-checkout.php:134
+msgid "Trustly"
+msgstr "Trustly"
+
+#: inc/class-wc-gateway-svea-checkout.php:135
+#: inc/class-wc-gateway-svea-checkout.php:136
+#: inc/class-wc-gateway-svea-checkout.php:137
+#: inc/class-wc-gateway-svea-checkout.php:138
+#: inc/class-wc-gateway-svea-checkout.php:139
+#: inc/class-wc-gateway-svea-checkout.php:140
+#: inc/class-wc-gateway-svea-checkout.php:141
+#: inc/class-wc-gateway-svea-checkout.php:142
+#: inc/class-wc-gateway-svea-checkout.php:143
+#: inc/class-wc-gateway-svea-checkout.php:144
+#: inc/class-wc-gateway-svea-checkout.php:145
+#: inc/class-wc-gateway-svea-checkout.php:146
+#: inc/class-wc-gateway-svea-checkout.php:147
+#: inc/class-wc-gateway-svea-checkout.php:148
+msgid "Direct bank"
+msgstr "Direktbank"
+
+#: inc/class-wc-gateway-svea-checkout.php:235
+msgid ""
+"If you recently installed or updated Svea Checkout for WooCommerce you can "
+"dismiss this message. It will disappear when you receive your first "
+"successful order."
+msgstr ""
+"Om du nyligen installerat eller uppdaterat Svea Checkout för WooCommerce så "
+"kan du bortse från det här meddelandet. Det kommer att försvinna när du tar "
+"emot din första lyckade order."
+
+#: inc/class-wc-gateway-svea-checkout.php:237
+msgid ""
+"No pushes from Svea have been able to reach your store. This may cause "
+"orders not to show up in your order list."
+msgstr ""
+"Inga anrop från Svea har nått din butik. Detta kan göra att ordrar inte syns "
+"i din orderlista."
+
+#: inc/class-wc-gateway-svea-checkout.php:238
+msgid "Some known issues:"
+msgstr "Några kända fel:"
+
+#: inc/class-wc-gateway-svea-checkout.php:242
+msgid "Maintenance mode plugins"
+msgstr "Plugins för underhållsläge"
+
+#: inc/class-wc-gateway-svea-checkout.php:243
+msgid "Security plugins blocking (firewalls)"
+msgstr "Säkerhetsplugins som blockerar (brandväggar)"
+
+#: inc/class-wc-gateway-svea-checkout.php:244
+msgid "General plugin conflicts"
+msgstr "Generella tilläggskonflikter"
+
+#: inc/class-wc-gateway-svea-checkout.php:245
+msgid "Missing SSL-certificate"
+msgstr "Avsaknad av SSL-certifikat"
+
+#: inc/class-wc-gateway-svea-checkout.php:249
+#, php-format
+msgid "If you are still having issues, please contact Svea's support on %s"
+msgstr "Om du fortfarande har problem, vänligen kontakta Sveas support på %s"
+
+#: inc/class-wc-gateway-svea-checkout.php:258
+msgid ""
+"It was over 7 days ago since the last push from Svea was able to reach your "
+"store. If have not had any orders in a while, this might be the cause. "
+"Otherwise you should dig into this further. This may cause orders not to "
+"show up in your order list."
+msgstr ""
+"Det var över 7 dagar sedan din butik tog emot det senaste anropet från Svea. "
+"Om det var länge sedan du fick en order så kan detta vara anledningen. "
+"Annars bör du gräva djupare i detta. Detta kan göra att ordrar inte syns i "
+"din orderlista."
+
+#: inc/class-wc-gateway-svea-checkout.php:314
+msgid "Error when getting part payment plans from Svea. Please try again."
+msgstr ""
+"Fel vid hämtning av delbetalningsplaner från Svea. Vänligen försök igen."
+
+#: inc/class-wc-gateway-svea-checkout.php:392
+#, php-format
+msgid "Part pay from %s/month"
+msgstr "Delbetalning från %s/månad"
+
+#: inc/class-wc-gateway-svea-checkout.php:506
+msgid "Sweden"
+msgstr "Sverige"
+
+#: inc/class-wc-gateway-svea-checkout.php:507
+msgid "Norway"
+msgstr "Norge"
+
+#: inc/class-wc-gateway-svea-checkout.php:508
+msgid "Finland"
+msgstr "Finland"
+
+#: inc/class-wc-gateway-svea-checkout.php:584
+msgid ""
+"Merchant ID and secret are either incorrect or does not have permission from "
+"Svea to connect. You might have entered test credentials in production mode "
+"or vice versa."
+msgstr ""
+"Merchant-ID och/eller det hemliga ordet är antingen felaktiga eller så har "
+"de inte behörighet av Svea att göra en anslutning. Du kan ha råkat lägga in "
+"testuppgifter i produktionsläget eller vice versa."
+
+#: inc/class-wc-gateway-svea-checkout.php:1038
+msgid "Awaiting payment from Svea Checkout"
+msgstr "Väntar på betalning från Svea Checkout"
+
+#: inc/class-wc-gateway-svea-checkout.php:1045
+msgid "Unpaid order cancelled - time limit reached."
+msgstr "Obetald order avbruten - tidsgränsen nådd."
+
+#: inc/class-wc-gateway-svea-checkout.php:1366
+msgid "There is no order by this ID."
+msgstr "Det finns ingen order med detta ID."
+
+#: inc/class-wc-gateway-svea-checkout.php:1372
+#: inc/class-wc-gateway-svea-checkout.php:1539
+msgid "Svea order id is not set for this order"
+msgstr "Inget orderid finns för den här Svea ordern"
+
+#: inc/class-wc-gateway-svea-checkout.php:1470
+msgid "Svea Payment reference:"
+msgstr "Betalningsreferens i Svea:"
+
+#: inc/class-wc-gateway-svea-checkout.php:1476
+msgid "Organisation number:"
+msgstr "Organisationsnummer:"
+
+#: inc/class-wc-gateway-svea-checkout.php:1483
+msgid "Svea Payment method:"
+msgstr "Betalsätt i Svea:"
+
+#: inc/class-wc-gateway-svea-checkout.php:1503
+msgid "Payment information"
+msgstr "Betalningsinformation"
+
+#: inc/class-wc-gateway-svea-checkout.php:1510
+msgid "Payment reference"
+msgstr "Betalningsreferens"
+
+#: inc/class-wc-gateway-svea-checkout.php:1560
+#: inc/class-wc-gateway-svea-checkout.php:1799
+msgid "Error when getting order from Svea. Please try again."
+msgstr ""
+"Ett fel uppstod när ordern skulle hämtas från Svea. Vänlig försök igen."
+
+#: inc/class-wc-gateway-svea-checkout.php:1565
+msgid "Svea has no actions available for this order."
+msgstr "Svea har inga möjliga åtgärder för denna order."
+
+#: inc/class-wc-gateway-svea-checkout.php:1588
+msgid "Error when cancelling order amount in Svea. Please try again."
+msgstr ""
+"Ett fel uppstod när orderbeloppet skulle annuleras i Svea. Vänlig försök "
+"igen."
+
+#: inc/class-wc-gateway-svea-checkout.php:1592
+#: inc/class-wc-gateway-svea-checkout.php:1595
+#, php-format
+msgid "Cancelled %s in Svea."
+msgstr "Annulerade %s i Svea."
+
+#: inc/class-wc-gateway-svea-checkout.php:1600
+msgid ""
+"No deliveries were found on this order. You can only credit if the order has "
+"been delivered."
+msgstr ""
+"Ordern är inte levererad. Du kan bara kreditera ordern om ordern har blivit "
+"levererad."
+
+#: inc/class-wc-gateway-svea-checkout.php:1656
+#, php-format
+msgid "Credit (%s)"
+msgstr "Kredit (%s)"
+
+#: inc/class-wc-gateway-svea-checkout.php:1659
+#, php-format
+msgid "reason: %s"
+msgstr "anledning: %s"
+
+#: inc/class-wc-gateway-svea-checkout.php:1685
+#: inc/class-wc-gateway-svea-checkout.php:1712
+#: inc/class-wc-gateway-svea-checkout.php:1744
+msgid "Error when crediting in Svea. Please try again."
+msgstr "Fel när ordern skulle krediteras i Svea. Vänligen försök igen."
+
+#: inc/class-wc-gateway-svea-checkout.php:1696
+#, php-format
+msgid "Diff %s"
+msgstr "Diff %s"
+
+#: inc/class-wc-gateway-svea-checkout.php:1701
+msgid "Credit rounding"
+msgstr "Öresavrundning kredit"
+
+#: inc/class-wc-gateway-svea-checkout.php:1718
+#: inc/class-wc-gateway-svea-checkout.php:1721
+#: inc/class-wc-gateway-svea-checkout.php:1748
+#: inc/class-wc-gateway-svea-checkout.php:1751
+#, php-format
+msgid "Credited %s in Svea."
+msgstr "Krediterade %s i Svea."
+
+#: inc/class-wc-gateway-svea-checkout.php:1756
+msgid "This order can not be credited."
+msgstr "Den här ordern kan inte bli krediterad."
+
+#: inc/class-wc-gateway-svea-checkout.php:1805
+msgid "Order is already delivered in Svea. No action needed."
+msgstr "Ordern är redan levererad i Svea. Ingen åtgärd behövs."
+
+#: inc/class-wc-gateway-svea-checkout.php:1820
+#, php-format
+msgid "Error received when trying to deliver order in Svea: %s"
+msgstr "Fel uppstod när ordern den skulle levereras i Svea: %s"
+
+#: inc/class-wc-gateway-svea-checkout.php:1827
+msgid "Order was delivered in Svea."
+msgstr "Ordern har levererats i Svea."
+
+#: inc/class-wc-gateway-svea-checkout.php:1876
+#: inc/class-wc-gateway-svea-checkout.php:1878
+#, php-format
+msgid "Error received when trying to cancel order in Svea: %s"
+msgstr "Fel uppstod när ordern skulle avbrytas i Svea:%s"
+
+#: inc/class-wc-gateway-svea-checkout.php:1884
+msgid "Order was cancelled in Svea."
+msgstr "Ordern är avbruten i Svea."
+
+#: inc/class-wc-gateway-svea-checkout.php:1940
+msgid "Choose page"
+msgstr "Välj sida"
+
+#: inc/class-wc-svea-checkout-admin.php:434
+#: inc/class-wc-svea-checkout-order.php:808
+msgid "Cash rounding"
+msgstr "Öresutjämning"
+
+#: inc/class-wc-svea-checkout-helper.php:10
+msgid ""
+"The current currency is not supported in the selected country. Please switch "
+"country or currency and reload the page."
+msgstr ""
+"Det finns inte stöd för den valda valutan i landet du har valt. Vänligen byt "
+"land eller valuta och ladda om sidan."
+
+#: inc/class-wc-svea-checkout-helper.php:12
+msgid ""
+"The checkout cannot be displayed due to an error in the connection to Svea. "
+"Please contact the shop owner regarding this issue."
+msgstr ""
+"Kassan kan inte visas på grund av ett fel i anslutningen till Svea. Vänligen "
+"kontakta butiksägaren gällande detta problem."
+
+#: inc/class-wc-svea-checkout-order.php:51
+#: inc/class-wc-svea-checkout-order.php:67
+msgid "Address (Svea Checkout):"
+msgstr "Adress (Svea Checkout):"
+
+#: inc/class-wc-svea-checkout-order.php:400
+msgid "Svea Checkout incomplete"
+msgstr "Svea Checkout obehandlad"
+
+#: inc/class-wc-svea-checkout-order.php:405
+#, php-format
+msgid "Svea Checkout incomplete <span class=\"count\">(%s)</span>"
+msgid_plural "Svea Checkout incomplete <span class=\"count\">(%s)</span>"
+msgstr[0] "Svea Checkout obehandlad <span class=\"count\">(%s)</span>"
+msgstr[1] "Svea Checkout obehandlad <span class=\"count\">(%s)</span>"
+
+#: inc/class-wc-svea-checkout-order.php:894
+msgid "Shipping:"
+msgstr "Frakt:"
+
+#: inc/settings-svea-checkout.php:10
+msgid "Enable/Disable"
+msgstr "Aktivera/Avaktivera"
+
+#: inc/settings-svea-checkout.php:11
+msgid "Enable Svea Checkout"
+msgstr "Aktivera Svea Checkout"
+
+#: inc/settings-svea-checkout.php:17
+msgid "Title"
+msgstr "Rubrik"
+
+#: inc/settings-svea-checkout.php:22
+msgid "Customer Types"
+msgstr "Kundtyper"
+
+#: inc/settings-svea-checkout.php:25
+msgid "Companies and individuals"
+msgstr "Företag och privatpersoner"
+
+#: inc/settings-svea-checkout.php:26
+msgid "Companies"
+msgstr "Företag"
+
+#: inc/settings-svea-checkout.php:27
+msgid "Individuals"
+msgstr "Privatpersoner"
+
+#: inc/settings-svea-checkout.php:30
+msgid "Select which customer types you want to accept in your store."
+msgstr "Välj vilka kundtyper du godtar i din butik."
+
+#: inc/settings-svea-checkout.php:34
+msgid "Default Customer Type"
+msgstr "Standard kundtyp"
+
+#: inc/settings-svea-checkout.php:37
+msgid "Individual"
+msgstr "Privatperson"
+
+#: inc/settings-svea-checkout.php:38
+msgid "Company"
+msgstr "Företag"
+
+#: inc/settings-svea-checkout.php:41
+msgid ""
+"Select which customer type you want to be selected by default. Only "
+"applicable if the store accepts companies and individuals."
+msgstr ""
+"Välj vilken kundtyp som ska vara vald som standard. Endast tillämpligt om "
+"butiken tar emot både företagskunder och privatpersoner."
+
+#: inc/settings-svea-checkout.php:44
+msgid "Standard checkout page"
+msgstr "Standard kassa-sida"
+
+#: inc/settings-svea-checkout.php:47
+msgid ""
+"If the cart total is 0, Svea Checkout will not work and will instead "
+"redirect to this page."
+msgstr ""
+"Om totalsumman i varukorgen är 0 kommer Svea Checkout inte att fungera och "
+"kommer istället att vidarebefordra till denna sida."
+
+#: inc/settings-svea-checkout.php:50
+msgid "E-mail read-only when logged in"
+msgstr "Skrivskyddad e-postadress för inloggad kund"
+
+#: inc/settings-svea-checkout.php:53
+msgid ""
+"Choose whether or not the e-mail address should be read only for logged in "
+"users."
+msgstr "Välj om e-postadressen ska vara skrivskyddad för inloggade användare."
+
+#: inc/settings-svea-checkout.php:56
+msgid "Phone read-only when logged in"
+msgstr "Skrivskyddat telefonnummer för inloggad kund"
+
+#: inc/settings-svea-checkout.php:59
+msgid ""
+"Choose whether or not the phonenumber should be read only for logged in "
+"users."
+msgstr "Välj om telefonnumret ska vara skrivskyddat för inloggade användare."
+
+#: inc/settings-svea-checkout.php:62
+msgid "Zip code read-only when logged in"
+msgstr "Skrivskyddat postnummer för inloggad kund"
+
+#: inc/settings-svea-checkout.php:65
+msgid ""
+"Choose whether or not the zip code should be read only for logged in users."
+msgstr "Välj om postnumret ska vara skrivskyddat för inloggade användare."
+
+#: inc/settings-svea-checkout.php:68
+msgid "Merchant ID - Sweden"
+msgstr "Butiks ID - Sverige"
+
+#: inc/settings-svea-checkout.php:70
+msgid "Please enter your Svea Merchant ID for Sweden. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in ditt butiks ID för Sverige. Lämna tom för att avaktivera."
+
+#: inc/settings-svea-checkout.php:75
+msgid "Secret - Sweden"
+msgstr "Hemlighet - Sverige"
+
+#: inc/settings-svea-checkout.php:77
+msgid "Please enter your Svea Secret for Sweden. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in din Svea hemlighet för Sverige. Lämna tom för att "
+"avaktivera."
+
+#: inc/settings-svea-checkout.php:82
+msgid "Testmode - Sweden"
+msgstr "Testläge - Sverige"
+
+#: inc/settings-svea-checkout.php:83
+msgid "Enable testmode in Sweden"
+msgstr "Aktivera testläge för Sverige"
+
+#: inc/settings-svea-checkout.php:89
+msgid "Merchant ID - Norway"
+msgstr "Butiks ID - Norge"
+
+#: inc/settings-svea-checkout.php:91
+msgid "Please enter your Svea Merchant ID for Norway. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in ditt butiks ID för Norge. Lämna tom för att avaktivera."
+
+#: inc/settings-svea-checkout.php:96
+msgid "Secret - Norway"
+msgstr "Hemlighet - Norge"
+
+#: inc/settings-svea-checkout.php:98
+msgid "Please enter your Svea Secret for Norway. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in din Svea hemlighet för Norge. Lämna tom för att avaktivera."
+
+#: inc/settings-svea-checkout.php:103
+msgid "Testmode - Norway"
+msgstr "Testläge - Norge"
+
+#: inc/settings-svea-checkout.php:104
+msgid "Enable testmode in Norway"
+msgstr "Aktivera testläge för Norge"
+
+#: inc/settings-svea-checkout.php:110
+msgid "Merchant ID - Finland"
+msgstr "Butiks ID - Finland"
+
+#: inc/settings-svea-checkout.php:112
+msgid "Please enter your Svea Merchant ID for Finland. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in ditt butiks ID för Finland. Lämna tom för att avaktivera."
+
+#: inc/settings-svea-checkout.php:117
+msgid "Secret - Finland"
+msgstr "Hemlighet - Finland"
+
+#: inc/settings-svea-checkout.php:119
+msgid "Please enter your Svea Secret for Finland. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in din Svea hemlighet för Finland. Lämna tom för att "
+"avaktivera."
+
+#: inc/settings-svea-checkout.php:124
+msgid "Testmode - Finland"
+msgstr "Testläge - Finland"
+
+#: inc/settings-svea-checkout.php:125
+msgid "Enable testmode in Finland"
+msgstr "Aktivera testläge för Finland"
+
+#: inc/settings-svea-checkout.php:131
+msgid "Merchant ID - Denmark"
+msgstr "Butiks ID - Danmark"
+
+#: inc/settings-svea-checkout.php:133
+msgid "Please enter your Svea Merchant ID for Denmark. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in ditt butiks ID för Danmark. Lämna tom för att avaktivera."
+
+#: inc/settings-svea-checkout.php:138
+msgid "Secret - Denmark"
+msgstr "Hemlighet - Danmark"
+
+#: inc/settings-svea-checkout.php:140
+msgid "Please enter your Svea Secret for Denmark. Leave blank to disable."
+msgstr ""
+"Vänligen skriv in din Svea hemlighet för Danmark. Lämna tom för att "
+"avaktivera."
+
+#: inc/settings-svea-checkout.php:145
+msgid "Testmode - Denmark"
+msgstr "Testläge - Danmark"
+
+#: inc/settings-svea-checkout.php:146
+msgid "Enable testmode in Denmark"
+msgstr "Aktivera testläge för Danmark"
+
+#: inc/settings-svea-checkout.php:152
+msgid "Logging"
+msgstr "Loggning"
+
+#: inc/settings-svea-checkout.php:153
+msgid "Enable logs for Svea Checkout"
+msgstr "Aktivera ”loggar” för Svea Checkout"
+
+#: inc/settings-svea-checkout.php:158
+msgid "Part payment widget"
+msgstr "Delbetalningswidget"
+
+#: inc/settings-svea-checkout.php:162
+msgid "Display product part payment widget"
+msgstr "Visa delbetalningswidget på produktsida"
+
+#: inc/settings-svea-checkout.php:164
+msgid ""
+"Display a widget on the product page which suggests a part payment plan for "
+"the customer to use to buy the product."
+msgstr ""
+"Visa en widget på produktsidan som ger förslag på en delbetalningsplan som "
+"kunden kan utnyttja för att köpa produkten."
+
+#: inc/settings-svea-checkout.php:168
+msgid "Product part payment widget position"
+msgstr "Position för delbetalningswidget på produktsidan"
+
+#: inc/settings-svea-checkout.php:170
+msgid ""
+"The position of the part payment widget on the product page. Is only "
+"displayed if the widget is activated."
+msgstr ""
+"Positionen för delbetalningswidgeten på produktsidan. Widgeten visas endast "
+"om den är aktiverad."
+
+#: inc/settings-svea-checkout.php:173
+msgid "Between price and excerpt"
+msgstr "Mellan pris och beskrivning"
+
+#: inc/settings-svea-checkout.php:174
+msgid "Between excerpt and add to cart"
+msgstr "Mellan beskrivning och lägg till i varukorg"
+
+#: inc/settings-svea-checkout.php:175
+msgid "Between add to cart and product meta"
+msgstr "Mellan lägg till i varukorg och produktmeta"
+
+#: inc/settings-svea-checkout.php:179
+msgid "Hide \"Not you?\""
+msgstr "Göm ”Inte du?”"
+
+#: inc/settings-svea-checkout.php:181
+msgid "Hide the \"Not you?\" button in the Svea iframe."
+msgstr "Göm ”Inte du?”-knappen i Sveas iframe."
+
+#: inc/settings-svea-checkout.php:185
+msgid "Hide \"Change address\""
+msgstr "Göm ”Ändra uppgifter”"
+
+#: inc/settings-svea-checkout.php:187
+msgid "Hide the \"Change address\" button in from the Svea iframe."
+msgstr "Göm ”Ändra uppgifter”-knappen i Sveas iframe."
+
+#: inc/settings-svea-checkout.php:191
+msgid "Hide the anonymous flow"
+msgstr "Göm ”Handla utan personnummer”"
+
+#: inc/settings-svea-checkout.php:193
+msgid ""
+"Hide the anonymous flow, forcing users to identify with their national id to "
+"perform a purchase."
+msgstr ""
+"Göm det anonyma flödet, tvinga användare att identifiera sig med sitt "
+"personnummer för att genomföra ett köp."
+
+#: inc/settings-svea-checkout.php:197
+msgid "Save cancelled orders"
+msgstr "Spara avbrutna ordrar"
+
+#: inc/settings-svea-checkout.php:199
+msgid ""
+"Store orders that are not completed by the customers and set as \"cancelled"
+"\" in Svea. This is a way to follow up non-completed orders but might fill "
+"your order list with many cancelled orders."
+msgstr ""
+"Spara ordrar som inte är slutförda av kunderna och satta som ”avbrutna” i "
+"Svea. Detta är ett sätt att följa upp ej slutförda ordrar men kan fylla din "
+"orderlista med många avbrutna ordrar."
+
+#: inc/settings-svea-checkout.php:203
+msgid "Sync ZIP code from Svea"
+msgstr "Synka postnummer från Svea"
+
+#: inc/settings-svea-checkout.php:205
+msgid ""
+"Enable ZIP code sync from the Svea Checkout iframe to WooCommerce, this "
+"enables usage of ZIP code specific shipping methods. <br />\n"
+"\t\t\t\t\t\t<strong>Do not touch this if you do not know what you are doing</"
+"strong>."
+msgstr ""
+"Aktivera postnummersynkning från Svea Checkout-iframen till WooCommerce, "
+"detta möjliggör postnummerspecifika fraksätt. <br />\n"
+"\t\t\t\t\t\t<strong>Ändra inte denna inställning om du är osäker på vad den "
+"gör</strong>."
+
+#: inc/settings-svea-checkout.php:210
+msgid "Sync settings"
+msgstr "Synkningsinställningar"
+
+#: inc/settings-svea-checkout.php:214
+msgid "Sync order completion"
+msgstr "Synka färdigbehandlade ordrar"
+
+#: inc/settings-svea-checkout.php:216
+msgid ""
+"Enable automatic sync of completed orders from WooCommerce to Svea. <br />\n"
+"\t\t\t\t\t\t<strong>Do not touch this if you do not know what you are doing</"
+"strong>."
+msgstr ""
+"Aktivera automatisk synkning av färdigbehandlade ordrar från WooCommerce "
+"till Svea. <br />\n"
+"\t\t\t\t\t\t<strong>Ändra inte denna inställning om du är osäker på vad den "
+"gör</strong>."
+
+#: inc/settings-svea-checkout.php:221
+msgid "Sync order cancellation"
+msgstr "Synka avbrutna ordrar"
+
+#: inc/settings-svea-checkout.php:223
+msgid ""
+"Enable automatic sync of cancelled orders from WooCommerce to Svea. <br />\n"
+"\t\t\t\t\t\t<strong>Do not touch this if you do not know what you are doing</"
+"strong>."
+msgstr ""
+"Aktivera automatisk synkning av avbrutna ordrar från WooCommerce till Svea. "
+"<br />\n"
+"\t\t\t\t\t\t<strong>Ändra inte denna inställning om du är osäker på vad den "
+"gör</strong>."
+
+#: inc/settings-svea-checkout.php:228
+msgid "Sync order rows"
+msgstr "Synka orderrader"
+
+#: inc/settings-svea-checkout.php:230
+msgid ""
+"Enable automatic sync of order rows changed after purchase from WooCommerce "
+"to Svea. <br />\n"
+"\t\t\t\t\t\tThis functionality only works on payment methods where payment "
+"is not made at the time of the purchase. <br />\n"
+"\t\t\t\t\t\t<strong>Do not touch this if you do not know what you are doing</"
+"strong>."
+msgstr ""
+"Aktivera automatisk synkning av orderrader som ändrats efter beställning i "
+"WooCommerce till Svea. <br />\n"
+"\t\t\t\t\t\tDenna funktionalitet fungerar endast för betalningsmetoder där "
+"betalningen inte görs direkt vid tiden för köpet. <br />\n"
+"\t\t\t\t\t\t<strong>Ändra inte denna inställning om du är osäker på vad den "
+"gör</strong>."
+
+#: inc/shortcodes/class-wc-svea-checkout-shortcode-checkout.php:259
+msgid "Sorry, your session has expired."
+msgstr "Din session har gått ut."
+
+#: inc/shortcodes/class-wc-svea-checkout-shortcode-checkout.php:259
+msgid "Return to shop"
+msgstr "Tillbaka till butiken"
+
+#: inc/shortcodes/class-wc-svea-checkout-shortcode-checkout.php:541
+msgid "Merchant ID and secret must be set to use Svea Checkout"
+msgstr ""
+"För att kunna använda Svea Checkout måste du ange butiks ID och hemlighet"
+
+#: inc/shortcodes/class-wc-svea-checkout-shortcode-checkout.php:551
+msgid ""
+"There was an error when trying to load Svea Checkout, please reload and try "
+"again."
+msgstr ""
+"Ett problem uppstod när Svea Checkout skulle laddas in, vänligen ladda om "
+"sidan och försök igen."
+
+#: svea-checkout-for-woocommerce.php:79
+msgid ""
+"WooCommerce Svea Checkout Gateway has been deactivated because WooCommerce "
+"is not installed. Please install WooCommerce and re-activate."
+msgstr ""
+"WooCommerce Svea Checkout Betallösning har aktiverats pågrund av att "
+"WooCommerce inte är installerat. Vänligen installera WooCommerce och "
+"aktivera igen."
+
+#: svea-checkout-for-woocommerce.php:97
+msgid "Process payments in WooCommerce via Svea Checkout."
+msgstr "Behandling av betalningar med WooCommerce via Svea Checkout."
+
+#: svea-checkout-for-woocommerce.php:99
+msgid "WooCommerce Svea Checkout Payment Gateway"
+msgstr "WooCommerce Svea Checkout Payment Gateway"
+
+#: svea-checkout-for-woocommerce.php:291
+msgctxt "Page title"
+msgid "Svea Checkout"
+msgstr "Svea Checkout"
+
+#: svea-checkout-for-woocommerce.php:292
+msgctxt "Page slug"
+msgid "svea-checkout"
+msgstr "svea-checkout"
+
+#: svea-checkout-for-woocommerce.php:404
+#, php-format
+msgid ""
+"WooCommerce decimals is set to %d, lower than 2 which is the required "
+"setting for Svea Checkout to work properly. If you want to hide decimals "
+"altogether, add this snippet to your functions.php: %sIf you have just "
+"changed the setting, you can ignore this message."
+msgstr ""
+"WooCommerce-decimaler är satta till %d, lägre än 2 som är det värde som "
+"krävs för att Svea Checkout ska fungera ordentligt. Om ni vill gömma "
+"decimaler helt så kan ni lägga till denna kodsnutt i er functions.php: %sOm "
+"ni nyss har ändrat inställningen så kan ni ignorera detta meddelande."
+
+#: templates/checkout/review-order.php:26
+msgid "Product"
+msgstr "Produkt"
+
+#: templates/checkout/review-order.php:27
+#: templates/checkout/review-order.php:128
+msgid "Total"
+msgstr "Summa"
+
+#: templates/checkout/review-order.php:64
+msgid "Subtotal"
+msgstr "Delsumma"
+
+#: templates/svea-checkout.php:26
+msgid "You must be logged in to checkout."
+msgstr "Du måste vara inloggad för att slutföra köpet."
+
+#: templates/svea-checkout.php:50
+msgid "Country"
+msgstr "Land"
+
+#: templates/svea-checkout.php:84
+msgid "Order notes"
+msgstr "Ordernoteringar"
+
+#: templates/svea-checkout.php:85
+msgid "Notes about your order, e.g. special notes for delivery."
+msgstr "Anteckning på din order, t.ex speciella önskemål för leverans."
+
+#: templates/svea-checkout.php:109
+msgid "Create an account?"
+msgstr "Skapa ett konto?"
+
+#~ msgid ""
+#~ "Enable automatic sync of zip code from Svea to WooCommerce. <br />\n"
+#~ "\t\t\t\t\t\t<strong>Do not touch this if you do not know what you are "
+#~ "doing</strong>."
+#~ msgstr ""
+#~ "Aktivera automatisk synkning av postnummer från Svea till WooCommerce. "
+#~ "<br />\n"
+#~ "\t\t\t\t\t\t<strong>Ändra inte denna inställning om du är osäker på vad "
+#~ "den gör</strong>."
+
+#~ msgid "Disable automatic order sync"
+#~ msgstr "Inaktivera automatisk ordersynkning"
+
+#~ msgid "Svea Checkout description"
+#~ msgstr "Beskrivning för Svea Checkout"
+
+#~ msgid "Default merchant"
+#~ msgstr "Standard-merchant"
+
+#~ msgid ""
+#~ "Select which merchant that should be the default if the customer country "
+#~ "does not match an appropriate merchant."
+#~ msgstr ""
+#~ "Välj vilken merchant som ska vara standard om kundens land inte matchar "
+#~ "någon merchant."
+
+#~ msgid "Incomplete Svea Checkout"
+#~ msgstr "Svea Checkout obehandlad"
+
+#~ msgid "Discount"
+#~ msgstr "Rabatt"
+
+#~ msgid "Svea card pay"
+#~ msgstr "Kortbetalning"
+
+#~ msgid "Svea Payment reference"
+#~ msgstr "Svea betalsätt:"
+
+#~ msgid "Payment method"
+#~ msgstr "Betalsätt"
+
+#~ msgid "Extra payment information"
+#~ msgstr "Extra betalinformation"
+
+#~ msgid "Shipping fee"
+#~ msgstr "Fraktavgift"
+
+#~ msgid "Error: Unable to create order. Please try again."
+#~ msgstr "Fel: Kunde inte skapa order. Vänligen försök igen."
+
+#~ msgid "Error %d: Unable to create order. Please try again."
+#~ msgstr "Fel %d: Kunde inte skapa order. Vänligen försök igen."
+
+#~ msgid "Order Notes"
+#~ msgstr "Ordernoteringar"
+
+#~ msgctxt "placeholder"
+#~ msgid "Notes about your order, e.g. special notes for delivery."
+#~ msgstr "Noteringar för din order, ex specialnoteringar för leverans"
+
+#~ msgid "%s Person"
+#~ msgid_plural "%s Persons"
+#~ msgstr[0] "%s person"
+#~ msgstr[1] "%s personer"
+
+#~ msgid "hour"
+#~ msgid_plural "hours"
+#~ msgstr[0] "timme"
+#~ msgstr[1] "timmar"
+
+#~ msgid "minute"
+#~ msgid_plural "minutes"
+#~ msgstr[0] "minut"
+#~ msgstr[1] "minuter"
+
+#~ msgid "Phone number"
+#~ msgstr "Telefonnummer"
+
+#~ msgid "Upcoming tour:"
+#~ msgstr "Kommande turer:"
+
+#~ msgid "Phone number (Cell or mobile)"
+#~ msgstr "Telefonnummer (mobil eller "
+
+#~ msgid "Showing:"
+#~ msgstr "Visar:"
+
+#~ msgid "Postal address is not set!"
+#~ msgstr "Postaddress har ej angetts"
+
+#~ msgid "Select Location"
+#~ msgstr "Välj plats"
+
+#~ msgid "By request only"
+#~ msgstr "Endast vid förfrågan"
+
+#~ msgid "2014 & 2015 Certificate of Excellence"
+#~ msgstr "Certificate of Excellence"
+
+#~ msgid "Api key"
+#~ msgstr "Api nyckel"
+
+#~ msgid "Availability: "
+#~ msgstr "Tillgänglighet:"
+
+#~ msgid "Share this post:"
+#~ msgstr "Dela det här inlägget:"

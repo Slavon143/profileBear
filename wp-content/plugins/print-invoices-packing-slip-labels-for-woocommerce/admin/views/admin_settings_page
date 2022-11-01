@@ -1,0 +1,12 @@
+<?php
+if ( ! defined( 'WPINC' ) ) {
+    die;
+}
+?>
+<div class="wf-tab-content" data-id="wf-other-documents">
+	<?php
+	$html='';
+	echo apply_filters('wf_pklist_document_setting_fields',$html);
+    include "admin-settings-save-button.php";
+    ?>
+</div>

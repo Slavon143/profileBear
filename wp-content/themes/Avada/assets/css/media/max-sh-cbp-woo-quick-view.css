@@ -1,0 +1,8 @@
+.fusion-woocommerce-quick-view-overlay,
+.fusion-woocommerce-quick-view-container,
+.fusion-body a.fusion-quick-view {
+  display: none !important;
+}
+.show_details_button.fusion-has-quick-view {
+  display: block !important;
+}

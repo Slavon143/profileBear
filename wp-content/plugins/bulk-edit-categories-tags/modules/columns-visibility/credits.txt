@@ -1,0 +1,6 @@
+This plugin uses the following open source packages:
+
+- Sortable by RubaXa
+License: https://github.com/RubaXa/Sortable#mit-license
+
+Thank you so much to the authors of those packages for releasing them as open source.

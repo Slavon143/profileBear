@@ -1,0 +1,169 @@
+# Translation of Plugins - Media Cleaner &#8211; Clean &amp; Optimize Space - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Media Cleaner &#8211; Clean &amp; Optimize Space - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-04-29 20:10:51+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Media Cleaner &#8211; Clean &amp; Optimize Space - Stable (latest release)\n"
+
+#. Author URI of the plugin
+msgid "https://jordymeow.com"
+msgstr "https://jordymeow.com"
+
+#: common/admin.php:73
+msgid "<a target=\"_blank\" href=\"https://meowapps.com\">Get the <u>Pro Version</u></a>"
+msgstr "<a target=\"_blank\" href=\"https://meowapps.com\">Skaffa <u>Pro-versionen</u></a>"
+
+#: common/admin.php:73
+msgid "License Issue"
+msgstr "Licensproblem"
+
+#: common/admin.php:69
+msgid "<a href=\"admin.php?page=%s_settings\">Settings</a>"
+msgstr "<a href=\"admin.php?page=%s_settings\">Inställningar</a>"
+
+#. translators: %1$s is a plugin nicename, %2$s is a short url (slug)
+#: common/ratings.php:65
+msgid "You have been using <b>%1$s</b> for some time now. Thank you! Could you kindly share your opinion with me, along with, maybe, features you would like to see implemented? Then, please <a style=\"font-weight: bold; color: #b926ff;\" target=\"_blank\" href=\"https://wordpress.org/support/plugin/%2$s/reviews/?rate=5#new-post\">write a little review</a>. That will also bring me joy and motivation! I will get back to you :)"
+msgstr "Du har använt <b>%1$s</b> ett tag nu. Tack! Skulle du vilja berätta vad du tycker och kanske vilka fler funktioner du skulle vilja se implementerade? Skriv i så fall <a style=\"font-weight: bold; color: #b926ff;\" target=\"_blank\" href=\"https://wordpress.org/support/plugin/%2$s/reviews/?rate=5#new-post\">en liten recension</a>. Det innebär också glädje och motivation för mig! Jag försöker att svara :)"
+
+#: classes/rest.php:551
+msgid "OK"
+msgstr "OK"
+
+#: classes/rest.php:247
+msgid "No files for this path (%s)."
+msgstr "Inga filer under denna sökväg (%s)."
+
+#: classes/init.php:5
+msgid "Thanks for installing the Pro version of Media Cleaner :) However, the free version is still enabled. Please disable or uninstall it."
+msgstr "Tack för att du har installerat Pro-versionen av Media Cleaner :) Men du har fortfarande den fria versionen aktiverad. Inaktivera eller avinstallera den."
+
+#: classes/ui.php:47
+msgid "Cleaner"
+msgstr "Rensare"
+
+#. Description of the plugin
+msgid "Clean your WordPress from unused or broken media entries and files."
+msgstr "Rensar din WordPress-installation från oanvända och skadade mediaposter och -filer."
+
+#: classes/engine.php:163
+msgid "Extracted references from %d medias in %s."
+msgstr "Referenser från %d mediafiler extraherade på %s."
+
+#: classes/core.php:1165
+msgid "No attached file"
+msgstr "Bilagefil saknas"
+
+#: classes/core.php:1156
+msgid "Not in Library"
+msgstr "Finns inte i biblioteket"
+
+#: classes/core.php:1153
+msgid "Seems not use"
+msgstr "Verkar inte användas"
+
+#: classes/engine.php:136
+msgid "Skipped, as Media Library is not selected."
+msgstr "Hoppades över eftersom mediabiblioteksmetoden inte är vald."
+
+#: classes/engine.php:131
+msgid "Skipped, as it is not needed for the Media Library method."
+msgstr "Hoppades över eftersom detta inte behövs för mediabiblioteksmetoden."
+
+#. translators: %1$d is number of posts, %2$s is time in milliseconds
+#: classes/engine.php:122
+msgid "Extracted references from %1$d posts in %2$s."
+msgstr "Referenser från %1$d inlägg extraherades på %2$s."
+
+#: classes/engine.php:62 classes/engine.php:67
+msgid "Skipped, as Content is not selected."
+msgstr "Hoppades över eftersom inget innehåll är valt."
+
+#. translators: %1$s is the version of the interface; %2$s is a file path.
+#: common/admin.php:174
+msgid "Thanks for using <a href=\"https://meowapps.com\">Meow Apps</a>! This is the Meow Admin %1$s <br /><i>Loaded from %2$s </i>"
+msgstr "Tack för att du använder <a href=\"https://meowapps.com\">Meow Apps</a>! Det här är Meow Admin %1$s <br /><i>Hämtat från %2$s </i>"
+
+#: common/admin.php:72
+msgid "Pro Version"
+msgstr "Pro-versionen"
+
+#: common/admin.php:110
+msgid "Remove the license"
+msgstr "Ta bort licensen"
+
+#: common/admin.php:104
+msgid "<p>It looks like you are using the free version of the plugin (<b>%s</b>) but a license for the Pro version was also found. The Pro version might have been replaced by the Free version during an update (might be caused by a temporarily issue). If it is the case, <b>please download it again</b> from the <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a>. If you wish to continue using the free version and clear this message, click on this button."
+msgstr "<p>Det verkar som att du använder gratisversionen av tillägget (<b>%s</b>) men en licens för Pro-versionen hittades också. Pro-versionen kan ha ersatts av gratisversionen under en uppdatering (kan orsakas av ett tillfälligt problem). Om det är så i detta fall, <b>ladda ner det igen</b> från <a target=\"_blank\" href=\"https://meowapps.com\">Meow Store</a>. Om du vill fortsätta använda gratisversionen och ta bort detta meddelande, klicka på denna knapp."
+
+#: common/ratings.php:83
+msgid "Yes, I did it!"
+msgstr "Ja, jag har gjort det!"
+
+#: common/ratings.php:78
+msgid "Remind me in a few weeks..."
+msgstr "Påminn mig om några veckor …"
+
+#: common/ratings.php:73
+msgid "Never remind me!"
+msgstr "Påminn mig aldrig!"
+
+#. translators: %1$d is a number of targets, %2$d is a number of issues, %3$s
+#. is elapsed time in milliseconds
+#: classes/rest.php:324
+msgid "Checked %1$d targets and found %2$d issues in %3$s."
+msgstr "Kollat %1$d mål och upptäckte %2$d problem på %3$s."
+
+#: classes/rest.php:250 classes/rest.php:268
+msgid "Retrieved %d targets."
+msgstr "Hämtat %d mål."
+
+#: classes/core.php:1162
+msgid "Orphan WebP"
+msgstr "WebP utan huvudfil"
+
+#: classes/rest.php:139
+msgid "Invalid Regular-Expression"
+msgstr "Ogiltigt reguljärt uttryck"
+
+#: common/admin.php:139
+msgid "<label>Hide <b>Meow Apps</b> Menu</label><br /><small>Hide Meow Apps menu and all its components, for a cleaner admin. This option will be reset if a new Meow Apps plugin is installed. <b>Once activated, an option will be added in your General settings to display it again.</b></small>"
+msgstr "<label>Dölj menyn <b>Meow Apps</b></label><br /><small>Dölj menyn ”Meow Apps” och alla dess delar för att få en renare adminpanel. Detta alternativ återställs om något nytt ”Meow Apps”-tillägg installeras. <b>När det har aktiverats läggs ett alternativ till i dina allmänna inställningar för att visa det igen.</b></small>"
+
+#: classes/ui.php:109
+msgid "Restore with Media Cleaner"
+msgstr "Återställ med Media Cleaner"
+
+#: classes/ui.php:106
+msgid "Trash with Media Cleaner"
+msgstr "Kasta i papperskorgen med Media Cleaner"
+
+#: classes/ui.php:103
+msgid "Delete with Media Cleaner"
+msgstr "Ta bort tillsammans med Media Cleaner"
+
+#: common/admin.php:130 common/admin.php:131
+msgid "Dashboard"
+msgstr "Kontrollpanel"
+
+#. Plugin URI of the plugin
+msgid "https://meowapps.com"
+msgstr "https://meowapps.com"
+
+#. Author of the plugin
+msgid "Jordy Meow"
+msgstr "Jordy Meow"
+
+#. Plugin Name of the plugin
+msgid "Media Cleaner"
+msgstr "Media Cleaner"
+
+#: classes/core.php:1159
+msgid "Orphan Retina"
+msgstr "Retinabild utan huvudfil"

@@ -1,0 +1,102 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-events-shortcode .fusion-layout-column {
+  border-style: solid;
+  border-width: 0;
+  border-color: transparent;
+}
+.fusion-events-shortcode .fusion-layout-column.fusion-spacing-no {
+  margin-bottom: 0;
+}
+.fusion-events-shortcode .fusion-layout-column .fusion-column-wrapper {
+  background-color: var(--timeline_bg_color);
+  border: 1px solid transparent;
+  flex-direction: column;
+}
+.fusion-events-shortcode.fusion-events-layout-center .fusion-events-content-wrapper {
+  text-align: center;
+}
+.fusion-events-shortcode.fusion-events-layout-left .fusion-events-content-wrapper {
+  text-align: left;
+}
+.fusion-events-shortcode.fusion-events-layout-right .fusion-events-content-wrapper {
+  text-align: right;
+}
+.fusion-events-shortcode .fusion-events-thumbnail {
+  display: block;
+  border-bottom: 1px solid transparent;
+}
+.fusion-events-shortcode .tribe-events-event-image {
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+}
+.fusion-events-shortcode .fusion-full-one {
+  width: 100%;
+}
+.fusion-events-shortcode .fusion-full-one .tribe-events-event-image {
+  height: 416px;
+}
+.fusion-events-shortcode .fusion-one-half .tribe-events-event-image {
+  height: 416px;
+}
+.fusion-events-shortcode .fusion-one-third .fusion-events-placeholder {
+  width: 337px;
+  height: 216px;
+}
+.fusion-events-shortcode .fusion-one-third .tribe-events-event-image {
+  height: 216px;
+}
+.fusion-events-shortcode .fusion-one-fourth .fusion-events-placeholder {
+  width: 242px;
+  height: 173px;
+}
+.fusion-events-shortcode .fusion-one-fourth .tribe-events-event-image {
+  height: 173px;
+}
+.fusion-events-shortcode .fusion-one-fifth .fusion-events-placeholder {
+  width: 177px;
+  height: 142px;
+}
+.fusion-events-shortcode .fusion-one-fifth .tribe-events-event-image {
+  height: 142px;
+}
+.fusion-events-shortcode .fusion-one-sixth .fusion-events-placeholder {
+  width: 147px;
+  height: 118px;
+}
+.fusion-events-shortcode .fusion-one-sixth .tribe-events-event-image {
+  height: 118px;
+}
+.fusion-events-shortcode .fusion-events-meta .event-is-recurring,
+.fusion-events-shortcode .fusion-events-meta .recurringinfo {
+  display: inline;
+}
+.fusion-events-shortcode .fusion-events-content {
+  padding-top: 20px;
+}
+.fusion-events-shortcode .fusion-events-content p:last-child {
+  margin-bottom: 0;
+}
+.fusion-events-shortcode .tribe-events-tooltip {
+  display: none;
+}
+.fusion-events-shortcode .tribe-events-divider {
+  padding: 0 5px;
+}
+.fusion-events-shortcode h2 {
+  margin-bottom: 0;
+}
+.fusion-events-shortcode h4 {
+  margin: 0;
+}
+.fusion-events-shortcode .fusion-layout-column .fusion-column-wrapper,
+.fusion-events-shortcode .fusion-events-thumbnail {
+  border-color: var(--timeline_color);
+}
+.fusion-builder-element-content .fusion-events-shortcode .fusion-layout-column .fusion-column-wrapper:after {
+  display: none;
+}
+.fusion-builder-element-content .fusion-events-shortcode .fusion-layout-column .fusion-column-wrapper .fusion-fullwidth:after {
+  display: none;
+}

@@ -1,0 +1,94 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-recent-posts {
+  margin-bottom: 50px;
+}
+.fusion-recent-posts .columns {
+  overflow: hidden;
+}
+.fusion-recent-posts .columns .post {
+  margin-bottom: 0;
+}
+.fusion-recent-posts .columns .column {
+  overflow: hidden;
+  box-sizing: border-box;
+}
+.fusion-recent-posts .columns .column .fusion-flexslider {
+  margin-bottom: 0;
+}
+.fusion-recent-posts .columns .column .fusion-flexslider:after {
+  content: " ";
+  display: table;
+  clear: both;
+}
+.fusion-recent-posts .columns .column .fusion-flexslider .slides {
+  width: 100%;
+}
+.fusion-recent-posts .columns .column .entry-title {
+  margin: 15px 0 3px;
+  clear: none;
+}
+.fusion-recent-posts .columns .column a {
+  text-decoration: none;
+}
+.fusion-recent-posts .columns .column .meta {
+  overflow: hidden;
+  margin-bottom: 13px;
+  padding: 0;
+}
+.fusion-recent-posts .columns .column .meta .date {
+  font-style: normal;
+}
+.fusion-recent-posts .columns .column .meta .meta-separator {
+  padding: 0 5px;
+}
+.fusion-recent-posts .columns .password {
+  width: auto;
+}
+.fusion-recent-posts.fusion-recent-posts-left {
+  text-align: left;
+}
+.fusion-recent-posts.fusion-recent-posts-center {
+  text-align: center;
+}
+.fusion-recent-posts.fusion-recent-posts-right {
+  text-align: right;
+}
+.fusion-recent-posts.layout-thumbnails-on-side .columns .column {
+  margin-bottom: 20px;
+}
+.fusion-recent-posts.layout-thumbnails-on-side .columns .column .floated-slideshow {
+  overflow: hidden;
+  float: left;
+  margin: 0 20px 5px 0;
+  width: 144px;
+}
+.fusion-recent-posts.layout-thumbnails-on-side .columns .column .entry-title {
+  margin-top: 0;
+}
+.fusion-recent-posts.layout-date-on-side .date-and-formats {
+  overflow: hidden;
+  float: left;
+  margin: 0 20px 5px 0;
+  width: 82px;
+}
+.fusion-recent-posts.layout-date-on-side .date-and-formats .date-box {
+  padding: 8px 0 5px;
+  color: #fff;
+}
+.fusion-recent-posts.layout-date-on-side .date-and-formats .date-box .date {
+  display: block;
+  font-size: 29px;
+  font-weight: bold;
+  line-height: 29px;
+}
+.fusion-recent-posts.layout-date-on-side .date-and-formats .format-box {
+  margin-top: 3px;
+  background-color: #eef0f2;
+}
+.fusion-recent-posts.layout-date-on-side .columns .column {
+  margin-bottom: 20px;
+}
+.fusion-recent-posts.layout-date-on-side .columns .column .entry-title {
+  margin-top: 0;
+}

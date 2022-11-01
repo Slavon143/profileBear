@@ -1,0 +1,86 @@
+# Translation of Plugins - Better Font Awesome - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Better Font Awesome - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-11 16:30:23+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Better Font Awesome - Stable (latest release)\n"
+
+#: better-font-awesome.php:493
+msgid "Settings were not saved due to a missing nonce. Refresh the page and try again."
+msgstr "Inställningarna sparades inte på grund av en saknad engångskod. Uppdatera sidan och försök igen."
+
+#. translators: placeholder is the numeric current version number.
+#: better-font-awesome.php:533
+msgid "%s (The plugin automatically uses the latest version of Font Awesome, and checks for updates at this frequency)"
+msgstr "%s (detta tillägg använder automatiskt den senaste versionen av Font Awesome och kontrollerar efter uppdateringar med denna frekvens)"
+
+#: better-font-awesome.php:413
+msgid "Include v4 CSS shim"
+msgstr "Inkludera v4 CSS shim"
+
+#: better-font-awesome.php:405
+msgid "Version check frequency"
+msgstr "Frekvens för versionskontroll"
+
+#: better-font-awesome.php:397
+msgid "Font Awesome version"
+msgstr "Font Awesome-version"
+
+#: better-font-awesome.php:509
+msgid "Settings saved."
+msgstr "Inställningar sparade."
+
+#. Author URI of the plugin
+msgid "mickeyskay@gmail.com"
+msgstr "mickeyskay@gmail.com"
+
+#. Author of the plugin
+msgid "Mickey Kay"
+msgstr "Mickey Kay"
+
+#. Description of the plugin
+msgid "The ultimate Font Awesome icon plugin for WordPress."
+msgstr "Det perfekta tillägget för Font Awesome-ikoner i Wordpress."
+
+#. Plugin URI of the plugin
+msgid "http://wordpress.org/plugins/better-font-awesome"
+msgstr "http://wordpress.org/plugins/better-font-awesome"
+
+#: better-font-awesome.php:443
+msgid "Hide the default admin warnings that are shown when API and CDN errors occur."
+msgstr "Dölj standardvarningar som visas vid API- och CDN-fel."
+
+#: better-font-awesome.php:437
+msgid "Hide admin notices"
+msgstr "Dölj admin-notiser"
+
+#: better-font-awesome.php:431
+msgid "Attempt to remove Font Awesome CSS and shortcodes added by other plugins and themes."
+msgstr "Försök att ta bort Font Awesome CSS och kortkoder som lagts till av andra tillägg och teman."
+
+#: better-font-awesome.php:425
+msgid "Remove existing Font Awesome"
+msgstr "Ta bort befintlig Font Awesome"
+
+#: better-font-awesome.php:368
+msgid "Save Settings"
+msgstr "Spara inställningar"
+
+#: better-font-awesome.php:254
+msgid "Back to the plugins page &rarr;"
+msgstr "Åter till sidan för tillägg &rarr;"
+
+#: better-font-awesome.php:253
+msgid "It appears that Better Font Awesome is missing it's <a href=\"https://github.com/MickeyKay/better-font-awesome-library\" target=\"_blank\">core library</a>, which typically occurs when cloning the Git repository and failing to run <code>composer install</code>. Please refer to the plugin's <a href=\"https://github.com/MickeyKay/better-font-awesome\" target=\"_blank\">installation instructions</a> for details on how to properly install Better Font Awesome via Git. If you installed from within WordPress, or via the wordpress.org repo, then chances are the install failed and you can try again. If the issue persists, please create a new topic on the plugin's <a href=\"http://wordpress.org/support/plugin/better-font-awesome\" target=\"_blank\">support forum</a> or file an issue on the <a href=\"https://github.com/MickeyKay/better-font-awesome/issues\" target=\"_blank\">Github repo</a>."
+msgstr "Det verkar som Better Font Awesome saknar sitt <a href=\"https://github.com/MickeyKay/better-font-awesome-library\" target=\"_blank\">eget kärnbibliotek</a>. Detta sker vanligen om man klonar Git-repo och missar att köra <code>composer install</code>. Vänligen se tilläggets <a href=\"https://github.com/MickeyKay/better-font-awesome\" target=\"_blank\">installationsanvisningar</a> för hur man installerar Better Font Awesome via Git. Om du installerade inifrån WordPress, eller via wordpress.org repo, misslyckades förmodligen installationen och du kan försöka igen. Om problemet kvarstår, vänligen skapa ett ärende i tilläggets <a href=\"http://wordpress.org/support/plugin/better-font-awesome\" target=\"_blank\">supportforum</a> eller på <a href=\"https://github.com/MickeyKay/better-font-awesome/issues\" target=\"_blank\">Github-repo</a>."
+
+#. Plugin Name of the plugin
+#: better-font-awesome.php:195 better-font-awesome.php:252
+msgid "Better Font Awesome"
+msgstr "Better Font Awesome"

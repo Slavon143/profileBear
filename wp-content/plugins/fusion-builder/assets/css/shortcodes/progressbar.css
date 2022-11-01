@@ -1,0 +1,96 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+@keyframes progress-bar-stripes {
+  from {
+    background-position: 40px 0;
+  }
+  to {
+    background-position: 0 0;
+  }
+}
+.progress-bar {
+  overflow: hidden;
+  height: 20px;
+  margin-bottom: 20px;
+  background-color: #f5f5f5;
+  border-radius: 5px;
+  background-clip: padding-box;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+.progress {
+  float: left;
+  width: 0%;
+  height: 100%;
+  font-size: 12px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  background-color: #65bc7b;
+  box-shadow: inset 0 -1px 0 rgba(0, 0, 0, 0.15);
+  transition: width 0.6s ease;
+}
+.progress-striped .progress {
+  background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.15) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.15) 50%, rgba(255, 255, 255, 0.15) 75%, transparent 75%, transparent);
+  background-size: 40px 40px;
+}
+.progress-bar.active .progress {
+  animation: progress-bar-stripes 2s linear infinite;
+}
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
+.fusion-progressbar {
+  position: relative;
+  margin-bottom: 10px;
+}
+.fusion-progressbar .progress-title {
+  margin: 0;
+  height: auto;
+  width: auto;
+}
+.fusion-progressbar * {
+  box-sizing: border-box;
+}
+.fusion-progressbar-text-on-bar .progress-title {
+  position: absolute;
+  left: 15px;
+  top: 50%;
+  transform: translate(0, -50%);
+  clip: auto;
+  color: #fff;
+}
+.fusion-progressbar-text-above-bar .progress-title {
+  display: inline-block;
+  margin-bottom: 5px;
+  color: #000;
+}
+.fusion-progressbar-text-below-bar .progress-title {
+  display: inline-block;
+  margin-top: 5px;
+  color: #000;
+}
+.fusion-progressbar-bar {
+  margin: 0;
+  height: 37px;
+  width: 100%;
+  background-color: #e6e7e8;
+  border-radius: 0;
+  background-clip: padding-box;
+  box-shadow: none;
+  display: flex;
+}
+.fusion-progressbar-bar .progress {
+  background-color: #65bc7b;
+  box-shadow: none;
+}
+.rtl .fusion-progressbar-text-on-bar .progress-title {
+  left: none;
+  right: 15px;
+}

@@ -1,0 +1,7 @@
+/nbproject/
+/docs
+/.idea/
+/vendor/
+/build/
+phpunit.xml
+/docs/

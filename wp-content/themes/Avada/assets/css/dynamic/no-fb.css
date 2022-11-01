@@ -1,0 +1,18 @@
+/* stylelint-disable no-descending-specificity */
+.fusion-button-default,
+.wpcf7-submit,
+.comment-form .fusion-button-default,
+.single_add_to_cart_button,
+.comment-respond .submit,
+.wc-proceed-to-checkout .fusion-button,
+.woocommerce-checkout .fusion-button,
+.avada-coupon-fields .fusion-button,
+#order_review .fusion-button,
+.fusion-menu-item-button .fusion-button {
+  background: var(--primary_color);
+  border-color: var(--primary_color);
+  color: #fff;
+  padding: 5px 15px;
+  line-height: var(--body_typography-line-height);
+  font-size: var(--body_typography-font-size);
+}

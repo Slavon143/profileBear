@@ -1,0 +1,44 @@
+.fusion-footer-copyright-area {
+  z-index: 10;
+  position: relative;
+  padding: var(--copyright_padding-top) 10px var(--copyright_padding-bottom);
+  border-top: var(--copyright_border_size) solid var(--copyright_border_color);
+  background-color: var(--copyright_bg_color);
+}
+.fusion-footer-copyright-area .fusion-row {
+  max-width: var(--site_width);
+}
+.fusion-footer-copyright-area > .fusion-row {
+  padding-left: var(--footer_area_padding-left);
+  padding-right: var(--footer_area_padding-right);
+}
+.fusion-copyright-notice a {
+  color: var(--copyright_link_color);
+}
+.fusion-footer-copyright-area a:hover {
+  color: var(--copyright_link_color_hover);
+}
+.fusion-copyright-content {
+  display: table;
+  width: 100%;
+}
+.fusion-copyright-notice {
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  color: var(--copyright_text_color);
+  font-size: var(--copyright_font_size);
+}
+.fusion-body .fusion-footer-copyright-center .fusion-copyright-content {
+  display: block;
+  text-align: center;
+}
+.fusion-body .fusion-footer-copyright-center .fusion-copyright-notice {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+.layout-wide-mode.avada-has-100-footer .fusion-footer-copyright-area > .fusion-row {
+  max-width: 100% !important;
+}

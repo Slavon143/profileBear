@@ -1,0 +1,13 @@
+#fusion-builder-ptb-actions,
+#fusion-builder-slider-actions,
+.fusion-builder-controls,
+.fusion-builder-module-controls,
+.fusion-builder-live .fusion-builder-column.active .fusion-column-wrapper::after,
+.fusion-builder-live .fusion-builder-column:hover .fusion-column-wrapper::after,
+.fusion-builder-live .fusion-builder-column .fusion-builder-live-element:hover::after,
+.fusion-builder-live .fusion-builder-live-child-element:hover::after,
+.fusion-builder-live .fusion-builder-container:not(.fusion-builder-element-edited):hover .fusion-fullwidth::after,
+.fusion-builder-placeholder-preview,
+.fusion-panel-shortcuts-wrapper {
+  display: none !important;
+}

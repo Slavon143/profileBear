@@ -1,0 +1,27 @@
+div.fusion-woo-cart_coupons {
+  border: 0;
+  padding: 0 !important;
+  display: flex;
+  justify-content: stretch;
+}
+div.fusion-woo-cart_coupons #avada_coupon_code {
+  flex: 0.8;
+  margin-right: 10px;
+}
+div.fusion-woo-cart_coupons .fusion-apply-coupon {
+  flex: 0.2;
+}
+div.fusion-woo-cart_coupons label {
+  display: none;
+}
+form.fusion-woo-cart-coupons-checkout-form {
+  border: 0;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+form.fusion-woo-cart-coupons-checkout-form div.fusion-woo-cart_coupons {
+  flex: 1;
+}
+form.fusion-woo-cart-coupons-checkout-form div.fusion-woo-cart_coupons .fusion-button {
+  flex: 0.2;
+}

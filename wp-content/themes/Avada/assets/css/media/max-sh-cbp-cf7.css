@@ -1,0 +1,8 @@
+.wpcf7-form .wpcf7-number,
+.wpcf7-form .wpcf7-quiz,
+.wpcf7-form .wpcf7-text,
+.wpcf7-form textarea {
+  float: none !important;
+  width: 100% !important;
+  box-sizing: border-box;
+}

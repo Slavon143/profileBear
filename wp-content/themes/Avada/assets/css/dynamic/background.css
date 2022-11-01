@@ -1,0 +1,77 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-duplicate-selectors */
+html:not(.avada-html-layout-boxed):not(.avada-html-layout-framed),
+html:not(.avada-html-layout-boxed):not(.avada-html-layout-framed) body,
+.avada-html-layout-boxed,
+.avada-html-layout-boxed body,
+.avada-html-layout-boxed body.custom-background {
+  background-color: var(--bg_color);
+  background-blend-mode: var(--bg-color-overlay);
+}
+.avada-html-has-bg-image .avada-has-bg-image-full:not(.layout-boxed-mode),
+.avada-html-has-bg-image .avada-has-bg-image-full:not(.layout-scroll-offset-framed),
+.avada-html-has-bg-image .avada-has-bg-image-full.layout-boxed-mode.layout-scroll-offset-framed .fusion-top-frame,
+.avada-html-has-bg-image .avada-has-bg-image-full.layout-boxed-mode.layout-scroll-offset-framed .fusion-sides-frame,
+.avada-html-has-bg-image .avada-has-bg-image-full.layout-boxed-mode.layout-scroll-offset-framed .fusion-bottom-frame {
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center center;
+}
+.layout-boxed-mode.layout-scroll-offset-framed .fusion-top-frame,
+.layout-boxed-mode.layout-scroll-offset-framed .fusion-sides-frame,
+.layout-boxed-mode.layout-scroll-offset-framed .fusion-bottom-frame {
+  background-color: var(--bg_color);
+  background-blend-mode: var(--bg-color-overlay);
+  background-image: var(--bg_image);
+}
+body {
+  background-image: var(--bg_image);
+  background-repeat: var(--bg_repeat);
+}
+html,
+body,
+html body.custom-background,
+.layout-wide-mode #wrapper,
+.layout-wide-mode #main,
+.layout-boxed-mode.avada-footer-fx-sticky .above-footer-wrapper,
+.layout-boxed-mode.avada-footer-fx-sticky-with-parallax-bg-image .above-footer-wrapper,
+.layout-boxed-mode.avada-footer-fx-sticky .above-footer-wrapper,
+.layout-boxed-mode.avada-footer-fx-sticky-with-parallax-bg-image .above-footer-wrapper,
+.layout-boxed-mode #main,
+#main {
+  background-color: var(--content_bg_color);
+}
+.quicktags-toolbar input {
+  background: linear-gradient(to top, var(--content_bg_color), var(--form_bg_color)) #3e3e3e;
+}
+.wrapper_blank #main,
+#main {
+  background-image: var(--content_bg_image);
+  background-repeat: var(--content_bg_repeat);
+}
+.wrapper_blank #main.full-bg,
+#main.full-bg {
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+}
+.avada-content-bg-not-opaque #main,
+.avada-content-bg-not-opaque #wrapper,
+.avada-content-bg-not-opaque .fusion-separator .icon-wrapper,
+.avada-content-bg-not-opaque .bbp-arrow {
+  background-blend-mode: overlay;
+}
+html.avada-has-page-background-pattern {
+  background-image: var(--bg_pattern);
+  background-repeat: repeat;
+}
+html.avada-has-page-background-pattern body,
+html.avada-has-page-background-pattern .layout-boxed-mode .fusion-top-frame,
+html.avada-has-page-background-pattern .layout-boxed-mode .fusion-sides-frame,
+html.avada-has-page-background-pattern .layout-boxed-mode .fusion-bottom-frame {
+  background-image: var(--bg_pattern);
+  background-repeat: repeat;
+}
+html.avada-has-page-background-pattern .layout-boxed-mode.layout-scroll-offset-framed:not(.avada-has-zero-margin-offset-top) {
+  background-attachment: fixed;
+}

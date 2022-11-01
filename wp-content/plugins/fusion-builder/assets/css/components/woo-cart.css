@@ -1,0 +1,138 @@
+.fusion-woo-cart .buttons_added input[type="number"],
+.fusion-woo-cart .buttons_added input[type="button"] {
+  border-style: solid;
+  border-color: transparent;
+}
+.fusion-woo-cart .buttons_added input[type="number"].qty {
+  -moz-appearance: textfield;
+}
+.fusion-woo-cart .buttons_added input[type="number"].qty::-webkit-inner-spin-button,
+.fusion-woo-cart .buttons_added input[type="number"].qty::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.fusion-woo-cart[data-layout="stacked"] tr:not(:first-of-type) > *,
+.fusion-woo-cart[data-layout="stacked"] th + td,
+.fusion-woo-cart[data-layout="stacked"] td + td {
+  border-top-style: none !important;
+}
+.fusion-woo-cart .fusion-button-wrapper {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2em;
+}
+.fusion-woo-cart .woocommerce-grouped-product-list {
+  width: 100%;
+}
+.fusion-woo-cart .single_add_to_cart_button {
+  cursor: pointer;
+}
+.fusion-woo-cart .quantity {
+  border: none !important;
+  margin-right: 1.2em;
+  border-radius: 0 !important;
+}
+.fusion-woo-cart .quantity input[type=button].minus,
+.fusion-woo-cart .quantity input[type=button].plus {
+  background-color: var(--qty_bg_color);
+  border-width: var(--form_border_width-top) var(--form_border_width-right) var(--form_border_width-bottom) var(--form_border_width-left);
+  border-style: solid;
+  border-color: var(--sep_color);
+}
+.fusion-woo-cart .quantity input[type=button].minus:hover,
+.fusion-woo-cart .quantity input[type=button].plus:hover {
+  background-color: var(--qty_bg_hover_color);
+}
+.fusion-woo-cart .quantity input[type=number].qty {
+  border-width: 0;
+  border-top-width: var(--form_border_width-top);
+  border-bottom-width: var(--form_border_width-bottom);
+  border-style: solid;
+  border-color: var(--sep_color);
+}
+.fusion-woo-cart th {
+  text-align: left;
+}
+.fusion-woo-cart td,
+.fusion-woo-cart th {
+  border: 0 solid var(--sep_color);
+  padding-bottom: 5px;
+}
+.fusion-woo-cart table.variations {
+  width: 100%;
+  table-layout: fixed;
+}
+.fusion-woo-cart table.variations tr:last-of-type .value {
+  position: relative;
+}
+.fusion-woo-cart .reset_variations {
+  position: absolute;
+  right: 0;
+  top: 100%;
+  line-height: 1;
+}
+.fusion-woo-cart .woocommerce-variation {
+  border-style: solid;
+  border-color: transparent;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+}
+.fusion-woo-cart .woocommerce-variation .woocommerce-variation-price:not(:empty) {
+  margin-right: 0.5em;
+}
+.fusion-woo-cart .woocommerce-variation .woocommerce-variation-availability {
+  margin-left: 0.5em;
+}
+.fusion-woo-cart .woocommerce-variation .woocommerce-variation-price:empty + .woocommerce-variation-availability {
+  margin-left: 0;
+}
+.fusion-woo-cart .woocommerce-variation .woocommerce-variation-description {
+  width: 100%;
+}
+.fusion-woo-cart .woocommerce-variation .price {
+  display: inline-flex;
+  align-items: baseline;
+}
+.fusion-woo-cart .woocommerce-variation .price ins {
+  text-decoration: none;
+}
+.fusion-woo-cart .avada-select-parent select {
+  width: 100%;
+}
+.fusion-woo-cart .avada-select-parent .select-arrow {
+  background-color: transparent !important;
+  border: none;
+  border-radius: 0 !important;
+}
+.fusion-woo-cart ins {
+  text-decoration: none;
+}
+.fusion-woo-cart.hide-price .woocommerce-variation-price {
+  display: none;
+}
+.fusion-woo-cart.hide-price .woocommerce-variation-availability {
+  margin: 0 !important;
+}
+.fusion-woo-cart.hide-stock .stock,
+.fusion-woo-cart.hide-stock .woocommerce-variation-availability {
+  display: none;
+}
+.fusion-woo-cart.hide-stock .woocommerce-variation-price {
+  margin: 0 !important;
+}
+.rtl .fusion-woo-cart .woocommerce-variation .woocommerce-variation-price:not(:empty) {
+  margin-left: 0.5em;
+  margin-right: 0;
+}
+.rtl .fusion-woo-cart .woocommerce-variation .woocommerce-variation-availability {
+  margin-left: 0;
+  margin-right: 0.5em;
+}
+.rtl .fusion-woo-cart .woocommerce-variation .woocommerce-variation-price:empty + .woocommerce-variation-availability {
+  margin-right: 0;
+}
+.rtl .fusion-woo-cart th {
+  text-align: right;
+}

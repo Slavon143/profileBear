@@ -1,0 +1,218 @@
+.fusion-mega-menu-options {
+	margin-top: 10px;
+}
+
+.field-megamenu-style,
+.field-megamenu-status,
+.field-megamenu-width,
+.field-megamenu-columns,
+.field-megamenu-columnwidth,
+.field-megamenu-title,
+.field-megamenu-widgetarea,
+.fusion-megamenu-upload-thumbnail.button-primary,
+.field-megamenu-thumbnail,
+.fusion-megamenu-thumbnail-image,
+.field-megamenu-background-image,
+.field-megamenu-icononly,
+.field-megamenu-show-woo-cart-counter,
+.field-megamenu-show-empty-woo-cart-counter,
+.field-megamenu-cart-counter-display,
+.field-megamenu-show-woo-cart-contents,
+.field-megamenu-searchform-mode {
+	display: none;
+}
+
+.menu-item-depth-0 .field-megamenu-style,
+.menu-item-depth-0 .field-megamenu-status,
+.menu-item-depth-0.fusion-megamenu .field-megamenu-width,
+.menu-item-depth-0.fusion-megamenu .field-megamenu-columns,
+.menu-item-depth-1.fusion-megamenu .field-megamenu-columnwidth,
+.menu-item-depth-1.fusion-megamenu .field-megamenu-title,
+.menu-item-depth-1.fusion-megamenu .field-megamenu-widgetarea,
+.menu-item-depth-2.fusion-megamenu .field-megamenu-widgetarea,
+.menu-item-depth-0 .field-megamenu-background-image,
+.menu-item-depth-1 .field-megamenu-background-image,
+.menu-item-depth-1 .field-megamenu-background-image,
+.fusion-megamenu .field-megamenu-thumbnail,
+.fusion-special-link-woo-cart .field-megamenu-show-woo-cart-counter,
+.fusion-special-link-woo-cart.fusion-woo-cart-counter-enabled .field-megamenu-show-empty-woo-cart-counter,
+.fusion-special-link-woo-cart.fusion-woo-cart-counter-enabled .field-megamenu-cart-counter-display,
+.fusion-special-link-woo-cart .field-megamenu-show-woo-cart-contents,
+.fusion-special-link-search .field-megamenu-searchform-mode {
+    display: block;
+}
+
+.menu-item-depth-0.fusion-special-link-search .fusion-builder-option:not(.field-megamenu-searchform-mode):not(.field-megamenu-icon):not(.field-megamenu-icononly) {
+	display: none;
+}
+
+.menu-item-depth-0.fusion-special-link-search:not(.fusion-special-link-search-dropdown) .fusion-builder-option:not(.field-megamenu-searchform-mode) {
+  display: none;
+}
+
+input[value="awb-off-canvas-menu-trigger"] ~ div.field-megamenu-modal,
+input[value="awb-off-canvas-menu-trigger"] ~ div.field-megamenu-background-image,
+input[value="awb-off-canvas-menu-trigger"] ~ div.field-megamenu-status {
+    display: none !important;
+}
+
+.menu-item .fusion-menu-cart-text {
+	display: none;
+}
+
+.menu-item.fusion-special-link-woo-cart .fusion-menu-default-text {
+	display: none;
+}
+
+.menu-item.fusion-special-link-woo-cart .fusion-menu-cart-text {
+	display: inline;
+}
+
+.menu-item-depth-0.fusion-special-link-woo-cart .fusion-builder-option:not(.field-megamenu-show-woo-cart-counter):not(.field-megamenu-cart-counter-display):not(.field-megamenu-show-empty-woo-cart-counter):not(.field-megamenu-show-woo-cart-contents):not(.field-megamenu-icon):not(.field-megamenu-icononly):not(.field-megamenu-highlight-label-background):not(.field-megamenu-highlight-label-color):not(.field-megamenu-highlight-label-border-color) {
+	display: none;
+}
+
+.menu-item-depth-0.fusion-special-link-woo-account .fusion-builder-option:not(.field-megamenu-icon):not(.field-megamenu-icononly) {
+	display: none;
+}
+
+.menu-item-depth-0.fusion-special-link-sliding-bar-toggle .fusion-builder-option:not(.field-megamenu-icon):not(.field-megamenu-icononly) {
+	display: none;
+}
+
+.menu-item-depth-1[class*="fusion-special-link-"] .fusion-builder-option,
+.menu-item-depth-21[class*="fusion-special-link-"] .fusion-builder-option,
+.menu-item-depth-3[class*="fusion-special-link-"] .fusion-builder-option,
+.menu-item-depth-4[class*="fusion-special-link-"] .fusion-builder-option {
+	display: none;
+}
+
+.menu-item-depth-1 .fusion-builder-option.field-fusion-megamenu-special-link-note,
+.menu-item-depth-2 .fusion-builder-option.field-fusion-megamenu-special-link-note,
+.menu-item-depth-3 .fusion-builder-option.field-fusion-megamenu-special-link-note,
+.menu-item-depth-4 .fusion-builder-option.field-fusion-megamenu-special-link-note {
+	display: block;
+}
+
+.menu-item-depth-0 .field-megamenu-icononly {
+	display: block;
+}
+
+.menu-item-depth-0 .field-megamenu-background-image {
+	display: block;
+}
+
+.avada-special-menu-items-note {
+	position: relative;
+	padding: 10px;
+	font-style: italic;
+	font-size: 1.1em;
+	line-height: 1.5;
+	margin-bottom: 10px;
+}
+
+.avada-special-menu-items-note:before {
+	content: "";
+	background: #198FD9;
+	opacity: 0.1;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	border-radius: 4px;
+}
+
+.avada-special-menu-items-note strong {
+	color: #198FD9;
+}
+
+#avada_special_items_nav_link .accordion-section-content {
+	padding-top: 8px !important;
+}
+
+.avada-special-menu-items-note a {
+	position: relative;
+}
+
+.menu-item-depth-1.fusion-megamenu.fusion-megamenu-fullwidth .field-megamenu-columnwidth {
+	display: none;
+}
+
+.fusion-megamenu .fusion-megamenu-upload-thumbnail {
+	display: inline-block;
+}
+
+.fusion-megamenu-thumbnail-image {
+	max-width: 300px;
+}
+
+.menu-item-depth-0 .fusion-megamenu-upload-thumbnail,
+.menu-item-depth-1 .fusion-megamenu-upload-thumbnail,
+.menu-item-depth-2 .fusion-megamenu-upload-thumbnail {
+	margin-top: 0 !important;
+}
+
+.fusion-megamenu-upload-thumbnail {
+	margin-top: 0.6em !important;
+}
+.menu-item-settings:after{
+	content: "";
+	display: block;
+	clear: both;
+}
+/**
+* Autocomplete field
+*/
+.autocomplete-container .selected-holder > div {
+    display: inline-flex;
+    padding: 7px 10px;
+    background: #eaeaea;
+    align-items: center;
+    border-radius: 3px;
+}
+.autocomplete-container .selected-holder .item .remove {
+    margin-left: 10px;
+    background: #fff;
+	font-size: 11px;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+	cursor: pointer;
+}
+.autocomplete-container .selected-holder .item .remove::before {
+	font-size: 1.5em;
+    display: block;
+    transform: rotate(45deg);
+}
+.autocomplete-container .selected-holder .item .remove:hover {
+	color: red;
+}
+.autocomplete-ajax-results {
+    background: #fff;
+    border: 1px solid #dfdfdf;
+	margin-top: 5px;
+	display: none;
+}
+.autocomplete-ajax-results a {
+    display: block;
+    text-decoration: none;
+	color: #222 !important;
+	line-height: 32px;
+	height: 32px;
+	font-size: 13px;
+	text-transform: capitalize;
+	padding: 0 0.75em !important;
+}
+.autocomplete-ajax-results a:last-child {
+    margin-bottom: 0;
+}
+.autocomplete-ajax-results a:hover {
+    color: #fff !important;
+	background-color: #198fd9;
+}
+.autocomplete-ajax-results.show {
+	display: block;
+}

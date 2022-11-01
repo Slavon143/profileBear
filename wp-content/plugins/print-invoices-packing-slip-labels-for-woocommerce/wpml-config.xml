@@ -1,0 +1,28 @@
+<wpml-config>
+  <admin-texts>
+    <key name="wf_country"/>
+    <key name="Wf_Woocommerce_Packing_List">
+      <key name="woocommerce_wf_packinglist_companyname"/>
+      <key name="woocommerce_wf_packinglist_footer"/>
+      <key name="woocommerce_wf_packinglist_sender_name"/>
+      <key name="woocommerce_wf_packinglist_sender_address_line1"/>
+      <key name="woocommerce_wf_packinglist_sender_address_line2"/>
+      <key name="woocommerce_wf_packinglist_sender_city"/>
+      <key name="wf_country"/>
+      <key name="woocommerce_wf_packinglist_sender_postalcode"/>
+      <key name="woocommerce_wf_packinglist_sender_contact_number"/>
+      <key name="woocommerce_wf_packinglist_sender_vat"/>
+      <key name="wf_additional_data_fields"/>
+    </key>
+    <key name="wf_woocommerce_packing_list_invoice">
+      <key name="woocommerce_wf_packinglist_footer"/>
+    </key>
+    <key name="woocommerce_wf_packinglist_companyname"/>
+    <key name="woocommerce_wf_packinglist_footer"/>
+    <key name="woocommerce_wf_packinglist_sender_address_line1"/>
+    <key name="woocommerce_wf_packinglist_sender_address_line2"/>
+    <key name="woocommerce_wf_packinglist_sender_city"/>
+    <key name="woocommerce_wf_packinglist_sender_name"/>
+    <key name="woocommerce_wf_packinglist_sender_postalcode"/>
+  </admin-texts>
+</wpml-config>

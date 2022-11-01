@@ -1,0 +1,27 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-duplicate-selectors */
+.select-arrow,
+.avada-select-parent .select-arrow,
+.gravity-select-parent .select-arrow,
+.wpcf7-select-parent .select-arrow {
+  right: var(--form_border_width-right);
+}
+.select-arrow,
+.avada-select-parent .select-arrow,
+.gravity-select-parent .select-arrow,
+.wpcf7-select-parent .select-arrow {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.fusion-search-form-clean .searchform:not(.fusion-search-form-classic) .fusion-search-form-content .fusion-search-field input,
+.fusion-search-element .searchform.fusion-search-form-clean .fusion-search-form-content .fusion-search-field input,
+.fusion-search-form-clean #bbpress-forums .bbp-search-form #bbp_search {
+  padding-left: var(--form_input_height);
+}
+.fusion-search-form-classic #bbpress-forums .bbp-search-form #bbp_search,
+.fusion-search-form-classic .searchform:not(.fusion-search-form-clean) .fusion-search-form-content .fusion-search-field input,
+.fusion-search-element .searchform.fusion-search-form-classic .fusion-search-form-content .fusion-search-field input {
+  border-right: none;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}

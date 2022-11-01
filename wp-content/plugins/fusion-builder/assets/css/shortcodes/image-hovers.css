@@ -1,0 +1,180 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-image-hovers .hover-type-zoomin {
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.fusion-image-hovers .hover-type-zoomin .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-zoomin .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-zoomin .tribe-events-event-image,
+.fusion-image-hovers .hover-type-zoomin img {
+  opacity: 1;
+  transition: opacity 1s, transform 1s;
+}
+.fusion-image-hovers .hover-type-zoomin:hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-zoomin:hover .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-zoomin:hover .tribe-events-event-image,
+.fusion-image-hovers .hover-type-zoomin:hover img,
+.fusion-image-hovers .hover-type-zoomin.hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-zoomin.hover .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-zoomin.hover .tribe-events-event-image,
+.fusion-image-hovers .hover-type-zoomin.hover img {
+  opacity: 0.9;
+  transform: scale3d(1.1, 1.1, 1);
+}
+.fusion-image-hovers .hover-type-zoomout {
+  overflow: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+}
+.fusion-image-hovers .hover-type-zoomout .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-zoomout .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-zoomout .tribe-events-event-image,
+.fusion-image-hovers .hover-type-zoomout img {
+  opacity: 1;
+  transform: scale(1.12);
+  transition: opacity 1s, transform 1s;
+}
+.fusion-image-hovers .hover-type-zoomout:hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-zoomout:hover .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-zoomout:hover .tribe-events-event-image,
+.fusion-image-hovers .hover-type-zoomout:hover img,
+.fusion-image-hovers .hover-type-zoomout.hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-zoomout.hover .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-zoomout.hover .tribe-events-event-image,
+.fusion-image-hovers .hover-type-zoomout.hover img {
+  opacity: 0.9;
+  transform: scale(1);
+}
+.fusion-image-hovers .element-bottomshadow .hover-type-zoomin.hover img,
+.fusion-image-hovers .element-bottomshadow .hover-type-zoomout.hover img,
+.fusion-image-hovers .element-bottomshadow .hover-type-zoomin:hover img,
+.fusion-image-hovers .element-bottomshadow .hover-type-zoomout:hover img {
+  opacity: 1;
+}
+.fusion-image-hovers .imageframe-liftup {
+  display: inline-block;
+  position: relative;
+  max-width: 100%;
+}
+.fusion-image-hovers .imageframe-liftup.fusion-imageframe-liftup-left {
+  float: left;
+  margin-right: 25px;
+}
+.fusion-image-hovers .imageframe-liftup.fusion-imageframe-liftup-right {
+  float: right;
+  margin-left: 25px;
+}
+.fusion-image-hovers .imageframe-liftup span,
+.fusion-image-hovers .imageframe-liftup > div {
+  opacity: 1;
+  transform: perspective(1000px) scale(1);
+  transition: transform 0.35s;
+}
+.fusion-image-hovers .imageframe-liftup span.hover,
+.fusion-image-hovers .imageframe-liftup > div.hover,
+.fusion-image-hovers .imageframe-liftup span:hover,
+.fusion-image-hovers .imageframe-liftup > div:hover {
+  transform: perspective(1000px) scale(1.03);
+}
+.fusion-image-hovers .imageframe-liftup .person-image-container {
+  position: relative;
+}
+.fusion-image-hovers .imageframe-liftup:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: opacity 0.35s, transform 0.35s;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+}
+.fusion-image-hovers .imageframe-liftup.hover:before,
+.fusion-image-hovers .imageframe-liftup:hover:before {
+  opacity: 1;
+  transform: scale(1.02);
+}
+.fusion-image-hovers .liftup-with-aspect-ratio {
+  display: block;
+}
+.fusion-image-hovers .hover-type-liftup {
+  position: relative;
+  display: inline-block;
+  overflow: visible;
+}
+.fusion-image-hovers .hover-type-liftup .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-liftup .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-liftup .person-image-container.element-bottomshadow,
+.fusion-image-hovers .hover-type-liftup .tribe-events-event-image,
+.fusion-image-hovers .hover-type-liftup .tribe-events-list-event-title > a,
+.fusion-image-hovers .hover-type-liftup img {
+  transform: perspective(1000px) scale(1);
+  transition: transform 0.35s;
+  position: relative;
+  z-index: 1;
+}
+.fusion-image-hovers .hover-type-liftup .person-image-container.element-bottomshadow img {
+  transform: none;
+  transition: all 0s ease 0s;
+}
+.fusion-image-hovers .hover-type-liftup.fusion-column-inner-bg {
+  position: absolute;
+}
+.fusion-image-hovers .hover-type-liftup.fusion-column-inner-bg.hover,
+.fusion-image-hovers .hover-type-liftup.fusion-column-inner-bg:hover {
+  z-index: 2;
+}
+.fusion-image-hovers .hover-type-liftup.fusion-column-inner-bg .fusion-column-inner-bg-image {
+  position: absolute;
+}
+.fusion-image-hovers .hover-type-liftup.fusion-column-inner-bg.hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-liftup.fusion-column-inner-bg:hover .fusion-column-inner-bg-image {
+  position: absolute;
+}
+.fusion-image-hovers .hover-type-liftup.hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-liftup:hover .fusion-column-inner-bg-image,
+.fusion-image-hovers .hover-type-liftup.hover .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-liftup:hover .fusion-masonry-element-container,
+.fusion-image-hovers .hover-type-liftup.hover .person-image-container.element-bottomshadow,
+.fusion-image-hovers .hover-type-liftup:hover .person-image-container.element-bottomshadow,
+.fusion-image-hovers .hover-type-liftup.hover .tribe-events-event-image,
+.fusion-image-hovers .hover-type-liftup:hover .tribe-events-event-image,
+.fusion-image-hovers .hover-type-liftup.hover .tribe-events-list-event-title > a,
+.fusion-image-hovers .hover-type-liftup:hover .tribe-events-list-event-title > a,
+.fusion-image-hovers .hover-type-liftup.hover img,
+.fusion-image-hovers .hover-type-liftup:hover img {
+  transform: perspective(1000px) scale(1.03);
+}
+.fusion-image-hovers .hover-type-liftup.hover .person-image-container.element-bottomshadow img,
+.fusion-image-hovers .hover-type-liftup:hover .person-image-container.element-bottomshadow img {
+  transform: none;
+}
+.fusion-image-hovers .hover-type-liftup:before {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  content: "";
+  transition: opacity 0.35s, transform 0.35s;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.4);
+  opacity: 0;
+  pointer-events: none;
+}
+.fusion-image-hovers .hover-type-liftup.hover:before,
+.fusion-image-hovers .hover-type-liftup:hover:before {
+  opacity: 1;
+  transform: scale(1.03);
+}
+.fusion-image-hovers .flexslider-hover-type-liftup {
+  overflow: visible !important;
+}
+.fusion-image-hovers .flexslider-hover-type-liftup .slides {
+  overflow: visible !important;
+}
+.fusion-image-hovers .flexslider-hover-type-liftup li {
+  overflow: visible;
+}

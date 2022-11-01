@@ -1,0 +1,1 @@
+!function(t){"use strict";function e(e){var r=e.which,o=t(e.target).attr("data-trigger");o&&-1!==o.indexOf("focus")||(32===r&&(e.preventDefault(),t(e.target).trigger("click")),13===r&&t(e.target).trigger("click"))}t(function(){t('[data-awb-toggle-image-hotspot-popover="true"]').popover({html:!0}),t('[data-awb-toggle-image-hotspot-popover="true"]').on("keypress",e)})}(jQuery);

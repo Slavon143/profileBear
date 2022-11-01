@@ -1,0 +1,26 @@
+.stock-manager-field-thumbnail img{
+    width:50px;
+}
+
+.alternate, .striped>tbody>:nth-child(odd), ul.striped>:nth-child(odd){
+    background-color:#ffffff!important;
+}
+.widefat th{
+    color: #000000!important;
+    background-color: #ddd!important;
+    padding: 6px!important;
+    border: solid 1px #ddd!important;
+}
+.widefat td{
+    padding: 6px!important;
+    border: solid 1px #ddd!important;
+    background-color: #ffffff;
+}
+
+.stock-manager-field-stock-quantity--low, 
+.table-bordered tr td.lowstock{background-color:#ffcd35!important; }
+.stock-manager-field-stock-quantity--zero, 
+.table-bordered tr td.outofstock{background-color:#f80000!important; }
+.stock-manager-field-stock-quantity--ok, 
+.table-bordered tr td.instock{background-color:#43b610!important; }
+

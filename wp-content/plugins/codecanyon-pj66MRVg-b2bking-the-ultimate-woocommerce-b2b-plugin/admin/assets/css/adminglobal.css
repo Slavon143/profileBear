@@ -1,0 +1,2583 @@
+/*
+* This CSS file affects the admin panel globally, styling custom taxonomy tables, custom post types, etc
+* (e.g. the Group Visibility table in WooCommerce Product Categories)
+*
+* TABLE OF CONTENTS:
+* 1. Fonts
+* 2. General Styling
+* 3. Product Visibility
+* 4. Group Visibility
+* 5. Conversations
+* 6. Offers
+* 7. Rules
+* 8. Customer groups
+* 9. User shipping and payment methods
+* 10. Registration Roles
+* 11. Registration Fields
+* 12. Registration User Data
+* 13. User Settings
+* 14. Customers
+* 15. Groups page
+* 16. Product Page
+* 17. Media Queries
+*
+*/
+
+/* 1. Fonts */
+/* cyrillic-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu72xKOzY.woff2) format('woff2');
+  unicode-range: U+0460-052F, U+1C80-1C88, U+20B4, U+2DE0-2DFF, U+A640-A69F, U+FE2E-FE2F;
+}
+/* cyrillic */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu5mxKOzY.woff2) format('woff2');
+  unicode-range: U+0400-045F, U+0490-0491, U+04B0-04B1, U+2116;
+}
+/* greek-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu7mxKOzY.woff2) format('woff2');
+  unicode-range: U+1F00-1FFF;
+}
+/* greek */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu4WxKOzY.woff2) format('woff2');
+  unicode-range: U+0370-03FF;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu7WxKOzY.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+0128-0129, U+0168-0169, U+01A0-01A1, U+01AF-01B0, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu7GxKOzY.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: local('Roboto'), local('Roboto-Regular'), url(../../../includes/assets/fonts/Roboto/KFOmCnqEu92Fr1Mu4mxK.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* 2. General Styling */
+.b2bking_page_b2bking_dashboard #wpbody-content{
+    padding-bottom: 0px !important;
+}
+
+/* B2BKing icon */
+#toplevel_page_b2bking .wp-menu-image img{
+    position: relative;
+    bottom: 3px;
+    width: 15px !important;
+}
+#toplevel_page_b2bking img{
+	position: relative;
+	bottom: 2px;
+}
+.b2bking_spacer_10{
+    width: 10px;
+    display: inline-block;
+}
+.b2bking_page_b2bking_dashboard #wpcontent{
+    padding-left:0px!important;
+}
+.notice-b2bking {
+  box-shadow: none;
+  border-color: #f15d30;
+  background-color: #fff8e5; 
+}
+.notice-b2bking p:before {
+    content: "\f153";
+    display: inline-block;
+    width: 25px;
+    height: 20px;
+    background-size: 20px; 
+}
+.notice-b2bking p a {
+    display: inline-block;
+    color: #f15d30;
+    font-weight: 600;
+    margin-left: 5px; 
+}
+.notice-b2bking p a:hover {
+    opacity: 0.8; 
+}
+.b2bking_small_input_size{
+    max-width: 320px;
+}
+.toplevel_page_b2bkingcore #wpwrap, body.b2bking_page_b2bking_tools, body.toplevel_page_b2bking {
+    background: #313437;
+}
+
+/* 3. Product Visibility */
+#b2bking_product_visibility_metabox h2, #b2bking_product_dynamic_rules_metabox h2{
+    background: #7D7D7D;
+    border-radius: 5px 5px 0px 0px;
+    align-items: center;
+    padding-left: 10px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+#b2bking_metabox_product_categories_wrapper{
+	width: 100%;
+}
+#b2bking_metabox_product_categories_wrapper_top{
+	width: 100%;
+	min-height: 40px;
+
+	background: #EFEFEF;
+}
+#b2bking_metabox_product_categories_wrapper_top_text{
+	min-height: 40px;
+	height: 40px;
+	vertical-align: middle;
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	color: #5C5C5C;
+	display: table-cell;
+    padding-left: 20px;
+    font-family: Roboto, sans-serif;
+    line-height: 2em;
+}
+.b2bking_metabox_product_categories_wrapper_top_category{
+	min-width: 70px;
+	height: 16px;
+	background: #898989;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	border-radius: 3px;
+	margin: 0px 3px;
+	padding: 1px 10px;
+	letter-spacing: 0.05em;
+	color: #ffffff;
+	font-style: normal;
+	font-weight: 500;
+	font-size: 10px;
+}
+#b2bking_metabox_product_categories_wrapper_content{
+	width: 100%;
+	padding: 5px 10px 10px 5px;
+}
+#b2bking_metabox_product_categories_wrapper_content_headline{
+	font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #5C5C5C;
+    padding-top: 7px;
+    padding-bottom: 9px;
+}
+.b2bking_metabox_product_categories_wrapper_content_category {
+    min-width: 100px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px;
+    padding: 2px 10px;
+    background: #aaaaaa;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #ffffff;
+    text-decoration: none;
+}
+.b2bking_metabox_product_categories_wrapper_content_category:hover{
+    background: #6c6c6c;
+    cursor:pointer;
+}
+.b2bking_metabox_product_categories_wrapper_content_category:focus{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+
+.b2bking_metabox_product_categories_wrapper_content_category_user {
+    min-width: 100px;
+    height: 25px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px 5px;
+    padding: 2px 10px;
+    background: #f6f6f6;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 21px;
+    color: #555555;
+    text-decoration: none;
+}
+.b2bking_metabox_product_categories_wrapper_content_category_user:hover{
+    background: #dbdbdb;
+}
+.b2bking_metabox_product_categories_wrapper_content_category_user:focus{
+    box-shadow: none;
+    outline: none;
+    border: none;
+}
+.b2bking_metabox_product_categories_wrapper_content_category_user_link{
+    text-decoration: none;
+}
+.b2bking_metabox_product_categories_wrapper_content_line_start{
+	width: 55px;
+	min-height: 25px;
+	display: inline-block;
+}
+.b2bking_metabox_product_categories_wrapper_content_line{
+	min-height: 35px;
+    display: block;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 15px;
+    color: #4F4F4F;
+    align-items: center;
+    margin: 5px 0px;
+}
+#b2bking_product_visibility_override_options_wrapper{
+	display: none;
+}
+#b2bking_product_visibility_selector_wrapper{
+	margin-top: 15px;
+	background: #367fc2;
+	color: white;
+	padding-bottom: 7px;
+	padding-top: 7px;
+	border-radius: 2px;
+	display: flex;
+	align-items: center;
+	margin-bottom: 10px;
+}
+#b2bking_product_visibility_override{
+	font-weight: 500;
+}
+#b2bking_set_product_visibility_text_before_select{
+	font-size: 14px;
+    font-weight: 500;
+    margin-left: 10px;
+}
+#b2bking_admin_header_bar{
+    padding: 11px; background: #191821; margin-left: -20px;box-shadow: 0 3px 6px rgb(0 0 0 / 7%);
+    display: flex;
+    justify-content: space-between;
+}
+.b2bking_users_dropdown {
+    display: inline-block;
+    margin-left: 16px;
+}
+div#b2bking_admin_header_version {
+    display: inline-block;
+    background: #ab7d1f;
+    padding: 1px 5px;
+    margin-left: 10px;
+    font-weight: bold;
+    position: relative;
+    color: #191821;
+    font-size: 13px;
+    border-radius: 3px;
+    bottom: 2px;
+    font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+    letter-spacing: 0.8px;
+}
+div#b2bking_admin_header_version2 {
+    display: inline-block;
+    background: #292929;
+    padding: 1px 5px;
+    margin-left: 10px;
+    position: relative;
+    color: #C9C8CC;
+    font-size: 13px;
+    border-radius: 3px;
+    bottom: 2px;
+    font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+    letter-spacing: 0.8px;
+}
+input#b2bking-logoimg-upload-btn, input#b2bking-logo-upload-btn {
+    position: relative;
+    bottom: 2px;
+}
+div#b2bking_admin_header_bar_right {
+    display: flex;
+    align-items: center;
+}
+a.b2bking_admin_header_right_element {
+    color: #c9c8cf;
+    background: #292929;
+    border-radius: 3px;
+    padding: 4px 6px;
+    text-decoration: none;
+    font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+    margin: 0px 10px;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+}
+a.b2bking_admin_header_right_element_button {
+    color: #c9c8cf;
+    background: #292929;
+    border-radius: 3px;
+    text-decoration: none;
+    font-family: 'Lato','Helvetica Neue','Arial','Helvetica','sans-serif';
+    margin: 0px 10px;
+    letter-spacing: 0.3px;
+    font-size: 13px;
+}
+a.b2bking_admin_header_right_element:hover{
+    background: #444546;
+}
+a.b2bking_admin_header_right_element_button:hover button{
+    background: #b07d15;
+    cursor: pointer;
+    color:#ffffff;
+}
+.b2bking_header_icon {
+    margin-right: 7px;
+    font-size:18px;
+}
+.b2bking_header_icon_button {
+    margin-right: 4px;
+    font-size:18px;
+    position: relative;
+    top:1px;
+}
+/* 4. Group visibility */
+.b2bking_group_visibility_container {
+    border-radius: 5px;
+    background: #ffffff;
+    max-width: 1040px;
+    border-color: #e9ebec;
+    box-shadow: 0 3px 6px rgba(0,0,0,.07);
+    padding-bottom: 12px;
+    margin-bottom: 15px;
+}
+.b2bking_group_visibility_container_top {
+    background: #7D7D7D;
+    border-radius: 5px 5px 0px 0px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.b2bking_group_visibility_container_content {
+    padding: 13px;
+}
+.b2bking_group_visibility_container_content_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 12px;
+    margin-bottom: 17px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+.b2bking_group_visibility_container_content_title_icon{
+    position: absolute;
+    width: 26px;
+    left: 1px;
+    top: -6px;
+}
+.b2bking_group_visibility_container_content_checkbox {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_group_visibility_container_content_checkbox_name {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_group_visibility_container_content_checkbox_input {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+}
+input.b2bking_group_visibility_container_content_checkbox_input:focus{
+    box-shadow: none;
+}
+.b2bking_user_visibility_container_content_title_icon{
+    position: absolute;
+    width: 29px;
+    left: 1px;
+    top: -4px;
+}
+textarea#b2bking_category_users_textarea {
+    width: 100%;
+    background: #ececec;
+    border: none;
+    resize: vertical;
+    margin-bottom: 15px;
+}
+select#b2bking_all_users_dropdown {
+    background-color: #ececec;
+    border: none;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    min-height: 36px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+    width: 75.5%;
+    max-width: 1000px;
+}
+button#b2bking_category_add_user {
+    background: #7d7d7d;
+    color: #ffffff;
+    min-height: 36px;
+    width: 24.5%;
+    min-width: 80px;
+    border: none;
+    margin-left: 3px;
+}
+.b2bking_page_title {
+    color: #ffffff;
+    margin: 50px 0px 28px 50px;
+    font-size: 29px;
+}
+.notifyjs-bootstrap-hidden, #wpfooter .notifyjs-arrow{
+    display: none !important;
+}
+
+.b2bking_category_users_textarea_buttons_container {
+    display: flex;
+}
+.b2bking_variable_backorders {
+    clear: both;
+}
+.b2bking_hidden_wrapper{
+    display: none;
+}
+/* 5. Conversations */
+table.wp-list-table #b2bking_user, table.wp-list-table #b2bking_status, table.wp-list-table #b2bking_lastreplydate{
+	width: 15%;
+}
+span.b2bking_quote_request_column {
+    font-weight: bold;
+    color: #882aeb;
+}
+.b2bking_conversation_message.b2bking_conversation_system_message {
+    background: #d7eeff;
+}
+.b2bking_conversation_quote_first_message{
+    background: #faf4ff !important;
+}
+span.b2bking_message_column, span.b2bking_inquiry_column {
+    font-weight: bold;
+    color: #248ce9;
+}
+button.b2bking_make_offer {
+    margin-left: 10px !important;
+}
+.b2bking_conversation_status_resolved{
+	font-weight: bold;
+	color:#646464 !important;
+}
+.b2bking_conversation_status_open{
+	font-weight: bold;
+	color:#7ad03a;
+}
+.b2bking_conversation_status_new{
+	font-weight: bold;
+	color:#ffa500;
+}
+#b2bking_conversation_start_message{
+	width: 100%;
+    resize: vertical;
+    border: 1px solid #eeeeee;
+    margin-top: 10px;
+    background: #fcfcfc;    
+    padding: 10px;
+    min-height: 125px;
+}
+#b2bking_conversation_admin_new_message{
+	width: 97%;
+	resize: vertical;
+	min-height: 125px;
+	margin: 10px;
+	border: 1px solid #eeeeee;
+    background: #fcfcfc;
+	padding: 15px;
+}
+#b2bking_conversation_messages_container{
+	max-height: 500px;
+	overflow-y: scroll;
+}
+.b2bking_conversation_message{
+    background: #eeeeee;
+    margin: 10px;
+    padding: 15px;
+    padding-right: 10%;
+    border-radius: 8px;
+    width: 70%;
+    position: relative;
+}
+.b2bking_conversation_message_self{
+	margin-left: auto;
+    background: #e9f1f8;
+}
+.b2bking_conversation_message_time{
+	position: absolute;
+    right: 10px;
+    color: #888f92;
+    font-weight: bold;
+    bottom: 10px;
+}
+#b2bking_conversation_details_wrapper{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#b2bking_conversation_user_container{
+	display: inline-flex;
+    align-items: center;
+    font-size: 20px;
+}
+#b2bking_conversation_user_status_container{
+	display: inline-flex;
+    font-weight: 500;
+    align-items: center;
+    font-size: 17px;
+}
+#b2bking_conversation_status_select{
+	width: 130px;
+	margin-left: 10px;
+	background-color: #4fa7df;
+    border: none;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.08);
+    color: #ffffff;
+    font-weight: bold;
+}
+#b2bking_conversation_status_select option{
+	background-color: #ffffff;
+	color: #222;
+}
+#b2bking_conversation_user_input{
+	font-size: 18px;
+    margin-left: 10px;
+    font-weight: 500;
+    border: 1px solid #e6e6e6;
+}
+
+.post-type-b2bking_conversation #titlewrap input{
+    border-radius: 5px;
+    border-color: #dedede;
+}
+
+/* 6. Offers */
+
+#b2bking_admin_offer_textarea{
+	width: 100%;
+    resize: vertical;
+    min-height: 100px;
+    display: none;
+}
+.b2bking_offer_input_container{
+    max-width: 20%;
+    margin-right: 25px;
+    display: inline-block;
+    font-weight: 500;
+    color: #666666;
+    vertical-align: top;
+}
+input.b2bking_offer_text_input{
+    background-color: #f4f4f4;
+    border: none;
+    box-shadow: 0 2px 0px rgba(0, 0, 0, 0.08);
+    color: #4a4a4a;
+    font-weight: bold;
+    margin-top: 1px;
+    width: 100%;
+}
+.b2bking_offer_line_number{
+    display: flex;
+    margin-bottom: 15px;
+}
+.b2bking_item_subtotal{
+    font-size: 22px;
+}
+#b2bking_offer_total_text{
+    text-align: right;
+    padding-right: 27%;
+    font-size: 16px;
+}
+#b2bking_offer_total_text_number{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 22px;
+}
+.b2bking_offer_input_container button.b2bking_offer_add_item_button{
+    margin-right: 5px;
+}
+
+
+/* 7. Rules */
+#b2bking_select_multiple_product_categories_selector li.select2-selection__choice, #b2bking_select_multiple_users_selector li.select2-selection__choice{
+    font-size:14px;
+    background-color:#ffffff;
+    font-family: "Roboto Medium", Roboto;
+}
+#b2bking_select_multiple_agents_selector li.select2-selection__choice{
+    font-size:14px;
+    background-color:#ffffff;
+    font-family: "Roboto Medium", Roboto;
+}
+.b2bking_hidden_img{
+    display: none !important;
+}
+.b2bking_commission_rule_metabox_content_container .selection .select2-selection, .b2bking_offer_line_number .selection .select2-selection{
+    background-color: #f4f4f4;
+    border: none;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    color: #3b3b3b;
+    min-height: 35px;
+    margin-top: 1px;
+    font-size: 13.5px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.b2bking_commission_rule_metabox_content_container .select2-search__field{
+    background-color: #f4f4f4;
+}
+.b2bking_commission_rule_metabox_content_container .selection .select2-selection:hover .select2-search__field, .b2bking_offer_line_number .selection .select2-selection:hover .select2-search__field{
+    background-color: #eaeaea;
+}
+.b2bking_commission_rule_metabox_content_container .selection .select2-selection .select2-selection__arrow, .b2bking_offer_line_number .selection .select2-selection .select2-selection__arrow{
+    top:inherit;
+}
+.b2bking_commission_rule_metabox_content_container .selection .select2-selection:focus, .b2bking_offer_line_number .selection .select2-selection:focus{
+    border: none;
+    background-color: #eaeaea;
+    color: #3b3b3b;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+.b2bking_commission_rule_metabox_content_container .selection .select2-selection:hover, .b2bking_offer_line_number .selection .select2-selection:hover{
+    border: none;
+    background-color: #eaeaea;
+    color: #3b3b3b;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.post-type-b2bking_rule #postcustom{
+display:none;
+}
+
+.b2bking_dynamic_rule_metabox_content_container .selection .select2-selection, .b2bking_offer_line_number .selection .select2-selection{
+    background-color: #f4f4f4;
+    border: none;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    color: #3b3b3b;
+    min-height: 35px;
+    margin-top: 1px;
+    font-size: 13.5px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    display: flex;
+    align-items: center;
+}
+.b2bking_dynamic_rule_metabox_content_container .select2-search__field{
+    background-color: #f4f4f4;
+}
+.b2bking_dynamic_rule_metabox_content_container .selection .select2-selection:hover .select2-search__field, .b2bking_offer_line_number .selection .select2-selection:hover .select2-search__field{
+    background-color: #eaeaea;
+}
+.b2bking_dynamic_rule_metabox_content_container .selection .select2-selection .select2-selection__arrow, .b2bking_offer_line_number .selection .select2-selection .select2-selection__arrow{
+    top:inherit;
+}
+.b2bking_dynamic_rule_metabox_content_container .selection .select2-selection:focus, .b2bking_offer_line_number .selection .select2-selection:focus{
+    border: none;
+    background-color: #eaeaea;
+    color: #3b3b3b;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+.b2bking_dynamic_rule_metabox_content_container .selection .select2-selection:hover, .b2bking_offer_line_number .selection .select2-selection:hover{
+    border: none;
+    background-color: #eaeaea;
+    color: #3b3b3b;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.b2bking_rule_select_container{
+	max-width: 20%;
+	margin-right: 15px;
+	display: inline-block;
+	font-weight: 500;
+	color: #666666;
+	vertical-align: top;
+}
+#b2bking_rule_select_container_tags{
+    width: 100%;
+    max-width: 100%;
+}
+#b2bking_rule_select_tags{
+    width: 100%;
+}
+
+.b2bking_rule_select_container select{
+	background-color: #f4f4f4;
+    border: none;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    color: #3b3b3b;
+    height: 35px;
+    margin-top: 1px;
+    font-size: 13.5px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+}
+.b2bking_rule_select_container select:focus{
+	border: none;
+    background-color: #eaeaea;
+    color: #3b3b3b;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+.b2bking_rule_select_container select:hover{
+	border: none;
+    background-color: #eaeaea;
+    color: #3b3b3b;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+}
+#b2bking_rule_select_applies, #b2bking_rule_select_who{
+	font-weight: 500;
+}
+div#b2bking_admin_overlay {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    min-height: 360px;
+    background-color: #000;
+    background-color: rgba(0,0,0,.5);
+    z-index: 99900;
+}
+.b2bkingpreloader{width:100%;height:100%;top:0;position:fixed; margin-left:-20px;z-index:99999;background:#202224;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    position: fixed;
+    top: 0;
+    min-height: 360px;
+    z-index: 99900;
+}
+.b2bking_loader_icon_button{
+    width: 200px;
+}
+
+span.b2bking_settings_row_label {
+    margin-right: 20px;
+    font-weight: bold;
+}
+.b2bking_settings_row_td{
+    text-align: center;
+}
+.post-type-b2bking_conversation #submitdiv, #b2bking_product_visibility_metabox, #b2bking_product_dynamic_rules_metabox, #b2bking_custom_field_billing_connection_metabox, #b2bking_rule_details_metabox, #b2bking_custom_field_settings_metabox, #b2bking_custom_role_settings_metabox, #b2bking_offer_details_metabox, #b2bking_offer_customtext_metabox, #b2bking_offer_access_metabox, #b2bking_conversation_messaging_metabox, #b2bking_credit_limit_metabox, #b2bking_conversation_details_metabox, #b2bking_group_users_metabox, #b2bking_group_rules_metabox, #b2bking_group_offers_metabox, #b2bking_group_payment_shipping_metabox{
+	border-radius: 5px;
+    border-color: #e9ebec;
+    box-shadow: 0 3px 6px rgba(0,0,0,.07);
+}
+.b2bking_offers_metabox_padding {
+    padding: 5px;
+}
+svg.b2bking_offers_metabox_icon {
+    position: absolute;
+    width: 29px;
+    left: 1px;
+    top: -12px;
+}
+textarea#b2bking_offer_customtext_textarea {
+    width: 100%;
+    background: #ececec;
+    border: none;
+    resize: vertical;
+    margin-bottom: 15px;
+    min-height: 120px;
+}
+div#b2bking_rule_select_applies_replaced_container, #b2bking_rule_select_who_replaced_container {
+    margin-bottom: 20px;
+    margin-right: 30px;
+}
+input#b2bking_rule_select_applies_replaced, input#b2bking_rule_select_who_replaced {
+    width: 100%;
+}
+#b2bking_rule_select_howmuch, input.b2bking_dynamic_rule_condition_number, #b2bking_rule_select_tags, #b2bking_rule_select_applies_replaced,#b2bking_rule_select_who_replaced, #b2bking_container_tax_shipping_rate input{
+	background-color: #f4f4f4;
+    border: none;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    color: #252525;
+    height: 35px;
+    font-weight: bold;
+    margin-top: 1px;
+
+}
+#b2bking_rule_select_howmuch, #b2bking_rule_select_quantity_value{
+	width: 150px;
+}
+#b2bking_rule_select_conditions{
+	display: none;
+}
+#b2bking_rule_select_conditions_container{
+	width: 100%;
+	max-width: 100%;
+}
+#b2bking_rule_select_conditions{
+	width: 100%;
+	height: 50px;
+}
+#b2bking_container_taxname, #b2bking_container_discountname, #b2bking_container_currency{
+    display: none;
+}
+input#b2bking_rule_select_taxname, input#b2bking_rule_select_discountname {
+    width: 140px;
+    background-color: #f4f4f4;
+    border: none;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    color: #252525;
+    font-weight: bold;
+    margin-top: 1px;
+    height: 35px;
+}
+div#b2bking_container_tax_shipping {
+    margin-top: 15px;
+}
+div#b2bking_container_tax_shipping_rate {
+    margin-top: 15px;
+}
+.b2bking_bulkorder_section_settings th {
+    min-width: 250px !important;
+}
+select#b2bking_order_form_theme_setting_select, select#b2bking_order_form_sortby_setting_select {
+    min-width: 290px;
+}
+.b2bking_dynamic_rule_column_text_bogo_discount, .b2bking_dynamic_rule_column_text_discount_amount, .b2bking_dynamic_rule_column_text_discount_percentage, .b2bking_dynamic_rule_column_text_raise_price{
+	font-weight: bold;
+	color:#ff2539;
+}
+.b2bking_dynamic_rule_column_text_free_shipping{
+	font-weight: bold;
+	color:#0c7fff;
+}
+.b2bking_dynamic_rule_column_text_fixed_price{
+	font-weight: bold;
+	color:#51db07;
+}
+.b2bking_dynamic_rule_column_text_hidden_price, .b2bking_dynamic_rule_column_text_unpurchasable{
+	font-weight: bold;
+	color:#3f3f3f;
+}
+.b2bking_dynamic_rule_column_text_minimum_order, .b2bking_dynamic_rule_column_text_maximum_order{
+	font-weight: bold;
+	color:#c50aff;
+}
+.b2bking_dynamic_rule_column_text_required_multiple{
+	font-weight: bold;
+	color:#ffc47c;
+}
+.b2bking_dynamic_rule_column_text_payment_method_discount, .b2bking_dynamic_rule_column_text_rename_purchase_order, .b2bking_dynamic_rule_column_text_payment_method_minmax_order, .b2bking_dynamic_rule_column_text_tax_exemption_user, .b2bking_dynamic_rule_column_text_tax_exemption, .b2bking_dynamic_rule_column_text_add_tax_percentage, .b2bking_dynamic_rule_column_text_add_tax_amount, .b2bking_dynamic_rule_column_text_replace_prices_quote, .b2bking_dynamic_rule_column_text_set_currency_symbol {
+    color: #0000cb;
+    font-weight: bold;
+}
+
+#b2bking_rule_select_conditions_container .b2bking_rule_condition_container .b2bking_dynamic_rule_condition_name, #b2bking_rule_select_conditions_container .b2bking_rule_condition_container .b2bking_dynamic_rule_condition_operator, #b2bking_rule_select_conditions_container .b2bking_rule_condition_container .b2bking_dynamic_rule_condition_number {
+  	font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 21px;
+    color: #6A6A6A;
+    box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.09);
+}
+.b2bking_dynamic_rule_condition_add_button {
+    background: #61ACD6;
+    border-radius: 3px;
+    color: #ffffff;
+    border: none;
+    padding: 0px 18px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    margin-right: 5%;
+    min-width: 121px;
+}
+.b2bking_dynamic_rule_condition_delete_button{
+    background: #7d7d7d;
+    border-radius: 3px;
+    color: #ffffff;
+    border: none;
+    padding: 0px 18px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.5px;
+    margin-right: 5%;
+    min-width: 121px;
+}
+
+.b2bking_rule_condition_container {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.b2bking_dynamic_rule_condition_name{
+    width: 33%;
+}
+.b2bking_dynamic_rule_condition_operator{
+    width: 11%;
+}
+.b2bking_dynamic_rule_condition_number{
+    width: 33%;
+}
+.b2bking_dynamic_rule_metabox_content_container {
+    padding-top: 10px;
+}
+.b2bking_rule_label {
+    margin-bottom: 4px;
+    color: #6c6c6c;
+    font-size: 13.5px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+}
+.b2bking_rule_label_discount, .b2bking_rule_label_minimum {
+    margin-bottom: 4px;
+    color: #6c6c6c;
+    font-size: 13.5px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    display:none;
+}
+/* dynamic rule tax exemption*/
+select#b2bking_rule_select_requires, select#b2bking_rule_select_showtax {
+    width: 100px;
+}
+select#b2bking_rule_select_countries {
+    height: 200px;
+}
+/* dynamic rule discount checkbox */
+.b2bking_dynamic_rule_discount_show_everywhere_checkbox_container, .b2bking_dynamic_rule_minimum_all_checkbox_container {
+    background: #f4f4f4;
+    border-radius: 3px;
+    justify-content: space-between;
+    display: none;
+    box-shadow: inset 0px 1px 0px rgba(0, 0, 0, 0.1);
+    margin-right: 30px;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 35px;
+}
+.b2bking_dynamic_rule_discount_show_everywhere_checkbox_name, .b2bking_dynamic_rule_minimum_all_checkbox_name {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #6A6A6A;
+}
+input#b2bking_dynamic_rule_discount_show_everywhere_checkbox_input, input#b2bking_dynamic_rule_minimum_all_checkbox_input {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+}
+
+/* 8. Customer Groups */
+#b2bking_user_number.column-b2bking_user_number{
+	width: 75%;
+}
+.b2bking_group_payment_shipping_methods_container {
+    margin: 20px 0px 10px 10px;
+    display: flex;
+}
+.b2bking_user_payment_shipping_methods_container{
+	margin: 20px 0px 45px 10px;
+    display: flex;
+}
+.b2bking_group_payment_shipping_methods_container_element {
+    width: 50%;
+}
+.b2bking_group_payment_shipping_methods_container_element_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+svg.b2bking_group_payment_shipping_methods_container_element_title_icon_shipping {
+    position: absolute;
+    width: 28px;
+    left: 0px;
+    top: -2px;
+}
+svg.b2bking_group_payment_shipping_methods_container_element_title_icon_payment {
+    position: absolute;
+    width: 27px;
+    left: 0px;
+    top: -4px;
+}
+.b2bking_group_payment_shipping_methods_container_element_method {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_group_payment_shipping_methods_container_element_method_name {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_group_payment_shipping_methods_container_element_method_checkbox {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+}
+input.b2bking_group_payment_shipping_methods_container_element_method_checkbox:focus{
+	box-shadow:none;
+}
+
+/* Information Box */
+.b2bking_group_payment_shipping_information_box{
+	background: #E0F3FE;
+    border-radius: 2px;
+    min-height: 53px;
+    margin-left: 10px;
+    font-family: "Roboto Medium", Roboto;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 21px;
+    color: #579DC3;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.b2bking_group_payment_shipping_information_box_icon{
+	position: absolute;
+    top: 8px;
+    width: 28px;
+    left: 11px;
+    background: #579DC300;
+}
+
+/* 9. User shipping and payment methods */
+.b2bking_user_shipping_payment_methods_container {
+    border-radius: 5px;
+    background: #ffffff;
+    max-width: 1040px;
+    border-color: #e9ebec;
+    box-shadow: 0 3px 6px rgba(0,0,0,.07);
+    padding-bottom: 12px;
+}
+.b2bking_user_shipping_payment_methods_container_top {
+    background: #7D7D7D;
+    border-radius: 5px 5px 0px 0px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    padding-left: 10px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+.b2bking_user_shipping_payment_methods_container_content_override {
+    margin: 12px 30px 30px 10px;
+}
+
+select.b2bking_user_shipping_payment_methods_container_content_override_select {
+    background-color: #ECECEC;
+    border-radius: 3px;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+    width: 100%;
+    max-width: 100%;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+#b2bking_user_shipping_payment_methods_override:focus{
+	color: #252525;
+	box-shadow: none;
+}
+select.b2bking_user_shipping_payment_methods_container_content_override_select option{
+	min-height: 40px;
+	padding: 10px;
+}
+svg.b2bking_user_shipping_payment_methods_container_content_override_title_icon {
+    position: absolute;
+    width: 28px;
+    left: 0px;
+}
+.b2bking_user_shipping_payment_methods_container_content_override_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    display: flex;
+    font-weight: 500;
+    align-items: center;
+    font-size: 16px;
+    height: 45px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+.b2bking_user_shipping_payment_methods_container_content {
+    padding: 0 12px;
+}
+
+/* 10. Registration Roles */
+.b2bking_custom_role_settings_metabox_container, .b2bking_custom_role_approval_sort_container {
+    margin: 25px 10px 10px 10px;
+    display: flex;
+}
+.b2bking_custom_role_settings_metabox_container_element, .b2bking_custom_role_approval_sort_container_element {
+    width: 50%;
+}
+.b2bking_custom_role_approval_sort_container_element_select_container{
+    margin-right: 30px;
+}
+.b2bking_custom_role_settings_metabox_container_element_credit {
+    width: 100%;
+}
+.b2bking_custom_role_approval_sort_container_element_credit {
+    padding-top: 10px;
+}
+.b2bking_custom_role_settings_metabox_container_element_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+svg.b2bking_custom_role_settings_metabox_container_element_title_icon {
+    position: absolute;
+    width: 28px;
+    left: 0px;
+    top: -8px;
+}
+.b2bking_custom_role_settings_metabox_container_element_checkbox_container {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_custom_role_settings_metabox_container_element_checkbox_name {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_custom_role_settings_metabox_container_element_checkbox {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+    transform: scale(1.3);
+}
+input.b2bking_custom_role_settings_metabox_container_element_checkbox:focus{
+	box-shadow: none;
+}
+select.b2bking_custom_role_settings_metabox_container_element_select {
+    background-color: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_custom_role_settings_metabox_container_element_select:focus{
+	outline: none;
+	box-shadow: none;
+	color: #252525;
+}
+#b2bking_select_multiple_roles_selector{
+    display: none;
+}
+#b2bking_select_multiple_product_categories_selector, #b2bking_select_multiple_users_selector{
+    display: none;
+    margin-top: 0px;
+    margin-right: 30px;
+    margin-bottom: 20px;
+}
+/* Information Box */
+.b2bking_custom_role_settings_metabox_information_box{
+	background: #E0F3FE;
+    border-radius: 2px;
+    min-height: 53px;
+    margin-left: 10px;
+    font-family: "Roboto Medium", Roboto;
+    margin-right: 10px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 21px;
+    color: #579DC3;
+    align-items: center;
+    margin-bottom: 15px;
+    position: relative;
+    margin-top: 10px;
+}
+.b2bking_custom_role_settings_metabox_information_box_icon{
+	position: absolute;
+    top: 8px;
+    width: 28px;
+    left: 11px;
+    background: #579DC300;
+}
+.b2bking_automatic_approval_customer_group_container {
+    margin: 35px 10px;
+}
+select.b2bking_automatic_approval_customer_group_select {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_automatic_approval_customer_group_select:focus{
+    box-shadow: none;
+    outline: none;
+    color: #252525;
+}
+span.b2bking_custom_role_column_approval_manual {
+    font-weight: bold;
+    color: #0f0f0f;
+}
+span.b2bking_custom_role_column_approval_automatic {
+    font-weight: bold;
+    color:#009bdd;
+}
+span.b2bking_custom_role_column_status_enabled {
+    font-weight: bold;
+    color: #00df00;
+}
+span.b2bking_custom_role_column_status_disabled{
+	font-weight: bold;
+	color: red;
+}
+.b2bking_users_column_waiting_approval{
+	color:#e7b400;
+	font-weight: bold;
+}
+
+/* 11. Registration fields */
+input.b2bking_custom_field_mapping_input {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+.b2bking_custom_field_settings_metabox_container {
+    margin: 25px 10px 10px 10px;
+    margin-bottom: 35px;
+}
+.b2bking_custom_field_settings_metabox_top {
+    display: flex;
+    padding-bottom: 35px;
+    border-bottom: 1px solid #e5e5e5;
+}
+.b2bking_custom_field_settings_metabox_top_column {
+    width: 50%;
+}
+.b2bking_custom_field_settings_metabox_bottom_user_choices_title, .b2bking_custom_field_settings_metabox_bottom_field_label_title,.b2bking_custom_field_settings_metabox_bottom_field_placeholder_title, .b2bking_custom_field_settings_metabox_bottom_field_type_title, .b2bking_custom_field_settings_metabox_top_column_status_title, .b2bking_custom_field_settings_metabox_top_column_registration_role_title,.b2bking_custom_field_settings_metabox_top_column_required_title, .b2bking_custom_field_settings_metabox_top_column_sort_title, .b2bking_custom_field_settings_metabox_top_column_editable_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+.b2bking_select_multiple_products_categories_title{
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    margin-top: 5px;
+    margin-bottom: 4px;
+    line-height: 21px;
+    color: #6c6c6c;
+    font-size: 13.5px;
+    font-weight: 500;
+    display: flex;
+    justify-content: space-between;
+}
+.b2bking_product_variation_ids_title{
+    display:flex;
+    justify-content: space-between;
+}
+.b2bking_select_buttons_backend {
+    display: flex;
+    font-size: 12px;
+}
+.b2bking_select_all_products_backend, .b2bking_select_all_categories_backend, .b2bking_select_all_products_variations_backend {
+    margin-right: 15px;
+}
+.b2bking_select_all_products_backend, .b2bking_unselect_all_products_backend, .b2bking_select_all_categories_backend, .b2bking_select_all_products_variations_backend, .b2bking_unselect_all_products_variations_backend{
+    cursor: pointer;
+}
+
+svg.b2bking_custom_field_settings_metabox_top_column_status_title_icon{
+    position: absolute;
+    width: 24px;
+    left: 0px;
+    top: -8px;
+}
+svg.b2bking_custom_field_settings_metabox_top_column_registration_role_title_icon {
+	position: absolute;
+    width: 24px;
+    left: 1px;
+    top: -5px;
+}
+.b2bking_custom_field_settings_metabox_top_column_status_checkbox_container {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_custom_field_settings_metabox_top_column_status_checkbox_name {
+	font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_custom_field_settings_metabox_top_column_status_checkbox_input, input.b2bking_custom_field_settings_metabox_top_column_required_checkbox_input, input.b2bking_custom_field_settings_metabox_top_column_editable_checkbox_input {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+    transform: scale(1.3);
+}
+input.b2bking_custom_field_settings_metabox_top_column_status_checkbox_input:focus, input.b2bking_custom_field_settings_metabox_top_column_required_checkbox_input:focus, input.b2bking_custom_field_settings_metabox_top_column_editable_checkbox_input:focus{
+	box-shadow: none;
+}
+select.b2bking_custom_field_settings_metabox_top_column_registration_role_select {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_custom_field_settings_metabox_top_column_registration_role_select:focus{
+	box-shadow: none;
+	color:#252525;
+}
+select.b2bking_select_multiple_product_categories_selector_select {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 200px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_select_multiple_product_categories_selector_select:focus{
+    box-shadow: none;
+    color:#252525;
+}
+.b2bking_custom_field_settings_metabox_top_column_registration_role {
+    margin-top: 35px;
+    margin-right: 30px;
+}
+.b2bking_custom_field_settings_metabox_top_column_required, .b2bking_custom_field_settings_metabox_top_column_sort{
+	display: inline-block;
+    width: 49%;
+}
+.b2bking_custom_field_settings_metabox_top_column_editable{
+	width: 100%;
+	margin-top: 35px;
+}
+svg.b2bking_custom_field_settings_metabox_top_column_required_title_icon {
+    position: absolute;
+    width: 26px;
+    left: 0px;
+    top: -7px;
+}
+svg.b2bking_custom_field_settings_metabox_top_column_sort_title_icon {
+    position: absolute;
+    width: 25px;
+    left: 0px;
+    top: -5px;
+}
+svg.b2bking_custom_field_settings_metabox_top_column_editable_title_icon {
+    position: absolute;
+    width: 28px;
+    left: 0px;
+    top: -8px;
+}
+input.b2bking_custom_field_settings_metabox_top_column_sort_text {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_custom_field_settings_metabox_top_column_sort_text::placeholder{
+	color: #A8A8A8;
+}
+input.b2bking_custom_field_settings_metabox_top_column_sort_text:focus{
+	box-shadow: none;
+	outline: none;
+}
+input.b2bking_custom_field_settings_metabox_top_column_sort_text::-webkit-outer-spin-button, input.b2bking_custom_field_settings_metabox_top_column_sort_text::-webkit-inner-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
+.b2bking_custom_field_settings_metabox_top_column_editable_checkbox_container {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_custom_field_settings_metabox_bottom {
+    margin-top: 35px;
+}
+svg.b2bking_custom_field_settings_metabox_bottom_field_type_title_icon{
+	position: absolute;
+    width: 24px;
+    left: 1px;
+    top: -5px;
+}
+svg.b2bking_custom_field_settings_metabox_bottom_field_placeholder_title_icon {
+    position: absolute;
+    width: 28px;
+    left: 0px;
+    top: -8px;
+}
+svg.b2bking_custom_field_settings_metabox_bottom_field_label_title_icon{
+	position: absolute;
+    width: 24px;
+    left: 1px;
+    top: -5px;
+}
+svg.b2bking_custom_field_settings_metabox_bottom_user_choices_title_icon {
+    position: absolute;
+    width: 26px;
+    left: 1px;
+    top: -6px;
+}
+select.b2bking_custom_field_settings_metabox_bottom_field_type_select {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_custom_field_settings_metabox_bottom_field_type_select:focus{
+	box-shadow: none;
+	color:#252525;
+}
+.b2bking_custom_field_settings_metabox_bottom_label_and_placeholder_container {
+    display: flex;
+}
+.b2bking_custom_field_settings_metabox_bottom_field_label {
+    width: 50%;
+    margin-top: 35px;
+    margin-right: 10px;
+}
+.b2bking_custom_field_settings_metabox_bottom_field_placeholder {
+    width: 50%;
+    margin-top: 35px;
+}
+.b2bking_custom_field_settings_metabox_bottom_field_label_input_container {
+    margin-right: 20px;
+}
+.b2bking_custom_field_settings_metabox_bottom_user_choices {
+    margin-top: 35px;
+}
+/* billing connection metabox */
+.b2bking_custom_field_billing_connection_metabox_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+svg.b2bking_custom_field_billing_connection_metabox_title_icon {
+    position: absolute;
+    width: 23px;
+    left: 1px;
+    top: -12px;
+}
+.b2bking_custom_field_billing_connection_metabox_container {
+    margin: 30px 10px 10px 10px;
+}
+select.b2bking_custom_field_billing_connection_metabox_select {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_custom_field_billing_connection_metabox_select:focus{
+    box-shadow: none;
+    color:#252525;
+}
+.b2bking_billing_connection_information_box{
+        background: #E0F3FE;
+    border-radius: 2px;
+    min-height: 53px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    left: 1px;
+    margin-top: 25px;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 21px;
+    color: #579DC3;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+/* add to billing */
+.b2bking_add_to_billing_container_element {
+    display: inline-block;
+    width: 31%;
+}
+.b2bking_add_to_billing_container_element_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+.b2bking_custom_field_billing_connection_groups{
+    width: 100%;
+    font-size: 15px;
+    border: 4px solid #ececec !important;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    min-height: 200px;
+}
+svg.b2bking_add_to_billing_container_element_title_icon {
+    position: absolute;
+    width: 27px;
+    left: 1px;
+    top: -8px;
+}
+.b2bking_add_to_billing_container {
+    margin-top: 25px;
+    justify-content: space-between;
+}
+.b2bking_billing_checkout_countries{
+    flex: 1 1 100%;
+    margin-top: 25px;
+}
+.b2bking_add_to_billing_container_element_checkbox_container {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_add_to_billing_container_element_checkbox_name {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_add_to_billing_container_element_checkbox_input {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+    transform: scale(1.3);
+}
+input.b2bking_add_to_billing_container_element_checkbox_input:focus{
+    box-shadow: none;
+    outline: none;
+}
+
+
+/* vat container */
+.b2bking_VAT_container_column_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+.b2bking_VAT_container {
+    display: flex;
+    justify-content: space-between;
+}
+.b2bking_VAT_container_column {
+    width: 48%;
+    margin-top: 25px;
+}
+svg.b2bking_VAT_container_column_title_icon {
+    position: absolute;
+    width: 27px;
+    left: 1px;
+    top: -8px;
+}
+.b2bking_VAT_container_VIES_validation_checkbox_container {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 12px;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+}
+.b2bking_VAT_container_VIES_validation_checkbox_name {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_VAT_container_VIES_validation_checkbox_input {
+    background: #C4C4C4;
+    border-radius: 3px;
+    border: none;
+    top: 2px;
+    box-shadow: none;
+    position: relative;
+    transform: scale(1.3);
+}
+input.b2bking_VAT_container_VIES_validation_checkbox_input:focus{
+    box-shadow: none;
+    outline: none;
+}
+select.b2bking_VAT_container_countries_select {
+    width: 100%;
+    font-size: 15px;
+    border: 4px solid #ececec;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    min-height: 200px;
+}
+select.b2bking_VAT_container_countries_select:focus{
+    box-shadow: none;
+    outline: none;
+    color:#252525;
+    border: 4px solid #ececec;
+}
+
+/* 12. Registration User Data  */
+.b2bking_user_registration_user_data_container {
+    margin: 25px 20px 1px 20px;
+}
+.b2bking_user_registration_user_data_container_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #dedede;
+}
+svg.b2bking_user_registration_user_data_container_title_icon {
+    position: absolute;
+    width: 27px;
+    left: 0px;
+    top: -8px;
+}
+.b2bking_user_registration_user_data_container_element_label {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13.5px;
+    line-height: 21px;
+    color: #818181;
+}
+input.b2bking_user_registration_user_data_container_element_text {
+    background: #ECECEC;
+    border-radius: 3px;
+    margin-top: 4px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    line-height: 21px;
+    color: #252525;
+}
+input.b2bking_user_registration_user_data_container_element_text:focus, textarea.b2bking_user_registration_user_data_container_element_textarea:focus{
+	box-shadow: none;
+	color:#252525;
+}
+textarea.b2bking_user_registration_user_data_container_element_textarea {
+    background: #ECECEC;
+    border-radius: 3px;
+    justify-content: space-between;
+    display: flex;
+    margin-right: 30px;
+    align-items: center;
+    padding: 15px 15px;
+    min-height: 125px;
+    resize: vertical;
+    border: none;
+    width: 100%;
+    font-weight: 500;
+    line-height: 21px;
+    color: #252525;
+}
+.b2bking_user_registration_user_data_container_element {
+    margin-bottom: 16px;
+}
+button.b2bking_user_registration_user_data_container_element_download {
+    background: #6FB8E1;
+    border-radius: 3px;
+    width: 100%;
+    min-height: 40px;
+    text-align: left;
+    padding-left: 55px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-size: 13.5px;
+    border: none;
+    margin-top: 2px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+button.b2bking_user_registration_user_data_container_element_download:hover{
+	background: #358bbc;
+	cursor: pointer;
+}
+button.b2bking_user_registration_user_data_container_element_download:focus{
+	box-shadow: none;
+	outline: none;
+}
+svg.b2bking_user_registration_user_data_container_element_download_icon {
+    position: absolute;
+    width: 30px;
+    left: 15px;
+}
+.b2bking_user_registration_user_data_container_element_approval {
+    background: #F6F6F6;
+    border: 1px solid #F2F2F2;
+    box-sizing: border-box;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 4px;
+}
+select.b2bking_user_registration_user_data_container_element_select_group {
+    background-color: #E7e7e7;
+    border-radius: 3px;
+    display: inline-block;
+    margin-right: 30px;
+    width: 100%;
+    border: none;
+    max-width: 100%;
+    margin-bottom: 10px;
+    align-items: center;
+    padding: 0px 15px;
+    min-height: 40px;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_user_registration_user_data_container_element_select_group:focus{
+	box-shadow: none;
+	color: #252525;
+}
+button.b2bking_user_registration_user_data_container_element_approval_button_approve {
+    background: #A5CD05;
+    border-radius: 2px;
+    width: 75%;
+    border: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    padding-left: 55px;
+    font-weight: 400;
+    font-size: 14px;
+    min-height: 40px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+svg.b2bking_user_registration_user_data_container_element_approval_button_approve_icon, svg.b2bking_user_registration_user_data_container_element_approval_button_reject_icon, svg.b2bking_user_registration_user_data_container_element_approval_button_deactivate {
+    position: absolute;
+    width: 22px;
+    left: 15px;
+}
+.b2bking_user_registration_user_data_container_element_approval_buttons_container {
+    display: flex;
+    justify-content: space-between;
+}
+button.b2bking_user_registration_user_data_container_element_approval_button_reject, button.b2bking_user_registration_user_data_container_element_approval_button_deactivate {
+    background: #797979;
+    border-radius: 2px;
+    width: 24%;
+    border: none;
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    padding-left: 55px;
+    font-weight: 400;
+    font-size: 14px;
+    min-height: 40px;
+    line-height: 23px;
+    color: #FFFFFF;
+}
+
+button.b2bking_user_registration_user_data_container_element_approval_button_deactivate {
+    width: 100%;
+}
+.b2bking_user_registration_user_data_container_element_approval_button_approve, .b2bking_user_registration_user_data_container_element_approval_button_reject, .b2bking_user_registration_user_data_container_element_approval_button_deactivate{
+    cursor: pointer;
+}
+.b2bking_user_registration_user_data_container_element_approval_button_approve:hover{
+    background: #90b400;
+}
+.b2bking_user_registration_user_data_container_element_approval_button_approve:focus, .b2bking_user_registration_user_data_container_element_approval_button_reject:focus, .b2bking_user_registration_user_data_container_element_approval_button_deactivate:focus{
+    box-shadow: none;
+    outline: none;
+}
+.b2bking_user_registration_user_data_container_element_approval_button_reject:hover, .b2bking_user_registration_user_data_container_element_approval_button_deactivate:hover{
+    background: #414141;
+}
+
+/* 13. User Settings */
+.b2bking_user_settings_container {
+    margin: 20px 20px 20px 20px;
+    display: flex;
+}
+.b2bking_user_settings_container_column {
+    width: 100%;
+}
+.b2bking_user_settings_container_column_title {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+
+.b2bking_user_settings_container_column_title_subaccounts {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 17px;
+    line-height: 21px;
+    color: #6B6B6B;
+}
+.b2bking_user_settings_container_column_title_role {
+    font-family: "Roboto Medium", Roboto;
+    position: relative;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    margin-top: 5px;
+    margin-bottom: 13px;
+    line-height: 21px;
+    padding-left: 38px;
+    color: #6B6B6B;
+}
+svg.b2bking_user_settings_container_column_title_icon {
+    position: absolute;
+    width: 26px;
+    left: 1px;
+    top: -6px;
+}
+svg.b2bking_user_settings_container_column_title_icon_right {
+    position: absolute;
+    width: 26px;
+    left: 1px;
+    top: -6px;
+}
+select.b2bking_user_settings_select{
+	background-color: #ECECEC;
+    border-radius: 3px;
+    height: 40px;
+    border: none;
+    padding: 0px 15px;
+    width: 97.5%;
+    max-width: 100%;
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 21px;
+    color: #252525;
+}
+select.b2bking_user_settings_select:focus{
+	box-shadow: none;
+	color:#252525;
+}
+.b2bking_user_settings_information_box{
+	background: #E0F3FE;
+    border-radius: 2px;
+    min-height: 53px;
+    margin-left: 20px;
+    font-family: "Roboto Medium", Roboto;
+    margin-right: 43px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+    padding-left: 50px;
+    line-height: 21px;
+    color: #579DC3;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+
+.b2bking_discount_options_information_box, .b2bking_minimum_options_information_box{
+    background: #E0F3FE;
+    border-radius: 2px;
+    min-height: 53px;
+    font-family: "Roboto Medium", Roboto;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    display: none;
+    font-size: 14px;
+    margin-top: 12px;
+    padding-left: 50px;
+    line-height: 21px;
+    color: #579DC3;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+.b2bking_information_box_link{
+    text-decoration: none;
+}
+.b2bking_rule_conditions_information_box{
+    background: #E0F3FE;
+    border-radius: 2px;
+    min-height: 53px;
+    font-family: "Roboto Medium", Roboto;
+    margin-right: 30px;
+    font-style: normal;
+    font-weight: 500;
+    display: flex;
+    font-size: 14px;
+    margin-top: 2px;
+    padding-left: 50px;
+    line-height: 21px;
+    color: #579DC3;
+    align-items: center;
+    margin-bottom: 10px;
+    position: relative;
+}
+/* 14. Customers */
+div#b2bking_admin_customers_table_container {
+    margin: 0px 50px 50px 50px;
+    padding: 20px;
+    font-size: 14px;
+    background: #fff;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.17);
+    border-radius: 5px;
+}
+div#b2bking_admin_customers_table_container td {
+    padding: 11px 13px;
+}
+div#b2bking_admin_customers_table_container th {
+    text-align: left;
+}
+table#b2bking_admin_customers_table {
+    padding-top: 10px;
+    border-top: ;
+    width: 100%;
+}
+.b2bking_page_b2bking_customers{
+    background-color:#202224;
+}
+/* 15. Groups page */
+.b2bking_page_b2bking_groups, .admin_page_b2bking_b2c_users, .admin_page_b2bking_logged_out_users, .b2bking_page_b2bking_b2c_users, .b2bking_page_b2bking_logged_out_users{
+    background-color:#202224;
+}
+.post-type-b2bking_rule .notice.error, .post-type-b2bking_custom_role .notice.error, .post-type-b2bking_custom_field .notice.error, .post-type-b2bking_conversation .notice.error, .post-type-b2bking_grule .notice.error, .post-type-b2bking_offer .notice.error, .b2bking-core_page_b2bking_group .notice.error, .post-type-b2bking_group .notice.error, .b2bking-core_page_b2bking_rule .notice.error, .b2bking-core_page_b2bking_custom_role .notice.error{
+    display:none !important;
+}
+div#b2bking_admin_groups_main_container {
+    margin: 50px 100px;
+}
+.b2bking_admin_groups_main_title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 43px;
+    line-height: 76px;
+    color: #E7E7E7;
+}
+.b2bking_admin_groups_main_container_main_row {
+    margin-top: 80px;
+    justify-content: space-between;
+}
+.b2bking_admin_groups_main_container_main_row_left, .b2bking_admin_groups_main_container_main_row_right{
+    width: 50%;
+    min-width: 355px;
+    margin-right: 50px;
+}
+.b2bking_admin_groups_main_container_main_row_left_box {
+    background: #0D3C83;
+    min-height: 150px;
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 33px;
+    color: #E4EDF8;
+    flex-flow: column;
+}
+.b2bking_admin_groups_box_link{
+    text-decoration: none;
+    display: contents;
+}
+.b2bking_admin_groups_box_link:focus, .b2bking_admin_groups_box_link:active, .b2bking_admin_groups_main_container_main_row_right_box:focus, .b2bking_admin_groups_main_container_main_row_right_box:active{
+    outline: 0;
+    border: none;
+    -moz-outline-style: none; 
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    box-shadow: none;
+}
+.b2bking_admin_groups_main_container_main_row_left_box:hover, .b2bking_admin_groups_main_container_main_row_right_box:hover {
+    cursor: pointer;
+    background:#1654b2;
+}
+.b2bking_admin_groups_main_container_main_row_left_box:hover .b2bking_admin_groups_main_container_main_row_left_box_icon{
+    fill: #fff;
+}
+.b2bking_admin_groups_main_container_main_row_left_box:hover .b2bking_admin_groups_main_container_main_row_box_text{
+    color:#fff;
+}
+.b2bking_admin_groups_main_container_main_row_right_box_first:hover .b2bking_admin_groups_main_container_main_row_right_box_icon_first{
+    fill: #fff;
+}
+.b2bking_admin_groups_main_container_main_row_right_box_second:hover .b2bking_admin_groups_main_container_main_row_right_box_icon_second{
+    fill: #fff;
+}
+.b2bking_admin_groups_main_container_main_row_right_box_first:hover .b2bking_admin_groups_main_container_main_row_right_box_first_text{
+    color: #fff;
+}
+.b2bking_admin_groups_main_container_main_row_right_box_second:hover .b2bking_admin_groups_main_container_main_row_right_box_second_text{
+    color: #fff;
+}
+
+.b2bking_admin_groups_main_container_main_row_right_box {
+    background: #282A2D;
+    min-height: 150px;
+    margin-top: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 33px;
+    color: #B7BBC0;
+    flex-flow: column;
+}
+svg.b2bking_admin_groups_main_container_main_row_left_box_icon {
+    width: 45px;
+}
+svg.b2bking_admin_groups_main_container_main_row_right_box_icon_first{
+    width: 32px;
+}
+svg.b2bking_admin_groups_main_container_main_row_right_box_icon_second {
+    width: 30px;
+    position: relative;
+    top: 3px;
+}
+.b2bking_admin_groups_main_container_main_row_title {
+    font-family: "Roboto Medium",Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 42px;
+    color: #E7E7E7;
+}
+.b2bking_admin_groups_main_container_main_row_subtitle {
+    font-family: "Roboto Medium",Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    color: #797B7E;
+}
+.b2bking_special_group_container {
+    margin: 100px 75px 10px 75px;
+    position: relative;
+}
+.b2bking_above_top_title_button {
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    width: 100%;
+    top: -50px;
+    align-items: center;
+}
+.b2bking_above_top_title_button_left {
+    font-family: "Roboto Medium", Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    color: #ffffff;
+}
+button.b2bking_above_top_title_button_right_button {
+    line-height: 15px;
+    width: 130px;
+    background: #9E9E9E;
+    text-align: end;
+    height: 35px;
+    color: #FFFFFF;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.12);
+    border-radius: 3px;
+    position: relative;
+    outline: none;
+    border: none;
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 15.5px;
+    padding: 5px 16px;
+    text-transform: none;
+    min-height: 0;
+}
+button.b2bking_above_top_title_button_right_button:hover{
+    background-color: #6c6c6c;
+    cursor: pointer;
+}
+button.button-primary.b2bking_b2c_special_group_container_save_settings_button, button.button-primary.b2bking_logged_out_special_group_container_save_settings_button {
+    margin: 5px 75px;
+}
+/* 16. Product Page */
+.b2bking_options.b2bking_tab a::before {
+    background-image: url('../../../includes/assets/images/b2bking-icon-gray2.svg') !important;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 15px 15px;
+    display: inline-block;
+    width: 14px; 
+    height: 15px;
+    content:"" !important;
+}
+.b2bking_product_wrap{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px !important;
+}
+.b2bking_customrows_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px !important;
+}
+.b2bking_product_wrap_variation{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px !important;
+}
+.b2bking_product_button_wrap{
+    width: 50%;
+    display:block;
+    margin-top: 15px !important;
+    margin-bottom: 15px !important;
+}
+.b2bking_tiered_pricing_element{
+    width: 47% !important;
+}
+.b2bking_customrow_element {
+    width: 48% !important;
+}
+.b2bking_tiered_pricing_element_variation{
+    width: 48% !important;
+}
+.b2bking_tiered_pricing_variation{
+    display: inline-block;
+    width:100%;
+}
+/* 17. Media Queries */
+@media screen and (max-width: 500px) { 
+    div#b2bking_admin_groups_main_container {
+        margin: 20px 21px;
+    }
+}
+
+@media screen and (max-width: 780px) { 
+    div#b2bking_admin_header_version2 {
+        left: 23px;
+        top:2px;
+    }
+    .b2bking_conversation_message_time{
+        font-size:10px !important;
+        margin-top: 8px;
+        position: relative;
+        right: 1px;
+        bottom: 1px;
+    }
+    .b2bking_group_visibility_container_content_checkbox_input, input.b2bking_custom_role_settings_metabox_container_element_checkbox {
+        transform: none; 
+    }
+    input.b2bking_VAT_container_VIES_validation_checkbox_input, input.b2bking_group_payment_shipping_methods_container_element_method_checkbox, input.b2bking_custom_field_settings_metabox_top_column_status_checkbox_input, input.b2bking_custom_field_settings_metabox_top_column_required_checkbox_input, input.b2bking_custom_field_settings_metabox_top_column_editable_checkbox_input, input.b2bking_add_to_billing_container_element_checkbox_input{
+        transform: none;
+    }
+    .b2bking_rule_select_container{
+        max-width: 100%;
+        width: 100%;
+    }
+    .b2bking_dynamic_rule_metabox_content_container .selection .select2-selection{
+        margin-bottom: 10px;
+    }
+    .b2bking_rule_select_container select, #b2bking_rule_select_howmuch, #b2bking_rule_select_quantity_value, input#b2bking_rule_select_taxname, input#b2bking_rule_select_discountname, select#b2bking_rule_select_requires, select#b2bking_rule_select_showtax {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    #b2bking_rule_select_conditions_container .b2bking_rule_condition_container .b2bking_dynamic_rule_condition_name, #b2bking_rule_select_conditions_container .b2bking_rule_condition_container .b2bking_dynamic_rule_condition_operator, #b2bking_rule_select_conditions_container .b2bking_rule_condition_container .b2bking_dynamic_rule_condition_number{
+        width: 100%;
+    }
+    div.b2bking_add_to_billing_container{
+        display: block;
+    }
+    .b2bking_add_to_billing_container_element{
+        width: 100%;
+    }
+    .b2bking_add_to_billing_container_element_checkbox_container{
+        margin-bottom: 20px;
+    }
+    div.b2bking_custom_field_settings_metabox_top_column {
+        width: 100%;
+        margin-top: 30px;
+    }
+    div.b2bking_custom_field_settings_metabox_top {
+        display: block;
+    }
+    div.b2bking_custom_field_settings_metabox_top_column_status_checkbox_container, div.b2bking_custom_field_settings_metabox_top_column_registration_role{
+        margin-right: 0;
+    }
+} 
+@media screen and (min-width: 781px) { 
+    .b2bking_group_visibility_container_content_checkbox_input {
+        transform: scale(1.3); 
+    } 
+    input.b2bking_group_payment_shipping_methods_container_element_method_checkbox{
+        transform: scale(1.3);
+    }
+    div.b2bking_add_to_billing_container{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    input#b2bking_dynamic_rule_discount_show_everywhere_checkbox_input, input#b2bking_dynamic_rule_minimum_all_checkbox_input{
+        transform:scale(1.3);
+    } 
+} 
+@media screen and (min-width: 1290px) { 
+    .b2bking_admin_groups_main_container_main_row{
+        display: flex;
+    }
+    .b2bking_admin_groups_main_container_main_row_right{
+        margin-top: 0px;
+    }
+    .b2bking_admin_groups_main_container_main_row_right_box{
+        margin-right: 45px;
+        width: 38%;
+    }
+} 
+@media screen and (max-width: 1290px) { 
+    .b2bking_admin_groups_main_container_main_row{
+        display: block;
+    }
+    .b2bking_product_wrap{
+        width:80%;
+    }
+    .b2bking_admin_groups_main_container_main_row_right{
+        margin-top: 30px;
+    }
+    .b2bking_admin_groups_main_container_main_row_right_box{
+        margin-right: 5px;
+        width: 45%;
+    }
+    .b2bking_admin_groups_main_container_main_row_right_boxes{
+        display: flex;
+        justify-content: space-between;
+    }
+} 
+
+
+
+

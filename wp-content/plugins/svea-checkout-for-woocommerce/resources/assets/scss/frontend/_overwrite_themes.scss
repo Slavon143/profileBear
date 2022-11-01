@@ -1,0 +1,28 @@
+@media only screen and (max-width: 980px) {
+
+    .svea-checkout-page, .svea-checkout-confirmation-page {
+    // Storefront
+      .site-content {
+        .wrap {
+          padding-left: 20px !important;
+          padding-right: 20px !important;
+        }
+        .entry-header {
+          padding: 0;
+          margin: 0;
+        }
+        .entry-content {
+          padding: 0;
+          margin: 0;
+          max-width: 100%;
+          overflow: hidden;
+        }
+        .entry-footer {
+          padding: 0;
+          margin: 0;
+        }
+      }
+
+    }
+
+}

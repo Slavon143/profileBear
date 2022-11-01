@@ -1,0 +1,15 @@
+.admin-bar .fusion-sliding-bar-position-left,
+.admin-bar .fusion-sliding-bar-position-right,
+.admin-bar .fusion-sliding-bar-position-top {
+  top: 46px;
+}
+.admin-bar .fusion-header-has-flyout-menu .fusion-header {
+  top: 46px;
+}
+.admin-bar.layout-boxed-mode.layout-scroll-offset-framed .fusion-sides-frame,
+.admin-bar.layout-boxed-mode.layout-scroll-offset-framed .fusion-top-frame {
+  top: 46px;
+}
+#wp-toolbar > ul > .avada-menu {
+  display: block;
+}

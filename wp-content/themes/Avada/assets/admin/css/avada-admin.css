@@ -1,0 +1,3578 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable no-descending-specificity */
+.avada-dashboard {
+  max-width: 1100px;
+  scroll-behavior: smooth;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-style: normal;
+  color: #555d66;
+  font-size: 16px;
+  /* Dashboard Header */
+  /* Dashboard Page */
+  /* Main Welcome Section */
+  /* Registration */
+  /* Welcome Resources */
+  /* Welcome Partners */
+}
+.avada-dashboard .avada-db-demos-notices > h1 {
+  display: none;
+}
+.avada-dashboard .avada-db-demos-notices .notice-flex-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 1.4em;
+}
+.appearance_page_avada_options .avada-dashboard {
+  margin: 0;
+  max-width: 1200px;
+}
+.avada-dashboard .avada-db-menu {
+  display: flex;
+  align-items: center;
+  margin: 0 -1.4em;
+}
+.avada-dashboard .avada-db-menu-item {
+  display: inline-block;
+  position: relative;
+  margin: 0 1.4em;
+}
+.avada-dashboard .avada-db-menu-item:hover .avada-db-menu-item-link,
+.avada-dashboard .avada-db-menu-item:focus .avada-db-menu-item-link,
+.avada-dashboard .avada-db-menu-item:active .avada-db-menu-item-link {
+  color: #198fd9;
+}
+.avada-dashboard .avada-db-menu-item:hover .avada-db-menu-item-link:after,
+.avada-dashboard .avada-db-menu-item:focus .avada-db-menu-item-link:after,
+.avada-dashboard .avada-db-menu-item:active .avada-db-menu-item-link:after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.avada-dashboard .avada-db-menu-item:hover .avada-db-menu-sub {
+  z-index: 11;
+  visibility: visible;
+  opacity: 1;
+  margin-top: 0;
+}
+.avada-dashboard .avada-db-menu-item-link {
+  display: inline-flex;
+  align-items: center;
+  position: relative;
+  margin: 0 -0.4em;
+  padding: 2.1em 0;
+  text-decoration: none;
+  font-size: 0.9em;
+  font-weight: 600;
+  color: inherit;
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+  outline: none;
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-menu-item-link:after {
+  content: " ";
+  opacity: 0;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin: 0 0.4em;
+  width: calc(100% - 0.8em);
+  border-bottom: 3px solid #198fd9;
+  transform: scaleX(0);
+  transition: transform 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-menu-item-link.avada-db-active {
+  color: #198fd9;
+}
+.avada-dashboard .avada-db-menu-item-link.avada-db-active:after {
+  opacity: 1;
+  transform: scaleX(1);
+}
+.avada-dashboard .avada-db-menu-item-link i {
+  margin: 0 0.4em;
+  font-size: 1.2em;
+}
+.avada-dashboard .avada-db-menu-item-link .avada-db-menu-item-text {
+  margin: 0 0.4em;
+  white-space: nowrap;
+}
+.avada-dashboard .avada-db-menu-sub-options,
+.avada-dashboard .avada-db-menu-sub-sliders {
+  min-width: 250px;
+}
+.avada-dashboard .avada-db-menu-sub-maintenance {
+  min-width: 260px;
+}
+.avada-dashboard .avada-db-menu-sub-layouts,
+.avada-dashboard .avada-db-menu-sub-forms {
+  min-width: 230px;
+}
+.avada-dashboard .avada-db-header-main {
+  padding: 0 1.4em;
+  border-top-left-radius: 0.35em;
+  border-top-right-radius: 0.35em;
+  border-bottom: 1px solid #f8f8f8;
+  background-color: #fff;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.avada-dashboard .avada-db-header-main .avada-db-header-main-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1.7em;
+}
+.avada-dashboard .avada-db-header-main .avada-db-logo {
+  display: flex;
+  align-items: center;
+  margin: 0 1.2em;
+  text-decoration: none;
+  color: inherit;
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-header-main .avada-db-logo .avada-db-logo-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0.5em;
+  width: 36px;
+  height: 36px;
+  background-color: #65bc7b;
+  border-radius: 0.35em;
+}
+.avada-dashboard .avada-db-header-main .avada-db-logo .avada-db-logo-icon:before {
+  font-size: 22px;
+  color: #fff;
+}
+.avada-dashboard .avada-db-header-main .avada-db-logo .avada-db-logo-image {
+  margin: 0 0.5em;
+}
+.avada-dashboard .avada-db-header-main .avada-db-logo .avada-db-logo-image img {
+  display: block;
+  width: 115px;
+  margin-left: -35px;
+  -webkit-clip-path: inset(0 0 0 35px);
+          clip-path: inset(0 0 0 35px);
+}
+.avada-dashboard .avada-db-header-main .avada-db-logo .avada-db-logo-version {
+  margin-top: 0.2em;
+  padding: 0.3em 0.4em;
+  font-size: 0.7em;
+  line-height: 1;
+  background-color: #f8f8f8;
+  border-radius: 0.35em;
+  white-space: nowrap;
+}
+.avada-dashboard .avada-db-header-main .avada-db-menu-main {
+  flex-grow: 2;
+  margin: 0 1.7em;
+}
+.avada-dashboard .avada-db-header-main .avada-db-menu-main .avada-db-menu-maintenance {
+  display: none;
+}
+.avada-dashboard .avada-db-header-main .avada-db-maintenance-counter {
+  display: none;
+  width: 5px;
+  height: 5px;
+  background-color: #65bc7b;
+  border-radius: 50%;
+  align-self: start;
+}
+.avada-dashboard .avada-db-header-main .avada-db-live {
+  margin: 0 1.7em;
+}
+.avada-dashboard .avada-db-header-sticky {
+  z-index: 10;
+  position: sticky;
+  top: 32px;
+  margin-bottom: 1.7em;
+  padding: 0 1.4em;
+  background-color: #fff;
+  border-bottom-left-radius: 0.35em;
+  border-bottom-right-radius: 0.35em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -1.7em;
+  min-height: 2.5em;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label {
+  margin: 0 1.7em;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label > span {
+  opacity: 0.5;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 0.8em;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label .avada-db-registered {
+  display: none;
+  color: #65bc7b;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label .avada-db-unregistered {
+  color: #dc3232;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label .avada-db-version-label {
+  opacity: 1;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label.completed .avada-db-registered {
+  display: inline;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-label.completed .avada-db-unregistered {
+  display: none;
+}
+.avada-dashboard .avada-db-header-sticky .avada-db-menu-sticky-nav {
+  flex-grow: 2;
+  margin: 0 1.7em;
+}
+.avada-dashboard .avada-db-menu-sub {
+  z-index: -1;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  margin-top: 0.7em;
+  padding: 1.4em;
+  background-color: #fff;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), margin 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item {
+  margin-bottom: 1.4em;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item:last-child {
+  margin-bottom: 0;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link {
+  display: flex;
+  margin: 0 -0.4em;
+  text-decoration: none;
+  font-size: 0.9em;
+  color: inherit;
+  outline: none;
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link:hover i,
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link:focus i,
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link.avada-db-active i,
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link:hover .avada-db-menu-sub-item-label,
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link:focus .avada-db-menu-sub-item-label,
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link.avada-db-active .avada-db-menu-sub-item-label {
+  color: #198fd9;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link i {
+  margin: 0 0.4em;
+  font-size: 1.2em;
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link .avada-db-menu-sub-item-text {
+  margin: 0 0.4em;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link .avada-db-menu-sub-item-label {
+  font-weight: 600;
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-link .avada-db-menu-sub-item-desc {
+  margin-top: 0.5em;
+  font-size: 0.9em;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-patcher > a {
+  display: flex;
+}
+.avada-dashboard .avada-db-menu-sub .avada-db-menu-sub-item-patcher > a .update-plugins {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 0.5em !important;
+  width: 1.5em;
+  height: 1.5em;
+  background-color: #65bc7b;
+  color: #fff;
+  border-radius: 50%;
+  font-size: 0.8em;
+}
+.avada-dashboard .avada-db-changelog {
+  display: none;
+  z-index: 10000;
+  position: fixed;
+  top: 10%;
+  right: 10%;
+  left: 10%;
+  bottom: 10%;
+  background-color: #fff;
+}
+.avada-dashboard .avada-db-changelog .avada-db-changelog-heading {
+  display: flex;
+  justify-content: space-between;
+}
+.avada-dashboard .avada-db-changelog .avada-db-changelog-heading i {
+  opacity: 0.4;
+  cursor: pointer;
+}
+.avada-dashboard .avada-db-changelog iframe {
+  width: 100%;
+  height: calc(100% - 3em);
+}
+.avada-dashboard .avada-db-overlay {
+  display: none;
+  z-index: 9999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+.avada-dashboard.avada-db-welcome .avada-db-header-sticky {
+  margin-bottom: 0;
+}
+.avada-dashboard .avada-db-welcome-wrapper {
+  display: flex;
+  flex-flow: column;
+}
+.avada-dashboard .avada-db-welcome-setup {
+  display: flex;
+  overflow: hidden;
+  position: relative;
+}
+.avada-dashboard .avada-db-welcome-setup.avada-db-card {
+  padding: 0;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-intro,
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-media-container {
+  flex: 1;
+  margin: 0 1.4em;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-heading {
+  font-size: 2.2em;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-text {
+  margin-bottom: 1.4em;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-video {
+  display: flex;
+  align-items: center;
+  margin: 0 -0.4em;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-video .avada-db-welcome-video-icon {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.4em;
+  width: 1.7em;
+  height: 1.7em;
+  border-radius: 50%;
+  background-color: #198fd9;
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-video .avada-db-welcome-video-icon .avada-db-triangle {
+  display: inline-block;
+  width: 0;
+  height: 0;
+  border-top: 0.4em solid transparent;
+  border-left: 0.6em solid #fff;
+  border-bottom: 0.4em solid transparent;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-video:hover .avada-db-welcome-video-icon {
+  background-color: #0e7abd;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-video .avada-db-welcome-video-text {
+  margin: 0 0.4em;
+  text-align: start;
+  font-size: 1.125em;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-media-container {
+  position: relative;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-media-container.avada-db-active .avada-db-welcome-image {
+  opacity: 0;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-media-container.avada-db-active .avada-db-welcome-video-iframe {
+  opacity: 1;
+  pointer-events: auto;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-video-iframe {
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+  pointer-events: none;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-image {
+  max-width: 600px;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container {
+  display: flex;
+  align-items: center;
+  padding: 2.8em 1.4em;
+  background-color: transparent;
+  overflow: hidden;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-media-container {
+  margin: -2.8em -1.4em;
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-intro .avada-db-get-started-button {
+  display: inline-block;
+  padding: 15px 30px;
+  background: #65bc7b;
+  box-shadow: 0 1px 3px rgba(101, 188, 123, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 700;
+  font-size: 20px;
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-intro .avada-db-get-started-button:hover {
+  background: #4fa063;
+}
+.avada-dashboard .avada-db-registration {
+  order: 1;
+}
+.avada-dashboard .avada-db-registration.avada-db-onload-completed {
+  order: 2;
+}
+.avada-dashboard .avada-db-registration.avada-db-completed .avada-db-reg-input-wrapper {
+  background-color: #f8f8f8;
+}
+.avada-dashboard .avada-db-registration.avada-db-completed .avada-db-registration-input {
+  pointer-events: none;
+  background-color: #f8f8f8;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-heading {
+  display: flex;
+  align-items: center;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-heading > i {
+  font-size: 0.7em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-heading .fusiona-verified {
+  color: #65bc7b;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-heading .fusiona-cross {
+  color: #dc3232;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-heading .avada-db-reg-heading-text {
+  margin: 0 0.4em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-heading .avada-db-card-heading-badge-howto {
+  cursor: pointer;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-form {
+  display: flex;
+  align-items: stretch;
+  margin: 0 -0.5em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-input-wrapper {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin: 0 0.5em;
+  padding: 0.4em 0.8em;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.35em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-input-wrapper .avada-db-reg-input-icon {
+  margin: 0 0.5em;
+  color: #aaaeb2;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-input-wrapper input {
+  margin: 0 0.5em;
+  padding: 0.4em 0;
+  width: 100%;
+  font-size: inherit;
+  border: none;
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-button {
+  margin: 0 0.5em;
+  padding: 0 2em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-howto {
+  display: none;
+  margin-top: 1.4em;
+  padding: 1.4em;
+  border: 1px solid #dfdfdf;
+  border-radius: 0.7em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-howto-list {
+  margin: 0 0 0 1em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-loader {
+  display: none;
+  flex-shrink: 0;
+}
+.ltr .avada-dashboard .avada-db-registration .avada-db-reg-loader {
+  margin-right: 0.2em;
+}
+.rtl .avada-dashboard .avada-db-registration .avada-db-reg-loader {
+  margin-left: 0.2em;
+}
+.avada-dashboard .avada-db-registration .avada-db-reg-loader .avada-db-loader {
+  display: block;
+}
+.avada-dashboard .avada-db-welcome-resources {
+  order: 1;
+}
+.avada-dashboard .avada-db-welcome-resources .avada-db-card-heading-with-badge .avada-db-card-heading-badge {
+  background-color: #65bc7b;
+  color: #fff;
+}
+.avada-dashboard .avada-db-welcome-resources .avada-db-imgae-link {
+  display: block;
+}
+.avada-dashboard .avada-db-welcome-resources .avada-db-imgae-link img {
+  max-width: 400px;
+}
+.avada-dashboard .avada-db-welcome-resources .avada-db-welcome-resources-hosting .avada-db-card-notice-heading-image-half {
+  display: flex;
+}
+.avada-dashboard .avada-db-welcome-resources .avada-db-welcome-resources-hosting .avada-db-card-notice-heading-image-half img {
+  max-width: 200px;
+}
+.avada-dashboard .avada-db-welcome-partners {
+  order: 1;
+}
+.avada-dashboard .avada-db-welcome-partners .avada-db-card-heading-with-badge .avada-db-card-heading-badge {
+  background-color: #198fd9;
+  color: #fff;
+}
+.avada-dashboard .avada-db-welcome-partners .avada-db-imgae-link {
+  display: block;
+}
+.avada-dashboard .avada-db-welcome-partners .avada-db-imgae-link img {
+  max-width: 400px;
+}
+.avada-dashboard .fusion-layout-sections-table {
+  margin-top: 1.7em;
+}
+.avada-dashboard h1,
+.avada-dashboard h2,
+.avada-dashboard h3,
+.avada-dashboard h4,
+.avada-dashboard .avada-db-settings-error-heading {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #32373c;
+}
+.avada-dashboard h1 {
+  font-size: 1.8em;
+}
+.avada-dashboard h2,
+.avada-dashboard .avada-db-settings-error-heading {
+  font-size: 1.4em;
+  text-align: start;
+}
+.avada-dashboard h3 {
+  font-size: 1.1em;
+}
+.avada-dashboard h4 {
+  font-size: 1em;
+}
+.avada-dashboard p {
+  margin: 0 0 1em 0;
+  font-size: inherit;
+  line-height: 1.7;
+}
+.avada-dashboard p:last-child {
+  margin-bottom: 0;
+}
+.avada-dashboard a,
+.avada-dashboard .button-link {
+  color: #198fd9;
+  text-decoration: none;
+  outline: none;
+  box-shadow: none;
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+  cursor: pointer;
+}
+.avada-dashboard a:hover,
+.avada-dashboard .button-link:hover,
+.avada-dashboard a:focus,
+.avada-dashboard .button-link:focus,
+.avada-dashboard a:active,
+.avada-dashboard .button-link:active {
+  color: #0e7abd;
+}
+.avada-dashboard .button,
+.avada-dashboard .button.active,
+.avada-dashboard .page-title-action,
+.avada-dashboard #delete-link .delete {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 0;
+  padding: 0.6em 0.8em;
+  height: auto;
+  width: auto;
+  background-color: #fff;
+  border: 1px solid #dfdfdf;
+  border-radius: 4px;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: normal;
+  color: #2a3035;
+  outline: none;
+  text-decoration: none;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .button:hover,
+.avada-dashboard .button.active:hover,
+.avada-dashboard .page-title-action:hover,
+.avada-dashboard #delete-link .delete:hover,
+.avada-dashboard .button:focus,
+.avada-dashboard .button.active:focus,
+.avada-dashboard .page-title-action:focus,
+.avada-dashboard #delete-link .delete:focus,
+.avada-dashboard .button:active,
+.avada-dashboard .button.active:active,
+.avada-dashboard .page-title-action:active,
+.avada-dashboard #delete-link .delete:active {
+  background-color: #fff;
+  border-color: #dfdfdf;
+  color: #198fd9;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05), inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+.avada-dashboard .button .awb-text-wrapper,
+.avada-dashboard .button.active .awb-text-wrapper,
+.avada-dashboard .page-title-action .awb-text-wrapper,
+.avada-dashboard #delete-link .delete .awb-text-wrapper {
+  display: inline-flex;
+  align-items: center;
+  margin: 0 -0.25em;
+}
+.avada-dashboard .button .awb-text-wrapper i,
+.avada-dashboard .button.active .awb-text-wrapper i,
+.avada-dashboard .page-title-action .awb-text-wrapper i,
+.avada-dashboard #delete-link .delete .awb-text-wrapper i,
+.avada-dashboard .button .awb-text-wrapper span,
+.avada-dashboard .button.active .awb-text-wrapper span,
+.avada-dashboard .page-title-action .awb-text-wrapper span,
+.avada-dashboard #delete-link .delete .awb-text-wrapper span {
+  margin: 0 0.25em;
+}
+.avada-dashboard #delete-link .delete {
+  color: #dc3232 !important;
+}
+.avada-dashboard #delete-link .delete:hover,
+.avada-dashboard #delete-link .delete:focus,
+.avada-dashboard #delete-link .delete:active {
+  color: #a00 !important;
+  border: 1px solid #dfdfdf !important;
+}
+.avada-dashboard .button-primary {
+  padding: 0.6em 0.8em;
+  border-radius: 0.35em;
+  background-color: #198fd9;
+  color: #fff;
+  text-decoration: none;
+  outline: none;
+  border: none;
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+  box-shadow: 0 1px 3px rgba(25, 143, 217, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: normal;
+}
+.avada-dashboard .button-primary:hover,
+.avada-dashboard .button-primary:focus,
+.avada-dashboard .button-primary:active {
+  background-color: #0e7abd;
+  color: #fff;
+  box-shadow: 0 1px 3px rgba(25, 143, 217, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+}
+.avada-dashboard .avada-db-single-button-set {
+  display: flex;
+  align-items: start;
+  margin-right: -0.25em;
+  margin-left: -0.25em;
+}
+.avada-dashboard .avada-db-single-button-set .button,
+.avada-dashboard .avada-db-single-button-set .button-primary {
+  margin: 0 0.25em;
+}
+.avada-dashboard .ui-buttonset {
+  display: flex;
+}
+.avada-dashboard .ui-buttonset .ui-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0.6em 0.8em;
+  height: auto;
+  border: none;
+  background: #f2f3f5;
+  border-radius: 0;
+  font-size: inherit;
+  font-weight: 600;
+  line-height: normal;
+  min-width: 60px;
+  color: #93999f;
+  box-shadow: none;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+.avada-dashboard .ui-buttonset .ui-button:first-of-type {
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.avada-dashboard .ui-buttonset .ui-button:last-of-type {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+}
+.avada-dashboard .ui-buttonset .ui-button.ui-state-active {
+  background-color: #198fd9;
+  color: #fff;
+}
+.avada-dashboard .ui-buttonset .ui-button.ui-state-active[data-value="0"],
+.avada-dashboard .ui-buttonset .ui-button.ui-state-active[data-value="no"],
+.avada-dashboard .ui-buttonset .ui-button.ui-state-active[data-value="disabled"],
+.avada-dashboard .ui-buttonset .ui-button.ui-state-active[data-value="false"],
+.avada-dashboard .ui-buttonset .ui-button.ui-state-active[data-value="off"] {
+  background-color: #2a3035;
+  color: #fff;
+}
+.avada-dashboard input[type="text"],
+.avada-dashboard input[type="search"],
+.avada-dashboard select,
+.avada-dashboard textarea {
+  padding: 0.4em 0.8em;
+  /* Because of line-height */
+  border: 1px solid #dfdfdf;
+  border-radius: 0.35em;
+  font-size: inherit;
+  box-shadow: none;
+  line-height: 1.7;
+  transition: border-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard input[type="text"]:hover,
+.avada-dashboard input[type="search"]:hover,
+.avada-dashboard select:hover,
+.avada-dashboard textarea:hover,
+.avada-dashboard input[type="text"]:focus,
+.avada-dashboard input[type="search"]:focus,
+.avada-dashboard select:focus,
+.avada-dashboard textarea:focus,
+.avada-dashboard input[type="text"]:active,
+.avada-dashboard input[type="search"]:active,
+.avada-dashboard select:active,
+.avada-dashboard textarea:active {
+  border-color: #198fd9;
+}
+.avada-dashboard input.current-page {
+  padding: 0 0.3em 1px;
+}
+.avada-dashboard textarea {
+  padding: 1em;
+  font-size: 0.8em;
+  background: #fff;
+}
+.avada-dashboard select {
+  padding: 0.4em 1.6em 0.4em 0.8em;
+  background: #fff url("data:image/svg+xml,%3Csvg width='9' height='5' viewBox='0 0 9 5' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M1.87498 0.399963L4.49998 3.02496L7.12498 0.399963L8.17498 0.924964L4.49998 4.59996L0.824982 0.924964L1.87498 0.399963Z' fill='%2393999F'/%3E%3C/svg%3E%0A") no-repeat right 0.8em top 50%;
+  box-shadow: none !important;
+}
+.avada-dashboard select:focus {
+  color: inherit !important;
+}
+.avada-dashboard select:focus > option:checked {
+  color: inherit !important;
+}
+.avada-dashboard select:focus > option:hover {
+  background-color: #198fd9;
+}
+.rtl .avada-dashboard select {
+  padding: 0.4em 0.8em 0.4em 1.6em;
+  background-position: left 0.8em top 50%;
+}
+.avada-dashboard .wp-picker-container .wp-color-result {
+  border-radius: 0.35em;
+  font-weight: inherit;
+}
+.avada-dashboard .wp-picker-container input[type="button"] {
+  border-radius: 0.35em;
+  font-weight: inherit;
+}
+.avada-dashboard .wp-picker-container .iris-picker {
+  border-radius: 0.35em;
+}
+.avada-dashboard .form-wrap,
+.avada-dashboard .form-table {
+  font-size: inherit;
+}
+.avada-dashboard .form-wrap td,
+.avada-dashboard .form-table td {
+  font-size: inherit;
+}
+.avada-dashboard .form-wrap .form-field,
+.avada-dashboard .form-table .form-field {
+  margin: 0 0 2em 0;
+}
+.avada-dashboard .form-wrap .form-field label,
+.avada-dashboard .form-table .form-field label {
+  width: 100%;
+  font-weight: 600;
+}
+.avada-dashboard .form-wrap .form-field input[type="text"],
+.avada-dashboard .form-table .form-field input[type="text"],
+.avada-dashboard .form-wrap .form-field select,
+.avada-dashboard .form-table .form-field select {
+  margin: 0.5em 0;
+  width: 100%;
+  max-width: none;
+}
+.avada-dashboard .form-wrap .form-field .fusion-double-fields,
+.avada-dashboard .form-table .form-field .fusion-double-fields {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 -0.25em;
+}
+.avada-dashboard .form-wrap .form-field .fusion-double-fields .fusion-field,
+.avada-dashboard .form-table .form-field .fusion-double-fields .fusion-field {
+  margin: 0 0.25em;
+}
+.avada-dashboard .form-wrap .form-field .fusion-double-fields .fusion-field input,
+.avada-dashboard .form-table .form-field .fusion-double-fields .fusion-field input {
+  width: 100%;
+}
+.avada-dashboard .form-wrap .form-field .fusion-field label,
+.avada-dashboard .form-table .form-field .fusion-field label {
+  font-weight: 400;
+}
+.avada-dashboard .form-wrap .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator,
+.avada-dashboard .form-table .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.5;
+  position: absolute;
+  margin: 0.5em 0;
+  height: 42px;
+  width: 36px;
+}
+.avada-dashboard .form-wrap .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator i,
+.avada-dashboard .form-table .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator i {
+  font-size: 0.8em;
+}
+.avada-dashboard .form-wrap .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator .avada-db-rotate-45,
+.avada-dashboard .form-table .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator .avada-db-rotate-45 {
+  transform: rotate(45deg);
+}
+.avada-dashboard .form-wrap .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator .avada-db-rotate-m45,
+.avada-dashboard .form-table .form-field .fusion-field.avada-db-input-indicator .avada-db-indicator .avada-db-rotate-m45 {
+  transform: rotate(-45deg);
+}
+.avada-dashboard .form-wrap .form-field .fusion-field.avada-db-input-indicator input,
+.avada-dashboard .form-table .form-field .fusion-field.avada-db-input-indicator input {
+  padding-right: 2.1em;
+  padding-left: 2.1em;
+}
+.avada-dashboard .form-wrap .form-field.form-field-checkbox .description,
+.avada-dashboard .form-table .form-field.form-field-checkbox .description {
+  flex: 2;
+  margin: 0 0.5em;
+}
+.avada-dashboard .form-wrap .form-field .avada-db-checkbox-wrapper,
+.avada-dashboard .form-table .form-field .avada-db-checkbox-wrapper {
+  display: flex;
+  margin: 0.5em 0;
+}
+.avada-dashboard .form-wrap .form-field .avada-db-checkbox-wrapper input,
+.avada-dashboard .form-table .form-field .avada-db-checkbox-wrapper input {
+  margin-top: 0.2em;
+}
+.avada-dashboard .form-wrap .submit,
+.avada-dashboard .form-table .submit {
+  margin-top: 1em;
+  padding: 0;
+}
+.avada-dashboard .form-wrap .submit input[type="submit"],
+.avada-dashboard .form-table .submit input[type="submit"] {
+  margin: 0;
+}
+.avada-dashboard .avada-db-table {
+  margin-top: 1.7em;
+}
+.avada-dashboard .avada-db-table .wp-list-table {
+  margin-top: 1.7em;
+  border: none;
+}
+.avada-dashboard .subsubsub {
+  margin-top: 0;
+  font-size: 0.8em;
+  color: inherit;
+}
+.avada-dashboard .tablenav {
+  height: auto;
+}
+.avada-dashboard .wp-list-table {
+  border: 1px solid #dfdfdf;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 0.35em;
+}
+.avada-dashboard .wp-list-table .column-title strong {
+  font-weight: 400;
+}
+.avada-dashboard .wp-list-table thead th,
+.avada-dashboard .wp-list-table thead td {
+  border-bottom: 1px solid #dfdfdf;
+}
+.avada-dashboard .wp-list-table tfoot th,
+.avada-dashboard .wp-list-table tfoot td {
+  border-top: 1px solid #dfdfdf;
+}
+/* Loading Spinner */
+.avada-db-loader {
+  display: none;
+  visibility: visible;
+  background: none;
+  flex-shrink: 0;
+  margin-top: 0;
+  height: 2.3em;
+  border-radius: 50%;
+  width: 2.3em;
+  color: transparent;
+  font-size: 10px;
+  border: 0.3em solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.3em solid #333;
+  animation: avada-rotate 0.8s infinite linear;
+}
+@keyframes avada-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.avada-db-sale-button {
+  padding-right: 0.55em !important;
+  padding-left: 0.55em !important;
+  background-color: #65bc7b !important;
+}
+.avada-db-sale-button.fusion-dbw-license {
+  padding: 0 6px !important;
+}
+.avada-db-sale-button:hover,
+.avada-db-sale-button:focus,
+.avada-db-sale-button:active {
+  background-color: #76db96 !important;
+}
+.avada-db-sale-button:before {
+  content: "\e928";
+  margin: 0 0.25em;
+  font-family: "icomoon" !important;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+}
+.avada-db-sale-button .avada-db-buy-now-button-text {
+  margin: 0 0.25em;
+}
+.avada-install-plugins .theme .update-message {
+  display: block !important;
+  cursor: default;
+}
+.cp-rebranding-warning {
+  display: none;
+}
+/* stylelint-disable no-descending-specificity */
+/* General card styling */
+.fusion-body .avada-db-card {
+  margin-top: 1.7em;
+  padding: 2.8em;
+  font-size: inherit;
+  background-color: #fff;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.fusion-body .avada-db-card.avada-db-card-transparent {
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+.fusion-body .avada-db-card .avada-db-card-text-small {
+  font-size: 0.8em;
+  line-height: 1.6;
+}
+.fusion-body .avada-db-card .avada-db-card-heading-with-badge {
+  display: flex;
+  align-items: center;
+  margin: 0 -0.4em;
+}
+.fusion-body .avada-db-card .avada-db-card-heading-with-badge .avada-db-card-heading-text {
+  margin: 0 0.4em;
+}
+.fusion-body .avada-db-card .avada-db-card-heading-badge {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 0.2em;
+  padding: 0.3em 0.35em;
+  font-size: 0.55em;
+  line-height: 1;
+  font-weight: 400;
+  background-color: #f8f8f8;
+  border-radius: 0.35em;
+  white-space: nowrap;
+}
+.fusion-body .avada-db-card .avada-db-card-heading-badge i,
+.fusion-body .avada-db-card .avada-db-card-heading-badge .avada-db-card-heading-badge-text {
+  margin: 0 0.15em;
+}
+.fusion-body .avada-db-card .avada-db-card-grid {
+  display: flex;
+  margin: 1.7em -0.85em 0 -0.85em;
+}
+.fusion-body .avada-db-card .avada-db-card-grid .avada-db-card-notice {
+  flex-flow: column;
+  flex: 1;
+  align-items: center;
+  margin: 0 0.85em;
+  text-align: center;
+}
+.fusion-body .avada-db-card .avada-db-card-grid .avada-db-card-notice.avada-db-sale {
+  overflow: hidden;
+  position: relative;
+}
+.fusion-body .avada-db-card .avada-db-card-grid .avada-db-card-notice.avada-db-sale:before {
+  content: attr(data-sale);
+  position: absolute;
+  top: -25px;
+  right: -25px;
+  padding: 5px 10px;
+  width: 135px;
+  transform: translateX(30%) rotate(45deg);
+  transform-origin: top left;
+  background-color: #65bc7b;
+  color: #fff;
+  text-transform: uppercase;
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
+}
+.fusion-body .avada-db-card .avada-db-card-grid .avada-db-card-notice .avada-db-card-notice-heading {
+  display: flex;
+  margin: 0 -0.4em;
+}
+.fusion-body .avada-db-card .avada-db-card-grid .avada-db-card-notice .avada-db-card-notice-heading h3 {
+  margin: 0 0.4em;
+}
+.fusion-body .avada-db-card .notice-dismiss,
+.fusion-body .avada-db-card .avada-db-more-info {
+  position: absolute;
+  top: 0;
+  right: 1px;
+  margin: 1.2em;
+  padding: 0.2em;
+  border: none;
+  background: 0 0;
+  color: inherit;
+  cursor: pointer;
+  outline: none;
+  box-shadow: none;
+}
+.fusion-body .avada-db-card .notice-dismiss:before,
+.fusion-body .avada-db-card .avada-db-more-info:before {
+  content: "\e92f";
+  opacity: 0.4;
+  font-size: 0.8em;
+  font-family: icomoon;
+  color: inherit;
+}
+.fusion-body .avada-db-card .avada-db-more-info {
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.fusion-body .avada-db-card .avada-db-more-info:before {
+  content: "\e907";
+  font-size: inherit;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.fusion-body .avada-db-card .avada-db-more-info:hover {
+  color: #198fd9;
+}
+.fusion-body .avada-db-card .avada-db-more-info:hover:before {
+  opacity: 1;
+}
+.fusion-body .avada-db-card .avada-db-tooltip .avada-db-tooltip-text {
+  display: block;
+  opacity: 0;
+  position: absolute;
+  top: -35px;
+  left: 50%;
+  margin: 0 auto;
+  background: #2a3035;
+  color: #fff;
+  padding: 0.8em;
+  font-size: 0.65em;
+  border-radius: 0.35em;
+  transform: translateX(-50%);
+  white-space: nowrap;
+  text-align: center;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  pointer-events: none;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1) 0.2s;
+}
+.fusion-body .avada-db-card .avada-db-tooltip .avada-db-tooltip-text:before {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: transparent;
+  border-top-color: #2a3035;
+  bottom: -8px;
+  z-index: 2;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1) 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  line-height: normal;
+  pointer-events: none;
+}
+.fusion-body .avada-db-card .avada-db-tooltip:hover .avada-db-tooltip-text {
+  opacity: 1;
+}
+.fusion-body .avada-db-card .avada-db-card-notice {
+  display: flex;
+  margin: 1em -0.4em 0 -0.4em;
+  padding: 1.4em;
+  border-radius: 0.7em;
+  background-color: #f8f8f8;
+}
+.fusion-body .avada-db-card .avada-db-card-notice i {
+  color: #32373c;
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+.fusion-body .avada-db-card .avada-db-card-notice h3 {
+  line-height: 1.5em;
+}
+.fusion-body .avada-db-card .avada-db-card-notice .fusiona-info-circle {
+  color: #198fd9;
+}
+.fusion-body .avada-db-card .avada-db-card-notice i,
+.fusion-body .avada-db-card .avada-db-card-notice .avada-db-card-notice-heading {
+  margin: 0 0.4em;
+}
+.fusion-body .avada-db-card .avada-db-card-notice .avada-db-card-notice-content {
+  margin: 1em 0.4em 0 0.4em;
+}
+.fusion-body .avada-db-card .avada-db-card-notice-button {
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+  margin: 1em -2px 0 -2px;
+}
+.fusion-body .avada-db-card .avada-db-card-notice-button .avada-db-card-notice {
+  margin: 0 2px;
+}
+.fusion-body .avada-db-card .avada-db-card-notice-button .avada-db-card-notice.notice-button {
+  align-items: center;
+}
+.fusion-body .avada-db-card .avada-db-card-error {
+  margin-top: 1em;
+  padding: 1.4em;
+  background-color: #dc3232;
+  box-shadow: 0 1px 3px rgba(220, 50, 50, 0.3), inset 0 -1px 0 rgba(0, 0, 0, 0.05);
+  color: #fff;
+  border-radius: 0.35em;
+}
+.fusion-body .avada-db-card .avada-db-card-error a {
+  color: #fff;
+  text-decoration: underline;
+}
+.fusion-body .avada-db-card.avada-db-notice {
+  position: relative;
+  margin: 1.7em 0;
+  padding: 2.8em;
+  max-width: none;
+  border-top: none;
+  border-bottom: none;
+}
+.fusion-body .avada-db-card.avada-db-notice h2 {
+  color: #dc3232;
+}
+.ltr.fusion-body .avada-db-card.avada-db-notice {
+  border-left: 4px solid #dc3232;
+  border-right: none;
+}
+.rtl.fusion-body .avada-db-card.avada-db-notice {
+  border-right: 4px solid #dc3232;
+  border-left: none;
+}
+.fusion-body .avada-db-card.avada-db-notice p,
+.fusion-body .avada-db-card.avada-db-notice .avada-db-settings-error-p {
+  display: block;
+  margin: 0 0 1em 0;
+  padding: 0;
+  line-height: 1.7em;
+  font-weight: 400;
+}
+.fusion-body .avada-db-card.avada-db-notice p:last-of-type,
+.fusion-body .avada-db-card.avada-db-notice .avada-db-settings-error-p:last-of-type {
+  margin-bottom: 0;
+}
+.fusion-body .avada-db-card.avada-db-notice ul {
+  margin: 0 1em 1em 1em;
+}
+.fusion-body .avada-db-card.avada-db-notice ul li {
+  margin-bottom: 0.5em;
+}
+.fusion-body .avada-db-card.avada-db-notice ul li:last-child {
+  margin-bottom: 0;
+}
+.fusion-body .avada-db-card.avada-db-notice ul li:before {
+  content: "\e90b";
+  font-family: icomoon;
+  font-size: 0.8em;
+}
+.fusion-body .avada-db-card.avada-db-notice ul li span {
+  margin: 0 0.5em;
+}
+.fusion-body .avada-db-card.avada-db-notice table {
+  margin-top: 1em;
+}
+.fusion-body .avada-db-card.avada-db-notice.settings-error {
+  display: block !important;
+}
+.fusion-body .avada-db-card.avada-db-notice.settings-error > p {
+  margin: 0;
+  padding: 0;
+}
+.fusion-body .avada-db-card.avada-db-notice.settings-error .avada-db-settings-error-heading {
+  display: block;
+  color: #dc3232;
+}
+.fusion-body .avada-db-card.avada-db-notice.avada-db-notice-success {
+  border-color: #65bc7b;
+}
+.fusion-body .avada-db-card.avada-db-notice.avada-db-notice-success h2 {
+  color: #65bc7b;
+}
+.fusion-body .avada-db-card.avada-db-notice.avada-db-notice-info {
+  border-color: #198fd9;
+}
+.fusion-body .avada-db-card.avada-db-notice.avada-db-notice-info h2 {
+  color: #198fd9;
+}
+.fusion-body .avada-db-card .registration-form-container {
+  float: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.fusion-body .avada-db-card .fusion-patcher-table {
+  width: 100%;
+}
+.avada-dashboard #remote-media-found-in-fusion-options {
+  display: block !important;
+  position: relative;
+}
+.avada-dashboard #remote-media-found-in-fusion-options ul li:before {
+  content: "\f0ac";
+}
+.fusionredux-container {
+  margin-top: 1.7em;
+}
+/* Prebuilt Websites Page */
+/* stylelint-disable no-descending-specificity */
+.avada-dashboard.avada-db-prebuilt-websites .avada-db-card:not(.avada-db-card-transparent) {
+  padding: 2.2em;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-db-demos-wrapper {
+  display: grid;
+  grid-template-columns: max-content 1fr;
+  grid-gap: 1.7em;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector {
+  position: sticky;
+  top: 145px;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-search {
+  margin: 0 0 1.4em 0;
+  width: 100%;
+  max-width: 200px;
+  font-size: 0.9em;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector > ul {
+  margin: 0;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter {
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0.5em 0;
+  min-height: 0;
+  background: none;
+  border: none;
+  text-decoration: none;
+  font-size: 0.9em;
+  line-height: 1;
+  color: #198fd9;
+  box-shadow: none;
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), padding 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter:hover,
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter:focus,
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter:active {
+  padding-left: 0.5em;
+  color: #0e7abd;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter .avada-db-demos-filter-text {
+  padding: 0 0.4em;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter .count {
+  color: #555d66;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter.current-filter,
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter.current-filter .count {
+  font-weight: 600;
+}
+.avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-filter:before {
+  font-family: "icomoon";
+  content: "\e930";
+  font-weight: 100;
+  font-size: 0.8em;
+}
+.avada-dashboard .avada-db-demos-themes,
+.avada-dashboard .avada-db-plugins-themes {
+  padding: 0;
+  background: none;
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser.feature-section.rendered,
+.avada-dashboard .avada-db-plugins-themes .theme-browser.feature-section.rendered {
+  overflow: visible;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(225px, 1fr));
+  grid-gap: 1.7em;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme-wrapper,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme-wrapper {
+  overflow: hidden;
+  position: relative;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1), 0 2px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), box-shadow 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme {
+  margin: 0 !important;
+  width: 100% !important;
+  border: none;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:hover,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:hover,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:focus,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:focus {
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:hover .theme-wrapper,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:hover .theme-wrapper,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:focus .theme-wrapper,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:focus .theme-wrapper {
+  transform: scale(0.9);
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.25);
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:hover .theme-screenshot,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:hover .theme-screenshot,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:focus .theme-screenshot,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:focus .theme-screenshot {
+  background-color: #000;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:hover .theme-screenshot img,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:hover .theme-screenshot img,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:focus .theme-screenshot img,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:focus .theme-screenshot img {
+  opacity: 0.2;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:hover .plugin-required,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:hover .plugin-required,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:focus .plugin-required,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:focus .plugin-required,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:hover .plugin-premium,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:hover .plugin-premium,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme:focus .plugin-premium,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme:focus .plugin-premium {
+  opacity: 0.2;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-screenshot,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-screenshot {
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-screenshot:after,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-screenshot:after {
+  padding-top: 74.9%;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-screenshot img,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-screenshot img {
+  transform: translateZ(0);
+  -webkit-transform-style: preserve-3d;
+  -webkit-backface-visibility: hidden;
+  border: none;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1) 0s, transform 0.2s cubic-bezier(0.21, 0.6, 0.35, 1) 0s;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-name,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-name {
+  font-size: inherit;
+  height: auto;
+  padding: 1em;
+  box-shadow: inset 0 1px 0 rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  background: #fff;
+  color: #32373c;
+  font-weight: 400;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-name span,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-name span {
+  font-weight: 400;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-name .plugin-info,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-name .plugin-info {
+  font-weight: 400;
+  font-size: 0.8em;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme.active .theme-name,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme.active .theme-name {
+  font-weight: 600;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme.active .theme-name span,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme.active .theme-name span {
+  font-weight: 600;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme.active .theme-name .plugin-info,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme.active .theme-name .plugin-info {
+  font-weight: 400;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-actions,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-actions {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: -2em;
+  transform: none;
+  padding: 0;
+  border: none;
+  background: transparent;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-actions .button-primary,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-actions .button-primary {
+  margin: 0 0 0.6em 0;
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-actions .button-primary:nth-child(2),
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-actions .button-primary:nth-child(2) {
+  margin-bottom: 0;
+  background: none !important;
+  box-shadow: none;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-actions .button-primary:nth-child(2):hover,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-actions .button-primary:nth-child(2):hover,
+.avada-dashboard .avada-db-demos-themes .theme-browser .theme .theme-actions .button-primary:nth-child(2):focus,
+.avada-dashboard .avada-db-plugins-themes .theme-browser .theme .theme-actions .button-primary:nth-child(2):focus {
+  opacity: 0.8;
+}
+.avada-dashboard .avada-db-demos-themes .plugin-required,
+.avada-dashboard .avada-db-plugins-themes .plugin-required,
+.avada-dashboard .avada-db-demos-themes .plugin-premium,
+.avada-dashboard .avada-db-plugins-themes .plugin-premium {
+  position: absolute;
+  top: 0.7em;
+  padding: 0.5em 0.7em;
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 0.8em;
+  border-radius: 0.43em;
+  transition: opacity 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.ltr .avada-dashboard .avada-db-demos-themes .plugin-required,
+.ltr .avada-dashboard .avada-db-plugins-themes .plugin-required,
+.ltr .avada-dashboard .avada-db-demos-themes .plugin-premium,
+.ltr .avada-dashboard .avada-db-plugins-themes .plugin-premium {
+  left: 0.7em;
+}
+.rtl .avada-dashboard .avada-db-demos-themes .plugin-required,
+.rtl .avada-dashboard .avada-db-plugins-themes .plugin-required,
+.rtl .avada-dashboard .avada-db-demos-themes .plugin-premium,
+.rtl .avada-dashboard .avada-db-plugins-themes .plugin-premium {
+  right: 0.7em;
+}
+.avada-dashboard .avada-db-demos-themes .plugin-required,
+.avada-dashboard .avada-db-plugins-themes .plugin-required {
+  background: rgba(101, 188, 123, 0.95);
+}
+.avada-dashboard .avada-db-demos-themes .plugin-premium,
+.avada-dashboard .avada-db-plugins-themes .plugin-premium {
+  background: rgba(14, 122, 189, 0.95);
+}
+.avada-dashboard .avada-db-demos-themes .plugin-required-premium,
+.avada-dashboard .avada-db-plugins-themes .plugin-required-premium {
+  top: 3.5em;
+}
+.avada-dashboard .avada-db-demos-themes .update .plugin-required,
+.avada-dashboard .avada-db-plugins-themes .update .plugin-required,
+.avada-dashboard .avada-db-demos-themes .update .plugin-premium,
+.avada-dashboard .avada-db-plugins-themes .update .plugin-premium {
+  top: 3.6em;
+}
+.avada-dashboard .avada-db-demos-themes .update .plugin-required-premium,
+.avada-dashboard .avada-db-plugins-themes .update .plugin-required-premium {
+  top: 6.4em;
+}
+.avada-dashboard .avada-db-demos-themes.avada-install-plugins .plugin-required,
+.avada-dashboard .avada-db-plugins-themes.avada-install-plugins .plugin-required,
+.avada-dashboard .avada-db-demos-themes.avada-install-plugins .plugin-premium,
+.avada-dashboard .avada-db-plugins-themes.avada-install-plugins .plugin-premium {
+  width: 82px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.fadeInUp {
+  animation-name: fadeInUp;
+}
+.fusion-animated {
+  visibility: hidden;
+  animation-fill-mode: both;
+  animation-duration: 1s;
+  animation-play-state: paused;
+}
+.theme:hover .fusion-animated {
+  animation-play-state: running;
+}
+.success-icon i {
+  margin: -20px auto 0 auto;
+  height: 40px;
+  width: 40px;
+  font-size: 40px;
+  animation: none;
+}
+.warning-icon i {
+  animation: none;
+}
+.avada-dashboard .avada-db-plugins-themes {
+  background: none;
+  box-shadow: none;
+}
+.avada-dashboard .avada-db-plugins-themes .theme-wrapper .update-message.notice-warning {
+  z-index: 1;
+  padding: 0.5em;
+  font-size: 0.8em;
+  background: rgba(213, 78, 33, 0.95);
+  border: none;
+  color: #fff;
+}
+.avada-dashboard .avada-db-plugins-themes .theme-wrapper .update-message.notice-warning p {
+  margin: 0;
+}
+.avada-dashboard .avada-db-plugins-themes .theme-wrapper .update-message.notice-warning p:before {
+  color: rgba(255, 255, 255, 0.7);
+}
+.avada-dashboard .avada-db-addons-start {
+  margin-top: 3.4em;
+}
+.avada-dashboard.avada-db-status .get-system-status {
+  display: block;
+}
+.avada-dashboard.avada-db-status .debug-report {
+  display: none;
+  margin-top: 1em;
+}
+.avada-dashboard.avada-db-status .debug-report textarea {
+  margin: 0;
+  width: 100%;
+  height: 300px;
+  font-family: monospace;
+  resize: none;
+  outline: 0;
+}
+.avada-dashboard.avada-db-status .debug-report .submit {
+  padding: 1em 0 0 0;
+}
+.avada-dashboard.avada-db-status table {
+  border: 1px solid #dfdfdf;
+  border-radius: 0.35em;
+}
+.avada-dashboard.avada-db-status table tr td {
+  padding: 0.8em;
+  font-size: 0.8em;
+}
+.avada-dashboard.avada-db-status table tr td:first-child {
+  width: 33%;
+}
+.avada-dashboard.avada-db-status table tr td.help {
+  width: 1em;
+}
+.avada-dashboard.avada-db-status table tr:nth-child(2n) td,
+.avada-dashboard.avada-db-status table tr:nth-child(2n) th {
+  background: #f8f8f8;
+}
+.avada-dashboard.avada-db-status table .avada-db-status-version-control {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 -0.4em;
+  padding: 0.5em 0;
+}
+.avada-dashboard.avada-db-status table .avada-db-status-version-control .avada-db-status-version-control-desc {
+  margin: 0 0.4em;
+}
+.avada-dashboard.avada-db-status table .avada-db-status-version-control a {
+  justify-content: center;
+  margin: 0 0.4em;
+  min-width: 150px;
+}
+.avada-dashboard.avada-db-status table .fusion-api-status-error,
+.avada-dashboard.avada-db-status table mark.error {
+  color: #dc3232;
+  background: none;
+}
+.avada-dashboard.avada-db-status table .fusion-api-status-ok,
+.avada-dashboard.avada-db-status table mark.yes {
+  color: #65bc7b;
+  background: none;
+}
+.avada-dashboard.avada-db-status .awb-setup-update-tools table {
+  margin-bottom: 1.4em;
+}
+.avada-dashboard.avada-db-status .awb-setup-update-tools table:last-of-type {
+  margin-bottom: 0;
+}
+.avada-dashboard.avada-db-status .awb-status-legacy-conversion {
+  margin-top: 2.8em;
+}
+.avada-dashboard.avada-db-status .avada-db-status-version-control-notice {
+  font-size: 0.8em;
+}
+.avada-dashboard.avada-db-status .avada-db-status-version-control-notice strong {
+  color: #dc3232;
+}
+.avada-wrap .fusion-system-status-debug .system-report-msg {
+  padding: 0 10px;
+}
+.avada-dashboard.fusion-builder-wrap {
+  margin-top: 25px;
+  margin-right: 20px;
+  max-width: 1100px;
+}
+.avada-dashboard.avada-db-builder-options .fusion-builder-option {
+  display: flex;
+  margin: 0 -1.7em;
+}
+.avada-dashboard.avada-db-builder-options .fusion-builder-option .fusion-builder-option-title {
+  flex: 1.5;
+  margin: 0 1.7em;
+}
+.avada-dashboard.avada-db-builder-options .fusion-builder-option .fusion-builder-option-field {
+  flex: 2;
+  margin: 0 1.7em;
+}
+.avada-dashboard.avada-db-builder-options .fusion-builder-option .fusion-builder-option-field ul li {
+  float: left;
+  margin-bottom: 10px;
+  width: 33.333%;
+}
+.avada-dashboard.avada-db-builder-options .fusion-builder-option .fusion-builder-option-field label {
+  font-size: 0.8em;
+}
+.avada-dashboard.avada-db-builder-options .fusion-builder-option .fuion-builder-element-activation {
+  display: flex;
+  align-items: center;
+  margin-top: 1.7em;
+}
+.term-php .avada-dashboard.avada-db-sliders {
+  margin-top: 25px;
+}
+.avada-dashboard.avada-db-sliders .wrap {
+  padding: 2.8em;
+  background-color: #fff;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.06), 0 1px 3px rgba(0, 0, 0, 0.1);
+}
+.avada-dashboard.avada-db-sliders #col-container {
+  display: flex;
+  flex-flow: column;
+  width: 100%;
+}
+.avada-dashboard.avada-db-sliders #col-left {
+  order: 2;
+  margin-top: 1.7em;
+}
+.avada-dashboard.avada-db-sliders #col-left h2 {
+  position: absolute;
+  top: 2.1em;
+}
+.avada-dashboard.avada-db-sliders #col-left,
+.avada-dashboard.avada-db-sliders #col-right {
+  width: auto;
+}
+.avada-dashboard.avada-db-sliders #edittag {
+  max-width: none;
+}
+.avada-dashboard.avada-db-sliders #edittag .form-table {
+  margin-top: 1.1em;
+}
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody th,
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody td {
+  display: block;
+  margin: 0;
+  padding: 0;
+  width: auto;
+  line-height: inherit;
+  text-align: start;
+}
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody .form-field:nth-last-child(1),
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody .form-field:nth-last-child(2) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.avada-dashboard.avada-db-sliders #addtag .form-field:nth-last-child(2),
+.avada-dashboard.avada-db-sliders #addtag .form-field:nth-last-child(3) {
+  border-bottom: 1px solid #dfdfdf;
+}
+.avada-dashboard.avada-db-sliders #addtag,
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.avada-dashboard.avada-db-sliders #addtag .form-field,
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody .form-field {
+  margin: 0;
+  padding: 1.7em;
+  border-top: 1px solid #dfdfdf;
+  border-left: 1px solid #dfdfdf;
+}
+.avada-dashboard.avada-db-sliders #addtag .form-field:nth-child(2n),
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody .form-field:nth-child(2n) {
+  border-right: 1px solid #dfdfdf;
+}
+.rtl .avada-dashboard.avada-db-sliders #addtag .form-field,
+.rtl .avada-dashboard.avada-db-sliders #edittag .form-table tbody .form-field {
+  border-right: 1px solid #dfdfdf;
+  border-left: none;
+}
+.avada-dashboard.avada-db-sliders #addtag p,
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody p {
+  margin-bottom: 0;
+  font-size: 0.8em;
+}
+.avada-dashboard.avada-db-sliders #addtag p.submit,
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody p.submit {
+  margin-top: 1em;
+  font-size: inherit;
+}
+.avada-dashboard.avada-db-sliders #addtag .fusion-field label,
+.avada-dashboard.avada-db-sliders #edittag .form-table tbody .fusion-field label {
+  padding: 0;
+  font-size: 0.8em;
+  color: inherit;
+}
+.avada-dashboard.avada-db-edit-screen {
+  margin: 3em 0 -65px 0;
+}
+.post-php .avada-dashboard.avada-db-edit-screen {
+  max-width: none;
+}
+.ltr .avada-dashboard.avada-db-edit-screen {
+  margin-right: 20px;
+}
+.rtl .avada-dashboard.avada-db-edit-screen {
+  margin-left: 20px;
+}
+.avada-dashboard.avada-db-edit-screen .wp-heading-inline,
+.avada-dashboard.avada-db-edit-screen .wp-header-end {
+  display: none;
+}
+.avada-dashboard.avada-db-edit-screen .wrap {
+  position: relative;
+  margin-top: 1.7em;
+  margin-right: 0;
+  font-size: inherit;
+}
+.avada-dashboard.avada-db-edit-screen .wrap .avada-slider-clone {
+  position: absolute;
+  top: 2.8em;
+  right: 2.8em;
+}
+.avada-dashboard.avada-db-edit-screen .wrap .search-form {
+  float: right;
+}
+.rtl .avada-dashboard.avada-db-edit-screen .wrap .search-form {
+  float: left;
+}
+.avada-dashboard.avada-db-edit-screen .wrap h2 {
+  margin: 0 0 0.5em 0;
+  padding: 0;
+  font-size: 1.3em;
+  line-height: 1.3;
+  font-weight: 600;
+  color: #32373c;
+}
+.avada-dashboard.avada-db-edit-screen .wrap .edit-tag-actions {
+  margin: 1em -0.25em 0 -0.25em;
+}
+.avada-dashboard.avada-db-edit-screen .wrap .edit-tag-actions > input,
+.avada-dashboard.avada-db-edit-screen .wrap .edit-tag-actions #delete-link {
+  margin: 0 0.25em;
+}
+.avada-dashboard.avada-db-edit-screen-footer {
+  padding-bottom: 65px;
+}
+.ltr .avada-dashboard.avada-db-edit-screen-footer {
+  margin-right: 25px;
+  margin-left: 5px;
+}
+.rtl .avada-dashboard.avada-db-edit-screen-footer {
+  margin-right: 5px;
+  margin-left: 25px;
+}
+.avada-dashboard.avada-db-slides {
+  max-width: 1100px;
+}
+.ltr .avada-dashboard.avada-db-slides .subsubsub {
+  margin-right: 1em;
+}
+.rtl .avada-dashboard.avada-db-slides .subsubsub {
+  margin-left: 1em;
+}
+.avada-dashboard.avada-db-slides .wrap {
+  margin-top: 1.7em;
+}
+.avada-dashboard.avada-db-slides #posts-filter {
+  margin-top: -50px;
+}
+.avada-dashboard.avada-db-slide-edit {
+  margin-bottom: 0;
+}
+.avada-dashboard .avada-db-slider-import-export input[type="submit"] {
+  margin-top: 1em;
+}
+.avada-dashboard .avada-db-footer {
+  margin-top: 3.4em;
+  font-size: 0.8em;
+}
+.avada-dashboard .avada-db-footer a {
+  color: inherit;
+}
+.avada-dashboard .avada-db-footer a:hover,
+.avada-dashboard .avada-db-footer a:focus,
+.avada-dashboard .avada-db-footer a:active {
+  color: #32373c;
+}
+.avada-dashboard .avada-db-footer-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #dfdfdf;
+}
+.avada-dashboard .avada-db-footer-menu {
+  display: flex;
+  align-items: center;
+  margin: 0 -0.75em;
+}
+.avada-dashboard .avada-db-footer-menu ul {
+  display: flex;
+  margin: 0;
+}
+.avada-dashboard .avada-db-footer-menu li {
+  margin: 0 0.75em;
+}
+.avada-dashboard .avada-db-footer-company {
+  display: flex;
+  align-items: center;
+  margin: 0 0.5em;
+}
+.avada-dashboard .avada-db-footer-company i,
+.avada-dashboard .avada-db-footer-company strong {
+  margin: 0 0.25em;
+}
+.avada-dashboard .avada-db-footer-social-media {
+  display: flex;
+}
+.avada-dashboard .avada-db-footer-social-media .avada-db-social-icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 0.1em;
+  width: 1.75em;
+  height: 1.75em;
+  border-radius: 50%;
+  font-size: 1.5em;
+  line-height: 1;
+  font-weight: normal;
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1), background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .avada-db-footer-social-media .avada-db-social-icon:hover,
+.avada-dashboard .avada-db-footer-social-media .avada-db-social-icon:focus,
+.avada-dashboard .avada-db-footer-social-media .avada-db-social-icon:active {
+  background-color: #e5e5e5;
+}
+.avada-dashboard .avada-db-footer-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+.avada-dashboard .avada-db-footer-thanks {
+  font-size: 0.9em;
+}
+/* stylelint-disable no-descending-specificity */
+@media screen and (max-width: 1250px) {
+  .avada-dashboard.avada-db-layouts .fusion-layouts-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 1100px) {
+  .avada-dashboard .avada-db-menu-sticky .avada-db-menu-item-link {
+    flex-flow: column;
+    padding: 1.5em 0;
+  }
+  .avada-dashboard .avada-db-menu-sticky .avada-db-menu-item-link .avada-db-menu-item-text {
+    margin-top: 0.3em;
+  }
+  .avada-dashboard .avada-db-card .avada-db-card-grid {
+    flex-flow: column;
+    margin: 0.85em -0.85em 0 -0.85em;
+  }
+  .avada-dashboard .avada-db-card .avada-db-card-grid .avada-db-card-notice {
+    margin: 0.85em;
+  }
+  .avada-dashboard .avada-db-card .avada-db-card-grid .avada-db-card-notice:last-child {
+    margin-bottom: 0;
+  }
+  .avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container {
+    flex-direction: column;
+  }
+  .avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-media-container {
+    margin: 1.4em -1.4em -2.8em -1.4em;
+  }
+  .avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-media-container .avada-db-welcome-image {
+    max-width: none;
+    height: auto;
+    width: 100%;
+  }
+  .avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-intro {
+    text-align: center;
+  }
+  .avada-dashboard .avada-db-welcome-setup .avada-db-welcome-container .avada-db-welcome-video {
+    justify-content: center;
+  }
+  .avada-dashboard.avada-db-builder-options .fusion-builder-option {
+    flex-flow: column;
+  }
+  .avada-dashboard.avada-db-builder-options .fusion-builder-option .fusion-builder-option-field {
+    margin-top: 1em;
+  }
+}
+@media screen and (max-width: 930px) {
+  .avada-dashboard .avada-db-live {
+    display: none;
+  }
+}
+@media screen and (max-width: 870px) {
+  .avada-dashboard .avada-db-menu-sticky .avada-db-menu-sticky-label {
+    display: none;
+  }
+  .ltr .avada-dashboard .avada-db-menu-sticky .avada-db-menu-item:nth-child(4) .avada-db-menu-sub {
+    right: 0;
+  }
+  .rtl .avada-dashboard .avada-db-menu-sticky .avada-db-menu-item:nth-child(4) .avada-db-menu-sub {
+    left: 0;
+  }
+  .ltr .avada-dashboard .avada-db-menu .avada-db-menu-item:last-child .avada-db-menu-sub {
+    right: 0;
+  }
+  .rtl .avada-dashboard .avada-db-menu .avada-db-menu-item:last-child .avada-db-menu-sub {
+    left: 0;
+  }
+  .avada-dashboard .avada-db-card-notice-button {
+    flex-flow: column;
+    align-items: stretch;
+    justify-content: space-around;
+    margin: 1em 0 0 0;
+  }
+  .avada-dashboard .avada-db-card-notice-button .avada-db-card-notice {
+    margin: 0;
+  }
+  .avada-dashboard .avada-db-card-notice-button .avada-db-card-notice.notice-button {
+    padding: 0 3.4em 1.4em 3.4em;
+  }
+  .avada-dashboard .avada-db-footer .avada-db-footer-menu ul,
+  .avada-dashboard .avada-db-footer .avada-db-footer-menu-bottom {
+    display: none;
+  }
+  .avada-dashboard.avada-db-patcher .fusion-patcher-table th {
+    display: none;
+  }
+  .avada-dashboard.avada-db-patcher .fusion-patcher-table-head {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+  }
+  .avada-dashboard.avada-db-patcher .fusion-patcher-table-head td {
+    padding: 1em 0.55em;
+  }
+  .avada-dashboard.avada-db-patcher .fusion-patcher-table-head td:first-child {
+    min-width: 0;
+  }
+  .avada-dashboard.avada-db-patcher .fusion-patcher-table-head .patch-description {
+    order: 4;
+    margin-top: -1em;
+  }
+  .avada-dashboard.avada-db-status table .avada-db-status-version-control {
+    flex-flow: column;
+    align-items: stretch;
+  }
+  .avada-dashboard.avada-db-status table .avada-db-status-version-control a {
+    margin-top: 0.5em;
+  }
+  .avada-dashboard.fusion-builder-wrap .fusion-builder-important-notice-wrapper.fusion-has-notification {
+    display: block;
+    margin-top: 0;
+  }
+  .avada-dashboard.avada-db-sliders .search-box,
+  .avada-dashboard.avada-db-slides .search-box,
+  .avada-dashboard .avada-db-table .search-box {
+    display: none;
+  }
+  .avada-dashboard.avada-db-sliders #posts-filter,
+  .avada-dashboard.avada-db-slides #posts-filter,
+  .avada-dashboard .avada-db-table #posts-filter {
+    margin-top: 0;
+  }
+  .avada-dashboard.avada-db-sliders #col-container {
+    margin-top: 43px;
+  }
+}
+/* WP admin bar breakpoint 1. */
+@media screen and (max-width: 782px) {
+  .avada-dashboard .avada-db-header-sticky {
+    top: 46px;
+  }
+  .avada-dashboard.fusion-builder-wrap {
+    margin-right: 10px;
+  }
+  .avada-dashboard.fusion-builder-wrap .fusion-builder-important-notice.fusion-template-builder {
+    flex-flow: column;
+    align-items: stretch;
+  }
+  .avada-dashboard.fusion-builder-wrap .avada-db-create-form {
+    margin-top: 1em;
+  }
+  .avada-dashboard .avada-db-table .tablenav,
+  .avada-dashboard.avada-db-sliders .tablenav {
+    display: none;
+  }
+  body:not(.plugins-php) .row-actions {
+    grid-template-columns: auto auto auto auto;
+  }
+}
+@media screen and (max-width: 740px) {
+  .avada-dashboard .avada-db-version {
+    display: none;
+  }
+}
+@media screen and (max-width: 710px) {
+  .avada-dashboard .avada-db-header-main .avada-db-header-main-container {
+    margin: 0 -1em;
+  }
+  .avada-dashboard .avada-db-header-main .avada-db-logo-version,
+  .avada-dashboard .avada-db-header-main .avada-db-logo-image {
+    display: none;
+  }
+  .avada-dashboard .avada-db-header-main .avada-db-logo {
+    margin: 0 0.5em;
+  }
+  .avada-dashboard .avada-db-header-main .avada-db-menu-main {
+    margin: 0 1em;
+  }
+  .avada-dashboard .avada-db-registration .avada-db-reg-form {
+    flex-flow: column;
+  }
+  .avada-dashboard .avada-db-registration .avada-db-reg-button {
+    margin-top: 1em;
+  }
+  .avada-dashboard.avada-db-layouts .fusion-layouts-grid {
+    grid-template-columns: 1fr;
+  }
+  .avada-dashboard.avada-db-layouts .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-type {
+    padding: 1em;
+    font-size: 0.8em;
+  }
+  .avada-dashboard.avada-db-layouts .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab {
+    padding: 1em;
+  }
+  .avada-dashboard.avada-db-layouts .fusion-layout-options .layoutbox-content .layout-options-section .layout-option-tab .layout-option .layout-option-label {
+    display: block;
+    margin: 0;
+  }
+  .avada-dashboard.avada-db-layouts .fusion-layout-options .layoutbox-content .layout-options-section:nth-child(3) > h3 {
+    padding: 1em;
+  }
+  .avada-dashboard.avada-db-sliders #addtag {
+    grid-template-columns: 1fr;
+  }
+  .avada-dashboard.avada-db-sliders #addtag .form-field {
+    border-right: 1px solid #dfdfdf;
+  }
+  .avada-dashboard.avada-db-sliders #addtag .form-field:nth-last-child(3) {
+    border-bottom: none;
+  }
+}
+/* WP admin bar breakpoint 2. */
+@media screen and (max-width: 600px) {
+  .avada-dashboard .avada-db-menu-main {
+    margin: 0 -1em;
+  }
+  .avada-dashboard .avada-db-menu-main .avada-db-menu-item {
+    margin: 0 1em;
+  }
+  .avada-dashboard .avada-db-menu-sticky-nav .avada-db-menu {
+    margin: 0 -1.05em;
+  }
+  .avada-dashboard .avada-db-menu-sticky-nav .avada-db-menu-item {
+    margin: 0 1.05em;
+  }
+  .avada-dashboard .avada-db-menu {
+    font-size: 0.9em;
+  }
+  .avada-dashboard .avada-db-header-sticky {
+    top: 0;
+  }
+  .avada-dashboard.avada-db-prebuilt-websites .avada-db-demos-wrapper {
+    display: block;
+  }
+  .avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector .avada-db-demos-search {
+    max-width: none;
+  }
+  .avada-dashboard.avada-db-prebuilt-websites .avada-importer-tags-selector > ul {
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    column-gap: 2.8em;
+    row-gap: 1em;
+    font-size: 0.8em;
+  }
+}
+/* Mobile query. */
+@media screen and (max-width: 480px) {
+  .avada-dashboard .avada-db-menu {
+    font-size: 0.75em;
+  }
+}
+/* stylelint-disable no-descending-specificity */
+.awb-import-options {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fff;
+  border-top: 1px solid #f2f3f5;
+  padding: 10px 0;
+  z-index: 10;
+  width: 240px;
+  display: flex;
+  white-space: nowrap;
+  align-items: center;
+  overflow: hidden;
+  transition: width 0.2s;
+  transition-timing-function: ease-in-out;
+  justify-content: space-between;
+  border-radius: 0 0 5px 5px;
+}
+.awb-import-options .awb-import-options-toggle {
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #373d42;
+  cursor: pointer;
+  min-width: 240px;
+  font-family: "Noto Sans";
+  transition: color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.awb-import-options .awb-import-options-toggle .icon {
+  margin-right: 10px;
+}
+.awb-import-options .awb-import-options-group {
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  column-gap: 30px;
+  opacity: 0;
+  transition: opacity 0.5s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.awb-import-options .awb-import-options-group .awb-import-option {
+  display: flex;
+  align-items: center;
+  column-gap: 15px;
+}
+.awb-import-options .awb-import-options-group .awb-import-option > label {
+  font-size: 11px;
+  color: #93999f;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+.awb-import-options .awb-import-options-group .awb-import-option input {
+  cursor: pointer;
+}
+.awb-import-options .awb-import-options-group .awb-import-option input:hover ~ label i {
+  color: #2a3035;
+  transition: all 0.1s ease-in-out;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button {
+  display: flex;
+  background: #f2f3f5;
+  height: 40px;
+  border-radius: 4px;
+  font-size: 16px;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item {
+  width: 45px;
+  position: relative;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  position: relative;
+  color: #93999e;
+  font-weight: 700;
+  font-size: 1em;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item label i {
+  font-size: 1.14em;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item label:before {
+  content: attr(data-tooltip);
+  top: -37px;
+  background: #2a3035;
+  color: #fff;
+  border: 1px solid #2a3035;
+  white-space: nowrap;
+  padding: 0.8em;
+  font-size: 0.65em;
+  text-transform: uppercase;
+  border-radius: 0.35em;
+  margin: 0;
+  z-index: 999999;
+  pointer-events: none;
+  left: 50%;
+  transform: translateX(-50%);
+  position: absolute;
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1) 0.2s;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item label:after {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #2a3035;
+  z-index: 2;
+  pointer-events: none;
+  position: absolute;
+  top: -3px;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  visibility: hidden;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1) 0.2s;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item input {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  opacity: 0;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item input:checked + label {
+  background: #198fd9;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item input:checked + label i {
+  color: #fff;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item:first-child label {
+  border-radius: 4px 0 0 4px;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item:last-child label {
+  border-radius: 0 4px 4px 0;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item:hover label:before {
+  top: -45px;
+  opacity: 1;
+  visibility: visible;
+}
+.awb-import-options .awb-import-options-group .awb-import-option .awb-option-button .awb-option-item:hover label:after {
+  top: -8px;
+  opacity: 1;
+  visibility: visible;
+}
+.awb-import-options .awb-import-studio-item-in-preview {
+  background-color: #198fd9;
+  color: #fff;
+  text-decoration: none;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-radius: 5px;
+  margin-right: 40px;
+  transition: all 0.4s ease-in-out;
+  opacity: 0;
+}
+.awb-import-options .awb-import-studio-item-in-preview:hover {
+  background-color: #1081c7;
+  color: #fff;
+}
+.awb-import-options .fusion-studio-preview-back {
+  display: none;
+  background: transparent;
+  border: none;
+  padding: 0;
+  font-size: 14px;
+  font-weight: 700;
+  color: #198fd9;
+  cursor: pointer;
+  min-width: 240px;
+  font-family: "Noto Sans";
+  height: 2.9em;
+  transition: color 0.1s ease-in-out;
+}
+.awb-import-options .fusion-studio-preview-back:hover {
+  color: #1081c7;
+}
+.awb-import-options .fusion-studio-preview-back i {
+  margin-right: 10px;
+}
+.awb-import-options.open {
+  width: 100%;
+  overflow: visible;
+}
+.awb-import-options.open .awb-import-options-group,
+.awb-import-options.open .awb-import-studio-item-in-preview {
+  opacity: 1;
+}
+.awb-import-options.open .awb-import-options-toggle {
+  color: #198fd9;
+}
+@media all and (max-width: 1190px) {
+  .awb-import-options .awb-import-options-group .awb-import-option label {
+    display: none;
+  }
+  .awb-studio-modal .post-preview .fusion-studio-preview-back {
+    min-width: 140px;
+  }
+}
+.awb-studio-modal {
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease;
+}
+.awb-studio-modal.active {
+  opacity: 1;
+  visibility: visible;
+}
+.awb-studio-modal .post-modal-bg {
+  z-index: 100051;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+}
+.awb-studio-modal .post-preview {
+  display: block;
+  position: fixed;
+  height: 90vh;
+  width: 90vw;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  z-index: 100052;
+  padding: 0;
+  margin-top: 15px;
+  box-sizing: border-box;
+  border-radius: 0.35em;
+  box-shadow: 0 1px 2px #000000, 0 1px 3px #000000;
+}
+.awb-studio-modal .post-preview iframe {
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-sizing: border-box;
+  padding-bottom: 60px;
+}
+.awb-studio-modal .post-preview .fusion-studio-preview-back {
+  display: block;
+}
+.awb-studio-modal .post-preview .awb-import-options-toggle {
+  display: none;
+}
+.awb-studio-modal #fusion-loader {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #f2f3f5;
+  z-index: 99;
+  border-radius: 0.35em;
+  display: none;
+}
+.awb-studio-modal #fusion-loader .fusion-builder-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2em 0 0 -2em;
+  color: transparent;
+  font-size: 10px;
+  border-top: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-right: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.5em solid #333;
+  border-left: 0.5em solid rgba(0, 0, 0, 0.2);
+  animation: fusion-rotate 0.8s infinite linear;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.awb-studio-modal #fusion-loader .fusion-builder-loader:after {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+@keyframes fusion-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.awb-studio-start .awb-studio-sync-button {
+  display: block;
+}
+.awb-studio-start .awb-studio-sync {
+  display: inline-flex;
+  padding-right: 0.4em;
+  padding-left: 0.4em;
+}
+.awb-studio-start .awb-studio-sync:before {
+  content: "\e63c";
+  font-family: "icomoon";
+  margin: 0 0.4em;
+}
+.awb-studio-start .awb-studio-sync span {
+  margin: 0 0.4em;
+}
+.awb-studio-start .awb-studio-sync.success {
+  color: #65bc7b;
+}
+.awb-studio-start .awb-studio-sync.success:before {
+  content: "\e930";
+}
+.awb-studio-start .awb-studio-sync.progress:before {
+  animation: avada-rotate 0.8s infinite linear;
+  border-radius: 50%;
+  color: transparent;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #333;
+  width: 1em;
+  height: 1em;
+  box-sizing: border-box;
+}
+.awb-studio-start .awb-studio-sync.error {
+  color: #dc3232;
+}
+.awb-studio-start .awb-studio-sync.error:before {
+  content: "\e603";
+}
+.awb-studio-content {
+  display: flex;
+}
+.awb-studio-content #filter-bar {
+  width: 280px;
+  padding: 1.4em;
+  background: #fff;
+}
+.awb-studio-content #filter-bar h2 {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  margin: 0 17px 17px 17px;
+}
+.awb-studio-content #filter-bar input {
+  margin-bottom: 2em;
+  height: 3em;
+  background: #f9fafb;
+  border-radius: 10px;
+  color: #93999f;
+  border: none;
+  padding: 0 1em;
+  width: 100%;
+}
+.awb-studio-content #filter-bar nav a {
+  display: flex;
+  justify-content: space-between;
+  padding: 1em;
+  margin-bottom: 1px;
+  font-weight: 500;
+  font-size: 1em;
+  line-height: 1.1em;
+  border-radius: 10px;
+  color: #2a3035;
+}
+.awb-studio-content #filter-bar nav a span {
+  color: #93999f;
+}
+.awb-studio-content #filter-bar nav a.active,
+.awb-studio-content #filter-bar nav a:hover {
+  background: #eef7fd;
+  color: #198fd9;
+}
+.awb-studio-content #filter-bar nav a.active span,
+.awb-studio-content #filter-bar nav a:hover span {
+  color: #198fd9;
+}
+.awb-studio-content .fusion-loader {
+  display: block;
+  z-index: 12554;
+}
+.awb-studio-content #main-content {
+  flex-grow: 1;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  position: relative;
+}
+.awb-studio-content #main-content .previews {
+  overflow: hidden;
+  column-count: 3;
+  column-gap: 20px;
+  padding: 1.2em 0 0 1.7em;
+}
+.awb-studio-content #main-content .previews > article {
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.1);
+  border-radius: 0.35em;
+  overflow: hidden;
+  border: 2px solid transparent;
+  margin: 0.5em 0;
+  display: inline-block;
+  transition: all 0.3s ease-in-out;
+  transform: translate3d(0, 0, 0);
+  opacity: 1;
+}
+.awb-studio-content #main-content .previews > article:hover {
+  border-color: #198fd9;
+}
+@media not all and (min-resolution: 0.001dpcm) {
+  @supports (-webkit-appearance:none) {
+    .awb-studio-content #main-content .previews > article {
+      transform: inherit;
+    }
+  }
+}
+.awb-studio-content #main-content .previews > article.hidden {
+  opacity: 0;
+  transform: translate3d(0, 40px, 0);
+  transition: all 0.3s ease-in-out;
+}
+.awb-studio-content #main-content .previews > article .preview {
+  position: relative;
+  background: #eef7fd;
+}
+.awb-studio-content #main-content .previews > article .preview.lazy-load img {
+  opacity: 0;
+}
+.awb-studio-content #main-content .previews > article .preview.lazy-loaded img {
+  opacity: 1;
+}
+.awb-studio-content #main-content .previews > article img {
+  max-width: 100%;
+  height: auto;
+  transition: opacity 0.3s ease-in;
+  display: block;
+  cursor: pointer;
+}
+.awb-studio-content #main-content .previews > article .bar {
+  height: 3.1em;
+  border-top: 1px solid #efefef;
+  font-weight: 600;
+  color: #32373c;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  padding: 0 0.625em;
+  background: #fff;
+  clear: both;
+}
+.awb-studio-content #main-content .previews > article .bar .fusion_module_title {
+  margin: 0 0.175em;
+}
+.awb-studio-content #main-content .previews > article .bar .awb-preview-title-text {
+  font-size: 0.85em;
+  line-height: 1.3em;
+  letter-spacing: -0.01em;
+}
+.awb-studio-content #main-content .awb-studio-actions {
+  flex-shrink: 0;
+  margin: 0 -0.175em;
+}
+.awb-studio-content #main-content .awb-studio-actions a {
+  margin: 0 0.35em;
+  color: #93999f;
+}
+.awb-studio-content #main-content .awb-studio-actions a:hover {
+  color: #198fd9;
+}
+.awb-studio-content #main-content .awb-studio-actions .awb-save .fusiona-plus {
+  width: 30px;
+  height: 30px;
+  font-size: 13px;
+  background: #93999f;
+  display: flex;
+  padding: 1px 0 0 0;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  color: #fff;
+  transition: all 0.3s ease-in-out;
+}
+.awb-studio-content #main-content .awb-studio-actions .awb-save .fusiona-plus:hover {
+  background: #198fd9;
+}
+.awb-studio-content #main-content .awb-studio-actions .awb-save.progress i {
+  display: none;
+}
+.awb-studio-content #main-content .awb-studio-actions .awb-save.progress:before {
+  content: "";
+  display: inline-block;
+  width: 0.7em;
+  height: 0.7em;
+  border-radius: 50%;
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #333;
+  animation: avada-rotate 0.8s infinite linear;
+  vertical-align: bottom;
+}
+@media only screen and (min-width: 1900px) {
+  .awb-studio-content #main-content .previews {
+    column-count: 4;
+  }
+}
+@media only screen and (max-width: 1100px) {
+  .awb-studio-content #main-content .previews {
+    column-count: 2;
+  }
+  .awb-studio-content #main-content .previews > article .bar .awb-preview-title-text {
+    font-size: 0.8em;
+  }
+  .awb-studio-content #main-content .awb-studio-actions {
+    font-size: 0.9em;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .awb-studio-content #filter-bar input,
+  .awb-studio-content #filter-bar nav a {
+    font-size: 0.8em;
+  }
+  .awb-studio-content #main-content .previews {
+    column-count: 1;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .awb-studio-content #main-content .previews > article .bar .awb-preview-title-text {
+    font-size: 0.7em;
+  }
+  .awb-studio-content #main-content .awb-studio-actions {
+    font-size: 0.85em;
+  }
+}
+.awb-studio-categories ul {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  flex-wrap: wrap;
+}
+.awb-studio-categories i {
+  font-size: 1.6em;
+}
+.awb-studio-categories li {
+  text-align: center;
+  flex: 1;
+  margin: 0;
+  padding: 1.4em 0.6em;
+  cursor: pointer;
+  border-bottom: 3px solid transparent;
+  transition: color 0.3s cubic-bezier(0.21, 0.6, 0.35, 1), border-color 0.3s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.awb-studio-categories li.active,
+.awb-studio-categories li:hover {
+  color: #198fd9;
+}
+.awb-studio-categories li.active {
+  border-color: #198fd9;
+}
+.awb-studio-categories span {
+  display: block;
+  margin: 0.8em auto 0 auto;
+  font-size: 0.9em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 6.5em;
+}
+.fusion-body .avada-db-card.awb-studio-categories {
+  padding: 0 0.6em;
+}
+@media screen and (max-width: 1250px) {
+  .awb-studio-categories ul li {
+    font-size: 0.9em;
+  }
+}
+@media screen and (max-width: 1150px) {
+  .awb-studio-categories ul li {
+    font-size: 0.8em;
+  }
+  .awb-studio-categories ul li span {
+    margin-top: 0.5em;
+  }
+}
+@media screen and (max-width: 782px) {
+  .awb-studio-categories ul li {
+    padding-right: 0.7em;
+    padding-left: 0.7em;
+    font-size: 0.75em;
+  }
+  .awb-studio-categories ul li span {
+    margin-top: 0.3em;
+  }
+}
+.fusion-studio-preview-active {
+  overflow: hidden;
+}
+.fusion-studio-preview-active #adminmenuback,
+.fusion-studio-preview-active #adminmenuwrap {
+  z-index: -1;
+}
+.fusion-studio-preview-active .avada-db-header-sticky {
+  z-index: 0;
+}
+/* Modal */
+#wpwrap #wpbody-content .avada-db-studio .awb-admin-modal-wrap {
+  top: 40%;
+  transform: translateY(-50%);
+}
+.awb-admin-modal-wrap .awb-admin-modal-content {
+  padding: 30px 20px;
+}
+.awb-admin-modal-wrap .awb-studio-modal-title {
+  display: flex;
+  align-items: center;
+  margin: 0 -7.5px 20px -7.5px;
+}
+.awb-admin-modal-wrap .awb-studio-modal-title i {
+  margin: 0 7.5px;
+  color: #198fd9;
+}
+.awb-admin-modal-wrap .awb-studio-modal-title span {
+  margin: 0 7.5px;
+}
+.awb-admin-modal-wrap .awb-studio-modal-text {
+  line-height: 1.7;
+}
+.awb-admin-modal-wrap .awb-admin-modal-corner-close {
+  border: 1px solid #e8e8e8;
+}
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(359deg);
+  }
+}
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+#wpbody-content .avada-wrap .fusion-upgrade-notices {
+  display: block !important;
+}
+.avada-loader > i.loader-icon {
+  display: inline-block !important;
+  font-size: 32px;
+  animation: spin 2s infinite linear;
+  width: 32px;
+  height: 32px;
+  line-height: 32px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+span.avada-loader {
+  display: none;
+}
+.wrap.about-wrap.avada-wrap .nav-tab-wrapper .fusion-social-media {
+  height: 24px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.about-wrap.avada-wrap p {
+  max-width: 100%;
+}
+.avada-install-plugins .theme-browser .theme .theme-actions {
+  opacity: 0;
+}
+.avada-install-plugins .theme-browser .theme:hover .theme-actions,
+.avada-install-plugins .theme-browser .theme:focus .theme-actions {
+  opacity: 1;
+}
+.avada-importer-issue,
+.avada-importer-current-value,
+.avada-importer-recommended-value,
+.avada-importer-fix {
+  width: 25%;
+  display: inline-block;
+}
+.avada_page_avada-prebuilt-websites.fusion_builder_no_scroll {
+  overflow: hidden;
+}
+.avada_page_avada-studio .awb-modal-overlay,
+.avada_page_avada-critical .awb-modal-overlay,
+.avada_page_avada-prebuilt-websites .awb-modal-overlay {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  z-index: 9999;
+  background-color: rgba(0, 0, 0, 0.8);
+  top: 0;
+  left: 0;
+  display: none;
+}
+#wpwrap .avada-db-studio .awb-admin-modal-wrap,
+#wpwrap .avada-db-critical .awb-admin-modal-wrap,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-wrap {
+  position: fixed;
+  top: 7.5%;
+  left: 0;
+  right: 0;
+  /*bottom: 15%;*/
+  /*width: 65%;*/
+  max-width: 600px;
+  margin: auto;
+  overflow: visible;
+  /*padding: 1em;*/
+  box-sizing: border-box;
+  z-index: 99999;
+  display: none;
+}
+#wpwrap .avada-db-studio .awb-admin-modal-wrap.demo-import-in-progress .demo-update-form-wrap,
+#wpwrap .avada-db-critical .awb-admin-modal-wrap.demo-import-in-progress .demo-update-form-wrap,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-wrap.demo-import-in-progress .demo-update-form-wrap {
+  pointer-events: none;
+}
+#wpwrap .avada-db-studio .awb-admin-modal-inner,
+#wpwrap .avada-db-critical .awb-admin-modal-inner,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-inner {
+  max-height: 100%;
+  overflow-y: hidden;
+  border-radius: 5px;
+  background: #fff;
+}
+#wpwrap .avada-db-studio .awb-admin-modal-content,
+#wpwrap .avada-db-critical .awb-admin-modal-content,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-content {
+  border-left: 1px solid #a8a8a8;
+  border-right: 1px solid #a8a8a8;
+}
+#wpwrap .avada-db-studio .awb-admin-modal-content:after,
+#wpwrap .avada-db-critical .awb-admin-modal-content:after,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-content:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media screen and (max-height: 900px) {
+  #wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-wrap {
+    top: 5%;
+    height: 95%;
+  }
+}
+@media screen and (max-height: 850px) {
+  #wpwrap .avada-db-critical .awb-admin-modal-inner,
+  #wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-inner {
+    overflow-y: scroll;
+  }
+}
+@media screen and (min-height: 851px) {
+  #wpwrap .avada-db-critical .awb-admin-modal-inner .demo-modal-thumbnail,
+  #wpwrap .avada-db-demos-themes .theme-browser .theme .awb-admin-modal-inner .demo-modal-thumbnail {
+    height: 300px;
+  }
+}
+.awb-admin-modal-corner-close {
+  display: block;
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  width: 30px;
+  height: 30px;
+  line-height: 30px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.avada-dashboard .awb-admin-modal-wrap .awb-admin-modal-corner-close {
+  color: inherit !important;
+}
+.awb-admin-modal-corner-close:focus {
+  outline: none;
+  box-shadow: none;
+}
+.awb-admin-modal-corner-close .dashicons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  font-size: 22px;
+}
+.demo-modal-thumbnail {
+  height: 250px;
+  overflow: hidden;
+  position: relative;
+  background-size: cover;
+  background-position: center center;
+}
+#demo-modal-classic .demo-modal-thumbnail,
+#demo-modal-photography_light .demo-modal-thumbnail {
+  border-bottom: 1px solid #e8e8e8;
+}
+#demo-modal-classic .awb-admin-modal-corner-close,
+#demo-modal-photography_light .awb-admin-modal-corner-close {
+  border: 1px solid #e8e8e8;
+}
+.demo-modal-thumbnail img {
+  border: none;
+}
+.avada-dashboard .awb-admin-modal-wrap .demo-modal-preview {
+  display: block;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: inherit;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-top-left-radius: 0.35em;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  color: inherit;
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-dashboard .awb-admin-modal-wrap .demo-modal-preview:hover,
+.avada-dashboard .awb-admin-modal-wrap .demo-modal-preview:focus {
+  color: inherit;
+  background-color: rgba(255, 255, 255, 0.9);
+}
+#demo-modal-classic .demo-modal-preview {
+  background-color: rgba(0, 0, 0, 0.1);
+}
+#demo-modal-classic .demo-modal-preview:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.demo-required-plugins {
+  margin-top: 1em;
+  padding: 2.5% 5%;
+}
+#wpwrap .avada-demo-themes .theme-browser .theme .awb-admin-modal-wrap.plugin-install-in-progress .required-plugins-list {
+  pointer-events: none;
+}
+.demo-required-plugins > h3 {
+  font-size: 1.3em;
+}
+.required-plugins-list li {
+  position: relative;
+}
+.required-plugins-list li:before {
+  content: "";
+  width: 100%;
+  height: 1px;
+  border-bottom: 1px dotted #9b9b9b;
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  z-index: 0;
+}
+.required-plugins-list .required-plugin-name,
+.required-plugins-list .required-plugin-status {
+  display: inline-block;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.required-plugins-list .required-plugin-name {
+  padding-right: 10px;
+}
+.required-plugins-list .required-plugin-status {
+  float: right;
+  padding-left: 10px;
+}
+.required-plugins-list .required-plugin-status.active,
+.required-plugins-list .required-plugin-status.active a {
+  color: #198fd9;
+  text-decoration: none;
+}
+.required-plugins-list .required-plugin-status.activate,
+.required-plugins-list .required-plugin-status.activate a,
+.required-plugins-list .required-plugin-status.install,
+.required-plugins-list .required-plugin-status.install a {
+  color: #dc3232;
+  text-decoration: underline;
+  box-shadow: none;
+}
+.required-plugin-status a.installing:before {
+  display: inline-block;
+  font: 400 20px/1 dashicons;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  vertical-align: top;
+  color: #dc3232;
+  content: "\f463";
+  animation: rotation 2s infinite linear;
+}
+.demo-update-form-wrap {
+  border-top: 1px solid #dfdfdf;
+}
+.demo-import-form {
+  border-right: 1px solid #dfdfdf;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-remove-form {
+  box-sizing: border-box;
+  padding: 5%;
+  float: left;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form {
+  width: 60%;
+  padding-right: 3%;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-remove-form {
+  width: 40%;
+  padding-left: 3%;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form form {
+  column-count: 2;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form form input[type="checkbox"],
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form form input[type="radio"] {
+  border: 1px solid #dfdfdf;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form form p {
+  display: flex;
+  align-items: center;
+  margin: 0 -3px;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form form input,
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-import-form form label {
+  margin: 0 3px;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap p {
+  margin-top: 0;
+  margin-bottom: 0;
+  position: relative;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap label {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap p:nth-child(odd) {
+  clear: left;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-remove-form form {
+  display: none;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-update-form-wrap .demo-form-title {
+  margin-top: 0;
+}
+#wpwrap .avada-db-demos-themes .theme-browser .theme .demo-import-form .demo-form-title span {
+  font-size: 0.65em;
+  font-weight: 400;
+  font-style: italic;
+  padding-left: 5px;
+}
+.awb-admin-modal-status-bar {
+  height: 55px;
+  background-color: #198fd9;
+  position: relative;
+}
+.awb-admin-modal-status-bar-label {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-transform: capitalize;
+}
+.demo-import-in-progress .awb-admin-modal-status-bar-label span:after {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  padding-left: 10px;
+  animation: dotty steps(1, end) 1.5s infinite;
+}
+@keyframes dotty {
+  0% {
+    content: "";
+  }
+  25% {
+    content: ".";
+  }
+  50% {
+    content: "..";
+  }
+  75% {
+    content: "...";
+  }
+  100% {
+    content: "";
+  }
+}
+.awb-admin-modal-status-bar-progress-bar {
+  position: absolute;
+  z-index: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #0e7abd;
+}
+.button-install-demo,
+.button-uninstall-demo,
+.button-done-demo {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  z-index: 9;
+  text-transform: uppercase;
+  text-decoration: none;
+  box-shadow: none !important;
+  /*display: flex;*/
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: none;
+  background-color: #198fd9;
+  border: none;
+  font-weight: 600;
+}
+.avada-dashboard .awb-admin-modal-wrap .button-install-demo,
+.avada-dashboard .awb-admin-modal-wrap .button-uninstall-demo,
+.avada-dashboard .awb-admin-modal-wrap .button-done-demo {
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.button-install-demo,
+.button-install-demo:hover,
+.button-install-demo:active,
+.button-uninstall-demo,
+.button-uninstall-demo:hover,
+.button-uninstall-demo:active,
+.button-done-demo,
+.button-done-demo:hover,
+.button-done-demo:active {
+  color: #fff !important;
+}
+.button-install-demo:hover,
+.button-uninstall-demo:hover,
+.button-done-demo:hover {
+  background-color: #0e7abd;
+}
+.avada_page_avada-prebuilt-websites .ui-widget-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  min-height: 360px;
+  background: #000;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  z-index: 100101;
+}
+.avada-demo-dialog {
+  z-index: 100001;
+  padding: 0 !important;
+  background-color: #fff;
+  border: 1px solid #e5e5e5 !important;
+  border-radius: 5px !important;
+  font-size: 1em !important;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.avada-demo-dialog .ui-dialog-titlebar {
+  position: relative !important;
+  padding: 0 !important;
+  background-image: none !important;
+  background-color: #fff !important;
+  color: #000 !important;
+  border: none !important;
+  border-bottom: 1px solid #ebebeb !important;
+  font-size: 1.2em !important;
+  line-height: 1.4em !important;
+  font-weight: normal !important;
+  height: auto !important;
+  border-radius: 0 !important;
+}
+.avada-demo-dialog .ui-dialog-title {
+  display: inline-block !important;
+  margin: 0 !important;
+  padding: 12px 15px !important;
+  float: none !important;
+  border-radius: 0 !important;
+  width: auto !important;
+  overflow: visible !important;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.avada-demo-dialog .ui-dialog-titlebar-close {
+  position: absolute !important;
+  top: 50% !important;
+  transform: translateY(-50%) !important;
+  right: 0 !important;
+  margin: 0 !important;
+  height: 100% !important;
+  width: 45px !important;
+  padding: 0 !important;
+  border: none !important;
+  background: transparent !important;
+  color: #c5c5c5 !important;
+  cursor: pointer !important;
+  outline: none !important;
+  border-radius: 0 !important;
+  font-size: 0;
+}
+.avada-demo-dialog .ui-dialog-titlebar-close:before {
+  font-size: 18px !important;
+  width: 45px !important;
+  line-height: 45px !important;
+  height: 45px !important;
+  content: "\f158" !important;
+  font-family: dashicons !important;
+}
+.avada-demo-dialog .ui-dialog-titlebar-close:after {
+  content: "" !important;
+}
+.avada-demo-dialog .ui-dialog-titlebar-close span {
+  display: none !important;
+  margin: 0 !important;
+  border-radius: 0 !important;
+}
+.avada-demo-dialog .ui-dialog-titlebar-close .ui-button-text {
+  display: none !important;
+  border-radius: 0 !important;
+}
+.avada-demo-dialog .ui-dialog-content {
+  padding: 15px 15px 20px 15px !important;
+  border-radius: 0 !important;
+}
+.avada-demo-dialog .ui-dialog-content p {
+  margin-top: 0;
+}
+.avada-demo-dialog .ui-dialog-content a {
+  color: #198fd9 !important;
+}
+.avada-demo-dialog .ui-dialog-content a:active,
+.avada-demo-dialog .ui-dialog-content a:focus,
+.avada-demo-dialog .ui-dialog-content a:hover {
+  color: #0e7abd !important;
+}
+.avada-demo-dialog .ui-dialog-content a:focus {
+  box-shadow: none !important;
+}
+.avada-demo-dialog .ui-dialog-content .requirement {
+  display: flex;
+}
+.avada-demo-dialog .ui-dialog-content .req-text {
+  padding: 0 5px;
+}
+.avada-demo-dialog .ui-dialog-content i {
+  padding: 0 5px;
+}
+.avada-demo-dialog .ui-dialog-content i.req-icon:before {
+  font-family: "icomoon";
+  content: "\e930";
+}
+.avada-demo-dialog .ui-dialog-content .awb-prebuilt-import-message {
+  display: inline-block;
+  margin-top: 10px;
+}
+.avada-demo-dialog .ui-dialog-buttonpane {
+  margin: 5px 0 0 !important;
+  padding: 0 15px 13px !important;
+  border: none !important;
+  border-radius: 0 !important;
+  background: transparent !important;
+  border-top: 1px solid #ebebeb !important;
+}
+.avada-demo-dialog .ui-dialog-buttonpane .ui-dialog-buttonset {
+  float: none !important;
+  text-align: right !important;
+  border-radius: 0 !important;
+  margin: 0 -5px;
+  padding: 20px 0 5px 0 !important;
+}
+.avada-demo-dialog .ui-dialog-buttonpane button {
+  margin: 0 5px !important;
+  padding: 10px 18px !important;
+  height: auto;
+  background-image: none !important;
+  background-color: #198fd9 !important;
+  color: #fff !important;
+  font-weight: bold !important;
+  font-size: 14px !important;
+  border: none !important;
+  border-radius: 3px !important;
+  box-shadow: none !important;
+  outline: 0;
+  line-height: 1 !important;
+  transition: background-color 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+.avada-demo-dialog .ui-dialog-buttonpane button:hover {
+  background-color: #0e7abd !important;
+  color: #fff !important;
+  cursor: pointer;
+}
+.avada-demo-dialog .ui-dialog-buttonpane button .ui-button-text {
+  line-height: 1 !important;
+  /*padding: 0 !important;*/
+  display: inline !important;
+}
+.fusion-builder-plugin-install-nag {
+  background-color: #ce4e23;
+  color: #fff;
+  cursor: default;
+  display: block;
+  font-size: 12px;
+  margin-left: calc(1px - 50%);
+  margin-right: calc(1px - 50%);
+  padding: 5px 10px;
+  position: relative;
+  text-align: center;
+}
+.avada-wrap {
+  max-width: 1100px;
+  margin-right: 20px;
+}
+@media screen and (max-width: 782px) {
+  .avada-importer-tags-selector {
+    top: 46px;
+  }
+}
+@media screen and (max-height: 765px) {
+  .avada-importer-tags-selector {
+    position: static;
+  }
+}
+@media screen and (max-width: 600px) {
+  .avada-demo-themes .theme:hover .theme-actions {
+    display: block !important;
+  }
+  .avada-demo-themes .theme:hover .screenshot-hover {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 500px) {
+  .avada-demo-themes .theme:hover .theme-actions {
+    display: block !important;
+  }
+  .avada-demo-themes .theme:hover .screenshot-hover {
+    display: none !important;
+  }
+}
+/* RTL */
+.rtl .avada-wrap h1 {
+  font-weight: normal;
+}
+.rtl .avada-logo {
+  left: 0;
+  right: auto;
+}
+.rtl .avada-registration-steps .four-col > div {
+  float: right;
+  margin-left: 5%;
+  margin-right: 0;
+}
+.rtl .avada-registration-steps .four-col > .last-feature {
+  margin-left: 0;
+}
+.rtl .avada-registration-steps h4 > span {
+  margin-left: 10px;
+  margin-right: 0;
+}
+.rtl.avada_page_avada-plugins .theme-browser .theme .theme-screenshot img {
+  transform: translateX(6%);
+}
+.rtl.avada_page_avada-plugins #wpwrap .theme-browser .theme:hover .theme-wrapper .theme-screenshot img {
+  transform: translateX(6%) scale(1.1);
+}
+/* Toggle */
+.avada-admin-toggle {
+  margin-bottom: 20px;
+}
+.avada-admin-toggle .avada-admin-toggle-heading {
+  align-items: center;
+  background-color: #fafafa;
+  border: 1px solid #dfdfdf;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 25px;
+}
+.avada-admin-toggle .avada-admin-toggle-heading h3 {
+  margin: 0;
+}
+.avada-admin-toggle .avada-admin-toggle-content {
+  background: #fff none repeat scroll 0 0;
+  border-color: -moz-use-text-color #dfdfdf #dfdfdf;
+  -o-border-image: none;
+     border-image: none;
+  border: 1px solid #dfdfdf;
+  border-style: none solid solid;
+  border-width: medium 1px 1px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.04);
+  display: none;
+  padding: 25px;
+}
+.avada-admin-toggle .avada-admin-toggle-content li {
+  margin-bottom: 15px;
+}
+/* TipTip CSS - Version 1.2 */
+#tiptip_holder {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99999;
+}
+#tiptip_holder.tip_top {
+  padding-bottom: 5px;
+}
+#tiptip_holder.tip_bottom {
+  padding-top: 5px;
+}
+#tiptip_holder.tip_right {
+  padding-left: 5px;
+}
+#tiptip_holder.tip_left {
+  padding-right: 5px;
+}
+#tiptip_content {
+  font-size: 11px;
+  color: #fff;
+  text-shadow: 0 0 2px #000;
+  padding: 4px 8px;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  background-color: #191919;
+  background-color: rgba(25, 25, 25, 0.92);
+  background-image: -webkit-gradient(linear, 0% 0%, 0% 100%, from(transparent), to(#000));
+  border-radius: 3px;
+  box-shadow: 0 0 3px #555;
+}
+#tiptip_arrow,
+#tiptip_arrow_inner {
+  position: absolute;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 6px;
+  height: 0;
+  width: 0;
+}
+#tiptip_holder.tip_top #tiptip_arrow {
+  border-top-color: #fff;
+  border-top-color: rgba(255, 255, 255, 0.35);
+}
+#tiptip_holder.tip_bottom #tiptip_arrow {
+  border-bottom-color: #fff;
+  border-bottom-color: rgba(255, 255, 255, 0.35);
+}
+#tiptip_holder.tip_right #tiptip_arrow {
+  border-right-color: #fff;
+  border-right-color: rgba(255, 255, 255, 0.35);
+}
+#tiptip_holder.tip_left #tiptip_arrow {
+  border-left-color: #fff;
+  border-left-color: rgba(255, 255, 255, 0.35);
+}
+#tiptip_holder.tip_top #tiptip_arrow_inner {
+  margin-top: -7px;
+  margin-left: -6px;
+  border-top-color: #191919;
+  border-top-color: rgba(25, 25, 25, 0.92);
+}
+#tiptip_holder.tip_bottom #tiptip_arrow_inner {
+  margin-top: -5px;
+  margin-left: -6px;
+  border-bottom-color: #191919;
+  border-bottom-color: rgba(25, 25, 25, 0.92);
+}
+#tiptip_holder.tip_right #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -5px;
+  border-right-color: #191919;
+  border-right-color: rgba(25, 25, 25, 0.92);
+}
+#tiptip_holder.tip_left #tiptip_arrow_inner {
+  margin-top: -6px;
+  margin-left: -7px;
+  border-left-color: #191919;
+  border-left-color: rgba(25, 25, 25, 0.92);
+}
+/* Webkit Hacks  */
+@media screen and (-webkit-min-device-pixel-ratio: 0) {
+  #tiptip_content {
+    padding: 4px 8px 5px 8px;
+    background-color: rgba(45, 45, 45, 0.88);
+  }
+  #tiptip_holder.tip_bottom #tiptip_arrow_inner {
+    border-bottom-color: rgba(45, 45, 45, 0.88);
+  }
+  #tiptip_holder.tip_top #tiptip_arrow_inner {
+    border-top-color: rgba(20, 20, 20, 0.92);
+  }
+}

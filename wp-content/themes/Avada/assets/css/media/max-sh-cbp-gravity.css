@@ -1,0 +1,6 @@
+.gform_wrapper .left_label input.medium,
+.gform_wrapper .right_label input.medium,
+.gform_wrapper .left_label select.medium,
+.gform_wrapper .right_label select.medium {
+  width: 35% !important;
+}

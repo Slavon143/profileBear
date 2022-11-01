@@ -1,0 +1,104 @@
+.fusion-countdown {
+  padding: 30px;
+}
+.fusion-countdown.fusion-no-bg {
+  padding: 0;
+}
+.fusion-countdown .fusion-countdown-wrapper {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 -7.5px;
+}
+.fusion-countdown .fusion-countdown-heading-wrapper,
+.fusion-countdown .fusion-countdown-counter-wrapper,
+.fusion-countdown .fusion-countdown-link-wrapper {
+  margin: 0 7.5px;
+}
+.fusion-countdown .fusion-countdown-heading {
+  font-weight: bold;
+  letter-spacing: 2px;
+  line-height: 1.2em;
+}
+.fusion-countdown .fusion-countdown-subheading {
+  letter-spacing: 1px;
+  line-height: 1.2em;
+}
+.fusion-countdown .fusion-countdown-counter-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+}
+.fusion-countdown .fusion-dash-wrapper {
+  display: inline-block;
+}
+.fusion-countdown .fusion-dash {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: 1;
+}
+.fusion-countdown .fusion-digit-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.fusion-countdown .fusion-digit > div {
+  margin: 0 -0.23em;
+  width: 1em;
+}
+.fusion-countdown .fusion-hundred-digit,
+.fusion-countdown .fusion-thousand-digit {
+  display: none;
+}
+.fusion-countdown .fusion-dash-title {
+  min-width: 46px;
+}
+.ltr .fusion-countdown .fusion-dash-title {
+  padding-left: 0.25em;
+}
+.rtl .fusion-countdown .fusion-dash-title {
+  padding-right: 0.25em;
+}
+.fusion-countdown .fusion-countdown-link {
+  letter-spacing: 2px;
+}
+.fusion-countdown .fusion-countdown-link:hover {
+  opacity: 0.7;
+}
+.fusion-countdown.fusion-countdown-has-heading .fusion-countdown-subheading {
+  margin-bottom: 0.4em;
+}
+.fusion-countdown.fusion-countdown-stacked .fusion-countdown-wrapper {
+  flex-direction: column;
+}
+.fusion-countdown.fusion-countdown-stacked .fusion-countdown-heading-wrapper {
+  text-align: center;
+}
+.fusion-countdown.fusion-countdown-stacked.fusion-countdown-has-heading .fusion-countdown-counter-wrapper {
+  margin-top: 1em;
+}
+.fusion-countdown.fusion-countdown-stacked.fusion-countdown-has-link .fusion-countdown-counter-wrapper {
+  margin-bottom: 1em;
+}
+.fusion-countdown.fusion-countdown-label-top .fusion-dash,
+.fusion-countdown.fusion-countdown-label-bottom .fusion-dash {
+  flex-direction: column;
+}
+.fusion-countdown.fusion-countdown-label-top .fusion-dash-title,
+.fusion-countdown.fusion-countdown-label-bottom .fusion-dash-title {
+  width: 100%;
+}
+.fusion-countdown.fusion-countdown-label-top .fusion-digit-wrapper {
+  order: 2;
+}
+.fusion-countdown.fusion-countdown-label-top .fusion-dash-title {
+  order: 1;
+  padding: 0 0 0.25em 0;
+}
+.fusion-countdown.fusion-countdown-label-bottom .fusion-dash-title {
+  padding: 0.25em 0 0 0;
+}

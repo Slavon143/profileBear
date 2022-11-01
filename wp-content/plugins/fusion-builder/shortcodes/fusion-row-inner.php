@@ -1,0 +1,51 @@
+<?php
+/**
+ * Add an element to fusion-builder.
+ *
+ * @package fusion-builder
+ * @since 1.0
+ */
+
+if ( ! class_exists( 'FusionSC_RowInner' ) ) {
+	/**
+	 * Shortcode class.
+	 *
+	 * @since 3.0
+	 */
+	class FusionSC_RowInner extends Fusion_Row_Element {
+
+		/**
+		 * Constructor.
+		 *
+		 * @access public
+		 * @since 3.0
+		 */
+		public function __construct() {
+			$shortcode         = 'fusion_builder_row_inner';
+			$shortcode_attr_id = 'row-inner';
+			$classname         = 'fusion-builder-row-inner fusion-row';
+			$content_filter    = 'fusion_builder_row_inner';
+			parent::__construct( $shortcode, $shortcode_attr_id, $classname, $content_filter );
+		}
+
+	}
+}
+
+new FusionSC_RowInner();
+
+/**
+ * Map Row shortcode to Avada Builder
+ */
+function fusion_element_row_inner() {
+	fusion_builder_map(
+		fusion_builder_frontend_data(
+			'FusionSC_Row',
+			[
+				'name'              => esc_attr__( 'Nested Columns', 'fusion-builder' ),
+				'shortcode'         => 'fusion_builder_row_inner',
+				'hide_from_builder' => true,
+			]
+		)
+	);
+}
+add_action( 'fusion_builder_before_init', 'fusion_element_row_inner' );

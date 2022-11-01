@@ -1,0 +1,34 @@
+.fusion-scroll-progress {
+  width: 100%;
+  pointer-events: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: 0;
+}
+.fusion-scroll-progress::-moz-progress-bar {
+  border: 0;
+}
+.fusion-scroll-progress:focus {
+  outline: none;
+}
+.fusion-scroll-progress.fusion-fixed-top,
+.fusion-scroll-progress.fusion-fixed-bottom {
+  position: fixed;
+  z-index: 99998;
+  left: 0;
+  right: 0;
+}
+.fusion-scroll-progress.fusion-fixed-top {
+  top: 0;
+}
+.admin-bar .fusion-scroll-progress.fusion-fixed-top {
+  top: 32px;
+}
+.fusion-scroll-progress.fusion-fixed-bottom {
+  bottom: 0;
+}
+@media screen and (max-width: 782px) {
+  .admin-bar .fusion-scroll-progress.fusion-fixed-top {
+    top: 46px;
+  }
+}

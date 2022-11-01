@@ -1,0 +1,54 @@
+
+.vg-plugin-sdk-page {
+    text-align: center;
+    font-size: 18px;
+    max-width: 650px;
+    margin: 0 auto;
+    float: none;
+}
+
+.vg-plugin-sdk-page p {
+    font-size: 18px;
+}
+
+.vg-plugin-sdk-page li {
+    font-size: 18px;
+    text-align: left;
+    margin: 30px auto;
+}
+
+.vg-plugin-sdk-page ol {
+    margin-left: 0;
+    padding-left: 0;
+    counter-reset: item
+}
+
+.vg-plugin-sdk-page ol>li {
+    margin-left: 0;
+    padding-left: 30px;
+    counter-increment: item;
+    list-style: none inside;
+    position: relative;
+}
+
+.vg-plugin-sdk-page ol>li:before {
+    content: counter(item);
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 0.5em;
+    background: #f1f1f1;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 50%;
+    position: absolute;
+    left: -15px;
+}
+#wpbody, #wpbody-content, #wpwrap, #wrap {
+    background: #fff;
+}
+.vg-plugin-sdk-page, 
+.vg-plugin-sdk-page p {
+    font-size: 14px;
+}

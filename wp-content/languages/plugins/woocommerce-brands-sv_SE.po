@@ -1,0 +1,307 @@
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-17 11:54:03+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/2.4.0-alpha\n"
+"Language: sv_SE\n"
+"Project-Id-Version: WooCommerce - Extensions - woocommerce-brands\n"
+
+#: includes/class-wc-brands-coupons.php:126
+msgid "Sorry, this coupon is not applicable to the brands of selected products."
+msgstr "Den här rabattkoden gäller inte för de valda produkternas varumärken."
+
+#: includes/class-wc-brands-block-template-utils-duplicated.php:241
+msgid "Product Tag"
+msgstr "Produktetikett"
+
+#: includes/class-wc-brands-block-template-utils-duplicated.php:239
+msgid "Product Category"
+msgstr "Produktkategori"
+
+#: includes/class-wc-brands-block-template-utils-duplicated.php:237
+msgid "Product Archive"
+msgstr "Produktarkiv"
+
+#: includes/class-wc-brands-block-template-utils-duplicated.php:235
+msgid "Single Product"
+msgstr "Enskild produkt"
+
+#: includes/class-wc-brands-block-template-utils-duplicated.php:122
+msgid "No theme is defined for this template."
+msgstr "Inget tema är definierad för denna mall."
+
+#. translators: %s: WooCommerce link
+#: includes/class-wc-brands.php:93
+msgid "Full Site Editor themes require %s >= 6.1 for full compatibility with WooCommerce Brands."
+msgstr "Teman med fullständig webbplatsredigering kräver %s >= 6.1 för fullständig kompatibilitet med WooCommerce Brands."
+
+#: includes/class-wc-brands.php:142
+msgctxt "slug"
+msgid "uncategorized"
+msgstr "okategoriserad"
+
+#: includes/class-wc-brands-admin.php:511
+msgctxt "slug"
+msgid "product"
+msgstr "produkt"
+
+#: includes/class-wc-brands-admin.php:486
+msgctxt "slug"
+msgid "brand"
+msgstr "varumärke"
+
+#. translators: %s: WooCommerce link
+#: woocommerce-brands.php:106
+msgid "WooCommerce Brands requires %s to be installed and active."
+msgstr "WooCommerce Brands kräver att %s är installerat och aktivt."
+
+#: woocommerce-brands.php:95
+msgid "Changelog"
+msgstr "Ändringslogg"
+
+#: woocommerce-brands.php:92
+msgid "Support"
+msgstr "Support"
+
+#: woocommerce-brands.php:89
+msgid "Docs"
+msgstr "Dokument"
+
+#: templates/shortcodes/brands-a-z.php:35
+msgid "&uarr; Top"
+msgstr "&uarr; Toppen"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:169
+msgid "Count"
+msgstr "Antal"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:168
+msgid "Name"
+msgstr "Namn"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:166
+msgid "Order by:"
+msgstr "Sortera efter:"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:161
+msgid "No"
+msgstr "Nej"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:160
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:158
+msgid "Hide empty brands:"
+msgstr "Dölj tomma varumärken:"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:154
+msgid "None"
+msgstr "Ingen"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:153
+msgid "Exclude:"
+msgstr "Exkludera:"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:149
+msgid "All"
+msgstr "Alla"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:148
+msgid "Number:"
+msgstr "Nummer:"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:143
+msgid "Fluid columns:"
+msgstr "Flytande kolumner:"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:138
+msgid "Columns:"
+msgstr "Kolumner:"
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:25
+msgid "Show a grid of brand thumbnails."
+msgstr "Visa ett rutnät med varumärkesminiatyrer."
+
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:24
+msgid "WooCommerce Brand Thumbnails"
+msgstr "WooCommerce varumärkesminiatyrer"
+
+#: includes/widgets/class-wc-widget-brand-nav.php:280
+msgid "Any Brand"
+msgstr "Alla varumärken"
+
+#: includes/widgets/class-wc-widget-brand-nav.php:178
+msgid "Dropdown"
+msgstr "Rullgardinsmeny"
+
+#: includes/widgets/class-wc-widget-brand-nav.php:177
+msgid "List"
+msgstr "Lista"
+
+#: includes/widgets/class-wc-widget-brand-nav.php:175
+msgid "Display Type:"
+msgstr "Visningstyp:"
+
+#: includes/widgets/class-wc-widget-brand-nav.php:21
+msgid "WooCommerce Brand Layered Nav"
+msgstr "WooCommerce skiktad varumärkesnavigering"
+
+#: includes/widgets/class-wc-widget-brand-nav.php:19
+msgid "Shows brands in a widget which lets you narrow down the list of products when viewing products."
+msgstr "Visar varumärken i en widget som låter dig avgränsa listan med produkter när du visar produkter."
+
+#: includes/widgets/class-wc-widget-brand-description.php:71
+#: includes/widgets/class-wc-widget-brand-nav.php:172
+#: includes/widgets/class-wc-widget-brand-thumbnails.php:133
+msgid "Title:"
+msgstr "Rubrik:"
+
+#: includes/widgets/class-wc-widget-brand-description.php:25
+msgid "When viewing a brand archive, show the current brands description."
+msgstr "När du visar ett varumärkesarkiv visas beskrivningen för det aktuella varumärket."
+
+#: includes/widgets/class-wc-widget-brand-description.php:24
+msgid "WooCommerce Brand Description"
+msgstr "WooCommerce varumärkesbeskrivning"
+
+#: includes/class-wc-brands.php:804
+msgid "Limit result set to products assigned a specific brand ID."
+msgstr "Begränsa resultatuppsättningen till produkter som tilldelats ett visst varumärkes-ID."
+
+#: includes/class-wc-brands.php:345
+msgid "%1$s: "
+msgid_plural "%2$s: "
+msgstr[0] "%1$s: "
+msgstr[1] "%2$s: "
+
+#: includes/class-wc-brands.php:220
+msgid "No Brands Found"
+msgstr "Inga varumärken hittades"
+
+#: includes/class-wc-brands.php:219
+msgid "New Brand Name"
+msgstr "Nytt varumärkesnamn"
+
+#: includes/class-wc-brands.php:218
+msgid "Add New Brand"
+msgstr "Lägg till nytt varumärke"
+
+#: includes/class-wc-brands.php:217
+msgid "Update Brand"
+msgstr "Uppdatera varumärke"
+
+#: includes/class-wc-brands.php:216
+msgid "Edit Brand"
+msgstr "Redigera varumärke"
+
+#: includes/class-wc-brands.php:215
+msgid "Parent Brand:"
+msgstr "Överordnat varumärke:"
+
+#: includes/class-wc-brands.php:214
+msgid "Parent Brand"
+msgstr "Överordnat varumärke"
+
+#: includes/class-wc-brands.php:213
+msgid "All Brands"
+msgstr "Alla varumärken"
+
+#: includes/class-wc-brands.php:212
+msgid "Search Brands"
+msgstr "Sök varumärkning"
+
+#: includes/class-wc-brands.php:211
+msgid "Brand"
+msgstr "Varumärke"
+
+#: includes/class-wc-brands.php:193 includes/class-wc-brands.php:200
+msgid "brand"
+msgstr "varumärke"
+
+#: includes/class-wc-brands-admin.php:471
+msgid "Product brand base"
+msgstr "Produktvarumärkesbas"
+
+#: includes/class-wc-brands-admin.php:448
+msgid "Select a brand"
+msgstr "Välj ett varumärke"
+
+#: includes/class-wc-brands-admin.php:397
+msgid "Image"
+msgstr "Bild"
+
+#: includes/class-wc-brands-admin.php:371
+msgid "Brands be added and managed from this screen. You can optionally upload a brand image to display in brand widgets and on brand archives"
+msgstr "Varumärken kan läggas till och hanteras från den här skärmen. Du kan välja att ladda upp en varumärkesbild för att visa i varumärkeswidgeten och varumärkesarkiv"
+
+#: includes/class-wc-brands-admin.php:250
+#: includes/class-wc-brands-admin.php:328
+msgid "Use image"
+msgstr "Använd bild"
+
+#: includes/class-wc-brands-admin.php:248
+#: includes/class-wc-brands-admin.php:326
+msgid "Choose an image"
+msgstr "Välj en bild"
+
+#: includes/class-wc-brands-admin.php:223
+#: includes/class-wc-brands-admin.php:301
+msgid "Remove image"
+msgstr "Ta bort bild"
+
+#: includes/class-wc-brands-admin.php:222
+#: includes/class-wc-brands-admin.php:300
+msgid "Upload/Add image"
+msgstr "Ladda upp/lägg till bild"
+
+#: includes/class-wc-brands-admin.php:218
+#: includes/class-wc-brands-admin.php:295
+msgid "Thumbnail"
+msgstr "Miniatyr"
+
+#: includes/class-wc-brands-admin.php:162
+msgid "Choose to show the brand description on the archive page. Turn this off if you intend to use the description widget instead. Please note: this is only for themes that do not show the description."
+msgstr "Välj att visa varumärkesbeskrivningen på arkivsidan. Inaktivera det här om du tänker använda beskrivningswidgeten i stället. Observera: det här är bara för teman som inte visar beskrivningen."
+
+#: includes/class-wc-brands-admin.php:161
+msgid "Show description"
+msgstr "Visa beskrivning"
+
+#: includes/class-wc-brands-admin.php:158
+msgid "Brands Archives"
+msgstr "Varumärkesarkiv"
+
+#: includes/class-wc-brands-admin.php:129
+msgid "Product must not be associated with these brands for the coupon to remain valid or, for \"Product Discounts\", products associated with these brands will not be discounted."
+msgstr "Produkten får inte vara associerad med dessa varumärken för att rabattkoden ska vara giltig eller för Produktrabatter, produkter associerade med dessa varumärken kommer inte att vara rabatterade."
+
+#: includes/class-wc-brands-admin.php:120
+msgid "No brands"
+msgstr "Inga varumärken"
+
+#: includes/class-wc-brands-admin.php:119
+msgid "Exclude brands"
+msgstr "Exkludera varumärken"
+
+#: includes/class-wc-brands-admin.php:114
+msgid "A product must be associated with this brand for the coupon to remain valid or, for \"Product Discounts\", products with these brands will be discounted."
+msgstr "En produkt måste vara associerad med detta varumärke för att rabattkoden ska vara giltig eller för produktrabatter, produkter med dessa varumärken kommer att vara rabatterade."
+
+#: includes/class-wc-brands-admin.php:105
+msgid "Any brand"
+msgstr "Alla varumärken"
+
+#: includes/class-wc-brands-admin.php:104
+msgid "Product brands"
+msgstr "Produktvarumärken"
+
+#: includes/class-wc-brands-admin.php:31 includes/class-wc-brands-admin.php:524
+#: includes/class-wc-brands-admin.php:535 includes/class-wc-brands.php:208
+#: includes/class-wc-brands.php:210
+#: includes/widgets/class-wc-widget-brand-nav.php:150
+msgid "Brands"
+msgstr "Varumärken"

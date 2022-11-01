@@ -1,0 +1,53 @@
+.fusion-woo-product-image .cart-loading .view-cart {
+  display: none;
+}
+.fusion-woo-product-image .fusion-rollover-content .price {
+  margin-top: 3px;
+}
+.fusion-woo-product-image .fusion-rollover-content .price .amount {
+  font-size: 25px;
+}
+.fusion-woo-product-image .fusion-rollover-content .fusion-rollover-title {
+  margin: 0;
+  line-height: normal;
+}
+.fusion-woo-product-image .fusion-product-buttons {
+  position: relative;
+  z-index: 9;
+}
+.fusion-woo-product-image.fusion-classic-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  padding: 0 10%;
+  height: 40px;
+  width: 100%;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a {
+  display: inline;
+  float: none;
+  padding: 0;
+  letter-spacing: 1px;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:hover {
+  opacity: 0.6;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:after,
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:before {
+  display: none;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons .wc-forward {
+  display: none;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons .fusion-rollover-linebreak {
+  display: inline-block;
+  margin: 0 10px;
+}
+.fusion-woo-product-image.fusion-clean-product-image-wrapper .fusion-rollover-linebreak {
+  display: none;
+}

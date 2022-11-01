@@ -1,0 +1,5077 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: B2BKing Pro\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-09-20 08:48-0700\n"
+"PO-Revision-Date: 2022-03-14 13:23+0000\n"
+"Last-Translator: Trond Aasen\n"
+"Language-Team: Norsk bokmål\n"
+"Language: nb_NO\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Loco-Version: 2.6.0; wp-5.9.2"
+
+#: admin/class-b2bking-admin.php:4006
+msgid " Click here for documentation."
+msgstr " Klikk her for dokumentasjon."
+
+#: public/class-b2bking-dynamic-rules.php:1052
+#: public/class-b2bking-dynamic-rules.php:1444
+#: public/class-b2bking-dynamic-rules.php:1452
+#: public/class-b2bking-dynamic-rules.php:1639
+#: public/class-b2bking-dynamic-rules.php:1647
+#: public/class-b2bking-dynamic-rules.php:1840
+#: public/class-b2bking-dynamic-rules.php:1848
+#: public/class-b2bking-dynamic-rules.php:2001
+#: public/class-b2bking-dynamic-rules.php:2009
+msgid " Discount"
+msgstr " Rabatt"
+
+#: includes/class-b2bking.php:1856
+msgid " Email: "
+msgstr " E-post:"
+
+#: admin/class-b2bking-admin.php:8593 admin/class-b2bking-admin.php:8629
+msgid " Info Table"
+msgstr " Infotabell"
+
+#: public/class-b2bking-public.php:7091
+msgid " item"
+msgstr " punkt"
+
+#: public/class-b2bking-public.php:7093
+msgid " items"
+msgstr " gjenstander"
+
+#: admin/class-b2bking-admin.php:10442
+msgid " New Messages"
+msgstr " Nye meldinger"
+
+#: admin/class-b2bking-admin.php:10476
+msgid " New Orders"
+msgstr " Nye bestillinger"
+
+#: admin/class-b2bking-admin.php:10337
+msgid " New Registrations - Approval Needed"
+msgstr " Nye registreringer - godkjenning nødvendig"
+
+#: admin/class-b2bking-admin.php:8988 admin/class-b2bking-admin.php:9007
+#: admin/class-b2bking-admin.php:10746 admin/class-b2bking-admin.php:10765
+msgid " plugin to make it functional!"
+msgstr " plugin for å gjøre det funksjonelt!"
+
+#: admin/class-b2bking-admin.php:8807 admin/class-b2bking-admin.php:8923
+msgid " Price Tiers"
+msgstr " Prisnivåer"
+
+#: includes/class-b2bking.php:423
+msgid " Regular Price"
+msgstr " Vanlig pris"
+
+#: includes/class-b2bking.php:424
+msgid " Sale Price"
+msgstr " Salgs pris"
+
+#: admin/class-b2bking-admin.php:427
+msgid " to configure the plugin. "
+msgstr " for å konfigurere plugin-en."
+
+#: admin/class-b2bking-settings.php:1168
+msgid "\"Plugin Status\" options explained"
+msgstr "Alternativer for \"Plugin Status\" forklart"
+
+#: admin/class-b2bking-settings.php:1481
+msgid "\"Request a Custom Quote\" button in Cart"
+msgstr "\"Be om et tilpasset tilbud\"-knappen i handlekurven"
+
+#: admin/class-b2bking-settings.php:1476
+msgid "\"Request a Custom Quote\" button in detail"
+msgstr "\"Be om et tilpasset tilbud\"-knappen i detalj"
+
+#. translators: Placeholder: %1$s - opening <strong> tag, %2$s - coupons count (used in order), %3$s - closing </strong> tag - %4$s - coupons list
+#: includes/class-b2bking.php:1444
+#, php-format
+msgid "%1$sPurchase order number:%2$s %3$s"
+msgstr "%1$sBestillingsnummer:%2$s %3$s"
+
+#: admin/class-b2bking-admin.php:3117 admin/class-b2bking-admin.php:7893
+msgid "(no title)"
+msgstr "(uten tittel)"
+
+#: admin/class-b2bking-settings.php:1183
+msgid "(Plugin active for all users)"
+msgstr "(Plugin aktiv for alle brukere)"
+
+#: admin/class-b2bking-settings.php:1177
+msgid "(Plugin active only for B2B users)"
+msgstr "(Plugin aktiv kun for B2B-brukere)"
+
+#: admin/class-b2bking-admin.php:10648 public/class-b2bking-public.php:10443
+msgid "-> Go to Offers"
+msgstr "-> Gå til Tilbud"
+
+#: public/class-b2bking-public.php:9625
+msgid ""
+". Please note, however, that customers may have changed the items/quantity "
+"ordered — Note by B2BKing."
+msgstr ""
+". Vær imidlertid oppmerksom på at kunder kan ha endret varene/mengden som er "
+"bestilt — Merk fra B2BKing."
+
+#: public/class-b2bking-public.php:6547
+msgid "A link to set a new password will be sent to your email address."
+msgstr ""
+"En lenke for å angi et nytt passord vil bli sendt til e-postadressen din."
+
+#: includes/class-b2bking-invoice-gateway.php:72
+msgid "Accept for virtual orders"
+msgstr "Godta virtuelle bestillinger"
+
+#: includes/class-b2bking-invoice-gateway.php:73
+msgid "Accept invoice if the order is virtual"
+msgstr "Godta faktura hvis bestillingen er virtuell"
+
+#: admin/class-b2bking-settings.php:1105 admin/class-b2bking-settings.php:1208
+msgid "Access Restriction"
+msgstr "Tilgangsbegrensning"
+
+#: includes/emails/class-b2bking-your-account-approved-email.php:13
+msgid "Account approved"
+msgstr "Konto godkjent"
+
+#: public/class-b2bking-public.php:10406
+msgid "Account creation error. Username or Email are already taken. "
+msgstr ""
+"Feil ved opprettelse av konto. Brukernavn eller e-post er allerede tatt."
+
+#: admin/class-b2bking-admin.php:9869 admin/class-b2bking-admin.php:9942
+msgid "Account Type"
+msgstr "Kontotype"
+
+#: admin/class-b2bking-settings.php:906
+msgid "Accurate price display based on store settings (slower)"
+msgstr "Nøyaktig prisvisning basert på butikkinnstillinger (tregere)"
+
+#: public/class-b2bking-public.php:7040 public/class-b2bking-public.php:7120
+msgid "Actions"
+msgstr "Handlinger"
+
+#: admin/class-b2bking-admin.php:8990 admin/class-b2bking-admin.php:10748
+msgid "Activate"
+msgstr "Aktiver"
+
+#: admin/class-b2bking-admin.php:9155
+msgid "Activate license"
+msgstr "Aktiver lisens"
+
+#: admin/class-b2bking-settings.php:1426
+msgid "Activate the plugin"
+msgstr "Aktiver plugin-en"
+
+#: admin/class-b2bking-admin.php:8990 admin/class-b2bking-admin.php:10748
+msgid "Activate this plugin"
+msgstr "Aktiver denne plugin-en"
+
+#: admin/class-b2bking-admin.php:4046 admin/class-b2bking-admin.php:10620
+msgid "Add Condition"
+msgstr "Legg til tilstand"
+
+#: admin/class-b2bking-admin.php:1912
+msgid "Add custom field to billing"
+msgstr "Legg til tilpasset felt i fakturering"
+
+#: admin/class-b2bking-admin.php:1350 admin/class-b2bking-admin.php:1618
+#: admin/class-b2bking-admin.php:2343
+msgid "Add New"
+msgstr "Legg til ny"
+
+#: admin/class-b2bking-admin.php:1619 admin/class-b2bking-admin.php:2344
+msgid "Add new field"
+msgstr "Legg til nytt felt"
+
+#: admin/class-b2bking-admin.php:5554
+msgid "Add new item"
+msgstr "Legg til nytt element"
+
+#: admin/class-b2bking-admin.php:1351
+msgid "Add new registration role"
+msgstr "Legg til ny registreringsrolle"
+
+#: admin/class-b2bking-admin.php:8617 admin/class-b2bking-admin.php:8651
+msgid "Add Row"
+msgstr "Legg til rad"
+
+#: admin/class-b2bking-admin.php:7925
+msgid "Add Rule"
+msgstr "Legg til regel"
+
+#: admin/class-b2bking-admin.php:3083 admin/class-b2bking-admin.php:3363
+#: admin/class-b2bking-admin.php:6425 admin/class-b2bking-admin.php:7881
+msgid "Add Tax / Fee (Amount)"
+msgstr "Legg til skatt/avgift (beløp)"
+
+#: admin/class-b2bking-admin.php:3079 admin/class-b2bking-admin.php:3362
+#: admin/class-b2bking-admin.php:6421 admin/class-b2bking-admin.php:7877
+msgid "Add Tax / Fee (Percentage)"
+msgstr "Legg til skatt/avgift (prosent)"
+
+#: admin/class-b2bking-admin.php:8772 admin/class-b2bking-admin.php:8829
+#: admin/class-b2bking-admin.php:8884 admin/class-b2bking-admin.php:8945
+msgid "Add Tier"
+msgstr "Legg til nivå"
+
+#: public/class-b2bking-public.php:6668 public/class-b2bking-public.php:6951
+#: public/class-b2bking-public.php:7278 public/class-b2bking-public.php:7862
+msgid "Add to Cart"
+msgstr "Legg i handlekurv"
+
+#: public/class-b2bking-public.php:7276 public/class-b2bking-public.php:7860
+msgid "Add to Quote"
+msgstr "Legg til sitat"
+
+#: public/class-b2bking-public.php:8118
+msgid "Add to Quote Request"
+msgstr "Legg til tilbudsforespørsel"
+
+#: admin/class-b2bking-admin.php:5829 admin/class-b2bking-admin.php:7521
+#: admin/class-b2bking-admin.php:7619 admin/class-b2bking-admin.php:8018
+#: admin/class-b2bking-admin.php:8292 admin/class-b2bking-admin.php:10608
+msgid "Add user"
+msgstr "Legg til bruker"
+
+#: includes/emails/class-b2bking-new-customer-email.php:136
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:140
+#: includes/emails/class-b2bking-new-message-email.php:125
+#: includes/emails/class-b2bking-new-offer-email.php:125
+#: includes/emails/class-b2bking-your-account-approved-email.php:126
+msgid "Additional content"
+msgstr "Ytterligere innhold"
+
+#: admin/class-b2bking-admin.php:5580
+msgid "Additional custom text to display for this offer"
+msgstr "Ekstra egendefinert tekst som skal vises for dette tilbudet"
+
+#: admin/class-b2bking-admin.php:10639 public/class-b2bking-public.php:10444
+msgid "Additional info"
+msgstr "Tilleggsinformasjon"
+
+#: admin/class-b2bking-admin.php:3992 admin/class-b2bking-admin.php:4010
+msgid "Additional options:"
+msgstr "Ytterligere alternativer:"
+
+#: admin/class-b2bking-admin.php:1898 includes/class-b2bking-activator.php:287
+#: includes/class-b2bking-activator.php:305
+msgid "Address Line 2"
+msgstr "Adresselinje 2"
+
+#: includes/class-b2bking-activator.php:306
+msgid "Address line 2..."
+msgstr "Adresselinje 2..."
+
+#: admin/class-b2bking-admin.php:5888
+msgctxt "Admin menu name"
+msgid "Conversations"
+msgstr "Samtaler"
+
+#: admin/class-b2bking-admin.php:5897
+msgctxt "Admin menu name"
+msgid "Dashboard"
+msgstr "Dashbord"
+
+#: admin/class-b2bking-settings.php:1329
+msgid "Advanced Registration Settings"
+msgstr "Avanserte registreringsinnstillinger"
+
+#: admin/class-b2bking-admin.php:3365
+msgid "Advanced Rules"
+msgstr "Avanserte regler"
+
+#: admin/class-b2bking-settings.php:1277
+msgid "Advanced Visibility Settings"
+msgstr "Avanserte synlighetsinnstillinger"
+
+#: admin/class-b2bking-settings.php:1286
+msgid "Advanced visibility settings -  explained"
+msgstr "Avanserte synlighetsinnstillinger - forklart"
+
+#: admin/class-b2bking-settings.php:1579
+msgid "Advanced: Endpoints & Components"
+msgstr "Avansert: Endepunkter og komponenter"
+
+#: admin/class-b2bking-admin.php:9874 admin/class-b2bking-admin.php:9947
+msgid "Agent"
+msgstr "Middel"
+
+#: admin/class-b2bking-admin.php:10604
+msgid "All categories have been set"
+msgstr "Alle kategorier er satt"
+
+#: admin/class-b2bking-admin.php:9365
+msgid "All categories NOT visible to ALL"
+msgstr "Alle kategorier IKKE synlige for ALLE"
+
+#: admin/class-b2bking-admin.php:9367
+msgid "All categories NOT visible to B2C"
+msgstr "Alle kategorier IKKE synlig for B2C"
+
+#: admin/class-b2bking-admin.php:9369
+msgid "All categories NOT visible to LOGGED OUT USERS"
+msgstr "Alle kategorier IKKE synlige for AVLOGGDE BRUKER"
+
+#: admin/class-b2bking-admin.php:9364
+msgid "All categories visible to ALL"
+msgstr "Alle kategorier er synlige for ALLE"
+
+#: admin/class-b2bking-admin.php:9366
+msgid "All categories visible to B2C"
+msgstr "Alle kategorier er synlige for B2C"
+
+#: admin/class-b2bking-admin.php:9368
+msgid "All categories visible to LOGGED OUT USERS"
+msgstr "Alle kategorier er synlige for AVLOGGDE BRUKER"
+
+#: admin/class-b2bking-admin.php:9380
+msgid "All categories visible to the group "
+msgstr "Alle kategorier er synlige for gruppen"
+
+#: admin/class-b2bking-admin.php:6555 admin/class-b2bking-admin.php:7791
+msgid "All guest users"
+msgstr "Alle gjestebrukere"
+
+#: admin/class-b2bking-admin.php:3518 admin/class-b2bking-admin.php:3938
+msgid "All guest users (logged out)"
+msgstr "Alle gjestebrukere (logget ut)"
+
+#: admin/class-b2bking-admin.php:2077 admin/class-b2bking-admin.php:3591
+msgid "All Other Countries"
+msgstr "Alle andre land"
+
+#: admin/class-b2bking-settings.php:754
+msgid ""
+"All products are visible to all users. Disable this if you want to set "
+"product/category visibility manually."
+msgstr ""
+"Alle produktene er synlige for alle brukere. Deaktiver dette hvis du vil "
+"angi produkt-/kategorisynlighet manuelt."
+
+#: admin/class-b2bking-admin.php:3499
+msgid "All products except"
+msgstr "Alle produkter unntatt"
+
+#: admin/class-b2bking-settings.php:59
+msgid "All Products Visible"
+msgstr "Alle produkter er synlige"
+
+#: admin/class-b2bking-admin.php:3516 admin/class-b2bking-admin.php:3936
+#: admin/class-b2bking-admin.php:6540 admin/class-b2bking-admin.php:7776
+msgid "All registered B2B users"
+msgstr "Alle registrerte B2B-brukere"
+
+#: admin/class-b2bking-admin.php:3517 admin/class-b2bking-admin.php:3937
+#: admin/class-b2bking-admin.php:6542 admin/class-b2bking-admin.php:7778
+msgid "All registered B2C users"
+msgstr "Alle registrerte B2C-brukere"
+
+#: admin/class-b2bking-admin.php:3515 admin/class-b2bking-admin.php:3935
+#: admin/class-b2bking-admin.php:6532 admin/class-b2bking-admin.php:7768
+msgid "All registered users"
+msgstr "Alle registrerte brukere"
+
+#: admin/class-b2bking-admin.php:1718 admin/class-b2bking-admin.php:2275
+msgid "All Roles"
+msgstr "Alle roller"
+
+#: admin/class-b2bking-admin.php:10605
+msgid "All subaccounts have been set"
+msgstr "Alle underkontoer er satt"
+
+#: admin/class-b2bking-settings.php:34 admin/class-b2bking-settings.php:45
+msgid "Allow vendors to set product visibility"
+msgstr "Tillat leverandører å angi produktsynlighet"
+
+#: includes/class-b2bking-purchase-order-gateway.php:15
+msgid ""
+"Allows customers to enter their purchase order number at checkout. This "
+"number will be manually provided to the customer."
+msgstr ""
+"Lar kunder oppgi bestillingsnummeret sitt i kassen. Dette nummeret vil bli "
+"oppgitt manuelt til kunden."
+
+#: includes/class-b2bking-invoice-gateway.php:15
+msgid ""
+"Allows invoice payments. Website admin will manually invoice the customer."
+msgstr ""
+"Tillater fakturabetaling. Nettstedsadministrator vil fakturere kunden "
+"manuelt."
+
+#: admin/class-b2bking-settings.php:888
+msgid "Also search product descriptions (slower)"
+msgstr "Søk også i produktbeskrivelser (tregere)"
+
+#: admin/class-b2bking-admin.php:3688
+msgid "Amount"
+msgstr "Beløp"
+
+#: admin/class-b2bking-admin.php:3679
+msgid "Amount / Percentage"
+msgstr "Beløp / prosentandel"
+
+#: admin/class-b2bking-admin.php:2981 admin/class-b2bking-admin.php:6359
+msgid "Applies to"
+msgstr "Gjelder"
+
+#: admin/class-b2bking-admin.php:3376
+msgid "Applies to:"
+msgstr "Gjelder:"
+
+#: admin/class-b2bking-admin.php:1563 admin/class-b2bking-admin.php:9870
+#: admin/class-b2bking-admin.php:9943 admin/class-b2bking-admin.php:10345
+msgid "Approval"
+msgstr "Godkjenning"
+
+#: admin/class-b2bking-admin.php:1437
+msgid "Approval required"
+msgstr "Godkjenning kreves"
+
+#: admin/class-b2bking-admin.php:7197
+msgid "Approve user"
+msgstr "Godkjenn bruker"
+
+#: includes/emails/templates/new-offer-email-template.php:34
+#: includes/emails/templates/plain-new-offer-email-template.php:29
+msgid "April"
+msgstr "april"
+
+#: admin/class-b2bking-admin.php:10594
+msgid "Are you sure you want to approve this user?"
+msgstr "Er du sikker på at du vil godkjenne denne brukeren?"
+
+#: admin/class-b2bking-admin.php:10597
+msgid ""
+"Are you sure you want to DEACTIVATE this user? The user will no longer be "
+"approved and they will be unable to login."
+msgstr ""
+"Er du sikker på at du vil DEAKTIVERE denne brukeren? Brukeren vil ikke "
+"lenger være godkjent og de vil ikke kunne logge på."
+
+#: public/class-b2bking-public.php:10409
+msgid "Are you sure you want to delete this purchase list?"
+msgstr "Er du sikker på at du vil slette denne kjøpslisten?"
+
+#: public/class-b2bking-public.php:10408
+msgid "Are you sure you want to delete this subaccount?"
+msgstr "Er du sikker på at du vil slette denne underkontoen?"
+
+#: admin/class-b2bking-admin.php:10596
+msgid "Are you sure you want to move ALL users to this group?"
+msgstr "Er du sikker på at du vil flytte ALLE brukere til denne gruppen?"
+
+#: admin/class-b2bking-admin.php:10595
+msgid ""
+"Are you sure you want to REJECT and DELETE this user? This is irreversible."
+msgstr ""
+"Er du sikker på at du vil AVVISE og SLETTE denne brukeren? Dette er "
+"irreversibelt."
+
+#: admin/class-b2bking-admin.php:10598
+msgid "Are you sure you want to set ALL categories?"
+msgstr "Er du sikker på at du vil angi ALLE kategorier?"
+
+#: admin/class-b2bking-admin.php:10600
+msgid ""
+"Are you sure you want to set these users as regular accounts and no longer "
+"subaccounts?"
+msgstr ""
+"Er du sikker på at du vil angi disse brukerne som vanlige kontoer og ikke "
+"lenger underkontoer?"
+
+#: admin/class-b2bking-admin.php:10599
+msgid "Are you sure you want to set these users as subaccounts of the parent?"
+msgstr ""
+"Er du sikker på at du vil angi disse brukerne som underkontoer til "
+"overordnet?"
+
+#: admin/class-b2bking-admin.php:10601
+msgid "Are you sure you want to update this user's data?"
+msgstr "Er du sikker på at du vil oppdatere denne brukerens data?"
+
+#: public/class-b2bking-public.php:2796
+msgid ""
+"Attention! Your account requires manual approval. Our team will review it as "
+"soon as possible. Thank you for understanding."
+msgstr ""
+"Merk følgende! Kontoen din krever manuell godkjenning. Teamet vårt vil "
+"vurdere det så snart som mulig. Takk for forståelsen."
+
+#: includes/emails/templates/new-offer-email-template.php:42
+#: includes/emails/templates/plain-new-offer-email-template.php:37
+msgid "August"
+msgstr "august"
+
+#: admin/class-b2bking-admin.php:1564
+msgid "Automatic Approval Group"
+msgstr "Automatisk godkjenningsgruppe"
+
+#: admin/class-b2bking-admin.php:1452
+msgid "Automatic Approval to Group"
+msgstr "Automatisk godkjenning til gruppe"
+
+#: public/class-b2bking-public.php:6284
+msgid "Available Offers"
+msgstr "Tilgjengelige tilbud"
+
+#: includes/class-b2bking-invoice-gateway.php:85
+msgid "Awaiting invoice payment."
+msgstr "Avventer betaling av faktura."
+
+#: admin/class-b2bking-settings.php:1177
+msgid "B2B & B2C Hybrid"
+msgstr "B2B & B2C Hybrid"
+
+#: includes/class-b2bking-activator.php:127
+msgid "B2B (requires approval)"
+msgstr "B2B (krever godkjenning)"
+
+#: admin/class-b2bking-admin.php:559 admin/class-b2bking-admin.php:580
+#: admin/class-b2bking-admin.php:605 admin/class-b2bking-admin.php:2683
+#: admin/class-b2bking-admin.php:3522 admin/class-b2bking-admin.php:3941
+#: admin/class-b2bking-admin.php:6733 admin/class-b2bking-admin.php:7486
+#: admin/class-b2bking-admin.php:7572 admin/class-b2bking-admin.php:7981
+#: admin/class-b2bking-admin.php:8254 admin/class-b2bking-admin.php:9335
+msgid "B2B Groups"
+msgstr "B2B-grupper"
+
+#: admin/class-b2bking-admin.php:937
+msgid ""
+"B2B groups help you organize and manage your business customers. Create, "
+"edit, or delete groups based on your store's needs. To add a user to a group,"
+" go to the user's profile and scroll down to 'B2B User Settings'."
+msgstr ""
+"B2B-grupper hjelper deg med å organisere og administrere bedriftskunder. "
+"Opprett, rediger eller slett grupper basert på butikkens behov. For å legge "
+"til en bruker i en gruppe, gå til brukerens profil og bla ned til 'B2B-"
+"brukerinnstillinger'."
+
+#: includes/class-b2bking.php:1219
+msgid "B2B Pricing"
+msgstr "B2B-priser"
+
+#: admin/class-b2bking-admin.php:10218
+msgid "B2B Sales"
+msgstr "B2B salg"
+
+#: admin/class-b2bking-settings.php:1183
+msgid "B2B Shop"
+msgstr "B2B butikk"
+
+#: admin/class-b2bking-admin.php:6679
+msgid "B2B User Settings (B2BKing)"
+msgstr "B2B-brukerinnstillinger (B2BKing)"
+
+#: includes/class-b2bking-activator.php:530
+msgid "B2B Users"
+msgstr "B2B-brukere"
+
+#: admin/class-b2bking-admin.php:8544 admin/class-b2bking-admin.php:8960
+#: admin/class-b2bking-admin.php:8961 admin/class-b2bking-admin.php:9047
+#: admin/class-b2bking-admin.php:9048
+msgid "B2BKing"
+msgstr "B2BKing"
+
+#: admin/class-b2bking-admin.php:10536
+msgid "B2BKing allowed options"
+msgstr "B2BKing tillatte alternativer"
+
+#: includes/class-b2bking-activator.php:519
+msgid "B2BKing B2C User"
+msgstr "B2BKing B2C-bruker"
+
+#: admin/class-b2bking-admin.php:8986 admin/class-b2bking-admin.php:9005
+#: admin/class-b2bking-admin.php:10744 admin/class-b2bking-admin.php:10763
+msgid "B2BKing Core"
+msgstr "B2BKing kjerne"
+
+#: admin/class-b2bking-admin.php:8982 admin/class-b2bking-admin.php:9001
+#: admin/class-b2bking-admin.php:10740 admin/class-b2bking-admin.php:10759
+msgid "B2BKing is almost ready!"
+msgstr "B2BKing er nesten klar!"
+
+#: admin/class-b2bking-admin.php:427
+msgid "B2BKing is ready to go! "
+msgstr "B2BKing er klar til å gå!"
+
+#. Description of the plugin/theme
+msgid ""
+"B2BKing is the complete solution for turning WooCommerce into an enterprise-"
+"level B2B e-commerce platform."
+msgstr ""
+"B2BKing er den komplette løsningen for å gjøre WooCommerce til en B2B e-"
+"handelsplattform på bedriftsnivå."
+
+#. Plugin Name of the plugin/theme
+msgid "B2BKing Pro"
+msgstr "B2BKing Pro"
+
+#: admin/class-b2bking-admin.php:9431
+msgid "B2BKing Troubleshooting File"
+msgstr "B2BKing feilsøkingsfil"
+
+#: admin/class-b2bking-settings.php:933
+msgid ""
+"B2BKing will add \"ex. VAT / inc. VAT\" to prices based on tax exemption "
+"dynamic rules"
+msgstr ""
+"B2BKing vil legge til \"eks. mva / inkl. mva\" til priser basert på "
+"dynamiske regler for skattefritak"
+
+#: includes/class-b2bking.php:3767
+msgid "b2bking_purchase_list"
+msgstr "b2bking_purchase_list"
+
+#: admin/class-b2bking-admin.php:6730 admin/class-b2bking-admin.php:9332
+msgid "B2C Group"
+msgstr "B2C Group"
+
+#: admin/class-b2bking-admin.php:7470 admin/class-b2bking-admin.php:7554
+#: admin/class-b2bking-admin.php:7965 admin/class-b2bking-admin.php:8237
+#: admin/class-b2bking-admin.php:9480
+msgid "B2C Groups"
+msgstr "B2C-grupper"
+
+#: admin/class-b2bking-admin.php:10222
+msgid "B2C Sales"
+msgstr "B2C salg"
+
+#: admin/class-b2bking-admin.php:350 admin/class-b2bking-admin.php:2628
+#: admin/class-b2bking-admin.php:6731 admin/class-b2bking-admin.php:7163
+#: admin/class-b2bking-admin.php:7433 admin/class-b2bking-admin.php:7480
+#: admin/class-b2bking-admin.php:7565 admin/class-b2bking-admin.php:7975
+#: admin/class-b2bking-admin.php:8185 admin/class-b2bking-admin.php:8248
+#: admin/class-b2bking-admin.php:9104 admin/class-b2bking-admin.php:9333
+#: admin/class-b2bking-admin.php:9492 admin/class-b2bking-admin.php:9519
+msgid "B2C Users"
+msgstr "B2C-brukere"
+
+#: admin/class-b2bking-admin.php:9531
+msgid "B2C Users Shipping and Payment Methods"
+msgstr "B2C-brukere frakt- og betalingsmåter"
+
+#: admin/class-b2bking-admin.php:3350
+msgid "Basic Rules"
+msgstr "Grunnleggende regler"
+
+#: admin/class-b2bking-admin.php:3498
+msgid "Beta Options"
+msgstr "Beta-alternativer"
+
+#: admin/class-b2bking-admin.php:2101
+msgid ""
+"Billing field connection means that this data will automatically show up in "
+"the user’s billing details in WooCommerce, after registration."
+msgstr ""
+"Faktureringsfelttilkobling betyr at disse dataene automatisk vises i "
+"brukerens faktureringsdetaljer i WooCommerce, etter registrering."
+
+#: admin/class-b2bking-admin.php:1680
+msgid "Billing Options"
+msgstr "Faktureringsalternativer"
+
+#: admin/class-b2bking-admin.php:1945
+msgid "Billing-exclusive Field"
+msgstr "Faktureringseksklusivt felt"
+
+#: admin/class-b2bking-admin.php:9226
+msgid "Bulk edit users & categories"
+msgstr "Masserediger brukere og kategorier"
+
+#: admin/class-b2bking-admin.php:9225
+msgid "Bulk Editor"
+msgstr "Bulk Editor"
+
+#: public/class-b2bking-public.php:5737
+msgid "Bulk order"
+msgstr "Massebestilling"
+
+#: admin/class-b2bking-settings.php:346
+msgid "Bulk Order endpoint:"
+msgstr "Sluttpunkt for massebestilling:"
+
+#: admin/class-b2bking-settings.php:1115 admin/class-b2bking-settings.php:1343
+#: public/class-b2bking-public.php:7148
+msgid "Bulk Order Form"
+msgstr "Massebestillingsskjema"
+
+#: admin/class-b2bking-admin.php:9473
+msgid "Business (B2B) Groups"
+msgstr "Business (B2B) grupper"
+
+#: admin/class-b2bking-admin.php:9462
+msgid "Business Groups"
+msgstr "Business Groups"
+
+#: public/class-b2bking-dynamic-rules.php:2870
+msgid "Buy "
+msgstr "Kjøpe"
+
+#: admin/class-b2bking-admin.php:3043 admin/class-b2bking-admin.php:3353
+#: admin/class-b2bking-admin.php:6385 admin/class-b2bking-admin.php:7841
+msgid "Buy X Get 1 Free"
+msgstr "Kjøp X Få 1 gratis"
+
+#: admin/class-b2bking-settings.php:1570
+msgid "Caching"
+msgstr "Buffer"
+
+#: admin/class-b2bking-settings.php:470
+msgid "Calculate and show discount percentage in table"
+msgstr "Beregn og vis rabattprosent i tabell"
+
+#: admin/class-b2bking-admin.php:3995
+msgid "Calculated Discounted Price Becomes Sale Price"
+msgstr "Beregnet rabattert pris blir salgspris"
+
+#: admin/class-b2bking-admin.php:3397
+msgid "Cart"
+msgstr "Handlevogn"
+
+#: admin/class-b2bking-admin.php:2995 admin/class-b2bking-admin.php:6491
+msgid "Cart Total"
+msgstr "Handlevogn totalt"
+
+#: admin/class-b2bking-admin.php:3398
+msgid "Cart Total ( / all products)"
+msgstr "Handlevogn totalt (/alle produkter)"
+
+#: admin/class-b2bking-admin.php:4033 admin/class-b2bking-admin.php:10609
+msgid "Cart Total Quantity"
+msgstr "Handlevogn totalt antall"
+
+#: admin/class-b2bking-admin.php:4034 admin/class-b2bking-admin.php:10610
+msgid "Cart Total Value"
+msgstr "Handlevogn totalverdi"
+
+#: admin/class-b2bking-admin.php:4035 admin/class-b2bking-admin.php:10611
+msgid "Category Product Quantity"
+msgstr "Kategori Produktmengde"
+
+#: admin/class-b2bking-admin.php:4036 admin/class-b2bking-admin.php:10612
+msgid "Category Product Value"
+msgstr "Kategori Produktverdi"
+
+#: admin/class-b2bking-admin.php:2999 admin/class-b2bking-admin.php:6503
+msgid "Category: "
+msgstr "Kategori:"
+
+#: admin/class-b2bking-admin.php:519 admin/class-b2bking-admin.php:852
+msgid "Change group"
+msgstr "Bytt gruppe"
+
+#: admin/class-b2bking-settings.php:283
+msgid "Change My Account URL Structure:"
+msgstr "Endre URL-strukturen for min konto:"
+
+#: admin/class-b2bking-settings.php:1384
+msgid "Change text and translate B2BKing"
+msgstr "Endre tekst og oversett B2BKing"
+
+#: admin/class-b2bking-settings.php:542
+msgid ""
+"Changes URL structure in My Account. Can solve 404 error issues and improve "
+"loading speed."
+msgstr ""
+"Endrer URL-struktur i Min konto. Kan løse 404-feilproblemer og forbedre "
+"lastehastigheten."
+
+#: admin/class-b2bking-admin.php:4005
+msgid ""
+"Check this box to set the discounted price as the sale price. Disable it to "
+"show discounts in cart subtotal. Incompatible with Value Conditions."
+msgstr ""
+"Kryss av i denne boksen for å angi den rabatterte prisen som salgspris. "
+"Deaktiver den for å vise rabatter i handlekurvsubtotal. Uforenlig med "
+"verdibetingelser."
+
+#: admin/class-b2bking-admin.php:4023
+msgid ""
+"Check this box to set the multiple for each individual product. For example "
+"if you choose a category, the minimum will apply to each product within that "
+"category."
+msgstr ""
+"Kryss av i denne boksen for å angi multiplum for hvert enkelt produkt. Hvis "
+"du for eksempel velger en kategori, vil minimum gjelde for hvert produkt "
+"innenfor den kategorien."
+
+#: admin/class-b2bking-admin.php:1825 admin/class-b2bking-admin.php:2549
+msgid "Checkboxes (check all that apply)"
+msgstr "Avmerkingsbokser (merk av alle som passer)"
+
+#: public/class-b2bking-public.php:7598
+msgid "Checkout (place order)"
+msgstr "Kasse (legg inn bestilling)"
+
+#: admin/class-b2bking-settings.php:618
+msgid "Choose a Logo to be shown on Offer PDFs (usually your company logo)"
+msgstr ""
+"Velg en logo som skal vises på tilbuds-PDF-er (vanligvis din firmalogo)"
+
+#: admin/class-b2bking-settings.php:162
+msgid "Choose Purchase Lists Language"
+msgstr "Velg Språk for kjøpslister"
+
+#: includes/emails/class-b2bking-new-customer-email.php:126
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:130
+#: includes/emails/class-b2bking-new-message-email.php:115
+#: includes/emails/class-b2bking-new-offer-email.php:115
+#: includes/emails/class-b2bking-your-account-approved-email.php:116
+msgid "Choose which format of email to send."
+msgstr "Velg hvilket e-postformat du vil sende."
+
+#: public/class-b2bking-public.php:7831 public/class-b2bking-public.php:10418
+msgid "Clear X"
+msgstr "Fjern X"
+
+#: public/class-b2bking-public.php:6330 public/class-b2bking-public.php:6509
+msgid "Click here to log out"
+msgstr "Klikk her for å logge ut"
+
+#: includes/emails/templates/new-customer-requires-approval-email-template.php:21
+msgid "Click to Review User"
+msgstr "Klikk for å vurdere bruker"
+
+#: public/class-b2bking-public.php:5979 public/class-b2bking-public.php:7348
+#: public/class-b2bking-public.php:7562
+msgid "Close X"
+msgstr "Lukk X"
+
+#: admin/class-b2bking-settings.php:1460
+msgid "Color & Design"
+msgstr "Farge og design"
+
+#: admin/class-b2bking-settings.php:273
+msgid "Color Price Range"
+msgstr "Farge Prisklasse"
+
+#: admin/class-b2bking-admin.php:461
+msgid "Commission rules list"
+msgstr "Kommisjonens reglerliste"
+
+#: admin/class-b2bking-admin.php:1893 admin/class-b2bking-admin.php:9867
+#: admin/class-b2bking-admin.php:9940 includes/class-b2bking-activator.php:219
+#: includes/class-b2bking-activator.php:237
+msgid "Company Name"
+msgstr "selskapsnavn"
+
+#: admin/class-b2bking-settings.php:1603
+msgid "Components"
+msgstr "Komponenter"
+
+#: admin/class-b2bking-settings.php:1609
+msgid "Components Settings"
+msgstr "Komponentinnstillinger"
+
+#: admin/class-b2bking-admin.php:837
+msgid "Condition"
+msgstr "Betingelse"
+
+#: admin/class-b2bking-admin.php:524
+msgid "Condition:"
+msgstr "Betingelse:"
+
+#: admin/class-b2bking-admin.php:4029
+msgid "Conditions (all must apply):"
+msgstr "Vilkår (alle må gjelde):"
+
+#: admin/class-b2bking-admin.php:2980 admin/class-b2bking-admin.php:6358
+#: admin/class-b2bking-admin.php:7751
+msgid "Conditions apply"
+msgstr "Vilkår gjelder"
+
+#: admin/class-b2bking-admin.php:10621
+msgid "Conditions must apply cumulatively."
+msgstr "Vilkår må gjelde kumulativt."
+
+#: includes/emails/templates/plain-your-account-approved-email-template.php:9
+#: includes/emails/templates/your-account-approved-email-template.php:18
+msgid "Congratulations! Your account has been approved."
+msgstr "Gratulerer! Kontoen din er godkjent."
+
+#: admin/class-b2bking-admin.php:9483
+msgid "Control Payment and Shipping Methods"
+msgstr "Kontroller betalings- og forsendelsesmetoder"
+
+#: admin/class-b2bking-settings.php:960 admin/class-b2bking-settings.php:971
+msgid "Controls price display in the product page with certain settings"
+msgstr "Styrer prisvisning på produktsiden med visse innstillinger"
+
+#: admin/class-b2bking-admin.php:5910 admin/class-b2bking-admin.php:5935
+#: admin/class-b2bking-admin.php:6583
+msgid "Conversation"
+msgstr "Samtale"
+
+#: admin/class-b2bking-admin.php:5966
+msgid "Conversation Details"
+msgstr "Samtaledetaljer"
+
+#: public/class-b2bking-public.php:6274
+msgid "Conversation does not exist!"
+msgstr "Samtale eksisterer ikke!"
+
+#: admin/class-b2bking-settings.php:340
+msgid "Conversation endpoint:"
+msgstr "Samtaleendepunkt:"
+
+#: admin/class-b2bking-admin.php:5924
+msgid "Conversation image"
+msgstr "Samtalebilde"
+
+#: admin/class-b2bking-admin.php:5909 admin/class-b2bking-admin.php:5911
+#: admin/class-b2bking-admin.php:5912 public/class-b2bking-public.php:5714
+#: public/class-b2bking-public.php:5965
+msgid "Conversations"
+msgstr "Meldinger"
+
+#: admin/class-b2bking-admin.php:953
+msgid ""
+"Conversations allow you to communicate with your customers, respond to quote "
+"requests, ask or receive questions, clarify matters, queries, etc. Customers "
+"can also initiate conversations."
+msgstr ""
+"Samtaler lar deg kommunisere med kundene dine, svare på tilbudsforespørsler, "
+"stille eller motta spørsmål, avklare saker, forespørsler osv. Kunder kan "
+"også starte samtaler."
+
+#: admin/class-b2bking-settings.php:337
+msgid "Conversations endpoint:"
+msgstr "Sluttpunkt for samtaler:"
+
+#: admin/class-b2bking-admin.php:5932
+msgid "Conversations list"
+msgstr "Samtaleliste"
+
+#: admin/class-b2bking-admin.php:5931
+msgid "Conversations navigation"
+msgstr "Samtalernavigering"
+
+#: admin/class-b2bking-admin.php:3561
+msgid "Countries (multiple select):"
+msgstr "Land (flere valg):"
+
+#: includes/class-b2bking-activator.php:423
+msgid "Country + State"
+msgstr "Land + stat"
+
+#: admin/class-b2bking-admin.php:1894
+msgid "Country + State (Recommended)"
+msgstr "Land + stat (anbefalt)"
+
+#: admin/class-b2bking-admin.php:1895
+msgid "Country / Region"
+msgstr "Land / region"
+
+#: includes/class-b2bking-activator.php:441
+msgid "Country and State"
+msgstr "Land og stat"
+
+#: includes/class-b2bking.php:2233 public/class-b2bking-public.php:3262
+#: public/class-b2bking-public.php:4377 public/class-b2bking-public.php:4661
+msgid "CountryCode is invalid or the VAT number is empty"
+msgstr "Landskoden er ugyldig eller MVA-nummeret er tomt"
+
+#: admin/class-b2bking-admin.php:9465
+msgid "Create Groups + Control Payment and Shipping Methods"
+msgstr "Opprett grupper + kontroller betalings- og fraktmetoder"
+
+#: admin/class-b2bking-admin.php:2688
+msgid "Create new customer group"
+msgstr "Opprett ny kundegruppe"
+
+#: admin/class-b2bking-admin.php:2687
+msgid "Create new group"
+msgstr "Opprett ny gruppe"
+
+#: admin/class-b2bking-admin.php:442 admin/class-b2bking-admin.php:443
+#: admin/class-b2bking-admin.php:3272 admin/class-b2bking-admin.php:3273
+msgid "Create new rule"
+msgstr "Opprett ny regel"
+
+#: public/class-b2bking-public.php:7455
+msgid "Create Subaccount"
+msgstr "Opprett underkonto"
+
+#: admin/class-b2bking-admin.php:3697
+msgid "Currency"
+msgstr "Valuta"
+
+#: admin/class-b2bking-admin.php:2339 admin/class-b2bking-admin.php:2365
+msgid "Custom Quote Field"
+msgstr "Egendefinert tilbudsfelt"
+
+#: public/class-b2bking-public.php:10415
+msgid "Custom Quote Request"
+msgstr "Tilpasset tilbudsforespørsel"
+
+#: admin/class-b2bking-admin.php:1614 admin/class-b2bking-admin.php:1640
+msgid "Custom Registration Field"
+msgstr "Egendefinert registreringsfelt"
+
+#: admin/class-b2bking-admin.php:1346 admin/class-b2bking-admin.php:1372
+msgid "Custom Registration Role"
+msgstr "Egendefinert registreringsrolle"
+
+#: admin/class-b2bking-admin.php:1903
+msgid "Custom User Meta Key Mapping"
+msgstr "Tilpasset brukermeta-tastkartlegging"
+
+#: admin/class-b2bking-admin.php:6718 admin/class-b2bking-admin.php:7377
+#: admin/class-b2bking-admin.php:9868 admin/class-b2bking-admin.php:9941
+msgid "Customer Group"
+msgstr "Kundegruppe"
+
+#: admin/class-b2bking-admin.php:9082 admin/class-b2bking-admin.php:9083
+msgid "Customers"
+msgstr "Kunder"
+
+#: admin/class-b2bking-admin.php:10295
+msgid "Customers Nr. (B2B)"
+msgstr "Kunder Nr. (B2B)"
+
+#: admin/class-b2bking-settings.php:298
+msgid "Customers panel: Search by AJAX"
+msgstr "Kundepanel: Søk på AJAX"
+
+#: admin/class-b2bking-admin.php:9060 admin/class-b2bking-admin.php:9061
+msgid "Dashboard"
+msgstr "Dashbord"
+
+#: admin/class-b2bking-admin.php:7025
+msgid "Data Collected at Registration"
+msgstr "Data samlet inn ved registrering"
+
+#: admin/class-b2bking-admin.php:1828 admin/class-b2bking-admin.php:2552
+msgid "Date"
+msgstr "Dato"
+
+#: admin/class-b2bking-admin.php:6586
+msgid "Date of last reply"
+msgstr "Dato for siste svar"
+
+#: public/class-b2bking-public.php:6158
+msgid "Date Started:"
+msgstr "Dato påbegynt:"
+
+#: admin/class-b2bking-admin.php:7225 admin/class-b2bking-admin.php:7265
+msgid "Deactivate / unapprove user"
+msgstr "Deaktiver / fjern godkjenning av bruker"
+
+#: includes/emails/templates/new-offer-email-template.php:50
+#: includes/emails/templates/plain-new-offer-email-template.php:45
+msgid "December"
+msgstr "desember"
+
+#: admin/class-b2bking-admin.php:10618
+msgid "Delete"
+msgstr "Slett"
+
+#: public/class-b2bking-public.php:7637
+msgid "Delete subaccount"
+msgstr "Slett underkonto"
+
+#: includes/class-b2bking-invoice-gateway.php:45
+msgid "Description"
+msgstr "Beskrivelse"
+
+#: includes/class-b2bking-purchase-order-gateway.php:49
+msgid "Description:"
+msgstr "Beskrivelse:"
+
+#: public/class-b2bking-public.php:5660 public/class-b2bking-public.php:5692
+msgid "Details"
+msgstr "Detaljer"
+
+#: admin/class-b2bking-settings.php:308
+msgid "Different delivery country for VAT exemption"
+msgstr "Ulikt leveringsland for momsfritak"
+
+#: admin/class-b2bking-settings.php:196
+msgid "Disable dynamic rule add tax/fee"
+msgstr "Deaktiver dynamisk regel legg til skatt/avgift"
+
+#: admin/class-b2bking-settings.php:187
+msgid "Disable dynamic rule discounts"
+msgstr "Deaktiver dynamiske regelrabatter"
+
+#: admin/class-b2bking-settings.php:189
+msgid "Disable dynamic rule discounts as sale price"
+msgstr "Deaktiver dynamiske regelrabatter som salgspris"
+
+#: admin/class-b2bking-settings.php:191
+msgid "Disable dynamic rule fixed price"
+msgstr "Deaktiver dynamisk regel fast pris"
+
+#: admin/class-b2bking-settings.php:199
+msgid "Disable dynamic rule free shipping"
+msgstr "Deaktiver dynamisk regel gratis frakt"
+
+#: admin/class-b2bking-settings.php:193
+msgid "Disable dynamic rule hidden price"
+msgstr "Deaktiver skjult pris for dynamisk regel"
+
+#: admin/class-b2bking-settings.php:201
+msgid "Disable dynamic rule minimum and maximum order"
+msgstr "Deaktiver dynamisk regel minimum og maksimum rekkefølge"
+
+#: admin/class-b2bking-settings.php:205
+msgid "Disable dynamic rule required multiple"
+msgstr "Deaktiver dynamisk regel krever flere"
+
+#: admin/class-b2bking-settings.php:211
+msgid "Disable dynamic rule tax exemption"
+msgstr "Deaktiver skattefritak for dynamisk regel"
+
+#: admin/class-b2bking-settings.php:208
+msgid "Disable dynamic rule zero tax"
+msgstr "Deaktiver dynamisk regel null skatt"
+
+#: admin/class-b2bking-settings.php:183
+msgid "Disable group & tiered pricing"
+msgstr "Deaktiver gruppe- og lagdelt prissetting"
+
+#: admin/class-b2bking-settings.php:1611
+msgid "Disable individual plugin components"
+msgstr "Deaktiver individuelle plugin-komponenter"
+
+#: admin/class-b2bking-settings.php:180
+msgid "Disable payment methods control"
+msgstr "Deaktiver kontrollen av betalingsmåter"
+
+#: admin/class-b2bking-settings.php:174
+msgid "Disable registration & custom fields"
+msgstr "Deaktiver registrering og tilpassede felt"
+
+#: admin/class-b2bking-settings.php:177
+msgid "Disable shipping methods control"
+msgstr "Deaktiver kontroll av fraktmetoder"
+
+#: admin/class-b2bking-settings.php:798 admin/class-b2bking-settings.php:1485
+msgid "Disabled"
+msgstr "Funksjonshemmet"
+
+#: admin/class-b2bking-settings.php:1622
+msgid ""
+"Disabling individual plugin components may help you troubleshoot issues, "
+"prevent plugin conflicts, or in edge cases improve performance. "
+msgstr ""
+"Deaktivering av individuelle plugin-komponenter kan hjelpe deg med å "
+"feilsøke problemer, forhindre plugin-konflikter eller i edge-tilfeller "
+"forbedre ytelsen."
+
+#: admin/class-b2bking-admin.php:3712
+msgid "Disc. name (optional):"
+msgstr "Plate. navn (valgfritt):"
+
+#: public/class-b2bking-public.php:1612 public/class-b2bking-public.php:1970
+msgid "Discount"
+msgstr "Rabatt"
+
+#: public/class-b2bking-public.php:5227
+msgid "discount"
+msgstr "rabatt"
+
+#: admin/class-b2bking-admin.php:3035 admin/class-b2bking-admin.php:3351
+#: admin/class-b2bking-admin.php:6377 admin/class-b2bking-admin.php:7833
+msgid "Discount Amount"
+msgstr "Rabattbeløp"
+
+#: admin/class-b2bking-admin.php:3039 admin/class-b2bking-admin.php:3352
+#: admin/class-b2bking-admin.php:6381 admin/class-b2bking-admin.php:7837
+msgid "Discount Percentage"
+msgstr "Rabattprosent"
+
+#: admin/class-b2bking-admin.php:3634
+msgid "Display Only (Withholding Tax)"
+msgstr "Bare visning (kildeskatt)"
+
+#: admin/class-b2bking-settings.php:1165 admin/class-b2bking-settings.php:1217
+#: admin/class-b2bking-settings.php:1283 admin/class-b2bking-settings.php:1315
+#: admin/class-b2bking-settings.php:1393 admin/class-b2bking-settings.php:1473
+#: admin/class-b2bking-settings.php:1525
+msgid "Documentation"
+msgstr "Dokumentasjon"
+
+#: admin/class-b2bking-admin.php:9299
+msgid "Documentation & Video Demonstration"
+msgstr "Dokumentasjon og videodemonstrasjon"
+
+#: admin/class-b2bking-admin.php:1941
+msgid "Don’t show this field in registration"
+msgstr "Ikke vis dette feltet ved registrering"
+
+#: public/class-b2bking-public.php:7104
+msgid "Download"
+msgstr "nedlasting"
+
+#: admin/class-b2bking-admin.php:9254 admin/class-b2bking-admin.php:9440
+msgid "Download "
+msgstr "nedlasting"
+
+#: admin/class-b2bking-admin.php:9433
+msgid "Download and send us your troubleshooting file"
+msgstr "Last ned og send oss feilsøkingsfilen din"
+
+#: admin/class-b2bking-admin.php:7107
+msgid "Download file"
+msgstr "Last ned fil"
+
+#: admin/class-b2bking-admin.php:5374
+msgid "Download PDF"
+msgstr "Last ned PDF"
+
+#: admin/class-b2bking-admin.php:1492
+msgid "Dropdown Sort Order"
+msgstr "Dropdown Sorteringsrekkefølge"
+
+#: admin/class-b2bking-admin.php:3268 admin/class-b2bking-admin.php:3270
+#: admin/class-b2bking-admin.php:3271 admin/class-b2bking-admin.php:3294
+msgid "Dynamic Rules"
+msgstr "Dynamiske regler"
+
+#: admin/class-b2bking-admin.php:7691
+msgid "Dynamic Rules (B2BKing)"
+msgstr "Dynamiske regler (B2BKing)"
+
+#: admin/class-b2bking-admin.php:2761
+msgid "Dynamic rules applied to this group"
+msgstr "Dynamiske regler brukt på denne gruppen"
+
+#: admin/class-b2bking-admin.php:3291
+msgid "Dynamic rules list"
+msgstr "Dynamisk regelliste"
+
+#: admin/class-b2bking-settings.php:295
+msgid "Dynamic rules: hide individual users"
+msgstr "Dynamiske regler: skjul individuelle brukere"
+
+#: admin/class-b2bking-settings.php:292
+msgid "Dynamic rules: replace product selector with text box"
+msgstr "Dynamiske regler: Erstatt produktvelger med tekstboks"
+
+#: admin/class-b2bking-settings.php:479
+msgid "Dynamically color the active price range in table"
+msgstr "Fargelegg den aktive prisklassen dynamisk i tabellen"
+
+#: admin/class-b2bking-admin.php:10622
+msgid ""
+"Each category must meet all category conditions + cart total conditions. "
+"Each product must meet all product conditions + cart total conditions."
+msgstr ""
+"Hver kategori må oppfylle alle kategoribetingelser + handlekurv "
+"totalbetingelser. Hvert produkt må oppfylle alle produktbetingelser + "
+"handlekurv totalbetingelser."
+
+#: admin/class-b2bking-admin.php:444 admin/class-b2bking-admin.php:1352
+#: admin/class-b2bking-admin.php:1620 admin/class-b2bking-admin.php:2345
+#: admin/class-b2bking-admin.php:2689 admin/class-b2bking-admin.php:3274
+#: admin/class-b2bking-admin.php:5282 admin/class-b2bking-admin.php:5915
+msgid "Edit"
+msgstr "Redigere"
+
+#: public/class-b2bking-public.php:7513
+msgid "Edit account"
+msgstr "Rediger bruker"
+
+#: admin/class-b2bking-admin.php:5916
+msgid "Edit conversation"
+msgstr "Rediger samtale"
+
+#: admin/class-b2bking-admin.php:1621 admin/class-b2bking-admin.php:2346
+msgid "Edit field"
+msgstr "Rediger felt"
+
+#: admin/class-b2bking-admin.php:2690
+msgid "Edit group"
+msgstr "Rediger gruppe"
+
+#: admin/class-b2bking-admin.php:5283
+msgid "Edit offer"
+msgstr "Rediger tilbud"
+
+#: admin/class-b2bking-admin.php:1353
+msgid "Edit role"
+msgstr "Rediger rolle"
+
+#: admin/class-b2bking-admin.php:445 admin/class-b2bking-admin.php:3275
+msgid "Edit rule"
+msgstr "Rediger regel"
+
+#: public/class-b2bking-public.php:7559
+msgid "Edit Subaccount"
+msgstr "Rediger underkonto"
+
+#: admin/class-b2bking-admin.php:9317
+msgid "Edit users and categories in bulk"
+msgstr "Rediger brukere og kategorier samtidig"
+
+#: admin/class-b2bking-admin.php:1798
+msgid "Editable Post-Registration"
+msgstr "Redigerbar etterregistrering"
+
+#: admin/class-b2bking-admin.php:1826 admin/class-b2bking-admin.php:2550
+msgid "Email"
+msgstr "E-post"
+
+#: public/class-b2bking-public.php:7372
+msgid "Email Address"
+msgstr "Epostadresse"
+
+#: public/class-b2bking-public.php:6534
+msgid "Email address"
+msgstr "Epostadresse"
+
+#: includes/emails/class-b2bking-new-customer-email.php:117
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:121
+#: includes/emails/class-b2bking-new-message-email.php:106
+#: includes/emails/class-b2bking-new-offer-email.php:106
+#: includes/emails/class-b2bking-your-account-approved-email.php:107
+msgid "Email Heading"
+msgstr "E-postoverskrift"
+
+#: public/class-b2bking-public.php:10404
+msgid "Email is invalid. "
+msgstr "E-posten er ugyldig."
+
+#: admin/class-b2bking-admin.php:5375
+msgid "Email Offer"
+msgstr "E-posttilbud"
+
+#: includes/emails/class-b2bking-new-customer-email.php:124
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:128
+#: includes/emails/class-b2bking-new-message-email.php:113
+#: includes/emails/class-b2bking-new-offer-email.php:113
+#: includes/emails/class-b2bking-your-account-approved-email.php:114
+msgid "Email type"
+msgstr "E-posttype"
+
+#: includes/emails/templates/new-customer-email-template.php:19
+#: includes/emails/templates/new-customer-requires-approval-email-template.php:19
+#: includes/emails/templates/plain-new-customer-email-template.php:16
+#: includes/emails/templates/plain-new-customer-requires-approval-email-template.php:16
+msgid "Email: "
+msgstr "E-post:"
+
+#: admin/class-b2bking-settings.php:1192
+msgid "Enable / Disable Features"
+msgstr "Aktiver/deaktiver funksjoner"
+
+#: admin/class-b2bking-admin.php:2032
+msgid "Enable Automatic VIES Validation for VAT"
+msgstr "Aktiver automatisk VIES-validering for mva"
+
+#: admin/class-b2bking-settings.php:127
+msgid "Enable bulk order form"
+msgstr "Aktiver massebestillingsskjema"
+
+#: admin/class-b2bking-settings.php:115
+msgid "Enable conversations & quote requests"
+msgstr "Aktiver samtaler og tilbudsforespørsler"
+
+#: admin/class-b2bking-settings.php:76
+msgid "Enable dropdown & fields"
+msgstr "Aktiver rullegardin og felt"
+
+#: includes/class-b2bking-invoice-gateway.php:59
+msgid "Enable for shipping methods"
+msgstr "Aktiver for fraktmetoder"
+
+#: admin/class-b2bking-settings.php:68
+msgid "Enable Hidden Has Priority"
+msgstr "Aktiver Skjult har prioritet"
+
+#: includes/class-b2bking-invoice-gateway.php:32
+msgid "Enable invoice payments"
+msgstr "Aktiver fakturabetalinger"
+
+#: admin/class-b2bking-settings.php:119
+msgid "Enable offers"
+msgstr "Aktiver tilbud"
+
+#: admin/class-b2bking-settings.php:123
+msgid "Enable purchase lists"
+msgstr "Aktiver kjøpslister"
+
+#: includes/class-b2bking-purchase-order-gateway.php:41
+msgid "Enable Purchase Orders."
+msgstr "Aktiver innkjøpsordrer."
+
+#: admin/class-b2bking-settings.php:879
+msgid "Enable searching by SKU in the Bulk Order Form"
+msgstr "Aktiver søk etter SKU i massebestillingsskjemaet"
+
+#: admin/class-b2bking-settings.php:131
+msgid "Enable subaccounts"
+msgstr "Aktiver underkontoer"
+
+#: includes/emails/class-b2bking-new-customer-email.php:99
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:103
+#: includes/emails/class-b2bking-new-message-email.php:95
+#: includes/emails/class-b2bking-new-offer-email.php:95
+#: includes/emails/class-b2bking-your-account-approved-email.php:96
+msgid "Enable this email notification"
+msgstr "Aktiver denne e-postvarslingen"
+
+#: admin/class-b2bking-settings.php:763
+msgid ""
+"Enable this to also restrict access to pages. Disable this to hide shop & "
+"products, but show other pages."
+msgstr ""
+"Aktiver dette for også å begrense tilgangen til sider. Deaktiver dette for å "
+"skjule butikk og produkter, men vise andre sider."
+
+#: includes/class-b2bking-invoice-gateway.php:31
+#: includes/class-b2bking-purchase-order-gateway.php:39
+#: includes/emails/class-b2bking-new-customer-email.php:97
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:101
+#: includes/emails/class-b2bking-new-message-email.php:93
+#: includes/emails/class-b2bking-new-offer-email.php:93
+#: includes/emails/class-b2bking-your-account-approved-email.php:94
+msgid "Enable/Disable"
+msgstr "På av"
+
+#: admin/class-b2bking-admin.php:1427 admin/class-b2bking-admin.php:1705
+#: admin/class-b2bking-admin.php:1916 admin/class-b2bking-admin.php:2036
+#: admin/class-b2bking-admin.php:2422
+msgid "Enabled"
+msgstr "Aktivert"
+
+#: admin/class-b2bking-settings.php:1503
+msgid "Enabled for ALL"
+msgstr "Aktivert for ALLE"
+
+#: admin/class-b2bking-settings.php:1491
+msgid "Enabled for B2B"
+msgstr "Aktivert for B2B"
+
+#: admin/class-b2bking-settings.php:1497
+msgid "Enabled for Guests + B2C"
+msgstr "Aktivert for gjester + B2C"
+
+#: admin/class-b2bking-settings.php:392
+msgid "Endpoint for a specific conversation page"
+msgstr "Endepunkt for en bestemt samtaleside"
+
+#: admin/class-b2bking-settings.php:458
+msgid "Endpoint for a specific purchase list page"
+msgstr "Endepunkt for en bestemt kjøpslisteside"
+
+#: admin/class-b2bking-settings.php:436
+msgid "Endpoint for a specific subaccount page"
+msgstr "Endepunkt for en bestemt underkontoside"
+
+#: admin/class-b2bking-settings.php:414
+msgid "Endpoint for the My Account -> Bulk Order page"
+msgstr "Endepunkt for siden Min konto -> Massebestilling"
+
+#: admin/class-b2bking-settings.php:381
+msgid "Endpoint for the My Account -> Conversations page"
+msgstr "Endepunkt for siden Min konto -> Samtaler"
+
+#: admin/class-b2bking-settings.php:403
+msgid "Endpoint for the My Account -> Offers page"
+msgstr "Endepunkt for siden Min konto -> Tilbud"
+
+#: admin/class-b2bking-settings.php:447
+msgid "Endpoint for the My Account -> Purchase Lists page"
+msgstr "Endepunkt for siden Min konto -> Kjøpslister"
+
+#: admin/class-b2bking-settings.php:425
+msgid "Endpoint for the My Account -> Subaccounts page"
+msgstr "Endepunkt for siden Min konto -> Underkontoer"
+
+#: admin/class-b2bking-settings.php:1586 admin/class-b2bking-settings.php:1591
+msgid "Endpoints"
+msgstr "Endepunkter"
+
+#: admin/class-b2bking-admin.php:9399
+msgid "Enter parent account id (example: 23)"
+msgstr "Skriv inn foreldrekonto-ID (eksempel: 23)"
+
+#: includes/emails/class-b2bking-new-customer-email.php:105
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:109
+msgid "Enter recipients (comma separated) for this email. Defaults to"
+msgstr "Skriv inn mottakere (kommaseparert) for denne e-posten. Standard til"
+
+#: admin/class-b2bking-admin.php:1494 admin/class-b2bking-admin.php:1790
+#: admin/class-b2bking-admin.php:2528
+msgid "Enter sort number here..."
+msgstr "Skriv inn sorteringsnummer her..."
+
+#: public/class-b2bking-public.php:7392 public/class-b2bking-public.php:7576
+msgid "Enter the account holder's name here..."
+msgstr "Skriv inn kontoinnehaverens navn her..."
+
+#: public/class-b2bking-public.php:7404 public/class-b2bking-public.php:7588
+msgid "Enter the account holder's phone here..."
+msgstr "Skriv inn kontoinnehaverens telefon her..."
+
+#: public/class-b2bking-public.php:7398 public/class-b2bking-public.php:7582
+msgid "Enter the account holder's title here..."
+msgstr "Skriv inn kontoinnehaverens tittel her..."
+
+#: admin/class-b2bking-admin.php:1840 admin/class-b2bking-admin.php:2564
+msgid "Enter the field label here..."
+msgstr "Skriv inn feltetiketten her..."
+
+#: admin/class-b2bking-admin.php:5534
+msgid "Enter the item name"
+msgstr "Skriv inn elementnavnet"
+
+#: admin/class-b2bking-admin.php:1850 admin/class-b2bking-admin.php:2574
+msgid "Enter the placeholder text here..."
+msgstr "Skriv inn plassholderteksten her..."
+
+#: admin/class-b2bking-admin.php:5540
+msgid "Enter the quantity"
+msgstr "Angi antall"
+
+#: admin/class-b2bking-admin.php:4045 admin/class-b2bking-admin.php:10619
+msgid "Enter the quantity/value"
+msgstr "Angi mengde/verdi"
+
+#: admin/class-b2bking-admin.php:8790 admin/class-b2bking-admin.php:8904
+msgid "Enter the regular price for this B2BKing group here."
+msgstr "Skriv inn ordinær pris for denne B2BKing-gruppen her."
+
+#: admin/class-b2bking-admin.php:8799 admin/class-b2bking-admin.php:8916
+msgid "Enter the sale price for this B2BKing group here."
+msgstr "Skriv inn salgsprisen for denne B2BKing-gruppen her."
+
+#: public/class-b2bking-public.php:7374
+msgid "Enter the subaccount email here..."
+msgstr "Skriv inn underkontoens e-postadresse her..."
+
+#: public/class-b2bking-public.php:7380
+msgid "Enter the subaccount password here..."
+msgstr "Skriv inn underkontopassordet her..."
+
+#: public/class-b2bking-public.php:7365
+msgid "Enter the subaccount username here..."
+msgstr "Skriv inn brukernavnet for underkontoen her..."
+
+#: public/class-b2bking-public.php:6001
+msgid "Enter the title here..."
+msgstr "Emne..."
+
+#: admin/class-b2bking-admin.php:5545
+msgid "Enter the unit price"
+msgstr "Skriv inn enhetsprisen"
+
+#: admin/class-b2bking-admin.php:9398 admin/class-b2bking-admin.php:9412
+msgid "Enter user ids, comma-separated (example: 12,15,19)"
+msgstr "Skriv inn bruker-ID, kommadelt (eksempel: 12,15,19)"
+
+#: includes/class-b2bking-activator.php:272
+msgid "Enter your address here..."
+msgstr "Skriv inn adressen din her..."
+
+#: includes/class-b2bking-activator.php:238
+msgid "Enter your company name here..."
+msgstr "Skriv inn firmanavnet ditt her..."
+
+#: includes/class-b2bking-activator.php:442
+msgid "Enter your country and state here..."
+msgstr "Skriv inn ditt land og stat her..."
+
+#: admin/class-b2bking-admin.php:2022
+msgid ""
+"Enter your custom user meta key here (e.g. \"billing_cnpj\", \"vat_number\", "
+"etc.)"
+msgstr ""
+"Skriv inn din egendefinerte brukermetanøkkel her (f.eks. \"billing_cnpj\", "
+"\"vat_number\", etc.)"
+
+#: admin/class-b2bking-admin.php:6034
+msgid "Enter your first message here..."
+msgstr "Skriv inn din første melding her..."
+
+#: includes/class-b2bking-activator.php:170
+msgid "Enter your first name here..."
+msgstr "Skriv inn fornavnet ditt her..."
+
+#: includes/class-b2bking-activator.php:204
+msgid "Enter your last name here..."
+msgstr "Skriv inn etternavnet ditt her..."
+
+#: public/class-b2bking-public.php:6005
+msgid "Enter your message here..."
+msgstr "Skriv din melding her..."
+
+#: includes/class-b2bking-activator.php:408
+msgid "Enter your phone here..."
+msgstr "Skriv inn telefonen din her..."
+
+#: includes/class-b2bking-activator.php:374
+msgid "Enter your postcode / ZIP here..."
+msgstr "Skriv inn postnummeret ditt her..."
+
+#: includes/class-b2bking-activator.php:340
+msgid "Enter your town / city here..."
+msgstr "Skriv inn din by/by her..."
+
+#: includes/class-b2bking-activator.php:477
+msgid "Enter your VAT number here..."
+msgstr "Skriv inn momsnummeret ditt her..."
+
+#: admin/class-b2bking-admin.php:4042 admin/class-b2bking-admin.php:10616
+msgid "equal (=)"
+msgstr "lik (=)"
+
+#: admin/class-b2bking-admin.php:2061 admin/class-b2bking-admin.php:3575
+msgid "EU Countries"
+msgstr "EU-land"
+
+#: admin/class-b2bking-admin.php:3514 admin/class-b2bking-admin.php:3914
+msgid "Everyone"
+msgstr "Alle sammen"
+
+#: public/class-b2bking-dynamic-rules.php:13745
+#: public/class-b2bking-dynamic-rules.php:13754
+#: public/class-b2bking-public.php:2623 public/class-b2bking-public.php:2632
+msgid "ex. VAT"
+msgstr "eks. mva"
+
+#: admin/class-b2bking-admin.php:1189 admin/class-b2bking-admin.php:1299
+#: admin/class-b2bking-admin.php:1329
+msgid "Exception: "
+msgstr "Unntak:"
+
+#: admin/class-b2bking-admin.php:9249
+msgid "Export / Download Price List"
+msgstr "Eksporter / Last ned Prisliste"
+
+#: admin/class-b2bking-settings.php:1318
+msgid "Extended Registration and Custom Fields -  explained"
+msgstr "Utvidet registrering og tilpassede felt - forklart"
+
+#: includes/emails/templates/new-offer-email-template.php:30
+#: includes/emails/templates/plain-new-offer-email-template.php:25
+msgid "February"
+msgstr "februar"
+
+#: admin/class-b2bking-admin.php:1629 admin/class-b2bking-admin.php:2354
+msgid "Field image"
+msgstr "Feltbilde"
+
+#: admin/class-b2bking-admin.php:1837 admin/class-b2bking-admin.php:2254
+#: admin/class-b2bking-admin.php:2561 admin/class-b2bking-admin.php:2602
+msgid "Field Label"
+msgstr "Feltetikett"
+
+#: admin/class-b2bking-admin.php:1815 admin/class-b2bking-admin.php:2255
+#: admin/class-b2bking-admin.php:2539 admin/class-b2bking-admin.php:2603
+msgid "Field Type"
+msgstr "Felttype"
+
+#: admin/class-b2bking-admin.php:2432 admin/class-b2bking-admin.php:2601
+msgid "Field Visibility"
+msgstr "Feltsynlighet"
+
+#: admin/class-b2bking-admin.php:1637 admin/class-b2bking-admin.php:2362
+msgid "Fields list"
+msgstr "Feltliste"
+
+#: admin/class-b2bking-admin.php:1636 admin/class-b2bking-admin.php:2361
+msgid "Fields navigation"
+msgstr "Feltnavigering"
+
+#: public/class-b2bking-public.php:4317
+msgid "File is too large. Max. upload file size is"
+msgstr "Filen er for stor. Maks. last opp filstørrelsen er"
+
+#: admin/class-b2bking-admin.php:1185
+msgid "File not CSV!"
+msgstr "Filen er ikke CSV!"
+
+#: public/class-b2bking-public.php:6596
+#, php-format
+msgid "File size limit exceeded, file size should be smaller than %d KB"
+msgstr ""
+"Filstørrelsesgrensen er overskredet, filstørrelsen skal være mindre enn %d KB"
+
+#: admin/class-b2bking-admin.php:2551
+msgid "File Upload (supported: jpg, jpeg, png, txt, pdf, doc, docx)"
+msgstr "Filopplasting (støttet: jpg, jpeg, png, txt, pdf, doc, docx)"
+
+#: admin/class-b2bking-admin.php:1827
+msgid "File Upload - supported: "
+msgstr "Filopplasting – støttet:"
+
+#: admin/class-b2bking-admin.php:349
+msgid "Filter by group"
+msgstr "Filtrer etter gruppe"
+
+#: admin/class-b2bking-admin.php:5930
+msgid "Filter conversations"
+msgstr "Filtrer samtaler"
+
+#: admin/class-b2bking-admin.php:1635 admin/class-b2bking-admin.php:2360
+msgid "Filter fields"
+msgstr "Filtrer felt"
+
+#: admin/class-b2bking-admin.php:2704
+msgid "Filter groups"
+msgstr "Filtrer grupper"
+
+#: admin/class-b2bking-admin.php:5297
+msgid "Filter offers"
+msgstr "Filtrer tilbud"
+
+#: admin/class-b2bking-admin.php:1367
+msgid "Filter roles"
+msgstr "Filtrer roller"
+
+#: admin/class-b2bking-admin.php:459 admin/class-b2bking-admin.php:3289
+msgid "Filter rules"
+msgstr "Filterregler"
+
+#: admin/class-b2bking-admin.php:8761 admin/class-b2bking-admin.php:8769
+#: admin/class-b2bking-admin.php:8818 admin/class-b2bking-admin.php:8826
+#: admin/class-b2bking-admin.php:8873 admin/class-b2bking-admin.php:8881
+#: admin/class-b2bking-admin.php:8934 admin/class-b2bking-admin.php:8942
+#: admin/class-b2bking-admin.php:10628
+msgid "Final Price"
+msgstr "Siste pris"
+
+#: admin/class-b2bking-admin.php:1891 includes/class-b2bking-activator.php:151
+#: includes/class-b2bking-activator.php:169
+msgid "First Name"
+msgstr "Fornavn"
+
+#: admin/class-b2bking-admin.php:3047 admin/class-b2bking-admin.php:3354
+#: admin/class-b2bking-admin.php:6389 admin/class-b2bking-admin.php:7845
+msgid "Fixed Price"
+msgstr "Fast pris"
+
+#: admin/class-b2bking-admin.php:7940 admin/class-b2bking-admin.php:8125
+msgid "Follow category rules (Default)"
+msgstr "Følg kategoriregler (standard)"
+
+#: admin/class-b2bking-admin.php:6787
+msgid "Follow group rules (default / automatic)"
+msgstr "Følg grupperegler (standard / automatisk)"
+
+#: admin/class-b2bking-settings.php:506
+msgid "For large numbers of products, this prevents crashes."
+msgstr "For et stort antall produkter forhindrer dette krasj."
+
+#: admin/class-b2bking-settings.php:515
+msgid "For large numbers of users, this prevents crashes."
+msgstr "For et stort antall brukere forhindrer dette krasj."
+
+#: admin/class-b2bking-settings.php:790
+msgid "For websites that allow registration at checkout"
+msgstr "For nettsteder som tillater registrering ved kassen"
+
+#: admin/class-b2bking-admin.php:6360
+msgid "For who"
+msgstr "For hvem"
+
+#: admin/class-b2bking-admin.php:547 admin/class-b2bking-admin.php:3505
+msgid "For who:"
+msgstr "For hvem:"
+
+#: admin/class-b2bking-settings.php:287
+msgid "Force Permalinks Rewrite"
+msgstr "Force Permalinks Rewrite"
+
+#: admin/class-b2bking-settings.php:551
+msgid "Force permalinks rewrite. Can solve 404 issues in My Account page."
+msgstr ""
+"Tving omskriving av permalinker. Kan løse 404-problemer på siden Min konto."
+
+#: admin/class-b2bking-admin.php:3055 admin/class-b2bking-admin.php:3356
+#: admin/class-b2bking-admin.php:6397 admin/class-b2bking-admin.php:7853
+msgid "Free Shipping"
+msgstr "Gratis frakt"
+
+#: public/class-b2bking-public.php:1205 public/class-b2bking-public.php:1348
+msgid "from"
+msgstr "fra"
+
+#: admin/class-b2bking-settings.php:321
+msgid "Frontend Color"
+msgstr "Frontend farge"
+
+#: admin/class-b2bking-settings.php:332
+msgid "Frontend Hover Color"
+msgstr "Frontend Hover Color"
+
+#: admin/class-b2bking-settings.php:1619
+msgid "Functionality Explained"
+msgstr "Funksjonalitet forklart"
+
+#: public/class-b2bking-dynamic-rules.php:2870
+msgid "Get 1 Free"
+msgstr "Få 1 gratis"
+
+#: admin/class-b2bking-admin.php:427
+msgid "Go to "
+msgstr "Gå til"
+
+#: admin/class-b2bking-admin.php:10637
+msgid "Go to Quote Fields"
+msgstr "Gå til tilbudsfelt"
+
+#: admin/class-b2bking-admin.php:4041 admin/class-b2bking-admin.php:10615
+msgid "greater (>)"
+msgstr "større (>)"
+
+#: admin/class-b2bking-admin.php:10242
+msgid "Gross Sales"
+msgstr "Brutto salg"
+
+#: admin/class-b2bking-admin.php:2684 admin/class-b2bking-admin.php:2709
+msgid "Group"
+msgstr "Gruppe"
+
+#: admin/class-b2bking-admin.php:2698
+msgid "Group image"
+msgstr "Gruppebilde"
+
+#: admin/class-b2bking-admin.php:6321
+msgid "Group name"
+msgstr "Gruppenavn"
+
+#: admin/class-b2bking-admin.php:438 admin/class-b2bking-admin.php:440
+#: admin/class-b2bking-admin.php:441 admin/class-b2bking-admin.php:464
+msgid "Group Rules"
+msgstr "Grupperegler"
+
+#: admin/class-b2bking-admin.php:5762
+msgid "Group Visibility"
+msgstr "Gruppesynlighet"
+
+#: admin/class-b2bking-admin.php:7459 admin/class-b2bking-admin.php:7538
+#: admin/class-b2bking-admin.php:7543 admin/class-b2bking-admin.php:7954
+#: admin/class-b2bking-admin.php:8225
+msgid "Group Visibility (B2BKing)"
+msgstr "Gruppesynlighet (B2BKing)"
+
+#: admin/class-b2bking-admin.php:2685 admin/class-b2bking-admin.php:2686
+#: admin/class-b2bking-admin.php:9093 admin/class-b2bking-admin.php:9094
+#: admin/class-b2bking-admin.php:9457
+msgid "Groups"
+msgstr "Grupper"
+
+#: admin/class-b2bking-admin.php:2706
+msgid "Groups list"
+msgstr "Gruppeliste"
+
+#: admin/class-b2bking-admin.php:2705
+msgid "Groups navigation"
+msgstr "Gruppenavigasjon"
+
+#: admin/class-b2bking-admin.php:7466 admin/class-b2bking-admin.php:7550
+msgid "Groups who can see this category"
+msgstr "Grupper som kan se denne kategorien"
+
+#: admin/class-b2bking-admin.php:5769
+msgid "Groups who can see this offer"
+msgstr "Grupper som kan se dette tilbudet"
+
+#: admin/class-b2bking-admin.php:7961 admin/class-b2bking-admin.php:8232
+msgid "Groups who can see this product"
+msgstr "Grupper som kan se dette produktet"
+
+#: admin/class-b2bking-admin.php:8159
+msgid "Groups:"
+msgstr "Grupper:"
+
+#: admin/class-b2bking-settings.php:1226
+msgid "Guest Access Restriction"
+msgstr "Begrensning for gjestetilgang"
+
+#: admin/class-b2bking-settings.php:1220
+msgid "Guest Access Restriction - functionality explained"
+msgstr "Begrensning for gjestetilgang – funksjonalitet forklart"
+
+#: admin/class-b2bking-admin.php:7473 admin/class-b2bking-admin.php:7557
+#: admin/class-b2bking-admin.php:8176 admin/class-b2bking-admin.php:8240
+msgid "Guest Users (Logged Out)"
+msgstr "Gjestebrukere (avlogget)"
+
+#: admin/class-b2bking-admin.php:7968
+msgid "Guest Users (Logged Out), "
+msgstr "Gjestebrukere (avlogget),"
+
+#: admin/class-b2bking-admin.php:427
+msgid "guide."
+msgstr "guide."
+
+#: admin/class-b2bking-admin.php:427
+msgid "Here is the "
+msgstr "Her er"
+
+#: admin/class-b2bking-admin.php:3051 admin/class-b2bking-admin.php:3355
+#: admin/class-b2bking-admin.php:6393 admin/class-b2bking-admin.php:7849
+msgid "Hidden Price"
+msgstr "Skjult pris"
+
+#: admin/class-b2bking-settings.php:147
+msgid "Hidden price dynamic rule text"
+msgstr "Skjult pris dynamisk regeltekst"
+
+#: admin/class-b2bking-settings.php:1238
+msgid "Hide prices"
+msgstr "Skjul priser"
+
+#: admin/class-b2bking-settings.php:139
+msgid "Hide prices text"
+msgstr "Skjul priser tekst"
+
+#: admin/class-b2bking-settings.php:1210
+msgid "Hide prices, products and functionalities"
+msgstr "Skjul priser, produkter og funksjoner"
+
+#: admin/class-b2bking-settings.php:1106
+msgid "Hide pricing & products"
+msgstr "Skjul priser og produkter"
+
+#: admin/class-b2bking-settings.php:533
+msgid "Hide products if they are part of at least 1 hidden category"
+msgstr "Skjul produkter hvis de er en del av minst én skjult kategori"
+
+#: admin/class-b2bking-settings.php:1244
+msgid "Hide shop & products"
+msgstr "Skjul butikk og produkter"
+
+#: admin/class-b2bking-settings.php:143
+msgid "Hide shop & products text"
+msgstr "Skjul tekst for butikk og produkter"
+
+#: admin/class-b2bking-settings.php:1250
+msgid "Hide website / force login"
+msgstr "Skjul nettside / tving pålogging"
+
+#: admin/class-b2bking-admin.php:2979 admin/class-b2bking-admin.php:6357
+#: admin/class-b2bking-admin.php:7750
+msgid "How much"
+msgstr "Hvor mye"
+
+#: admin/class-b2bking-admin.php:543 admin/class-b2bking-admin.php:3693
+msgid "How much:"
+msgstr "Hvor mye:"
+
+#: admin/class-b2bking-settings.php:1319
+msgid "How to completely separate B2B and B2C registration"
+msgstr "Hvordan skille B2B- og B2C-registrering fullstendig"
+
+#: admin/class-b2bking-admin.php:9302
+msgid "How to Import and Export Prices with B2BKing"
+msgstr "Hvordan importere og eksportere priser med B2BKing"
+
+#: admin/class-b2bking-settings.php:1396
+msgid "How to translate B2BKing to any language (Localization)"
+msgstr ""
+"Hvordan oversette B2BKing til et hvilket som helst språk (lokalisering)"
+
+#: admin/class-b2bking-admin.php:8212
+msgid "However, there are user groups that can."
+msgstr "Det finnes imidlertid brukergrupper som kan."
+
+#: includes/class-b2bking-invoice-gateway.php:64
+msgid ""
+"If invoice upon delivery is only available for certain methods, set it up "
+"here. Leave blank to enable for all methods."
+msgstr ""
+"Hvis faktura ved levering kun er tilgjengelig for visse metoder, sett den "
+"opp her. La stå tomt for å aktivere for alle metoder."
+
+#: admin/class-b2bking-settings.php:812
+msgid ""
+"If VAT Number is provided during checkout / checkout registration, this "
+"button validates and applies VAT exemptions"
+msgstr ""
+"Hvis MVA-nummeret er oppgitt under utsjekking/kasseregistrering, validerer "
+"denne knappen og gjelder momsfritak"
+
+#: admin/class-b2bking-admin.php:6760
+msgid ""
+"If you are running a hybrid B2B / B2C shop, here you can set users as B2B or "
+"B2C and control their group."
+msgstr ""
+"Hvis du driver en hybrid B2B / B2C-butikk, her kan du angi brukere som B2B "
+"eller B2C og kontrollere gruppen deres."
+
+#: admin/class-b2bking-settings.php:870
+msgid ""
+"If you have a multisite and separate B2B and B2C sites, this option will "
+"treat B2C users as guests when visiting the B2B site and lock them out"
+msgstr ""
+"Hvis du har en multisite og separate B2B- og B2C-sider, vil dette "
+"alternativet behandle B2C-brukere som gjester når de besøker B2B-siden og "
+"låse dem ute"
+
+#: admin/class-b2bking-admin.php:9240
+msgid "Import & Export Prices"
+msgstr "Import og eksport priser"
+
+#: admin/class-b2bking-admin.php:9220
+msgid "Import / Export Tool"
+msgstr "Import/eksportverktøy"
+
+#: admin/class-b2bking-admin.php:9262
+msgid "Import / Upload Price List"
+msgstr "Importer / last opp prisliste"
+
+#: admin/class-b2bking-admin.php:9273
+msgid "Import has been successful"
+msgstr "Importen har vært vellykket"
+
+#: admin/class-b2bking-admin.php:1334
+msgid "Import successful"
+msgstr "Importen var vellykket"
+
+#: admin/class-b2bking-admin.php:1504
+msgid "In this panel, you can control registration role settings."
+msgstr "I dette panelet kan du kontrollere registreringsrolleinnstillingene."
+
+#: admin/class-b2bking-admin.php:9652
+msgid ""
+"In this panel, you can enable and disable shipping and payment methods for "
+"B2C users."
+msgstr ""
+"I dette panelet kan du aktivere og deaktivere frakt- og betalingsmåter for "
+"B2C-brukere."
+
+#: admin/class-b2bking-admin.php:9803
+msgid ""
+"In this panel, you can enable and disable shipping and payment methods for "
+"Logged Out users."
+msgstr ""
+"I dette panelet kan du aktivere og deaktivere frakt- og betalingsmåter for "
+"avloggede brukere."
+
+#: admin/class-b2bking-admin.php:6915
+msgid ""
+"In this panel, you can enable and disable shipping and payment methods for "
+"this specific user."
+msgstr ""
+"I dette panelet kan du aktivere og deaktivere frakt- og betalingsmåter for "
+"denne spesifikke brukeren."
+
+#: admin/class-b2bking-admin.php:2905
+msgid ""
+"In this panel, you can enable and disable shipping and payment methods for "
+"users in this customer group."
+msgstr ""
+"I dette panelet kan du aktivere og deaktivere frakt- og betalingsmåter for "
+"brukere i denne kundegruppen."
+
+#: public/class-b2bking-dynamic-rules.php:13756
+#: public/class-b2bking-public.php:2634
+msgid "inc. VAT"
+msgstr "inc. mva"
+
+#: admin/class-b2bking-admin.php:3720
+msgid "Include shipping cost:"
+msgstr "Inkluder fraktkostnad:"
+
+#: includes/class-b2bking-activator.php:105
+msgid "Individual Customer"
+msgstr "Individuell kunde"
+
+#: public/class-b2bking-public.php:1802
+msgid "Information Table"
+msgstr "Informasjonstabell"
+
+#: admin/class-b2bking-admin.php:427
+msgid "Initial Configuration"
+msgstr "Innledende konfigurasjon"
+
+#: admin/class-b2bking-admin.php:6624 public/class-b2bking-public.php:5989
+msgid "Inquiry"
+msgstr "Forespørsel"
+
+#: public/class-b2bking-public.php:6061
+msgid "inquiry"
+msgstr "Forespørsel"
+
+#: admin/class-b2bking-admin.php:5928
+msgid "Insert into conversation"
+msgstr "Sett inn i samtalen"
+
+#: admin/class-b2bking-admin.php:1633 admin/class-b2bking-admin.php:2358
+msgid "Insert into field"
+msgstr "Sett inn i feltet"
+
+#: admin/class-b2bking-admin.php:2702
+msgid "Insert into group"
+msgstr "Sett inn i gruppen"
+
+#: admin/class-b2bking-admin.php:5295
+msgid "Insert into offer"
+msgstr "Sett inn i tilbudet"
+
+#: admin/class-b2bking-admin.php:1365
+msgid "Insert into role"
+msgstr "Sett inn i rollen"
+
+#: admin/class-b2bking-admin.php:457 admin/class-b2bking-admin.php:3287
+msgid "Insert into rule"
+msgstr "Sett inn i regelen"
+
+#: admin/class-b2bking-admin.php:9010 admin/class-b2bking-admin.php:10768
+msgid "Install Now"
+msgstr "Installere nå"
+
+#: includes/class-b2bking-invoice-gateway.php:52
+msgid "Instructions"
+msgstr "Bruksanvisning"
+
+#: includes/class-b2bking-invoice-gateway.php:54
+#: includes/class-b2bking-purchase-order-gateway.php:56
+msgid "Instructions that will be added to the thank you page."
+msgstr "Instruksjoner som vil bli lagt til takkesiden."
+
+#: public/class-b2bking-public.php:6587
+#, php-format
+msgid "Invalid file extension, only allowed: %s"
+msgstr "Ugyldig filtype, kun tillatt: %s"
+
+#: public/class-b2bking-public.php:4311
+msgid "Invalid file type"
+msgstr "ugyldig filtype"
+
+#: public/class-b2bking-public.php:10427
+msgid "Invalid VAT. Click to try again"
+msgstr "Ugyldig mva. Klikk for å prøve igjen"
+
+#: includes/class-b2bking-invoice-gateway.php:14
+#: includes/class-b2bking-invoice-gateway.php:41
+msgid "Invoice Payment"
+msgstr "Fakturabetaling"
+
+#: public/class-b2bking-public.php:10436
+msgid "is required"
+msgstr "er nødvendig"
+
+#: admin/class-b2bking-admin.php:10640 public/class-b2bking-public.php:6753
+#: public/class-b2bking-public.php:10445
+msgid "Item"
+msgstr "Punkt"
+
+#: admin/class-b2bking-admin.php:5460
+msgid "Item name:"
+msgstr "Gjenstandsnavn:"
+
+#: admin/class-b2bking-admin.php:5538
+msgid "Item quantity:"
+msgstr "Vareantall:"
+
+#: admin/class-b2bking-admin.php:5548
+msgid "Item subtotal:"
+msgstr "Delsum for vare:"
+
+#: includes/emails/templates/new-offer-email-template.php:28
+#: includes/emails/templates/plain-new-offer-email-template.php:23
+msgid "January"
+msgstr "januar"
+
+#: public/class-b2bking-public.php:7396 public/class-b2bking-public.php:7580
+msgid "Job Title"
+msgstr "Jobbtittel"
+
+#: includes/emails/templates/new-offer-email-template.php:40
+#: includes/emails/templates/plain-new-offer-email-template.php:35
+msgid "July"
+msgstr "juli"
+
+#: includes/emails/templates/new-offer-email-template.php:38
+#: includes/emails/templates/plain-new-offer-email-template.php:33
+msgid "June"
+msgstr "juni"
+
+#: admin/class-b2bking-settings.php:221
+msgid "Keep data on uninstall:"
+msgstr "Behold data ved avinstallering:"
+
+#: admin/class-b2bking-admin.php:8604 admin/class-b2bking-admin.php:8613
+#: admin/class-b2bking-admin.php:8639 admin/class-b2bking-admin.php:8647
+#: admin/class-b2bking-admin.php:10629
+msgid "Label"
+msgstr "Merkelapp"
+
+#: admin/class-b2bking-settings.php:1125 admin/class-b2bking-settings.php:1382
+msgid "Language and Text"
+msgstr "Språk og tekst"
+
+#: admin/class-b2bking-settings.php:1556
+msgid "Large Stores"
+msgstr "Store butikker"
+
+#: admin/class-b2bking-admin.php:10231
+msgid "Last 31 Days"
+msgstr "Siste 31 dager"
+
+#: admin/class-b2bking-admin.php:10230
+msgid "Last 7 Days"
+msgstr "Siste 7 dager"
+
+#: admin/class-b2bking-admin.php:1892 includes/class-b2bking-activator.php:185
+#: includes/class-b2bking-activator.php:203
+msgid "Last Name"
+msgstr "Etternavn"
+
+#: public/class-b2bking-public.php:6054
+msgid "Last Reply"
+msgstr "Siste svar"
+
+#: admin/class-b2bking-settings.php:1424
+msgid "License management"
+msgstr "Lisenshåndtering"
+
+#: public/class-b2bking-public.php:7037 public/class-b2bking-public.php:7117
+msgid "List name"
+msgstr "Liste navn"
+
+#: admin/class-b2bking-admin.php:10538
+msgid ""
+"List of allowed options. Separate with commas. Supports: user roles (e.g. "
+"customer, editor), \"b2c\", \"b2b\", \"loggedout\", and groups entered with "
+"IDs (b2bking_group_123)"
+msgstr ""
+"Liste over tillatte alternativer. Skill med komma. Støtter: brukerroller (f."
+"eks. kunde, redaktør), \"b2c\", \"b2b\", \"logget ut\", og grupper som er "
+"angitt med IDer (b2bking_group_123)"
+
+#: admin/class-b2bking-settings.php:524
+msgid "Load users with AJAX in the admin customers panel."
+msgstr "Last brukere med AJAX i admin-kundepanelet."
+
+#: admin/class-b2bking-admin.php:1975
+msgid "Logged in B2B Users"
+msgstr "Innloggede B2B-brukere"
+
+#: admin/class-b2bking-admin.php:1986
+msgid "Logged in B2C Users"
+msgstr "Innloggede B2C-brukere"
+
+#: admin/class-b2bking-admin.php:1997 admin/class-b2bking-admin.php:2626
+#: admin/class-b2bking-admin.php:9115 admin/class-b2bking-admin.php:9116
+#: admin/class-b2bking-admin.php:9502 admin/class-b2bking-admin.php:9669
+msgid "Logged Out Users"
+msgstr "Utloggede brukere"
+
+#: admin/class-b2bking-admin.php:9681
+msgid "Logged Out Users Shipping and Payment Methods"
+msgstr "Utloggede brukere Frakt- og betalingsmåter"
+
+#: public/class-b2bking-public.php:7356
+msgid "Login Details"
+msgstr "Innloggingsdetaljer"
+
+#: admin/class-b2bking-settings.php:984 includes/class-b2bking.php:4161
+#: public/class-b2bking-public.php:8096
+msgid "Login to view prices"
+msgstr "Logg inn for å se priser"
+
+#: admin/class-b2bking-admin.php:9898 includes/class-b2bking.php:1536
+msgid "Main business account"
+msgstr "Hovedbedriftskonto"
+
+#: admin/class-b2bking-settings.php:1100
+msgid "Main Settings"
+msgstr "Hovedinnstillinger"
+
+#: admin/class-b2bking-admin.php:1926
+msgid "Make field required in billing"
+msgstr "Gjør feltet obligatorisk ved fakturering"
+
+#: admin/class-b2bking-admin.php:5281
+msgid "Make new offer"
+msgstr "Gi nytt tilbud"
+
+#: admin/class-b2bking-admin.php:6147
+msgid "Make Offer"
+msgstr "Gjøre tilbudet"
+
+#: admin/class-b2bking-admin.php:5280
+msgid "Make offer"
+msgstr "Gjøre tilbudet"
+
+#: admin/class-b2bking-admin.php:7922
+msgid "Manage Dynamic Rules"
+msgstr "Administrer dynamiske regler"
+
+#: admin/class-b2bking-settings.php:1513
+msgid "Manage Quote Form Fields"
+msgstr "Administrer felt for tilbudsskjema"
+
+#: admin/class-b2bking-settings.php:80
+msgid "Manual approval for all"
+msgstr "Manuell godkjenning for alle"
+
+#: admin/class-b2bking-admin.php:7943 admin/class-b2bking-admin.php:8131
+msgid "Manual setting (override category rules)"
+msgstr "Manuell innstilling (overstyr kategoriregler)"
+
+#: admin/class-b2bking-admin.php:6788
+msgid "Manual setting (override group settings)"
+msgstr "Manuell innstilling (overstyr gruppeinnstillinger)"
+
+#: includes/emails/templates/new-offer-email-template.php:32
+#: includes/emails/templates/plain-new-offer-email-template.php:27
+msgid "March"
+msgstr "mars"
+
+#: admin/class-b2bking-admin.php:3675
+msgid "Maximum"
+msgstr "Maksimum"
+
+#: admin/class-b2bking-admin.php:3063 admin/class-b2bking-admin.php:3358
+#: admin/class-b2bking-admin.php:6405 admin/class-b2bking-admin.php:7861
+msgid "Maximum Order"
+msgstr "Maksimal ordre"
+
+#: includes/emails/templates/new-offer-email-template.php:36
+#: includes/emails/templates/plain-new-offer-email-template.php:31
+msgid "May"
+msgstr "Kan"
+
+#: admin/class-b2bking-admin.php:6629 public/class-b2bking-public.php:5990
+#: public/class-b2bking-public.php:6004
+msgid "Message"
+msgstr "Melding"
+
+#: public/class-b2bking-public.php:6064
+msgid "message"
+msgstr "Melding"
+
+#: includes/class-b2bking.php:3547
+msgid "Message was sent by:"
+msgstr "Meldingen ble sendt av:"
+
+#: includes/class-b2bking.php:1812
+msgid "Message:"
+msgstr "Melding: "
+
+#: includes/emails/templates/new-message-email-template.php:64
+#: includes/emails/templates/plain-new-message-email-template.php:17
+msgid "Message: "
+msgstr "Melding: "
+
+#: admin/class-b2bking-admin.php:5974
+msgid "Messages"
+msgstr "Meldinger"
+
+#: admin/class-b2bking-admin.php:3665
+msgid "Min / Max"
+msgstr "Min / Maks"
+
+#: admin/class-b2bking-admin.php:8760 admin/class-b2bking-admin.php:8768
+#: admin/class-b2bking-admin.php:8817 admin/class-b2bking-admin.php:8825
+#: admin/class-b2bking-admin.php:8872 admin/class-b2bking-admin.php:8880
+#: admin/class-b2bking-admin.php:8933 admin/class-b2bking-admin.php:8941
+#: admin/class-b2bking-admin.php:10627
+msgid "Min. Quantity"
+msgstr "Min. Mengde"
+
+#: admin/class-b2bking-admin.php:3674
+msgid "Minimum"
+msgstr "Minimum"
+
+#: admin/class-b2bking-admin.php:4013
+msgid "Minimum / maximum / multiple applies to each individual product"
+msgstr "Minimum / maksimum / multiple gjelder for hvert enkelt produkt"
+
+#: admin/class-b2bking-admin.php:3059 admin/class-b2bking-admin.php:3357
+#: admin/class-b2bking-admin.php:6401 admin/class-b2bking-admin.php:7857
+msgid "Minimum Order"
+msgstr "Minimumsbestilling"
+
+#: public/class-b2bking-public.php:8788
+msgid "Minimum Order Quantity: "
+msgstr "Minimum antall:"
+
+#: admin/class-b2bking-settings.php:1134 admin/class-b2bking-settings.php:1454
+msgid "Miscellaneous settings"
+msgstr "Diverse innstillinger"
+
+#: admin/class-b2bking-settings.php:262
+msgid "Modify price suffix based on tax exemption rules"
+msgstr "Endre prissuffiks basert på skattefritaksregler"
+
+#: admin/class-b2bking-admin.php:9351
+msgid "Move all users to group "
+msgstr "Flytt alle brukere til gruppen"
+
+#: admin/class-b2bking-admin.php:556
+msgid "Multiple"
+msgstr "Flere"
+
+#: admin/class-b2bking-admin.php:2624 admin/class-b2bking-admin.php:6495
+#: admin/class-b2bking-admin.php:6565 admin/class-b2bking-admin.php:7801
+msgid "Multiple Options"
+msgstr "Flere alternativer"
+
+#: admin/class-b2bking-admin.php:6499
+msgid "Multiple Options Excl."
+msgstr "Flere alternativer Ekskl."
+
+#: admin/class-b2bking-admin.php:2277
+msgid "Multiple Roles"
+msgstr "Flere roller"
+
+#: admin/class-b2bking-settings.php:1549
+msgid "Multisite"
+msgstr "Multisite"
+
+#: includes/emails/class-b2bking-new-customer-email.php:139
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:143
+#: includes/emails/class-b2bking-new-message-email.php:128
+#: includes/emails/class-b2bking-new-offer-email.php:128
+#: includes/emails/class-b2bking-your-account-approved-email.php:129
+msgid "N/A"
+msgstr "N/A"
+
+#: admin/class-b2bking-admin.php:2976 admin/class-b2bking-admin.php:6355
+#: admin/class-b2bking-admin.php:7747 admin/class-b2bking-admin.php:9866
+#: admin/class-b2bking-admin.php:9939 includes/class-b2bking.php:3778
+#: public/class-b2bking-public.php:7390 public/class-b2bking-public.php:7574
+msgid "Name"
+msgstr "Navn"
+
+#: admin/class-b2bking-admin.php:10342
+msgid "Name and Email"
+msgstr "Navn og e-post"
+
+#: public/class-b2bking-public.php:10411
+msgid "Name for the new purchase list:"
+msgstr "Navn på den nye kjøpslisten:"
+
+#: admin/class-b2bking-admin.php:3716
+msgid "Name:"
+msgstr "Navn:"
+
+#: includes/class-b2bking.php:1856
+#: includes/emails/templates/new-message-email-template.php:10
+msgid "Name: "
+msgstr "Navn:"
+
+#: admin/class-b2bking-settings.php:897
+msgid "Necessary for individual SKU/name search for each variation. (slower)"
+msgstr "Nødvendig for individuell SKU/navnsøk for hver variant. (tregere)"
+
+#: admin/class-b2bking-admin.php:6296
+msgid "Necessary for this quote (requested by a guest user)"
+msgstr "Nødvendig for dette tilbudet (forespurt av en gjestebruker)"
+
+#: admin/class-b2bking-admin.php:10307
+msgid "Net Earnings (B2B)"
+msgstr "Nettoinntekt (B2B)"
+
+#: admin/class-b2bking-admin.php:5997 admin/class-b2bking-admin.php:6018
+#: admin/class-b2bking-admin.php:6606
+msgid "New"
+msgstr "Ny"
+
+#: public/class-b2bking-public.php:5971 public/class-b2bking-public.php:5978
+msgid "New Conversation"
+msgstr "Ny melding"
+
+#: admin/class-b2bking-admin.php:5917
+msgid "New conversation"
+msgstr "Ny melding"
+
+#: includes/emails/class-b2bking-new-customer-email.php:13
+msgid "New customer"
+msgstr "Ny kunde"
+
+#: includes/emails/class-b2bking-new-customer-email.php:16
+msgid "New customer emails are sent to admin once a customer registers."
+msgstr "Ny kunde-e-post sendes til admin når en kunde registrerer seg."
+
+#: includes/emails/class-b2bking-new-customer-email.php:19
+#: includes/emails/class-b2bking-new-customer-email.php:20
+msgid "New customer registration"
+msgstr "Ny kunderegistrering"
+
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:13
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:19
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:20
+msgid "New customer requires approval"
+msgstr "Ny kunde krever godkjenning"
+
+#: includes/class-b2bking.php:3547
+msgid "New feedback message"
+msgstr "Ny tilbakemeldingsmelding"
+
+#: admin/class-b2bking-admin.php:1622 admin/class-b2bking-admin.php:2347
+msgid "New field"
+msgstr "Nytt felt"
+
+#: admin/class-b2bking-admin.php:839
+msgid "New Group"
+msgstr "Ny gruppe"
+
+#: admin/class-b2bking-admin.php:2691
+msgid "New group"
+msgstr "Ny gruppe"
+
+#: admin/class-b2bking-admin.php:571
+msgid "New group:"
+msgstr "Ny gruppe:"
+
+#: public/class-b2bking-public.php:7260 public/class-b2bking-public.php:7846
+msgid "new line"
+msgstr "ny linje"
+
+#: public/class-b2bking-public.php:7029
+msgid "New List"
+msgstr "Ny liste"
+
+#: includes/emails/class-b2bking-new-message-email.php:13
+#: includes/emails/class-b2bking-new-message-email.php:19
+#: includes/emails/class-b2bking-new-message-email.php:20
+#: includes/emails/class-b2bking-new-message-email.php:45
+#: includes/emails/class-b2bking-new-message-email.php:46
+msgid "New message / conversation"
+msgstr "Ny melding"
+
+#: admin/class-b2bking-admin.php:5284
+msgid "New offer"
+msgstr "Nytt tilbud"
+
+#: admin/class-b2bking-admin.php:1354
+msgid "New role"
+msgstr "Ny rolle"
+
+#: admin/class-b2bking-admin.php:446 admin/class-b2bking-admin.php:3276
+msgid "New rule"
+msgstr "Ny regel"
+
+#: public/class-b2bking-public.php:7345
+msgid "New Subaccount"
+msgstr "Ny underkonto"
+
+#: public/class-b2bking-public.php:7330
+msgid "New subaccount"
+msgstr "Ny underkonto"
+
+#: admin/class-b2bking-admin.php:3632 admin/class-b2bking-admin.php:3729
+#: admin/class-b2bking-admin.php:7440
+msgid "No"
+msgstr "Nei"
+
+#: admin/class-b2bking-admin.php:6479
+msgid "no"
+msgstr "Nei"
+
+#: admin/class-b2bking-admin.php:1440
+msgid "No (automatic approval)"
+msgstr "Nei (automatisk godkjenning)"
+
+#: public/class-b2bking-public.php:6091
+msgid "No conversations exist."
+msgstr "Ingen meldinger registrert."
+
+#: admin/class-b2bking-admin.php:5921
+msgid "No conversations found"
+msgstr "Fant ingen samtaler"
+
+#: admin/class-b2bking-admin.php:5922
+msgid "No conversations found in trash"
+msgstr "Finner ingen samtaler i papirkurven"
+
+#: admin/class-b2bking-admin.php:1626 admin/class-b2bking-admin.php:2351
+msgid "No fields found"
+msgstr "Ingen felt funnet"
+
+#: admin/class-b2bking-admin.php:1627 admin/class-b2bking-admin.php:2352
+msgid "No fields found in trash"
+msgstr "Ingen felt funnet i papirkurven"
+
+#: admin/class-b2bking-admin.php:1338
+msgid "No file uploaded. You must select a CSV file first!"
+msgstr "Ingen fil lastet opp. Du må velge en CSV-fil først!"
+
+#: admin/class-b2bking-admin.php:7168
+msgid "No group is set up. Please create a customer group"
+msgstr "Ingen gruppe er satt opp. Opprett en kundegruppe"
+
+#: admin/class-b2bking-admin.php:2695
+msgid "No groups found"
+msgstr "Ingen grupper funnet"
+
+#: admin/class-b2bking-admin.php:2696
+msgid "No groups found in trash"
+msgstr "Ingen grupper funnet i papirkurven"
+
+#: admin/class-b2bking-admin.php:8210
+msgid "No individual users can specifically view this product. "
+msgstr "Ingen individuelle brukere kan spesifikt se dette produktet."
+
+#: public/class-b2bking-public.php:6970
+msgid "No offers available yet."
+msgstr "Ingen tilbud tilgjengelig ennå."
+
+#: admin/class-b2bking-admin.php:5288
+msgid "No offers found"
+msgstr "Ingen tilbud funnet"
+
+#: admin/class-b2bking-admin.php:5289
+msgid "No offers found in trash"
+msgstr "Ingen tilbud funnet i papirkurven"
+
+#: public/class-b2bking-public.php:10410
+msgid "No products found..."
+msgstr "Ingen produkter funnet..."
+
+#: admin/class-b2bking-admin.php:10333
+msgid "No registrations need approval!"
+msgstr "Ingen registreringer krever godkjenning!"
+
+#: admin/class-b2bking-admin.php:10537
+msgid "No restrictions"
+msgstr "Ingen restriksjoner"
+
+#: admin/class-b2bking-admin.php:1358
+msgid "No roles found"
+msgstr "Ingen roller funnet"
+
+#: admin/class-b2bking-admin.php:1359
+msgid "No roles found in trash"
+msgstr "Ingen roller funnet i papirkurven"
+
+#: admin/class-b2bking-admin.php:450 admin/class-b2bking-admin.php:3280
+msgid "No rules found"
+msgstr "Finner ingen regler"
+
+#: admin/class-b2bking-admin.php:451 admin/class-b2bking-admin.php:3281
+msgid "No rules found in trash"
+msgstr "Ingen regler funnet i søppel"
+
+#: public/class-b2bking-public.php:7471
+msgid "No subaccounts exist."
+msgstr "Ingen underkontoer er opprettet."
+
+#: admin/class-b2bking-admin.php:1890 admin/class-b2bking-settings.php:1232
+msgid "None"
+msgstr "Ingen"
+
+#: admin/class-b2bking-admin.php:1456
+msgid "None (B2C)"
+msgstr "Ingen (B2C)"
+
+#: admin/class-b2bking-admin.php:3618
+msgid "Nothing"
+msgstr "Ingenting"
+
+#: admin/class-b2bking-admin.php:10333
+msgid "Nothing here..."
+msgstr "Ingenting her..."
+
+#: includes/emails/templates/new-offer-email-template.php:48
+#: includes/emails/templates/plain-new-offer-email-template.php:43
+msgid "November"
+msgstr "november"
+
+#: admin/class-b2bking-admin.php:1822 admin/class-b2bking-admin.php:2546
+msgid "Number"
+msgstr "Nummer"
+
+#: admin/class-b2bking-admin.php:6229 public/class-b2bking-public.php:7038
+#: public/class-b2bking-public.php:7118
+msgid "Number of items"
+msgstr "Antall ting"
+
+#: admin/class-b2bking-admin.php:10246
+msgid "Number of Orders"
+msgstr "Antall bestillinger"
+
+#: admin/class-b2bking-admin.php:6322
+msgid "Number of users"
+msgstr "antall brukere"
+
+#: includes/emails/templates/new-offer-email-template.php:46
+#: includes/emails/templates/plain-new-offer-email-template.php:41
+msgid "October"
+msgstr "oktober"
+
+#: admin/class-b2bking-admin.php:5277 admin/class-b2bking-admin.php:5302
+#: includes/emails/templates/new-offer-email-template.php:19
+#: includes/emails/templates/plain-new-offer-email-template.php:14
+msgid "Offer"
+msgstr "By på"
+
+#: admin/class-b2bking-admin.php:5333
+msgid "Offer Access"
+msgstr "Tilby tilgang"
+
+#: admin/class-b2bking-admin.php:5349
+msgid "Offer Custom Text (optional)"
+msgstr "Tilbud tilpasset tekst (valgfritt)"
+
+#: admin/class-b2bking-admin.php:5341
+msgid "Offer Details"
+msgstr "Tilbudsdetaljer"
+
+#: admin/class-b2bking-admin.php:10638 public/class-b2bking-public.php:10441
+msgid "Offer details"
+msgstr "Tilbudsdetaljer"
+
+#: admin/class-b2bking-admin.php:5291
+msgid "Offer image"
+msgstr "Tilbudsbilde"
+
+#: admin/class-b2bking-admin.php:6227 public/class-b2bking-public.php:5626
+msgid "Offer name"
+msgstr "Tilbudsnavn"
+
+#: admin/class-b2bking-admin.php:6228
+msgid "Offer price"
+msgstr "Tilbudsprisen"
+
+#: admin/class-b2bking-admin.php:5562
+msgid "Offer Total: "
+msgstr "Totalt tilbud:"
+
+#: admin/class-b2bking-admin.php:5276 admin/class-b2bking-admin.php:5278
+#: admin/class-b2bking-admin.php:5279 admin/class-b2bking-settings.php:1519
+#: public/class-b2bking-public.php:5721
+msgid "Offers"
+msgstr "Tilbud"
+
+#: admin/class-b2bking-settings.php:1528
+msgid "Offers - feature in detail"
+msgstr "Tilbud - funksjon i detalj"
+
+#: admin/class-b2bking-admin.php:969
+msgid ""
+"Offers allow you to sell packages (bundles) of products in any quantities "
+"and at any price to specific customers or groups. You can use offers to "
+"create special deals, offer discounts, or sell packages."
+msgstr ""
+"Tilbud lar deg selge pakker (bunter) med produkter i alle mengder og til "
+"enhver pris til spesifikke kunder eller grupper. Du kan bruke tilbud til å "
+"lage spesialtilbud, tilby rabatter eller selge pakker."
+
+#: admin/class-b2bking-admin.php:5369
+msgid ""
+"Offers appear for each user in their My Account panel -> Offers. Here you "
+"can also download a PDF or email users with this specific offer."
+msgstr ""
+"Tilbud vises for hver bruker i Min konto-panelet deres -> Tilbud. Her kan du "
+"også laste ned en PDF eller sende e-post til brukere med dette spesifikke "
+"tilbudet."
+
+#: admin/class-b2bking-settings.php:343
+msgid "Offers endpoint:"
+msgstr "Tilbyr endepunkt:"
+
+#: admin/class-b2bking-admin.php:5299
+msgid "Offers list"
+msgstr "Tilbudsliste"
+
+#: admin/class-b2bking-admin.php:5298
+msgid "Offers navigation"
+msgstr "Tilbyr navigasjon"
+
+#: admin/class-b2bking-settings.php:107
+msgid "Offers PDF Logo"
+msgstr "Tilbyr PDF-logo"
+
+#: public/class-b2bking-public.php:6108
+msgid "Older conversations →"
+msgstr "Eldre samtaler →"
+
+#: public/class-b2bking-public.php:6982
+msgid "Older offers   →"
+msgstr "Eldre tilbud →"
+
+#: admin/class-b2bking-admin.php:3496
+msgid "One Time Fee / Tax"
+msgstr "Engangsavgift / skatt"
+
+#: admin/class-b2bking-admin.php:6511
+msgid "One-Time (Unique) "
+msgstr "Engangs (unikt)"
+
+#: admin/class-b2bking-admin.php:5998 admin/class-b2bking-admin.php:6019
+#: admin/class-b2bking-admin.php:6609
+msgid "Open"
+msgstr "Åpen"
+
+#: public/class-b2bking-public.php:9608
+msgid "Order again"
+msgstr "Bestill på nytt"
+
+#: admin/class-b2bking-settings.php:1116 admin/class-b2bking-settings.php:1345
+msgid "Order form settings"
+msgstr "Bestillingsskjemainnstillinger"
+
+#: admin/class-b2bking-admin.php:10283
+msgid "Orders Nr. (B2B)"
+msgstr "Bestillinger Nr. (B2B)"
+
+#: admin/class-b2bking-settings.php:1133
+msgid "Other & Advanced Settings"
+msgstr "Andre og avanserte innstillinger"
+
+#: admin/class-b2bking-settings.php:1452
+msgid "Other settings"
+msgstr "Andre innstillinger"
+
+#: admin/class-b2bking-admin.php:5923
+msgid "Parent conversation"
+msgstr "Foreldresamtale"
+
+#: admin/class-b2bking-admin.php:1628 admin/class-b2bking-admin.php:2353
+msgid "Parent field"
+msgstr "Foreldrefelt"
+
+#: admin/class-b2bking-admin.php:2697
+msgid "Parent group"
+msgstr "Foreldregruppe"
+
+#: admin/class-b2bking-admin.php:5290
+msgid "Parent offer"
+msgstr "Foreldretilbud"
+
+#: admin/class-b2bking-admin.php:1360
+msgid "Parent role"
+msgstr "Foreldrerolle"
+
+#: admin/class-b2bking-admin.php:452 admin/class-b2bking-admin.php:3282
+msgid "Parent rule"
+msgstr "Foreldreregel"
+
+#: public/class-b2bking-public.php:6541 public/class-b2bking-public.php:7378
+msgid "Password"
+msgstr "Passord"
+
+#: public/class-b2bking-public.php:10405
+msgid ""
+"Password must have at least 8 characters, at least 1 letter and 1 number. "
+msgstr "Passordet må ha minst 8 tegn, minst 1 bokstav og 1 tall."
+
+#: admin/class-b2bking-admin.php:3623
+msgid "Pay TAX in Cart:"
+msgstr "Betal skatt i handlekurven:"
+
+#: admin/class-b2bking-admin.php:3652
+msgid "Payment Method"
+msgstr "Betalingsmetode"
+
+#: public/class-b2bking-public.php:5219
+msgid "Payment method"
+msgstr "Betalingsmetode"
+
+#: includes/class-b2bking-invoice-gateway.php:47
+msgid "Payment method description that the customer will see on your website."
+msgstr "Betalingsmåtebeskrivelse som kunden vil se på nettstedet ditt."
+
+#: admin/class-b2bking-admin.php:3099 admin/class-b2bking-admin.php:3369
+#: admin/class-b2bking-admin.php:6441
+msgid "Payment Method Discount"
+msgstr "Betalingsmåte rabatt"
+
+#: admin/class-b2bking-admin.php:3095 admin/class-b2bking-admin.php:3368
+#: admin/class-b2bking-admin.php:6437
+msgid "Payment Method Min / Max Order"
+msgstr "Betalingsmåte Min / Maks ordre"
+
+#: admin/class-b2bking-admin.php:2867 admin/class-b2bking-admin.php:6879
+#: admin/class-b2bking-admin.php:9618 admin/class-b2bking-admin.php:9769
+msgid "Payment Methods"
+msgstr "betalingsmetoder"
+
+#: admin/class-b2bking-admin.php:7378
+msgid "Pending Approval"
+msgstr "Venter på godkjenning"
+
+#: admin/class-b2bking-admin.php:3689
+msgid "Percentage"
+msgstr "Prosentdel"
+
+#: admin/class-b2bking-settings.php:1542
+msgid "Permalinks"
+msgstr "Permalinker"
+
+#: public/class-b2bking-public.php:7410 public/class-b2bking-public.php:7594
+msgid "Permissions"
+msgstr "Tillatelser"
+
+#: public/class-b2bking-public.php:7386 public/class-b2bking-public.php:7570
+msgid "Personal Details"
+msgstr "Personlige opplysninger"
+
+#: admin/class-b2bking-admin.php:1901 includes/class-b2bking-activator.php:389
+#: includes/class-b2bking-activator.php:407
+#: public/class-b2bking-public.php:7402 public/class-b2bking-public.php:7586
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: admin/class-b2bking-admin.php:3023 admin/class-b2bking-admin.php:3026
+#: admin/class-b2bking-admin.php:6464 admin/class-b2bking-admin.php:6467
+#: admin/class-b2bking-admin.php:7821 admin/class-b2bking-admin.php:7824
+msgid "pieces"
+msgstr "stykker"
+
+#: public/class-b2bking-public.php:7414
+msgid "Place an Order"
+msgstr "Legg inn en bestilling"
+
+#: public/class-b2bking-public.php:7933
+msgid "Placed by"
+msgstr "Plassert av"
+
+#: admin/class-b2bking-admin.php:1848 admin/class-b2bking-admin.php:2572
+msgid "Placeholder Text"
+msgstr "Plassholdertekst"
+
+#: includes/class-b2bking-purchase-order-gateway.php:52
+msgid "Please add your P.O. number below."
+msgstr "Vennligst legg til din P.O. nummeret nedenfor."
+
+#: public/class-b2bking-public.php:6579
+msgid "Please choose a file"
+msgstr "Vennligst velg en fil"
+
+#: admin/class-b2bking-admin.php:1861 admin/class-b2bking-admin.php:2585
+msgid ""
+"Please enter options separated by commas. Example: “Apples, Oranges, Pears”."
+msgstr ""
+"Vennligst skriv inn alternativer atskilt med komma. Eksempel: \"epler, "
+"appelsiner, pærer\"."
+
+#: includes/class-b2bking-purchase-order-gateway.php:141
+#: includes/class-b2bking-purchase-order-gateway.php:143
+msgid "Please enter your PO Number."
+msgstr "Vennligst skriv inn ditt PO-nummer."
+
+#: public/class-b2bking-public.php:3193
+msgid "Please fill all required fields to proceed with your order."
+msgstr "Fyll ut alle obligatoriske felter for å fortsette med bestillingen."
+
+#: public/class-b2bking-public.php:10434
+msgid "Please fill all required fields to submit the quote request"
+msgstr "Fyll ut alle obligatoriske felter for å sende inn tilbudsforespørselen"
+
+#: admin/class-b2bking-settings.php:995 public/class-b2bking-public.php:8171
+msgid "Please login to access the B2B Portal."
+msgstr "Logg inn for å få tilgang til B2B-portalen."
+
+#: admin/class-b2bking-settings.php:1173
+msgid "Plugin Status"
+msgstr "Plugin-status"
+
+#: admin/class-b2bking-admin.php:1900 includes/class-b2bking-activator.php:355
+#: includes/class-b2bking-activator.php:373
+msgid "Postcode / ZIP"
+msgstr "Postnummer / postnummer"
+
+#: includes/class-b2bking.php:428 includes/class-b2bking.php:3778
+#: includes/emails/templates/new-offer-email-template.php:64
+#: includes/emails/templates/plain-new-offer-email-template.php:59
+msgid "Price"
+msgstr "Pris"
+
+#: admin/class-b2bking-settings.php:1535
+msgid "Price and Product Display"
+msgstr "Pris og produktvisning"
+
+#: admin/class-b2bking-settings.php:1006
+#: public/class-b2bking-dynamic-rules.php:427
+msgid "Price is unavailable"
+msgstr "Prisen er ikke tilgjengelig"
+
+#: public/class-b2bking-public.php:1616 public/class-b2bking-public.php:1974
+msgid "Price per Unit"
+msgstr "Pris per enhet"
+
+#: admin/class-b2bking-admin.php:8749 admin/class-b2bking-admin.php:8862
+msgid "Price Tiers"
+msgstr "Prisnivåer"
+
+#: admin/class-b2bking-settings.php:1101
+msgid "Primary plugin settings"
+msgstr "Primære plugin-innstillinger"
+
+#: admin/class-b2bking-admin.php:7242
+msgid "Print"
+msgstr "Skrive ut"
+
+#: includes/emails/templates/new-offer-email-template.php:62
+#: includes/emails/templates/plain-new-offer-email-template.php:57
+#: public/class-b2bking-public.php:7741
+msgid "Product"
+msgstr "Produkt"
+
+#: admin/class-b2bking-settings.php:1270
+msgid "Product & Category Visibility Settings"
+msgstr "Innstillinger for synlighet for produkt og kategori"
+
+#: admin/class-b2bking-admin.php:3409 admin/class-b2bking-admin.php:3788
+msgid "Product Categories"
+msgstr "Produkt kategorier"
+
+#: public/class-b2bking-public.php:7160
+msgid "Product Name"
+msgstr "Produktnavn"
+
+#: public/class-b2bking-public.php:7168
+msgid "Product name"
+msgstr "Produktnavn"
+
+#: admin/class-b2bking-admin.php:3404
+msgid "Product or Variation ID(s)"
+msgstr "Produkt- eller variant-ID(er)"
+
+#: admin/class-b2bking-admin.php:3745
+msgid "Product or Variation ID(s) (comma-separated):"
+msgstr "Produkt- eller variant-ID(er) (kommaseparert):"
+
+#: admin/class-b2bking-admin.php:4037 admin/class-b2bking-admin.php:10613
+#: public/class-b2bking-public.php:1608 public/class-b2bking-public.php:1966
+msgid "Product Quantity"
+msgstr "Produkt mengde"
+
+#: admin/class-b2bking-admin.php:4038 admin/class-b2bking-admin.php:10614
+msgid "Product Value"
+msgstr "Produktverdi"
+
+#: admin/class-b2bking-admin.php:7706
+msgid "Product Visibility (B2BKing)"
+msgstr "Produktsynlighet (B2BKing)"
+
+#: admin/class-b2bking-settings.php:303
+msgid "Product visibility cache"
+msgstr "Produktsynlighetsbuffer"
+
+#: admin/class-b2bking-admin.php:3003 admin/class-b2bking-admin.php:6507
+msgid "Product: "
+msgstr "Produkt:"
+
+#: admin/class-b2bking-admin.php:3452 admin/class-b2bking-admin.php:5497
+msgid "Products (Individual Variations)"
+msgstr "Produkter (individuelle varianter)"
+
+#: admin/class-b2bking-admin.php:3843
+msgid "Products (individual variations)"
+msgstr "Produkter (individuelle varianter)"
+
+#: admin/class-b2bking-admin.php:3421 admin/class-b2bking-admin.php:3806
+#: admin/class-b2bking-admin.php:5473
+msgid "Products (individual)"
+msgstr "Produkter (individuelle)"
+
+#: public/class-b2bking-dynamic-rules.php:12833
+#: public/class-b2bking-dynamic-rules.php:13184
+#, php-format
+msgid ""
+"Products in the %s category must be purchased in multiples of %s products: "
+msgstr "Produkter i %s-kategorien må kjøpes i multipler av %s produkter:"
+
+#: public/class-b2bking-public.php:7898
+msgid "Purchase list does not exist!"
+msgstr "Kjøpsliste finnes ikke!"
+
+#: admin/class-b2bking-settings.php:358
+msgid "Purchase List endpoint:"
+msgstr "Kjøpsliste-endepunkt:"
+
+#: public/class-b2bking-public.php:5730 public/class-b2bking-public.php:7018
+msgid "Purchase lists"
+msgstr "Kjøpslister"
+
+#: admin/class-b2bking-settings.php:355
+msgid "Purchase Lists endpoint:"
+msgstr "Sluttpunkt for kjøpslister:"
+
+#: admin/class-b2bking-settings.php:1408
+msgid "Purchase Lists Language"
+msgstr "Språk for kjøpslister"
+
+#: includes/class-b2bking-purchase-order-gateway.php:14
+#: includes/class-b2bking-purchase-order-gateway.php:47
+#: includes/class-b2bking-purchase-order-gateway.php:86
+msgid "Purchase Order"
+msgstr "Bestilling"
+
+#: includes/class-b2bking.php:1458 includes/class-b2bking.php:1461
+msgid "Purchase Order Number:"
+msgstr "Innkjøpsordrenummer:"
+
+#: includes/class-b2bking-purchase-order-gateway.php:64
+msgid "Purchase Order Payment Gateway"
+msgstr "Innkjøpsordre Payment Gateway"
+
+#: public/class-b2bking-public.php:5657 public/class-b2bking-public.php:5690
+#: public/class-b2bking-public.php:7173 public/class-b2bking-public.php:7744
+msgid "Qty"
+msgstr "Antall"
+
+#: admin/class-b2bking-admin.php:3647 admin/class-b2bking-admin.php:10641
+#: includes/class-b2bking.php:3778
+#: includes/emails/templates/new-offer-email-template.php:63
+#: includes/emails/templates/plain-new-offer-email-template.php:58
+#: public/class-b2bking-public.php:6754 public/class-b2bking-public.php:10446
+msgid "Quantity"
+msgstr "Mengde"
+
+#: admin/class-b2bking-admin.php:3638
+msgid "Quantity/Value:"
+msgstr "Antall/verdi:"
+
+#: includes/class-b2bking.php:1793
+msgid "Quantity: "
+msgstr "Mengde:"
+
+#: public/class-b2bking-public.php:6295
+msgid "Quick / Bulk Order Form"
+msgstr "Hurtig-/bulkbestillingsskjema"
+
+#: public/class-b2bking-public.php:7187 public/class-b2bking-public.php:7201
+#: public/class-b2bking-public.php:7215 public/class-b2bking-public.php:7229
+#: public/class-b2bking-public.php:7243 public/class-b2bking-public.php:7822
+#: public/class-b2bking-public.php:8122 public/class-b2bking-public.php:10453
+msgid "Quote"
+msgstr "Sitat"
+
+#: public/class-b2bking-public.php:6067
+msgid "quote"
+msgstr "sitat"
+
+#: admin/class-b2bking-admin.php:2340
+msgid "Quote Field"
+msgstr "Sitatfelt"
+
+#: admin/class-b2bking-admin.php:2397
+msgid "Quote Field Settings"
+msgstr "Sitatfeltinnstillinger"
+
+#: admin/class-b2bking-admin.php:2341 admin/class-b2bking-admin.php:2342
+msgid "Quote Fields"
+msgstr "Sitatfelt"
+
+#: admin/class-b2bking-admin.php:6634 public/class-b2bking-public.php:5991
+msgid "Quote Request"
+msgstr "Prisforespørsel"
+
+#: admin/class-b2bking-settings.php:1467
+msgid "Quote Requests"
+msgstr "Sitatforespørsler"
+
+#: includes/emails/class-b2bking-new-customer-email.php:103
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:107
+msgid "Recipient(s)"
+msgstr "Mottaker(e)"
+
+#: admin/class-b2bking-admin.php:9291
+msgid "Recommended Workflow"
+msgstr "Anbefalt arbeidsflyt"
+
+#: admin/class-b2bking-admin.php:10344
+msgid "Reg. Date"
+msgstr "Reg. Dato"
+
+#: admin/class-b2bking-admin.php:10343
+msgid "Reg. Role"
+msgstr "Reg. Rolle"
+
+#: public/class-b2bking-public.php:6518 public/class-b2bking-public.php:6555
+msgid "Register"
+msgstr "Registrere"
+
+#: admin/class-b2bking-settings.php:1110 admin/class-b2bking-settings.php:1305
+msgid "Registration"
+msgstr "Registrering"
+
+#: admin/class-b2bking-admin.php:7147 admin/class-b2bking-admin.php:7216
+#: admin/class-b2bking-admin.php:7256
+msgid "Registration Approval"
+msgstr "Registreringsgodkjenning"
+
+#: admin/class-b2bking-settings.php:84
+msgid "Registration at checkout"
+msgstr "Påmelding i kassen"
+
+#: admin/class-b2bking-admin.php:1615
+msgid "Registration Field"
+msgstr "Registreringsfelt"
+
+#: admin/class-b2bking-admin.php:1672
+msgid "Registration Field Settings"
+msgstr "Innstillinger for registreringsfelt"
+
+#: admin/class-b2bking-admin.php:1616 admin/class-b2bking-admin.php:1617
+msgid "Registration Fields"
+msgstr "Registreringsfelt"
+
+#: admin/class-b2bking-admin.php:1017
+msgid ""
+"Registration fields are custom fields that you can configure and use to "
+"collect more info from your customers. They are visible to users in "
+"registration, my account, or checkout."
+msgstr ""
+"Registreringsfelt er egendefinerte felt som du kan konfigurere og bruke til "
+"å samle inn mer informasjon fra kundene dine. De er synlige for brukere i "
+"registreringen, kontoen min eller kassen."
+
+#: admin/class-b2bking-admin.php:1347 admin/class-b2bking-admin.php:1715
+#: admin/class-b2bking-admin.php:2253
+msgid "Registration Role"
+msgstr "Registreringsrolle"
+
+#: admin/class-b2bking-admin.php:7034
+msgid "Registration role"
+msgstr "Registreringsrolle"
+
+#: admin/class-b2bking-admin.php:1562
+msgid "Registration role name"
+msgstr "Registreringsrollenavn"
+
+#: admin/class-b2bking-admin.php:1404
+msgid "Registration Role Settings"
+msgstr "Innstillinger for registreringsrolle"
+
+#: admin/class-b2bking-admin.php:1348 admin/class-b2bking-admin.php:1349
+msgid "Registration Roles"
+msgstr "Registreringsroller"
+
+#: admin/class-b2bking-admin.php:1001
+msgid ""
+"Registration roles are the dropdown options users must choose from during "
+"registration. Create, edit, or delete roles as needed."
+msgstr ""
+"Registreringsroller er rullegardinalternativene brukere må velge mellom "
+"under registreringen. Opprett, rediger eller slett roller etter behov."
+
+#: admin/class-b2bking-settings.php:1111
+msgid "Registration settings"
+msgstr "Registreringsinnstillinger"
+
+#: admin/class-b2bking-admin.php:8593
+msgid "Regular"
+msgstr "Regelmessig"
+
+#: admin/class-b2bking-admin.php:8788 includes/class-b2bking.php:3866
+#: includes/class-b2bking.php:3871
+msgid "Regular Price"
+msgstr "Vanlig pris"
+
+#: admin/class-b2bking-admin.php:8902
+msgid "Regular price"
+msgstr "Vanlig pris"
+
+#: includes/class-b2bking.php:1224
+msgid "regular prices"
+msgstr "vanlige priser"
+
+#: admin/class-b2bking-admin.php:7203
+msgid "Reject and delete user"
+msgstr "Avvis og slett bruker"
+
+#: admin/class-b2bking-admin.php:5926
+msgid "Remove conversation image"
+msgstr "Fjern samtalebilde"
+
+#: admin/class-b2bking-admin.php:1631 admin/class-b2bking-admin.php:2356
+msgid "Remove field image"
+msgstr "Fjern feltbilde"
+
+#: admin/class-b2bking-admin.php:2700
+msgid "Remove group image"
+msgstr "Fjern gruppebilde"
+
+#: admin/class-b2bking-admin.php:5293
+msgid "Remove offer image"
+msgstr "Fjern tilbudsbilde"
+
+#: admin/class-b2bking-admin.php:1363
+msgid "Remove role image"
+msgstr "Fjern rollebilde"
+
+#: admin/class-b2bking-admin.php:455 admin/class-b2bking-admin.php:3285
+msgid "Remove rule image"
+msgstr "Fjern regelbilde"
+
+#: admin/class-b2bking-admin.php:3103 admin/class-b2bking-admin.php:3370
+#: admin/class-b2bking-admin.php:6445
+msgid "Rename Purchase Order Method"
+msgstr "Gi nytt navn til innkjøpsordremetode"
+
+#: admin/class-b2bking-admin.php:3087 admin/class-b2bking-admin.php:3366
+#: admin/class-b2bking-admin.php:6429
+msgid "Replace Cart with Quote System"
+msgstr "Bytt ut handlekurven med tilbudssystem"
+
+#: admin/class-b2bking-settings.php:1256
+msgid "Replace prices with \"Request a Quote\""
+msgstr "Erstatt prisene med \"Be om et tilbud\""
+
+#: admin/class-b2bking-settings.php:601
+msgid "Replace text box with product selector"
+msgstr "Erstatt tekstboksen med produktvelger"
+
+#: public/class-b2bking-public.php:9881
+msgid "Request custom quote"
+msgstr "Be om tilpasset tilbud"
+
+#: includes/class-b2bking.php:1785
+msgid "Requested items:"
+msgstr "Forespurte varer:"
+
+#: admin/class-b2bking-settings.php:488
+msgid ""
+"Require delivery country to be different than shop country for VAT exemption."
+" Not recommended for most setups - enable only if needed."
+msgstr ""
+"Krev at leveringslandet er forskjellig fra butikklandet for momsfritak. "
+"Anbefales ikke for de fleste oppsett - aktiver bare hvis nødvendig."
+
+#: admin/class-b2bking-settings.php:781
+msgid "Require manual approval for all users' registration"
+msgstr "Krev manuell godkjenning for alle brukeres registrering"
+
+#: admin/class-b2bking-admin.php:1774 admin/class-b2bking-admin.php:1778
+#: admin/class-b2bking-admin.php:2256 admin/class-b2bking-admin.php:2512
+#: admin/class-b2bking-admin.php:2516 admin/class-b2bking-admin.php:2604
+msgid "Required"
+msgstr "Obligatorisk"
+
+#: admin/class-b2bking-admin.php:1930
+msgid "Required in Billing"
+msgstr "Obligatorisk i fakturering"
+
+#: admin/class-b2bking-admin.php:3067 admin/class-b2bking-admin.php:3359
+#: admin/class-b2bking-admin.php:6409 admin/class-b2bking-admin.php:7865
+msgid "Required Multiple"
+msgstr "Nødvendig multiplum"
+
+#: admin/class-b2bking-admin.php:3609
+msgid "Requires:"
+msgstr "Krever:"
+
+#: admin/class-b2bking-admin.php:5999 admin/class-b2bking-admin.php:6020
+#: admin/class-b2bking-admin.php:6612
+msgid "Resolved"
+msgstr "Løst"
+
+#: admin/class-b2bking-settings.php:62
+msgid "Restrict all pages"
+msgstr "Begrens alle sider"
+
+#: admin/class-b2bking-settings.php:961 includes/class-b2bking.php:659
+#: public/class-b2bking-public.php:8554
+msgid "Retail price"
+msgstr "Utsalgspris"
+
+#: admin/class-b2bking-settings.php:151
+msgid "Retail price text"
+msgstr "Utsalgspris tekst"
+
+#: admin/class-b2bking-admin.php:10375
+msgid "Review"
+msgstr "Anmeldelse"
+
+#: admin/class-b2bking-admin.php:1361
+msgid "Role image"
+msgstr "Rollebilde"
+
+#: admin/class-b2bking-admin.php:1001
+msgid "Roles are public, whereas groups are private."
+msgstr "Roller er offentlige, mens grupper er private."
+
+#: admin/class-b2bking-admin.php:1369
+msgid "Roles list"
+msgstr "Rolleliste"
+
+#: admin/class-b2bking-admin.php:1368
+msgid "Roles navigation"
+msgstr "Rollenavigasjon"
+
+#: admin/class-b2bking-admin.php:439 admin/class-b2bking-admin.php:3269
+msgid "Rule"
+msgstr "Regel"
+
+#: admin/class-b2bking-admin.php:496 admin/class-b2bking-admin.php:3326
+msgid "Rule Details"
+msgstr "Regeldetaljer"
+
+#: admin/class-b2bking-admin.php:453 admin/class-b2bking-admin.php:3283
+msgid "Rule image"
+msgstr "Regelbilde"
+
+#: admin/class-b2bking-admin.php:835
+msgid "Rule name"
+msgstr "Regelnavn"
+
+#: admin/class-b2bking-admin.php:836
+msgid "Rule type"
+msgstr "Regeltype"
+
+#: admin/class-b2bking-admin.php:510 admin/class-b2bking-admin.php:3341
+msgid "Rule type:"
+msgstr "Regeltype:"
+
+#: admin/class-b2bking-admin.php:985
+msgid ""
+"Rules allow you to apply settings or requirements to specific users, groups "
+"or products. With rules you can offer discounts, hide prices, set minimum "
+"order quantities, tax-exempt users, and much more. "
+msgstr ""
+"Regler lar deg bruke innstillinger eller krav til spesifikke brukere, "
+"grupper eller produkter. Med regler kan du tilby rabatter, skjule priser, "
+"angi minimumsbestillingsmengder, avgiftsfrie brukere og mye mer."
+
+#: admin/class-b2bking-admin.php:460 admin/class-b2bking-admin.php:3290
+msgid "Rules navigation"
+msgstr "Reglernavigering"
+
+#: admin/class-b2bking-admin.php:8797 includes/class-b2bking.php:3867
+#: includes/class-b2bking.php:3872
+msgid "Sale Price"
+msgstr "Salgs pris"
+
+#: admin/class-b2bking-admin.php:8914
+msgid "Sale price"
+msgstr "Salgs pris"
+
+#: includes/class-b2bking.php:1225
+msgid "sale prices"
+msgstr "salgspriser"
+
+#: public/class-b2bking-dynamic-rules.php:7184
+msgid "Sale!"
+msgstr "Salg!"
+
+#: admin/class-b2bking-admin.php:1472 admin/class-b2bking-admin.php:7178
+msgid "Sales Agent Groups"
+msgstr "Salgsagentgrupper"
+
+#: admin/class-b2bking-admin.php:10213
+msgid "Sales Summary (B2B)"
+msgstr "Salgssammendrag (B2B)"
+
+#: public/class-b2bking-public.php:7918
+msgid "Save as purchase list"
+msgstr "Lagre som kjøpsliste"
+
+#: public/class-b2bking-public.php:7288
+msgid "Save list"
+msgstr "Lagre liste"
+
+#: admin/class-b2bking-admin.php:9657 admin/class-b2bking-admin.php:9808
+msgid "Save Settings"
+msgstr "Lagre innstillinger"
+
+#: public/class-b2bking-public.php:7157
+msgid "Search by"
+msgstr "Søk av"
+
+#: admin/class-b2bking-settings.php:233
+msgid "Search by SKU"
+msgstr "Søk etter SKU"
+
+#: admin/class-b2bking-admin.php:5920
+msgid "Search conversations"
+msgstr "Søk etter samtaler"
+
+#: admin/class-b2bking-settings.php:241
+msgid "Search each individual variation"
+msgstr "Søk i hver enkelt variant"
+
+#: admin/class-b2bking-admin.php:1625 admin/class-b2bking-admin.php:2350
+msgid "Search fields"
+msgstr "Søkefelt"
+
+#: public/class-b2bking-public.php:7184 public/class-b2bking-public.php:7831
+msgid "Search for a product..."
+msgstr "Søk etter et produkt..."
+
+#: admin/class-b2bking-admin.php:2694
+msgid "Search groups"
+msgstr "Søk etter grupper"
+
+#: admin/class-b2bking-admin.php:5287
+msgid "Search offers"
+msgstr "Søk etter tilbud"
+
+#: admin/class-b2bking-settings.php:237
+msgid "Search product description"
+msgstr "Søk produktbeskrivelse"
+
+#: admin/class-b2bking-admin.php:1357
+msgid "Search roles"
+msgstr "Søk roller"
+
+#: admin/class-b2bking-admin.php:449 admin/class-b2bking-admin.php:3279
+msgid "Search rules"
+msgstr "Søkeregler"
+
+#: admin/class-b2bking-admin.php:1824 admin/class-b2bking-admin.php:2548
+msgid "Select"
+msgstr "Plukke ut"
+
+#: admin/class-b2bking-settings.php:1020
+msgid "Select Country"
+msgstr "Velg land"
+
+#: admin/class-b2bking-settings.php:620
+msgid "Select Image"
+msgstr "Velg Bilde"
+
+#: admin/class-b2bking-admin.php:2438 admin/class-b2bking-admin.php:2457
+msgid "Select Multiple Options"
+msgstr "Velg flere alternativer"
+
+#: admin/class-b2bking-admin.php:557 admin/class-b2bking-admin.php:594
+#: admin/class-b2bking-admin.php:3519 admin/class-b2bking-admin.php:3903
+msgid "Select multiple options"
+msgstr "Velg flere alternativer"
+
+#: admin/class-b2bking-admin.php:3771
+msgid "Select multiple products and categories"
+msgstr "Velg flere produkter og kategorier"
+
+#: admin/class-b2bking-admin.php:1719 admin/class-b2bking-admin.php:1738
+msgid "Select Multiple Roles"
+msgstr "Velg Flere roller"
+
+#: admin/class-b2bking-admin.php:3399
+msgid "Select products & categories"
+msgstr "Velg produkter og kategorier"
+
+#: includes/class-b2bking-invoice-gateway.php:68
+msgid "Select shipping methods"
+msgstr "Velg forsendelsesmetoder"
+
+#: admin/class-b2bking-admin.php:1956
+msgid "Select which groups should see this in billing (multi-select)"
+msgstr "Velg hvilke grupper som skal se dette i fakturering (multi-select)"
+
+#: public/class-b2bking-public.php:10417
+msgid "Send custom quote request"
+msgstr "Send tilpasset tilbudsforespørsel"
+
+#: public/class-b2bking-public.php:6269
+msgid "Send Message"
+msgstr "Send melding"
+
+#: admin/class-b2bking-admin.php:6141
+msgid "Send message"
+msgstr "Send melding"
+
+#: admin/class-b2bking-admin.php:6291
+msgid "Send this offer by email"
+msgstr "Send dette tilbudet på e-post"
+
+#: admin/class-b2bking-settings.php:228
+msgid "Separate B2B and B2C sites in multisite"
+msgstr "Separate B2B og B2C nettsteder i multisite"
+
+#: admin/class-b2bking-settings.php:89
+msgid "Separate My Account Page for B2B Users"
+msgstr "Separat Min konto-side for B2B-brukere"
+
+#: includes/emails/templates/new-offer-email-template.php:44
+#: includes/emails/templates/plain-new-offer-email-template.php:39
+msgid "September"
+msgstr "september"
+
+#: includes/class-b2bking.php:2236 public/class-b2bking-public.php:3265
+#: public/class-b2bking-public.php:4380 public/class-b2bking-public.php:4664
+msgid "Service timeout. Try again later"
+msgstr "Tjenestetidsavbrudd. Prøv igjen senere"
+
+#: includes/class-b2bking.php:1224 includes/class-b2bking.php:1225
+msgid "Set "
+msgstr "Sett"
+
+#: admin/class-b2bking-admin.php:9416
+msgid "Set accounts"
+msgstr "Sett kontoer"
+
+#: admin/class-b2bking-admin.php:9403
+msgid "Set accounts as subaccounts of parent"
+msgstr "Angi kontoer som underkontoer til overordnet"
+
+#: admin/class-b2bking-admin.php:9388
+msgid "Set all categories"
+msgstr "Angi alle kategorier"
+
+#: admin/class-b2bking-admin.php:9361
+msgid "Set category visibility in bulk:"
+msgstr "Angi kategorisynlighet i bulk:"
+
+#: admin/class-b2bking-admin.php:5925
+msgid "Set conversation image"
+msgstr "Angi samtalebilde"
+
+#: admin/class-b2bking-admin.php:3091 admin/class-b2bking-admin.php:3367
+#: admin/class-b2bking-admin.php:6433
+msgid "Set Currency"
+msgstr "Angi valuta"
+
+#: admin/class-b2bking-admin.php:9329
+msgid "Set customer group for all users:"
+msgstr "Angi kundegruppe for alle brukere:"
+
+#: admin/class-b2bking-admin.php:1630 admin/class-b2bking-admin.php:2355
+msgid "Set field image"
+msgstr "Sett feltbilde"
+
+#: admin/class-b2bking-admin.php:2699
+msgid "Set group image"
+msgstr "Sett gruppebilde"
+
+#: admin/class-b2bking-admin.php:5292
+msgid "Set offer image"
+msgstr "Angi tilbudsbilde"
+
+#: admin/class-b2bking-settings.php:1155
+msgid "Set Plugin Status"
+msgstr "Angi plugin-status"
+
+#: admin/class-b2bking-admin.php:9242
+msgid "Set prices directly via CSV"
+msgstr "Angi priser direkte via CSV"
+
+#: admin/class-b2bking-admin.php:9221
+msgid "Set prices in bulk via CSV"
+msgstr "Angi priser i bulk via CSV"
+
+#: admin/class-b2bking-admin.php:7935 admin/class-b2bking-admin.php:8117
+msgid "Set Product Visibility  —"
+msgstr "Angi produktsynlighet —"
+
+#: admin/class-b2bking-admin.php:1362
+msgid "Set role image"
+msgstr "Still inn rollebilde"
+
+#: admin/class-b2bking-admin.php:454 admin/class-b2bking-admin.php:3284
+msgid "Set rule image"
+msgstr "Angi regelbilde"
+
+#: admin/class-b2bking-admin.php:6784
+msgid "Set Shipping and Payment Methods"
+msgstr "Angi forsendelses- og betalingsmåter"
+
+#: admin/class-b2bking-admin.php:10635
+msgid "Set up group rules (optional)"
+msgstr "Sett opp grupperegler (valgfritt)"
+
+#: admin/class-b2bking-admin.php:9319
+msgid "Set user group, category visibility in bulk"
+msgstr "Angi brukergruppe, kategorisynlighet i bulk"
+
+#: admin/class-b2bking-admin.php:9396
+msgid "Set users as subaccounts of account:"
+msgstr "Angi brukere som underkontoer til kontoen:"
+
+#: admin/class-b2bking-admin.php:427 admin/class-b2bking-admin.php:9071
+#: admin/class-b2bking-admin.php:9072 admin/class-b2bking-admin.php:9105
+#: admin/class-b2bking-admin.php:9167
+msgid "Settings"
+msgstr "Innstillinger"
+
+#: admin/class-b2bking-admin.php:5358
+msgid "Share Offer"
+msgstr "Aksjetilbud"
+
+#: admin/class-b2bking-admin.php:2743 admin/class-b2bking-admin.php:6775
+msgid "Shipping and Payment Methods"
+msgstr "Frakt- og betalingsmåter"
+
+#: admin/class-b2bking-admin.php:2781 admin/class-b2bking-admin.php:6797
+#: admin/class-b2bking-admin.php:9541 admin/class-b2bking-admin.php:9691
+msgid "Shipping Methods"
+msgstr "Forsendelsesmetoder"
+
+#: admin/class-b2bking-admin.php:3734
+msgid "Shipping tax rate (%):"
+msgstr "Fraktavgiftssats (%):"
+
+#: admin/class-b2bking-settings.php:245
+msgid "Show accounting subtotals"
+msgstr "Vis regnskapsdeltotaler"
+
+#: admin/class-b2bking-settings.php:259
+msgid "Show B2C price to B2B users."
+msgstr "Vis B2C-prisen til B2B-brukere."
+
+#: admin/class-b2bking-settings.php:924
+msgid "Show both retail (e.g. RRP) and wholesale price to B2B users"
+msgstr ""
+"Vis både detaljhandel (f.eks. veiledende pris) og engrospris til B2B-brukere"
+
+#: admin/class-b2bking-admin.php:8582
+msgid "Show Custom Info Table"
+msgstr "Vis egendefinert infotabell"
+
+#: admin/class-b2bking-settings.php:270
+msgid "Show Discount in Table"
+msgstr "Vis rabatt i tabell"
+
+#: admin/class-b2bking-settings.php:30 admin/class-b2bking-settings.php:41
+msgid "Show dynamic rules to vendors"
+msgstr "Vis dynamiske regler til leverandører"
+
+#: admin/class-b2bking-settings.php:915
+msgid "Show images in bulk order form search results"
+msgstr "Vis bilder i massebestilling fra søkeresultater"
+
+#: admin/class-b2bking-settings.php:249
+msgid "Show images in order form"
+msgstr "Vis bilder i bestillingsskjema"
+
+#: admin/class-b2bking-settings.php:942
+msgid "Show Minimum Order Quantity in Archive / Shop / Cat Pages"
+msgstr "Vis minimumsbestillingsantall i arkiv / butikk / kattesider"
+
+#: admin/class-b2bking-settings.php:256
+msgid "Show MOQ Externally"
+msgstr "Vis MOQ eksternt"
+
+#: admin/class-b2bking-settings.php:104
+msgid "Show product image in offers frontend"
+msgstr "Vis produktbilde i tilbudsfrontend"
+
+#: admin/class-b2bking-settings.php:610
+msgid "Show product images in My Account->Offers and in Offer PDFs"
+msgstr "Vis produktbilder i Min konto->Tilbud og i tilbuds-PDFer"
+
+#: admin/class-b2bking-settings.php:101
+msgid "Show product selector in offers"
+msgstr "Vis produktvelger i tilbud"
+
+#: admin/class-b2bking-settings.php:772
+msgid "Show registration roles dropdown and custom fields in registration"
+msgstr ""
+"Vis rullegardinmenyen for registreringsroller og tilpassede felt i "
+"registreringen"
+
+#: admin/class-b2bking-settings.php:560 admin/class-b2bking-settings.php:578
+msgid "Show rules to vendors in dashboard"
+msgstr "Vis regler til leverandører i dashbordet"
+
+#: admin/class-b2bking-settings.php:276
+msgid "Show Tiered Price Range"
+msgstr "Vis prisklasse"
+
+#: admin/class-b2bking-settings.php:951
+msgid "Show Tiered Price Range instead of Current Price"
+msgstr "Vis nivådelt prisklasse i stedet for gjeldende pris"
+
+#: admin/class-b2bking-admin.php:8566
+msgid "Show Tiered Pricing Table"
+msgstr "Vis pristabell over nivåer"
+
+#: admin/class-b2bking-settings.php:569 admin/class-b2bking-settings.php:587
+msgid "Show visibility to vendors in dashboard for each product"
+msgstr "Vis synlighet til leverandører i oversikten for hvert produkt"
+
+#: includes/class-b2bking.php:3778 public/class-b2bking-public.php:7163
+msgid "SKU"
+msgstr "SKU"
+
+#: admin/class-b2bking-admin.php:4043 admin/class-b2bking-admin.php:10617
+msgid "smaller (<)"
+msgstr "mindre (<)"
+
+#: admin/class-b2bking-settings.php:497
+msgid "Some situations may require disabling this setting."
+msgstr "Noen situasjoner kan kreve å deaktivere denne innstillingen."
+
+#: admin/class-b2bking-admin.php:1188 admin/class-b2bking-admin.php:1298
+#: admin/class-b2bking-admin.php:1328
+msgid "Sorry, something went wrong! "
+msgstr "Beklager, noe gikk galt!"
+
+#: public/class-b2bking-public.php:6602
+msgid "Sorry, there was an error with your file upload."
+msgstr "Beklager, det var en feil med filopplastingen."
+
+#: admin/class-b2bking-admin.php:1788 admin/class-b2bking-admin.php:2257
+#: admin/class-b2bking-admin.php:2526
+msgid "Sort Order"
+msgstr "Sorteringsrekkefølge"
+
+#: admin/class-b2bking-admin.php:5913 public/class-b2bking-public.php:6012
+msgid "Start Conversation"
+msgstr "Begynn samtale"
+
+#: admin/class-b2bking-admin.php:5914
+msgid "Start new conversation"
+msgstr "Begynn ny samtale"
+
+#: admin/class-b2bking-admin.php:7123
+msgid "State"
+msgstr "Stat"
+
+#: admin/class-b2bking-admin.php:1896 public/class-b2bking-public.php:3629
+msgid "State / County"
+msgstr "fylke / kommune"
+
+#: admin/class-b2bking-admin.php:1423 admin/class-b2bking-admin.php:1565
+#: admin/class-b2bking-admin.php:1701 admin/class-b2bking-admin.php:2258
+#: admin/class-b2bking-admin.php:2418 admin/class-b2bking-admin.php:2605
+#: admin/class-b2bking-admin.php:6585
+msgid "Status"
+msgstr "Status"
+
+#: admin/class-b2bking-admin.php:5995 admin/class-b2bking-admin.php:6016
+msgid "Status: "
+msgstr "Status:"
+
+#: admin/class-b2bking-admin.php:9294
+msgid "Step 1: Use the download button to get the current price list"
+msgstr "Trinn 1: Bruk nedlastingsknappen for å få gjeldende prisliste"
+
+#: admin/class-b2bking-admin.php:9295
+msgid ""
+"Step 2: Modify the prices in the downloaded CSV file. In the first column "
+"you can directly enter product IDs or SKUs."
+msgstr ""
+"Trinn 2: Endre prisene i den nedlastede CSV-filen. I den første kolonnen kan "
+"du direkte angi produkt-ID-er eller SKU-er."
+
+#: admin/class-b2bking-admin.php:9296
+msgid "Step 3: Upload the modified CSV with the import tool"
+msgstr "Trinn 3: Last opp den endrede CSV-en med importverktøyet"
+
+#: includes/class-b2bking.php:1150
+msgid "Stock levels increased: "
+msgstr "Lagernivåene økte:"
+
+#: includes/class-b2bking.php:1114
+msgid "Stock levels reduced: "
+msgstr "Lagernivåer redusert:"
+
+#: admin/class-b2bking-admin.php:1897 includes/class-b2bking-activator.php:253
+#: includes/class-b2bking-activator.php:271
+msgid "Street Address"
+msgstr "Gateadresse"
+
+#: admin/class-b2bking-settings.php:1126
+msgid "Strings & language settings"
+msgstr "Strenger og språkinnstillinger"
+
+#: admin/class-b2bking-admin.php:9896 includes/class-b2bking.php:1534
+msgid "Subaccount"
+msgstr "Underkonto"
+
+#: public/class-b2bking-public.php:7654
+msgid "Subaccount does not exist!"
+msgstr "Underkonto eksisterer ikke!"
+
+#: admin/class-b2bking-settings.php:352
+msgid "Subaccount endpoint:"
+msgstr "Underkontoendepunkt:"
+
+#: admin/class-b2bking-admin.php:7428
+msgid "Subaccount of "
+msgstr "Underkonto til"
+
+#: public/class-b2bking-public.php:5748 public/class-b2bking-public.php:7320
+msgid "Subaccounts"
+msgstr "Underkontoer"
+
+#: admin/class-b2bking-settings.php:349
+msgid "Subaccounts endpoint:"
+msgstr "Sluttpunkt for underkontoer:"
+
+#: admin/class-b2bking-admin.php:10643 public/class-b2bking-public.php:6756
+#: public/class-b2bking-public.php:7177 public/class-b2bking-public.php:7749
+#: public/class-b2bking-public.php:10448
+msgid "Subtotal"
+msgstr "Delsum"
+
+#: public/class-b2bking-public.php:4313
+msgid "Supported file types"
+msgstr "Støttede filtyper"
+
+#: public/class-b2bking-public.php:3570 public/class-b2bking-public.php:3805
+msgid "Supported file types:"
+msgstr "Støttede filtyper:"
+
+#: public/class-b2bking-public.php:9814
+msgid "Supported file types: "
+msgstr "Støttede filtyper:"
+
+#: public/class-b2bking-public.php:5229
+msgid "surcharge"
+msgstr "tilleggsavgift"
+
+#: admin/class-b2bking-admin.php:8585
+msgid ""
+"Table displays any custom information and fields that you want (e.g. MSRP, "
+"Minimum Order, Free Shipping conditions, etc.)"
+msgstr ""
+"Tabellen viser all tilpasset informasjon og felt du ønsker (f.eks. MSRP, "
+"minimumsbestilling, gratis fraktbetingelser, etc.)"
+
+#: admin/class-b2bking-admin.php:8569
+msgid "Table displays price tiers: quantities and prices to customers"
+msgstr "Tabell viser prisnivåer: mengder og priser til kunder"
+
+#: admin/class-b2bking-admin.php:3071 admin/class-b2bking-admin.php:3360
+#: admin/class-b2bking-admin.php:6413 admin/class-b2bking-admin.php:7869
+msgid "Tax Exemption"
+msgstr "Skattefritak"
+
+#: admin/class-b2bking-admin.php:3495
+msgid "Tax Options"
+msgstr "Skattealternativer"
+
+#: admin/class-b2bking-admin.php:1823 admin/class-b2bking-admin.php:2547
+msgid "Telephone"
+msgstr "Telefon"
+
+#: admin/class-b2bking-admin.php:1820 admin/class-b2bking-admin.php:2544
+#: admin/class-b2bking-admin.php:8605 admin/class-b2bking-admin.php:8614
+#: admin/class-b2bking-admin.php:8640 admin/class-b2bking-admin.php:8648
+#: admin/class-b2bking-admin.php:10630
+msgid "Text"
+msgstr "Tekst"
+
+#: admin/class-b2bking-settings.php:1401
+msgid "Text Settings"
+msgstr "Tekstinnstillinger"
+
+#: includes/emails/class-b2bking-new-customer-email.php:137
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:141
+#: includes/emails/class-b2bking-new-message-email.php:126
+#: includes/emails/class-b2bking-new-offer-email.php:126
+#: includes/emails/class-b2bking-your-account-approved-email.php:127
+msgid "Text to appear below the main email content."
+msgstr "Tekst som skal vises under hovedinnholdet i e-posten."
+
+#: admin/class-b2bking-admin.php:1821 admin/class-b2bking-admin.php:2545
+msgid "Textarea"
+msgstr "Tekstområde"
+
+#: includes/class-b2bking-invoice-gateway.php:48
+#: includes/class-b2bking-invoice-gateway.php:55
+msgid "Thank you for ordering, you will soon receive an invoice."
+msgstr "Takk for bestilling, du vil snart motta en faktura."
+
+#: public/class-b2bking-public.php:4250 public/class-b2bking-public.php:4276
+msgid ""
+"Thank you for registering. Your account requires manual approval. Please "
+"wait to be approved."
+msgstr ""
+"Takk for din registrering. Kontoen din krever manuell godkjenning. Vennligst "
+"vent på å bli godkjent."
+
+#: includes/class-b2bking-purchase-order-gateway.php:54
+msgid "Thank You note:"
+msgstr "Takk:"
+
+#: admin/class-b2bking-admin.php:10606
+msgid "Thank you. The feedback was sent successfully."
+msgstr "Takk skal du ha. Tilbakemeldingen ble sendt."
+
+#: public/class-b2bking-public.php:10435
+msgid "The email address you entered is invalid"
+msgstr "e-post adressen du skrev inn er ikke gyldig"
+
+#: admin/class-b2bking-admin.php:7113
+msgid "The file did not upload correctly"
+msgstr "Filen ble ikke lastet opp riktig"
+
+#: public/class-b2bking-public.php:10412
+msgid "The list has been saved"
+msgstr "Listen er lagret"
+
+#: public/class-b2bking-public.php:10413
+msgid "The list is empty"
+msgstr "Listen er tom"
+
+#: admin/class-b2bking-admin.php:10650
+msgid "The offer has been emailed successfully."
+msgstr "Tilbudet har blitt sendt på e-post."
+
+#: public/class-b2bking-dynamic-rules.php:12963
+#: public/class-b2bking-dynamic-rules.php:13191
+#, php-format
+msgid "The product named %s must be purchased in multiples of %s pieces"
+msgstr "Produktet med navnet %s må kjøpes i multipler av %s stykker"
+
+#: admin/class-b2bking-admin.php:920
+msgid ""
+"There are 3 default quote fields the plugin uses: Name, Email, Message. Here "
+"you can add additional, custom fields, to be shown beside the default ones."
+msgstr ""
+"Det er 3 standard tilbudsfelt plugin-en bruker: Navn, E-post, Melding. Her "
+"kan du legge til flere tilpassede felt som skal vises ved siden av "
+"standardfeltene."
+
+#: admin/class-b2bking-admin.php:8192
+msgid "There are no customer groups who can view this product"
+msgstr "Det er ingen kundegrupper som kan se dette produktet"
+
+#: admin/class-b2bking-admin.php:2968
+msgid "There are no dynamic rules applicable to this group"
+msgstr "Det er ingen dynamiske regler som gjelder for denne gruppen"
+
+#: admin/class-b2bking-admin.php:7738
+msgid "There are no dynamic rules applicable to this product"
+msgstr "Det er ingen dynamiske regler som gjelder for dette produktet"
+
+#: admin/class-b2bking-admin.php:2938
+msgid "There are no users in this group"
+msgstr "Det er ingen brukere i denne gruppen"
+
+#: public/class-b2bking-public.php:10416
+#, php-format
+msgid "There are only %s items in stock"
+msgstr "Det er kun %s varer på lager"
+
+#: admin/class-b2bking-admin.php:6689
+msgid "This account is a subaccount. Its parent account is: "
+msgstr "Denne kontoen er en underkonto. Foreldrekontoen er:"
+
+#: includes/class-b2bking-purchase-order-gateway.php:51
+msgid "This controls the description which the user sees during checkout."
+msgstr "Dette styrer beskrivelsen som brukeren ser under kassen."
+
+#: includes/emails/class-b2bking-new-customer-email.php:112
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:116
+#: includes/emails/class-b2bking-new-message-email.php:101
+#: includes/emails/class-b2bking-new-offer-email.php:101
+#: includes/emails/class-b2bking-your-account-approved-email.php:102
+msgid ""
+"This controls the email subject line. Leave blank to use the default subject:"
+" "
+msgstr ""
+"Dette styrer emnelinjen i e-posten. La stå tomt for å bruke standardemnet:"
+
+#: includes/emails/class-b2bking-new-customer-email.php:119
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:123
+#: includes/emails/class-b2bking-new-message-email.php:108
+#: includes/emails/class-b2bking-new-offer-email.php:108
+#: includes/emails/class-b2bking-your-account-approved-email.php:109
+msgid ""
+"This controls the main heading contained within the email notification. "
+"Leave blank to use the default heading: "
+msgstr ""
+"Dette styrer hovedoverskriften i e-postvarslingen. La stå tomt for å bruke "
+"standardoverskriften:"
+
+#: includes/class-b2bking-invoice-gateway.php:40
+#: includes/class-b2bking-purchase-order-gateway.php:46
+msgid "This controls the title which the user sees during checkout."
+msgstr "Dette styrer tittelen som brukeren ser under kassen."
+
+#: includes/emails/class-b2bking-new-customer-requires-approval-email.php:16
+msgid ""
+"This email is sent to admin when a new customer registers and requires "
+"manual approval"
+msgstr ""
+"Denne e-posten sendes til admin når en ny kunde registrerer seg og krever "
+"manuell godkjenning"
+
+#: includes/emails/class-b2bking-new-message-email.php:16
+msgid ""
+"This email is sent when a new message (quote request, or user inquiry, or "
+"user conversation) is sent"
+msgstr ""
+"Denne e-posten sendes når en ny melding (tilbudsforespørsel, eller "
+"brukerforespørsel eller brukersamtale) sendes"
+
+#: includes/emails/class-b2bking-new-offer-email.php:16
+msgid "This email is sent when an offer is emailed to customers"
+msgstr "Denne e-posten sendes når et tilbud sendes til kunder"
+
+#: includes/emails/class-b2bking-your-account-approved-email.php:19
+msgid ""
+"This email notifies the customer when their account has been manually "
+"approved"
+msgstr "Denne e-posten varsler kunden når kontoen deres er manuelt godkjent"
+
+#: public/class-b2bking-public.php:9625
+msgid "This is a reorder of order "
+msgstr "Dette er en ny rekkefølge"
+
+#: public/class-b2bking-public.php:9640
+msgid "This is an order placed by a subaccount of the user "
+msgstr "Dette er en bestilling plassert av en underkonto til brukeren"
+
+#: admin/class-b2bking-admin.php:3295
+msgid "This is where you can create dynamic rules"
+msgstr "Det er her du kan lage dynamiske regler"
+
+#: admin/class-b2bking-admin.php:465
+msgid "This is where you can create group rules"
+msgstr "Det er her du kan lage grupperegler"
+
+#: admin/class-b2bking-admin.php:5936
+msgid "This is where you can create new conversations"
+msgstr "Det er her du kan opprette nye samtaler"
+
+#: admin/class-b2bking-admin.php:2366
+msgid "This is where you can create new custom quote fields"
+msgstr "Det er her du kan opprette nye tilpassede tilbudsfelt"
+
+#: admin/class-b2bking-admin.php:1641
+msgid "This is where you can create new custom registration fields"
+msgstr "Det er her du kan opprette nye tilpassede registreringsfelt"
+
+#: admin/class-b2bking-admin.php:1373
+msgid "This is where you can create new custom registration roles"
+msgstr "Det er her du kan opprette nye tilpassede registreringsroller"
+
+#: admin/class-b2bking-admin.php:2710
+msgid "This is where you can create new customer groups"
+msgstr "Det er her du kan opprette nye kundegrupper"
+
+#: admin/class-b2bking-admin.php:5303
+msgid "This is where you can make new offers"
+msgstr "Det er her du kan komme med nye tilbud"
+
+#: admin/class-b2bking-admin.php:10649
+msgid ""
+"This offer will be emailed to ALL users that have visibility. That includes "
+"all groups you selected, all users, and all email addresses entered. Make "
+"sure to save the offer first if you made changes to it! Are you sure you "
+"want to proceed?"
+msgstr ""
+"Dette tilbudet vil bli sendt på e-post til ALLE brukere som har synlighet. "
+"Det inkluderer alle gruppene du valgte, alle brukerne og alle e-"
+"postadressene du har angitt. Sørg for å lagre tilbudet først hvis du har "
+"gjort endringer i det! Er du sikker på at du vil fortsette?"
+
+#: admin/class-b2bking-admin.php:1034
+msgid ""
+"This panel shows an overview of all business customers in the site. Here you "
+"will see only users that have the \"customer\" role and are part of a "
+"Business group. For all customers, you can go to WooCommerce -> Customers."
+msgstr ""
+"Dette panelet viser en oversikt over alle bedriftskunder på siden. Her vil "
+"du kun se brukere som har rollen \"kunde\" og er en del av en Business-"
+"gruppe. For alle kunder kan du gå til WooCommerce -> Kunder."
+
+#: admin/class-b2bking-admin.php:8139
+msgid "This product belongs to these categories:"
+msgstr "Dette produktet tilhører disse kategoriene:"
+
+#: includes/class-b2bking.php:1989
+msgid ""
+"This quote request was sent by a logged out user, without an account, or a "
+"B2C user without access to conversations. Please email the user directly!"
+msgstr ""
+"Denne tilbudsforespørselen ble sendt av en avlogget bruker, uten konto, "
+"eller en B2C-bruker uten tilgang til samtaler. Send en e-post direkte til "
+"brukeren!"
+
+#: admin/class-b2bking-admin.php:903
+msgid ""
+"Through group rules, you can automatically change a customer's group when "
+"they hit a particular threshold such as the total spent."
+msgstr ""
+"Gjennom grupperegler kan du automatisk endre en kundes gruppe når de når en "
+"bestemt terskel, for eksempel totalt brukt."
+
+#: includes/class-b2bking.php:3873
+msgid "Tiered Price"
+msgstr "Lagdelt pris"
+
+#: includes/class-b2bking.php:3868
+msgid "Tiered Price (Qty:Price;)"
+msgstr "Lagdelt pris (Antall:Pris;)"
+
+#: admin/class-b2bking-settings.php:1121 admin/class-b2bking-settings.php:1364
+msgid "Tiered price settings"
+msgstr "Lagdelte prisinnstillinger"
+
+#: admin/class-b2bking-settings.php:1120 admin/class-b2bking-settings.php:1362
+msgid "Tiered Pricing & Table"
+msgstr "Priser og tabeller"
+
+#: admin/class-b2bking-admin.php:2252 admin/class-b2bking-admin.php:2600
+#: includes/class-b2bking-invoice-gateway.php:38
+#: public/class-b2bking-public.php:6000 public/class-b2bking-public.php:6050
+msgid "Title"
+msgstr "Tittel"
+
+#: includes/class-b2bking-purchase-order-gateway.php:44
+msgid "Title:"
+msgstr "Tittel:"
+
+#: admin/class-b2bking-admin.php:10229
+msgid "Today"
+msgstr "I dag"
+
+#: admin/class-b2bking-admin.php:9126 admin/class-b2bking-admin.php:9127
+msgid "Tools"
+msgstr "Verktøy"
+
+#: admin/class-b2bking-admin.php:10644
+#: includes/emails/templates/new-offer-email-template.php:152
+#: includes/emails/templates/plain-new-offer-email-template.php:147
+#: public/class-b2bking-public.php:10449
+msgid "Total"
+msgstr "Total"
+
+#: public/class-b2bking-dynamic-rules.php:1264
+msgid "Total Cart Discount"
+msgstr "Total vognrabatt"
+
+#: public/class-b2bking-dynamic-rules.php:13165
+#, php-format
+msgid "Total cart quantity purchased must be in multiples of %s products"
+msgstr "Totalt antall kjøpt handlekurv må være i multipler av %s produkter"
+
+#: admin/class-b2bking-admin.php:857
+msgid "Total earnings reached"
+msgstr "Totalinntekt nådd"
+
+#: admin/class-b2bking-admin.php:10214
+msgid "Total Gross Sales Value"
+msgstr "Total brutto salgsverdi"
+
+#: admin/class-b2bking-admin.php:859
+msgid "Total order value"
+msgstr "Total ordreverdi"
+
+#: admin/class-b2bking-admin.php:10265
+msgid "Total Sales (B2B)"
+msgstr "Totalt salg (B2B)"
+
+#: admin/class-b2bking-admin.php:538
+msgid "Total spent (total orders value)"
+msgstr "Totalt brukt (total ordreverdi)"
+
+#: public/class-b2bking-public.php:6961 public/class-b2bking-public.php:7297
+#: public/class-b2bking-public.php:7886
+msgid "Total: "
+msgstr "Total:"
+
+#: admin/class-b2bking-admin.php:1899 includes/class-b2bking-activator.php:321
+#: includes/class-b2bking-activator.php:339
+msgid "Town / City"
+msgstr "By / by"
+
+#: public/class-b2bking-public.php:7877
+msgid "Trash"
+msgstr "Søppel"
+
+#: admin/class-b2bking-settings.php:1157
+msgid "Turn plugin on and off"
+msgstr "Slå plugin på og av"
+
+#: admin/class-b2bking-admin.php:9410
+msgid "Turn subaccounts into regular accounts:"
+msgstr "Gjør underkontoer til vanlige kontoer:"
+
+#: admin/class-b2bking-admin.php:2978 admin/class-b2bking-admin.php:6356
+#: admin/class-b2bking-admin.php:6584 admin/class-b2bking-admin.php:7749
+#: public/class-b2bking-public.php:5984 public/class-b2bking-public.php:6051
+msgid "Type"
+msgstr "Meldingstype"
+
+#: public/class-b2bking-public.php:6157
+msgid "Type:"
+msgstr "Meldingstype"
+
+#: admin/class-b2bking-settings.php:1639
+msgid "Uninstall"
+msgstr "Avinstaller"
+
+#: public/class-b2bking-public.php:5657 public/class-b2bking-public.php:5690
+#: public/class-b2bking-public.php:6755
+msgid "Unit Price"
+msgstr "Enhetspris"
+
+#: admin/class-b2bking-admin.php:10642 public/class-b2bking-public.php:10447
+msgid "Unit price"
+msgstr "Enhetspris"
+
+#: admin/class-b2bking-admin.php:5543
+msgid "Unit price:"
+msgstr "Enhetspris:"
+
+#: admin/class-b2bking-admin.php:7233
+msgid "Update B2BKing User Data"
+msgstr "Oppdater B2BKing-brukerdata"
+
+#: public/class-b2bking-public.php:7871
+msgid "Update list"
+msgstr "Oppdater liste"
+
+#: public/class-b2bking-public.php:7643
+msgid "Update subaccount"
+msgstr "Oppdater underkonto"
+
+#: admin/class-b2bking-admin.php:9285
+msgid "Upload"
+msgstr "Laste opp"
+
+#: public/class-b2bking-public.php:6662
+msgid ""
+"Upload .csv files with SKU on first column and quantity on second column."
+msgstr ""
+"Last opp .csv-filer med SKU i første kolonne og antall i andre kolonne."
+
+#: public/class-b2bking-public.php:6604
+msgid "Upload successful"
+msgstr "Opplastingen var vellykket"
+
+#: admin/class-b2bking-admin.php:5929
+msgid "Uploaded to this conversation"
+msgstr "Lastet opp til denne samtalen"
+
+#: admin/class-b2bking-admin.php:1634 admin/class-b2bking-admin.php:2359
+msgid "Uploaded to this field"
+msgstr "Lastet opp til dette feltet"
+
+#: admin/class-b2bking-admin.php:2703
+msgid "Uploaded to this group"
+msgstr "Lastet opp til denne gruppen"
+
+#: admin/class-b2bking-admin.php:5296
+msgid "Uploaded to this offer"
+msgstr "Lastet opp til dette tilbudet"
+
+#: admin/class-b2bking-admin.php:1366
+msgid "Uploaded to this role"
+msgstr "Lastet opp til denne rollen"
+
+#: admin/class-b2bking-admin.php:458 admin/class-b2bking-admin.php:3288
+msgid "Uploaded to this rule"
+msgstr "Lastet opp til denne regelen"
+
+#: admin/class-b2bking-admin.php:5927
+msgid "Use as conversation image"
+msgstr "Bruk som samtalebilde"
+
+#: admin/class-b2bking-admin.php:1632 admin/class-b2bking-admin.php:2357
+msgid "Use as field image"
+msgstr "Bruk som feltbilde"
+
+#: admin/class-b2bking-admin.php:2701
+msgid "Use as group image"
+msgstr "Bruk som gruppebilde"
+
+#: admin/class-b2bking-admin.php:5294
+msgid "Use as offer image"
+msgstr "Bruk som tilbudsbilde"
+
+#: admin/class-b2bking-admin.php:1364
+msgid "Use as role image"
+msgstr "Bruk som rollebilde"
+
+#: admin/class-b2bking-admin.php:456 admin/class-b2bking-admin.php:3286
+msgid "Use as rule image"
+msgstr "Bruk som regelbilde"
+
+#: admin/class-b2bking-admin.php:6582 public/class-b2bking-public.php:6052
+#: public/class-b2bking-public.php:7039 public/class-b2bking-public.php:7119
+msgid "User"
+msgstr "Bruker"
+
+#: admin/class-b2bking-admin.php:1859 admin/class-b2bking-admin.php:2583
+msgid "User Choices (Options)"
+msgstr "Brukervalg (alternativer)"
+
+#: admin/class-b2bking-admin.php:10602
+msgid "User data has been updated"
+msgstr "Brukerdata er oppdatert"
+
+#: admin/class-b2bking-admin.php:7250
+msgid "User Options"
+msgstr "Brukeralternativer"
+
+#: admin/class-b2bking-admin.php:7010
+msgid "User Registration Data"
+msgstr "Brukerregistreringsdata"
+
+#: admin/class-b2bking-settings.php:1307
+msgid "User registration settings"
+msgstr "Innstillinger for brukerregistrering"
+
+#: admin/class-b2bking-admin.php:6709
+msgid "User Settings"
+msgstr "Brukerinstillinger"
+
+#: public/class-b2bking-public.php:3455 public/class-b2bking-public.php:3678
+msgid "User Type"
+msgstr "Velg type kundeforhold:"
+
+#: admin/class-b2bking-admin.php:5803
+msgid "User Visibility"
+msgstr "Brukersynlighet"
+
+#: admin/class-b2bking-admin.php:7510 admin/class-b2bking-admin.php:7602
+#: admin/class-b2bking-admin.php:7608 admin/class-b2bking-admin.php:8007
+#: admin/class-b2bking-admin.php:8281
+msgid "User Visibility (B2BKing)"
+msgstr "Brukersynlighet (B2BKing)"
+
+#: admin/class-b2bking-admin.php:5991 admin/class-b2bking-admin.php:6010
+#: includes/emails/templates/new-message-email-template.php:54
+#: includes/emails/templates/plain-new-message-email-template.php:14
+msgid "User: "
+msgstr "Bruker: "
+
+#: public/class-b2bking-public.php:6527 public/class-b2bking-public.php:7363
+msgid "Username"
+msgstr "Brukernavn"
+
+#: admin/class-b2bking-admin.php:10607
+msgid "Username already in the list!"
+msgstr "Brukernavn er allerede på listen!"
+
+#: public/class-b2bking-public.php:10403
+msgid ""
+"Username must be between 8 and 30 characters, and cannot contain special "
+"characters. "
+msgstr ""
+"Brukernavn må være mellom 8 og 30 tegn, og kan ikke inneholde spesialtegn."
+
+#: includes/emails/templates/new-customer-email-template.php:17
+#: includes/emails/templates/new-customer-requires-approval-email-template.php:17
+#: includes/emails/templates/plain-new-customer-email-template.php:14
+#: includes/emails/templates/plain-new-customer-requires-approval-email-template.php:14
+msgid "Username: "
+msgstr "Brukernavn:"
+
+#: admin/class-b2bking-admin.php:3532 admin/class-b2bking-admin.php:3957
+msgid "Users (individual)"
+msgstr "Brukere (individuelle)"
+
+#: admin/class-b2bking-admin.php:2753
+msgid "Users in this group"
+msgstr "Brukere i denne gruppen"
+
+#: admin/class-b2bking-admin.php:7517 admin/class-b2bking-admin.php:7615
+msgid "Users who can see this category (comma-separated)"
+msgstr "Brukere som kan se denne kategorien (kommaseparert)"
+
+#: admin/class-b2bking-admin.php:5810
+msgid ""
+"Users who can see this offer (comma-separated). You can also enter emails "
+"for the \"Email Offer\" functionality."
+msgstr ""
+"Brukere som kan se dette tilbudet (kommaseparert). Du kan også legge inn e-"
+"post for funksjonen \"E-posttilbud\"."
+
+#: admin/class-b2bking-admin.php:8014 admin/class-b2bking-admin.php:8288
+msgid "Users who can see this product (comma-separated)"
+msgstr "Brukere som kan se dette produktet (kommaseparert)"
+
+#: admin/class-b2bking-admin.php:1802
+msgid "Users will be able to edit this field"
+msgstr "Brukere vil kunne redigere dette feltet"
+
+#: admin/class-b2bking-admin.php:8198
+msgid "Users:"
+msgstr "Brukere:"
+
+#: public/class-b2bking-public.php:3858 public/class-b2bking-public.php:3937
+#: public/class-b2bking-public.php:10429
+msgid "Validate VAT"
+msgstr "Bekreft mva"
+
+#: admin/class-b2bking-settings.php:94
+msgid "Validate VAT button at checkout"
+msgstr "Valider mva-knapp i kassen"
+
+#: public/class-b2bking-public.php:10426
+msgid "Validating..."
+msgstr "Validerer..."
+
+#: admin/class-b2bking-admin.php:838 admin/class-b2bking-admin.php:3648
+msgid "Value"
+msgstr "Verdi"
+
+#: admin/class-b2bking-admin.php:10651
+msgid ""
+"Value conditions (Cart Total Value, Product Value, Category Value) are not "
+"compatible with the \"Discount becomes sale price\" checkbox. Please remove "
+"value conditions, or uncheck the checkbox."
+msgstr ""
+"Verdibetingelsene (Total handlekurv, produktverdi, kategoriverdi) er ikke "
+"kompatible med avmerkingsboksen \"Rabatt blir salgspris\". Fjern "
+"verdibetingelsene, eller fjern merket i avmerkingsboksen."
+
+#: includes/class-b2bking-activator.php:458
+#: includes/class-b2bking-activator.php:476
+msgid "VAT"
+msgstr "mva"
+
+#: public/class-b2bking-public.php:3085
+msgid "VAT Countries Hidden"
+msgstr "MVA Land skjult"
+
+#: public/class-b2bking-public.php:3096 public/class-b2bking-public.php:3097
+msgid "VAT Field Number"
+msgstr "MVA-feltnummer"
+
+#: admin/class-b2bking-admin.php:1902
+msgid "VAT ID"
+msgstr "MVA-ID"
+
+#: public/class-b2bking-public.php:4677 public/class-b2bking-public.php:4680
+msgid "VAT Number is invalid "
+msgstr "MVA-nummeret er ugyldig"
+
+#: public/class-b2bking-public.php:3301 public/class-b2bking-public.php:4393
+msgid "VAT Number is Invalid:"
+msgstr "MVA-nummeret er ugyldig:"
+
+#: public/class-b2bking-public.php:3252 public/class-b2bking-public.php:4368
+msgid ""
+"VAT Number you entered is for a different country than the country you "
+"selected"
+msgstr "MVA-nummeret du oppga er for et annet land enn landet du valgte"
+
+#: includes/class-b2bking.php:2237 public/class-b2bking-public.php:3266
+#: public/class-b2bking-public.php:4381 public/class-b2bking-public.php:4665
+msgid "VAT Server is too busy. Try again later."
+msgstr "VAT Server er for opptatt. Prøv igjen senere."
+
+#: public/class-b2bking-public.php:3861 public/class-b2bking-public.php:3940
+#: public/class-b2bking-public.php:10428
+msgid "VAT Validated Successfully"
+msgstr "MVA validert"
+
+#: admin/class-b2bking-settings.php:1563
+msgid "VAT Validation"
+msgstr "MVA validering"
+
+#: admin/class-b2bking-admin.php:10603
+msgid ""
+"VAT VIES validation failed. Please check the VAT number you entered, or "
+"disable VIES validation in B2BKing > Registration Fields > VAT. Other fields "
+"have been successfully updated."
+msgstr ""
+"VAT VIES-validering mislyktes. Vennligst sjekk MVA-nummeret du oppga, eller "
+"deaktiver VIES-validering i B2BKing > Registreringsfelt > VAT. Andre felt "
+"har blitt oppdatert."
+
+#: includes/class-b2bking.php:2235 public/class-b2bking-public.php:3264
+#: public/class-b2bking-public.php:4379 public/class-b2bking-public.php:4663
+msgid "VIES VAT Member State Service is unavailable."
+msgstr "VIES VAT Medlemsstatstjeneste er utilgjengelig."
+
+#: includes/class-b2bking.php:2234 public/class-b2bking-public.php:3263
+#: public/class-b2bking-public.php:4378 public/class-b2bking-public.php:4662
+msgid "VIES VAT Service is unavailable. Try again later."
+msgstr "VIES VAT-tjenesten er utilgjengelig. Prøv igjen senere."
+
+#: admin/class-b2bking-admin.php:3619
+msgid "VIES-Validated VAT ID"
+msgstr "VIES-validert VAT ID"
+
+#: public/class-b2bking-public.php:7435 public/class-b2bking-public.php:7619
+msgid "View all account conversations"
+msgstr "Se alle kontosamtaler"
+
+#: public/class-b2bking-public.php:7427 public/class-b2bking-public.php:7611
+msgid "View all account offers"
+msgstr "Se alle kontotilbud"
+
+#: public/class-b2bking-public.php:7420 public/class-b2bking-public.php:7604
+msgid "View all account orders"
+msgstr "Se alle kontobestillinger"
+
+#: public/class-b2bking-public.php:7443 public/class-b2bking-public.php:7627
+msgid "View all account purchase lists"
+msgstr "Se alle kontokjøpslister"
+
+#: public/class-b2bking-public.php:6081
+msgid "View Conversation"
+msgstr "Se samtale"
+
+#: admin/class-b2bking-admin.php:5918
+msgid "View conversation"
+msgstr "Se samtale"
+
+#: admin/class-b2bking-admin.php:5919
+msgid "View conversations"
+msgstr "Se samtale"
+
+#: admin/class-b2bking-admin.php:1623 admin/class-b2bking-admin.php:2348
+msgid "View field"
+msgstr "Visningsfelt"
+
+#: admin/class-b2bking-admin.php:1624 admin/class-b2bking-admin.php:2349
+msgid "View fields"
+msgstr "Vis felt"
+
+#: includes/class-b2bking.php:1843
+msgid "View File"
+msgstr "Vis fil"
+
+#: admin/class-b2bking-admin.php:2692
+msgid "View group"
+msgstr "Se gruppe"
+
+#: admin/class-b2bking-admin.php:2693
+msgid "View groups"
+msgstr "Se grupper"
+
+#: public/class-b2bking-public.php:7101
+msgid "View list"
+msgstr "Vis liste"
+
+#: admin/class-b2bking-admin.php:5285
+msgid "View offer"
+msgstr "Se tilbudet"
+
+#: admin/class-b2bking-admin.php:5286
+msgid "View offers"
+msgstr "Se tilbud"
+
+#: admin/class-b2bking-admin.php:1355
+msgid "View role"
+msgstr "Se rolle"
+
+#: admin/class-b2bking-admin.php:1356
+msgid "View roles"
+msgstr "Se roller"
+
+#: admin/class-b2bking-admin.php:447 admin/class-b2bking-admin.php:3277
+msgid "View rule"
+msgstr "Se regelen"
+
+#: admin/class-b2bking-admin.php:448 admin/class-b2bking-admin.php:3278
+msgid "View rules"
+msgstr "Se regler"
+
+#: admin/class-b2bking-admin.php:2435 admin/class-b2bking-admin.php:2622
+msgid "Visible to All"
+msgstr "Synlig for alle"
+
+#: admin/class-b2bking-admin.php:2437 admin/class-b2bking-admin.php:2501
+msgid "Visible to B2C Users"
+msgstr "Synlig for B2C-brukere"
+
+#: admin/class-b2bking-admin.php:2436 admin/class-b2bking-admin.php:2492
+msgid "Visible to Logged Out Users"
+msgstr "Synlig for avloggede brukere"
+
+#: admin/class-b2bking-admin.php:9915 includes/class-b2bking.php:1564
+msgid "Waiting Approval"
+msgstr "Venter på godkjenning"
+
+#: admin/class-b2bking-admin.php:7438
+msgid "Waiting approval"
+msgstr "Venter på godkjenning"
+
+#: includes/class-b2bking-purchase-order-gateway.php:104
+msgid "Waiting to be processed"
+msgstr "Venter på å bli behandlet"
+
+#: admin/class-b2bking-settings.php:861
+msgid ""
+"WARNING: Disabling this DELETES ALL plugin data when the plugin is "
+"uninstalled. We recommend you keep this enabled."
+msgstr ""
+"ADVARSEL: Deaktivering av dette SLETTER ALLE plugin-data når plugin-en "
+"avinstalleres. Vi anbefaler at du holder dette aktivert."
+
+#: admin/class-b2bking-admin.php:10726
+msgid ""
+"Warning: The plugin \"B2BKing\" requires WooCommerce to be installed and "
+"activated."
+msgstr ""
+"Advarsel: Plugin \"B2BKing\" krever at WooCommerce er installert og aktivert."
+
+#: public/class-b2bking-public.php:6646
+msgid "We could not match any products with the following SKUs: "
+msgstr "Vi kunne ikke matche noen produkter med følgende SKU-er:"
+
+#: includes/class-b2bking.php:1858
+msgid ""
+"We have received your quote request and will be in touch with you shortly. "
+"Here is your quote request:"
+msgstr ""
+"Vi har mottatt tilbudsforespørselen din og vil ta kontakt med deg innen kort "
+"tid. Her er din tilbudsforespørsel:"
+
+#. Author of the plugin/theme
+msgid "WebWizards"
+msgstr "WebWizards"
+
+#. Author URI of the plugin/theme
+msgid "webwizards.dev"
+msgstr "webwizards.dev"
+
+#: admin/class-b2bking-admin.php:2046
+msgid "What countries can see this field (multiple select)"
+msgstr "Hvilke land kan se dette feltet (flere valg)"
+
+#: admin/class-b2bking-settings.php:983
+msgid "What guests see when \"Hide prices\" is enabled"
+msgstr "Hva gjestene ser når «Skjul priser» er aktivert"
+
+#: admin/class-b2bking-settings.php:994
+msgid "What guests see when \"Hide Shop & Products\" is enabled"
+msgstr "Hva gjestene ser når «Skjul butikk og produkter» er aktivert"
+
+#: admin/class-b2bking-settings.php:1005
+msgid "What users see when \"Hidden Price\" dynamic rules apply"
+msgstr "Hva brukerne ser når dynamiske regler for «Skjult pris» gjelder"
+
+#: public/class-b2bking-public.php:3328 public/class-b2bking-public.php:7142
+msgid "While you have an offer in cart, you cannot add products to quote"
+msgstr ""
+"Mens du har et tilbud i handlekurven, kan du ikke legge til produkter til "
+"tilbud"
+
+#: admin/class-b2bking-admin.php:7752
+msgid "Who"
+msgstr "Hvem"
+
+#: admin/class-b2bking-admin.php:8155
+msgid "Who can view this product:"
+msgstr "Hvem kan se dette produktet:"
+
+#: admin/class-b2bking-settings.php:972 includes/class-b2bking.php:662
+#: public/class-b2bking-public.php:8557
+msgid "Wholesale price"
+msgstr "Engrospris"
+
+#: admin/class-b2bking-settings.php:155
+msgid "Wholesale price text"
+msgstr "Engrospris tekst"
+
+#: public/class-b2bking-dynamic-rules.php:14169
+msgid "Withholding Tax (not paid)"
+msgstr "Kildeskatt (ikke betalt)"
+
+#: admin/class-b2bking-admin.php:1883
+msgid "WooCommerce Billing Field Connection"
+msgstr "WooCommerce Billing Field Connection"
+
+#. Plugin URI of the plugin/theme
+msgid "woocommerce-b2b-plugin.com"
+msgstr "woocommerce-b2b-plugin.com"
+
+#: admin/class-b2bking-admin.php:3633 admin/class-b2bking-admin.php:3730
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-b2bking-admin.php:6481
+msgid "yes"
+msgstr "ja"
+
+#: admin/class-b2bking-admin.php:1441
+msgid "Yes (manual approval)"
+msgstr "Ja (manuell godkjenning)"
+
+#: admin/class-b2bking-admin.php:6657
+msgid "Yesterday at "
+msgstr "I går kl"
+
+#: public/class-b2bking-public.php:6328 public/class-b2bking-public.php:6508
+msgid ""
+"You are already logged in. To apply for a Business account, please logout "
+"first. "
+msgstr ""
+"Du er allerede logget inn. For å søke om en Business-konto, vennligst logg "
+"ut først."
+
+#: admin/class-b2bking-admin.php:9154
+msgid "You are using an unregistered version of B2BKing."
+msgstr "Du bruker en uregistrert versjon av B2BKing."
+
+#: admin/class-b2bking-settings.php:804
+msgid ""
+"You can use this setting to set a different My Account page for business "
+"users. Not recommended for most setups."
+msgstr ""
+"Du kan bruke denne innstillingen til å angi en annen Min konto-side for "
+"bedriftsbrukere. Anbefales ikke for de fleste oppsett."
+
+#: admin/class-b2bking-admin.php:10401
+msgid "You Have"
+msgstr "Du har"
+
+#: admin/class-b2bking-admin.php:10453
+msgid "You have"
+msgstr "Du har"
+
+#: includes/emails/templates/plain-new-customer-requires-approval-email-template.php:12
+msgid "You have a new customer registration that requires approval."
+msgstr "Du har en ny kunderegistrering som krever godkjenning."
+
+#: includes/emails/templates/new-customer-email-template.php:15
+#: includes/emails/templates/plain-new-customer-email-template.php:12
+msgid "You have a new customer registration."
+msgstr "Du har en ny kunderegistrering."
+
+#: includes/emails/templates/new-message-email-template.php:43
+#: includes/emails/templates/plain-new-message-email-template.php:11
+msgid "You have a new message."
+msgstr "Du har en ny melding."
+
+#: includes/emails/templates/new-customer-requires-approval-email-template.php:15
+msgid "You have a new vendor registration that requires approval."
+msgstr "Du har en ny leverandørregistrering som krever godkjenning."
+
+#: public/class-b2bking-public.php:10407
+msgid "You have reached the maximum number of subaccounts. "
+msgstr "Du har nådd det maksimale antallet underkontoer."
+
+#: admin/class-b2bking-admin.php:5667
+msgid "You have received a new offer in response to your quote request: "
+msgstr "Du har mottatt et nytt tilbud som svar på din tilbudsforespørsel:"
+
+#: admin/class-b2bking-admin.php:8984 admin/class-b2bking-admin.php:10742
+msgid "You just need to activate the "
+msgstr "Du trenger bare å aktivere"
+
+#: admin/class-b2bking-admin.php:9003 admin/class-b2bking-admin.php:10761
+msgid "You just need to install the "
+msgstr "Du trenger bare å installere"
+
+#: public/class-b2bking-public.php:10437
+msgid "You must select a country"
+msgstr "Du må velge et land"
+
+#: includes/emails/class-b2bking-new-offer-email.php:13
+#: includes/emails/class-b2bking-new-offer-email.php:19
+#: includes/emails/class-b2bking-new-offer-email.php:20
+#: includes/emails/class-b2bking-new-offer-email.php:45
+#: includes/emails/class-b2bking-new-offer-email.php:46
+msgid "You received a new offer!"
+msgstr "Du har fått et nytt tilbud!"
+
+#: includes/emails/templates/new-message-email-template.php:45
+msgid "You received a new quote request."
+msgstr "Du har mottatt en ny tilbudsforespørsel."
+
+#: admin/class-b2bking-admin.php:9275
+msgid "You should now see the prices in product and shop pages"
+msgstr "Du skal nå se prisene på produkt- og butikksidene"
+
+#: public/class-b2bking-public.php:3321 public/class-b2bking-public.php:3339
+msgid "Your account does not have permission to checkout"
+msgstr "Kontoen din har ikke tillatelse til å betale"
+
+#: includes/emails/class-b2bking-your-account-approved-email.php:22
+#: includes/emails/class-b2bking-your-account-approved-email.php:23
+#: includes/emails/class-b2bking-your-account-approved-email.php:47
+#: includes/emails/class-b2bking-your-account-approved-email.php:48
+msgid "Your account has been approved"
+msgstr "Kontoen din er godkjent"
+
+#: public/class-b2bking-public.php:2756 public/class-b2bking-public.php:2779
+msgid "Your account is waiting for approval. Until approved, you cannot login."
+msgstr ""
+"Kontoen din venter på godkjenning. Inntil godkjent kan du ikke logge inn."
+
+#: public/class-b2bking-dynamic-rules.php:9424
+#: public/class-b2bking-dynamic-rules.php:9431
+#, php-format
+msgid ""
+"Your current order quantity total is %s — the maximum total quantity you can "
+"order is %s "
+msgstr ""
+"Din nåværende bestillingsmengde er %s – det maksimale totale antallet du kan "
+"bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9405
+#: public/class-b2bking-dynamic-rules.php:9412
+#, php-format
+msgid ""
+"Your current order quantity total is %s — you must have an order with a "
+"minimum quantity of %s to place your order "
+msgstr ""
+"Din nåværende bestillingsmengde er %s – du må ha en bestilling med et "
+"minimumsantall på %s for å legge inn bestillingen din"
+
+#: public/class-b2bking-dynamic-rules.php:9651
+#: public/class-b2bking-dynamic-rules.php:9659
+#: public/class-b2bking-dynamic-rules.php:9882
+#: public/class-b2bking-dynamic-rules.php:9890
+#, php-format
+msgid ""
+"Your current order quantity total of %s is %s — the maximum quantity you can "
+"order is %s "
+msgstr ""
+"Din nåværende ordrekvantum totalt på %s er %s – det maksimale antallet du "
+"kan bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9630
+#: public/class-b2bking-dynamic-rules.php:9638
+#: public/class-b2bking-dynamic-rules.php:9861
+#: public/class-b2bking-dynamic-rules.php:9869
+#, php-format
+msgid ""
+"Your current order quantity total of %s is %s — the minimum quantity you can "
+"order is %s "
+msgstr ""
+"Din nåværende ordrekvantum totalt på %s er %s – minimumsantallet du kan "
+"bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9538
+#: public/class-b2bking-dynamic-rules.php:9546
+#: public/class-b2bking-dynamic-rules.php:9770
+#: public/class-b2bking-dynamic-rules.php:9778
+#, php-format
+msgid ""
+"Your current order quantity total of products in category %s is %s — the "
+"maximum quantity you can order is %s "
+msgstr ""
+"Din nåværende bestillingsmengde totalt av produkter i kategori %s er %s – "
+"det maksimale antallet du kan bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9517
+#: public/class-b2bking-dynamic-rules.php:9525
+#: public/class-b2bking-dynamic-rules.php:9749
+#: public/class-b2bking-dynamic-rules.php:9757
+#, php-format
+msgid ""
+"Your current order quantity total of products in category %s is %s — the "
+"minimum quantity you can order is %s "
+msgstr ""
+"Din nåværende bestillingsmengde totalt av produkter i kategori %s er %s – "
+"minimumsantallet du kan bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9391
+#, php-format
+msgid ""
+"Your current order total is %s — you must have an order with a maximum of %s "
+"to place your order"
+msgstr ""
+"Din nåværende ordresum er %s — du må ha en ordre med maksimalt %s for å "
+"legge inn bestillingen"
+
+#: public/class-b2bking-dynamic-rules.php:9384
+#, php-format
+msgid ""
+"Your current order total is %s — you must have an order with a maximum of %s "
+"to place your order "
+msgstr ""
+"Din nåværende ordresum er %s — du må ha en ordre med maksimalt %s for å "
+"legge inn bestillingen"
+
+#: public/class-b2bking-dynamic-rules.php:9372
+#, php-format
+msgid ""
+"Your current order total is %s — you must have an order with a minimum of %s "
+"to place your order"
+msgstr ""
+"Din nåværende ordresum er %s — du må ha en ordre med minimum %s for å legge "
+"inn bestillingen"
+
+#: public/class-b2bking-dynamic-rules.php:9365
+#, php-format
+msgid ""
+"Your current order total is %s — you must have an order with a minimum of %s "
+"to place your order "
+msgstr ""
+"Din nåværende ordresum er %s — du må ha en ordre med minimum %s for å legge "
+"inn bestillingen"
+
+#: public/class-b2bking-dynamic-rules.php:9607
+#: public/class-b2bking-dynamic-rules.php:9615
+#: public/class-b2bking-dynamic-rules.php:9838
+#: public/class-b2bking-dynamic-rules.php:9846
+#, php-format
+msgid ""
+"Your current order value total of %s is %s — the maximum value you can order "
+"is %s "
+msgstr ""
+"Din nåværende ordreverdi totalt på %s er %s – den maksimale verdien du kan "
+"bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9586
+#: public/class-b2bking-dynamic-rules.php:9594
+#: public/class-b2bking-dynamic-rules.php:9817
+#: public/class-b2bking-dynamic-rules.php:9825
+#, php-format
+msgid ""
+"Your current order value total of %s is %s — the minimum value you can order "
+"is %s "
+msgstr ""
+"Din nåværende ordreverdi totalt på %s er %s – minimumsverdien du kan "
+"bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9494
+#: public/class-b2bking-dynamic-rules.php:9502
+#: public/class-b2bking-dynamic-rules.php:9726
+#: public/class-b2bking-dynamic-rules.php:9734
+#, php-format
+msgid ""
+"Your current order value total of products in category %s is %s — the "
+"maximum value you can order is %s "
+msgstr ""
+"Din nåværende bestillingsverdi totalt av produkter i kategori %s er %s – "
+"maksimumsverdien du kan bestille er %s"
+
+#: public/class-b2bking-dynamic-rules.php:9473
+#: public/class-b2bking-dynamic-rules.php:9481
+#: public/class-b2bking-dynamic-rules.php:9705
+#: public/class-b2bking-dynamic-rules.php:9713
+#, php-format
+msgid ""
+"Your current order value total of products in category %s is %s — the "
+"minimum value you can order is %s "
+msgstr ""
+"Din nåværende bestillingsverdi totalt av produkter i kategori %s er %s – "
+"minimumsverdien du kan bestille er %s"
+
+#: admin/class-b2bking-settings.php:618
+msgid "Your Custom Logo"
+msgstr "Din egendefinerte logo"
+
+#: public/class-b2bking-public.php:9676
+msgid "Your email address (*):"
+msgstr "Din epostadresse (*):"
+
+#: public/class-b2bking-public.php:9878
+msgid "Your message:"
+msgstr "Din beskjed:"
+
+#: public/class-b2bking-public.php:9674
+msgid "Your name (*):"
+msgstr "Navnet ditt (*):"
+
+#: public/class-b2bking-public.php:10414
+msgid ""
+"Your quote request has been received. We will get back to you as soon as "
+"possible."
+msgstr ""
+"Din tilbudsforespørsel er mottatt. Vi vil komme tilbake til deg så snart som "
+"mulig."
+
+#: includes/emails/templates/new-offer-email-template.php:15
+#: includes/emails/templates/plain-new-offer-email-template.php:10
+msgid "You’ve received the following offer:"
+msgstr "Du har mottatt følgende tilbud:"
+
+#: admin/class-b2bking-admin.php:3075 admin/class-b2bking-admin.php:3361
+#: admin/class-b2bking-admin.php:6417 admin/class-b2bking-admin.php:7873
+msgid "Zero Tax Product"
+msgstr "Nullavgiftsprodukt"
+
+#: public/class-b2bking-public.php:6979
+msgid "←   Newer offers"
+msgstr "← Nyere tilbud"
+
+#: admin/class-b2bking-admin.php:9524 admin/class-b2bking-admin.php:9674
+#: public/class-b2bking-public.php:6152
+msgid "←  Go Back"
+msgstr "←  Tilbake"
+
+#: public/class-b2bking-public.php:6105
+msgid "← Newer conversations"
+msgstr "← Nyere samtaler"
+
+#: public/class-b2bking-public.php:6958
+msgid "↓ PDF"
+msgstr "↓ PDF"

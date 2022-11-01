@@ -1,0 +1,240 @@
+# Copyright (C) 2019 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - Taxonomy Terms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - Taxonomy Terms 1.1.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/taxonomy-terms\n"
+"POT-Creation-Date: 2020-03-21T23:43:20+00:00\n"
+"PO-Revision-Date: 2020-03-21 18:26-0600\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es_PR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.3\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - Taxonomy Terms"
+msgstr "Editor Masivo - Taxonomías"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/go/taxonomy-terms-addon?utm_source=wp-"
+"admin&utm_medium=plugins-list&utm_campaign=taxonomy-terms"
+msgstr ""
+
+#. Description of the plugin
+msgid "Edit categories and tags in a spreadsheet."
+msgstr "Edita categorías y etiquetas en una hoja de cálculo"
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=taxonomy-terms"
+msgstr ""
+
+#: inc/bootstrap.php:21
+msgid "Edit categories, tags, attributes, taxonomies"
+msgstr "Editar categorías, etiquetas, atributos, taxonomías"
+
+#: inc/bootstrap.php:45
+msgid "Edit in a Spreadsheet"
+msgstr "Editar en una hoja de cálculo"
+
+#: inc/bootstrap.php:57
+msgid "ID"
+msgstr "ID"
+
+#: inc/bootstrap.php:69
+msgid "Hierarchy"
+msgstr "Jerarquía"
+
+#: inc/bootstrap.php:81
+msgid "Name"
+msgstr "Nombre"
+
+#: inc/bootstrap.php:89
+msgid "Slug"
+msgstr "Slug"
+
+#: inc/bootstrap.php:98
+msgid "Parent"
+msgstr "Padre"
+
+#: inc/bootstrap.php:112
+msgid "Status"
+msgstr "Estado"
+
+#: inc/bootstrap.php:135
+msgid "Count"
+msgstr "Cantidad"
+
+#: inc/bootstrap.php:145
+msgid "Description"
+msgstr "Descripción"
+
+#: inc/bootstrap.php:159
+msgid "Taxonomy"
+msgstr "Taxonomía"
+
+#: inc/bootstrap.php:168
+msgid "Display type"
+msgstr "Tipo de visualización"
+
+#: inc/bootstrap.php:175
+msgid "Default"
+msgstr "Predeterminado"
+
+#: inc/bootstrap.php:176
+msgid "Products"
+msgstr "Productos"
+
+#: inc/bootstrap.php:177
+msgid "Subcategories"
+msgstr "Subcategorías"
+
+#: inc/bootstrap.php:178
+msgid "Both"
+msgstr "Ambos"
+
+#: inc/bootstrap.php:183
+msgid "Thumbnail"
+msgstr "Miniatura"
+
+#: inc/providers/term.php:384
+msgid "The item id does not exist. Error #89827j"
+msgstr "El ID del artículo no existe. Error #89827j"
+
+#: inc/sheet.php:60
+msgid "Request not allowed. Try again later."
+msgstr "Solicitud no permitida. Intenta de nuevo más tarde."
+
+#: inc/sheet.php:63
+msgid "Please select the term that you want to keep."
+msgstr "Por favor selecciona el término que quieres conservar."
+
+#: inc/sheet.php:75
+msgid "Please select the terms to remove."
+msgstr "Por favor selecciona los términos que quieres remover."
+
+#: inc/sheet.php:112
+msgid "Terms to remove not found."
+msgstr "No encontramos los términos para remover."
+
+#: inc/sheet.php:119
+msgid "%s terms merged."
+msgstr "%s términos combinados."
+
+#: inc/sheet.php:157 views/merge-terms-modal.php:5
+msgid "Merge terms"
+msgstr "Combinar términos"
+
+#: inc/sheet.php:159
+msgid ""
+"Combine terms into one and automatically reassign the posts to use the final "
+"term."
+msgstr ""
+"Combina varios términos en uno y automáticamente reasigna los posts para "
+"usar el término final."
+
+#: inc/sheet.php:244
+msgid "Parent keyword"
+msgstr "Palabra clave de artículo padre"
+
+#: inc/sheet.php:244
+msgid ""
+"We will display all the categories below parent that contains this keyword"
+msgstr ""
+"Mostraremos todas las categorías debajo del elemento padre que contienen "
+"esta palabra clave"
+
+#: inc/sheet.php:275
+msgid ""
+"We find items that have the same SLUG in the CSV and the WP Field.<br>Please "
+"select the CSV column that contains the slug.<br>You must import the slug "
+"column if you want to update existing categories, items without slug will be "
+"created as new."
+msgstr ""
+"Encontramos elementos que tienen el mismo SLUG en el CSV y en WP.<br>Por "
+"favor selecciona la columna CSV que contiene el slug.<br>Debes importar la "
+"columna de slug si quieres actualizar las categorías existentes, los "
+"elementos sin slug se crearán como nuevos."
+
+#: taxonomy-terms.php:78
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version. The features of the plugin \""
+msgstr ""
+"Por favor, actualiza el plugin Editor Masivo y todas sus extensiones a la "
+"última versión, el plugin CORE debe ser la versión 2.8.3 o superior. El "
+"plugin \""
+
+#: views/merge-terms-modal.php:8
+msgid "Replace these terms"
+msgstr "Reemplazar estos términos"
+
+#: views/merge-terms-modal.php:8
+msgid "Select the categories that will be removed."
+msgstr "Selecciona las categorías que serán removidas."
+
+#: views/merge-terms-modal.php:11
+msgid "Select individual items"
+msgstr "Selecciona términos individuales"
+
+#: views/merge-terms-modal.php:12
+msgid "Select all the items from a search"
+msgstr "Selecciona los resultados de una búsqueda"
+
+#: views/merge-terms-modal.php:16
+msgid "Enter name..."
+msgstr "Ingresa el nombre..."
+
+#: views/merge-terms-modal.php:21
+msgid "with this term"
+msgstr "con este término"
+
+#: views/merge-terms-modal.php:21
+msgid "This term will remain saved."
+msgstr "Este término permanecerá guardado."
+
+#: views/merge-terms-modal.php:22
+msgid "Enter a name..."
+msgstr "Ingresa el nombre..."
+
+#: views/merge-terms-modal.php:27
+msgid ""
+"I understand it will remove all the terms from my search and keep the term "
+"selected above."
+msgstr ""
+"Entiendo que serán removidos los términos encontrados en mi búsqueda y se "
+"conservará el término que seleccioné arriba."
+
+#: views/merge-terms-modal.php:27
+msgid ""
+"For example, if you searched for categories with keyword Car, it will "
+"combine all the found categories into one"
+msgstr ""
+"Por ejemplo, si buscas categorías con la palabra \"carro\", combinará todas "
+"las categorías encontradas en una categoría"
+
+#: views/merge-terms-modal.php:37
+msgid "Execute"
+msgstr "Ejecutar"
+
+#: views/merge-terms-modal.php:38
+msgid "Close"
+msgstr "Cerrar"
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr "Gracias por instalar nuestro plugin."
+
+#: views/welcome-page-content.php:33
+msgid "You can open the Bulk Editor Now:  %s"
+msgstr "Puedes abrir el Editor Masivo ahora: %s"

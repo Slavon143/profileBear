@@ -1,0 +1,100 @@
+/* Used for both woo carousels */
+.fusion-woo-slider .fusion-rollover-content .fusion-rollover-title {
+  margin: 0;
+  line-height: normal;
+}
+.fusion-woo-slider .fusion-product-buttons {
+  position: relative;
+  z-index: 9;
+}
+.fusion-woo-slider .fusion-carousel-title-below-image .fusion-product-buttons {
+  position: relative;
+  z-index: 9;
+}
+.fusion-woo-slider .fusion-carousel-title-below-image .fusion-product-buttons a:first-child,
+.fusion-woo-slider .fusion-carousel-title-below-image .fusion-product-buttons a:last-child {
+  display: inline-block;
+  float: none;
+  margin: 0;
+}
+.fusion-woo-slider .fusion-carousel-title-below-image .fusion-rollover-linebreak {
+  display: block;
+  margin-bottom: 8px;
+  vertical-align: middle;
+}
+.fusion-woo-slider .fusion-classic-product-image-wrapper .cart-loading > a {
+  color: #fff !important;
+}
+.fusion-woo-slider .cart-loading .view-cart {
+  display: none;
+}
+.fusion-woo-product-design-classic .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  position: absolute;
+  bottom: 15px;
+  left: 0;
+  right: 0;
+  padding: 0 10%;
+  height: 40px;
+  width: 100%;
+}
+.fusion-woo-product-design-classic .fusion-woo-slider .fusion-carousel-title-below-image .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  position: relative;
+  bottom: auto;
+  height: auto;
+}
+/*
+* Clean Design
+*/
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons {
+  margin-top: 6px;
+  text-transform: uppercase;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a {
+  display: inline;
+  float: none;
+  margin-top: 0;
+  padding: 0;
+  letter-spacing: 1px;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:hover {
+  opacity: 0.6;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:after,
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:before {
+  display: none;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons .wc-forward {
+  display: none;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons .fusion-rollover-linebreak {
+  display: inline-block;
+  margin: 0 10px;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-carousel-title-below-image .fusion-carousel-title {
+  text-align: center;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-carousel-title-below-image .fusion-carousel-meta {
+  text-align: center;
+}
+.fusion-woo-product-design-clean .fusion-woo-slider .fusion-carousel-title-on-rollover .fusion-rollover-linebreak {
+  display: none;
+}
+.fusion-woo-product-slider {
+  overflow: hidden;
+  margin-bottom: 55px;
+}
+.fusion-woo-product-slider .fusion-rollover .price {
+  margin-top: 5px;
+}
+.fusion-woo-product-slider .fusion-rollover .price .amount {
+  font-size: 18px;
+}
+.fusion-woo-product-slider .onsale {
+  top: 20px;
+  left: 15px;
+  z-index: auto;
+}
+.rtl .fusion-woo-product-slider .onsale {
+  left: auto;
+  right: 15px;
+}

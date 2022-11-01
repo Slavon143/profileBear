@@ -1,0 +1,47 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-audio.fusion-audio {
+  max-width: var(--fusion-audio-max-width, var(--fusion-audio-max-width-default, 100%));
+}
+.fusion-audio.fusion-audio.dark-controls .mejs-button > button {
+  background-image: url("FUSION_AUDIO_SVG_URL");
+}
+.fusion-audio.fusion-audio.dark-controls .mejs-controls > * {
+  color: #000;
+}
+.fusion-audio.fusion-audio.dark-controls .mejs-controls .mejs-time-rail .mejs-time-total,
+.fusion-audio.fusion-audio.dark-controls .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-total {
+  background: rgba(0, 0, 0, 0.33);
+}
+.fusion-audio.fusion-audio.dark-controls .mejs-controls .mejs-time-rail .mejs-time-loaded,
+.fusion-audio.fusion-audio.dark-controls .mejs-controls .mejs-horizontal-volume-slider .mejs-horizontal-volume-current {
+  background: #000;
+}
+.fusion-audio.fusion-audio.dark-controls .mejs-time-handle-content {
+  border: 4px solid hsla(0, 0%, 0%, 0.9);
+}
+.fusion-audio.fusion-audio.dark-controls .mejs-time-current,
+.fusion-audio.fusion-audio.dark-controls .mejs-time-handle-content {
+  background: hsla(0, 0%, 0%, 0.9);
+}
+.fusion-audio.fusion-audio .mejs-container {
+  background-color: transparent;
+  height: calc(40px + 2 * var(--fusion-audio-border-size,var(--fusion-audio-border-size-default,0)) * 1px) !important;
+}
+.fusion-audio.fusion-audio .mejs-embed,
+.fusion-audio.fusion-audio .mejs-embed body,
+.fusion-audio.fusion-audio .mejs-container .mejs-controls {
+  background-color: var(--fusion-audio-background-color, var(--fusion-audio-background-color-default, #222));
+}
+.fusion-audio.fusion-audio .mejs-controls .mejs-time-rail .mejs-time-current {
+  background: var(--fusion-audio-accent-color, var(--fusion-audio-accent-color-default, #0073aa));
+}
+.fusion-audio.fusion-audio .mejs-controls {
+  border-top-left-radius: var(--fusion-audio-border-top-left-radius, var(--fusion-audio-border-top-left-radius-default, 0));
+  border-top-right-radius: var(--fusion-audio-border-top-right-radius, var(--fusion-audio-border-top-right-radius-default, 0));
+  border-bottom-right-radius: var(--fusion-audio-border-bottom-right-radius, var(--fusion-audio-border-bottom-right-radius-default, 0));
+  border-bottom-left-radius: var(--fusion-audio-border-bottom-left-radius, var(--fusion-audio-border-bottom-left-radius-default, 0));
+  box-shadow: var(--fusion-audio-box-shadow);
+  border: calc(var(--fusion-audio-border-size,var(--fusion-audio-border-size-default,0)) * 1px) solid var(--fusion-audio-border-color,var(--fusion-audio-border-color-default,#222));
+  height: calc(40px + 2 * var(--fusion-audio-border-size,var(--fusion-audio-border-size-default,0)) * 1px) !important;
+}

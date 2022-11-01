@@ -1,0 +1,282 @@
+# Copyright (C) 2020 WP Sheet Editor
+# This file is distributed under the same license as the WP Sheet Editor - Taxonomy Terms plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Sheet Editor - Taxonomy Terms 1.5.6.3\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/taxonomy-terms\n"
+"Language-Team: Hanno Bolte IT Consulting <info@bsoft.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-10-20T18:04:52+00:00\n"
+"PO-Revision-Date: 2020-11-06 09:55+0100\n"
+"X-Generator: Poedit 2.4.1\n"
+"Last-Translator: Hanno Bolte <xlate@bsoft.de>\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: de_DE@formal\n"
+
+#. Plugin Name of the plugin
+msgid "WP Sheet Editor - Taxonomy Terms"
+msgstr "WP Sheet Editor - Taxonomie-Begriffe"
+
+#. Plugin URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/go/taxonomy-terms-addon?utm_source=wp-"
+"admin&utm_medium=plugins-list&utm_campaign=taxonomy-terms"
+msgstr ""
+"https://wpsheeteditor.com/go/taxonomy-terms-addon?utm_source=wp-"
+"admin&utm_medium=plugins-list&utm_campaign=taxonomy-terms"
+
+#. Description of the plugin
+msgid "Edit categories and tags in a spreadsheet."
+msgstr "Kategorien und Tags in einem Arbeitsblatt bearbeiten."
+
+#. Author of the plugin
+msgid "WP Sheet Editor"
+msgstr "WP Sheet Editor"
+
+#. Author URI of the plugin
+msgid ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=taxonomy-terms"
+msgstr ""
+"https://wpsheeteditor.com/?utm_source=wp-admin&utm_medium=plugins-"
+"list&utm_campaign=taxonomy-terms"
+
+#: inc/bootstrap.php:21
+msgid "Edit categories, tags, attributes, taxonomies"
+msgstr "Kategorien, Tags, Attribute, Taxonomien bearbeiten"
+
+#: inc/bootstrap.php:45 inc/integrations/wc-attributes-bootstrap.php:20
+msgid "Edit in a Spreadsheet"
+msgstr "In einem Arbeitsblatt bearbeiten"
+
+#: inc/bootstrap.php:57 inc/integrations/wc-attributes-bootstrap.php:32
+msgid "ID"
+msgstr "ID"
+
+#: inc/bootstrap.php:69
+msgid "Hierarchy"
+msgstr "Hierarchie"
+
+#: inc/bootstrap.php:81 inc/integrations/wc-attributes-bootstrap.php:50
+#: inc/integrations/wc-attributes-bootstrap.php:57
+#: inc/integrations/wc-attributes-bootstrap.php:74
+msgid "Name"
+msgstr "Name"
+
+#: inc/bootstrap.php:89
+msgid "Slug"
+msgstr "Slug"
+
+#: inc/bootstrap.php:98
+msgid "Parent"
+msgstr "Übergeordnet"
+
+#: inc/bootstrap.php:113 inc/integrations/wc-attributes-bootstrap.php:95
+msgid "Status"
+msgstr "Status"
+
+#: inc/bootstrap.php:136
+msgid "Count"
+msgstr "Zählen"
+
+#: inc/bootstrap.php:146
+msgid "Description"
+msgstr "Beschreibung"
+
+#: inc/bootstrap.php:160
+msgid "Taxonomy"
+msgstr "Taxonomie"
+
+#: inc/bootstrap.php:169
+msgid "Display type"
+msgstr "Anzeigeart"
+
+#: inc/bootstrap.php:176
+msgid "Default"
+msgstr "Standard"
+
+#: inc/bootstrap.php:177
+msgid "Products"
+msgstr "Produkte"
+
+#: inc/bootstrap.php:178
+msgid "Subcategories"
+msgstr "Unterkategorien"
+
+#: inc/bootstrap.php:179
+msgid "Both"
+msgstr "Beide"
+
+#: inc/bootstrap.php:184
+msgid "Thumbnail"
+msgstr "Vorschaubild"
+
+#: inc/integrations/wc-attributes-bootstrap.php:44
+msgid "Label"
+msgstr "Bezeichnung"
+
+#: inc/integrations/wc-attributes-bootstrap.php:68
+msgid "Default sort order"
+msgstr "Standard-Sortierreihenfolge"
+
+#: inc/integrations/wc-attributes-bootstrap.php:73
+msgid "Custom ordering"
+msgstr "Benutzerdefinierte Sortierung"
+
+#: inc/integrations/wc-attributes-bootstrap.php:75
+msgid "Name (numeric)"
+msgstr "Name (numerisch)"
+
+#: inc/integrations/wc-attributes-bootstrap.php:76
+msgid "Term ID"
+msgstr "Begriffs-ID"
+
+#: inc/integrations/wc-attributes-bootstrap.php:83
+msgid "Enable Archives"
+msgstr "Archive aktivieren"
+
+#: inc/integrations/wc-attributes-bootstrap.php:113
+msgid "Manage terms"
+msgstr "Begriffe verwalten"
+
+#: inc/integrations/wc-attributes.php:70 inc/integrations/wc-attributes.php:122
+msgid "WooCommerce Attributes"
+msgstr "WooCommerce-Attribute"
+
+#: inc/providers/term.php:399
+msgid "The item id does not exist. Error #89827j"
+msgstr "Die Artikel-ID existiert nicht. Fehler #89827j"
+
+#: inc/sheet.php:129
+msgid "Request not allowed. Try again later."
+msgstr "Anfrage nicht erlaubt. Versuchen Sie es später noch einmal."
+
+#: inc/sheet.php:132
+msgid "Please select the term that you want to keep."
+msgstr "Bitte wählen Sie den Begriff aus, den Sie behalten möchten."
+
+#: inc/sheet.php:149
+msgid "Please select the terms to remove."
+msgstr "Bitte wählen Sie die zu entfernenden Begriffe aus."
+
+#: inc/sheet.php:181 inc/sheet.php:220
+msgid "%s terms merged."
+msgstr "%s Begriffe zusammengeführt."
+
+#: inc/sheet.php:213
+msgid "Terms to remove not found."
+msgstr "Zu entfernende Begriffe nicht gefunden."
+
+#: inc/sheet.php:262 views/merge-terms-modal.php:5
+msgid "Merge terms"
+msgstr "Begriffe zusammenführen"
+
+#: inc/sheet.php:264
+msgid ""
+"Combine terms into one and automatically reassign the posts to use the final "
+"term."
+msgstr ""
+"Fassen Sie Begriffe zu einem einzigen zusammen und weisen Sie die Beiträge "
+"automatisch neu zu, um den letzten Begriff zu verwenden."
+
+#: inc/sheet.php:349
+msgid "Parent keyword"
+msgstr "Übergeordnetes Schlüsselwort"
+
+#: inc/sheet.php:349
+msgid ""
+"We will display all the categories below parent that contains this keyword"
+msgstr ""
+"Es werden alle Kategorien unterhalb des Elternteils angezeigt, der dieses "
+"Schlüsselwort enthält"
+
+#: inc/sheet.php:380
+msgid ""
+"We find items that have the same SLUG in the CSV and the WP Field.<br>Please "
+"select the CSV column that contains the slug.<br>You must import the slug "
+"column if you want to update existing categories, items without slug will be "
+"created as new."
+msgstr ""
+"Wir finden Artikel mit demselben SLUG im CSV- und im WP-Feld.<br>Bitte "
+"wählen Sie die CSV-Spalte, die den Slug enthält.<br>Sie müssen die Slug-"
+"Spalte importieren, wenn Sie bestehende Kategorien aktualisieren möchten, "
+"Artikel ohne Slug werden als neu erstellt."
+
+#: taxonomy-terms.php:81
+msgid ""
+"Please update the WP Sheet Editor plugin and all its extensions to the "
+"latest version. The features of the plugin \""
+msgstr ""
+"Bitte aktualisieren Sie das WP Sheet Editor Plugin und alle seine "
+"Erweiterungen auf die neueste Version. Die Eigenschaften des Plugins \""
+
+#: views/merge-terms-modal.php:8
+msgid "Replace these terms"
+msgstr "Ersetzen Sie diese Begriffe"
+
+#: views/merge-terms-modal.php:8
+msgid "Select the categories that will be removed."
+msgstr "Wählen Sie die Kategorien aus, die entfernt werden sollen."
+
+#: views/merge-terms-modal.php:11
+msgid "Select individual items"
+msgstr "Einzelne Elemente auswählen"
+
+#: views/merge-terms-modal.php:12
+msgid "Select all the items from a search"
+msgstr "Alle Elemente aus einer Suche auswählen"
+
+#: views/merge-terms-modal.php:13
+msgid "Merge all the duplicates with same name and hierarchy"
+msgstr ""
+"Alle Duplikate mit demselben Namen und derselben Hierarchie zusammenführen"
+
+#: views/merge-terms-modal.php:17
+msgid "Enter name..."
+msgstr "Namen eingeben..."
+
+#: views/merge-terms-modal.php:22
+msgid "with this term"
+msgstr "mit diesem Begriff"
+
+#: views/merge-terms-modal.php:22
+msgid "This term will remain saved."
+msgstr "Dieser Begriff bleibt gespeichert."
+
+#: views/merge-terms-modal.php:23
+msgid "Enter a name..."
+msgstr "Namen eingeben..."
+
+#: views/merge-terms-modal.php:28
+msgid ""
+"I understand it will remove all the terms from my search and keep the term "
+"selected above."
+msgstr ""
+"Ich habe verstanden, dass alle Begriffe aus meiner Suche entfernt werden und "
+"der oben ausgewählte Begriff erhalten bleibt."
+
+#: views/merge-terms-modal.php:28
+msgid ""
+"For example, if you searched for categories with keyword Car, it will "
+"combine all the found categories into one"
+msgstr ""
+"Wenn Sie zum Beispiel nach Kategorien mit dem Stichwort Auto gesucht haben, "
+"werden alle gefundenen Kategorien zu einer zusammengefasst"
+
+#: views/merge-terms-modal.php:38
+msgid "Execute"
+msgstr "Ausführen"
+
+#: views/merge-terms-modal.php:39
+msgid "Close"
+msgstr "Schließen"
+
+#: views/welcome-page-content.php:4
+msgid "Thank you for installing our plugin."
+msgstr "Vielen Dank für die Installation unseres Plugins."
+
+#: views/welcome-page-content.php:33
+msgid "You can open the Bulk Editor Now:  %s"
+msgstr "Sie können den Masseneditor jetzt öffnen:  %s"

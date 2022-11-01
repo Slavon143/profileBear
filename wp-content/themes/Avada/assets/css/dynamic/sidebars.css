@@ -1,0 +1,23 @@
+/* stylelint-disable no-descending-specificity */
+#main .sidebar:not(.fusion-sticky-sidebar),
+#main .fusion-sticky-sidebar .fusion-sidebar-inner-content {
+  background-color: var(--sidebar_bg_color);
+}
+#main .sidebar {
+  padding: var(--sidebar_padding);
+}
+#main .sidebar.fusion-sticky-sidebar .fusion-sidebar-inner-content {
+  padding: var(--sidebar_padding-percent_to_vw);
+}
+.sidebar .widget .widget-title,
+.sidebar .widget .heading .widget-title {
+  background-color: var(--sidebar_widget_bg_color);
+  padding: var(--sidebar_widget_bg_color-opaque-padding);
+}
+.sidebar .widget .widget-title {
+  font-size: var(--sidew_font_size);
+}
+.sidebar .widget .widget-title,
+.sidebar .widget .heading h4 {
+  color: var(--sidebar_heading_color);
+}

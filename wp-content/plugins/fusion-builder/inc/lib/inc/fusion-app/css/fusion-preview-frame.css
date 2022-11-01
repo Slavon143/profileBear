@@ -1,0 +1,1533 @@
+.fusion-builder-live {
+  /* TinyMCE */
+}
+.fusion-builder-live #boxed-wrapper {
+  overflow: visible;
+}
+.fusion-builder-live a:focus,
+.fusion-builder-live input:focus,
+.fusion-builder-live select:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.fusion-builder-live .fusion-column-wrapper:not(.fusion-column-has-shadow),
+.fusion-builder-live .fusion-builder-live-editor .fusion-fullwidth {
+  box-shadow: inset 0 0 0 2px rgba(60, 185, 240, 0) !important;
+}
+.fusion-builder-live .fusion-column-wrapper:not(.fusion-column-has-shadow),
+.fusion-builder-live .fusion-fullwidth:not(.fusion-sticky-container) {
+  transition: box-shadow 0.2s ease, filter 0.3s ease;
+}
+.fusion-builder-live .fusion-fullwidth.fusion-builder-row-live-1.fusion-sticky-transition .fusion_builder_row > .fusion-builder-row {
+  transition: min-height 0.3s ease;
+}
+.fusion-builder-live .fusion-layout-column.fusion-column-liftup-border .fusion-column-wrapper:not(.fusion-column-has-shadow) {
+  box-shadow: inset 0 0 0 2px rgba(60, 185, 240, 0) !important;
+  transition: border-color 0s linear 0.35s, border-radius 0s linear 0.15s, box-shadow 0.2s ease;
+}
+.fusion-builder-live .fusion-layout-column.fusion-column-liftup-border:hover .fusion-column-wrapper:not(.fusion-column-has-shadow) {
+  transition: border-color 0s, border-radius 0s, box-shadow 0.2s ease;
+}
+.fusion-builder-live .fusion-fullwidth .fusion-builder-container-content .fusion-builder-row-container:after {
+  display: initial;
+}
+.fusion-builder-live .mce-floatpanel,
+.fusion-builder-live .mce-popover,
+.fusion-builder-live .mce-tooltip {
+  z-index: 999999 !important;
+}
+.fusion-builder-live .fusion-builder-loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -2em 0 0 -2em;
+  color: transparent;
+  font-size: 10px;
+  border-top: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-right: 0.5em solid rgba(0, 0, 0, 0.2);
+  border-bottom: 0.5em solid #333;
+  border-left: 0.5em solid rgba(0, 0, 0, 0.2);
+  animation: fusion-rotate 0.8s infinite linear;
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.fusion-builder-live .fusion-builder-loader:after {
+  width: 4em;
+  height: 4em;
+  border-radius: 50%;
+  background-clip: padding-box;
+}
+.fusion-builder-live.do-animate .fusion-animated {
+  visibility: visible;
+}
+.fusion-builder-live .width-100 .post-content > .fusion-builder-live-editor > #fusion_builder_container > .fusion-builder-flex-container {
+  margin-left: var(--hundredp_padding-hundred_percent_negative_margin);
+  margin-right: var(--hundredp_padding-hundred_percent_negative_margin);
+}
+.fusion-builder-live .width-100 .post-content > .fusion-builder-live-editor > #fusion_builder_container > .fusion-builder-flex-container .fusion-fullwidth,
+.fusion-builder-live .width-100 .post-content > .fusion-builder-live-editor > #fusion_builder_container > .fusion-builder-flex-container .nonhundred-percent-fullwidth {
+  margin-left: 0;
+  margin-right: 0;
+}
+.fusion-builder-column-inner {
+  position: relative;
+}
+@media only screen and (min-width: 800px) {
+  .fusion-builder-live-editor .fusion-tabs .nav-tabs.nav-justified {
+    display: flex !important;
+  }
+  .fusion-builder-live-editor .fusion-tabs .nav-tabs.nav-justified > li {
+    flex: 1 1 0;
+  }
+}
+.fusion-builder-blank-page {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  border: 2px dashed #e6e6e6;
+  margin-bottom: 2em;
+}
+.fusion-builder-blank-page.fusion-post-awb_off_canvas {
+  margin-bottom: 0;
+  border: none;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content {
+  flex: 1 1 100%;
+  margin: 5em 0;
+  padding: 25px;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content h1.title {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 32px;
+  font-weight: lighter;
+  color: #2a3035;
+  margin-top: 0;
+  line-height: 40px;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content h2.subtitle {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif !important;
+  font-size: 16px !important;
+  font-weight: 400 !important;
+  margin-top: 0;
+  margin-bottom: 2em;
+  color: #898d95;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content .fusion-builder-submit-button {
+  background: #fff;
+  padding: 13px 20px;
+  border: 1px solid #e6e6e6;
+  display: inline-block;
+  font-size: 14px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  margin: 5px 10px;
+  border-radius: 3px;
+  color: #2a3035;
+  letter-spacing: normal;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content .fusion-builder-submit-button span {
+  margin-right: 5px;
+  padding: 5px;
+  background: #198ed9;
+  border-radius: 50%;
+  color: #fff;
+  font-size: 13px;
+  width: 23px;
+  height: 23px;
+  display: inline-block;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content .fusion-builder-submit-button.fusion-builder-new-section-add {
+  background: #198fd9;
+  color: #fff;
+  box-shadow: none;
+  border: none;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content .fusion-builder-submit-button.fusion-builder-new-section-add span {
+  font-size: 14px;
+  background: transparent;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content .fusion-builder-submit-button.fusion-builder-new-section-add:hover {
+  background: #1081c7;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-content .fusion-builder-submit-button:not(.fusion-builder-new-section-add):hover {
+  color: #198fd9;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info {
+  width: 50%;
+  float: left;
+  border-top: 2px dashed #e6e6e6;
+  box-sizing: border-box;
+  padding: 3em 25px;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info h3 {
+  margin: 2em 0 !important;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  margin-bottom: 0 !important;
+  margin-top: 15px !important;
+  line-height: 1.8em;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info p {
+  font-size: 16px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  color: #898d95;
+  margin-bottom: 5px;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .dashicons-before,
+.fusion-builder-blank-page .fusion-builder-blank-page-info .fusiona {
+  display: inline-block;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 10px;
+  width: 20px;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .dashicons-before:before,
+.fusion-builder-blank-page .fusion-builder-blank-page-info .fusiona:before {
+  display: inline;
+  vertical-align: middle;
+  font-size: 18px;
+  width: auto;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info:last-child {
+  border-left: 2px dashed #e6e6e6;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .info-icon {
+  width: 54px;
+  height: 54px;
+  line-height: 54px;
+  background: #b1b7bc;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  border-radius: 50%;
+  box-shadow: 0 0 8px 0 rgba(255, 255, 255, 0.6);
+  border: 2px solid #fff;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .info-icon:hover {
+  background: #979ea3;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .fusion-builder-submit-button {
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  color: #198fd9;
+  transition: color 0.2s ease;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .fusion-builder-submit-button span {
+  padding-left: 10px;
+  transition: padding 0.2s ease;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .fusion-builder-submit-button:hover {
+  color: #1081c7;
+}
+.fusion-builder-blank-page .fusion-builder-blank-page-info .fusion-builder-submit-button:hover span {
+  padding-left: 15px;
+}
+.fusion-builder-blank-page.fusion-builder-scheme-dark:not(.fusion-post-awb_off_canvas) {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.fusion-builder-blank-page.fusion-builder-scheme-dark:not(.fusion-post-awb_off_canvas) h1.title {
+  color: #fff;
+}
+.fusion-builder-blank-page.fusion-builder-scheme-dark:not(.fusion-post-awb_off_canvas) .fusion-builder-blank-page-info {
+  border-color: rgba(255, 255, 255, 0.3);
+}
+.fusion-builder-blank-page.fusion-builder-scheme-dark:not(.fusion-post-awb_off_canvas) .fusion-builder-blank-page-info h3 {
+  color: #fff;
+}
+.fusion-builder-blank-page.fusion-builder-scheme-dark:not(.fusion-post-awb_off_canvas) .fusion-builder-blank-page-info .info-icon {
+  background: transparent;
+}
+#side-header .fusion-builder-live-editor {
+  position: relative;
+}
+#side-header .fusion-builder-live-editor .fusion-builder-blank-page-info {
+  display: none;
+}
+/* Stop Animation Changing z-index when disabled */
+.dont-animate .fusion-animated {
+  z-index: initial;
+}
+/* Empty Container Placeholder */
+.fusion-builder-empty-column {
+  height: 16px;
+}
+.fusion-builder-column-content .fusion-builder-empty-column,
+.fusion-builder-row-container .fusion-builder-empty-container {
+  display: none;
+}
+.fusion-builder-empty-container .fusion-builder-empty-container-label {
+  display: none;
+}
+.fusion-builder-column-content .fusion-builder-empty-column:last-child,
+.fusion-builder-row-container .fusion-builder-empty-container:last-child {
+  display: block;
+  padding: 50px 0;
+}
+.fusion-builder-column-content .fusion-builder-empty-column:last-child > .fusion-builder-module-controls-container,
+.fusion-builder-row-container .fusion-builder-empty-container:last-child > .fusion-builder-module-controls-container {
+  z-index: 9999999;
+  display: block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.fusion-builder-element-edited .fusion-builder-column-content .fusion-builder-empty-column:last-child > .fusion-builder-module-controls-container,
+.fusion-builder-element-edited .fusion-builder-row-container .fusion-builder-empty-container:last-child > .fusion-builder-module-controls-container {
+  display: none;
+}
+.fusion-builder-column-content .fusion-builder-empty-column:last-child > .fusion-builder-module-controls-container a,
+.fusion-builder-row-container .fusion-builder-empty-container:last-child > .fusion-builder-module-controls-container a {
+  display: block;
+  width: 33px;
+  opacity: 1;
+  color: #fff;
+}
+.fusion-dialog-ui-active .fusion-builder-column-content .fusion-builder-empty-column:last-child > .fusion-builder-module-controls-container a,
+.fusion-dialog-ui-active .fusion-builder-row-container .fusion-builder-empty-container:last-child > .fusion-builder-module-controls-container a {
+  display: none;
+}
+.fusion-builder-container:hover .fusion-builder-row-container .fusion-builder-empty-container:last-child > .fusion-builder-module-controls-container,
+.fusion-builder-column:hover .fusion-builder-column-content .fusion-builder-empty-column:last-child > .fusion-builder-module-controls-container {
+  display: block;
+}
+.fusion-builder-clear-layout {
+  cursor: pointer;
+}
+.fusion-builder-live:not(.fusion-builder-preview-mode) .fusion-builder-column-content {
+  pointer-events: auto;
+}
+/* Option Styling - TODO: Separate these into individual less files for use on back-end and front-end */
+.select2-dropdown {
+  z-index: 999999 !important;
+}
+@keyframes fusion-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.fusion-builder-live .fusion-builder-module-controls-container {
+  position: absolute;
+  padding: 0;
+  background: #198fd9;
+  z-index: 9999999;
+  display: none;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.18);
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls {
+  display: flex;
+}
+.fusion-builder-live .fusion-builder-module-controls-container a {
+  padding: 0;
+  width: 0;
+  height: 33px;
+  overflow: hidden;
+  opacity: 0;
+  font-size: 14px;
+  display: block;
+  float: left;
+  line-height: 33px;
+  transition: opacity 0.15s ease, width 0.25s ease, color 0.1s ease;
+  text-align: center;
+  color: #fff;
+}
+.fusion-builder-live .fusion-builder-module-controls-container:hover a {
+  transition: opacity 0.15s ease 0.15s, width 0.25s ease, color 0.1s ease;
+}
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls {
+  overflow: hidden;
+}
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls:hover {
+  overflow: visible;
+}
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls:hover a,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner:hover a,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover a,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls:hover a {
+  width: 33px;
+  opacity: 1;
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls:hover a:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner:hover a:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover a:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a:hover,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls:hover a:hover {
+  color: #fff !important;
+}
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls:hover .fusion-builder-container-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner:hover .fusion-builder-container-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover .fusion-builder-container-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls:hover .fusion-builder-container-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls:hover .fusion-builder-container-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls:hover .fusion-builder-column-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner:hover .fusion-builder-column-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover .fusion-builder-column-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls:hover .fusion-builder-column-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls:hover .fusion-builder-column-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-container-controls:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-column-controls-inner:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-module-controls-inner:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-child-controls:hover .fusion-builder-settings,
+.fusion-builder-live .fusion-builder-module-controls-container .fusion-builder-nested-column-controls:hover .fusion-builder-settings {
+  background: #198fd9;
+}
+.fusion-builder-live .fusion-global-element .fusion-builder-module-controls-container a,
+.fusion-builder-live .fusion-global-parent-element .fusion-builder-module-controls-container a,
+.fusion-builder-live .fusion-global-nested-row .fusion-builder-module-controls-container a,
+.fusion-builder-live .fusion-global-column .fusion-builder-module-controls-container a,
+.fusion-builder-live .fusion-global-container .fusion-builder-module-controls-container a {
+  color: #fff;
+}
+.fusion-builder-live .fusion-global-element .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a,
+.fusion-builder-live .fusion-global-parent-element .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a,
+.fusion-builder-live .fusion-global-nested-row .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a,
+.fusion-builder-live .fusion-global-column .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a,
+.fusion-builder-live .fusion-global-container .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a {
+  color: rgba(255, 255, 255, 0.7) !important;
+}
+.fusion-builder-live .fusion-global-element .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a:hover,
+.fusion-builder-live .fusion-global-parent-element .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a:hover,
+.fusion-builder-live .fusion-global-nested-row .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a:hover,
+.fusion-builder-live .fusion-global-column .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a:hover,
+.fusion-builder-live .fusion-global-container .fusion-builder-module-controls-container .fusion-builder-child-controls:hover a:hover {
+  color: #fff !important;
+}
+.fusion-builder-live.fusion-dialog-ui-active.fusion-builder-no-ui .fusion-builder-live-child-element .fusion-builder-module-controls-container,
+.fusion-builder-live.fusion-dialog-ui-active.fusion-builder-no-ui .fusion-builder-nested-element .fusion-builder-module-controls-container,
+.fusion-builder-live.fusion-dialog-ui-active.fusion-builder-no-ui .fusion-builder-live-child-element .fusion-builder-module-controls-type-row-nested,
+.fusion-builder-live.fusion-dialog-ui-active.fusion-builder-no-ui .fusion-builder-nested-element .fusion-builder-module-controls-type-row-nested {
+  display: none !important;
+}
+.rtl.fusion-builder-live .fusion-builder-module-controls-container.fusion-builder-module-controls-type-column {
+  right: 1.92%;
+  left: auto !important;
+}
+.rtl.fusion-builder-live .fusion-builder-container:hover .fusion-builder-module-controls-container-wrapper .fusion-builder-module-controls-container {
+  right: auto;
+  left: 15px;
+  float: left;
+  margin: 15px 0 0 15px;
+}
+.rtl .fusion-panel-customizable .fusion-panel-shortcut.fusion-shortcut-last,
+.rtl .fusion-panel-customizable .fusion-panel-shortcut:last-child {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+.rtl .fusion-panel-customizable .fusion-panel-shortcut:first-child {
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.fusion-builder-live.fusion-builder-dragging .fusion-builder-column-content,
+.fusion-builder-live.fusion-builder-dragging .fusion-builder-row-container {
+  min-height: 30px;
+}
+.fusion-builder-live .fusion-builder-column-placeholder,
+.fusion-builder-live .fusion-builder-element-placeholder {
+  height: 30px;
+  border: 1px dotted rgba(0, 160, 210, 0.9) !important;
+  background-color: cyan;
+  background: repeating-linear-gradient(45deg, #d0e9f6, #d0e9f6 10px, #d0f0fa 10px, #d0f0fa 20px);
+}
+.fusion-builder-live .fusion-builder-inner-helper {
+  border-radius: 5px;
+  background: white;
+  text-transform: uppercase;
+  letter-spacing: 120%;
+  font-weight: 700;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+  padding: 15px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-size: 14px;
+  line-height: 20px;
+}
+.fusion-builder-live .fusion-builder-helper-column {
+  opacity: 0;
+  z-index: 9999999 !important;
+}
+.fusion-builder-live .fusion-builder-helper-column .fusion-builder-helper-holder {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-helper-column .fusion-builder-helper-holder .fusion-builder-inner-helper {
+  margin-left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  display: block;
+}
+.fusion-builder-live .fusion-builder-helper-container {
+  opacity: 0;
+}
+.fusion-builder-live .fusion-builder-helper-container .fusion-builder-helper-holder {
+  position: relative;
+}
+.fusion-builder-live .fusion-builder-helper-container .fusion-builder-helper-holder .fusion-builder-inner-helper {
+  position: absolute;
+  left: -10px;
+  top: 85px;
+  display: block;
+}
+.fusion-builder-live .fusion-builder-helper-element {
+  text-align: center;
+  opacity: 0;
+  z-index: 999999 !important;
+}
+.fusion-builder-live .fusion-builder-helper-element .fusion-builder-inner-helper {
+  display: inline-block;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.fusion-builder-live .pop-in {
+  animation: popin 0.4s;
+  opacity: 1;
+  display: block;
+  visibility: visible;
+}
+@keyframes popin {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fusion-builder-live ::selection {
+  background-color: #198fd9;
+  background-color: rgba(25, 143, 217, 0.5);
+}
+.fusion-builder-live .medium-editor-toolbar-select {
+  height: auto !important;
+}
+.fusion-builder-live .medium-toolbar-arrow-under:after {
+  display: none;
+}
+.fusion-builder-live .medium-toolbar-arrow-under .medium-editor-toolbar-actions:after,
+.fusion-builder-live .medium-toolbar-arrow-under .medium-editor-toolbar-form:after {
+  z-index: 10009;
+  border-color: #fff transparent transparent transparent;
+  border-width: 6px 7px 0;
+  top: 100%;
+  border-style: solid;
+  content: "";
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 0;
+  filter: drop-shadow(0 3px 5px rgba(0, 0, 0, 0.2));
+}
+.fusion-builder-live .medium-toolbar-arrow-under .medium-editor-toolbar-actions:after {
+  border-color: #2a3035 transparent transparent transparent;
+}
+.fusion-builder-live .medium-toolbar-arrow-over:before {
+  display: none;
+}
+.fusion-builder-live .medium-toolbar-arrow-over .medium-editor-toolbar-actions:before,
+.fusion-builder-live .medium-toolbar-arrow-over .medium-editor-toolbar-form:before {
+  z-index: 10009;
+  border-color: transparent transparent #fff transparent;
+  border-width: 0 7px 6px;
+  bottom: 100%;
+  border-style: solid;
+  content: "";
+  display: block;
+  height: 0;
+  left: 50%;
+  margin-left: 0;
+  position: absolute;
+  transform: translateX(-50%);
+  width: 0;
+}
+.fusion-builder-live .medium-toolbar-arrow-over .medium-editor-toolbar-actions:before {
+  border-color: transparent transparent #2a3035 transparent;
+}
+.fusion-builder-live .medium-toolbar-arrow-over .medium-editor-toolbar-form {
+  top: -43px;
+  bottom: auto !important;
+}
+.fusion-builder-live .medium-editor-toolbar {
+  z-index: 9999999;
+  left: 0;
+  position: absolute;
+  top: 0;
+  opacity: 0;
+  transform: translateY(30px);
+  visibility: hidden;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .medium-editor-toolbar .fa-strikethrough:before {
+  content: "\e91d";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-quote-right:before {
+  content: "\e91c";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-list-ul:before {
+  content: "\e91b";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-list-ol:before {
+  content: "\e91a";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-indent:before {
+  content: "\e919";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-outdent:before {
+  content: "\e918";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-bold:before {
+  content: "\ea62";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-underline:before {
+  content: "\ea63";
+}
+.fusion-builder-live .medium-editor-toolbar .fa-italic:before {
+  content: "\ea64";
+}
+.fusion-builder-live .medium-editor-toolbar [class^="fa-"],
+.fusion-builder-live .medium-editor-toolbar [class*=" fa-"],
+.fusion-builder-live .medium-editor-toolbar [class^="fusiona-"],
+.fusion-builder-live .medium-editor-toolbar [class*=" fusiona-"] {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: "fusion-builder-icons" !important;
+}
+.fusion-builder-live .medium-editor-toolbar > .medium-editor-toolbar-actions {
+  opacity: 0;
+  transform: translateY(30px);
+  pointer-events: none;
+}
+.fusion-builder-live .medium-editor-toolbar > .medium-editor-toolbar-actions.hidden {
+  transform: translateY(-30px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.fusion-builder-live .medium-editor-toolbar > .medium-editor-toolbar-actions.visible {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: auto;
+}
+.fusion-builder-live .medium-editor-toolbar.medium-editor-toolbar-active {
+  visibility: visible;
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.fusion-builder-live .medium-editor-toolbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.fusion-builder-live .medium-editor-toolbar ul li {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: inline-flex;
+  cursor: pointer;
+}
+.fusion-builder-live .medium-editor-toolbar-actions {
+  background-color: #2a3035;
+  border: none;
+  font-size: 14px;
+  border-radius: 4px;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li {
+  width: 32px;
+  justify-content: center;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li:nth-last-child(2) {
+  margin-right: 6px;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li:nth-child(n+8) {
+  display: none;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li:nth-child(-n+7) {
+  display: inline-flex;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li:nth-last-child(2),
+.fusion-builder-live .medium-editor-toolbar-actions li:last-child {
+  display: inline-flex !important;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li:first-child {
+  margin-left: 6px;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li:last-child {
+  width: 40px;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button {
+  font-size: 12px;
+  background-color: transparent;
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  height: 40px;
+  min-width: 12px;
+  line-height: 40px;
+  padding: 0 10px;
+  transition: background-color 0.1s ease, color 0.1s ease;
+  cursor: pointer;
+  align-items: center;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button:focus {
+  outline: none;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button:hover {
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button:hover .fusion-color-preview {
+  border-color: #198fd9;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button.medium-editor-button-active {
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button.medium-editor-button-first {
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button.medium-editor-button-last {
+  border-bottom-right-radius: 3px;
+  border-right: none;
+  border-top-right-radius: 3px;
+  background: #198fd9;
+  width: 40px;
+  justify-content: center;
+  color: #fff;
+  transition: background-color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button.medium-editor-button-last:hover {
+  background-color: #1081c7;
+}
+.fusion-builder-live .medium-editor-toolbar-actions li button .fusion-color-preview {
+  border-radius: 50%;
+  width: 12px;
+  height: 12px;
+  display: flex;
+  border: 2px solid white;
+  transition: border-color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-toolbar-actions.alternative-active li:nth-child(8) {
+  margin-left: 6px;
+}
+.fusion-builder-live .medium-editor-toolbar-actions.alternative-active li:nth-child(n+8) {
+  display: inline-flex;
+}
+.fusion-builder-live .medium-editor-toolbar-actions.alternative-active li:nth-child(-n+7) {
+  display: none;
+}
+.fusion-builder-live .medium-editor-toolbar-actions.alternative-active li:nth-last-child(2) .fusiona-ellipsis:before {
+  content: "\e904";
+}
+.fusion-builder-live .medium-editor-extensions {
+  position: relative;
+}
+.fusion-builder-live .medium-editor-extensions button {
+  background: transparent;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  right: auto;
+  display: block;
+  opacity: 0;
+  transform: translateX(-50%) translateY(30px);
+  pointer-events: none;
+  background: #fff;
+  border-radius: 4px;
+  color: #93999f;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.visible {
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: auto;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.hidden {
+  opacity: 0;
+  transform: translateX(-50%) translateY(-30px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+  pointer-events: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form .fusion-inline-editor-close {
+  width: 40px;
+  height: 40px;
+  float: left;
+  background: #198fd9;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  border: none;
+  border-radius: 0 4px 0 0;
+  position: absolute;
+  top: 0;
+  right: 0;
+  transition: background-color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form .fusion-inline-editor-close:hover {
+  background-color: #1081c7;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography {
+  width: 355px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography.fusion-stuck-to-left {
+  transform: translateX(0);
+  left: 0;
+  transition: opacity 0.25s ease !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography.fusion-stuck-to-right {
+  transform: translateX(0);
+  right: 0;
+  left: auto;
+  transition: opacity 0.25s ease !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-nav {
+  overflow: hidden;
+  position: relative;
+  height: 40px;
+  border-bottom: 1px solid #f2f3f5;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-nav a {
+  display: block;
+  float: left;
+  width: calc(50% - 20px);
+  height: 40px;
+  line-height: 40px;
+  font-size: 14px !important;
+  text-align: center;
+  font-weight: 700;
+  color: #93999f;
+  transition: all 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-nav a:hover,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-nav a.active {
+  color: #198fd9;
+  border-bottom: 3px solid #198fd9;
+  transition: all 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-tabs > div {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-tabs > div.active {
+  display: block;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .fusion-typography-tabs > div[data-id="family"].active {
+  display: grid;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags {
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  line-height: 14px;
+  align-items: center;
+  border-bottom: 1px solid #f2f3f5;
+  height: 47px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags span {
+  font-size: 12px;
+  font-weight: 700;
+  padding-right: 10px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags button {
+  outline: none;
+  border: none;
+  color: #93999f;
+  text-transform: uppercase;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  transition: color 0.1s ease;
+  line-height: 1;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags button[data-val="p"] {
+  font-size: 16px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags button sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags button:hover,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-tags button.active {
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling {
+  display: grid;
+  grid-gap: 10px;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 15px 10px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling > div {
+  position: relative;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling label {
+  font-size: 11px;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+  padding-bottom: 10px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling input[type="text"] {
+  height: 36px;
+  padding: 0 10px;
+  border: 1px solid #e0e3e7;
+  border-radius: 4px;
+  font-size: 14px;
+  font-weight: 400;
+  color: #2a3035;
+  background: #fff;
+  outline: 0;
+  box-shadow: inset 0 0 1px rgba(102, 113, 123, 0.16);
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling input[type="text"]:focus {
+  transition: all 0.3s ease;
+  border-color: #198fd9;
+  box-shadow: inset 0 0 4px rgba(25, 143, 217, 0.16);
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling button {
+  position: absolute;
+  bottom: 18px;
+  right: 8px;
+  border: none;
+  padding: 0;
+  font-size: 12px;
+  line-height: 10px;
+  color: #93999f;
+  transition: color 0.1s ease;
+  cursor: pointer;
+  outline: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling button:hover {
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography .typography-styling button.fusiona-arrow-down {
+  bottom: 7px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] {
+  display: grid;
+  grid-template-columns: 6fr 4fr;
+  position: relative;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold {
+  background: #f2f3f5;
+  height: 26px;
+  line-height: 22px;
+  box-shadow: none;
+  border-radius: 4px;
+  color: #93999f;
+  position: absolute;
+  top: 10px;
+  right: calc( 40% + 16px );
+  padding: 2px 7px 2px 0;
+  min-width: 26px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold.open {
+  width: calc( 60% - 32px );
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold.open input {
+  display: block;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold.open span:before {
+  content: "\e904";
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold span {
+  float: right;
+  line-height: 22px;
+  cursor: pointer;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold span:hover {
+  color: #2a3035;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .fusion-ifs-hold input {
+  display: none;
+  float: left;
+  width: calc( 100% - 18px );
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  border: none;
+  background: none;
+  height: 22px;
+  color: #93999f;
+  padding: 0 0 0 7px;
+  font-size: 12px;
+  min-height: inherit;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family {
+  position: relative;
+  height: 137px;
+  padding: 0 16px;
+  box-sizing: border-box;
+  overflow-y: auto;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  border-right: 1px solid #f2f3f5;
+  font-size: 14px;
+  letter-spacing: normal;
+  border-top: 8px solid #fff;
+  border-bottom: 8px solid #fff;
+  border-radius: 4px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family.showing-results {
+  padding-top: 30px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family .fusion-cfh {
+  text-transform: uppercase;
+  color: #93999f;
+  line-height: 20px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  cursor: auto;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family .fusion-cfh.active,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family .fusion-cfh:hover {
+  color: #93999f;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family > div {
+  line-height: 30px;
+  cursor: pointer;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family > div[data-type="custom-font"] + div:not([data-type="custom-font"]) {
+  border-top: 1px solid #f2f3f5;
+  margin-top: 5px;
+  padding-top: 5px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family > div.active,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family > div:hover {
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div {
+  padding: 16px;
+  position: relative;
+  cursor: pointer;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  padding: 16px;
+  background: white;
+  min-width: 140px;
+  border-radius: 0 4px 4px 4px;
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.1);
+  z-index: 999999;
+  opacity: 0;
+  visibility: hidden;
+  pointer-events: none;
+  cursor: auto;
+  transition: opacity 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper.visible {
+  opacity: 1;
+  visibility: visible;
+  pointer-events: auto;
+  transition: opacity 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper .fuson-options-holder .fusion-select {
+  overflow: visible;
+  max-width: 100%;
+  padding-right: 0;
+  margin-bottom: 16px;
+  cursor: pointer;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper .fuson-options-holder .fusion-select:hover,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper .fuson-options-holder .fusion-select.active {
+  color: #198fd9;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper .fuson-options-holder .fusion-select:last-child {
+  margin-bottom: 0;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper .fuson-options-holder .fusion-select:before,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-options-wrapper .fuson-options-holder .fusion-select:after {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div label {
+  font-size: 12px;
+  font-weight: 700;
+  display: block;
+  line-height: 1;
+  padding-bottom: 10px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-select {
+  position: relative;
+  font-size: 14px;
+  line-height: 14px;
+  cursor: pointer;
+  padding-right: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-typography [data-id="family"] .typography-family-options > div .fusion-select:after {
+  font-family: "fusion-builder-icons";
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  content: "\e914";
+  color: #93999f;
+  font-size: 0.9em;
+  line-height: 1;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor {
+  width: 270px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-anchor-hold {
+  position: relative;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor #fusion-anchor-href {
+  height: 40px;
+  border: none;
+  background: transparent;
+  padding: 16px;
+  box-sizing: border-box;
+  width: calc(100% - 80px);
+  color: #2a3035;
+  font-size: 14px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-anchor-search {
+  color: #93999f;
+  background: #f2f3f5;
+  padding: 7px;
+  border-radius: 4px;
+  position: absolute;
+  top: 20px;
+  transform: translateY(-50%);
+  right: 45px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-anchor-search:hover {
+  color: #2a3035;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .button-small.wp-picker-clear {
+  right: 45px;
+  top: 20px;
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor.has-link .fusion-inline-anchor-search {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor.has-link #fusion-anchor-href {
+  width: calc(100% - 80px);
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor.has-link .button-small.wp-picker-clear {
+  display: block;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target {
+  overflow: hidden;
+  padding: 16px;
+  border-top: 1px solid #f2f3f5;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target label {
+  font-size: 12px;
+  font-weight: 700;
+  color: #93999f;
+  float: left;
+  line-height: 22px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .label-helper-calc-off,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .label-helper-calc-on {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch {
+  position: relative;
+  display: block;
+  float: right;
+  vertical-align: top;
+  background-color: white;
+  cursor: pointer;
+  border-radius: 50px;
+  height: 22px !important;
+  width: 42px !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-input {
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-input:checked ~ .switch-label {
+  background: #198fd9;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-input:checked ~ .switch-label:before {
+  opacity: 0;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-input:checked ~ .switch-label:after {
+  opacity: 1;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-input:checked ~ .switch-handle {
+  left: auto;
+  right: 5px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-label {
+  position: relative;
+  display: block;
+  height: inherit;
+  text-transform: uppercase;
+  background: #93999f;
+  border-radius: inherit;
+  transition: 0.25s ease;
+  transition-property: opacity background;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-handle {
+  position: absolute;
+  top: 4px;
+  left: 5px;
+  width: 16px;
+  height: 16px;
+  background: white;
+  border-radius: 1em;
+  transition: left 0.1s ease-out;
+  margin: -1px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-anchor .fusion-inline-target .switch-handle:before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin: -6px 0 0 -6px;
+  width: 12px;
+  height: 12px;
+  border-radius: 6px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-link-selector .wp-picker-clear,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .wp-picker-clear {
+  position: absolute;
+  top: 50%;
+  font-size: 11px !important;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  background: #f2f3f5 !important;
+  border: none !important;
+  height: 28px !important;
+  line-height: 28px !important;
+  box-shadow: none;
+  border-radius: 4px;
+  color: #93999f;
+  transform: translateY(-50%);
+  padding: 0 8px 1px;
+  cursor: pointer;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-link-selector .wp-picker-clear:hover,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .wp-picker-clear:hover {
+  color: #2a3035;
+}
+.ltr .fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-link-selector .wp-picker-clear,
+.ltr .fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .wp-picker-clear {
+  right: 6px;
+}
+.rtl .fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-link-selector .wp-picker-clear,
+.rtl .fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .wp-picker-clear {
+  left: 10px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-wrap .iris-picker,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-global {
+  box-shadow: none !important;
+  border: none !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-outer {
+  min-width: 252px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-square,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-strip {
+  height: 140px !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-picker {
+  padding-bottom: 2px !important;
+  margin-top: 0 !important;
+  width: 250px !important;
+  height: 170px !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-picker .iris-strip {
+  margin-left: 8px !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-picker .iris-strip .ui-slider-handle {
+  top: auto;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-picker .iris-strip .ui-slider-handle:after {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .iris-picker .iris-strip .ui-slider-handle:before {
+  content: "";
+  position: absolute;
+  left: -2px;
+  right: -2px;
+  top: -3px;
+  bottom: -3px;
+  border: 2px solid #fff;
+  border-radius: 3px;
+  height: auto;
+  width: auto;
+  background-color: transparent;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-container {
+  width: calc(100% - 50px);
+  position: relative;
+  padding: 8px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-container .awb-color-result {
+  min-width: 40px;
+  cursor: pointer;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-container .awb-global-label,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .awb-picker-container .medium-editor-toolbar-input {
+  height: 40px;
+  background: #fff;
+  color: #93999f;
+  border: none;
+  width: 100% !important;
+  border-radius: 4px 0 0 0;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  padding: 0 30px 0 0 !important;
+  font-size: 13px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.fusion-inline-color-picker .fusion-inline-editor-close {
+  top: 8px;
+  right: 8px;
+  border-radius: 4px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-toolbar-form-active {
+  display: block;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions {
+  background-color: #fff;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions:before {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions button {
+  color: #93999f;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions button.medium-editor-button-active,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions button:hover {
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions li:last-child {
+  margin-left: 0;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions li:last-child button,
+.fusion-builder-live .medium-editor-extensions .medium-editor-toolbar-form.medium-editor-alternate-toolbar .medium-editor-toolbar-actions li:last-child button:hover {
+  width: 40px;
+  border-radius: 0 4px 4px 0;
+  color: #fff;
+  background: #198fd9;
+  justify-content: center;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar {
+  display: block !important;
+  opacity: 0;
+  transform: translateY(-30px);
+  pointer-events: none;
+  position: absolute;
+  top: 100%;
+  right: 0;
+  left: auto;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar:after {
+  display: none !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar.visible {
+  pointer-events: auto;
+  transform: translateY(0);
+  opacity: 1;
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar.hidden {
+  transform: translateY(30px);
+  transition: opacity 0.25s ease, transform 0.25s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form {
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  border-radius: 4px;
+  display: block !important;
+  margin: 0;
+  padding: 10px !important;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form:before {
+  display: none;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form:after {
+  content: "";
+  position: absolute;
+  bottom: 100%;
+  right: 20px;
+  border-color: transparent transparent #fff transparent;
+  border-width: 0 5px 3px;
+  border-style: solid;
+  transform: translateX(50%);
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form li {
+  display: block !important;
+  text-align: left;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form li:first-child {
+  text-transform: uppercase;
+  color: #93999f;
+  line-height: 1;
+  padding: 10px;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form li button {
+  white-space: nowrap;
+  outline: none;
+  padding: 0 16px;
+  font-size: 13px;
+  border: none;
+  display: block;
+  width: 100%;
+  height: 36px;
+  line-height: 36px;
+  border-radius: 4px;
+  color: #2a3035;
+  transition: all 0.1s ease;
+  cursor: pointer;
+  text-align: left;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form li button i {
+  font-size: 12px;
+  margin-right: 16px;
+  color: #92999f;
+  transition: color 0.1s ease;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form li button:hover {
+  background: rgba(25, 143, 217, 0.07);
+  color: #198fd9;
+}
+.fusion-builder-live .medium-editor-extensions .medium-editor-dropdown-toolbar .fusion-shortcode-form li button:hover i {
+  color: #198fd9;
+}
+.fusion-builder-live .fusion-live-editable.medium-editor-element {
+  word-wrap: normal;
+  min-height: 15px;
+}
+.fusion-builder-live .fusion-live-editable .fusion-highlight-inline {
+  background-color: #accef7;
+  display: inline;
+}
+.fusion-builder-live .fusion-live-editable.medium-editor-placeholder br {
+  display: none;
+}
+.fusion-builder-live .fusion-live-editable.medium-editor-placeholder > :first-child:not(.fusion-disable-editing):after {
+  position: static;
+  top: auto;
+  left: auto;
+  display: inline-block;
+  content: "Your Content Goes Here";
+}
+.fusion-builder-live .fusion-live-editable.medium-editor-placeholder:not(:empty):after {
+  display: none;
+}
+.fusion-builder-live .fusion-live-editable.medium-editor-placeholder:empty:after {
+  position: static;
+  top: auto;
+  left: auto;
+  display: inline-block;
+}
+.fusion-builder-live .fusion-live-editable .fusion-disable-editing {
+  cursor: not-allowed;
+}
+.fusion-builder-live .fusion-live-editable .fusion-disable-editing.fusion-inline-element {
+  display: inline;
+}
+.fusion-builder-live .fusion-live-editable .fusion-disable-editing * {
+  cursor: not-allowed;
+}
+.fusion-builder-live .fusion-live-editable span.fusion-disable-editing {
+  cursor: context-menu;
+}
+.fusion-builder-live .fusion-live-editable span.fusion-disable-editing * {
+  cursor: context-menu;
+}
+.fusion-builder-live .fusion-live-editable:focus {
+  outline: none;
+}
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .medium-editor-toolbar-actions li .medium-editor-action {
+  position: relative;
+}
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .medium-editor-toolbar-actions li .medium-editor-action:after {
+  content: attr(aria-label);
+  top: -30px;
+  background: #1d2226;
+  color: #fff;
+  border: 1px solid #1d2226;
+  white-space: nowrap;
+  padding: 10px;
+  font-size: 11px;
+  font-family: "Noto Sans", Roboto, "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", "Oxygen-Sans", "Ubuntu", "Cantarell", "Helvetica Neue", sans-serif;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 4px;
+  margin: 0;
+  z-index: 200;
+  transition: all 0.4s ease 0s;
+  transition-delay: 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  line-height: normal;
+  visibility: hidden;
+}
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .medium-editor-toolbar-actions li .medium-editor-action:before {
+  content: "";
+  border: 5px solid transparent;
+  border-top-color: #1d2226;
+  top: 7px;
+  z-index: 2;
+  transition: all 0.4s ease 0s;
+  transition-delay: 0.2s;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  opacity: 0;
+  line-height: normal;
+  visibility: hidden;
+}
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .medium-editor-toolbar-actions li .medium-editor-action:hover:after {
+  top: -50px;
+  opacity: 1;
+  visibility: visible;
+}
+.fusion-builder-live:not(.fusion-hide-all-tooltips) .medium-editor-toolbar-actions li .medium-editor-action:hover:before {
+  top: -13px;
+  opacity: 1;
+  visibility: visible;
+}

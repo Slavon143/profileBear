@@ -1,0 +1,648 @@
+# Translation of Themes - Twenty Twenty in Swedish
+# This file is distributed under the same license as the Themes - Twenty Twenty package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-12-10 16:56:11+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Themes - Twenty Twenty\n"
+
+#. Description of the theme
+#, gp-priority: high
+msgid "Our default theme for 2020 is designed to take full advantage of the flexibility of the block editor. Organizations and businesses have the ability to create dynamic landing pages with endless layouts using the group and column blocks. The centered content column and fine-tuned typography also makes it perfect for traditional blogs. Complete editor styles give you a good idea of what your content will look like, even before you publish. You can give your site a personal touch by changing the background colors and the accent color in the Customizer. The colors of all elements on your site are automatically calculated based on the colors you pick, ensuring a high, accessible color contrast for your visitors."
+msgstr "Vårt standardtema för 2020 är designat att till fullo tillvarata flexibiliteten i blockredigeraren. Organisationer och företag har möjlighet att skapa dynamiska landningssidor med ändlöst många layouter med hjälp av grupp- och kolumnblocken. Med en  centrerad innehållskolumn och finjusterad typografi passar temat också perfekt för traditionella bloggar. Det har komplett styling för innehållsredigeraren, vilket innebär att du vet hur ditt innehåll kommer att se ut på din webbplats redan innan du publicerar. Du kan ge din webbplats en personlig känsla genom att ändra bakgrundsfärgerna och accentfärgen i anpassaren. Färgerna på alla element på webbplatsen beräknas automatiskt baserat på de färger du valt, något som garanterar att din webbplats kommer att ha en hög och tillgänglighetsanpassad färgkontrast."
+
+#. Theme Name of the theme
+#: inc/block-patterns.php:20
+#, gp-priority: high
+msgid "Twenty Twenty"
+msgstr "Twenty Twenty"
+
+#: classes/class-twentytwenty-customize.php:131
+msgctxt "color"
+msgid "Custom"
+msgstr "Anpassad"
+
+#: classes/class-twentytwenty-customize.php:130
+msgctxt "color"
+msgid "Default"
+msgstr "Standard"
+
+#: inc/block-patterns.php:197
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political, and philosophical issues are intrinsic to our program. As visitor, you are invited to guided tours artist talks, lectures, film screenings, and other events with free admission."
+msgstr "På sju våningar i en slående arkitektur visar UMoMA utställningar med internationell modern konst, ibland tillsammans med konsthistoriska återblickar. Vårt program innehåller alltid existentiella. politiska och filosofiska frågor. Som besökare är du välkommen att delta i guidade visningar, konstnärsträffar, föreläsningar, filmvisningar och andra evenemang med fri entré."
+
+#: inc/block-patterns.php:194
+msgid "The Premier Destination for Modern Art in Sweden"
+msgstr "Sveriges bästa plats för modern konst"
+
+#: inc/block-patterns.php:187
+msgid "Introduction"
+msgstr "Introduktion"
+
+#: inc/block-patterns.php:157 inc/block-patterns.php:171
+msgid "August 1 — December 1"
+msgstr "1 Augusti — 1 December"
+
+#: inc/block-patterns.php:151 inc/block-patterns.php:165
+msgid "Abstract Rectangles"
+msgstr "Abstrakta rektanglar"
+
+#: inc/block-patterns.php:142
+msgid "Featured Content"
+msgstr "Utvalt innehåll"
+
+#: inc/block-patterns.php:128
+msgid "<em>Price</em><br>Included"
+msgstr "<em>Pris</em><br>inkluderat"
+
+#: inc/block-patterns.php:123
+msgid "<em>Location</em><br>Exhibit Hall B"
+msgstr "<em>Plats</em><br>Utställningssal B"
+
+#: inc/block-patterns.php:118
+msgid "<em>Dates</em><br>Aug 1 — Dec 1"
+msgstr "<em>Datum</em><br>1 Aug — 1 Dec"
+
+#: inc/block-patterns.php:108
+msgid "Event Details"
+msgstr "Uppgifter om evenemanget"
+
+#: inc/block-patterns.php:93
+msgid "Shop Now"
+msgstr "Köp nu"
+
+#: inc/block-patterns.php:89
+msgid "An awe-inspiring collection of books, prints, and gifts from our exhibitions."
+msgstr "En imponerande av böcker, affischer och presentartiklar från våra utställningar."
+
+#: inc/block-patterns.php:86
+msgid "The Store"
+msgstr "Butiken"
+
+#: inc/block-patterns.php:74
+msgid "Award-winning exhibitions featuring internationally-renowned artists."
+msgstr "Prisbelönta utställningar med internationellt kända konstnärer."
+
+#: inc/block-patterns.php:71
+msgid "The Museum"
+msgstr "Muséet"
+
+#: inc/block-patterns.php:61
+msgid "Double Call to Action"
+msgstr "Dubbel uppmaning till åtgärd"
+
+#: inc/block-patterns.php:48
+msgid "Become a Member"
+msgstr "Bli en medlem"
+
+#: inc/block-patterns.php:42
+msgid "Support the Museum and Get Exclusive Offers"
+msgstr "Stöd muséet och få exklusiva erbjudanden"
+
+#: inc/block-patterns.php:33
+msgid "Call to Action"
+msgstr "Uppmaning till åtgärd"
+
+#: template-parts/modal-menu.php:73
+msgctxt "menu"
+msgid "Mobile"
+msgstr "Mobil"
+
+#: template-parts/modal-menu.php:48
+msgctxt "menu"
+msgid "Expanded"
+msgstr "Expanderad"
+
+#: header.php:88
+msgctxt "menu"
+msgid "Horizontal"
+msgstr "Horisontell"
+
+#: header.php:53 header.php:157
+msgctxt "toggle text"
+msgid "Search"
+msgstr "Sök"
+
+#: functions.php:526
+msgctxt "color"
+msgid "Secondary"
+msgstr "Sekundär"
+
+#: functions.php:521
+msgctxt "color"
+msgid "Primary"
+msgstr "Primär"
+
+#: index.php:51
+msgid "Nothing Found"
+msgstr "Inget hittades"
+
+#: classes/class-twentytwenty-customize.php:251
+msgid "Show author bio"
+msgstr "Visa författarbiografi"
+
+#: template-parts/entry-author-bio.php:29
+msgid "View Archive <span aria-hidden=\"true\">&rarr;</span>"
+msgstr "Visa arkiv <span aria-hidden=\"true\">&rarr;</span>"
+
+#: inc/starter-content.php:39
+msgctxt "Theme starter content"
+msgid "The New UMoMA Opens its Doors"
+msgstr "Nya UMoMA välkomnar allmänheten"
+
+#: inc/template-tags.php:414
+msgctxt "A string that is output before one or more categories"
+msgid "In"
+msgstr "I"
+
+#: inc/starter-content.php:151
+msgid "Join the Club"
+msgstr "Gå med i klubben"
+
+#: inc/block-patterns.php:45 inc/starter-content.php:148
+msgid "Members get access to exclusive exhibits and sales. Our memberships cost $99.99 and are billed annually."
+msgstr "Medlemmar får tillgång till exklusiva utställningar och marknader. Medlemskap kostar 99,99 USD och debiteras en gång per år."
+
+#: inc/starter-content.php:145
+msgid "Become a Member and Get Exclusive Offers!"
+msgstr "Bli medlem och få exklusiva erbjudanden!"
+
+#: inc/starter-content.php:137
+msgid "The exhibitions are produced by UMoMA in collaboration with artists and museums around the world and they often attract international attention. UMoMA has received a Special Commendation from the European Museum of the Year, and was among the top candidates for the Swedish Museum of the Year Award as well as for the Council of Europe Museum Prize."
+msgstr "Utställningarna produceras av UMoMA i samarbete med konstnärer och muséer från hela världen och uppmärksammas ofta internationellt. UMoMA har betecknats som ”Årets europeiska museum” och var en av toppkandidaterna till priset ”Årets svenska museum” och även Europarådets museipris."
+
+#: inc/starter-content.php:134
+msgid "With seven floors of striking architecture, UMoMA shows exhibitions of international contemporary art, sometimes along with art historical retrospectives. Existential, political and philosophical issues are intrinsic to our programme. As visitor you are invited to guided tours artist talks, lectures, film screenings and other events with free admission"
+msgstr "I sju våningar effektfull arkitektur visar UMoMA utställningar med internationell modern konst, emellanåt kombinerat med konsthistoriska återblickar. Vårt program genomsyras av existentiella, politiska och filosofiska frågeställningar. Som besökare är du välkommen till visningar, möten med konstnärer, föreläsningar, filmvisningar och andra evenemang med fri entré"
+
+#: inc/starter-content.php:130
+msgid "&#8220;Cyborgs, as the philosopher Donna Haraway established, are not reverent. They do not remember the cosmos.&#8221;"
+msgstr "”Cyborgar är, enligt filosofen Donna Haraway, inte vördnadsfulla. De minns inte kosmos.”"
+
+#: inc/starter-content.php:114
+msgid "From Signac to Matisse"
+msgstr "Från Signac till Matisse"
+
+#: inc/block-patterns.php:168 inc/starter-content.php:99
+msgid "The Life I Deserve"
+msgstr "Livet jag förtjänar"
+
+#: inc/starter-content.php:85 inc/starter-content.php:117
+msgid "October 1 -- December 1"
+msgstr "1 oktober – 1 december"
+
+#: inc/starter-content.php:82
+msgid "Theatre of Operations"
+msgstr "Operationsteatern"
+
+#: inc/block-patterns.php:78 inc/block-patterns.php:160
+#: inc/block-patterns.php:174 inc/starter-content.php:73
+#: inc/starter-content.php:88 inc/starter-content.php:105
+#: inc/starter-content.php:120
+msgid "Read More"
+msgstr "Läs mer"
+
+#: inc/starter-content.php:70 inc/starter-content.php:102
+msgid "August 1 -- December 1"
+msgstr "1 augusti – 1 december"
+
+#: inc/block-patterns.php:154 inc/starter-content.php:67
+msgid "Works and Days"
+msgstr "Verk och dagar"
+
+#: inc/starter-content.php:56
+msgid "The premier destination for modern art in Northern Sweden. Open from 10 AM to 6 PM every day during the summer months."
+msgstr "Det viktigaste resmålet för modern konst i Norrland. Öppet kl. 10–18 varje dag under sommaren."
+
+#: inc/starter-content.php:48
+msgid "The New UMoMA Opens its Doors"
+msgstr "Nya UMoMA välkomnar allmänheten"
+
+#: classes/class-twentytwenty-customize.php:400
+msgid "Overlay Opacity"
+msgstr "Överläggets opacitet"
+
+#: classes/class-twentytwenty-customize.php:380
+msgid "The color used for the text in the overlay."
+msgstr "Färgen som används för texten i överlägget."
+
+#: classes/class-twentytwenty-customize.php:379
+msgid "Overlay Text Color"
+msgstr "Överläggets textfärg"
+
+#: classes/class-twentytwenty-customize.php:358
+msgid "The color used for the overlay. Defaults to the accent color."
+msgstr "Färgen som används för överlägget. Som standard är accentfärgen."
+
+#: classes/class-twentytwenty-customize.php:357
+msgid "Overlay Background Color"
+msgstr "Överläggets bakgrundsfärg"
+
+#: classes/class-twentytwenty-customize.php:288
+msgid "Settings for the \"Cover Template\" page template. Add a featured image to use as background."
+msgstr "Inställningar för sidmallen ”Omslagsmall”. Lägg till en utvald bild för att använda den som bakgrund."
+
+#: classes/class-twentytwenty-customize.php:188
+msgid "Apply a custom color for links, buttons, featured images."
+msgstr "Tillämpa en anpassad färg för länkar, knappar och utvalda bilder."
+
+#: classes/class-twentytwenty-customize.php:128
+msgid "Primary Color"
+msgstr "Primär färg"
+
+#: searchform.php:28 template-parts/modal-search.php:20
+msgid "Search for:"
+msgstr "Sök efter:"
+
+#: index.php:101
+msgid "search again"
+msgstr "sök igen"
+
+#. translators: %s: Number of search results.
+#: index.php:39
+msgid "We found %s result for your search."
+msgid_plural "We found %s results for your search."
+msgstr[0] "Din sökning gav %s resultat."
+msgstr[1] "Din sökning gav %s resultat."
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:55
+msgid "Up %s"
+msgstr "Upp %s"
+
+#. translators: %s: HTML character for up arrow.
+#: footer.php:49
+msgid "To the top %s"
+msgstr "Till toppen %s"
+
+#. translators: Copyright date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: footer.php:25
+msgctxt "copyright date format"
+msgid "Y"
+msgstr "Y"
+
+#: 404.php:24
+msgid "404 not found"
+msgstr "404 – hittades inte"
+
+#. Template Name of the theme
+msgid "Full Width Template"
+msgstr "Fullbreddsmall"
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:27
+msgid "Older <span class=\"nav-short\">Posts</span>"
+msgstr "Tidigare <span class=\"nav-short\">inlägg</span>"
+
+#. Translators: This text contains HTML to allow the text to be shorter on
+#. small screens. The text inside the span with the class nav-short will be
+#. hidden on small screens.
+#: template-parts/pagination.php:19
+msgid "Newer <span class=\"nav-short\">Posts</span>"
+msgstr "Senare <span class=\"nav-short\">inlägg</span>"
+
+#: template-parts/navigation.php:25
+msgid "Post"
+msgstr "Inlägg"
+
+#: template-parts/modal-search.php:26
+msgid "Close search"
+msgstr "Stäng sökningen"
+
+#: template-parts/modal-menu.php:117
+msgid "Expanded Social links"
+msgstr "Expanderade sociala länkar"
+
+#: template-parts/modal-menu.php:21
+msgid "Close Menu"
+msgstr "Stäng menyn"
+
+#: template-parts/footer-menus-widgets.php:57
+msgid "Social links"
+msgstr "Sociala länkar"
+
+#: template-parts/footer-menus-widgets.php:37
+msgid "Footer"
+msgstr "Sidfot"
+
+#. translators: %s: Author name.
+#: inc/template-tags.php:375 template-parts/entry-author-bio.php:20
+msgid "By %s"
+msgstr "Av %s"
+
+#: template-parts/content-cover.php:138 template-parts/content.php:48
+msgid "Pages:"
+msgstr "Sidor:"
+
+#: template-parts/content-cover.php:138 template-parts/content.php:48
+msgid "Page"
+msgstr "Sida"
+
+#: template-parts/content-cover.php:88
+msgid "Scroll Down"
+msgstr "Rulla ned"
+
+#: searchform.php:31
+msgctxt "submit button"
+msgid "Search"
+msgstr "Sök"
+
+#: searchform.php:29
+msgctxt "placeholder"
+msgid "Search &hellip;"
+msgstr "Sök &hellip;"
+
+#: index.php:48
+msgid "We could not find any results for your search. You can give it another try through the search form below."
+msgstr "Din sökning gav inga matchande resultat. Du kan prova det igen med hjälp av nedanstående sökformulär."
+
+#: index.php:32
+msgid "Search:"
+msgstr "Sök:"
+
+#. translators: %s: Post title. Only visible to screen readers.
+#: inc/template-tags.php:223
+msgid "Edit <span class=\"screen-reader-text\">%s</span>"
+msgstr "Redigera <span class=\"screen-reader-text\">%s</span>"
+
+#: inc/template-tags.php:466
+msgid "Sticky post"
+msgstr "Klistrat inlägg"
+
+#: inc/template-tags.php:428
+msgid "Tags"
+msgstr "Etiketter"
+
+#: inc/template-tags.php:410 template-parts/content-cover.php:70
+#: template-parts/entry-header.php:36
+msgid "Categories"
+msgstr "Kategorier"
+
+#: inc/template-tags.php:392
+msgid "Post date"
+msgstr "Inläggsdatum"
+
+#: inc/template-tags.php:368
+msgid "Post author"
+msgstr "Inläggsförfattare"
+
+#: inc/starter-content.php:197
+msgid "Social Links Menu"
+msgstr "Meny för sociala länkar"
+
+#: inc/starter-content.php:177 inc/starter-content.php:187
+msgid "Primary"
+msgstr "Huvudmeny"
+
+#: header.php:76 header.php:137
+msgid "Menu"
+msgstr "Meny"
+
+#: template-parts/modal-search.php:11
+msgid "Search"
+msgstr "Sök"
+
+#: template-parts/content.php:36
+msgid "Continue reading"
+msgstr "Fortsätt läsa"
+
+#: functions.php:578
+msgctxt "Short name of the larger font size in the block editor."
+msgid "XL"
+msgstr "XL"
+
+#: functions.php:577
+msgctxt "Name of the larger font size in the block editor"
+msgid "Larger"
+msgstr "Större"
+
+#: functions.php:572
+msgctxt "Short name of the large font size in the block editor."
+msgid "L"
+msgstr "L"
+
+#: functions.php:571
+msgctxt "Name of the large font size in the block editor"
+msgid "Large"
+msgstr "Stor"
+
+#: functions.php:566
+msgctxt "Short name of the regular font size in the block editor."
+msgid "M"
+msgstr "M"
+
+#: functions.php:565
+msgctxt "Name of the regular font size in the block editor"
+msgid "Regular"
+msgstr "Normal"
+
+#: functions.php:560
+msgctxt "Short name of the small font size in the block editor."
+msgid "S"
+msgstr "S"
+
+#: functions.php:559
+msgctxt "Name of the small font size in the block editor"
+msgid "Small"
+msgstr "Liten"
+
+#: functions.php:544
+msgid "Background Color"
+msgstr "Bakgrundsfärg"
+
+#: functions.php:531
+msgid "Subtle Background"
+msgstr "Subtil bakgrund"
+
+#: functions.php:516
+msgid "Accent Color"
+msgstr "Accentfärg"
+
+#: functions.php:403
+msgid "Widgets in this area will be displayed in the second column in the footer."
+msgstr "Widgetar i detta område kommer att visas i sidfotens andra kolumn."
+
+#: functions.php:401
+msgid "Footer #2"
+msgstr "Sidfot 2"
+
+#: functions.php:391
+msgid "Widgets in this area will be displayed in the first column in the footer."
+msgstr "Widgetar i detta område kommer att visas i sidfotens första kolumn."
+
+#: functions.php:389
+msgid "Footer #1"
+msgstr "Sidfot 1"
+
+#: functions.php:362
+msgid "Skip to the content"
+msgstr "Hoppa till innehåll"
+
+#: functions.php:277
+msgid "Social Menu"
+msgstr "Social meny"
+
+#: functions.php:276
+msgid "Footer Menu"
+msgstr "Sidfotsmeny"
+
+#: functions.php:275
+msgid "Mobile Menu"
+msgstr "Mobilmeny"
+
+#: functions.php:274
+msgid "Desktop Expanded Menu"
+msgstr "Utökad meny för datorskärm"
+
+#: functions.php:273
+msgid "Desktop Horizontal Menu"
+msgstr "Horisontell meny för datorskärm"
+
+#: footer.php:39
+msgid "Powered by WordPress"
+msgstr "Drivs med WordPress"
+
+#: comments.php:127
+msgid "Comments are closed."
+msgstr "Stängt för kommentering."
+
+#: comments.php:88
+msgid "Comments"
+msgstr "Kommentarer"
+
+#: comments.php:75
+msgid "Older Comments"
+msgstr "Tidigare kommentarer"
+
+#: comments.php:74
+msgid "Newer Comments"
+msgstr "Senare kommentarer"
+
+#. translators: 1: Number of comments, 2: Post title.
+#: comments.php:41
+msgctxt "comments title"
+msgid "%1$s reply on &ldquo;%2$s&rdquo;"
+msgid_plural "%1$s replies on &ldquo;%2$s&rdquo;"
+msgstr[0] "%1$s svar på ”%2$s”"
+msgstr[1] "%1$s svar på ”%2$s”"
+
+#. translators: %s: Post title.
+#: comments.php:37
+msgctxt "comments title"
+msgid "One reply on &ldquo;%s&rdquo;"
+msgstr "Ett svar på ”%s”"
+
+#: comments.php:34
+msgid "Leave a comment"
+msgstr "Lämna en kommentar"
+
+#: classes/class-twentytwenty-walker-page.php:115 inc/template-tags.php:580
+msgid "Show sub menu"
+msgstr "Visa undermeny"
+
+#. translators: %d: ID of a post.
+#: classes/class-twentytwenty-walker-page.php:78
+msgid "#%d (no title)"
+msgstr "#%d (utan rubrik)"
+
+#: classes/class-twentytwenty-walker-comment.php:137
+msgid "By Post Author"
+msgstr "Av inläggets författare"
+
+#: classes/class-twentytwenty-walker-comment.php:102
+msgid "Your comment is awaiting moderation."
+msgstr "Din kommentar inväntar granskning."
+
+#: classes/class-twentytwenty-walker-comment.php:86
+msgid "Edit"
+msgstr "Redigera"
+
+#. translators: 1: Comment date, 2: Comment time.
+#: classes/class-twentytwenty-walker-comment.php:72
+msgid "%1$s at %2$s"
+msgstr "%1$s \\k\\l. %2$s"
+
+#: classes/class-twentytwenty-walker-comment.php:60
+msgid "says:"
+msgstr "säger:"
+
+#: classes/class-twentytwenty-customize.php:401
+msgid "Make sure that the contrast is high enough so that the text is readable."
+msgstr "Se till att kontrasten är tillräckligt hög för att texten ska kunna läsas."
+
+#: classes/class-twentytwenty-customize.php:311
+msgid "Creates a parallax effect when the visitor scrolls."
+msgstr "Skapar en parallax-effekt när besökaren rullar sidan."
+
+#: classes/class-twentytwenty-customize.php:310
+msgid "Fixed Background Image"
+msgstr "Fast bakgrundsbild"
+
+#. Template Name of the theme
+#: classes/class-twentytwenty-customize.php:286
+msgid "Cover Template"
+msgstr "Omslagsmall"
+
+#: classes/class-twentytwenty-customize.php:275
+msgid "Summary"
+msgstr "Sammanfattning"
+
+#: classes/class-twentytwenty-customize.php:274
+msgid "Full text"
+msgstr "Hela texten"
+
+#: classes/class-twentytwenty-customize.php:272
+msgid "On archive pages, posts show:"
+msgstr "På arkivsidor visar inläggen:"
+
+#: classes/class-twentytwenty-customize.php:230
+msgid "Show search in header"
+msgstr "Visa sökfunktion i sidhuvudet"
+
+#: classes/class-twentytwenty-customize.php:207
+msgid "Theme Options"
+msgstr "Temainställningar"
+
+#: classes/class-twentytwenty-customize.php:106
+msgid "Header &amp; Footer Background Color"
+msgstr "Bakgrundsfärg för sidhuvud och sidfot"
+
+#: classes/class-twentytwenty-customize.php:87
+msgid "Scales the logo to half its uploaded size, making it sharp on high-res screens."
+msgstr "Minska loggan till hälften av dess uppladdade storlek, så det blir skarp på skärmar med hög upplösning."
+
+#: classes/class-twentytwenty-customize.php:86
+msgid "Retina logo"
+msgstr "Retina-logga"
+
+#: 404.php:19
+msgid "The page you were looking for could not be found. It might have been removed, renamed, or did not exist in the first place."
+msgstr "Sidan du försökte hämta kunde inte hittas. Den kan ha tagits bort, bytt namn eller kanske aldrig har funnits."
+
+#: 404.php:17
+msgid "Page Not Found"
+msgstr "Sidan hittades inte"
+
+#. Author URI of the theme
+#: footer.php:38
+#, gp-priority: low
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
+
+#. Author of the theme
+#, gp-priority: low
+msgid "the WordPress team"
+msgstr "WordPress-teamet"
+
+#. Theme URI of the theme
+#, gp-priority: low
+msgid "https://wordpress.org/themes/twentytwenty/"
+msgstr "https://wordpress.org/themes/twentytwenty/"

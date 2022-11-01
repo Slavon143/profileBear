@@ -1,0 +1,110 @@
+.fusion-post-card-cart {
+  display: flex;
+}
+.fusion-post-card-cart .fusion-post-card-cart-button-wrapper {
+  display: flex;
+}
+.fusion-post-card-cart div.quantity {
+  margin-right: 0;
+}
+.fusion-post-card-cart .fusion-post-card-cart-product-link,
+.fusion-post-card-cart .fusion-post-card-cart-add-to-cart,
+.fusion-post-card-cart .fusion-post-card-cart-quantity {
+  display: flex;
+}
+.fusion-post-card-cart .fusion-post-card-cart-product-link,
+.fusion-post-card-cart .fusion-post-card-cart-add-to-cart {
+  align-items: center;
+  border-style: solid;
+  border-width: 0;
+}
+.fusion-post-card-cart .buttons_added input[type="number"],
+.fusion-post-card-cart .buttons_added input[type="button"] {
+  border-style: solid;
+  border-color: transparent;
+}
+.fusion-post-card-cart .buttons_added input[type="number"].qty {
+  -moz-appearance: textfield;
+}
+.fusion-post-card-cart .buttons_added input[type="number"].qty::-webkit-inner-spin-button,
+.fusion-post-card-cart .buttons_added input[type="number"].qty::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+.fusion-post-card-cart .quantity {
+  border: none !important;
+  margin-right: 1.2em;
+  border-radius: 0 !important;
+}
+.fusion-post-card-cart .quantity input[type=button].minus,
+.fusion-post-card-cart .quantity input[type=button].plus {
+  background-color: var(--qty_bg_color);
+  border-width: var(--form_border_width-top) var(--form_border_width-right) var(--form_border_width-bottom) var(--form_border_width-left);
+  border-style: solid;
+  border-color: var(--sep_color);
+}
+.fusion-post-card-cart .quantity input[type=button].minus:hover,
+.fusion-post-card-cart .quantity input[type=button].plus:hover {
+  background-color: var(--qty_bg_hover_color);
+}
+.fusion-post-card-cart .quantity input[type=number].qty {
+  border-width: 0;
+  border-top-width: var(--form_border_width-top);
+  border-bottom-width: var(--form_border_width-bottom);
+  border-style: solid;
+  border-color: var(--sep_color);
+}
+.fusion-post-card-cart.awb-variation-layout-floated .variations .label {
+  width: 50%;
+}
+.fusion-post-card-cart.awb-variation-layout-stacked .variations .label,
+.fusion-post-card-cart.awb-variation-layout-stacked .variations .value {
+  display: block;
+}
+.fusion-post-card-cart.awb-variation-text-align-left .label {
+  text-align: left;
+}
+.fusion-post-card-cart.awb-variation-text-align-left .avada-select-wrapper {
+  justify-content: flex-start;
+}
+.rtl .fusion-post-card-cart.awb-variation-text-align-left .avada-select-wrapper {
+  justify-content: flex-end;
+}
+.fusion-post-card-cart.awb-variation-text-align-center .label,
+.fusion-post-card-cart.awb-variation-text-align-center .value {
+  text-align: center;
+}
+.fusion-post-card-cart.awb-variation-text-align-center .avada-select-wrapper,
+.fusion-post-card-cart.awb-variation-text-align-center .single_variation_price_reset {
+  justify-content: center;
+}
+.fusion-post-card-cart.awb-variation-text-align-right .label,
+.fusion-post-card-cart.awb-variation-text-align-right .value {
+  text-align: right;
+}
+.fusion-post-card-cart.awb-variation-text-align-right .avada-select-wrapper,
+.fusion-post-card-cart.awb-variation-text-align-right .single_variation_price_reset {
+  justify-content: flex-end;
+}
+.rtl .fusion-post-card-cart.awb-variation-text-align-right .avada-select-wrapper,
+.rtl .fusion-post-card-cart.awb-variation-text-align-right .single_variation_price_reset {
+  justify-content: flex-start;
+}
+.fusion-post-card-cart.awb-variation-text-align-center .single_variation_price_reset,
+.fusion-post-card-cart.awb-variation-text-align-right .single_variation_price_reset {
+  display: flex;
+}
+.fusion-post-card-cart.awb-add-to-cart-style-link .single_add_to_cart_button {
+  background: none;
+  color: var(--link_color);
+}
+.fusion-post-card-cart.awb-add-to-cart-style-link .single_add_to_cart_button:hover {
+  background: none;
+  color: var(--primary_color);
+}
+.fusion-post-card-cart .avada-button-select {
+  height: auto;
+}
+.fusion-post-card-cart .awb-hide-element {
+  display: none;
+}

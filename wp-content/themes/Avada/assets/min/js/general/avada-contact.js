@@ -1,0 +1,1 @@
+"use strict";var fusionOnloadCallback=function(){grecaptcha.ready(function(){var a=grecaptcha.render("recaptcha-container",{sitekey:avadaContactVars.recaptcha_public,badge:avadaContactVars.badge_position,size:"invisible"});grecaptcha.execute(a,{action:"contact_form"}).then(function(a){jQuery(".avada-contact-form").find("#fusion-recaptcha-response").val(a)})})};

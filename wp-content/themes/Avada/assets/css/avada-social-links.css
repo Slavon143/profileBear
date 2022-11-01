@@ -1,0 +1,60 @@
+.fusion-social-networks {
+  overflow: hidden;
+}
+.fusion-social-networks .fusion-social-networks-wrapper {
+  margin: 0 -10px;
+}
+.fusion-social-networks .fusion-social-network-icon {
+  display: inline-block;
+  margin: 0 10px 10px;
+  font-size: 16px;
+  color: #46494A;
+  text-decoration: none;
+  box-shadow: none !important;
+  line-height: 1;
+}
+.fusion-social-networks .fusion-social-network-icon:hover {
+  opacity: 0.8;
+}
+.fusion-social-networks .fusion-social-network-icon:before {
+  color: inherit;
+}
+.fusion-social-networks.boxed-icons a {
+  text-align: center;
+  box-sizing: border-box;
+  box-shadow: none !important;
+}
+.fusion-social-networks.boxed-icons .fusion-social-networks-wrapper {
+  margin: 0 -5px;
+}
+.fusion-social-networks.boxed-icons .fusion-social-network-icon {
+  margin: 0 5px 10px;
+  padding: 8px;
+  background-color: #46494A;
+  border-radius: 3px;
+  background-clip: inherit;
+  border: 1px solid #46494A;
+  color: #fff;
+  text-decoration: none;
+}
+.fusion-social-links-footer {
+  display: table-cell;
+  vertical-align: middle;
+  width: 40%;
+  text-align: right;
+}
+.fusion-social-links-footer .fusion-social-networks {
+  margin-top: 10px;
+}
+.widget .fusion-social-networks .fusion-social-networks-wrapper {
+  margin: 0 -5.5px;
+}
+.widget .fusion-social-networks .fusion-social-network-icon {
+  margin: 0 5.5px 14px;
+}
+.widget .fusion-social-networks.boxed-icons .fusion-social-networks-wrapper {
+  margin: 0 -3.5px;
+}
+.widget .fusion-social-networks.boxed-icons .fusion-social-network-icon {
+  margin: 0 3.5px 10px;
+}

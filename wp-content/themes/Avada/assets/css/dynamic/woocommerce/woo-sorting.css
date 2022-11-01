@@ -1,0 +1,176 @@
+/* stylelint-disable no-descending-specificity */
+.catalog-ordering {
+  display: flex;
+  margin-bottom: 32px;
+}
+.catalog-ordering a {
+  color: #333;
+}
+.catalog-ordering .order li a {
+  background: #fbfaf9;
+  border: 1px solid #dbdbdb;
+  display: block;
+  font-size: 12px;
+  text-align: center;
+}
+.orderby-order-container {
+  display: flex;
+}
+.catalog-ordering > ul,
+.orderby-order-container > ul {
+  list-style: none;
+  margin: 0 6px 10px 0;
+  padding: 0;
+}
+.catalog-ordering > ul,
+.order-dropdown > li:after,
+.order-dropdown ul li a,
+.orderby-order-container > ul {
+  height: 39px;
+  line-height: 39px;
+}
+.catalog-ordering .order,
+.order-dropdown > li:after {
+  width: 39px;
+}
+.order-dropdown {
+  position: relative;
+  z-index: 100;
+  cursor: pointer;
+}
+.order-dropdown ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: none;
+  background: #fbfaf9;
+  width: 100%;
+}
+.order-dropdown ul li a {
+  background: #fbfaf9;
+  border: 1px solid #dbdbdb;
+  border-top: 0;
+  display: block;
+  font-size: 12px;
+  padding: 0 13px;
+}
+.order-dropdown ul li a:hover {
+  background: #fff;
+}
+.order-dropdown ul li a strong {
+  font-weight: normal;
+}
+.order-dropdown .current-li {
+  background: #fbfaf9;
+  border: 1px solid #dbdbdb;
+  display: block;
+  padding: 0 52px 0 13px;
+  font-size: 12px;
+}
+.order-dropdown > li {
+  position: relative;
+  z-index: 99;
+}
+.order-dropdown > li:hover > ul {
+  display: block;
+  position: absolute;
+}
+.order-dropdown > li:after {
+  display: block;
+  font-family: "awb-icons";
+  content: "\e61f";
+  font-size: 9px;
+  z-index: 101;
+  position: absolute;
+  top: 0;
+  right: 0;
+  text-align: center;
+  border-left: 1px solid #dbdbdb;
+}
+.order-dropdown li ul li {
+  overflow: hidden;
+}
+.order-dropdown.sort-count {
+  min-width: 185px;
+}
+.current-li-content {
+  display: block;
+  overflow: hidden;
+  min-width: 133px;
+}
+.fusion-grid-list-view {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ddd;
+  box-sizing: content-box;
+}
+.fusion-grid-list-view li {
+  height: 100%;
+  width: 39px;
+  float: left;
+  text-align: center;
+  background-color: #fbfaf9;
+}
+.fusion-grid-list-view li a:hover {
+  color: #333;
+}
+.fusion-grid-list-view li:hover {
+  background-color: #fff;
+  cursor: pointer;
+}
+.fusion-grid-view,
+.fusion-list-view {
+  display: block;
+}
+.fusion-grid-view {
+  position: relative;
+  font-size: 22px;
+}
+.fusion-grid-view .awb-icon-grid {
+  display: block;
+  margin-top: 50%;
+  position: absolute;
+  top: -11px;
+  width: 100%;
+}
+.fusion-list-view {
+  font-size: 14px;
+}
+.fusion-grid-view-li {
+  border-right: 1px solid #ddd;
+}
+.fusion-grid-list-view li.active-view a i {
+  color: rgba(51, 51, 51, 0.45);
+}
+body .order-dropdown,
+body .order-dropdown a,
+body .order-dropdown ul li a,
+body .order-dropdown a:hover,
+body .order-dropdown > li:after,
+body .order-dropdown ul li a:hover,
+body .catalog-ordering .order li a,
+body .fusion-grid-list-view a,
+body .fusion-grid-list-view li:hover,
+body .fusion-grid-list-view li.active-view a i {
+  color: var(--woo_dropdown_text_color);
+}
+.order-dropdown > li:after,
+.order-dropdown .current-li,
+.order-dropdown ul li a,
+.catalog-ordering .order li a,
+.fusion-grid-list-view,
+.fusion-grid-list-view li {
+  border-color: var(--woo_dropdown_border_color);
+}
+.order-dropdown .current-li,
+.order-dropdown ul li a,
+.catalog-ordering .order li a,
+.fusion-grid-list-view li {
+  background-color: var(--woo_dropdown_bg_color);
+}
+.order-dropdown ul li a:hover,
+.fusion-grid-list-view li:hover,
+.fusion-grid-list-view li.active-view {
+  background-color: var(--woo_dropdown_bg_color-1l);
+}

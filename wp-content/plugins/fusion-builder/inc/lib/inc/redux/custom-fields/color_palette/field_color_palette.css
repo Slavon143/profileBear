@@ -1,0 +1,95 @@
+.awb-color-palette-list {
+  list-style:none;
+  padding: 0;
+  margin:0;
+}
+.awb-color-palette-list .awb-picker-container {
+	margin: 0;
+}
+.awb-color-palette-list li {
+  border: 1px solid #E0E3E7;
+  border-radius: 4px;
+  margin-bottom: 10px !important;
+}
+.awb-color-palette-list li input.color-name {
+  width: 100%;
+  margin-bottom:18px;
+}
+.awb-color-palette-list .awb-palette-content {
+  padding: 12px;
+  display: none;
+}
+.awb-color-palette-list .awb-palette-title {
+  display: flex;
+  padding: 8px 12px;
+  height: 28px;
+  align-items: center;
+}
+.awb-color-palette-list .awb-palette-title .label {
+  flex: 1;
+  padding: 0 10px;
+  font-weight: 600;
+  color: #1D2226;
+}
+.awb-color-palette-list .awb-palette-title .preview {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  position:relative;
+  cursor: pointer;
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAAHnlligAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHJJREFUeNpi+P///4EDBxiAGMgCCCAGFB5AADGCRBgYDh48CCRZIJS9vT2QBAggFBkmBiSAogxFBiCAoHogAKIKAlBUYTELAiAmEtABEECk20G6BOmuIl0CIMBQ/IEMkO0myiSSraaaBhZcbkUOs0HuBwDplz5uFJ3Z4gAAAABJRU5ErkJggg==) !important;
+}
+.awb-color-palette-list .awb-palette-title .preview:before {
+    display: block;
+    width: 28px;
+    height: 28px;
+    position: absolute;
+    background-color: inherit;
+    top: 0;
+    left: -1px;
+    z-index: 1;
+    border-radius: 50%;
+    content: "";
+    line-height: 40px;
+    border: 1px solid #efefef;
+    box-shadow: inset 1px 2px 4px rgb(0,0,0,0.2);
+}
+.awb-color-palette-list .awb-palette-title .actions {
+	display: flex;
+	margin: 0 -9px;
+}
+.awb-color-palette-list .awb-palette-title .actions span {
+  color: #93999F;
+  padding: 6px 9px;
+  cursor: pointer;
+}
+.awb-color-palette-list .awb-palette-title .actions span.fusiona-pen:hover {
+  color: #1D2226;
+}
+.awb-color-palette-list .awb-palette-title .actions span.fusiona-trash-o:hover {
+  color: #e0284f;
+}
+.awb-color-palette-list .awb-picker-container .awb-palette-picker {
+  margin-left: 0 !important;
+  margin-right: 0 !important;
+}
+.awb-color-palette-list .color-name-label,
+.awb-color-palette-list .color-code-label {
+	color: #93999f;
+	font-weight: 700;
+	text-transform: uppercase;
+	font-size: 11px;
+	padding: 0 0 8px 0;
+	display: block;
+	line-height: 1;
+  margin-bottom: 2px !important;
+}
+
+.awb-color-palette-list .color-name {
+  height: 40px !important;
+}
+
+.awb-color-palette-add-btn-wrapper {
+  display: flex;
+  justify-content: right;
+}

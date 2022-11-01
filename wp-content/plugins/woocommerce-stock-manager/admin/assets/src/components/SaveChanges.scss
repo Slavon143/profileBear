@@ -1,0 +1,16 @@
+.wrapper {
+  box-sizing: border-box;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  background-color: white;
+  padding: 1rem 2rem;
+  z-index: 1000;
+  box-shadow: 0 -8px 16px 0 rgba(85, 93, 102, 0.3);
+  display: flex;
+  justify-content: flex-end;
+
+  button {
+    margin-left: 1rem !important;
+  }
+}

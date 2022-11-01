@@ -1,0 +1,269 @@
+# Translation of Plugins - Stock Manager for WooCommerce - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Stock Manager for WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-08-06 19:39:50+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Stock Manager for WooCommerce - Stable (latest release)\n"
+
+#: sa-includes/class-sa-wsm-in-app-offer.php:126
+msgctxt "timezone date format"
+msgid "Y-m-d H:i:s"
+msgstr "Y-m-d H:i:s"
+
+#: admin/views/log.php:28
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+#. translators: 1: P tag opening 2: Updated Product ID 3. Closing p tag
+#: admin/views/import-export.php:225
+msgid "%1$s Product with ID %2$s was updated. %3$s"
+msgstr "%1$s Produkt med ID %2$s uppdaterades. %3$s"
+
+#. translators: 1: Uploaded file name
+#: admin/views/import-export.php:195
+msgid "The file %1$s has been uploaded"
+msgstr "Filen %1$s har laddats upp"
+
+#: woocommerce-stock-manager.php:76
+msgid "Stock Manager for WooCommerce needs following versions of WordPress and WooCommerce:"
+msgstr "Stock Manager for WooCommerce behöver följande versioner av WordPress och WooCommerce:"
+
+#. Plugin Name of the plugin
+msgid "Stock Manager for WooCommerce"
+msgstr "Stock Manager for WooCommerce"
+
+#: admin/views/import-export.php:237
+msgid "Error: You have not uploaded a CSV file."
+msgstr "Fel: du har inte laddat upp någon CSV-fil."
+
+#: sa-includes/class-sa-wsm-in-app-offer.php:228
+msgid "Hide this"
+msgstr "Dölj detta"
+
+#: admin/class-stock-manager-admin.php:223
+#: admin/class-stock-manager-admin.php:224
+msgid "Stock Manager"
+msgstr "Lagerhanterare"
+
+#: admin/views/import-export.php:153
+msgid "product id, required. Neccessary for import and export."
+msgstr "produkt-ID, krävs. Nödvändigt för import och export."
+
+#: admin/views/import-export.php:142
+msgid "abc111"
+msgstr "abc111"
+
+#: admin/views/import-export.php:141
+msgid "123"
+msgstr "123"
+
+#. Plugin URI of the plugin
+msgid "https://www.storeapps.org/woocommerce-plugins/"
+msgstr "https://www.storeapps.org/woocommerce-plugins/"
+
+#: admin/class-stock-manager-admin.php:271
+#: admin/class-stock-manager-admin.php:272
+msgid "StoreApps Plugins"
+msgstr "StoreApps-tillägg"
+
+#: admin/views/import-export.php:255
+msgid "Create export file"
+msgstr "Skapa exportfil"
+
+#: admin/views/import-export.php:254
+msgid "You can download csv file, with your stock data. "
+msgstr "Du kan ladda ner csv-fil med dina lagerdata."
+
+#: admin/views/import-export.php:251
+msgid "Export"
+msgstr "Exportera"
+
+#: admin/views/import-export.php:234
+msgid "Sorry, there was an error uploading your file."
+msgstr "Det var ett fel vid uppladdningen av din fil."
+
+#: admin/views/import-export.php:172
+msgid "Upload"
+msgstr "Ladda upp"
+
+#: admin/views/import-export.php:163
+msgid "Upload csv file"
+msgstr "Ladda upp csv-fil"
+
+#: admin/views/import-export.php:155 admin/views/import-export.php:157
+msgid "values: \"yes\", \"notify\", \"no\". If is empty \"no\" will be save."
+msgstr "värden: ”ja”, ”avisera”, ”nej”. Om det är tomt sparas ”nej”."
+
+#: admin/views/import-export.php:148
+msgid "simple"
+msgstr "enkel"
+
+#: admin/views/import-export.php:147
+msgid "10"
+msgstr "10"
+
+#: admin/views/import-export.php:145
+msgid "instock"
+msgstr "i lager"
+
+#: admin/views/import-export.php:144 admin/views/import-export.php:146
+msgid "yes"
+msgstr "ja"
+
+#: admin/views/import-export.php:143
+msgid "T-shirt"
+msgstr "T-shirt"
+
+#: admin/views/import-export.php:132
+#: admin/assets/src/components/Products.js:115
+#: admin/assets/src/components/ScreenOptions.js:48
+msgid "Product name"
+msgstr "Produktnamn"
+
+#: admin/views/import-export.php:127
+msgid "File format"
+msgstr "Filformat"
+
+#: admin/views/import-export.php:126
+msgid "If you have a lot of products and export/import not working, increase memory limit.. "
+msgstr "Om du har många produkter och export/import inte fungerar, öka minnesgränsen …"
+
+#: admin/views/import-export.php:125
+msgid "CSV file must be in this format, or you can export file with exist data and edit them. "
+msgstr "CSV-fil måste ha detta format, eller så kan du exportera filen med befintliga data och redigera dem."
+
+#: admin/views/import-export.php:124
+msgid "You can upload csv file, with your stock data. "
+msgstr "Du kan ladda upp csv-fil med dina lagerdata."
+
+#: admin/views/import-export.php:121
+msgid "Import"
+msgstr "Importera"
+
+#: admin/views/log-history.php:69
+msgid "No result"
+msgstr "Inga resultat"
+
+#: admin/views/log-history.php:48
+msgid "Date"
+msgstr "Datum"
+
+#: admin/views/log.php:60 admin/views/log.php:94
+msgid "History"
+msgstr "Historik"
+
+#: admin/views/import-export.php:136 admin/views/import-export.php:158
+#: admin/views/log-history.php:49 admin/views/log.php:33
+#: admin/assets/src/components/Products.js:148
+#: admin/assets/src/components/ScreenOptions.js:83
+msgid "Stock"
+msgstr "Lager"
+
+#: admin/views/import-export.php:135 admin/views/import-export.php:157
+#: admin/assets/src/components/Products.js:145
+#: admin/assets/src/components/ScreenOptions.js:78
+msgid "Backorders"
+msgstr "Restordrar"
+
+#: admin/views/import-export.php:134 admin/views/import-export.php:156
+#: admin/assets/src/components/ProductFilter.js:112
+#: admin/assets/src/components/Products.js:142
+#: admin/assets/src/components/ScreenOptions.js:73
+msgid "Stock status"
+msgstr "Lagerstatus"
+
+#: admin/views/import-export.php:133 admin/views/import-export.php:155
+#: admin/assets/src/components/Products.js:139
+#: admin/assets/src/components/ScreenOptions.js:68
+msgid "Manage stock"
+msgstr "Hantera lager"
+
+#: admin/views/import-export.php:138 admin/views/log.php:32
+msgid "Parent ID"
+msgstr "Överordnat ID"
+
+#: admin/views/import-export.php:137 admin/views/log.php:31
+#: admin/assets/src/components/Products.js:97
+msgid "Product type"
+msgstr "Produkttyp"
+
+#: admin/views/log.php:30
+msgid "Name"
+msgstr "Namn"
+
+#: admin/views/import-export.php:130 admin/views/import-export.php:153
+#: admin/assets/src/components/Products.js:93
+msgid "ID"
+msgstr "ID"
+
+#: admin/views/import-export.php:131 admin/views/import-export.php:154
+#: admin/views/log.php:29 admin/assets/src/components/ProductFilter.js:64
+#: admin/assets/src/components/Products.js:99
+#: admin/assets/src/components/ScreenOptions.js:38
+msgid "SKU"
+msgstr "Artikelnummer"
+
+#: admin/class-stock-manager-admin.php:264
+msgid "Setting"
+msgstr "Inställning"
+
+#: admin/class-stock-manager-admin.php:255
+#: admin/class-stock-manager-admin.php:256
+msgid "Stock log"
+msgstr "Lagerlogg"
+
+#: admin/class-stock-manager-admin.php:247
+#: admin/class-stock-manager-admin.php:248
+msgid "Import/Export"
+msgstr "Importera/exportera"
+
+#: admin/class-stock-manager-admin.php:163
+msgid "Yes"
+msgstr "Ja"
+
+#: admin/class-stock-manager-admin.php:162
+msgid "Notify"
+msgstr "Avisera"
+
+#: admin/class-stock-manager-admin.php:161
+msgid "No"
+msgstr "Nej"
+
+#: admin/class-stock-manager-admin.php:158
+msgctxt "Tax status"
+msgid "None"
+msgstr "Ingen"
+
+#: admin/class-stock-manager-admin.php:157
+msgid "Shipping only"
+msgstr "Endast frakt"
+
+#: admin/class-stock-manager-admin.php:156
+msgid "Taxable"
+msgstr "Momsbelagd"
+
+#: admin/class-stock-manager-admin.php:139
+msgid "No shipping class"
+msgstr "Ingen fraktklass"
+
+#: woocommerce-stock-manager.php:272
+msgid "All done! Close."
+msgstr "Allt klart! Stäng."
+
+#: woocommerce-stock-manager.php:76
+msgid "Alert!"
+msgstr "Varning!"
+
+#. Author URI of the plugin
+msgid "https://www.storeapps.org/"
+msgstr "https://www.storeapps.org/"
+
+#. Author of the plugin
+msgid "StoreApps"
+msgstr "StoreApps"

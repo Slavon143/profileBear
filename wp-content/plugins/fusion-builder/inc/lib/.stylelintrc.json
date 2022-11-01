@@ -1,0 +1,17 @@
+{
+  "extends": "stylelint-config-wordpress",
+  "rules": {
+    "selector-pseudo-element-colon-notation": null,
+    "max-line-length": null,
+    "font-family-no-missing-generic-family-keyword": null,
+    "font-family-name-quotes": null,
+    "font-weight-notation": null,
+    "no-descending-specificity": null,
+    "selector-attribute-quotes": null,
+    "declaration-property-unit-whitelist": null,
+    "declaration-block-no-shorthand-property-overrides": null,
+    "color-named": null,
+    "selector-type-no-unknown": null,
+    "function-url-quotes": null
+  }
+}

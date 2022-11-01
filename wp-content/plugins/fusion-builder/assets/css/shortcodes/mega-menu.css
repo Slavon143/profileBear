@@ -1,0 +1,593 @@
+/* stylelint-disable length-zero-no-unit */
+/* stylelint-enable length-zero-no-unit */
+.fusion-menu-element-wrapper .fusion-menu-element-list .fusion-megamenu-wrapper {
+  position: absolute;
+  top: 100%;
+  box-shadow: none;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.rtl .fusion-menu-element-wrapper .fusion-menu-element-list .fusion-megamenu-wrapper {
+  right: 0;
+}
+.ltr .fusion-menu-element-wrapper .fusion-menu-element-list .fusion-megamenu-wrapper {
+  left: 0;
+}
+.fusion-menu-element-wrapper .fusion-menu-element-list .fusion-megamenu-wrapper > li > ul {
+  top: 0;
+  left: 100%;
+}
+.rtl .fusion-menu-element-wrapper .fusion-menu-element-list .fusion-megamenu-wrapper > li > ul {
+  left: 0;
+  right: 100%;
+}
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-hover.direction-row .fusion-menu-element-list .fusion-megamenu-wrapper {
+  transition: all calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1), transform calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1);
+  transform: translateY(20px);
+}
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-hover.direction-row .fusion-menu-element-list li.menu-item-has-children:hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-hover.direction-row .fusion-menu-element-list li.menu-item-has-children.hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-hover.direction-row .fusion-menu-element-list li.menu-item-has-children:focus .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-hover.direction-row .fusion-menu-element-list li.menu-item-has-children:focus-within .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-hover.direction-row .fusion-menu-element-list li.menu-item-has-children:active .fusion-megamenu-wrapper {
+  transform: translateY(0) !important;
+}
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-click.direction-row .fusion-menu-element-list .fusion-megamenu-wrapper {
+  transition: opacity calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1), transform calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1);
+  transform: translateY(20px);
+}
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-click.direction-row .fusion-menu-element-list .fusion-open-nav-submenu[aria-expanded="true"] ~ .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.submenu-transition-slide_up:not(.collapse-enabled).expand-method-click.direction-row .fusion-menu-element-list .fusion-open-nav-submenu.hover ~ .fusion-megamenu-wrapper {
+  transform: translateY(0) !important;
+}
+.fusion-menu-element-wrapper .fusion-open-nav-submenu[aria-expanded="true"] ~ .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper .fusion-open-nav-submenu.hover ~ .fusion-megamenu-wrapper {
+  visibility: visible !important;
+  opacity: 1 !important;
+  z-index: 999999999 !important;
+  pointer-events: auto !important;
+}
+.fusion-menu-element-wrapper .fusion-open-nav-submenu[aria-expanded="true"] ~ .fusion-megamenu-wrapper li a,
+.fusion-menu-element-wrapper .fusion-open-nav-submenu.hover ~ .fusion-megamenu-wrapper li a {
+  min-width: max-content;
+}
+.fusion-menu-element-wrapper .fusion-open-nav-submenu[aria-expanded="true"] ~ .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper .fusion-open-nav-submenu.hover ~ .fusion-megamenu-wrapper ul.sub-menu {
+  pointer-events: auto;
+}
+.fusion-menu-element-wrapper:not(.collapse-enabled):not(.submenu-mode-flyout) .fusion-menu-element-list .fusion-megamenu-wrapper {
+  pointer-events: none;
+  opacity: 0;
+  z-index: -10;
+  margin-top: 0px;
+}
+.fusion-menu-element-wrapper:not(.collapse-enabled):not(.submenu-mode-flyout) .fusion-menu-element-list .fusion-megamenu-wrapper ul.sub-menu {
+  width: 100%;
+}
+.fusion-menu-element-wrapper:not(.collapse-enabled):not(.submenu-mode-flyout) .fusion-menu-element-list .fusion-megamenu-wrapper ul.sub-menu > li.menu-item {
+  width: auto !important;
+  max-width: 100% !important;
+  min-width: auto !important;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper {
+  transition: opacity calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1);
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 0px;
+  overflow: auto;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder {
+  background-color: #fff;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu {
+  position: relative;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu {
+  font-size: 14px;
+  font-family: inherit;
+  font-weight: 400;
+  padding-top: var(--megamenu_item_vertical_padding);
+  padding-bottom: var(--megamenu_item_vertical_padding);
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  padding: 0 34px 15px;
+  padding-top: var(--mainmenu_dropdown_vertical_padding);
+  padding-bottom: var(--mainmenu_dropdown_vertical_padding);
+  display: block;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title .awb-justify-title {
+  font-family: var(--h4_typography-font-family);
+  font-weight: var(--h4_typography-font-weight);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: wrap;
+  min-width: inherit;
+  font-size: 1.2em;
+  width: 100%;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title a {
+  color: #212934;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title .fusion-megamenu-thumbnail {
+  box-sizing: content-box;
+  display: inline-flex;
+}
+.ltr .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title .fusion-megamenu-thumbnail {
+  padding-right: 1em;
+}
+.rtl .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title .fusion-megamenu-thumbnail {
+  padding-left: 1em;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-title .fusion-megamenu-icon {
+  width: 1.5em;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-widgets-container .widget_text {
+  color: #212934;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu .fusion-megamenu-widgets-container .widget_text .textwidget {
+  color: inherit;
+}
+.avada-has-megamenu-item-divider .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-submenu {
+  border-color: #e2e2e2;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .sub-menu > li > a .fusion-megamenu-icon,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-title-disabled .fusion-megamenu-icon {
+  width: 1.5em;
+  display: inline-flex;
+  box-sizing: content-box;
+}
+.ltr .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .sub-menu > li > a .fusion-megamenu-icon,
+.ltr .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-title-disabled .fusion-megamenu-icon {
+  padding-right: 1em;
+}
+.rtl .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .sub-menu > li > a .fusion-megamenu-icon,
+.rtl .fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu .fusion-megamenu-title-disabled .fusion-megamenu-icon {
+  padding-left: 1em;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  width: 100%;
+  max-width: 100vw;
+  z-index: 10;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu > li:last-child {
+  border: none;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu li.menu-item-has-children ul.sub-menu {
+  box-shadow: none;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled {
+  font-family: var(--body_typography-font-family);
+  font-weight: var(--body_typography-font-weight);
+  padding-top: 12px;
+  padding-right: 20px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  color: #212934;
+  background-color: #fff;
+  font-size: 14px;
+  border-bottom: 1px solid #e2e2e2;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper li .fusion-megamenu-title-disabled:hover {
+  background-color: #f9f9fb;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper li ul.sub-menu {
+  display: block !important;
+  opacity: 1 !important;
+  position: relative !important;
+  top: 0 !important;
+  left: 0 !important;
+  visibility: visible !important;
+  z-index: 10 !important;
+  pointer-events: none;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu {
+  display: block;
+  float: none;
+  padding: 29px 0;
+  border-right: 1px solid transparent;
+  background-size: cover;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a.hover,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:focus,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:focus-within,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:active {
+  font-family: var(--body_typography-font-family);
+  font-weight: var(--body_typography-font-weight);
+  background-color: #f9f9fb;
+  color: #212934;
+  font-size: 14px;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:hover > .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a.hover > .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:focus > .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:focus-within > .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu > a:active > .fusion-open-nav-submenu {
+  background-color: #f9f9fb;
+  color: #212934;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu .fusion-megamenu-border {
+  border-color: #e2e2e2;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-submenu .sub-menu a {
+  padding: 12px 20px 12px 20px;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-widgets-container {
+  display: block;
+  padding: 0 34px;
+  margin-bottom: 10px;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-widgets-container .textwidget a:not(.fb-icon-element) {
+  display: inline;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper .fusion-megamenu-widgets-container .textwidget a:not(.fb-icon-element).fusion-button {
+  display: inline-block;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper ul,
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper ul li {
+  border-radius: 0 !important;
+}
+.fusion-menu-element-wrapper .fusion-megamenu-wrapper.fusion-megamenu-fullwidth:not(.fusion-megamenu-width-site-width) {
+  border-radius: 0 !important;
+}
+.fusion-menu-element-wrapper.expand-method-click li ul.fusion-megamenu li.menu-item-has-children {
+  display: block;
+}
+.fusion-menu-element-wrapper.submenu-mode-dropdown li ul.fusion-megamenu .sub-menu li.menu-item-has-children {
+  display: flex;
+  flex-wrap: wrap;
+  transition: all calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1);
+}
+.fusion-menu-element-wrapper.submenu-mode-dropdown li ul.fusion-megamenu .sub-menu li.menu-item-has-children .fusion-background-highlight {
+  transition: inherit;
+}
+.fusion-menu-element-wrapper.submenu-mode-dropdown li ul.fusion-megamenu .sub-menu li.menu-item-has-children .fusion-open-nav-submenu {
+  display: none !important;
+}
+.fusion-menu-element-wrapper.submenu-mode-dropdown li ul.fusion-megamenu .sub-menu li.menu-item-has-children .deep-level {
+  transform: none !important;
+  transition: none !important;
+}
+.fusion-menu-element-wrapper.submenu-mode-dropdown li ul.fusion-megamenu .sub-menu li.menu-item-has-children .deep-level li > a {
+  padding-left: 50px;
+}
+.rtl .fusion-menu-element-wrapper.submenu-mode-dropdown li ul.fusion-megamenu .sub-menu li.menu-item-has-children .deep-level li {
+  padding-left: 0;
+  padding-right: 50px;
+}
+.fusion-menu-element-wrapper.submenu-mode-dropdown.expand-method-hover li ul.fusion-megamenu .sub-menu li.menu-item-has-children:hover .sub-menu {
+  transform: translateY(0) !important;
+  visibility: visible !important;
+  opacity: 1 !important;
+}
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li.hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:focus .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:focus-within .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:active .fusion-megamenu-wrapper {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999999999;
+}
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li.hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:focus .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:focus-within .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:active .fusion-megamenu-wrapper {
+  pointer-events: auto !important;
+}
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:hover .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li.hover .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:focus .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:focus-within .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover.direction-row li:active .fusion-megamenu-wrapper ul.sub-menu {
+  pointer-events: auto;
+}
+.fusion-menu-element-wrapper.expand-method-hover li:hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li.hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li:focus .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li:focus-within .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li:active .fusion-megamenu-wrapper {
+  visibility: visible;
+  opacity: 1;
+  z-index: 999999999;
+}
+.fusion-menu-element-wrapper.expand-method-hover li:hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li.hover .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li:focus .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li:focus-within .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.expand-method-hover li:active .fusion-megamenu-wrapper {
+  pointer-events: auto !important;
+}
+.fusion-menu-element-wrapper.expand-method-hover li:hover .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover li.hover .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover li:focus .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover li:focus-within .fusion-megamenu-wrapper ul.sub-menu,
+.fusion-menu-element-wrapper.expand-method-hover li:active .fusion-megamenu-wrapper ul.sub-menu {
+  pointer-events: auto;
+}
+.fusion-menu-element-wrapper.direction-row .fusion-megamenu-wrapper {
+  margin-left: -10px;
+  max-width: 100vw;
+}
+.fusion-menu-element-wrapper.direction-column .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.direction-column .fusion-megamenu-menu .fusion-open-nav-submenu {
+  display: none !important;
+}
+.fusion-menu-element-wrapper.direction-column .fusion-megamenu-wrapper .fusion-megamenu > li {
+  min-width: max-content;
+}
+.rtl .fusion-menu-element-wrapper.direction-column.expand-method-click.expand-right .menu-item-has-children.fusion-megamenu-menu > a {
+  width: 100%;
+}
+.ltr .fusion-menu-element-wrapper.direction-column.expand-method-click.expand-left .menu-item-has-children.fusion-megamenu-menu > a {
+  width: 100%;
+}
+.fusion-menu-element-wrapper:not(.collapse-enabled) .fusion-megamenu-title .fusion-megamenu-image > img,
+.fusion-menu-element-wrapper:not(.collapse-enabled) .fusion-megamenu-title .fusion-megamenu-thumbnail > img {
+  width: 26px;
+  height: 14px;
+  max-width: inherit;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-submenu-notitle:not(.menu-item-has-children):not(.menu-item-has-link),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-submenu-notitle:not(.menu-item-has-children):not(.menu-item-has-link),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-submenu-notitle:not(.menu-item-has-children):not(.menu-item-has-link),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-submenu-notitle:not(.menu-item-has-children):not(.menu-item-has-link),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-widgets-container,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-widgets-container,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-widgets-container,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-widgets-container {
+  display: none;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) button.fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) button.fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) button.fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) button.fusion-open-nav-submenu {
+  display: block !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level),
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) {
+  max-height: inherit;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .fusion-open-nav-submenu {
+  display: none !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children button.fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children button.fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children button.fusion-open-nav-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children button.fusion-open-nav-submenu {
+  display: block !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .deep-level,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .deep-level,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .deep-level,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) ul.sub-menu:not(.deep-level) li.menu-item-has-children .deep-level {
+  transition: max-height calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1) !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper {
+  margin-left: 0 !important;
+  border-radius: 0 !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu li.fusion-megamenu-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu li.fusion-megamenu-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu li.fusion-megamenu-submenu,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu li.fusion-megamenu-submenu {
+  padding: 0;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-holder,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-holder,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-collapse-to-button.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-holder,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-mode-always-expanded.expanded > ul.fusion-menu li.fusion-megamenu-menu:not(.fusion-has-all-widgets) .fusion-megamenu-holder {
+  padding: 0;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper {
+  width: 100%;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li {
+  background: #fff;
+  width: 100% !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li a {
+  color: #4a4e57;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:hover,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.hover,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:focus,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:active,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.current-menu-item,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.current-menu-ancestor,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.current-menu-parent,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:focus-within,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.expanded {
+  background: #f9f9fb;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:hover a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.hover a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:focus a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:active a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.current-menu-item a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.current-menu-ancestor a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.current-menu-parent a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li:focus-within a,
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-megamenu-wrapper .fusion-megamenu-holder ul li.expanded a {
+  color: #4a4e57;
+}
+.fusion-menu-element-wrapper.collapse-enabled ul li.fusion-megamenu-submenu {
+  min-height: calc(65 * 1px);
+  width: 100%;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-holder {
+  max-width: 100%;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.rtl .fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-holder {
+  padding-left: calc(20px / 2);
+}
+.ltr .fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-holder {
+  padding-right: calc(20px / 2);
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-justify-left .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title span,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-justify-left .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title a {
+  justify-content: flex-start !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-justify-center .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title span,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-justify-center .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title a {
+  justify-content: center !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mobile-justify-right .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title span,
+.fusion-menu-element-wrapper.collapse-enabled.mobile-justify-right .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title a {
+  justify-content: flex-end !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled.mega-menu-loaded .fusion-megamenu-wrapper {
+  opacity: 1 !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-wrapper {
+  display: none;
+  overflow: hidden;
+  position: static;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-wrapper .fusion-megamenu-holder {
+  width: 100% !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu {
+  font-size: inherit;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  display: flex;
+  align-items: stretch;
+  min-height: inherit;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-wrapper .fusion-megamenu-holder .fusion-megamenu-submenu .fusion-megamenu-title .awb-justify-title {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  font-size: inherit;
+  font-weight: normal;
+  justify-content: flex-start !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled .fusion-megamenu-menu .fusion-open-nav-submenu {
+  display: none !important;
+}
+.fusion-menu-element-wrapper.collapse-enabled li.menu-item.expanded .fusion-megamenu-wrapper {
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
+.fusion-menu-element-wrapper.collapse-enabled li.menu-item.expanded .fusion-megamenu-wrapper .fusion-megamenu-holder ul.fusion-megamenu li.menu-item-has-children .fusion-megamenu-title {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+.fusion-menu-element-wrapper.collapse-enabled li.menu-item .fusion-megamenu-title {
+  background: inherit;
+}
+.fusion-menu-element-wrapper.collapse-enabled li.menu-item > .fusion-megamenu-icon,
+.fusion-menu-element-wrapper.collapse-enabled li.menu-item > a > .fusion-megamenu-icon {
+  display: none;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout .fusion-custom-menu > li > .fusion-megamenu-wrapper {
+  visibility: hidden;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout .fusion-megamenu-wrapper {
+  width: 100%;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout .fusion-megamenu-wrapper .row {
+  width: 100%;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout .fusion-megamenu-wrapper .fusion-megamenu-holder {
+  width: 100% !important;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) .fusion-custom-menu > li > .fusion-megamenu-wrapper {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #fff;
+  transform: translateX(-100%);
+  opacity: 0;
+  z-index: 9999;
+  overflow: hidden;
+  margin: 0;
+  padding: 2em;
+  overflow-y: auto;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  transition: all calc(300 * 1ms) cubic-bezier(0.42, 0.01, 0.58, 1) 0s;
+}
+.fusion-disable-outline .fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) .fusion-custom-menu > li > .fusion-megamenu-wrapper a {
+  outline: 0;
+}
+.fusion-disable-outline .fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) .fusion-custom-menu > li > .fusion-megamenu-wrapper a:focus {
+  outline: 0;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) .fusion-custom-menu > li.expanded > .fusion-megamenu-wrapper {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.3s cubic-bezier(0.42, 0.01, 0.58, 1) 0s;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-right .fusion-custom-menu > li > .fusion-megamenu-wrapper {
+  transform: translateX(100%);
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-right .fusion-custom-menu > li.expanded > .fusion-megamenu-wrapper {
+  transform: translateX(0);
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-top .fusion-custom-menu > li > .fusion-megamenu-wrapper {
+  transform: translateY(-100%);
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-top .fusion-custom-menu > li.expanded > .fusion-megamenu-wrapper {
+  transform: translateY(0);
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-bottom .fusion-custom-menu > li > .fusion-megamenu-wrapper {
+  transform: translateY(100%);
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-bottom .fusion-custom-menu > li.expanded > .fusion-megamenu-wrapper {
+  transform: translateY(0);
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-fade .fusion-custom-menu > li > .fusion-megamenu-wrapper {
+  transform: initial;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.4s cubic-bezier(0.42, 0.01, 0.58, 1) 0s;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled).submenu-flyout-direction-fade .fusion-custom-menu > li.expanded > .fusion-megamenu-wrapper {
+  transform: initial;
+  visibility: visible;
+  opacity: 1;
+  transition: all 0.4s cubic-bezier(0.42, 0.01, 0.58, 1) 0s;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) ul.fusion-megamenu {
+  position: static;
+  top: auto;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) ul.fusion-megamenu .menu-item-has-children .sub-menu .fusion-background-highlight > span {
+  flex: inherit;
+}
+.fusion-menu-element-wrapper.submenu-mode-flyout:not(.collapse-enabled) .fusion-menu-element-list .fusion-megamenu-title {
+  text-align: center;
+}
+.fusion-menu-element-wrapper.mega-menu-loading .fusion-megamenu-wrapper {
+  display: none !important;
+}
+.fusion-menu-element-wrapper.mega-menu-loaded .fusion-megamenu-wrapper {
+  opacity: 0 !important;
+  transition: none !important;
+}

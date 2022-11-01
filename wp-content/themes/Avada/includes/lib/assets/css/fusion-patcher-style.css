@@ -1,0 +1,194 @@
+#bulk-apply-patches {
+  font-size: 0.75em;
+  float: right;
+}
+
+.fusion-patcher-table {
+  margin-top: 2em;
+  border-collapse: collapse;
+}
+
+.fusion-patcher-table tr {
+  border-bottom: 1px solid #fff;
+}
+
+.fusion-patcher-table thead th {
+  text-align: start;
+}
+
+.fusion-patcher-table tr th {
+  padding: 0 1em 0.5em 1em;
+}
+
+.fusion-patcher-table tr.fusion-patcher-table-head {
+  transition: all 0.2s cubic-bezier(0.21, 0.6, 0.35, 1);
+}
+
+.fusion-patcher-table tr.fusion-patcher-table-head.awb-patch-applying {
+   opacity: 0.2;
+}
+
+.fusion-patcher-table tr.fusion-patcher-table-head.awb-patch-applied .button-primary {
+  display: none;
+  background-color: #65bc7b;
+}
+
+.fusion-patcher-table .fusion-patcher-headings th:last-child {
+  text-align: end;
+}
+
+
+.fusion-patcher-table .fusion-patcher-headings th:last-child:before {
+  content: "";
+  display: inline-block;
+  margin-right: 1em;
+  margin-top: 0.6em; /* Matches button's top padding */
+  background: none;
+  border-radius: 50%;
+  line-height: 1 !important;
+  border: none;
+  width: 1.5em;
+  height: 1.5em;
+  box-sizing: border-box;
+}
+
+.fusion-patcher-table.awb-bulk-applying-patches .fusion-patcher-headings th:last-child:before {
+  border: 3px solid rgba(0, 0, 0, 0.2);
+  border-bottom: 3px solid #333;
+  animation: avada-rotate 0.8s infinite linear;
+}
+
+.fusion-patcher-table.awb-bulk-applying-patches button {
+  pointer-events: none;
+}
+
+.fusion-patcher-table tr td {
+  padding: 1em 0.8em;
+  line-height: 1.7;
+  vertical-align: top;
+}
+
+.fusion-patcher-table tr td:first-child {
+  min-width: 5em;
+}
+
+.fusion-patcher-table .patch-id .date {
+  font-size: 0.6em;
+}
+
+.fusion-patcher-table tbody tr {
+  border-bottom: 1px solid #fff;
+}
+
+.fusion-patcher-table tbody tr td {
+  background-color: #fbfbfb;
+}
+
+.fusion-patcher-table tbody tr.awb-patch-applied td {
+  background-color: rgba(101, 189, 125, 0.1);
+}
+
+.fusion-patcher-table tbody tr.awb-patch-failed td {
+  background-color: #fceaed;
+}
+
+.avada-dashboard .fusion-patcher-table .patch-apply form {
+    align-items: center;
+    display: flex;
+    justify-content: flex-end;
+}
+.fusion-patcher-table tbody tr td:first-child {
+  border-top-left-radius: 6px;
+  border-bottom-left-radius: 6px;
+}
+
+.fusion-patcher-table tbody tr td:last-child {
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+}
+
+.avada-dashboard .fusion-patcher-table .patch-apply {
+  vertical-align: middle;
+}
+
+.avada-dashboard .fusion-patcher-table .awb-patch-applied-icon {
+  display: inline-block;
+  width: 2.5em;
+  height: 2.5em;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 50%;
+  color: #fff;
+  background-color: #65bd7d;
+  cursor: pointer;
+}
+
+.fusion-patcher-table .patch-apply form,
+.fusion-patcher-table .patch-apply {
+  text-align: end;
+}
+
+.avada-dashboard .fusion-patcher-table .patch-apply .disabled {
+  color: rgba(85, 93, 102, 0.6) !important;
+  background: rgba(242, 242, 242, 1) !important;
+  border: none;
+  font-weight: 400;
+}
+
+.fusion-patcher-table .dismiss-notices {
+  margin-left: 1em;
+}
+
+.fusion-patcher-table .dismiss-notices a,
+.fusion-patcher-table .dismiss-notices a:hover {
+  color: #555d66;
+}
+
+.avada-dashboard .fusion-patcher-table .dismiss-notices .button {
+  color: #dc3232;
+}
+
+.avada-dashboard .fusion-patcher-table .dismiss-notices .button:hover,
+.avada-dashboard .fusion-patcher-table .dismiss-notices .button:focus {
+  color: #dc3232;
+}
+
+/*
+
+
+.fusion-patcher-table td.patch-product {
+  min-width: 120px;
+}
+
+
+
+*/
+
+.fusion-patcher-table .patch-failed-warning {
+  background: #ffcdd2;
+  color: #b71c1c;
+  border: 1px solid #ef9a9a;
+}
+
+.fusion-patcher-table .patch-failed-warning code {
+  color: #000;
+}
+
+.fusion-patcher-error {
+  background: #dc3232;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 1.5em;
+  font-style: normal;
+  margin-bottom: 2em;
+}
+
+.fusion_page_fusion-plugins .theme-wrapper .update-message.notice.notice-warning {
+  background: rgba(213, 78, 33, .95);
+  border-left: none;
+  color: #fff;
+}
+
+.fusion_page_fusion-plugins .theme-wrapper .update-message.notice.notice-warning p:before {
+  color: rgba(255, 255, 255, .7);
+}

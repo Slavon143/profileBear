@@ -1,0 +1,15 @@
+.fusion-woo-products-tb .fusion-carousel ul.products {
+  display: inherit;
+  margin: 0;
+}
+.fusion-woo-products-tb .fusion-carousel ul.products > li {
+  margin-right: auto;
+  padding: 0;
+}
+.fusion-woo-products-tb .fusion-carousel .product-title {
+  text-align: left;
+}
+.fusion-woo-products-tb.cross-sells {
+  border: none;
+  padding: 0;
+}

@@ -1,0 +1,6 @@
+# BEGIN Converter for Media
+<IfModule mod_rewrite.c>
+  RewriteEngine On
+  RewriteRule icon-before\.(.+)$ ./icon-after.$1 [NC,E=cache-control:private,L]
+</IfModule>
+# END Converter for Media

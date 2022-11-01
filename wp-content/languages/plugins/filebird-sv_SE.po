@@ -1,0 +1,953 @@
+# Translation of Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Development (trunk) in Swedish
+# This file is distributed under the same license as the Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Development (trunk) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2022-09-14 14:23:09+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/4.0.0-alpha.1\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - FileBird &#8211; WordPress Media Library Folders &amp; File Manager - Development (trunk)\n"
+
+#: views/pages/settings/tab-tools.php:45
+msgid "Attachment Size"
+msgstr "Storlek på bilaga"
+
+#: views/pages/settings/tab-tools.php:38
+msgid "Please see FileBird API for developers %1$shere%2$s."
+msgstr "Se FileBird API för utvecklare %1$shär%2$s."
+
+#: views/pages/settings/tab-settings.php:80
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#: views/pages/settings/tab-settings.php:71
+msgid "Windows 11"
+msgstr "Windows 11"
+
+#: views/pages/settings/tab-settings.php:62
+msgid "FileBird Default"
+msgstr "FileBird-standard"
+
+#: views/pages/settings/tab-settings.php:52
+msgid "FileBird Theme"
+msgstr "FileBird-tema"
+
+#: views/pages/settings/tab-settings.php:45
+msgid "Count files in both parent folder and subfolders"
+msgstr "Räkna filer i både överordnad mapp och undermappar"
+
+#: views/pages/settings/tab-settings.php:42
+msgid "Count files in each folder"
+msgstr "Räkna filer i varje mapp"
+
+#: views/pages/settings/tab-settings.php:24
+msgid "Show Breadcrumb"
+msgstr "Visa synlig sökväg"
+
+#: views/pages/settings/tab-import.php:133
+msgid "We found you have %1$s(%2$s)%3$s categories you created from %4$sFolders%5$s plugin."
+msgstr "Vi upptäckte att du har %1$s(%2$s)%3$s kategorier som du skapade från tillägget %4$sFolders%5$s."
+
+#: views/pages/settings/tab-import.php:111
+msgid "We found you have %1$s(%2$s)%3$s categories you created from %4$sHappyFiles%5$s plugin."
+msgstr "Vi upptäckte att du har %1$s(%2$s)%3$s kategorier som du skapade från tillägget %4$sHappyFiles%5$s."
+
+#: views/pages/settings/tab-import.php:89
+msgid "We found you have %1$s(%2$s)%3$s categories you created from %4$sWP Real Media Library%5$s plugin."
+msgstr "Vi upptäckte att du har %1$s(%2$s)%3$s kategorier som du skapade från tillägget %4$sWP Real Media Library%5$s."
+
+#: views/pages/settings/tab-import.php:67
+msgid "We found you have %1$s(%2$s)%3$s categories you created from %4$sWP Media folder%5$s plugin."
+msgstr "Vi upptäckte att du har %1$s(%2$s)%3$s kategorier som du skapade från tillägget %4$sWP Media folder%5$s."
+
+#: views/pages/settings/tab-import.php:45
+msgid "We found you have %1$s(%2$s)%3$s categories you created from %4$sWordPress Media Library Folders%5$s plugin."
+msgstr "Vi upptäckte att du har %1$s(%2$s)%3$s kategorier som du skapade från tillägget %4$sWordPress Media Library Folders%5$s."
+
+#: views/pages/settings/tab-import.php:25
+#: views/pages/settings/tab-import.php:47
+#: views/pages/settings/tab-import.php:69
+#: views/pages/settings/tab-import.php:91
+#: views/pages/settings/tab-import.php:113
+#: views/pages/settings/tab-import.php:135
+msgid " Would you like to import to %1$sFileBird%2$s?"
+msgstr "Vill du importera till %1$sFileBird%2$s?"
+
+#: views/pages/settings/tab-import.php:23
+msgid "We found you have %1$s(%2$s)%3$s categories you created from %4$sEnhanced Media Library%5$s plugin."
+msgstr "Vi upptäckte att du har %1$s(%2$s)%3$s kategorier som du skapade från tillägget %4$sEnhanced Media Library%5$s."
+
+#: views/pages/settings/tab-active.php:89
+msgid "GO PRO"
+msgstr "SKAFFA PRO"
+
+#: views/pages/settings/tab-active.php:73
+msgid "One-time payment"
+msgstr "Engångsbetalning"
+
+#: views/pages/settings/tab-active.php:55
+msgid "Folder themes (Windows 11 and Dropbox)"
+msgstr "Mapp-teman (Windows 11 och Dropbox)"
+
+#: views/pages/settings/tab-active.php:46
+msgid "Sort files and folders"
+msgstr "Sortera filer och mappar"
+
+#: views/pages/settings/tab-active.php:37
+msgid "Advanced third-party compatibility"
+msgstr "Avancerad tredjepartskompatibilitet"
+
+#: views/pages/settings/tab-active.php:28
+msgid "Download entire folders in ZIP"
+msgstr "Ladda ner hela mappar i ZIP"
+
+#: views/pages/settings/tab-active.php:16
+msgid "Lifetime license"
+msgstr "Livstidslicens"
+
+#: views/pages/settings/tab-active.php:15
+msgid "Explore the best of FileBird"
+msgstr "Utforska det bästa av FileBird"
+
+#: views/pages/settings/tab-active.php:12
+msgid "Upgrade to FileBird Pro"
+msgstr "Uppgradera till FileBird Pro"
+
+#: includes/Recommended/views/content.php:213
+msgid "This plugin doesn&#8217;t work with your version of PHP."
+msgstr "Detta tillägg fungerar inte med din version av PHP."
+
+#: includes/Recommended/views/content.php:204
+msgid "This plugin doesn&#8217;t work with your version of WordPress."
+msgstr "Detta tillägg fungerar inte med din version av WordPress."
+
+#. translators: %s: URL to Update PHP page.
+#: includes/Recommended/views/content.php:198
+#: includes/Recommended/views/content.php:217
+msgid "<a href=\"%s\">Learn more about updating PHP</a>."
+msgstr "<a href=\"%s\">Lär dig mer om uppdatering av PHP</a>."
+
+#. translators: %s: URL to WordPress Updates screen.
+#: includes/Recommended/views/content.php:192
+#: includes/Recommended/views/content.php:208
+msgid "<a href=\"%s\">Please update WordPress</a>."
+msgstr "<a href=\"%s\">Uppdatera WordPress</a>."
+
+#. translators: 1: URL to WordPress Updates screen, 2: URL to Update PHP page.
+#: includes/Recommended/views/content.php:184
+msgid "<a href=\"%1$s\">Please update WordPress</a>, and then <a href=\"%2$s\">learn more about updating PHP</a>."
+msgstr "<a href=\"%1$s\">Uppdatera WordPress</a> och <a href=\"%2$s\">lär dig sedan mer om att uppdatera PHP</a>."
+
+#: includes/Recommended/views/content.php:180
+msgid "This plugin doesn&#8217;t work with your versions of WordPress and PHP."
+msgstr "Detta tillägg fungerar inte med dina versioner av WordPress och PHP."
+
+#: includes/Recommended/views/content.php:150
+msgctxt "plugin"
+msgid "Installed"
+msgstr "Installerat"
+
+#: includes/Recommended/views/content.php:144
+msgctxt "plugin"
+msgid "Cannot Activate"
+msgstr "Kan inte aktivera"
+
+#. translators: %s: Plugin name.
+#: includes/Recommended/views/content.php:118
+msgctxt "plugin"
+msgid "Activate %s"
+msgstr "Aktivera %s"
+
+#: includes/Recommended/views/content.php:111
+msgctxt "plugin"
+msgid "Activated"
+msgstr "Aktiverad"
+
+#: includes/Recommended/views/content.php:94
+msgctxt "plugin"
+msgid "Cannot Update"
+msgstr "Kan inte uppdatera"
+
+#: includes/Recommended/views/content.php:89
+msgid "Update Now"
+msgstr "Uppdatera nu"
+
+#. translators: %s: Plugin name and version.
+#: includes/Recommended/views/content.php:87
+msgctxt "plugin"
+msgid "Update %s now"
+msgstr "Uppdatera %s nu"
+
+#: includes/Recommended/views/content.php:71
+msgctxt "plugin"
+msgid "Cannot Install"
+msgstr "Kan inte installera"
+
+#: includes/Recommended/views/content.php:66
+msgid "Install Now"
+msgstr "Installera nu"
+
+#. translators: %s: Plugin name and version.
+#: includes/Recommended/views/content.php:65
+msgctxt "plugin"
+msgid "Install %s now"
+msgstr "Installera %s nu"
+
+#: includes/Recommended/Recommended.php:517
+msgid "Recommended"
+msgstr "Rekommenderat"
+
+#: includes/Recommended/Recommended.php:267
+#: includes/Recommended/Recommended.php:315
+#: includes/Recommended/Recommended.php:363
+msgid "Nonce is invalid"
+msgstr "Engångskod är ogiltig"
+
+#: includes/Recommended/Recommended.php:128
+#: includes/Recommended/Recommended.php:218
+#: includes/Recommended/Recommended.php:517
+msgid "Recommended Plugins"
+msgstr "Rekommenderade tillägg"
+
+#: includes/I18n.php:164
+msgid "Change Color"
+msgstr "Ändra färg"
+
+#: includes/I18n.php:163 assets/dist/js/app.js:1
+msgid "PRO"
+msgstr "PRO"
+
+#: includes/I18n.php:162
+msgid "Size Descending"
+msgstr "Storlek fallande"
+
+#: includes/I18n.php:161
+msgid "Size Ascending"
+msgstr "Storlek stigande"
+
+#: includes/I18n.php:160
+msgid "By Size"
+msgstr "Efter storlek"
+
+#: includes/I18n.php:159
+msgid "Please activate FileBird license to use this feature."
+msgstr "Aktivera FileBird-licens för att använda denna funktion."
+
+#: includes/I18n.php:158
+msgid "Successfully imported!"
+msgstr "Importerades utan problem!"
+
+#: includes/I18n.php:157
+msgid "Successfully exported!"
+msgstr "Exporterades utan problem!"
+
+#: includes/I18n.php:155
+msgid "Imported!"
+msgstr "Importerat!"
+
+#: views/pages/settings/tab-tools.php:63
+msgid "Danger Zone"
+msgstr "Farozon"
+
+#: views/pages/settings/tab-tools.php:29
+msgid "REST API key"
+msgstr "REST API-nyckel"
+
+#: views/pages/settings/tab-import.php:184
+msgid "(Please check to make sure that there is no duplicated name. The current folder structure is preserved.)"
+msgstr "(Kontrollera att det inte finns något duplicerat namn. Den nuvarande mappstrukturen bevaras.)"
+
+#: views/pages/settings/tab-import.php:183
+msgid "Choose FileBird CSV file to import."
+msgstr "Välj FileBird CSV-fil att importera."
+
+#: views/pages/settings/tab-import.php:172
+msgid "Import CSV"
+msgstr "Importera CSV"
+
+#: views/pages/settings/tab-import.php:165
+msgid "The current folder structure will be exported."
+msgstr "Den nuvarande mappstrukturen kommer att importeras."
+
+#: views/pages/settings/tab-import.php:160
+msgid "Export Now"
+msgstr "Exportera nu"
+
+#: views/pages/settings/tab-import.php:153
+msgid "Export CSV"
+msgstr "Exportera CSV"
+
+#: views/pages/settings/tab-import.php:147
+msgid "Export"
+msgstr "Exportera"
+
+#: views/pages/html-settings.php:40
+msgid "Import/Export"
+msgstr "Importera/exportera"
+
+#: views/pages/html-settings.php:32
+msgid "Tools"
+msgstr "Verktyg"
+
+#: includes/Controller/Folder.php:749
+msgid "The uploaded file was not generated by FileBird. Please check again."
+msgstr "Den uppladdade filen genererades inte av FileBird. Kontrollera igen."
+
+#: includes/Controller/Folder.php:599
+msgid "Click on the button to move this file to another folder"
+msgstr "Klicka på knappen för att flytta denna fil till annan mapp"
+
+#: includes/Controller/Folder.php:598
+msgid "FileBird folder:"
+msgstr "FileBird-mapp:"
+
+#: views/pages/settings/tab-import.php:122
+msgid "Folders by Premio"
+msgstr "Folders by Premio"
+
+#: includes/YC.php:67
+msgid "Install for Free"
+msgstr "Installera gratis"
+
+#: includes/I18n.php:152
+msgid "You have some folders created by other media plugins. Would you like to import them?"
+msgstr "Du har några mappar skapade av andra medietillägg. Vill du importera dem?"
+
+#: includes/I18n.php:150
+msgid "Go to import"
+msgstr "Gå till import"
+
+#: includes/I18n.php:149
+msgid "Import folders to FileBird"
+msgstr "Importera mappar till FileBird"
+
+#: includes/I18n.php:81
+msgid "By File Name"
+msgstr "Efter filnamn"
+
+#: includes/Fallback.php:12
+msgid "Read more details."
+msgstr "Läs mer detaljer."
+
+#: includes/Fallback.php:11
+msgid "It looks like you have another FileBird version installed, please delete it before activating this new version. All of the settings and data are still preserved."
+msgstr "Det ser ut som att du har en annan FileBird-version installerad, ta bort den innan du aktiverar den nya versionen. Alla inställningar och data är fortfarande bevarade."
+
+#: includes/I18n.php:145
+msgid "Total size"
+msgstr "Total storlek"
+
+#: includes/I18n.php:144
+msgid "Less than a min"
+msgstr "Mindre än en minut"
+
+#: includes/I18n.php:143
+msgid "Uploaded"
+msgstr "Uppladdad"
+
+#: views/pages/settings/tab-import.php:100
+msgid "HappyFiles by Codeer"
+msgstr "HappyFiles by Codeer"
+
+#: includes/I18n.php:142
+msgid "Expand"
+msgstr "Expandera"
+
+#: includes/I18n.php:141
+msgid "Collapse"
+msgstr "Minimera"
+
+#: includes/I18n.php:47
+msgid "Unsuccessfully moved"
+msgstr "Misslyckades att flytta"
+
+#: includes/I18n.php:139
+msgid "View details."
+msgstr "Visa detaljer."
+
+#: includes/I18n.php:140
+msgid "Turn off for 7 days"
+msgstr "Stäng av i 7 dagar"
+
+#: includes/I18n.php:137
+msgid "You're using a third party plugin, which is supported in FileBird PRO. Please upgrade to browse files faster and get more done."
+msgstr "Du använder ett tillägg från tredje part som stöds i FileBird PRO. Uppgradera för att bläddra i filer snabbare och få mer gjort."
+
+#: includes/I18n.php:136
+msgid "Do more with FileBird PRO"
+msgstr "Gör mer med FileBird PRO"
+
+#: includes/I18n.php:134
+msgid "Unlock new features"
+msgstr "Lås upp nya funktioner"
+
+#: includes/I18n.php:45
+msgid "Generating download link..."
+msgstr "Genererar nedladdningslänk …"
+
+#: includes/I18n.php:43
+msgid "Download"
+msgstr "Ladda ner"
+
+#: includes/Support/DocumentGallery.php:26
+msgid "This folder ID does not exist, please check again."
+msgstr "Detta mapp-ID finns inte, kontrollera igen."
+
+#: includes/Controller/Folder.php:467 includes/Controller/Folder.php:490
+msgid "A folder with this name already exists. Please choose another one."
+msgstr "En mapp med detta namn finns redan. Välj ett annat."
+
+#: includes/I18n.php:65
+msgid "Previous folder selected"
+msgstr "Föregående mapp vald"
+
+#: includes/Controller/Api.php:139 includes/Controller/Api.php:170
+msgid "folder_id is missing."
+msgstr "folder_id saknas."
+
+#: includes/I18n.php:133
+msgid "Failed to save settings. Please try again!"
+msgstr "Misslyckades att spara inställningar. Försök igen!"
+
+#: includes/I18n.php:132
+msgid "Settings saved"
+msgstr "Inställningar sparade"
+
+#: includes/I18n.php:131
+msgid "Select a default startup folder:"
+msgstr "Välj en standardmapp att starta med:"
+
+#: includes/I18n.php:128
+msgid "Can not active your License, please try again."
+msgstr "Kan inte aktivera din licens, försök igen."
+
+#: includes/I18n.php:127
+msgid "Please enter your Personal Access Token or get one."
+msgstr "Ange din personliga åtkomsttoken eller skaffa en."
+
+#: includes/I18n.php:126
+msgid "Please enter your Purchase Code."
+msgstr "Ange din köpkod."
+
+#: includes/Recommended/views/content.php:116
+msgid "Activate"
+msgstr "Aktivera"
+
+#: includes/Support/ACF/acf-field-filebird-v4.php:22
+#: includes/Support/ACF/acf-field-filebird-v5.php:21
+msgid "FileBird Folder"
+msgstr "FileBird-mapp"
+
+#: includes/Controller/Api.php:184
+msgid "Required fields are missing."
+msgstr "Obligatoriska fält saknas."
+
+#: includes/I18n.php:125
+msgid "Import failed. Please try again or <a href=\"https://ninjateam.org/support\" target=\"_blank\">contact our support</a>."
+msgstr "Import misslyckades. Försök igen eller <a href=\"https://ninjateam.org/support\" target=\"_blank\">kontakta vår support</a>."
+
+#: views/pages/settings/tab-tools.php:21
+msgid "By running this action, all folders created in version 3.9 & earlier installs will be imported."
+msgstr "Genom att köra denna åtgärd kommer alla mappar som skapats i version 3.9 och tidigare installationer att importeras."
+
+#: includes/I18n.php:121
+msgid "Go To Media"
+msgstr "Gå till media"
+
+#: includes/I18n.php:67
+msgid "Are you sure you want to delete this folder? Those files will be moved to <strong>Uncategorized</strong> folder."
+msgstr "Är du säker på att du vill ta bort denna mapp? Dessa filer kommer att flyttas till mappen <strong>Okategoriserad</strong>."
+
+#: includes/I18n.php:58
+msgid "You are editing another folder! Please complete the task first!"
+msgstr "Du redigerar en annan mapp! Slutför uppgiften först!"
+
+#: includes/Classes/Convert.php:390
+msgid "Successfully cleared."
+msgstr "Rensat."
+
+#: includes/Controller/Folder.php:267
+msgid "Your request can't be processed."
+msgstr "Din begäran kan inte bearbetas."
+
+#: views/notices/html-notice-update-database.php:24
+msgid "You are using the new FileBird 4. Please update database to view your folders correctly."
+msgstr "Du använder den nya FileBird 4. Uppdatera databas för att visa dina mappar korrekt."
+
+#: includes/Controller/Folder.php:444
+msgid "Please choose folder"
+msgstr "Välj mapp"
+
+#: includes/I18n.php:124
+msgid "Import now"
+msgstr "Importera nu"
+
+#: includes/I18n.php:123
+msgid "You're using the new FileBird 4. Please import database to view your folders correctly."
+msgstr "Du använder den nya FileBird 4. Importera databas för att visa dina mappar korrekt."
+
+#: includes/I18n.php:122 views/notices/html-notice-update-database.php:20
+msgid "FileBird 4 Update Required"
+msgstr "FileBird 4 kräver uppdatering"
+
+#: views/notices/html-notice-update-database.php:30
+#: views/pages/settings/tab-tools.php:19
+msgid "Update now"
+msgstr "Uppdatera nu"
+
+#: includes/I18n.php:120
+msgid "Congratulations. Successfully imported!"
+msgstr "Grattis, importen lyckades!"
+
+#: includes/I18n.php:119
+msgid "Success."
+msgstr "Lyckades."
+
+#: includes/I18n.php:84
+msgid "Skip & Deactivate"
+msgstr "Hoppa över och inaktivera"
+
+#: views/particle/folder_dropdown.php:2
+msgid "Choose folder: "
+msgstr "Välj mapp: "
+
+#: views/pages/settings/tab-tools.php:36 views/pages/settings/tab-tools.php:51
+msgid "Generate"
+msgstr "Generera"
+
+#: views/pages/settings/tab-import.php:78
+msgid "WP Real Media Library by devowl.io GmbH"
+msgstr "WP Real Media Library av devowl.io GmbH"
+
+#: views/pages/settings/tab-import.php:56
+msgid "WP Media folder by Joomunited"
+msgstr "WP Media folder av Joomunited"
+
+#: views/pages/settings/tab-import.php:12
+msgid "Enhanced Media Library plugin by wpUXsolutions"
+msgstr "Förbättrat tillägg för mediebibliotek av wpUXsolutions"
+
+#: views/pages/settings/tab-tools.php:73
+msgid "Clear"
+msgstr "Rensa"
+
+#: views/pages/settings/tab-tools.php:69
+msgid "Clear all data"
+msgstr "Rensa alla data"
+
+#: views/pages/settings/tab-tools.php:15
+msgid "Import from old version"
+msgstr "Importera från gammal version"
+
+#: includes/I18n.php:117
+msgid "Including Divi, Fusion, Thrive Architect, WPBakery..."
+msgstr "Inkluderar Divi, Fusion, Thrive Architect, WPBakery …"
+
+#: includes/I18n.php:102
+msgid "Sorry to see you walk away, please share why you want to deactivate FileBird?"
+msgstr "Tråkigt att du lämnar oss. Dela gärna varför du vill inaktivera FileBird?"
+
+#: includes/I18n.php:101
+msgid "Want a better FileBird?"
+msgstr "Vill du att FileBird ska blir bättre?"
+
+#: includes/I18n.php:100
+msgid "Please share your thoughts..."
+msgstr "Dela dina tankar…"
+
+#: includes/I18n.php:99
+msgid "Please <a target=\"_blank\" href=\"https://ninjateam.org/support/\">ask for support here</a>, we will fix it for you."
+msgstr "<a target=\"_blank\" href=\"https://ninjateam.org/support/\">Be om support här</a> så åtgärdar vi det åt dig"
+
+#: includes/I18n.php:96
+msgid "Which features please?"
+msgstr "Vilken funktion?"
+
+#: includes/I18n.php:93
+msgid "This is just temporary, I will use it again."
+msgstr "Detta är bara tillfälligt, jag kommer att använda det igen."
+
+#: includes/I18n.php:91
+msgid "Found another plugin that works better."
+msgstr "Hittade ett annat tillägg som fungerar bättre."
+
+#: includes/I18n.php:90
+msgid "Not work with my theme or other plugins."
+msgstr "Fungerar inte med mitt tema eller andra tillägg."
+
+#: includes/I18n.php:89
+msgid "It doesn't have the features I'm looking for."
+msgstr "Det har inte de funktioner jag letar efter."
+
+#: includes/I18n.php:86
+msgid "Thank you so much!"
+msgstr "Tack så mycket!"
+
+#: includes/I18n.php:85
+msgid "Deactivate"
+msgstr "Inaktivera"
+
+#: includes/I18n.php:83
+msgid "Author Descending"
+msgstr "Författare fallande"
+
+#: includes/I18n.php:82
+msgid "Author Ascending"
+msgstr "Författare stigande"
+
+#: includes/I18n.php:80
+msgid "By Author"
+msgstr "Efter författare"
+
+#: includes/I18n.php:79
+msgid "Modified Descending"
+msgstr "Ändrad fallande"
+
+#: includes/I18n.php:78
+msgid "Modified Ascending"
+msgstr "Ändrad stigande"
+
+#: includes/I18n.php:77
+msgid "By Modified"
+msgstr "Efter ändrad"
+
+#: includes/I18n.php:76
+msgid "Date Descending"
+msgstr "Datum fallande"
+
+#: includes/I18n.php:75
+msgid "Date Ascending"
+msgstr "Datum stigande"
+
+#: includes/I18n.php:74
+msgid "By Date"
+msgstr "Efter datum"
+
+#: includes/I18n.php:73
+msgid "Name Descending"
+msgstr "Namn fallande"
+
+#: includes/I18n.php:72
+msgid "Name Ascending"
+msgstr "Namn stigande"
+
+#: includes/I18n.php:71
+msgid "By Name"
+msgstr "Efter namn"
+
+#: includes/I18n.php:70
+msgid "Reset"
+msgstr "Återställ"
+
+#: includes/I18n.php:69
+msgid "Sort Descending"
+msgstr "Sortera fallande"
+
+#: includes/I18n.php:68
+msgid "Sort Ascending"
+msgstr "Sortera stigande"
+
+#: includes/I18n.php:62
+msgid "Bulk Select"
+msgstr "Välj flera"
+
+#: includes/I18n.php:61
+msgid "Sort Files"
+msgstr "Sortera filer"
+
+#: includes/I18n.php:60
+msgid "Delete Folder"
+msgstr "Ta bort mapp"
+
+#: includes/I18n.php:59
+msgid "Sort Folders"
+msgstr "Sortera mappar"
+
+#: includes/I18n.php:57
+msgid "Those files will be moved to <strong>Uncategorized</strong> folder."
+msgstr "Dessa filer kommer att flyttas till mappen <strong>Okategoriserad</strong>."
+
+#: includes/I18n.php:55
+msgid "Are you sure you want to delete"
+msgstr "Är du säker på att du vill ta bort"
+
+#: includes/I18n.php:54
+msgid "Enter folder name..."
+msgstr "Ange mappnamn…"
+
+#: includes/I18n.php:52
+msgid "Folder name..."
+msgstr "Mappnamn…"
+
+#: includes/I18n.php:50
+msgid "Save"
+msgstr "Spara"
+
+#: includes/I18n.php:49
+msgid "Can't delete!"
+msgstr "Kan inte ta bort!"
+
+#: includes/I18n.php:48
+msgid "Successfully deleted!"
+msgstr "Togs bort utan problem!"
+
+#: includes/I18n.php:46
+msgid "Successfully moved"
+msgstr "Flyttades utan problem"
+
+#: includes/I18n.php:44
+msgid "Loading"
+msgstr "Laddar in"
+
+#: includes/I18n.php:42
+msgid "Paste"
+msgstr "Klistra in"
+
+#: includes/I18n.php:41
+msgid "Cut"
+msgstr "Klipp ut"
+
+#: includes/I18n.php:39
+msgid "Ok"
+msgstr "Ok"
+
+#: includes/Page/Settings.php:98
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#: includes/Classes/Convert.php:396 includes/I18n.php:156
+msgid "Please try again."
+msgstr "Försök igen."
+
+#: includes/Classes/Convert.php:355
+msgid "validation failed"
+msgstr "validering misslyckades"
+
+#: includes/Classes/Convert.php:353
+msgid "success"
+msgstr "lyckades"
+
+#: includes/Classes/Convert.php:111 includes/Classes/Convert.php:282
+msgid "We found you have %1$s categories you created from <strong>%2$s</strong> plugin. Would you like to import it to <strong>FileBird</strong>?"
+msgstr "Vi hittade att du har %1$s kategorier som du skapat från tillägget <strong>%2$s</strong>. Vill du importera dem till <strong>FileBird</strong>?"
+
+#: includes/Controller/Api.php:107
+msgid "Invalid action"
+msgstr "Ogiltig åtgärd"
+
+#: includes/Controller/Folder.php:527
+msgid "Can't delete folder, please try again later"
+msgstr "Kan inte ta bort mapp, försök igen senare"
+
+#: includes/Controller/Api.php:205 includes/Controller/Folder.php:472
+#: includes/Controller/Folder.php:543 includes/Controller/Folder.php:562
+msgid "Validation failed"
+msgstr "Validering misslyckades"
+
+#: includes/Controller/Folder.php:314 includes/Model/Folder.php:32
+msgid "All Folders"
+msgstr "Alla mappar"
+
+#. Plugin URI of the plugin
+msgid "https://ninjateam.org/wordpress-media-library-folders/"
+msgstr "https://ninjateam.org/wordpress-media-library-folders/"
+
+#: includes/I18n.php:98
+msgid "Please read FileBird documentation <a target=\"_blank\" href=\"https://ninjateam.gitbook.io/filebird/\">here</a> or <a target=\"_blank\" href=\"https://ninjateam.org/support/\">chat with us</a> if you need help"
+msgstr "Läs dokumentationen för FileBird <a target=\"_blank\" href=\"https://ninjateam.gitbook.io/filebird/\">här</a> eller <a target=\"_blank\" href=\"https://ninjateam.org/support/\">chatta med oss</a> om du behöver hjälp"
+
+#: includes/Classes/Convert.php:490 includes/Classes/Convert.php:499
+#: includes/Classes/Convert.php:508 includes/Classes/Convert.php:517
+#: includes/Classes/Convert.php:526 includes/Classes/Convert.php:535
+msgid "Already Updated"
+msgstr "Redan uppdaterad"
+
+#: includes/Classes/Convert.php:334
+msgid "Success"
+msgstr "Lyckades"
+
+#: includes/Classes/Convert.php:477
+msgid "Congratulations! We imported successfully %d folders into <strong>FileBird.</strong>"
+msgstr "Grattis! Vi importerade %d mappar till <strong>FileBird.</strong>"
+
+#: includes/Classes/Convert.php:297 includes/Classes/Review.php:72
+#: includes/I18n.php:151
+msgid "No, thanks"
+msgstr "Nej tack"
+
+#: includes/Classes/Convert.php:279
+msgid "Import categories to FileBird"
+msgstr "Importera kategorier till FileBird"
+
+#: includes/Classes/Review.php:71
+msgid "Later"
+msgstr "Senare"
+
+#: includes/Classes/Review.php:70
+msgid "Rate now"
+msgstr "Betygsätt nu"
+
+#: includes/Classes/Review.php:66
+msgid "We will be forever grateful. Thank you in advance ;)"
+msgstr "Vi kommer vara evigt tacksamma. Tack på förhand ;)"
+
+#: includes/Classes/Review.php:63
+msgid "Thank you for choosing FileBird. We hope you love it. Could you take a couple of seconds posting a nice review to share your happy experience?"
+msgstr "Tack för att du valde FileBird. Vi hoppas att du gillar det. Kan du avvara några sekunder att lägga en trevlig recension för att dela din lyckliga upplevelse?"
+
+#: includes/Classes/Review.php:61
+msgid "Give FileBird a review"
+msgstr "Ge FileBird en recension"
+
+#: views/pages/settings/tab-import.php:34
+msgid "WordPress Media Library Folders by Max Foundry"
+msgstr "WordPress Media Library Folders av Max Foundry"
+
+#: includes/Classes/Convert.php:296 views/pages/settings/tab-import.php:19
+#: views/pages/settings/tab-import.php:41
+#: views/pages/settings/tab-import.php:63
+#: views/pages/settings/tab-import.php:85
+#: views/pages/settings/tab-import.php:107
+#: views/pages/settings/tab-import.php:129
+#: views/pages/settings/tab-import.php:179
+msgid "Import Now"
+msgstr "Importera nu"
+
+#: views/pages/settings/tab-import.php:5
+msgid "Import categories/folders from other plugins. We import virtual folders, your website will be safe, don't worry ;)"
+msgstr "Importera kategorier/mappar från andra tillägg. Vi importerar virtuella mappar, din webbplats kommer att vara säker, oroa dig inte;)"
+
+#: views/pages/settings/tab-settings.php:9
+msgid "Each user has his own folders?"
+msgstr "Har varje användare sina egna mappar?"
+
+#: views/pages/settings/tab-import.php:2
+msgid "Import"
+msgstr "Importera"
+
+#: includes/I18n.php:129 views/pages/html-settings.php:25
+msgid "Settings"
+msgstr "Inställningar"
+
+#: includes/I18n.php:130 views/pages/html-settings.php:58
+msgid "FileBird Settings"
+msgstr "Inställningar för FileBird"
+
+#: includes/I18n.php:138 includes/Page/Settings.php:40
+#: includes/Page/Settings.php:112 views/pages/html-settings.php:18
+msgid "Go Pro"
+msgstr "Skaffa Pro"
+
+#: includes/I18n.php:94
+msgid "Other"
+msgstr "Annan"
+
+#: includes/I18n.php:88
+msgid "I've purchased FileBird Pro."
+msgstr "Jag har köpt FileBird Pro."
+
+#: includes/I18n.php:92
+msgid "Don't know how to use it."
+msgstr "Vet inte hur man använder det."
+
+#: includes/I18n.php:97
+msgid "Please tell us which one"
+msgstr "Berätta vilket det är för oss"
+
+#: views/notices/html-notice-first-folder.php:13
+msgid "Get Started"
+msgstr "Kom igång"
+
+#: views/notices/html-notice-first-folder.php:11
+msgid "Create your first folder for media library now."
+msgstr "Skapa din första mapp för mediebibliotek nu."
+
+#: includes/YC.php:68
+msgid "No, Thanks"
+msgstr "Nej, tack"
+
+#: includes/I18n.php:118
+msgid "Upgrade to FileBird Pro now"
+msgstr "Uppgradera till FileBird Pro nu"
+
+#: includes/I18n.php:51 blocks/filebird-gallery/dist/blocks.build.js:1
+msgid "Folder"
+msgstr "Mapp"
+
+#. Description of the plugin
+msgid "Organize thousands of WordPress media files into folders/ categories at ease."
+msgstr "Organisera tusentals WordPress-mediefiler enkelt i mappar/kategorier."
+
+#. Author URI of the plugin
+msgid "https://ninjateam.org"
+msgstr "https://ninjateam.org"
+
+#. Author of the plugin
+msgid "Ninja Team"
+msgstr "Ninja Team"
+
+#. Plugin Name of the plugin
+msgid "FileBird Lite"
+msgstr "FileBird Lite"
+
+#: includes/I18n.php:40
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: includes/I18n.php:146
+msgid "Move"
+msgstr "Flytta"
+
+#: includes/I18n.php:56
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: includes/I18n.php:103
+msgid "Folder Limit Reached"
+msgstr "Mappgräns uppnådd"
+
+#: includes/Recommended/Recommended.php:301
+#: includes/Recommended/Recommended.php:345
+#: includes/Recommended/Recommended.php:455
+msgid "Error."
+msgstr "Fel."
+
+#: includes/Controller/Folder.php:318 includes/Controller/Folder.php:594
+#: includes/I18n.php:64 includes/Model/Folder.php:36 assets/dist/js/app.js:1
+msgid "Uncategorized"
+msgstr "Okategoriserad"
+
+#: includes/I18n.php:63
+msgid "All Files"
+msgstr "Alla filer"
+
+#: includes/I18n.php:37
+msgid "Delete"
+msgstr "Ta bort"
+
+#: includes/I18n.php:66
+msgid "Rename"
+msgstr "Byt namn"
+
+#: includes/I18n.php:36
+msgid "New Folder"
+msgstr "Ny mapp"
+
+#: includes/I18n.php:38 includes/I18n.php:53
+msgid "Folders"
+msgstr "Mappar"
+
+#: includes/I18n.php:148
+msgid "items"
+msgstr "objekt"
+
+#: includes/I18n.php:147
+msgid "item"
+msgstr "objekt"
+
+#: includes/I18n.php:35
+msgid "No media files found."
+msgstr "Inga mediafiler hittades."

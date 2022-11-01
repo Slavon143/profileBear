@@ -1,0 +1,19 @@
+form.fusion-woocommerce-shipping-calculator {
+  border: 0;
+  padding: 0 !important;
+}
+form.fusion-woocommerce-shipping-calculator select {
+  width: 100%;
+}
+form.fusion-woocommerce-shipping-calculator div.cart-collaterals {
+  margin: 0;
+}
+form.fusion-woocommerce-shipping-calculator #shipping_state_field {
+  margin-bottom: 20px;
+}
+form.fusion-woocommerce-shipping-calculator #shipping_state_field .select-arrow {
+  top: 1px;
+}
+form.fusion-woocommerce-shipping-calculator .fusion-shipping-update-totals {
+  align-self: center;
+}

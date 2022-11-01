@@ -1,0 +1,514 @@
+/* stylelint-disable no-descending-specificity */
+/* stylelint-disable no-duplicate-selectors */
+.avada-image-rollover-no .fusion-rollover {
+  display: none;
+}
+.avada-image-rollover-no .fusion-masonry-element-container.fusion-image-wrapper > a {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.fusion-image-wrapper .fusion-rollover {
+  background-image: linear-gradient(to top, var(--image_gradient_bottom_color) 0%, var(--image_gradient_top_color) 100%);
+}
+.avada-image-rollover-direction-fade .fusion-image-wrapper .fusion-rollover {
+  transform: translateY(0%);
+  transition: opacity 0.5s ease-in-out;
+}
+.avada-image-rollover-direction-right .fusion-image-wrapper .fusion-rollover {
+  transform: translateX(100%);
+}
+.avada-image-rollover-direction-bottom .fusion-image-wrapper .fusion-rollover {
+  transform: translateY(100%);
+}
+.avada-image-rollover-direction-top .fusion-image-wrapper .fusion-rollover {
+  transform: translateY(-100%);
+}
+.avada-image-rollover-direction-center_horiz .fusion-image-wrapper .fusion-rollover {
+  transform: scaleX(0);
+}
+.avada-image-rollover-direction-center_vertical .fusion-image-wrapper .fusion-rollover {
+  transform: scaleY(0);
+}
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-link,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-gallery {
+  width: calc((var(--image_rollover_icon_size)) * 1.5);
+  height: calc((var(--image_rollover_icon_size)) * 1.5);
+  background-color: transparent;
+}
+.avada-image-rollover-circle-yes .fusion-image-wrapper .fusion-rollover .fusion-rollover-link,
+.avada-image-rollover-circle-yes .fusion-image-wrapper .fusion-rollover .fusion-rollover-gallery {
+  width: calc((var(--image_rollover_icon_size)) * 2.41);
+  height: calc((var(--image_rollover_icon_size)) * 2.41);
+  background-color: var(--image_rollover_text_color);
+  line-height: 2.41;
+}
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-link:before,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-gallery:before {
+  font-size: var(--image_rollover_icon_size);
+  color: var(--image_rollover_icon_color);
+}
+.fusion-image-wrapper.hover .fusion-rollover {
+  opacity: 1;
+}
+.avada-image-rollover-direction-fade .fusion-image-wrapper.hover .fusion-rollover,
+.avada-image-rollover-direction-fade .fusion-image-wrapper:hover .fusion-rollover,
+.avada-image-rollover-direction-right .fusion-image-wrapper.hover .fusion-rollover,
+.avada-image-rollover-direction-right .fusion-image-wrapper:hover .fusion-rollover {
+  transform: translateX(0%);
+}
+.avada-image-rollover-direction-bottom .fusion-image-wrapper.hover .fusion-rollover,
+.avada-image-rollover-direction-bottom .fusion-image-wrapper:hover .fusion-rollover,
+.avada-image-rollover-direction-top .fusion-image-wrapper.hover .fusion-rollover,
+.avada-image-rollover-direction-top .fusion-image-wrapper:hover .fusion-rollover {
+  transform: translateY(0%);
+}
+.avada-image-rollover-direction-center_horiz .fusion-image-wrapper.hover .fusion-rollover,
+.avada-image-rollover-direction-center_horiz .fusion-image-wrapper:hover .fusion-rollover {
+  transform: scaleX(1);
+}
+.avada-image-rollover-direction-center_vertical .fusion-image-wrapper.hover .fusion-rollover,
+.avada-image-rollover-direction-center_vertical .fusion-image-wrapper:hover .fusion-rollover {
+  transform: scaleY(1);
+}
+.fusion-rollover .fusion-rollover-content .fusion-rollover-title,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-title a,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-rollover-categories a,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content a,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .price *,
+.fusion-image-wrapper .fusion-rollover .fusion-rollover-content .fusion-product-buttons a:before {
+  color: var(--image_rollover_text_color);
+}
+.pagination a.inactive,
+.page-links a,
+.fusion-pagination .page-numbers:not(.prev):not(.next),
+.pagination .current,
+.page-links > .page-number:not(.prev):not(.next),
+.fusion-pagination .current,
+.fusion-hide-pagination-text .pagination .pagination-prev,
+.fusion-hide-pagination-text .fusion-pagination .prev,
+.fusion-hide-pagination-text .fusion-pagination .next,
+.fusion-hide-pagination-text .pagination .pagination-next,
+.pagination .pagination-next {
+  border-radius: var(--pagination_border_radius);
+  border-width: var(--pagination_border_width);
+}
+body:not(.fusion-hide-pagination-text) .pagination .pagination-prev,
+body:not(.fusion-hide-pagination-text) .fusion-pagination .prev,
+body:not(.fusion-hide-pagination-text) .fusion-pagination .next,
+body:not(.fusion-hide-pagination-text) .pagination .pagination-next {
+  line-height: var(--pagination_width_height);
+}
+body:not(.avada-has-pagination-padding) .pagination a.inactive,
+body:not(.avada-has-pagination-padding) .page-links a,
+body:not(.avada-has-pagination-padding) .fusion-pagination .page-numbers:not(.prev):not(.next),
+body:not(.avada-has-pagination-padding) .pagination .current,
+body:not(.avada-has-pagination-padding) .page-links > .page-number:not(.prev):not(.next),
+body:not(.avada-has-pagination-padding) .fusion-pagination .current,
+body:not(.avada-has-pagination-padding).fusion-hide-pagination-text .pagination .pagination-prev,
+body:not(.avada-has-pagination-padding).fusion-hide-pagination-text .fusion-pagination .prev,
+body:not(.avada-has-pagination-padding).fusion-hide-pagination-text .fusion-pagination .next,
+body:not(.avada-has-pagination-padding).fusion-hide-pagination-text .pagination .pagination-next {
+  width: var(--pagination_width_height);
+  height: var(--pagination_width_height);
+  margin-left: calc((var(--pagination_width_height)) / 10);
+  margin-right: calc((var(--pagination_width_height)) / 10);
+}
+body:not(.avada-has-pagination-padding) .pagination .pagination-prev,
+body:not(.avada-has-pagination-padding) .pagination .pagination-next {
+  margin-left: calc((var(--pagination_width_height)) / 10);
+  margin-right: calc((var(--pagination_width_height)) / 10);
+}
+body:not(.avada-has-pagination-padding) .pagination .pagination-dots {
+  width: calc((var(--pagination_width_height)) / 2);
+  margin-left: calc((var(--pagination_width_height)) / 10);
+  margin-right: calc((var(--pagination_width_height)) / 10);
+}
+.avada-has-pagination-padding .pagination a.inactive,
+.avada-has-pagination-padding .page-links a,
+.avada-has-pagination-padding .fusion-pagination .page-numbers:not(.prev):not(.next),
+.avada-has-pagination-padding .pagination .current,
+.avada-has-pagination-padding .page-links > .page-number:not(.prev):not(.next),
+.avada-has-pagination-padding .fusion-pagination .current,
+.avada-has-pagination-padding.fusion-hide-pagination-text .pagination .pagination-prev,
+.avada-has-pagination-padding.fusion-hide-pagination-text .fusion-pagination .prev,
+.avada-has-pagination-padding.fusion-hide-pagination-text .fusion-pagination .next,
+.avada-has-pagination-padding.fusion-hide-pagination-text .pagination .pagination-next {
+  padding: var(--pagination_box_padding-height) var(--pagination_box_padding-width) var(--pagination_box_padding-height) var(--pagination_box_padding-width);
+}
+.pagination,
+.page-links,
+.pagination .pagination-next,
+.pagination .pagination-prev,
+.fusion-pagination .page-numbers,
+.fusion-pagination .next,
+.fusion-pagination .prev {
+  font-size: var(--pagination_font_size);
+}
+.input-text:not(textarea),
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+input.s,
+#comment-input input,
+.post-password-form label input[type="password"],
+.main-nav-search-form input,
+.search-page-search-form input,
+.chzn-container-single .chzn-single,
+.chzn-container .chzn-drop,
+select,
+.searchform .search-table .search-field input,
+.searchform .fusion-search-form-content .fusion-search-field input,
+.fusion-body .avada-select-parent select,
+.avada-select .select2-container .select2-choice,
+.fusion-login-box .fusion-login-form input[type=text],
+.fusion-login-box .fusion-login-form input[type=password],
+.avada-select .select2-container .select2-choice .select2-arrow,
+.avada-select .select2-container .select2-choice2 .select2-arrow,
+.searchform .fusion-search-form-content .fusion-search-button input[type="submit"],
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-selection--single .select2-selection__arrow,
+.fusion-body .gift-cards-list button.ywgc-amount-buttons {
+  height: var(--form_input_height);
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.avada-select .select2-container .select2-choice .select2-arrow,
+.avada-select .select2-container .select2-choice2 .select2-arrow,
+.searchform .fusion-search-form-content .fusion-search-button input[type="submit"] {
+  width: var(--form_input_height);
+}
+.avada-select .select2-container .select2-choice .select2-arrow,
+.avada-select .select2-container .select2-choice2 .select2-arrow,
+.searchform .fusion-search-form-content .fusion-search-button input[type="submit"],
+.select2-container .select2-choice > .select2-chosen,
+.select2-container--default .select2-selection--single .select2-selection__rendered {
+  line-height: var(--form_input_height);
+}
+.fusion-main-menu .fusion-main-menu-search .fusion-custom-menu-item-contents {
+  width: var(--form_input_height-main-menu-search-width);
+}
+.input-text,
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+textarea,
+input.s,
+#comment-input input,
+#comment-textarea textarea,
+.comment-form-comment textarea,
+.post-password-form label input[type="password"],
+.avada-select .select2-container .select2-choice,
+.avada-select .select2-container .select2-choice2,
+select,
+.main-nav-search-form input,
+.search-page-search-form input,
+.chzn-container-single .chzn-single,
+.chzn-container .chzn-drop,
+.fusion-body .avada-select-parent select,
+.fusion-body .gift-cards-list button.ywgc-amount-buttons {
+  background-color: var(--form_bg_color);
+  font-size: var(--form_text_size);
+  color: var(--form_text_color);
+}
+.input-text:focus,
+input[type="text"]:focus,
+input[type="date"]:focus,
+input[type="time"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+input.s:focus,
+#comment-input input:focus,
+#comment-textarea textarea:focus,
+.comment-form-comment textarea:focus,
+.post-password-form label input[type="password"]:focus,
+.avada-select .select2-container .select2-choice:focus,
+.avada-select .select2-container .select2-choice2:focus,
+select:focus,
+.main-nav-search-form input:focus,
+.search-page-search-form input:focus,
+.chzn-container-single .chzn-single:focus,
+.chzn-container .chzn-drop:focus,
+.fusion-body .avada-select-parent select:focus,
+.fusion-body .gift-cards-list button.ywgc-amount-buttons:focus {
+  border-color: var(--form_focus_border_color);
+}
+.fusion-body .gift-cards-list .ywgc-amount-buttons.selected_button {
+  border-color: var(--form_focus_border_color);
+}
+.select2-container--default .select2-selection--single,
+.searchform .fusion-search-form-content .fusion-search-field input {
+  background-color: var(--form_bg_color);
+  font-size: var(--form_text_size);
+}
+.avada-select-parent .select-arrow,
+#wrapper .select-arrow,
+.fusion-modal-content .select-arrow,
+.select2-dropdown {
+  background-color: var(--form_bg_color);
+}
+input.s .placeholder,
+#comment-input .placeholder,
+#comment-textarea .placeholder,
+#calc_shipping_state_field .select2-selection__placeholder,
+.fusion-search-form-clean .searchform:not(.fusion-search-form-classic) .fusion-search-form-content .fusion-search-button input[type="submit"],
+.fusion-search-element .searchform.fusion-search-form-clean .fusion-search-form-content .fusion-search-button input[type="submit"],
+.select2-results__option {
+  font-size: var(--form_text_size);
+  color: var(--form_text_color);
+}
+input.s .placeholder:focus,
+#comment-input .placeholder:focus,
+#comment-textarea .placeholder:focus,
+#calc_shipping_state_field .select2-selection__placeholder:focus,
+.fusion-search-form-clean .searchform:not(.fusion-search-form-classic) .fusion-search-form-content .fusion-search-button input[type="submit"]:focus,
+.fusion-search-element .searchform.fusion-search-form-clean .fusion-search-form-content .fusion-search-button input[type="submit"]:focus,
+.select2-results__option:focus {
+  border-color: var(--form_focus_border_color);
+}
+.select2-selection__rendered {
+  font-size: var(--form_text_size);
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered,
+.searchform .fusion-search-form-content .fusion-search-field input,
+.catalog-ordering a,
+.order-dropdown > li:after,
+.order-dropdown ul li a {
+  color: var(--form_text_color);
+}
+.select2-container--default .select2-selection--single .select2-selection__rendered:focus,
+.searchform .fusion-search-form-content .fusion-search-field input:focus,
+.catalog-ordering a:focus,
+.order-dropdown > li:after:focus,
+.order-dropdown ul li a:focus {
+  border-color: var(--form_focus_border_color);
+}
+.quicktags-toolbar {
+  background: linear-gradient(to top, var(--content_bg_color), var(--form_bg_color)) #3e3e3e;
+}
+.quicktags-toolbar input {
+  font-size: var(--form_text_size);
+  color: var(--form_text_color);
+}
+.quicktags-toolbar input:hover {
+  background: var(--form_bg_color);
+}
+.quicktags-toolbar input:focus {
+  border-color: var(--form_focus_border_color);
+}
+.fusion-live-search .fusion-search-results {
+  background-color: var(--form_bg_color);
+  font-size: var(--form_text_size);
+  color: var(--form_text_color);
+  border-radius: var(--form_border_radius);
+}
+.fusion-live-search .fusion-search-results:focus {
+  border-color: var(--form_focus_border_color);
+}
+.fusion-live-search .fusion-search-results.suggestions-added {
+  margin-top: var(--form_border_width-top);
+}
+.fusion-live-search .fusion-search-results,
+.fusion-live-search .fusion-search-result {
+  border-color: var(--form_focus_border_color);
+  border-width: var(--form_border_width-top) var(--form_border_width-right) var(--form_border_width-bottom) var(--form_border_width-left);
+}
+.select-arrow,
+#wrapper .select-arrow,
+.fusion-modal-content .select-arrow,
+.avada-select-parent .select-arrow,
+.gravity-select-parent .select-arrow,
+.wpcf7-select-parent .select-arrow {
+  font-size: calc((var(--form_text_size)) * 0.75);
+}
+input#s::-moz-placeholder,
+#comment-input input::-moz-placeholder,
+.post-password-form label input[type="password"]::-moz-placeholder,
+#comment-textarea textarea::-moz-placeholder,
+.comment-form-comment textarea::-moz-placeholder,
+.input-text::-moz-placeholder,
+input::-moz-placeholder,
+textarea.fusion-form-input::-moz-placeholder,
+.searchform .s::-moz-placeholder {
+  color: var(--form_text_color);
+}
+input#s::-webkit-input-placeholder,
+#comment-input input::-webkit-input-placeholder,
+.post-password-form label input[type="password"]::-webkit-input-placeholder,
+#comment-textarea textarea::-webkit-input-placeholder,
+.comment-form-comment textarea::-webkit-input-placeholder,
+.input-text::-webkit-input-placeholder,
+input::-webkit-input-placeholder,
+textarea.fusion-form-input::-webkit-input-placeholder,
+.searchform .s::-webkit-input-placeholder {
+  color: var(--form_text_color);
+}
+.fusion-body select:focus + .select-arrow,
+.fusion-body select:focus + .select2-arrow {
+  border-color: var(--form_focus_border_color);
+  color: var(--form_focus_border_color);
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__rendered,
+.select2-container--default.select2-container--open .select2-dropdown,
+.select2-container--default.select2-container--open .select2-dropdown .select2-search,
+.select2-container--default.select2-container--open .select2-search--dropdown .select2-search__field,
+.select2-container--default.select2-container--open .select2-selection--single,
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow {
+  border-color: var(--form_focus_border_color);
+}
+.select2-container--default.select2-container--open .select2-selection--single:focus .select2-selection__arrow b {
+  border-bottom-color: var(--form_focus_border_color);
+}
+.select2-container--default.select2-container--open .select2-selection--single .select2-selection__arrow b {
+  border-bottom-color: var(--form_border_color);
+}
+.select2-container--default .select2-container .select2-selection:focus .select2-selection__arrow {
+  border-color: var(--form_focus_border_color);
+}
+.select2-container--default .select2-selection--single:focus .select2-selection__arrow b {
+  border-top-color: var(--form_focus_border_color);
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow b {
+  border-top-color: var(--form_border_color);
+}
+.fusion-search-form-clean .fusion-live-search .fusion-slider-loading {
+  border-bottom-color: var(--form_text_color);
+  border-top-color: var(--form_text_color-35a);
+  border-right-color: var(--form_text_color-35a);
+  border-left-color: var(--form_text_color-35a);
+}
+.input-text,
+input[type="text"],
+input[type="date"],
+input[type="time"],
+input[type="number"],
+input[type="tel"],
+input[type="email"],
+input[type="password"],
+textarea,
+input.s,
+#comment-input input,
+#comment-textarea textarea,
+.comment-form-comment textarea,
+.post-password-form label input[type="password"],
+.gravity-select-parent .select-arrow,
+.select-arrow,
+.main-nav-search-form input,
+.search-page-search-form input,
+.chzn-container-single .chzn-single,
+.chzn-container .chzn-drop,
+.fusion-body .avada-select-parent select,
+.fusion-body .avada-select-parent .select-arrow,
+select,
+.searchform .fusion-search-form-content .fusion-search-field input,
+.avada-select .select2-container .select2-choice,
+.avada-select .select2-container .select2-choice .select2-arrow,
+.avada-select .select2-container .select2-choice2 .select2-arrow,
+.select2-container--default .select2-selection--single,
+.select2-container--default .select2-dropdown .select2-search,
+.select2-container .select2-selection .select2-selection__arrow,
+.select2-container--default .select2-search--dropdown .select2-search__field,
+.select2-dropdown,
+.fusion-body .gift-cards-list button.ywgc-amount-buttons {
+  border-width: var(--form_border_width-top) var(--form_border_width-right) var(--form_border_width-bottom) var(--form_border_width-left);
+  border-color: var(--form_border_color);
+  border-radius: var(--form_border_radius);
+}
+.select-arrow,
+.select2-arrow {
+  color: var(--form_border_color);
+}
+.quicktags-toolbar input {
+  border: 1px solid var(--form_border_color);
+}
+.fusion-contact-form .grecaptcha-badge {
+  box-shadow: 0 0 3px var(--form_border_color) !important;
+}
+.fusion-search-form-classic .searchform:not(.fusion-search-form-clean) .fusion-search-form-content,
+.fusion-search-element .searchform.fusion-search-form-classic .fusion-search-form-content,
+input[type="tel"] {
+  border-radius: var(--form_border_radius);
+  border-width: var(--form_border_width-top) var(--form_border_width-right) var(--form_border_width-bottom) var(--form_border_width-left);
+}
+.select2-container .select2-selection .select2-selection__arrow {
+  border-width: var(--form_border_width-top) var(--form_border_width-right) var(--form_border_width-bottom) var(--form_border_width-left);
+}
+.select-arrow,
+.avada-select-parent .select-arrow,
+.gravity-select-parent .select-arrow,
+.wpcf7-select-parent .select-arrow {
+  bottom: var(--form_border_width-bottom);
+}
+.fusion-blog-layout-masonry .fusion-post-content-wrapper,
+.fusion-portfolio-layout-masonry .fusion-portfolio-content {
+  background-color: var(--timeline_bg_color-not-transparent);
+}
+.fusion-blog-layout-grid .post .fusion-post-wrapper,
+.fusion-blog-layout-timeline .post,
+.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper {
+  background-color: var(--timeline_bg_color);
+}
+.fusion-blog-layout-timeline .fusion-timeline-circle,
+.fusion-blog-timeline-layout .fusion-timeline-circle,
+.fusion-blog-layout-timeline .fusion-timeline-date,
+.fusion-blog-timeline-layout .fusion-timeline-date {
+  background-color: var(--timeline_color);
+}
+.fusion-timeline-icon,
+.fusion-timeline-arrow,
+.fusion-blog-timeline-layout .fusion-timeline-icon,
+.fusion-blog-timeline-layout .fusion-timeline-arrow {
+  color: var(--timeline_color);
+}
+.fusion-blog-layout-grid .post .flexslider,
+.fusion-blog-layout-grid .post .fusion-post-wrapper,
+.fusion-blog-layout-timeline .fusion-timeline-line,
+.fusion-blog-timeline-layout .post,
+.fusion-blog-timeline-layout .post .flexslider,
+.fusion-blog-layout-timeline .post,
+.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,
+.fusion-blog-layout-timeline .post .flexslider,
+.fusion-blog-layout-timeline .fusion-timeline-date,
+.fusion-blog-layout-timeline .fusion-timeline-arrow {
+  border-color: var(--timeline_color);
+}
+.avada-has-transparent-timeline_color .fusion-blog-layout-grid .post .flexslider,
+.avada-has-transparent-timeline_color .fusion-blog-layout-grid .post .fusion-post-wrapper,
+.avada-has-transparent-timeline_color .fusion-blog-layout-timeline .fusion-timeline-line,
+.avada-has-transparent-timeline_color .fusion-blog-timeline-layout .post,
+.avada-has-transparent-timeline_color .fusion-blog-timeline-layout .post .flexslider,
+.avada-has-transparent-timeline_color .fusion-blog-layout-timeline .post,
+.avada-has-transparent-timeline_color .fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,
+.avada-has-transparent-timeline_color.fusion-portfolio.fusion-portfolio-boxed .fusion-portfolio-content-wrapper,
+.avada-has-transparent-timeline_color .fusion-blog-layout-timeline .post .flexslider,
+.avada-has-transparent-timeline_color .fusion-blog-layout-timeline .fusion-timeline-date,
+.avada-has-transparent-timeline_color .fusion-blog-layout-timeline .fusion-timeline-arrow {
+  border: none;
+}
+.fusion-blog-layout-grid .post .fusion-content-sep,
+.fusion-blog-timeline-layout .post .fusion-content-sep,
+.fusion-blog-layout-timeline .post .fusion-content-sep,
+.fusion-portfolio.fusion-portfolio-boxed .fusion-content-sep,
+.fusion-body .product .fusion-content-sep {
+  border-color: var(--grid_separator_color);
+}
+.fusion-blog-layout-grid .post .fusion-content-sep,
+.fusion-portfolio.fusion-portfolio-boxed .fusion-content-sep,
+.fusion-layout-timeline .post .fusion-content-sep {
+  border-color: var(--grid_separator_color);
+}

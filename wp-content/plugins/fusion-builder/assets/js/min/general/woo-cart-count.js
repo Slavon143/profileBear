@@ -1,0 +1,1 @@
+jQuery(document.body).on("wc_fragments_refreshed wc_fragments_loaded",function(){jQuery(".fusion-dynamic-cart-count-wrapper").each(function(){var a,n,r=jQuery(this);void 0!==r.data("singular")&&void 0!==r.data("plural")&&(n='<span class="fusion-dynamic-cart-count">'+(a=parseInt(r.find("> span").html()))+"</span>",n+=1===a?r.data("singular"):r.data("plural"),r.html(n))})});
