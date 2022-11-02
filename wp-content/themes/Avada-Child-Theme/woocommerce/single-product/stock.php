@@ -15,36 +15,34 @@
  * @version 3.0.0
  */
 
-if ( ! defined( 'ABSPATH' ) ) {
-	exit;
+if (!defined('ABSPATH')) {
+    exit;
 }
 
 ?>
-<p class="stock <?php echo esc_attr( $class ); ?>"><strong>Intern lager: </strong> 
-<?php
-echo wp_kses_post( $availability ); 
-?>
+<p class="stock <?php echo esc_attr($class); ?>"><strong>Intern lager: </strong>
+    <?php
+    echo wp_kses_post($availability);
+    ?>
 </p>
 
 <p class="stock external_stock_info"><strong>Extern lager: </strong>
-<?php 
+    <?php
 
-$check_external_stock = 0;
+    $check_external_stock = 0;
 
-$check_external_stock = get_post_meta( $product->get_id(), 'custom_field', true );
+    $check_external_stock = get_post_meta($product->get_id(), 'custom_field');
 
-if ($check_external_stock == 0 || $check_external_stock == null){
-    echo 'Beställningsvara';
-} 
-else {
-    echo $check_external_stock . ' i lager';
-}
-    
+    if ($check_external_stock == 0 || $check_external_stock == null) {
+        echo 'Beställningsvara';
+    } else {
+        echo $check_external_stock[0] . ' i lager';
+    }
 
-?>
+    ?>
 </p>
 <style>
-.fusion-body .fusion-woo-price-tb{
-display:block!important;
-}
+    .fusion-body .fusion-woo-price-tb {
+        display: block !important;
+    }
 </style>
