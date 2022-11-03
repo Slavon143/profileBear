@@ -153,9 +153,8 @@ function custom_cj_function()
 // add_custom_external_stock($valueout_sku,10);//!
 // add_custom_external_stock($valueout_ean,15);//!
 //Save for testing purpose
-
     run_portwest_import();
-//run_bastadgruppen_import();
+    run_bastadgruppen_import();
 
 }
 
@@ -260,12 +259,11 @@ function run_portwest_import()
 /*--------------*/
 function run_bastadgruppen_import()
 {
+
 // connect and login to FTP server
     $contents = file_get_contents('ftp://saldofil:3astad5ruppen!@cmueshzubkda.bastadgruppen.se/Saldo.txt');
-
 //For each F found; Make a new 'line'
     $pieces = explode("F", $contents);
-
     foreach ($pieces as $value) {
         //Set line not found
         $lineFound = 0;
@@ -276,30 +274,35 @@ function run_bastadgruppen_import()
             $string = $value1;
             $substring = "00000000000000";
             $length = strlen($substring);
+
             if (substr_compare($string, $substring, -$length) === 0) {
                 $lineFound = 1;
                 $get_amount_to_var = substr($string, -19, 5);
                 $var_get_amount = (int)$get_amount_to_var;
             }
         }
-
-
         //Run this is stock is found
         if ($lineFound == 1) {
             $trimstring = str_replace(' ', '', $value);
             $get_EAN = substr($trimstring, -23, -1);
             $var_get_EAN = (int)$get_EAN;
         }
-        
-        //Check so EAN is not empty
-        if ($var_get_EAN == 0) {
-
-        } else {
-            /*Code for WooCommerce import*/
-            //echo $var_get_amount . " " . $var_get_EAN . "<br>";
-
+        if (!empty($var_get_EAN)){ //Check so EAN is not empty
             $valueout_EAN = find_prod_id_by_ean($var_get_EAN);
-            add_custom_external_stock($valueout_EAN, $var_get_amount);
+            if (!empty($valueout_EAN)){ //Check so EAN is not empty prod_id
+                /*Code for WooCommerce import*/
+
+                add_custom_external_stock($valueout_EAN, $var_get_amount);
+            }
         }
+    }
+}
+
+function debug($arr, $die = ''){
+    echo '<pre>';
+    var_dump($arr);
+    echo '</pre>';
+    if ($die){
+        die();
     }
 }
