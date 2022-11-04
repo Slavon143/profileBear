@@ -26,7 +26,7 @@ if (!defined('ABSPATH')) {
     ?>
 </p>
 
-<p class="stock external_stock_info"><strong>Extern lager: </strong>
+<p class="stock external_stock_info"><strong>Fjärr lager: </strong>
     <?php
 
     $check_external_stock = 0;
